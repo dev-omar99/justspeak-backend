@@ -12,7 +12,14 @@ import {
 
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { UsersService } from './users.service';
-import { UpdateProfileDto, JoinTribeDto } from './dto';
+import {
+  UpdateProfileDto,
+  JoinTribeDto,
+  UpdateSubscriptionDto,
+  ConsumeAiTokensDto,
+  AiStudioTurnDto,
+  SavePartnerMemoDto,
+} from './dto';
 
 @Controller('users')
 export class UsersController {
@@ -74,6 +81,41 @@ export class UsersController {
   async getBuddies(@Req() req: any) {
     const userId = req.user.sub;
     return this.usersService.getBuddies(userId);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('subscription')
+  async upgradeSubscription(@Req() req: any, @Body() dto: UpdateSubscriptionDto) {
+    const userId = req.user.sub;
+    return this.usersService.upgradeSubscription(userId, dto.planTier);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('ai-tokens/consume')
+  async consumeAiTokens(@Req() req: any, @Body() dto: ConsumeAiTokensDto) {
+    const userId = req.user.sub;
+    return this.usersService.consumeAiStudioTokens(userId, dto.amount);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('ai-studio/turn')
+  async generateAiCoachTurn(@Req() req: any, @Body() dto: AiStudioTurnDto) {
+    const userId = req.user.sub;
+    return this.usersService.generateAiCoachTurn(userId, dto);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Get('memos')
+  async getMemos(@Req() req: any) {
+    const userId = req.user.sub;
+    return this.usersService.getMemos(userId);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('memos')
+  async saveMemo(@Req() req: any, @Body() dto: SavePartnerMemoDto) {
+    const userId = req.user.sub;
+    return this.usersService.saveMemo(userId, dto.partnerId, dto.memo);
   }
 }
 

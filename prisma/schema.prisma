@@ -10,6 +10,7 @@ datasource db {
 model User {
   id                String            @id @default(uuid())
   email             String?           @unique
+  emailVerified     Boolean           @default(false)
   phone             String?           @unique
   countryCode       String?
   password          String
@@ -53,11 +54,12 @@ model UserBuddy {
 }
 
 model Session {
-  id        String            @id @default(uuid())
-  roomName  String            @unique
-  topic     String?
-  createdAt DateTime          @default(now())
-  feedbacks SessionFeedback[]
+  id             String            @id @default(uuid())
+  roomName       String            @unique
+  topic          String?
+  participantIds String[]          @default([])
+  createdAt      DateTime          @default(now())
+  feedbacks      SessionFeedback[]
 
   @@index([createdAt])
 }
@@ -114,6 +116,7 @@ model OtpCode {
   code        String
   expiresAt   DateTime
   verified    Boolean  @default(false)
+  attempts    Int      @default(0)
   createdAt   DateTime @default(now())
 
   @@index([identifier])

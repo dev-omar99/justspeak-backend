@@ -1,13 +1,23 @@
-import { IsEnum, IsString, IsNotEmpty, IsOptional, IsArray } from 'class-validator';
+import {
+  IsEnum,
+  IsString,
+  IsNotEmpty,
+  IsOptional,
+  IsArray,
+  MaxLength,
+  ArrayMaxSize,
+} from 'class-validator';
 import { LevelFeedback, PartnerRating } from '@prisma/client';
 
 export class SubmitFeedbackDto {
   @IsString()
   @IsNotEmpty()
+  @MaxLength(128)
   sessionId: string;
 
   @IsString()
   @IsNotEmpty()
+  @MaxLength(128)
   partnerId: string;
 
   @IsEnum(LevelFeedback, {
@@ -22,7 +32,9 @@ export class SubmitFeedbackDto {
 
   @IsOptional()
   @IsArray()
+  @ArrayMaxSize(10)
   @IsString({ each: true })
+  @MaxLength(60, { each: true })
   compliments?: string[];
 }
 

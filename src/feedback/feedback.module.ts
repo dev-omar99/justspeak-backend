@@ -1,17 +1,13 @@
 import { Module } from '@nestjs/common';
-import { JwtModule } from '@nestjs/jwt';
 import { FeedbackService } from './feedback.service';
 import { FeedbackController } from './feedback.controller';
-import { PrismaService } from '../prisma.service';
+import { AuthModule } from '../auth/auth.module';
+import { RoomsModule } from '../rooms/rooms.module';
 
 @Module({
-  imports: [
-    JwtModule.register({
-      secret: process.env.JWT_SECRET,
-    }),
-  ],
+  imports: [AuthModule, RoomsModule],
   controllers: [FeedbackController],
-  providers: [FeedbackService, PrismaService],
+  providers: [FeedbackService],
   exports: [FeedbackService],
 })
 export class FeedbackModule {}

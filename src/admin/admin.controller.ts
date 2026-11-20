@@ -1,6 +1,7 @@
-import { Controller, Get, Delete, Param, UseGuards } from '@nestjs/common';
+import { Controller, Get, Delete, Patch, Param, Body, UseGuards } from '@nestjs/common';
 import { AdminGuard } from './admin.guard';
 import { AdminService } from './admin.service';
+import { PlanTierId } from '../users/subscription-store';
 
 @Controller('admin')
 export class AdminController {
@@ -16,6 +17,15 @@ export class AdminController {
   @Get('stats')
   async getStats() {
     return this.adminService.getStats();
+  }
+
+  @UseGuards(AdminGuard)
+  @Patch('users/:id/subscription')
+  async updateUserSubscription(
+    @Param('id') id: string,
+    @Body() body: { planTier?: PlanTierId; aiTokensBalance?: number; addTokens?: number },
+  ) {
+    return this.adminService.updateUserSubscription(id, body);
   }
 
   @UseGuards(AdminGuard)

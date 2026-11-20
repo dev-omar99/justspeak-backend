@@ -1,98 +1,68 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# JustSpeak Backend (`justspeak_backend`)
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+NestJS + TypeScript + Prisma + PostgreSQL + Socket.IO backend for the **JustSpeak** 1-on-1 English speaking practice platform.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Architecture & Modules
 
-## Description
+- **`AuthModule` (`src/auth`)**: Email/phone signup & login, cryptographically secure OTP generation (`crypto.randomInt`) & atomic single-use verification, server-side Google ID token verification (`google-auth-library`), and JWT authentication (`JwtAuthGuard`).
+- **`RoomsModule` (`src/rooms`)**: Mutex-serialized 1-on-1 matchmaking queue, session creation, authorized room membership tracking, and authenticated WebRTC Socket.IO signaling gateway (`SignalingGateway`).
+- **`FeedbackModule` (`src/feedback`)**: Post-session peer feedback with strict session & participant authorization and duplicate-submission protection.
+- **`UsersModule` (`src/users`)**: User dashboard, daily ticket quota & 24-hour reset, streak calculation, buddies, blocklist, and global/tribe leaderboards.
+- **`AdminModule` (`src/admin`)**: Admin-only user management and platform statistics guarded by `AdminGuard` (cleans up associated OTP records upon user deletion).
+- **`PrismaModule` (`src/prisma.module.ts`)**: Global singleton `PrismaService` managing the PostgreSQL connection pool.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Environment Variables
 
-## Project setup
+Configure these in `justspeak_backend/.env` (see [`.env.example`](file:///c:/Users/A%20S%20U%20S/Desktop/My%20App/justspeak_backend/.env.example)):
 
-```bash
-$ npm install
-```
+| Variable | Required | Purpose |
+|---|---|---|
+| `DATABASE_URL` | Yes | PostgreSQL connection string for the primary database |
+| `SHADOW_DATABASE_URL` | Dev / Migrate | Separate PostgreSQL database used only as Prisma's shadow DB |
+| `JWT_SECRET` | Yes | Secret key used to sign and verify 24-hour user JWTs |
+| `GOOGLE_CLIENT_ID` | For Google Auth | Google OAuth 2.0 Web Client ID verified by `OAuth2Client.verifyIdToken` |
+| `PORT` | Optional | HTTP & WebSocket server port (default `3000` in code, `4000` in `.env.example`) |
+| `CORS_ORIGINS` | Recommended | Comma-separated list of allowed frontend origins for HTTP and Socket.IO CORS |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | Optional (Prod) | Nodemailer SMTP settings for real email OTP delivery |
 
-## Compile and run the project
+## Security & Real-Time Assumptions
 
-```bash
-# development
-$ npm run start
+1. **Authentication & Account Ownership**:
+   - Email signup sets `emailVerified = false` until verified via OTP (`POST /auth/verify-otp`).
+   - Google Sign-In (`POST /auth/google`) validates the Google ID token signature, audience, issuer, and `email_verified` claim server-side, and refuses (`409 Conflict`) to auto-link an existing account whose `emailVerified` is `false`.
+   - `JwtAuthGuard` and `SignalingGateway` verify JWT validity and confirm the user account still exists in PostgreSQL.
+2. **OTP Protection**:
+   - 6-digit OTPs are generated via `crypto.randomInt(100000, 1000000)`, never logged to stdout, expire after 10 minutes, lock after 5 failed attempts, and are consumed atomically via compare-and-swap (`updateMany`).
+   - HTTP rate limits (`@nestjs/throttler`) and per-identifier sliding-window limits (60s cooldown, max 5 requests per 15 minutes) protect `/auth/*` routes.
+3. **Matchmaking Queue & Session TTL Behavior**:
+   - `RoomsService.joinQueue` and `leaveQueue` are serialized through an in-process FIFO mutex (`withQueueLock`).
+   - Matched rooms are held in `matchedRooms` with a 2-minute claim TTL (`matchedRoomTtlMs`) and registered in `roomRegistry` with a 60-minute session TTL (`defaultRoomTtlMs`).
+   - Every created `Session` persists its authorized `participantIds` (`TEXT[] NOT NULL`) in PostgreSQL. If the backend process restarts during an active 60-minute session, `SignalingGateway.handleJoinRoom` automatically recovers room authorization from `Session.participantIds` and `Session.createdAt`.
 
-# watch mode
-$ npm run start:dev
+## Database Migration Prerequisites & Safe Execution
 
-# production mode
-$ npm run start:prod
-```
+1. Always validate schema changes and new migrations against an isolated test database (`justspeak_migration_test`) before applying to `justspeak_db`:
+   ```bash
+   npx prisma migrate status
+   npx prisma migrate diff --from-url "$DATABASE_URL" --to-schema-datamodel prisma/schema.prisma --exit-code
+   ```
+2. Never run `prisma migrate reset` or `prisma db push` against `justspeak_db`.
+3. Once approved, apply pending migrations non-destructively via:
+   ```bash
+   npx prisma migrate deploy
+   npx prisma generate
+   ```
 
-## Run tests
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Deployment
-
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
-
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+## Running & Testing
 
 ```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
+# development server
+npm run start:dev
+
+# unit & concurrency regression tests
+npm test
+
+# TypeScript typecheck & production build
+npx tsc --noEmit -p tsconfig.json
+npm run build
 ```
-
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
-
-## Resources
-
-Check out a few resources that may come in handy when working with NestJS:
-
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).

@@ -1,6 +1,8 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
 import { PrismaService } from '../prisma.service';
-import { UpdateProfileDto } from './dto';
+import { RoomsService } from '../rooms/rooms.service';
+import { UpdateProfileDto, AiStudioTurnDto } from './dto';
+import { subscriptionStore, PlanTierId } from './subscription-store';
 
 export interface RecentPartnerDto {
   id: string;
@@ -25,16 +27,23 @@ export interface DashboardDataDto {
     bio: string | null;
     avatarUrl: string | null;
     tribeId?: number | null;
+    planTier?: PlanTierId;
+    aiTokensBalance?: number;
   };
 
   tickets: {
     ticketsLeft: number;
     maxTickets: number;
     resetsInSeconds: number;
+    bonusTickets?: number;
   };
   tribe?: {
     userTribe: number | null;
+    userTribeName?: string;
     currentActiveTribe: number;
+    activeTribeName?: string;
+    activeTribeWindow?: string;
+    activeMembersCount?: number;
     isTribeActive: boolean;
   };
   stats: {
@@ -46,6 +55,7 @@ export interface DashboardDataDto {
     blockedCount: number;
     buddiesCount: number;
     liveRoomsCount: number;
+    contributionPoints?: number;
   };
   streakWeek: Array<{ dayNumber: number; completed: boolean; label: string }>;
   recentPartners: RecentPartnerDto[];
@@ -55,7 +65,30 @@ export interface DashboardDataDto {
 
 @Injectable()
 export class UsersService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly roomsService: RoomsService,
+  ) {}
+
+  private formatDisplayName(
+    user: { name?: string | null; email?: string | null },
+    fallback = 'Learner',
+  ): string {
+    if (user.name && user.name.trim()) {
+      return user.name.trim();
+    }
+    if (user.email && user.email.includes('@')) {
+      return user.email.split('@')[0];
+    }
+    return fallback;
+  }
+
+  private maskEmail(email?: string | null): string | null {
+    if (!email || !email.includes('@')) return null;
+    const [local, domain] = email.split('@');
+    if (local.length <= 2) return `${local[0] || '*'}***@${domain}`;
+    return `${local.slice(0, 2)}***@${domain}`;
+  }
 
   private getCountryFlag(countryName?: string | null): string {
     if (!countryName) return '🌐';
@@ -153,7 +186,7 @@ export class UsersService {
     });
 
     if (!user) {
-      throw new Error('User not found');
+      throw new NotFoundException('User not found');
     }
 
     // Check 24h daily ticket reset
@@ -187,7 +220,7 @@ export class UsersService {
         where: { giverId: userId },
         include: {
           receiver: {
-            select: { id: true, name: true, email: true, phone: true, country: true },
+            select: { id: true, name: true, email: true, country: true },
           },
         },
         orderBy: { createdAt: 'desc' },
@@ -196,7 +229,7 @@ export class UsersService {
         where: { receiverId: userId },
         include: {
           giver: {
-            select: { id: true, name: true, email: true, phone: true, country: true },
+            select: { id: true, name: true, email: true, country: true },
           },
         },
         orderBy: { createdAt: 'desc' },
@@ -240,7 +273,7 @@ export class UsersService {
       } else {
         partnerMap.set(partner.id, {
           id: partner.id,
-          name: partner.name || (partner.email ? partner.email.split('@')[0] : (partner.phone || 'Partner')),
+          name: this.formatDisplayName(partner, 'Partner'),
           country: partner.country,
           lastMetDate: fb.createdAt.toISOString(),
           sessionCount: 1,
@@ -261,7 +294,7 @@ export class UsersService {
       } else {
         partnerMap.set(partner.id, {
           id: partner.id,
-          name: partner.name || (partner.email ? partner.email.split('@')[0] : (partner.phone || 'Partner')),
+          name: this.formatDisplayName(partner, 'Partner'),
           country: partner.country,
           lastMetDate: fb.createdAt.toISOString(),
           sessionCount: 1,
@@ -294,6 +327,40 @@ export class UsersService {
     const currentActiveTribe = Math.floor(utcHours / 2) + 1; // 1 to 12
     const isTribeActive = user.tribeId === currentActiveTribe;
 
+    const TRIBE_NAMES: Record<number, { name: string; window: string }> = {
+      1: { name: 'Dawn Tribe', window: '00:00 - 02:00' },
+      2: { name: 'Aurora Tribe', window: '02:00 - 04:00' },
+      3: { name: 'Light Tribe', window: '04:00 - 06:00' },
+      4: { name: 'Morning Tribe', window: '06:00 - 08:00' },
+      5: { name: 'Solar Tribe', window: '08:00 - 10:00' },
+      6: { name: 'Noon Tribe', window: '10:00 - 12:00' },
+      7: { name: 'Breeze Tribe', window: '12:00 - 14:00' },
+      8: { name: 'Horizon Tribe', window: '14:00 - 16:00' },
+      9: { name: 'Sunset Tribe', window: '16:00 - 18:00' },
+      10: { name: 'Prime Tribe', window: '18:00 - 20:00' },
+      11: { name: 'Starlight Tribe', window: '20:00 - 22:00' },
+      12: { name: 'Midnight Tribe', window: '22:00 - 24:00' },
+    };
+
+    const activeTribeMeta = TRIBE_NAMES[currentActiveTribe] || TRIBE_NAMES[3];
+    const userTribeMeta = user.tribeId ? TRIBE_NAMES[user.tribeId] : activeTribeMeta;
+    const liveRoomsCount = this.roomsService.getActiveRoomCount();
+    const targetTribeId = user.tribeId ?? currentActiveTribe;
+    let tribeUsersCount = 0;
+    if (typeof (this.prisma.user as any).count === 'function') {
+      tribeUsersCount = await this.prisma.user.count({
+        where: { tribeId: targetTribeId },
+      });
+      if (tribeUsersCount === 0) {
+        tribeUsersCount = await this.prisma.user.count();
+      }
+    }
+    const activeMembersCount = tribeUsersCount + liveRoomsCount * 2;
+    const bonusTickets = Math.min(99, 5 + lovedCount);
+    const contributionPoints = totalSessions * 5 + lovedCount * 5;
+
+    const subRecord = subscriptionStore.getSubscription(user.id);
+
     return {
       user: {
         id: user.id,
@@ -306,16 +373,23 @@ export class UsersService {
         bio: user.bio ?? null,
         avatarUrl: user.avatarUrl ?? null,
         tribeId: user.tribeId ?? null,
+        planTier: subRecord.planTier,
+        aiTokensBalance: subRecord.aiTokensBalance,
       },
 
       tickets: {
         ticketsLeft,
         maxTickets: 5,
         resetsInSeconds,
+        bonusTickets,
       },
       tribe: {
         userTribe: user.tribeId ?? null,
+        userTribeName: userTribeMeta?.name || 'Light Tribe',
         currentActiveTribe,
+        activeTribeName: activeTribeMeta.name,
+        activeTribeWindow: activeTribeMeta.window,
+        activeMembersCount,
         isTribeActive,
       },
       stats: {
@@ -326,7 +400,8 @@ export class UsersService {
         lovedCount,
         blockedCount: userBlocks.length,
         buddiesCount: buddyIdSet.size,
-        liveRoomsCount: 42 + Math.floor(Math.random() * 15),
+        liveRoomsCount,
+        contributionPoints,
       },
       streakWeek,
       recentPartners,
@@ -343,9 +418,16 @@ export class UsersService {
   }
 
   async toggleBuddy(userId: string, buddyId: string): Promise<{ isBuddy: boolean }> {
+    if (!buddyId || userId === buddyId) {
+      throw new BadRequestException('Cannot add yourself as buddy');
+    }
 
-    if (userId === buddyId) {
-      throw new Error('Cannot add yourself as buddy');
+    const buddyUser = await this.prisma.user.findUnique({
+      where: { id: buddyId },
+      select: { id: true },
+    });
+    if (!buddyUser) {
+      throw new NotFoundException('Buddy user not found');
     }
 
     const existing = await this.prisma.userBuddy.findUnique({
@@ -378,7 +460,7 @@ export class UsersService {
       where: { userId },
       include: {
         buddy: {
-          select: { id: true, name: true, email: true, phone: true, country: true, englishLevel: true },
+          select: { id: true, name: true, email: true, country: true, englishLevel: true },
         },
 
       },
@@ -387,7 +469,7 @@ export class UsersService {
 
     return buddies.map((b) => ({
       id: b.buddy.id,
-      name: b.buddy.name || (b.buddy.email ? b.buddy.email.split('@')[0] : (b.buddy.phone || 'Buddy')),
+      name: this.formatDisplayName(b.buddy, 'Buddy'),
       country: b.buddy.country,
       countryFlag: this.getCountryFlag(b.buddy.country),
       englishLevel: b.buddy.englishLevel,
@@ -429,7 +511,7 @@ export class UsersService {
       where: { userId },
       include: {
         blocked: {
-          select: { id: true, email: true, phone: true, name: true, country: true },
+          select: { id: true, email: true, name: true, country: true },
         },
 
       },
@@ -440,8 +522,8 @@ export class UsersService {
       id: b.id,
       blockedUser: {
         id: b.blocked.id,
-        name: b.blocked.name || (b.blocked.email ? b.blocked.email.split('@')[0] : (b.blocked.phone || 'User')),
-        email: b.blocked.email,
+        name: this.formatDisplayName(b.blocked, 'User'),
+        email: this.maskEmail(b.blocked.email),
         country: b.blocked.country,
         flag: this.getCountryFlag(b.blocked.country),
       },
@@ -467,7 +549,6 @@ export class UsersService {
         id: true,
         name: true,
         email: true,
-        phone: true,
         country: true,
 
         englishLevel: true,
@@ -492,7 +573,7 @@ export class UsersService {
 
       return {
         id: u.id,
-        name: u.name || (u.email ? u.email.split('@')[0] : (u.phone || 'Learner')),
+        name: this.formatDisplayName(u, 'Learner'),
         country: u.country || 'Global',
 
         countryFlag: this.getCountryFlag(u.country),
@@ -555,5 +636,85 @@ export class UsersService {
       myRank,
     };
   }
+
+  async upgradeSubscription(userId: string, planTier: PlanTierId) {
+    const updated = subscriptionStore.setSubscription(userId, planTier);
+    return {
+      success: true,
+      planTier: updated.planTier,
+      aiTokensBalance: updated.aiTokensBalance,
+      updatedAt: updated.updatedAt,
+    };
+  }
+
+  async consumeAiStudioTokens(userId: string, amount: number) {
+    const current = subscriptionStore.getSubscription(userId);
+    if (current.aiTokensBalance < amount) {
+      throw new BadRequestException('Insufficient AI Tokens balance for this session.');
+    }
+    const updated = subscriptionStore.consumeAiTokens(userId, amount);
+    return {
+      success: true,
+      planTier: updated.planTier,
+      aiTokensBalance: updated.aiTokensBalance,
+    };
+  }
+
+  async generateAiCoachTurn(userId: string, dto: AiStudioTurnDto) {
+    const cleanText = (dto.userMessage || '').trim();
+    if (!cleanText) {
+      throw new BadRequestException('Message cannot be empty.');
+    }
+
+    const words = cleanText.split(/\s+/).filter(Boolean);
+    const wordCount = words.length;
+    const hasConnector = /\b(because|however|therefore|moreover|for example|in my opinion|personally|furthermore|although)\b/i.test(
+      cleanText,
+    );
+
+    const turnIdx = dto.turnIndex ?? 0;
+    const followUps = [
+      `Great point about "${dto.topicTitle}"! Can you share a real-life example or personal story to support that idea?`,
+      `I really like how you expressed that! Follow-up question: What do you think is the biggest challenge people face in this situation?`,
+      `Well articulated! Let's go deeper on "${dto.topicTitle}": If you had to convince a skeptical friend or colleague, what would be your strongest argument?`,
+      `Excellent fluency! To wrap up this angle, how do you see this changing over the next 3 to 5 years?`,
+    ];
+
+    let tip = '';
+    let fluencyScore = 88;
+    if (wordCount < 8) {
+      tip = `Fluency Tip: Your answer was ${wordCount} words. Try expanding with "because..." or "for example..." to hit 15–25 words per turn.`;
+      fluencyScore = 76;
+    } else if (!hasConnector) {
+      tip = `Vocabulary Upgrade: Great ${wordCount}-word response! Try linking ideas with transitions like "Furthermore," "On the other hand," or "From my perspective."`;
+      fluencyScore = 89;
+    } else {
+      tip = `Native-Level Structure: Awesome ${wordCount}-word response using strong discourse connectors! Keep maintaining this natural rhythm.`;
+      fluencyScore = 96;
+    }
+
+    return {
+      reply: followUps[turnIdx % followUps.length],
+      tip,
+      fluencyScore,
+      wordCount,
+    };
+  }
+
+  async getMemos(userId: string) {
+    return subscriptionStore.getUserMemos(userId);
+  }
+
+  async saveMemo(userId: string, partnerId: string, memo: string) {
+    if (!partnerId || !partnerId.trim()) {
+      throw new BadRequestException('partnerId is required');
+    }
+    const saved = subscriptionStore.saveUserMemo(userId, partnerId.trim(), memo || '');
+    return {
+      success: true,
+      memo: saved,
+    };
+  }
 }
+
 

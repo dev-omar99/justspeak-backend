@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: justspeak-backend
+    env: node
+    plan: free
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npx prisma db push && npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: justspeak-postgres
+          property: connectionString
+
+databases:
+  - name: justspeak-postgres
+    plan: free

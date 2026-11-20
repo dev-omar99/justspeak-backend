@@ -3,12 +3,11 @@ import { RoomsController } from './rooms.controller';
 import { RoomsService } from './rooms.service';
 import { SignalingGateway } from './signaling.gateway';
 import { AuthModule } from '../auth/auth.module';
-import { PrismaService } from '../prisma.service';
 
 @Module({
   imports: [AuthModule],
   controllers: [RoomsController],
-  providers: [RoomsService, PrismaService, SignalingGateway],
+  providers: [RoomsService, SignalingGateway],
   exports: [RoomsService],
 })
 export class RoomsModule {}
