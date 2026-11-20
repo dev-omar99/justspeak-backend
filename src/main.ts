@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import { NestFactory } from '@nestjs/core';
 import { Logger, ValidationPipe } from '@nestjs/common';
+import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 
 function validateRequiredEnv(): void {
@@ -41,6 +42,40 @@ async function bootstrap() {
       transform: true,
     }),
   );
+
+  // Swagger Documentation Setup
+  const config = new DocumentBuilder()
+    .setTitle('JustSpeak API')
+    .setDescription(
+      'The comprehensive RESTful API documentation for JustSpeak language practice platform. Includes authentication, matchmaking, video rooms, user profiles, and administrative operations.',
+    )
+    .setVersion('1.0')
+    .addBearerAuth(
+      {
+        type: 'http',
+        scheme: 'bearer',
+        bearerFormat: 'JWT',
+        name: 'Authorization',
+        description: 'Enter your JWT Bearer token',
+        in: 'header',
+      },
+      'JWT-auth',
+    )
+    .addTag('Authentication', 'Signup, login, OTP verification, Google OAuth, and password recovery')
+    .addTag('Users', 'User profile, leaderboard, buddy system, tribes, and subscriptions')
+    .addTag('Rooms', 'Live WebRTC rooms, matchmaking queue, buddy direct calls, and reconnect tickets')
+    .addTag('Feedback', 'Session ratings, language badges, and peer reviews')
+    .addTag('Admin', 'Platform administration, user management, and statistics')
+    .build();
+
+  const document = SwaggerModule.createDocument(app, config);
+  SwaggerModule.setup('api/docs', app, document, {
+    customSiteTitle: 'JustSpeak API Documentation',
+    swaggerOptions: {
+      persistAuthorization: true,
+    },
+  });
+
   const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 4000;
   await app.listen(port, '0.0.0.0');
 }
