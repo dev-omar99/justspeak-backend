@@ -23,6 +23,7 @@ export interface AcademyProgressRecord {
   placementCompleted: boolean;
   dailySpeakingGoalMins: number;
   learnedWordIds: string[];
+  completedLessonIds?: string[];
   completedReadingIds: string[];
   completedListeningIds: string[];
   completedShadowingIds: string[];

@@ -736,6 +736,9 @@ export class UsersService {
       dailySpeakingGoalMins:
         typeof body?.dailySpeakingGoalMins === 'number' ? body.dailySpeakingGoalMins : 21,
       learnedWordIds: Array.isArray(body?.learnedWordIds) ? body.learnedWordIds.slice(0, 500) : [],
+      completedLessonIds: Array.isArray(body?.completedLessonIds)
+        ? body.completedLessonIds.slice(0, 200)
+        : [],
       completedReadingIds: Array.isArray(body?.completedReadingIds)
         ? body.completedReadingIds.slice(0, 200)
         : [],
