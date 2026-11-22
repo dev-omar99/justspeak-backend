@@ -56,3 +56,14 @@ pids
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 /generated/prisma
+
+# Database backups & local data
+backups/
+*.dump
+data/
+*.json
+!package*.json
+!tsconfig*.json
+!nest-cli.json
+
+
