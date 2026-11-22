@@ -666,37 +666,176 @@ export class UsersService {
       throw new BadRequestException('Message cannot be empty.');
     }
 
+    // 1. Optional Real Gemini LLM Coach when GEMINI_API_KEY is configured
+    const geminiKey = process.env.GEMINI_API_KEY?.trim();
+    if (geminiKey && process.env.NODE_ENV !== 'test') {
+      try {
+        const prompt = `You are JustSpeak's supportive Oxford-trained English speaking coach.
+Topic: "${dto.topicTitle}" (${dto.category || 'Conversation'}).
+Student just said: "${cleanText}"
+Respond ONLY with valid JSON (no markdown) matching:
+{
+  "reply": "Warm, natural 2-sentence conversational response + one specific follow-up question reacting to what they actually said",
+  "corrections": ["Specific grammar/phrasing fix if any, otherwise empty array"],
+  "nativeUpgrade": "How a fluent native speaker would naturally rephrase their sentence",
+  "tip": "One concise, actionable coaching tip on fluency, vocabulary, or grammar",
+  "fluencyScore": 85,
+  "grammarScore": 86,
+  "vocabScore": 84,
+  "suggestedPhrases": ["Phrase starter 1...", "Phrase starter 2..."]
+}`;
+        const res = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${encodeURIComponent(geminiKey)}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.6, maxOutputTokens: 350 },
+            }),
+          },
+        );
+        if (res.ok) {
+          const data: any = await res.json();
+          const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+          const jsonMatch = rawText.match(/\{[\s\S]*\}/);
+          if (jsonMatch) {
+            const parsed = JSON.parse(jsonMatch[0]);
+            if (parsed?.reply) {
+              return {
+                reply: parsed.reply,
+                tip: parsed.tip || 'Keep expanding your ideas with concrete examples.',
+                corrections: Array.isArray(parsed.corrections) ? parsed.corrections : [],
+                nativeUpgrade: parsed.nativeUpgrade || '',
+                fluencyScore: Number(parsed.fluencyScore) || 88,
+                grammarScore: Number(parsed.grammarScore) || 86,
+                vocabScore: Number(parsed.vocabScore) || 85,
+                suggestedPhrases: Array.isArray(parsed.suggestedPhrases)
+                  ? parsed.suggestedPhrases
+                  : [],
+                wordCount: cleanText.split(/\s+/).filter(Boolean).length,
+              };
+            }
+          }
+        }
+      } catch {
+        // Fall through cleanly to local intelligent NLP coach
+      }
+    }
+
+    // 2. Smart Local NLP Grammar, Vocabulary & Context Coaching Engine
     const words = cleanText.split(/\s+/).filter(Boolean);
     const wordCount = words.length;
-    const hasConnector = /\b(because|however|therefore|moreover|for example|in my opinion|personally|furthermore|although)\b/i.test(
-      cleanText,
-    );
 
-    const turnIdx = dto.turnIndex ?? 0;
-    const followUps = [
-      `Great point about "${dto.topicTitle}"! Can you share a real-life example or personal story to support that idea?`,
-      `I really like how you expressed that! Follow-up question: What do you think is the biggest challenge people face in this situation?`,
-      `Well articulated! Let's go deeper on "${dto.topicTitle}": If you had to convince a skeptical friend or colleague, what would be your strongest argument?`,
-      `Excellent fluency! To wrap up this angle, how do you see this changing over the next 3 to 5 years?`,
+    const grammarRules: { regex: RegExp; fix: string; replaceWith?: string }[] = [
+      { regex: /\bi am agree\b/i, fix: 'Use "I agree" instead of "I am agree" (agree is a verb).', replaceWith: 'I agree' },
+      { regex: /\b(he|she|it)\s+don'?t\b/i, fix: 'Use "doesn\'t" with he/she/it (e.g., "he doesn\'t").', replaceWith: '$1 doesn\'t' },
+      { regex: /\bmore better\b/i, fix: 'Use "much better" instead of "more better".', replaceWith: 'much better' },
+      { regex: /\b(go|went|going)\s+to\s+home\b/i, fix: 'Say "go home" / "went home" without "to".', replaceWith: '$1 home' },
+      { regex: /\bdepend\s+of\b/i, fix: 'Use "depend on" instead of "depend of".', replaceWith: 'depend on' },
+      { regex: /\binformations\b/i, fix: '"Information" is uncountable—say "information" or "pieces of information".', replaceWith: 'information' },
+      { regex: /\badvices\b/i, fix: '"Advice" is uncountable—say "advice" or "a piece of advice".', replaceWith: 'advice' },
+      { regex: /\bdiscuss\s+about\b/i, fix: 'Say "discuss [topic]" without "about".', replaceWith: 'discuss' },
+      { regex: /\bexplain\s+me\b/i, fix: 'Say "explain to me" instead of "explain me".', replaceWith: 'explain to me' },
+      { regex: /\bsuggest\s+me\b/i, fix: 'Say "suggest that I..." or "recommend to me".', replaceWith: 'recommend to me' },
+      { regex: /\bi\s+have\s+(\d+)\s+years\b/i, fix: 'For age, say "I am $1 years old" instead of "I have $1 years".', replaceWith: 'I am $1 years old' },
+      { regex: /\blook\s+forward\s+to\s+(see|meet|hear|work)\b/i, fix: 'Use -ing after "look forward to" (e.g., "looking forward to meeting").', replaceWith: 'look forward to $1ing' },
     ];
 
-    let tip = '';
+    const corrections: string[] = [];
+    let upgradedSentence = cleanText;
+    for (const rule of grammarRules) {
+      if (rule.regex.test(cleanText)) {
+        corrections.push(rule.fix);
+        if (rule.replaceWith) {
+          upgradedSentence = upgradedSentence.replace(rule.regex, rule.replaceWith);
+        }
+      }
+    }
+
+    // Lexical upgrades for overly basic words
+    const vocabUpgrades: [RegExp, string, string][] = [
+      [/\bvery good\b/i, 'remarkable', 'Upgrade "very good" → "remarkable" or "compelling".'],
+      [/\bvery big\b/i, 'substantial', 'Upgrade "very big" → "substantial" or "significant".'],
+      [/\bvery important\b/i, 'essential', 'Upgrade "very important" → "essential" or "crucial".'],
+      [/\bi think\b/i, 'From my perspective,', 'Try varying "I think" with "From my perspective," or "I firmly believe".'],
+    ];
+    for (const [rx, rep, note] of vocabUpgrades) {
+      if (rx.test(upgradedSentence)) {
+        upgradedSentence = upgradedSentence.replace(rx, rep);
+        if (corrections.length < 2) corrections.push(note);
+      }
+    }
+
+    const hasConnector =
+      /\b(because|however|therefore|moreover|for example|in my opinion|personally|furthermore|although|actually|honestly)\b/i.test(
+        cleanText,
+      );
+
+    // Extract a meaningful keyword from user's sentence to reply contextually!
+    const stopWords = new Set([
+      'the', 'and', 'for', 'that', 'this', 'with', 'have', 'from', 'they', 'would',
+      'about', 'there', 'their', 'what', 'when', 'where', 'which', 'really', 'very',
+      'just', 'like', 'think', 'know', 'want', 'going', 'because', 'could', 'should',
+    ]);
+    const keyTerm =
+      words
+        .map((w) => w.replace(/[^a-zA-Z]/g, '').toLowerCase())
+        .find((w) => w.length >= 5 && !stopWords.has(w)) || '';
+
+    const turnIdx = dto.turnIndex ?? 0;
+    const contextRef = keyTerm
+      ? `You raised an interesting point about "${keyTerm}".`
+      : `That's a thoughtful take on "${dto.topicTitle}".`;
+
+    const followUps = [
+      `${contextRef} Could you walk me through a real-life example or moment when you experienced that?`,
+      `${contextRef} On the other hand, what do you think is the toughest challenge someone faces in this situation?`,
+      `${contextRef} If you had to convince a colleague or friend who completely disagreed with you, what would be your strongest argument?`,
+      `${contextRef} Looking ahead 3 to 5 years, how do you expect this to evolve?`,
+    ];
+
     let fluencyScore = 88;
+    let grammarScore = Math.max(68, 95 - corrections.length * 9);
+    let vocabScore = hasConnector ? 92 : 82;
+    let tip = '';
+
     if (wordCount < 8) {
-      tip = `Fluency Tip: Your answer was ${wordCount} words. Try expanding with "because..." or "for example..." to hit 15–25 words per turn.`;
+      tip = `Fluency Tip: You spoke ${wordCount} words. Aim for 15–25 words by adding "because..." or "for instance..." to sound more natural.`;
       fluencyScore = 76;
+    } else if (corrections.length > 0) {
+      tip = `Precision Coach: ${corrections[0]}`;
+      fluencyScore = 86;
     } else if (!hasConnector) {
-      tip = `Vocabulary Upgrade: Great ${wordCount}-word response! Try linking ideas with transitions like "Furthermore," "On the other hand," or "From my perspective."`;
-      fluencyScore = 89;
+      tip = `Vocabulary Boost: Solid ${wordCount}-word answer! Try linking your next idea with "Furthermore," or "From my perspective."`;
+      fluencyScore = 90;
     } else {
-      tip = `Native-Level Structure: Awesome ${wordCount}-word response using strong discourse connectors! Keep maintaining this natural rhythm.`;
+      tip = `Native-Level Flow: Awesome ${wordCount}-word response with strong grammar and discourse connectors!`;
       fluencyScore = 96;
     }
+
+    const nativeUpgrade =
+      upgradedSentence !== cleanText
+        ? upgradedSentence
+        : wordCount < 10
+        ? `From my perspective, ${cleanText.charAt(0).toLowerCase()}${cleanText.slice(1).replace(/\.$/, '')}, because it creates a lasting impact.`
+        : '';
+
+    const suggestedPhrases = [
+      'From my perspective, the main reason is...',
+      'A concrete example from my experience is...',
+      'On the other hand, I would argue that...',
+    ];
 
     return {
       reply: followUps[turnIdx % followUps.length],
       tip,
+      corrections,
+      nativeUpgrade,
       fluencyScore,
+      grammarScore,
+      vocabScore,
+      suggestedPhrases,
       wordCount,
     };
   }
