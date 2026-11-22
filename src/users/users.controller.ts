@@ -130,4 +130,20 @@ export class UsersController {
     const userId = req.user.sub;
     return this.usersService.saveMemo(userId, dto.partnerId, dto.memo);
   }
+
+  @UseGuards(JwtAuthGuard)
+  @Get('academy-progress')
+  @ApiOperation({ summary: 'Get user cloud-synced CEFR Academy progress and global scores' })
+  async getAcademyProgress(@Req() req: any) {
+    const userId = req.user.sub;
+    return this.usersService.getAcademyProgress(userId);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('academy-progress')
+  @ApiOperation({ summary: 'Save and cloud-sync user CEFR Academy progress across devices' })
+  async saveAcademyProgress(@Req() req: any, @Body() body: any) {
+    const userId = req.user.sub;
+    return this.usersService.saveAcademyProgress(userId, body);
+  }
 }

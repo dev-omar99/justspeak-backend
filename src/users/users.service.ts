@@ -715,6 +715,59 @@ export class UsersService {
       memo: saved,
     };
   }
+
+  async getAcademyProgress(userId: string) {
+    return {
+      progress: subscriptionStore.getAcademyProgress(userId),
+    };
+  }
+
+  async saveAcademyProgress(userId: string, body: any) {
+    const validLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    const cefrLevel = validLevels.includes(body?.cefrLevel) ? body.cefrLevel : 'B1';
+    const clamp = (n: any, fallback = 65) =>
+      typeof n === 'number' && !Number.isNaN(n)
+        ? Math.max(0, Math.min(100, Math.round(n)))
+        : fallback;
+
+    const saved = subscriptionStore.saveAcademyProgress(userId, {
+      cefrLevel,
+      placementCompleted: Boolean(body?.placementCompleted),
+      dailySpeakingGoalMins:
+        typeof body?.dailySpeakingGoalMins === 'number' ? body.dailySpeakingGoalMins : 21,
+      learnedWordIds: Array.isArray(body?.learnedWordIds) ? body.learnedWordIds.slice(0, 500) : [],
+      completedReadingIds: Array.isArray(body?.completedReadingIds)
+        ? body.completedReadingIds.slice(0, 200)
+        : [],
+      completedListeningIds: Array.isArray(body?.completedListeningIds)
+        ? body.completedListeningIds.slice(0, 200)
+        : [],
+      completedShadowingIds: Array.isArray(body?.completedShadowingIds)
+        ? body.completedShadowingIds.slice(0, 200)
+        : [],
+      completedPronunciationIds: Array.isArray(body?.completedPronunciationIds)
+        ? body.completedPronunciationIds.slice(0, 200)
+        : [],
+      dailyCompletedTaskIds: Array.isArray(body?.dailyCompletedTaskIds)
+        ? body.dailyCompletedTaskIds.slice(0, 20)
+        : [],
+      dailyDateKey:
+        typeof body?.dailyDateKey === 'string'
+          ? body.dailyDateKey.slice(0, 16)
+          : new Date().toISOString().slice(0, 10),
+      scores: {
+        fluency: clamp(body?.scores?.fluency, 68),
+        pronunciation: clamp(body?.scores?.pronunciation, 65),
+        vocabulary: clamp(body?.scores?.vocabulary, 70),
+        grammar: clamp(body?.scores?.grammar, 66),
+      },
+    });
+
+    return {
+      success: true,
+      progress: saved,
+    };
+  }
 }
 
 

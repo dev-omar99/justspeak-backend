@@ -17,9 +17,31 @@ export interface PartnerMemoRecord {
   updatedAt: string;
 }
 
+export interface AcademyProgressRecord {
+  userId: string;
+  cefrLevel: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  placementCompleted: boolean;
+  dailySpeakingGoalMins: number;
+  learnedWordIds: string[];
+  completedReadingIds: string[];
+  completedListeningIds: string[];
+  completedShadowingIds: string[];
+  completedPronunciationIds: string[];
+  dailyCompletedTaskIds: string[];
+  dailyDateKey: string;
+  scores: {
+    fluency: number;
+    pronunciation: number;
+    vocabulary: number;
+    grammar: number;
+  };
+  updatedAt: string;
+}
+
 interface PersistedDataShape {
   subscriptions: Record<string, UserSubscriptionRecord>;
   memos: Record<string, PartnerMemoRecord>;
+  academy?: Record<string, AcademyProgressRecord>;
 }
 
 const PLAN_DEFAULT_TOKENS: Record<PlanTierId, number> = {
@@ -33,6 +55,7 @@ class ServerSubscriptionStore {
   private data: PersistedDataShape = {
     subscriptions: {},
     memos: {},
+    academy: {},
   };
 
   constructor() {
@@ -50,6 +73,7 @@ class ServerSubscriptionStore {
           this.data = {
             subscriptions: parsed.subscriptions || {},
             memos: parsed.memos || {},
+            academy: parsed.academy || {},
           };
         }
       }
@@ -145,6 +169,27 @@ class ServerSubscriptionStore {
       updatedAt: new Date().toISOString(),
     };
     this.data.memos[key] = record;
+    this.saveToDisk();
+    return record;
+  }
+
+  getAcademyProgress(userId: string): AcademyProgressRecord | null {
+    return this.data.academy?.[userId] || null;
+  }
+
+  saveAcademyProgress(
+    userId: string,
+    payload: Omit<AcademyProgressRecord, 'userId' | 'updatedAt'>,
+  ): AcademyProgressRecord {
+    if (!this.data.academy) {
+      this.data.academy = {};
+    }
+    const record: AcademyProgressRecord = {
+      ...payload,
+      userId,
+      updatedAt: new Date().toISOString(),
+    };
+    this.data.academy[userId] = record;
     this.saveToDisk();
     return record;
   }
