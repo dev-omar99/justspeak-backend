@@ -25,6 +25,10 @@ function validateRequiredEnv(): void {
 async function bootstrap() {
   validateRequiredEnv();
   const app = await NestFactory.create(AppModule);
+  const httpInstance = app.getHttpAdapter().getInstance();
+  if (typeof httpInstance?.disable === 'function') {
+    httpInstance.disable('x-powered-by');
+  }
 
   const corsOrigins = process.env.CORS_ORIGINS
     ? process.env.CORS_ORIGINS.split(',')

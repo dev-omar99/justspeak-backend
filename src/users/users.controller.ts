@@ -146,4 +146,27 @@ export class UsersController {
     const userId = req.user.sub;
     return this.usersService.saveAcademyProgress(userId, body);
   }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('change-password')
+  @ApiOperation({ summary: 'Change password for authenticated user' })
+  async changePassword(
+    @Req() req: any,
+    @Body() body: { currentPassword: string; newPassword: string },
+  ) {
+    const userId = req.user.sub;
+    return this.usersService.changePassword(
+      userId,
+      body?.currentPassword || '',
+      body?.newPassword || '',
+    );
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Delete('me')
+  @ApiOperation({ summary: 'Permanently delete authenticated user account and associated data' })
+  async deleteOwnAccount(@Req() req: any) {
+    const userId = req.user.sub;
+    return this.usersService.deleteOwnAccount(userId);
+  }
 }

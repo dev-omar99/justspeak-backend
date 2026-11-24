@@ -44,8 +44,22 @@ export class AdminService {
       orderBy: { createdAt: 'desc' },
     });
 
+    const subDelegate = (this.prisma as any).userSubscription;
+    let subMap = new Map<string, { planTier: PlanTierId; aiTokensBalance: number }>();
+    if (subDelegate?.findMany) {
+      try {
+        const subs = await subDelegate.findMany();
+        for (const s of subs) {
+          subMap.set(s.userId, {
+            planTier: s.planTier as PlanTierId,
+            aiTokensBalance: s.aiTokensBalance,
+          });
+        }
+      } catch {}
+    }
+
     return users.map((u) => {
-      const sub = subscriptionStore.getSubscription(u.id);
+      const sub = subMap.get(u.id) || subscriptionStore.getSubscription(u.id);
       return {
         id: u.id,
         email: u.email,
@@ -118,10 +132,51 @@ export class AdminService {
       throw new NotFoundException('User not found');
     }
 
-    const current = subscriptionStore.getSubscription(id);
+    const subDelegate = (this.prisma as any).userSubscription;
+    let current = subscriptionStore.getSubscription(id);
+    if (subDelegate?.findUnique) {
+      try {
+        const dbSub = await subDelegate.findUnique({ where: { userId: id } });
+        if (dbSub) {
+          current = {
+            userId: dbSub.userId,
+            planTier: dbSub.planTier as PlanTierId,
+            aiTokensBalance: dbSub.aiTokensBalance,
+            updatedAt: dbSub.updatedAt.toISOString(),
+          };
+        }
+      } catch {}
+    }
+
     const nextTier = payload.planTier || current.planTier;
     if (!['FREE', 'PLUS', 'ELITE'].includes(nextTier)) {
       throw new BadRequestException('Invalid planTier');
+    }
+
+    const defaultTokens: Record<PlanTierId, number> = { FREE: 0, PLUS: 500, ELITE: 3500 };
+    let nextTokens = current.aiTokensBalance;
+    if (typeof payload.aiTokensBalance === 'number') {
+      nextTokens = Math.max(0, Math.floor(payload.aiTokensBalance));
+    } else if (typeof payload.addTokens === 'number') {
+      nextTokens = Math.max(0, current.aiTokensBalance + Math.floor(payload.addTokens));
+    } else if (nextTier !== current.planTier) {
+      nextTokens = nextTier === 'FREE' ? 0 : current.aiTokensBalance + defaultTokens[nextTier];
+    }
+
+    if (subDelegate?.upsert) {
+      try {
+        const saved = await subDelegate.upsert({
+          where: { userId: id },
+          create: { userId: id, planTier: nextTier, aiTokensBalance: nextTokens },
+          update: { planTier: nextTier, aiTokensBalance: nextTokens },
+        });
+        return {
+          success: true,
+          userId: id,
+          planTier: saved.planTier as PlanTierId,
+          aiTokensBalance: saved.aiTokensBalance,
+        };
+      } catch {}
     }
 
     const updated = subscriptionStore.setSubscription(

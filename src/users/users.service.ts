@@ -1,4 +1,5 @@
-import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
+import { Injectable, NotFoundException, BadRequestException, UnauthorizedException } from '@nestjs/common';
+import * as bcrypt from 'bcrypt';
 import { PrismaService } from '../prisma.service';
 import { RoomsService } from '../rooms/rooms.service';
 import { UpdateProfileDto, AiStudioTurnDto } from './dto';
@@ -359,7 +360,7 @@ export class UsersService {
     const bonusTickets = Math.min(99, 5 + lovedCount);
     const contributionPoints = totalSessions * 5 + lovedCount * 5;
 
-    const subRecord = subscriptionStore.getSubscription(user.id);
+    const subRecord = await this.getSubscriptionRecord(user.id);
 
     return {
       user: {
@@ -573,7 +574,7 @@ export class UsersService {
 
       return {
         id: u.id,
-        name: this.formatDisplayName(u, 'Learner'),
+        name: this.formatPublicLeaderboardName(u),
         country: u.country || 'Global',
 
         countryFlag: this.getCountryFlag(u.country),
@@ -637,7 +638,99 @@ export class UsersService {
     };
   }
 
+  private static readonly PLAN_DEFAULT_TOKENS: Record<PlanTierId, number> = {
+    FREE: 0,
+    PLUS: 500,
+    ELITE: 3500,
+  };
+
+  private async getSubscriptionRecord(userId: string) {
+    const delegate = (this.prisma as any).userSubscription;
+    if (delegate?.findUnique) {
+      try {
+        const record = await delegate.findUnique({ where: { userId } });
+        if (record) {
+          return {
+            userId: record.userId,
+            planTier: record.planTier as PlanTierId,
+            aiTokensBalance: record.aiTokensBalance,
+            updatedAt: record.updatedAt.toISOString(),
+          };
+        }
+        return {
+          userId,
+          planTier: 'FREE' as PlanTierId,
+          aiTokensBalance: 0,
+          updatedAt: new Date().toISOString(),
+        };
+      } catch {
+        // Fallback if table not migrated yet
+      }
+    }
+    return subscriptionStore.getSubscription(userId);
+  }
+
+  private async consumeAiTokens(userId: string, amount: number) {
+    const current = await this.getSubscriptionRecord(userId);
+    const nextBalance = Math.max(0, current.aiTokensBalance - Math.max(0, Math.floor(amount)));
+    const delegate = (this.prisma as any).userSubscription;
+    if (delegate?.upsert) {
+      try {
+        const saved = await delegate.upsert({
+          where: { userId },
+          create: {
+            userId,
+            planTier: current.planTier,
+            aiTokensBalance: nextBalance,
+          },
+          update: {
+            aiTokensBalance: nextBalance,
+          },
+        });
+        return {
+          userId: saved.userId,
+          planTier: saved.planTier as PlanTierId,
+          aiTokensBalance: saved.aiTokensBalance,
+          updatedAt: saved.updatedAt.toISOString(),
+        };
+      } catch {}
+    }
+    return subscriptionStore.consumeAiTokens(userId, amount);
+  }
+
   async upgradeSubscription(userId: string, planTier: PlanTierId) {
+    const current = await this.getSubscriptionRecord(userId);
+    const nextTokens =
+      planTier === 'FREE'
+        ? 0
+        : planTier !== current.planTier
+        ? current.aiTokensBalance + UsersService.PLAN_DEFAULT_TOKENS[planTier]
+        : current.aiTokensBalance;
+
+    const delegate = (this.prisma as any).userSubscription;
+    if (delegate?.upsert) {
+      try {
+        const saved = await delegate.upsert({
+          where: { userId },
+          create: {
+            userId,
+            planTier,
+            aiTokensBalance: nextTokens,
+          },
+          update: {
+            planTier,
+            aiTokensBalance: nextTokens,
+          },
+        });
+        return {
+          success: true,
+          planTier: saved.planTier as PlanTierId,
+          aiTokensBalance: saved.aiTokensBalance,
+          updatedAt: saved.updatedAt.toISOString(),
+        };
+      } catch {}
+    }
+
     const updated = subscriptionStore.setSubscription(userId, planTier);
     return {
       success: true,
@@ -648,11 +741,11 @@ export class UsersService {
   }
 
   async consumeAiStudioTokens(userId: string, amount: number) {
-    const current = subscriptionStore.getSubscription(userId);
+    const current = await this.getSubscriptionRecord(userId);
     if (current.aiTokensBalance < amount) {
       throw new BadRequestException('Insufficient AI Tokens balance for this session.');
     }
-    const updated = subscriptionStore.consumeAiTokens(userId, amount);
+    const updated = await this.consumeAiTokens(userId, amount);
     return {
       success: true,
       planTier: updated.planTier,
@@ -660,28 +753,54 @@ export class UsersService {
     };
   }
 
+  private freeAiTurnsToday = new Map<string, { dateKey: string; count: number }>();
+  private static readonly FREE_DAILY_AI_TURNS = 5;
+
   async generateAiCoachTurn(userId: string, dto: AiStudioTurnDto) {
     const cleanText = (dto.userMessage || '').trim();
     if (!cleanText) {
       throw new BadRequestException('Message cannot be empty.');
     }
 
+    // Enforce Free tier daily trial limit (5/day) vs paid AI Token balance
+    const sub = await this.getSubscriptionRecord(userId);
+    const todayKey = new Date().toISOString().slice(0, 10);
+    let remainingFreeTurns: number | undefined;
+    let remainingAiTokens = sub.aiTokensBalance;
+
+    if (sub.planTier === 'FREE' && sub.aiTokensBalance <= 0) {
+      const entry = this.freeAiTurnsToday.get(userId);
+      const usedToday = entry && entry.dateKey === todayKey ? entry.count : 0;
+      if (usedToday >= UsersService.FREE_DAILY_AI_TURNS) {
+        throw new BadRequestException(
+          `You have used all ${UsersService.FREE_DAILY_AI_TURNS} free daily AI Coach messages. Upgrade to JustSpeak Plus for 500 AI Tokens/month.`,
+        );
+      }
+      const nextCount = usedToday + 1;
+      this.freeAiTurnsToday.set(userId, { dateKey: todayKey, count: nextCount });
+      remainingFreeTurns = Math.max(0, UsersService.FREE_DAILY_AI_TURNS - nextCount);
+    } else if (sub.aiTokensBalance > 0) {
+      const updated = await this.consumeAiTokens(userId, 1);
+      remainingAiTokens = updated.aiTokensBalance;
+    }
+
     // 1. Optional Real Gemini LLM Coach when GEMINI_API_KEY is configured
     const geminiKey = process.env.GEMINI_API_KEY?.trim();
     if (geminiKey && process.env.NODE_ENV !== 'test') {
       try {
-        const prompt = `You are JustSpeak's supportive Oxford-trained English speaking coach.
+        const prompt = `You are JustSpeak's supportive, honest English speaking coach.
 Topic: "${dto.topicTitle}" (${dto.category || 'Conversation'}).
 Student just said: "${cleanText}"
+Evaluate honestly! If the sentence has major grammar errors or is nonsensical, give low accurate scores (e.g. 15-45) and explain clearly.
 Respond ONLY with valid JSON (no markdown) matching:
 {
   "reply": "Warm, natural 2-sentence conversational response + one specific follow-up question reacting to what they actually said",
   "corrections": ["Specific grammar/phrasing fix if any, otherwise empty array"],
-  "nativeUpgrade": "How a fluent native speaker would naturally rephrase their sentence",
+  "nativeUpgrade": "How a fluent native speaker would naturally rephrase their sentence (empty string if sentence is unintelligible)",
   "tip": "One concise, actionable coaching tip on fluency, vocabulary, or grammar",
-  "fluencyScore": 85,
-  "grammarScore": 86,
-  "vocabScore": 84,
+  "fluencyScore": 65,
+  "grammarScore": 60,
+  "vocabScore": 62,
   "suggestedPhrases": ["Phrase starter 1...", "Phrase starter 2..."]
 }`;
         const res = await fetch(
@@ -691,7 +810,7 @@ Respond ONLY with valid JSON (no markdown) matching:
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               contents: [{ parts: [{ text: prompt }] }],
-              generationConfig: { temperature: 0.6, maxOutputTokens: 350 },
+              generationConfig: { temperature: 0.5, maxOutputTokens: 350 },
             }),
           },
         );
@@ -702,14 +821,21 @@ Respond ONLY with valid JSON (no markdown) matching:
           if (jsonMatch) {
             const parsed = JSON.parse(jsonMatch[0]);
             if (parsed?.reply) {
+              const clampScore = (v: any) =>
+                typeof v === 'number' && !Number.isNaN(v)
+                  ? Math.max(0, Math.min(100, Math.round(v)))
+                  : undefined;
               return {
                 reply: parsed.reply,
                 tip: parsed.tip || 'Keep expanding your ideas with concrete examples.',
                 corrections: Array.isArray(parsed.corrections) ? parsed.corrections : [],
                 nativeUpgrade: parsed.nativeUpgrade || '',
-                fluencyScore: Number(parsed.fluencyScore) || 88,
-                grammarScore: Number(parsed.grammarScore) || 86,
-                vocabScore: Number(parsed.vocabScore) || 85,
+                fluencyScore: clampScore(parsed.fluencyScore),
+                grammarScore: clampScore(parsed.grammarScore),
+                vocabScore: clampScore(parsed.vocabScore),
+                evaluationMode: 'ai' as const,
+                remainingFreeTurns,
+                aiTokensBalance: remainingAiTokens,
                 suggestedPhrases: Array.isArray(parsed.suggestedPhrases)
                   ? parsed.suggestedPhrases
                   : [],
@@ -719,17 +845,20 @@ Respond ONLY with valid JSON (no markdown) matching:
           }
         }
       } catch {
-        // Fall through cleanly to local intelligent NLP coach
+        // Fall through cleanly to honest basic coaching mode
       }
     }
 
-    // 2. Smart Local NLP Grammar, Vocabulary & Context Coaching Engine
+    // 2. Honest Basic Rule-Based Coaching Fallback (no fake percentage scores)
     const words = cleanText.split(/\s+/).filter(Boolean);
     const wordCount = words.length;
 
     const grammarRules: { regex: RegExp; fix: string; replaceWith?: string }[] = [
       { regex: /\bi am agree\b/i, fix: 'Use "I agree" instead of "I am agree" (agree is a verb).', replaceWith: 'I agree' },
       { regex: /\b(he|she|it)\s+don'?t\b/i, fix: 'Use "doesn\'t" with he/she/it (e.g., "he doesn\'t").', replaceWith: '$1 doesn\'t' },
+      { regex: /\b(he|she|it)\s+are\b/i, fix: 'Use "is" with he/she/it (e.g., "he is").', replaceWith: '$1 is' },
+      { regex: /\bme\s+(go|went|going|want|like|have|think|need)\b/i, fix: 'Use "I" as the subject instead of "me" (e.g., "I go").', replaceWith: 'I $1' },
+      { regex: /\b(tomorrow\s+yesterday|yesterday\s+tomorrow)\b/i, fix: 'Avoid combining contradictory time words ("tomorrow" and "yesterday").' },
       { regex: /\bmore better\b/i, fix: 'Use "much better" instead of "more better".', replaceWith: 'much better' },
       { regex: /\b(go|went|going)\s+to\s+home\b/i, fix: 'Say "go home" / "went home" without "to".', replaceWith: '$1 home' },
       { regex: /\bdepend\s+of\b/i, fix: 'Use "depend on" instead of "depend of".', replaceWith: 'depend on' },
@@ -772,7 +901,7 @@ Respond ONLY with valid JSON (no markdown) matching:
         cleanText,
       );
 
-    // Extract a meaningful keyword from user's sentence to reply contextually!
+    // Extract a meaningful keyword from user's sentence to reply contextually
     const stopWords = new Set([
       'the', 'and', 'for', 'that', 'this', 'with', 'have', 'from', 'they', 'would',
       'about', 'there', 'their', 'what', 'when', 'where', 'which', 'really', 'very',
@@ -784,42 +913,33 @@ Respond ONLY with valid JSON (no markdown) matching:
         .find((w) => w.length >= 5 && !stopWords.has(w)) || '';
 
     const turnIdx = dto.turnIndex ?? 0;
-    const contextRef = keyTerm
-      ? `You raised an interesting point about "${keyTerm}".`
-      : `That's a thoughtful take on "${dto.topicTitle}".`;
+    const contextRef =
+      corrections.length > 0
+        ? `Let's polish that sentence first — check the grammar note below.`
+        : keyTerm
+        ? `You raised an interesting point about "${keyTerm}".`
+        : `Thanks for sharing your thought on "${dto.topicTitle}".`;
 
     const followUps = [
-      `${contextRef} Could you walk me through a real-life example or moment when you experienced that?`,
-      `${contextRef} On the other hand, what do you think is the toughest challenge someone faces in this situation?`,
-      `${contextRef} If you had to convince a colleague or friend who completely disagreed with you, what would be your strongest argument?`,
-      `${contextRef} Looking ahead 3 to 5 years, how do you expect this to evolve?`,
+      `${contextRef} Could you try expressing that with a real-life example?`,
+      `${contextRef} What do you think is the biggest challenge in this situation?`,
+      `${contextRef} How would you explain your view to a friend who disagrees?`,
+      `${contextRef} How do you expect this to change over the next few years?`,
     ];
 
-    let fluencyScore = 88;
-    let grammarScore = Math.max(68, 95 - corrections.length * 9);
-    let vocabScore = hasConnector ? 92 : 82;
     let tip = '';
-
-    if (wordCount < 8) {
-      tip = `Fluency Tip: You spoke ${wordCount} words. Aim for 15–25 words by adding "because..." or "for instance..." to sound more natural.`;
-      fluencyScore = 76;
-    } else if (corrections.length > 0) {
-      tip = `Precision Coach: ${corrections[0]}`;
-      fluencyScore = 86;
+    if (corrections.length > 0) {
+      tip = `Grammar Note: ${corrections[0]}`;
+    } else if (wordCount < 8) {
+      tip = `Fluency Tip: You spoke ${wordCount} words. Try expanding to 15–25 words using "because..." or "for example...".`;
     } else if (!hasConnector) {
-      tip = `Vocabulary Boost: Solid ${wordCount}-word answer! Try linking your next idea with "Furthermore," or "From my perspective."`;
-      fluencyScore = 90;
+      tip = `Structure Tip: Try linking your ideas with transitions like "However," "For example," or "From my perspective."`;
     } else {
-      tip = `Native-Level Flow: Awesome ${wordCount}-word response with strong grammar and discourse connectors!`;
-      fluencyScore = 96;
+      tip = `Good ${wordCount}-word response with linking phrases. Keep practicing out loud for natural rhythm.`;
     }
 
-    const nativeUpgrade =
-      upgradedSentence !== cleanText
-        ? upgradedSentence
-        : wordCount < 10
-        ? `From my perspective, ${cleanText.charAt(0).toLowerCase()}${cleanText.slice(1).replace(/\.$/, '')}, because it creates a lasting impact.`
-        : '';
+    // Only show a rewrite when an actual rule improved the sentence
+    const nativeUpgrade = upgradedSentence !== cleanText ? upgradedSentence : '';
 
     const suggestedPhrases = [
       'From my perspective, the main reason is...',
@@ -832,15 +952,27 @@ Respond ONLY with valid JSON (no markdown) matching:
       tip,
       corrections,
       nativeUpgrade,
-      fluencyScore,
-      grammarScore,
-      vocabScore,
+      evaluationMode: 'basic' as const,
+      remainingFreeTurns,
+      aiTokensBalance: remainingAiTokens,
       suggestedPhrases,
       wordCount,
     };
   }
 
   async getMemos(userId: string) {
+    const delegate = (this.prisma as any).partnerMemo;
+    if (delegate?.findMany) {
+      try {
+        const rows = await delegate.findMany({ where: { userId } });
+        return rows.map((r: any) => ({
+          userId: r.userId,
+          partnerId: r.partnerId,
+          memo: r.memo,
+          updatedAt: r.updatedAt.toISOString(),
+        }));
+      } catch {}
+    }
     return subscriptionStore.getUserMemos(userId);
   }
 
@@ -848,7 +980,28 @@ Respond ONLY with valid JSON (no markdown) matching:
     if (!partnerId || !partnerId.trim()) {
       throw new BadRequestException('partnerId is required');
     }
-    const saved = subscriptionStore.saveUserMemo(userId, partnerId.trim(), memo || '');
+    const cleanPartnerId = partnerId.trim();
+    const cleanMemo = (memo || '').trim().slice(0, 600);
+    const delegate = (this.prisma as any).partnerMemo;
+    if (delegate?.upsert) {
+      try {
+        const saved = await delegate.upsert({
+          where: { userId_partnerId: { userId, partnerId: cleanPartnerId } },
+          create: { userId, partnerId: cleanPartnerId, memo: cleanMemo },
+          update: { memo: cleanMemo },
+        });
+        return {
+          success: true,
+          memo: {
+            userId: saved.userId,
+            partnerId: saved.partnerId,
+            memo: saved.memo,
+            updatedAt: saved.updatedAt.toISOString(),
+          },
+        };
+      } catch {}
+    }
+    const saved = subscriptionStore.saveUserMemo(userId, cleanPartnerId, cleanMemo);
     return {
       success: true,
       memo: saved,
@@ -856,6 +1009,33 @@ Respond ONLY with valid JSON (no markdown) matching:
   }
 
   async getAcademyProgress(userId: string) {
+    const delegate = (this.prisma as any).academyProgress;
+    if (delegate?.findUnique) {
+      try {
+        const row = await delegate.findUnique({ where: { userId } });
+        if (row) {
+          return {
+            progress: {
+              userId: row.userId,
+              cefrLevel: row.cefrLevel,
+              placementCompleted: row.placementCompleted,
+              dailySpeakingGoalMins: row.dailySpeakingGoalMins,
+              learnedWordIds: row.learnedWordIds || [],
+              completedLessonIds: row.completedLessonIds || [],
+              completedReadingIds: row.completedReadingIds || [],
+              completedListeningIds: row.completedListeningIds || [],
+              completedShadowingIds: row.completedShadowingIds || [],
+              completedPronunciationIds: row.completedPronunciationIds || [],
+              dailyCompletedTaskIds: row.dailyCompletedTaskIds || [],
+              dailyDateKey: row.dailyDateKey || '',
+              scores: row.scores as any,
+              updatedAt: row.updatedAt.toISOString(),
+            },
+          };
+        }
+        return { progress: null };
+      } catch {}
+    }
     return {
       progress: subscriptionStore.getAcademyProgress(userId),
     };
@@ -869,7 +1049,7 @@ Respond ONLY with valid JSON (no markdown) matching:
         ? Math.max(0, Math.min(100, Math.round(n)))
         : fallback;
 
-    const saved = subscriptionStore.saveAcademyProgress(userId, {
+    const payload = {
       cefrLevel,
       placementCompleted: Boolean(body?.placementCompleted),
       dailySpeakingGoalMins:
@@ -903,12 +1083,93 @@ Respond ONLY with valid JSON (no markdown) matching:
         vocabulary: clamp(body?.scores?.vocabulary, 70),
         grammar: clamp(body?.scores?.grammar, 66),
       },
-    });
+    };
 
+    const delegate = (this.prisma as any).academyProgress;
+    if (delegate?.upsert) {
+      try {
+        const saved = await delegate.upsert({
+          where: { userId },
+          create: { userId, ...payload },
+          update: payload,
+        });
+        return {
+          success: true,
+          progress: {
+            ...payload,
+            userId: saved.userId,
+            updatedAt: saved.updatedAt.toISOString(),
+          },
+        };
+      } catch {}
+    }
+
+    const saved = subscriptionStore.saveAcademyProgress(userId, payload);
     return {
       success: true,
       progress: saved,
     };
+  }
+
+  private formatPublicLeaderboardName(user: { name?: string | null; email?: string | null }): string {
+    const raw = (user.name || '').trim();
+    if (raw) {
+      const parts = raw.split(/\s+/).filter(Boolean);
+      if (parts.length === 1) return parts[0];
+      return `${parts[0]} ${parts[1].charAt(0).toUpperCase()}.`;
+    }
+    if (user.email) {
+      const local = user.email.split('@')[0];
+      return local.slice(0, 12);
+    }
+    return 'Learner';
+  }
+
+  async changePassword(userId: string, currentPassword: string, newPassword: string) {
+    if (!currentPassword || !newPassword) {
+      throw new BadRequestException('Current password and new password are required.');
+    }
+    if (newPassword.length < 8) {
+      throw new BadRequestException('New password must be at least 8 characters long.');
+    }
+    const user = await this.prisma.user.findUnique({ where: { id: userId } });
+    if (!user) {
+      throw new NotFoundException('User not found');
+    }
+    const matches = await bcrypt.compare(currentPassword, user.password);
+    if (!matches) {
+      throw new UnauthorizedException('Current password is incorrect.');
+    }
+    const hashedPassword = await bcrypt.hash(newPassword, 10);
+    await this.prisma.user.update({
+      where: { id: userId },
+      data: { password: hashedPassword },
+    });
+    return { success: true, message: 'Password updated successfully.' };
+  }
+
+  async deleteOwnAccount(userId: string) {
+    const user = await this.prisma.user.findUnique({
+      where: { id: userId },
+      select: { id: true, email: true, phone: true },
+    });
+    if (!user) {
+      throw new NotFoundException('User not found');
+    }
+    const identifiersToClean: string[] = [];
+    if (user.email) identifiersToClean.push(user.email.trim().toLowerCase());
+    if (user.phone) identifiersToClean.push(user.phone.trim());
+    if (identifiersToClean.length > 0 && (this.prisma as any).otpCode?.deleteMany) {
+      await this.prisma.otpCode.deleteMany({
+        where: {
+          OR: identifiersToClean.map((identifier) => ({
+            identifier: { equals: identifier, mode: 'insensitive' },
+          })),
+        },
+      });
+    }
+    await this.prisma.user.delete({ where: { id: user.id } });
+    return { success: true, message: 'Account deleted permanently.' };
   }
 }
 

@@ -32,6 +32,9 @@ model User {
   blockedByUsers    UserBlock[]       @relation("BlockedUsers")
   buddies           UserBuddy[]       @relation("UserBuddies")
   buddyOf           UserBuddy[]       @relation("UserBuddyOf")
+  subscription      UserSubscription?
+  partnerMemos      PartnerMemo[]
+  academyProgress   AcademyProgress?
 
   @@index([phone])
   @@index([country])
@@ -121,4 +124,42 @@ model OtpCode {
 
   @@index([identifier])
   @@index([code])
+}
+
+model UserSubscription {
+  userId          String   @id
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  planTier        String   @default("FREE")
+  aiTokensBalance Int      @default(0)
+  updatedAt       DateTime @updatedAt
+}
+
+model PartnerMemo {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  partnerId String
+  memo      String
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, partnerId])
+  @@index([userId])
+}
+
+model AcademyProgress {
+  userId                    String   @id
+  user                      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cefrLevel                 String   @default("B1")
+  placementCompleted        Boolean  @default(false)
+  dailySpeakingGoalMins     Int      @default(21)
+  learnedWordIds            String[] @default([])
+  completedLessonIds        String[] @default([])
+  completedReadingIds       String[] @default([])
+  completedListeningIds     String[] @default([])
+  completedShadowingIds     String[] @default([])
+  completedPronunciationIds String[] @default([])
+  dailyCompletedTaskIds     String[] @default([])
+  dailyDateKey              String   @default("")
+  scores                    Json
+  updatedAt                 DateTime @updatedAt
 }
