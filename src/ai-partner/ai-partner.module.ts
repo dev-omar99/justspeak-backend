@@ -6,7 +6,7 @@ import { AiPartnerGateway } from './ai-partner.gateway';
 import { AiPartnerService } from './ai-partner.service';
 import { ClaudeService } from './claude.service';
 import { ConversationService } from './conversation.service';
-import { DeepgramService } from './deepgram.service';
+import { DeepgramPrerecordedService, DeepgramService } from './deepgram.service';
 import { TtsService } from './tts.service';
 
 @Module({
@@ -18,6 +18,7 @@ import { TtsService } from './tts.service';
     ClaudeService,
     ConversationService,
     DeepgramService,
+    DeepgramPrerecordedService,
     TtsService,
   ],
 })

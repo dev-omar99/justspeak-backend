@@ -62,8 +62,8 @@ describe('rubric parsing', () => {
       cefr_estimate: 'B1',
       dimensions: { grammar: 70, vocabulary: 80, fluency: 66, pronunciation: 90, interaction: 60 },
       metrics_echo: { student_speech_sec: 420, words_per_minute: 95, fillers_per_minute: 4, student_talk_ratio: 0.65 },
-      top_mistakes: [
-        { said: 'I goed to work', better: 'I went to work', rule: 'past simple of go' },
+      corrections: [
+        { said: 'I goed to work', better: 'I went to work', rule: 'past simple of go', explanation_ar: 'تصحيح' },
         { said: '', better: 'x', rule: 'no quote' },
       ],
       strengths: ['Clear answers'],
@@ -73,7 +73,7 @@ describe('rubric parsing', () => {
     const report = parseSessionReport(raw);
     expect(report).not.toBeNull();
     expect(report!.overall_score).toBe(74);
-    expect(report!.top_mistakes).toHaveLength(1);
+    expect(report!.corrections).toHaveLength(1);
     expect(report!.status).toBe('OK');
   });
 

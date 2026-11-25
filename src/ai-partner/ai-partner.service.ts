@@ -17,8 +17,11 @@ import {
 import {
   FEEDBACK_RUBRIC_PROMPT,
   SessionReport,
+  insufficientReport,
   parseSessionReport,
 } from './content/rubric';
+import { DeepgramPrerecordedService } from './deepgram.service';
+import { getLesson } from './content/course';
 import { StartSessionDto } from './dto';
 
 export type AiPartnerMode = 'free-talk' | 'interview' | 'lesson';
@@ -39,6 +42,7 @@ export class AiPartnerService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly claude: ClaudeService,
+    private readonly prerecorded: DeepgramPrerecordedService,
   ) {}
 
   assertEnabled(): void {
@@ -175,42 +179,15 @@ export class AiPartnerService {
 
     let report: SessionReport | null = null;
     if (studentSpeechSec < 180) {
-      report = {
-        status: 'INSUFFICIENT_DATA',
-        overall_score: 0,
-        cefr_estimate: '',
-        dimensions: { grammar: 0, vocabulary: 0, fluency: 0, pronunciation: 0, interaction: 0 },
-        metrics_echo: {
-          student_speech_sec: studentSpeechSec,
-          words_per_minute: Number(metrics['words_per_minute'] ?? 0),
-          fillers_per_minute: Number(metrics['fillers_per_minute'] ?? 0),
-          student_talk_ratio: Number(metrics['student_talk_ratio'] ?? 0),
-        },
-        top_mistakes: [],
-        strengths: [],
-        next_focus: 'Try a longer session (at least 3 minutes of speaking) to get your full report.',
-        suggested_lessons: [],
-      };
+      report = insufficientReport(metrics);
     } else {
-      const transcriptText = transcript
-        .map((turn) => `${turn.role === 'user' ? 'STUDENT' : 'PARTNER'}: ${turn.text}`)
-        .join('\n');
-      const prompt =
-        `Student declared level: ${session.level}. Mode: ${session.mode}.\n\n` +
-        `METRICS JSON:\n${JSON.stringify(metrics, null, 2)}\n\n` +
-        `TRANSCRIPT:\n${transcriptText}\n\n` +
-        `Score this session by the rubric. Respond with the JSON object only.`;
-      try {
-        const raw = await this.claude.complete({
-          model: feedbackModel(),
-          system: FEEDBACK_RUBRIC_PROMPT,
-          prompt,
-          maxTokens: 1500,
-        });
-        report = parseSessionReport(raw);
-      } catch (err) {
-        this.logger.warn(`Report generation failed for ${sessionId}: ${(err as Error).message}`);
-      }
+      report = await this.buildModelReport(
+        session.level,
+        session.mode,
+        transcript,
+        metrics,
+        session.lessonId,
+      );
     }
 
     if (!report) {
@@ -241,7 +218,7 @@ export class AiPartnerService {
       prompt:
         `This is a LEVEL PLACEMENT session. Estimate the student's CEFR level.\n\n` +
         `METRICS JSON:\n${JSON.stringify(metrics, null, 2)}\n\nTRANSCRIPT:\n${transcriptText}`,
-      maxTokens: 1500,
+      maxTokens: 3000,
     });
     const report = parseSessionReport(raw);
     if (!report) {
@@ -252,6 +229,235 @@ export class AiPartnerService {
       data: { report: report as any, reportModel: placementModel() },
     });
     return report;
+  }
+
+
+  /** Shared model call for session reports (feedback model). */
+  private async buildModelReport(
+    level: string,
+    mode: string,
+    transcript: { role: string; text: string }[],
+    metrics: Record<string, unknown>,
+    lessonId?: string | null,
+  ): Promise<SessionReport | null> {
+    const transcriptText = transcript
+      .map((turn) => `${turn.role === 'user' ? 'STUDENT' : 'PARTNER'}: ${turn.text}`)
+      .join('\n');
+    let lessonContext = '';
+    if (mode === 'lesson' && lessonId) {
+      const lesson = getLesson(lessonId);
+      if (lesson) {
+        lessonContext =
+          `LESSON CONTEXT: this was lesson "${lesson.title}" (${lesson.halfLevel}). ` +
+          `Goal: ${lesson.goal}. Target language: ${lesson.targetLanguage.join('; ')}. ` +
+          `Assess the lesson_result against this goal and target language.\n\n`;
+      }
+    }
+    const prompt =
+      `Student declared level: ${level}. Mode: ${mode}.\n\n` +
+      lessonContext +
+      `METRICS JSON:\n${JSON.stringify(metrics, null, 2)}\n\n` +
+      `TRANSCRIPT:\n${transcriptText}\n\n` +
+      `Score this session by the rubric. Respond with the JSON object only.`;
+    try {
+      const raw = await this.claude.complete({
+        model: feedbackModel(),
+        system: FEEDBACK_RUBRIC_PROMPT,
+        prompt,
+        maxTokens: 3000,
+      });
+      return parseSessionReport(raw);
+    } catch (err) {
+      this.logger.warn(`Report generation failed: ${(err as Error).message}`);
+      return null;
+    }
+  }
+
+  /**
+   * Weekly progress dashboard: per-week aggregates over the last 8 weeks
+   * plus current level, streak and the most frequent correction rules.
+   */
+  async getDashboard(userId: string) {
+    this.assertEnabled();
+    const since = new Date(Date.now() - 56 * 24 * 60 * 60 * 1000);
+    const sessions = await this.prisma.aiPartnerSession.findMany({
+      where: { userId, status: 'finished', createdAt: { gte: since } },
+      orderBy: { createdAt: 'asc' },
+      select: { createdAt: true, durationSec: true, metrics: true, report: true },
+    });
+
+    const weekMs = 7 * 24 * 60 * 60 * 1000;
+    const weekStart = (d: Date) => {
+      const t = new Date(d);
+      t.setHours(0, 0, 0, 0);
+      t.setDate(t.getDate() - t.getDay());
+      return t.toISOString().slice(0, 10);
+    };
+
+    const weeks = new Map<
+      string,
+      { week: string; sessions: number; minutes: number; scores: number[]; wpm: number[] }
+    >();
+    const ruleCounts = new Map<string, number>();
+    let latestCefr = '';
+    let totalMinutes = 0;
+    let lastSessionAt: string | null = null;
+
+    for (const session of sessions) {
+      const key = weekStart(session.createdAt);
+      if (!weeks.has(key)) {
+        weeks.set(key, { week: key, sessions: 0, minutes: 0, scores: [], wpm: [] });
+      }
+      const bucket = weeks.get(key)!;
+      bucket.sessions += 1;
+      const minutes = session.durationSec / 60;
+      bucket.minutes += minutes;
+      totalMinutes += minutes;
+      lastSessionAt = session.createdAt.toISOString();
+
+      const metrics = (session.metrics as Record<string, unknown>) ?? {};
+      const wpm = Number(metrics['words_per_minute']);
+      if (wpm > 0) bucket.wpm.push(wpm);
+
+      const report = session.report as unknown as SessionReport | null;
+      if (report && report.status === 'OK') {
+        bucket.scores.push(report.overall_score);
+        if (report.cefr_estimate) latestCefr = report.cefr_estimate;
+        for (const correction of report.corrections ?? []) {
+          if (correction.rule) {
+            ruleCounts.set(correction.rule, (ruleCounts.get(correction.rule) ?? 0) + 1);
+          }
+        }
+      }
+    }
+
+    // Always return the last 8 week buckets, even empty ones.
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    now.setDate(now.getDate() - now.getDay());
+    const weekly: {
+      week: string;
+      sessions: number;
+      minutes: number;
+      avg_score: number | null;
+      avg_wpm: number | null;
+    }[] = [];
+    for (let i = 7; i >= 0; i--) {
+      const start = new Date(now.getTime() - i * weekMs);
+      const key = start.toISOString().slice(0, 10);
+      const bucket = weeks.get(key);
+      weekly.push({
+        week: key,
+        sessions: bucket?.sessions ?? 0,
+        minutes: Math.round((bucket?.minutes ?? 0) * 10) / 10,
+        avg_score:
+          bucket && bucket.scores.length
+            ? Math.round(bucket.scores.reduce((a, b) => a + b, 0) / bucket.scores.length)
+            : null,
+        avg_wpm:
+          bucket && bucket.wpm.length
+            ? Math.round(bucket.wpm.reduce((a, b) => a + b, 0) / bucket.wpm.length)
+            : null,
+      });
+    }
+
+    const topWeaknesses = [...ruleCounts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([rule, count]) => ({ rule, count }));
+
+    return {
+      total_sessions: sessions.length,
+      total_minutes: Math.round(totalMinutes * 10) / 10,
+      last_session_at: lastSessionAt,
+      cefr_estimate: latestCefr,
+      weekly,
+      top_weaknesses: topWeaknesses,
+    };
+  }
+
+  /**
+   * Upload analysis: transcribe an audio file (Deepgram prerecorded),
+   * build metrics, store it as a finished upload session and score it
+   * with the same honest rubric. Consumes one session of quota.
+   */
+  async analyzeUpload(userId: string, file: { buffer: Buffer; mimetype: string; originalname: string }) {
+    this.assertEnabled();
+    const quota = await this.getQuota(userId);
+    if (quota.remaining <= 0) {
+      throw new ForbiddenException(
+        quota.kind === 'lifetime'
+          ? 'You used all free AI sessions. Upgrade to keep practising.'
+          : 'You reached today\'s AI session limit. Come back tomorrow.',
+      );
+    }
+
+    const user = await this.prisma.user.findUnique({
+      where: { id: userId },
+      select: { englishLevel: true },
+    });
+
+    let result;
+    try {
+      result = await this.prerecorded.transcribe(file.buffer, file.mimetype);
+    } catch (err) {
+      throw new ServiceUnavailableException(
+        `Could not transcribe this file: ${(err as Error).message}`,
+      );
+    }
+    if (!result.transcript.trim()) {
+      throw new ServiceUnavailableException(
+        'No speech was found in this file. Try a clearer recording.',
+      );
+    }
+
+    const words = result.words.length || result.transcript.split(/\s+/).filter(Boolean).length;
+    const speechMinutes = result.durationSec / 60;
+    const avgConfidence = result.words.length
+      ? result.words.reduce((sum, w) => sum + w.confidence, 0) / result.words.length
+      : 0;
+    const metrics: Record<string, unknown> = {
+      student_speech_sec: Math.round(result.durationSec),
+      words_per_minute: speechMinutes > 0 ? Math.round(words / speechMinutes) : 0,
+      fillers_per_minute: 0,
+      student_talk_ratio: 1,
+      avg_stt_confidence: Math.round(avgConfidence * 100) / 100,
+      filler_count: 0,
+      turns: 1,
+      source: 'upload',
+      filename: file.originalname.slice(0, 120),
+    };
+    const transcript = [{ role: 'user', text: result.transcript, at: Date.now() }];
+
+    const session = await this.prisma.aiPartnerSession.create({
+      data: {
+        userId,
+        mode: 'upload',
+        personaId: 'tutor',
+        level: user?.englishLevel || 'B1',
+        status: 'finished',
+        endedAt: new Date(),
+        durationSec: Math.round(result.durationSec),
+        transcript: transcript as any,
+        facts: [],
+        metrics: metrics as any,
+      },
+    });
+
+    const report =
+      result.durationSec < 180
+        ? insufficientReport(metrics)
+        : await this.buildModelReport(session.level, 'upload', transcript, metrics);
+    if (!report) {
+      throw new ServiceUnavailableException(
+        'Could not generate the report right now. Please try again in a moment.',
+      );
+    }
+    await this.prisma.aiPartnerSession.update({
+      where: { id: session.id },
+      data: { report: report as any, reportModel: feedbackModel() },
+    });
+    return { sessionId: session.id, report };
   }
 
   async listSessions(userId: string, limit = 20) {

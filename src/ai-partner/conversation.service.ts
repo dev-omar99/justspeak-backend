@@ -67,6 +67,7 @@ export class LiveSession {
       level: string;
       fieldId?: string | null;
       lessonId?: string | null;
+      topicSeed?: string;
       emit: LiveSessionEmit;
       deepgramService: DeepgramService;
       claude: ClaudeService;
@@ -192,6 +193,10 @@ export class LiveSession {
       if (lesson) {
         context += `\n\nYou are running lesson "${lesson.title}". Goal: ${lesson.goal}. Follow the lesson skeleton: warm-up (${lesson.warmup}), target phrases (${lesson.targetLanguage.join('; ')}), a guided dialogue, a roleplay (${lesson.roleplay}), free practice, then a 3-question spoken quiz. One step at a time, at the student's pace.`;
       }
+    }
+
+    if (this.opts.topicSeed && this.opts.mode === 'free-talk') {
+      context += `\n\nThe student chose to practise this exact question: "${this.opts.topicSeed}". Open the conversation by asking it naturally, then follow their answers as usual.`;
     }
 
     if (this.facts.length) {
@@ -382,6 +387,7 @@ export class ConversationService {
     level: string;
     fieldId?: string | null;
     lessonId?: string | null;
+    topicSeed?: string;
     emit: LiveSessionEmit;
   }): Promise<LiveSession> {
     const persona = getPersona(params.personaId);
@@ -394,6 +400,7 @@ export class ConversationService {
       level: params.level,
       fieldId: params.fieldId,
       lessonId: params.lessonId,
+      topicSeed: params.topicSeed,
       emit: params.emit,
       deepgramService: this.deepgramService,
       claude: this.claude,

@@ -111,7 +111,7 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
   @SubscribeMessage('start-session')
   async startSession(
     @ConnectedSocket() client: Socket,
-    @MessageBody() body: { sessionId?: string },
+    @MessageBody() body: { sessionId?: string; topicSeed?: string },
   ) {
     const userId = (client.data as any).userId as string;
     const sessionId = body?.sessionId;
@@ -149,6 +149,7 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
       level: session.level,
       fieldId: session.fieldId,
       lessonId: session.lessonId,
+      topicSeed: typeof body.topicSeed === 'string' ? body.topicSeed.slice(0, 300) : undefined,
       emit: (event, ...args) => client.emit(event, ...args),
     });
   }

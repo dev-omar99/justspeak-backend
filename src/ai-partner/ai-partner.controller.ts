@@ -1,4 +1,5 @@
 import {
+  BadRequestException,
   Body,
   Controller,
   Get,
@@ -7,7 +8,10 @@ import {
   Query,
   Req,
   UseGuards,
+  UploadedFile,
+  UseInterceptors,
 } from '@nestjs/common';
+import { FileInterceptor } from '@nestjs/platform-express';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { AiPartnerService } from './ai-partner.service';
@@ -70,6 +74,24 @@ export class AiPartnerController {
   @ApiOperation({ summary: 'One session with transcript, metrics and report' })
   get(@Req() req: any, @Param('id') id: string) {
     return this.aiPartner.getOwnedSession(id, req.user.sub);
+  }
+
+  @Get('dashboard')
+  @ApiOperation({ summary: 'Weekly progress dashboard: sessions, minutes, scores, weaknesses' })
+  dashboard(@Req() req: any) {
+    return this.aiPartner.getDashboard(req.user.sub);
+  }
+
+  @Post('sessions/upload')
+  @ApiOperation({ summary: 'Analyse an uploaded audio recording like a session' })
+  @UseInterceptors(
+    FileInterceptor('file', { limits: { fileSize: 25 * 1024 * 1024 } }),
+  )
+  upload(@Req() req: any, @UploadedFile() file?: { buffer: Buffer; mimetype: string; originalname: string }) {
+    if (!file || !file.buffer?.length) {
+      throw new BadRequestException('Attach an audio file as multipart field "file".');
+    }
+    return this.aiPartner.analyzeUpload(req.user.sub, file);
   }
 
   @Post('sessions/:id/report')

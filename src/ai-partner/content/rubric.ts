@@ -1,11 +1,15 @@
 /**
- * JustSpeak AI Partner - feedback and scoring rubric (v1).
+ * JustSpeak AI Partner - feedback and scoring rubric (v2).
  * Used by the post-session report generator (Claude Sonnet) and the
  * placement-level check (Claude Opus). Input is the full transcript plus
  * the metrics JSON computed from the Deepgram stream.
+ *
+ * v2 adds the Yoodli-parity fields: coaching cards with quoted evidence,
+ * per-sentence corrections with clear Modern Standard Arabic explanations, recasts,
+ * follow-up questions and practice drills.
  */
 
-export const FEEDBACK_RUBRIC_PROMPT = `You are the JustSpeak speaking assessor. You receive the full transcript of a live English practice session and a metrics JSON computed from the audio stream. Score honestly.
+export const FEEDBACK_RUBRIC_PROMPT = `You are the JustSpeak speaking assessor: an expert in second-language acquisition who understands how English grammar, usage and CEFR levels actually work, and how Arabic-speaking learners in particular progress. You receive the full transcript of an English practice session and a metrics JSON computed from the audio stream. Score honestly, coach warmly, and prove every claim with the student's own words. Your judgments must reflect real language pedagogy: distinguish errors that block meaning from slips, credit risk-taking with new language, and never treat a beginner like an advanced speaker.
 
 DIMENSIONS (each scored 0 to 100, with evidence)
 
@@ -39,6 +43,9 @@ DIMENSIONS (each scored 0 to 100, with evidence)
    70-89: answers fully but rarely asks back.
    50-69: minimal answers, needs constant prompting.
 
+LEVEL-RELATIVE SCORING
+   Every session belongs to a level (A1 to C2, half-levels included). Score the student AGAINST that level's expectations, not against native speech: a B1 student using correct past simple and some linking words is a strong B1, even if the language is simple. In each dimension, expect the grammar, vocabulary and structures that the level's syllabus teaches. A session run as a lesson must also be assessed against that lesson's goal and target language (the prompt names them); a session run as a level check (placement) must estimate which level the performance matches.
+
 CEFR ESTIMATE
    Map the overall score to a level estimate relative to the student's declared level:
    85+ suggest testing one level up; 60-84 on track; 40-59 consolidate current level; below 40 suggest one level down.
@@ -46,14 +53,35 @@ CEFR ESTIMATE
 
 HONESTY RULES (non-negotiable)
    - Never inflate a score to please the student.
-   - Every reported mistake must quote the student's exact words from the transcript. If you cannot quote it, do not report it.
-   - If student speech totals under 3 minutes, do not score. Return status INSUFFICIENT_DATA with a friendly note to try a longer session.
+   - Every correction, coaching card quote and recast must quote the student's exact words from the transcript. If you cannot quote it, do not report it.
+   - If student speech totals under 3 minutes, do not score. Return status INSUFFICIENT_DATA with a friendly note in next_focus.
+
+CORRECTIONS (this is what makes JustSpeak different)
+   - Find the student's real grammar mistakes. For each: quote the exact sentence (said), give the corrected version (better), name the rule in one short English line (rule), and explain the rule in clear Modern Standard Arabic (explanation_ar): simple, correct فصحى مبسطة that any Arabic speaker understands, the way a skilled teacher explains it, two short sentences at most. Never Egyptian dialect, never transliteration.
+   - Common Egyptian-learner patterns to watch for: "I am agree", "she don't", "afraid from", "since/for confusion" ("living here since 3 years"), present perfect with past simple, "informations/advices", "explain me", "discuss about", missing third-person -s, "I am study" for "I am studying".
+   - Up to 5 corrections, most important first. Only real quotes.
+
+RECASTS
+   - Pick up to 3 sentences the student said that were understandable but unnatural, and rewrite each the way a native speaker would say the same idea (natural). Quote the original exactly (said).
+
+COACHING CARDS
+   - strength_card: the single best thing the student did, with an exact quote proving it.
+   - growth_area: the one pattern that limits them most, with an exact quote showing it, and concrete advice (detail).
+   - tone: 1 to 3 short chips such as Friendly, Nervous, Confident, Hesitant, Enthusiastic.
+   - conciseness_note: one line on whether answers were the right length, with one tighter rewrite of something they said if useful.
+
+FOLLOW-UP QUESTIONS
+   - 3 questions that naturally continue this conversation and would stretch the student's English. They will be offered as practice starters.
+
+DRILLS
+   - 3 short spoken drills targeting the corrections above. Each has a title, a one-line instruction, and one example answer. Make them doable in under a minute each.
 
 Respond ONLY with valid JSON (no markdown fences) matching exactly:
 {
   "status": "OK" or "INSUFFICIENT_DATA",
   "overall_score": 0,
   "cefr_estimate": "B1",
+  "summary": "2-3 sentences: how the session went, in plain warm English",
   "dimensions": {
     "grammar": 0,
     "vocabulary": 0,
@@ -67,18 +95,57 @@ Respond ONLY with valid JSON (no markdown fences) matching exactly:
     "fillers_per_minute": 0,
     "student_talk_ratio": 0.0
   },
-  "top_mistakes": [
-    { "said": "exact quote", "better": "corrected version", "rule": "one-line explanation" }
+  "corrections": [
+    { "said": "exact quote", "better": "corrected version", "rule": "one-line English rule", "explanation_ar": "شرح قصير بالعربية الفصحى المبسطة" }
+  ],
+  "recasts": [
+    { "said": "exact quote", "natural": "how a native would say it" }
   ],
   "strengths": ["one line each"],
+  "coaching": {
+    "strength_card": { "title": "short label", "quote": "exact quote", "detail": "why it works" },
+    "growth_area": { "title": "short label", "quote": "exact quote", "detail": "what to do instead" },
+    "tone": ["Friendly"],
+    "conciseness_note": "one line"
+  },
+  "follow_up_questions": ["question 1", "question 2", "question 3"],
+  "lesson_result": { "goal_met": "yes | partly | no", "note": "one line: how the student did against this lesson's goal and target phrases (lesson sessions only; omit for other modes)" },
+  "drills": [
+    { "title": "short label", "instruction": "one line", "example": "one example answer" }
+  ],
   "next_focus": "the single most useful thing to practise next",
   "suggested_lessons": ["lesson ids from the course map, or empty array"]
 }`;
+
+export interface ReportCorrection {
+  said: string;
+  better: string;
+  rule: string;
+  explanation_ar: string;
+}
+
+export interface ReportRecast {
+  said: string;
+  natural: string;
+}
+
+export interface CoachingCard {
+  title: string;
+  quote: string;
+  detail: string;
+}
+
+export interface ReportDrill {
+  title: string;
+  instruction: string;
+  example: string;
+}
 
 export interface SessionReport {
   status: 'OK' | 'INSUFFICIENT_DATA';
   overall_score: number;
   cefr_estimate: string;
+  summary: string;
   dimensions: {
     grammar: number;
     vocabulary: number;
@@ -92,8 +159,18 @@ export interface SessionReport {
     fillers_per_minute: number;
     student_talk_ratio: number;
   };
-  top_mistakes: { said: string; better: string; rule: string }[];
+  corrections: ReportCorrection[];
+  recasts: ReportRecast[];
   strengths: string[];
+  coaching: {
+    strength_card: CoachingCard;
+    growth_area: CoachingCard;
+    tone: string[];
+    conciseness_note: string;
+  };
+  follow_up_questions: string[];
+  lesson_result?: { goal_met: string; note: string };
+  drills: ReportDrill[];
   next_focus: string;
   suggested_lessons: string[];
 }
@@ -102,6 +179,20 @@ export function clampScore(value: unknown): number {
   const num = typeof value === 'number' ? value : Number(value);
   if (Number.isNaN(num)) return 0;
   return Math.max(0, Math.min(100, Math.round(num)));
+}
+
+function asStringArray(value: unknown, max: number): string[] {
+  return Array.isArray(value)
+    ? value.filter((s): s is string => typeof s === 'string' && !!s.trim()).slice(0, max)
+    : [];
+}
+
+function asCard(value: any): CoachingCard {
+  return {
+    title: typeof value?.title === 'string' ? value.title : '',
+    quote: typeof value?.quote === 'string' ? value.quote : '',
+    detail: typeof value?.detail === 'string' ? value.detail : '',
+  };
 }
 
 /** Parse and sanitise the model's JSON reply into a SessionReport. */
@@ -118,10 +209,12 @@ export function parseSessionReport(rawText: string): SessionReport | null {
   const status = parsed.status === 'INSUFFICIENT_DATA' ? 'INSUFFICIENT_DATA' : 'OK';
   const dims = parsed.dimensions ?? {};
   const metrics = parsed.metrics_echo ?? {};
+  const coaching = parsed.coaching ?? {};
   return {
     status,
     overall_score: clampScore(parsed.overall_score),
     cefr_estimate: typeof parsed.cefr_estimate === 'string' ? parsed.cefr_estimate : '',
+    summary: typeof parsed.summary === 'string' ? parsed.summary : '',
     dimensions: {
       grammar: clampScore(dims.grammar),
       vocabulary: clampScore(dims.vocabulary),
@@ -135,22 +228,97 @@ export function parseSessionReport(rawText: string): SessionReport | null {
       fillers_per_minute: Number(metrics.fillers_per_minute) || 0,
       student_talk_ratio: Number(metrics.student_talk_ratio) || 0,
     },
-    top_mistakes: Array.isArray(parsed.top_mistakes)
-      ? parsed.top_mistakes
+    corrections: Array.isArray(parsed.corrections)
+      ? parsed.corrections
           .filter((m: any) => m && typeof m.said === 'string' && m.said.trim())
           .slice(0, 5)
           .map((m: any) => ({
             said: String(m.said),
             better: typeof m.better === 'string' ? m.better : '',
             rule: typeof m.rule === 'string' ? m.rule : '',
+            explanation_ar: typeof m.explanation_ar === 'string' ? m.explanation_ar : '',
           }))
       : [],
-    strengths: Array.isArray(parsed.strengths)
-      ? parsed.strengths.filter((s: any) => typeof s === 'string').slice(0, 5)
+    recasts: Array.isArray(parsed.recasts)
+      ? parsed.recasts
+          .filter((r: any) => r && typeof r.said === 'string' && r.said.trim())
+          .slice(0, 3)
+          .map((r: any) => ({
+            said: String(r.said),
+            natural: typeof r.natural === 'string' ? r.natural : '',
+          }))
+      : [],
+    strengths: asStringArray(parsed.strengths, 5),
+    coaching: {
+      strength_card: asCard(coaching.strength_card),
+      growth_area: asCard(coaching.growth_area),
+      tone: asStringArray(coaching.tone, 3),
+      conciseness_note:
+        typeof coaching.conciseness_note === 'string' ? coaching.conciseness_note : '',
+    },
+    follow_up_questions: asStringArray(parsed.follow_up_questions, 3),
+    lesson_result:
+      parsed.lesson_result && typeof parsed.lesson_result === 'object'
+        ? {
+            goal_met: typeof parsed.lesson_result.goal_met === 'string' ? parsed.lesson_result.goal_met : '',
+            note: typeof parsed.lesson_result.note === 'string' ? parsed.lesson_result.note : '',
+          }
+        : undefined,
+    drills: Array.isArray(parsed.drills)
+      ? parsed.drills
+          .filter((d: any) => d && typeof d.title === 'string' && d.title.trim())
+          .slice(0, 3)
+          .map((d: any) => ({
+            title: String(d.title),
+            instruction: typeof d.instruction === 'string' ? d.instruction : '',
+            example: typeof d.example === 'string' ? d.example : '',
+          }))
       : [],
     next_focus: typeof parsed.next_focus === 'string' ? parsed.next_focus : '',
-    suggested_lessons: Array.isArray(parsed.suggested_lessons)
-      ? parsed.suggested_lessons.filter((s: any) => typeof s === 'string')
-      : [],
+    suggested_lessons: asStringArray(parsed.suggested_lessons, 5),
   };
+}
+
+/** The no-score answer for sessions with too little student speech. */
+export function insufficientReport(metrics: Record<string, unknown>): SessionReport {
+  return {
+    status: 'INSUFFICIENT_DATA',
+    overall_score: 0,
+    cefr_estimate: '',
+    summary: '',
+    dimensions: { grammar: 0, vocabulary: 0, fluency: 0, pronunciation: 0, interaction: 0 },
+    metrics_echo: {
+      student_speech_sec: Number(metrics['student_speech_sec'] ?? 0),
+      words_per_minute: Number(metrics['words_per_minute'] ?? 0),
+      fillers_per_minute: Number(metrics['fillers_per_minute'] ?? 0),
+      student_talk_ratio: Number(metrics['student_talk_ratio'] ?? 0),
+    },
+    corrections: [],
+    recasts: [],
+    strengths: [],
+    coaching: {
+      strength_card: { title: '', quote: '', detail: '' },
+      growth_area: { title: '', quote: '', detail: '' },
+      tone: [],
+      conciseness_note: '',
+    },
+    follow_up_questions: [],
+    drills: [],
+    next_focus: 'Try a longer session (at least 3 minutes of speaking) to get your full report.',
+    suggested_lessons: [],
+  };
+}
+
+/** Per-word filler counts, computed from the transcript (never the model). */
+export function countFillersByWord(text: string): { word: string; count: number }[] {
+  const counts = new Map<string, number>();
+  const pattern = /\b(um+|uh+|er+|erm|like|you know|actually|basically|literally)\b/gi;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(text)) !== null) {
+    const word = match[1].toLowerCase();
+    counts.set(word, (counts.get(word) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([word, count]) => ({ word, count }))
+    .sort((a, b) => b.count - a.count);
 }

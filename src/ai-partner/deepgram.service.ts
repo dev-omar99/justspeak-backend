@@ -34,6 +34,58 @@ export class DeepgramService {
   }
 }
 
+
+export interface PrerecordedResult {
+  transcript: string;
+  durationSec: number;
+  words: { word: string; start: number; end: number; confidence: number }[];
+}
+
+@Injectable()
+export class DeepgramPrerecordedService {
+  private readonly logger = new Logger('AiPartnerDeepgramPrerecorded');
+
+  /** Transcribe an uploaded audio file with Deepgram's prerecorded API. */
+  async transcribe(buffer: Buffer, mimetype: string): Promise<PrerecordedResult> {
+    const key = deepgramApiKey();
+    if (!key) throw new Error('DEEPGRAM_API_KEY is not configured');
+    const params = new URLSearchParams({
+      model: 'nova-3',
+      language: 'en',
+      smart_format: 'true',
+      utterances: 'true',
+    });
+    const response = await fetch(`https://api.deepgram.com/v1/listen?${params}`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Token ${key}`,
+        'Content-Type': mimetype || 'application/octet-stream',
+      },
+      body: new Uint8Array(buffer),
+    });
+    if (!response.ok) {
+      const text = await response.text().catch(() => '');
+      this.logger.warn(`Prerecorded transcription failed: ${response.status} ${text.slice(0, 200)}`);
+      throw new Error(`Transcription failed (${response.status})`);
+    }
+    const data = (await response.json()) as any;
+    const channel = data?.results?.channels?.[0];
+    const alt = channel?.alternatives?.[0];
+    return {
+      transcript: (alt?.transcript as string) ?? '',
+      durationSec: Number(data?.metadata?.duration) || 0,
+      words: Array.isArray(alt?.words)
+        ? alt.words.map((w: any) => ({
+            word: String(w.punctuated_word ?? w.word ?? ''),
+            start: Number(w.start) || 0,
+            end: Number(w.end) || 0,
+            confidence: Number(w.confidence) || 0,
+          }))
+        : [],
+    };
+  }
+}
+
 export class DeepgramStream {
   private ws: WebSocket | null = null;
   private opened = false;
