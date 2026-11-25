@@ -1125,6 +1125,110 @@ Respond ONLY with valid JSON (no markdown) matching:
     return 'Learner';
   }
 
+  async translateCustomWord(rawInput: string) {
+    const clean = (rawInput || '').trim().slice(0, 120);
+    if (!clean) {
+      throw new BadRequestException('Please enter a word or phrase to translate.');
+    }
+
+    const isArabicInput = /[\u0600-\u06FF]/.test(clean);
+    const geminiKey = process.env.GEMINI_API_KEY?.trim();
+
+    if (geminiKey && process.env.NODE_ENV !== 'test') {
+      try {
+        const prompt = `You are a precise English-Arabic dictionary assistant for English learners.
+Input (${isArabicInput ? 'Arabic' : 'English'}): "${clean}"
+Return ONLY valid JSON (no markdown) matching:
+{
+  "word": "Natural English word or short phrase (capitalized properly if needed, otherwise lowercase)",
+  "meaningAr": "Clear, natural Arabic translation",
+  "meaningEn": "Short, clear English learner definition (max 18 words)",
+  "example": "One natural everyday English example sentence using the English word",
+  "ipa": "Approximate IPA pronunciation like /rɪˈzɪl.jənt/ or empty string if a phrase",
+  "pos": "noun | verb | adjective | adverb | phrase",
+  "level": "A1 | A2 | B1 | B2 | C1 | C2"
+}`;
+        const res = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${encodeURIComponent(geminiKey)}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.2, maxOutputTokens: 250 },
+            }),
+          },
+        );
+        if (res.ok) {
+          const data: any = await res.json();
+          const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+          const jsonMatch = rawText.match(/\{[\s\S]*\}/);
+          if (jsonMatch) {
+            const parsed = JSON.parse(jsonMatch[0]);
+            if (parsed?.word && parsed?.meaningAr) {
+              const validLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+              return {
+                word: String(parsed.word).trim(),
+                meaningAr: String(parsed.meaningAr).trim(),
+                meaningEn:
+                  String(parsed.meaningEn || '').trim() ||
+                  `English equivalent of "${clean}".`,
+                example:
+                  String(parsed.example || '').trim() ||
+                  `I want to use "${String(parsed.word).trim()}" in my next conversation.`,
+                ipa: String(parsed.ipa || '').trim(),
+                pos: String(parsed.pos || 'word').trim(),
+                level: validLevels.includes(parsed.level) ? parsed.level : 'B1',
+                sourceLang: isArabicInput ? 'ar' : 'en',
+              };
+            }
+          }
+        }
+      } catch {
+        // Fall through to public dictionary translation fallback
+      }
+    }
+
+    // Fallback: MyMemory free translation API (EN <-> AR)
+    if (process.env.NODE_ENV !== 'test') {
+      try {
+        const langpair = isArabicInput ? 'ar|en' : 'en|ar';
+        const mmRes = await fetch(
+          `https://api.mymemory.translated.net/get?q=${encodeURIComponent(clean)}&langpair=${encodeURIComponent(langpair)}`,
+        );
+        if (mmRes.ok) {
+          const mmData: any = await mmRes.json();
+          const translated = String(mmData?.responseData?.translatedText || '').trim();
+          if (translated && translated.toLowerCase() !== clean.toLowerCase()) {
+            const englishWord = isArabicInput ? translated : clean;
+            const arabicMeaning = isArabicInput ? clean : translated;
+            return {
+              word: englishWord,
+              meaningAr: arabicMeaning,
+              meaningEn: `Personal vocabulary item (${englishWord}).`,
+              example: `Try using "${englishWord}" in a sentence during your next speaking call.`,
+              ipa: '',
+              pos: englishWord.includes(' ') ? 'phrase' : 'word',
+              level: 'B1',
+              sourceLang: isArabicInput ? 'ar' : 'en',
+            };
+          }
+        }
+      } catch {}
+    }
+
+    return {
+      word: isArabicInput ? clean : clean,
+      meaningAr: isArabicInput ? clean : 'ترجمة غير متوفرة حالياً',
+      meaningEn: `Custom saved word: ${clean}`,
+      example: `Practice saying "${clean}" out loud in a full sentence.`,
+      ipa: '',
+      pos: clean.includes(' ') ? 'phrase' : 'word',
+      level: 'B1',
+      sourceLang: isArabicInput ? 'ar' : 'en',
+    };
+  }
+
   async changePassword(userId: string, currentPassword: string, newPassword: string) {
     if (!currentPassword || !newPassword) {
       throw new BadRequestException('Current password and new password are required.');

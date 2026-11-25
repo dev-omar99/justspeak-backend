@@ -148,6 +148,16 @@ export class UsersController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @Post('translate-word')
+  @ApiOperation({ summary: 'Auto-detect Arabic or English word and return translation, definition, and example' })
+  async translateWord(
+    @Req() _req: any,
+    @Body() body: { text: string },
+  ) {
+    return this.usersService.translateCustomWord(body?.text || '');
+  }
+
+  @UseGuards(JwtAuthGuard)
   @Post('change-password')
   @ApiOperation({ summary: 'Change password for authenticated user' })
   async changePassword(
