@@ -9,6 +9,7 @@ import { RoomsModule } from './rooms/rooms.module';
 import { AdminModule } from './admin/admin.module';
 import { FeedbackModule } from './feedback/feedback.module';
 import { UsersModule } from './users/users.module';
+import { AiPartnerModule } from './ai-partner/ai-partner.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { UsersModule } from './users/users.module';
     AdminModule,
     FeedbackModule,
     UsersModule,
+    AiPartnerModule,
   ],
   controllers: [AppController],
   providers: [
