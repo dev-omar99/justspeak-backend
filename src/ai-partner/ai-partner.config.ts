@@ -67,3 +67,25 @@ export function maxSessionMinutes(): number {
   const parsed = parseInt(process.env.AI_PARTNER_MAX_SESSION_MINUTES ?? '', 10);
   return Number.isFinite(parsed) && parsed > 0 ? parsed : 20;
 }
+
+/** Optional Azure Pronunciation Assessment (real phoneme-level scoring). Off by default. */
+export function pronunciationEnabled(): boolean {
+  return (
+    process.env.AZURE_SPEECH_PRONUNCIATION_ENABLED?.trim().toLowerCase() ===
+    'true'
+  );
+}
+
+export function azureSpeechKey(): string | null {
+  return process.env.AZURE_SPEECH_KEY?.trim() || null;
+}
+
+export function azureSpeechRegion(): string {
+  return process.env.AZURE_SPEECH_REGION?.trim() || 'eastus';
+}
+
+/** Cap on simultaneous Azure calls per process (provider quota protection). */
+export function pronunciationMaxConcurrent(): number {
+  const parsed = parseInt(process.env.AZURE_SPEECH_MAX_CONCURRENT ?? '', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 4;
+}

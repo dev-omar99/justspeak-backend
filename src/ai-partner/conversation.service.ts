@@ -15,7 +15,17 @@ import {
 } from './content/engine-rules';
 import { getInterviewField } from './content/interview-bank';
 import { getLesson } from './content/course';
-import { liveModel, maxSessionMinutes } from './ai-partner.config';
+import {
+  azureSpeechKey,
+  liveModel,
+  maxSessionMinutes,
+  pronunciationEnabled,
+} from './ai-partner.config';
+import {
+  PronunciationService,
+  UtteranceAssessment,
+  summarizePronunciation,
+} from './pronunciation.service';
 
 export interface LiveSessionEmit {
   (event: string, ...args: any[]): void;
@@ -53,6 +63,15 @@ export class LiveSession {
   private currentUserSpeechStart = 0;
   private startedAt = Date.now();
 
+  // Optional Azure phoneme-level pronunciation assessment. The mic PCM is
+  // buffered per utterance (55s cap) and assessed against its transcript.
+  private readonly pronunciationActive =
+    pronunciationEnabled() && !!azureSpeechKey();
+  private pronunciationChunks: Buffer[] = [];
+  private pronunciationBytes = 0;
+  private assessments: UtteranceAssessment[] = [];
+  private pendingAssessments = new Set<Promise<void>>();
+
   private wrapUpTimer: NodeJS.Timeout | null = null;
   private saveTimer: NodeJS.Timeout | null = null;
   private userTurnsSinceFacts = 0;
@@ -73,6 +92,7 @@ export class LiveSession {
       claude: ClaudeService;
       tts: TtsService;
       aiPartner: AiPartnerService;
+      pronunciation: PronunciationService;
       logger: Logger;
     },
   ) {}
@@ -110,6 +130,27 @@ export class LiveSession {
 
   sendAudio(chunk: Buffer): void {
     this.deepgram?.sendAudio(chunk);
+    if (this.pronunciationActive) {
+      // Cap the buffered utterance at 55s of PCM (Azure short-audio limit).
+      if (this.pronunciationBytes < 55 * 32000) {
+        this.pronunciationChunks.push(chunk);
+        this.pronunciationBytes += chunk.length;
+      }
+    }
+  }
+
+  private assessPronunciation(pcm: Buffer, text: string): void {
+    if (!pcm.length || !text.trim()) return;
+    const task = this.opts.pronunciation
+      .assessUtterance(pcm, text)
+      .then((result) => {
+        if (result) this.assessments.push(result);
+      })
+      .catch(() => undefined)
+      .finally(() => {
+        this.pendingAssessments.delete(task);
+      });
+    this.pendingAssessments.add(task);
   }
 
   async stop(): Promise<void> {
@@ -119,6 +160,8 @@ export class LiveSession {
     if (this.saveTimer) clearInterval(this.saveTimer);
     this.replyAbort?.abort();
     this.deepgram?.finish();
+    // Let in-flight pronunciation assessments land before the final save.
+    await Promise.allSettled([...this.pendingAssessments]);
     await this.persist();
     const durationSec = Math.round((Date.now() - this.startedAt) / 1000);
     await this.opts.aiPartner.endSession(this.opts.sessionId, this.opts.userId, durationSec);
@@ -160,6 +203,13 @@ export class LiveSession {
 
       const said = this.currentUserText.trim();
       this.currentUserText = '';
+
+      if (this.pronunciationActive) {
+        const pcm = Buffer.concat(this.pronunciationChunks);
+        this.pronunciationChunks = [];
+        this.pronunciationBytes = 0;
+        if (said) this.assessPronunciation(pcm, said);
+      }
       if (!said) return;
 
       const words = said.split(/\s+/).filter(Boolean);
@@ -354,11 +404,14 @@ export class LiveSession {
 
   private async persist(): Promise<void> {
     try {
+      const metrics: Record<string, unknown> = this.computeMetrics();
+      const pronunciation = summarizePronunciation(this.assessments);
+      if (pronunciation) metrics.pronunciation = pronunciation;
       await this.opts.aiPartner.saveLiveState({
         sessionId: this.opts.sessionId,
         transcript: this.turns as unknown as unknown[],
         facts: this.facts,
-        metrics: this.computeMetrics(),
+        metrics,
       });
     } catch (err) {
       this.opts.logger.warn(`Persist failed for ${this.opts.sessionId}: ${(err as Error).message}`);
@@ -376,6 +429,7 @@ export class ConversationService {
     private readonly claude: ClaudeService,
     private readonly tts: TtsService,
     private readonly aiPartner: AiPartnerService,
+    private readonly pronunciation: PronunciationService,
   ) {}
 
   async createLiveSession(params: {
@@ -406,6 +460,7 @@ export class ConversationService {
       claude: this.claude,
       tts: this.tts,
       aiPartner: this.aiPartner,
+      pronunciation: this.pronunciation,
       logger: this.logger,
     });
     this.sessions.set(params.sessionId, live);

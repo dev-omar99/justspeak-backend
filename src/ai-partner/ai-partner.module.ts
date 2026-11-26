@@ -8,6 +8,7 @@ import { ClaudeService } from './claude.service';
 import { ConversationService } from './conversation.service';
 import { DeepgramPrerecordedService, DeepgramService } from './deepgram.service';
 import { TtsService } from './tts.service';
+import { PronunciationService } from './pronunciation.service';
 
 @Module({
   imports: [PrismaModule, JwtModule.register({})],
@@ -20,6 +21,7 @@ import { TtsService } from './tts.service';
     DeepgramService,
     DeepgramPrerecordedService,
     TtsService,
+    PronunciationService,
   ],
 })
 export class AiPartnerModule {}

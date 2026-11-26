@@ -32,9 +32,12 @@ DIMENSIONS (each scored 0 to 100, with evidence)
    70-89: slightly under band or 3-6 fillers per minute.
    50-69: well under band or more than 6 fillers per minute.
 
-4. Pronunciation and clarity (proxy from speech recognition)
-   Use the STT word-confidence average and low-confidence word clusters.
-   90-100: nearly all words recognised confidently on first pass.
+4. Pronunciation and clarity
+   If METRICS contains a "pronunciation" block (engine: azure-pronunciation-assessment),
+   it is real phoneme-level scoring: use its accuracy/fluency/prosody numbers as the
+   ground truth for this dimension and name its worstWords in the evidence.
+   Otherwise fall back to the STT word-confidence average and low-confidence clusters.
+   90-100: nearly all words recognised confidently (or Azure accuracy >= 90).
    70-89: occasional unclear words, meaning always recoverable.
    50-69: frequent low-confidence stretches.
 

@@ -170,7 +170,12 @@ export class AiPartnerService {
     this.assertEnabled();
     const session = await this.getOwnedSession(sessionId, userId);
     if (session.report) {
-      return { session, report: session.report as unknown as SessionReport, cached: true };
+      return {
+        session,
+        report: session.report as unknown as SessionReport,
+        cached: true,
+        pronunciation_assessment: extractPronunciation(session.metrics),
+      };
     }
 
     const transcript = (session.transcript as unknown as { role: string; text: string }[]) ?? [];
@@ -200,7 +205,12 @@ export class AiPartnerService {
       where: { id: sessionId },
       data: { report: report as any, reportModel: feedbackModel() },
     });
-    return { session: updated, report, cached: false };
+    return {
+      session: updated,
+      report,
+      cached: false,
+      pronunciation_assessment: extractPronunciation(updated.metrics),
+    };
   }
 
   /** Level placement check: scored with the stronger model. */
@@ -479,4 +489,12 @@ export class AiPartnerService {
       },
     });
   }
+}
+
+/** Real phoneme-level pronunciation summary, when the Azure add-on ran. */
+function extractPronunciation(metrics: unknown): unknown | null {
+  const m = (metrics as Record<string, unknown>) ?? {};
+  const p = m['pronunciation'];
+  if (p && typeof p === 'object' && (p as any).engine) return p;
+  return null;
 }
