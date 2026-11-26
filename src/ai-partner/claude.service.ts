@@ -177,31 +177,44 @@ export class ClaudeService {
     const key = liveApiKey();
     if (!key) throw new Error('AI_PARTNER_LIVE_API_KEY is not configured');
 
-    const res = await fetch(`${baseUrl.replace(/\/+$/, '')}/chat/completions`, {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        authorization: `Bearer ${key}`,
-      },
-      body: JSON.stringify({
-        model: params.model,
-        // Reasoning models (gpt-oss) can eat the whole token budget on
-        // reasoning and return empty content: keep effort low and a floor
-        // on max_tokens so a reply always fits.
-        reasoning_effort: 'low',
-        max_tokens: Math.max(params.maxTokens ?? 220, 512),
-        stream: true,
-        messages: [
-          { role: 'system', content: params.system },
-          ...params.turns,
-        ],
-      }),
-      signal: params.signal,
-    });
+    // reasoning_effort is only valid for reasoning models (gpt-oss); other
+    // providers reject unknown fields, so send it conditionally.
+    const isReasoningModel = /gpt-oss/i.test(params.model);
+    const body: Record<string, unknown> = {
+      model: params.model,
+      max_tokens: Math.max(params.maxTokens ?? 220, 512),
+      stream: true,
+      messages: [
+        { role: 'system', content: params.system },
+        ...params.turns,
+      ],
+    };
+    if (isReasoningModel) {
+      // Reasoning models can eat the whole token budget on reasoning and
+      // return empty content: keep effort low and a floor on max_tokens.
+      body.reasoning_effort = 'low';
+    }
 
-    if (!res.ok || !res.body) {
-      const detail = await res.text().catch(() => '');
-      throw new Error(`Live provider request failed (${res.status}): ${detail.slice(0, 200)}`);
+    // Free tiers rate-limit hard (Groq TPM). One short retry turns a burst
+    // 429 from a user-visible failure into a small pause.
+    let res: Response | null = null;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      res = await fetch(`${baseUrl.replace(/\/+$/, '')}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          authorization: `Bearer ${key}`,
+        },
+        body: JSON.stringify(body),
+        signal: params.signal,
+      });
+      if (res.status !== 429 || attempt === 1) break;
+      await new Promise((resolve) => setTimeout(resolve, 2500));
+    }
+
+    if (!res || !res.ok || !res.body) {
+      const detail = res ? await res.text().catch(() => '') : '';
+      throw new Error(`Live provider request failed (${res?.status}): ${detail.slice(0, 200)}`);
     }
 
     let fullText = '';

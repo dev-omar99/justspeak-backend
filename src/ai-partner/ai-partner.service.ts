@@ -7,6 +7,7 @@ import {
 } from '@nestjs/common';
 import { PrismaService } from '../prisma.service';
 import { ClaudeService } from './claude.service';
+import { normalizeCefrLevel } from './levels';
 import {
   aiPartnerEnabled,
   feedbackModel,
@@ -114,7 +115,7 @@ export class AiPartnerService {
         personaId: dto.personaId,
         fieldId: dto.fieldId ?? null,
         lessonId: dto.lessonId ?? null,
-        level: dto.level || user?.englishLevel || 'B1',
+        level: normalizeCefrLevel(dto.level || user?.englishLevel),
         status: 'active',
         transcript: [],
         facts: [],

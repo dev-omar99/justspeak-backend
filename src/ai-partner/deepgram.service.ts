@@ -16,8 +16,36 @@ export interface TranscriptEvent {
 export interface DeepgramStreamHandlers {
   onTranscript: (event: TranscriptEvent) => void;
   onSpeechStarted?: () => void;
+  /** Deepgram's VAD decided the utterance is over (utterance_end_ms silence). */
+  onUtteranceEnd?: () => void;
   onError: (message: string) => void;
   onClose?: () => void;
+}
+
+/**
+ * Streaming listen parameters. Learners pause mid-sentence, so endpointing
+ * is deliberately long (was 300ms: it chopped hesitant speech into
+ * fragments that the live model then answered one by one). filler_words is
+ * on so the fluency metrics see real ums/uhs. Everything env-overridable.
+ */
+export function buildStreamParams(): URLSearchParams {
+  const endpointing = parseInt(process.env.DEEPGRAM_ENDPOINTING_MS ?? '', 10);
+  const utteranceEnd = parseInt(process.env.DEEPGRAM_UTTERANCE_END_MS ?? '', 10);
+  return new URLSearchParams({
+    model: 'nova-3',
+    language: 'en',
+    smart_format: 'true',
+    filler_words: 'true',
+    interim_results: 'true',
+    endpointing: String(Number.isFinite(endpointing) && endpointing > 0 ? endpointing : 800),
+    utterance_end_ms: String(
+      Number.isFinite(utteranceEnd) && utteranceEnd >= 1000 ? utteranceEnd : 1500,
+    ),
+    vad_events: 'true',
+    encoding: 'linear16',
+    sample_rate: '16000',
+    channels: '1',
+  });
 }
 
 /**
@@ -103,17 +131,7 @@ export class DeepgramStream {
       return;
     }
 
-    const params = new URLSearchParams({
-      model: 'nova-3',
-      language: 'en',
-      smart_format: 'true',
-      interim_results: 'true',
-      endpointing: '300',
-      vad_events: 'true',
-      encoding: 'linear16',
-      sample_rate: '16000',
-      channels: '1',
-    });
+    const params = buildStreamParams();
 
     this.ws = new WebSocket(`wss://api.deepgram.com/v1/listen?${params.toString()}`, {
       headers: { Authorization: `Token ${key}` },
@@ -172,6 +190,10 @@ export class DeepgramStream {
 
     if (msg?.type === 'SpeechStarted') {
       this.handlers.onSpeechStarted?.();
+      return;
+    }
+    if (msg?.type === 'UtteranceEnd') {
+      this.handlers.onUtteranceEnd?.();
       return;
     }
     if (msg?.type !== 'Results') return;

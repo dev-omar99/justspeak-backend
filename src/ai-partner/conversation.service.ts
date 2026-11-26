@@ -60,7 +60,6 @@ export class LiveSession {
   private fillerCount = 0;
   private confidenceSum = 0;
   private confidenceSamples = 0;
-  private currentUserSpeechStart = 0;
   private startedAt = Date.now();
 
   // Optional Azure phoneme-level pronunciation assessment. The mic PCM is
@@ -117,6 +116,14 @@ export class LiveSession {
 
     this.deepgram = this.opts.deepgramService.openStream({
       onTranscript: (event) => this.handleTranscript(event),
+      // Deepgram VAD says the utterance ended: commit right away instead of
+      // waiting for the fallback timer (endpointing covers the same case,
+      // this is the belt-and-braces signal for hesitant speakers).
+      onUtteranceEnd: () => {
+        if (!this.ended && this.currentUserText.trim()) {
+          this.commitTurn('utterance-end', 0);
+        }
+      },
       // SpeechStarted alone does not barge in: TTS playback echoing into the
       // mic (laptop speakers) trips the VAD and would abort every reply.
       // Barge-in happens on real interim transcript text instead (see below).
@@ -181,6 +188,8 @@ export class LiveSession {
     speechFinal: boolean;
     text: string;
     confidence: number;
+    start?: number;
+    end?: number;
   }): void {
     if (this.ended) return;
     if (!event.isFinal) {
@@ -192,12 +201,22 @@ export class LiveSession {
     }
 
     if (event.text) {
-      if (this.currentUserSpeechStart === 0) this.currentUserSpeechStart = Date.now();
+      // Real voiced seconds from Deepgram's audio timestamps, not wall
+      // clock: wall clock mixed AI speech and silence into student WPM and
+      // produced nonsense readings (e.g. 1079 WPM).
+      if (
+        typeof event.start === 'number' &&
+        typeof event.end === 'number' &&
+        event.end > event.start
+      ) {
+        this.studentSpeechSec += event.end - event.start;
+      }
       this.currentUserText = this.currentUserText
         ? `${this.currentUserText} ${event.text}`
         : event.text;
       this.opts.emit('transcript', { role: 'user', text: event.text, isFinal: true });
-      // If speech_final never arrives, commit shortly after the last final.
+      // If neither speech_final nor UtteranceEnd arrives, commit after a
+      // pause following the last final.
       this.scheduleCommitFallback();
     }
 
@@ -212,7 +231,7 @@ export class LiveSession {
       if (!this.ended && this.currentUserText.trim()) {
         this.commitTurn('fallback-timer', 0);
       }
-    }, 1500);
+    }, 2500);
   }
 
   private commitTurn(reason: string, confidence: number): void {
@@ -223,10 +242,6 @@ export class LiveSession {
     }
     // Metrics for this utterance.
     const now = Date.now();
-    if (this.currentUserSpeechStart > 0) {
-      this.studentSpeechSec += (now - this.currentUserSpeechStart) / 1000;
-      this.currentUserSpeechStart = 0;
-    }
     if (confidence > 0) {
       this.confidenceSum += confidence;
       this.confidenceSamples += 1;
