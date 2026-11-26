@@ -17,9 +17,11 @@ import { getInterviewField } from './content/interview-bank';
 import { getLesson } from './content/course';
 import {
   azureSpeechKey,
+  commitFallbackMs,
   liveModel,
   maxSessionMinutes,
   pronunciationEnabled,
+  rephraseModel,
 } from './ai-partner.config';
 import {
   PronunciationService,
@@ -37,6 +39,8 @@ interface Turn {
   role: 'user' | 'assistant';
   text: string;
   at: number;
+  /** Live "say it better" rewrite, filled in asynchronously after the turn. */
+  rephrase?: string;
 }
 
 /**
@@ -227,11 +231,13 @@ export class LiveSession {
 
   private scheduleCommitFallback(): void {
     if (this.commitTimer) clearTimeout(this.commitTimer);
+    // Long on purpose (default 4s, env-overridable): the learner gets room
+    // to think and finish a long sentence before the coach replies.
     this.commitTimer = setTimeout(() => {
       if (!this.ended && this.currentUserText.trim()) {
         this.commitTurn('fallback-timer', 0);
       }
-    }, 2500);
+    }, commitFallbackMs());
   }
 
   private commitTurn(reason: string, confidence: number): void {
@@ -264,8 +270,39 @@ export class LiveSession {
     const fillers = said.match(FILLER_PATTERN);
     if (fillers) this.fillerCount += fillers.length;
 
-    this.turns.push({ role: 'user', text: said, at: now });
+    const turn: Turn = { role: 'user', text: said, at: now };
+    this.turns.push(turn);
+    void this.rephraseTurn(turn);
     void this.generateReply(said);
+  }
+
+  /**
+   * Yoodli-style live recast: rewrite the learner's turn in correct,
+   * natural English right after they said it. Fires per user turn, in
+   * parallel with the coach's reply; failures stay silent (the tip is a
+   * nice-to-have, never worth breaking the call for).
+   */
+  private async rephraseTurn(turn: Turn): Promise<void> {
+    try {
+      const raw = await this.opts.claude.complete({
+        model: rephraseModel(),
+        system:
+          'You rewrite what an English learner just said in correct, natural English. ' +
+          'Keep their meaning and keep it short and spoken-style; fix grammar, word choice and logic. ' +
+          'If what they said is already correct and natural, answer with exactly: OK. ' +
+          'Never explain, never add punctuation commentary: answer with only the rewritten sentence or OK.',
+        prompt: turn.text,
+        maxTokens: 150,
+      });
+      const suggestion = raw.trim().replace(/^["'`]+|["'`]+$/g, '').trim();
+      if (!suggestion || /^ok\b/i.test(suggestion)) return;
+      if (suggestion.toLowerCase() === turn.text.trim().toLowerCase()) return;
+      if (this.ended) return;
+      turn.rephrase = suggestion;
+      this.opts.emit('rephrase', { original: turn.text, suggestion });
+    } catch {
+      // silent by design
+    }
   }
 
   // -------------------------------------------------------- conversation

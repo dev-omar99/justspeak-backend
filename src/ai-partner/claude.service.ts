@@ -269,13 +269,19 @@ export class ClaudeService {
     }
   }
 
-  /** Non-streaming single call, used for feedback reports. */
+  /** Non-streaming single call, used for feedback reports, session facts
+   *  and the live "say it better" rewrites. Routes through the
+   *  OpenAI-compatible provider when AI_PARTNER_LIVE_BASE_URL is set, same
+   *  as the streaming path. */
   async complete(params: {
     model: string;
     system: string;
     prompt: string;
     maxTokens?: number;
   }): Promise<string> {
+    const baseUrl = liveBaseUrl();
+    if (baseUrl) return this.completeOpenAICompatible(baseUrl, params);
+
     const key = anthropicApiKey();
     if (!key) throw new Error('ANTHROPIC_API_KEY is not configured');
 
@@ -306,5 +312,53 @@ export class ClaudeService {
           .join('')
       : '';
     return text;
+  }
+
+  /** OpenAI-compatible non-streaming call (chat/completions). Same retry
+   *  and conditional reasoning_effort rules as the streaming path. */
+  private async completeOpenAICompatible(
+    baseUrl: string,
+    params: {
+      model: string;
+      system: string;
+      prompt: string;
+      maxTokens?: number;
+    },
+  ): Promise<string> {
+    const key = liveApiKey();
+    if (!key) throw new Error('AI_PARTNER_LIVE_API_KEY is not configured');
+
+    const body: Record<string, unknown> = {
+      model: params.model,
+      max_tokens: Math.max(params.maxTokens ?? 1500, 512),
+      messages: [
+        { role: 'system', content: params.system },
+        { role: 'user', content: params.prompt },
+      ],
+    };
+    if (/gpt-oss/i.test(params.model)) {
+      body.reasoning_effort = 'low';
+    }
+
+    let res: Response | null = null;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      res = await fetch(`${baseUrl.replace(/\/+$/, '')}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          authorization: `Bearer ${key}`,
+        },
+        body: JSON.stringify(body),
+      });
+      if (res.status !== 429 || attempt === 1) break;
+      await new Promise((resolve) => setTimeout(resolve, 2500));
+    }
+
+    if (!res || !res.ok) {
+      const detail = res ? await res.text().catch(() => '') : '';
+      throw new Error(`Live provider request failed (${res?.status}): ${detail.slice(0, 200)}`);
+    }
+    const data: any = await res.json();
+    return (data?.choices?.[0]?.message?.content ?? '').trim();
   }
 }

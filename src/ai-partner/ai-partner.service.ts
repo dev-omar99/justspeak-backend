@@ -11,6 +11,7 @@ import { normalizeCefrLevel } from './levels';
 import {
   aiPartnerEnabled,
   feedbackModel,
+  minReportSpeechSec,
   freeSessionQuota,
   paidDailySessionQuota,
   placementModel,
@@ -184,7 +185,7 @@ export class AiPartnerService {
     const studentSpeechSec = Number(metrics['student_speech_sec'] ?? 0);
 
     let report: SessionReport | null = null;
-    if (studentSpeechSec < 180) {
+    if (studentSpeechSec < minReportSpeechSec()) {
       report = insufficientReport(metrics);
     } else {
       report = await this.buildModelReport(

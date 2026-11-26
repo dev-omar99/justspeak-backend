@@ -83,6 +83,24 @@ export function liveApiKey(): string | null {
   );
 }
 
+/** Live "say it better" rewrites. Defaults to the live model (same provider). */
+export function rephraseModel(): string {
+  return process.env.AI_PARTNER_REPHRASE_MODEL?.trim() || liveModel();
+}
+
+/** How long after the last STT final we still wait before committing the
+ *  learner's turn (long = more room to finish a sentence). */
+export function commitFallbackMs(): number {
+  const parsed = parseInt(process.env.AI_PARTNER_COMMIT_FALLBACK_MS ?? '', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 4000;
+}
+
+/** Minimum voiced seconds before a scored session report is attempted. */
+export function minReportSpeechSec(): number {
+  const parsed = parseInt(process.env.AI_PARTNER_MIN_REPORT_SPEECH_SEC ?? '', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 60;
+}
+
 /** Optional Azure Pronunciation Assessment (real phoneme-level scoring). Off by default. */
 export function pronunciationEnabled(): boolean {
   return (

@@ -25,8 +25,10 @@ export interface DeepgramStreamHandlers {
 /**
  * Streaming listen parameters. Learners pause mid-sentence, so endpointing
  * is deliberately long (was 300ms: it chopped hesitant speech into
- * fragments that the live model then answered one by one). filler_words is
- * on so the fluency metrics see real ums/uhs. Everything env-overridable.
+ * fragments that the live model then answered one by one; raised again to
+ * 1000ms + 2s utterance end so learners can finish long sentences without
+ * the coach jumping in). filler_words is on so the fluency metrics see real
+ * ums/uhs. Everything env-overridable.
  */
 export function buildStreamParams(): URLSearchParams {
   const endpointing = parseInt(process.env.DEEPGRAM_ENDPOINTING_MS ?? '', 10);
@@ -37,9 +39,9 @@ export function buildStreamParams(): URLSearchParams {
     smart_format: 'true',
     filler_words: 'true',
     interim_results: 'true',
-    endpointing: String(Number.isFinite(endpointing) && endpointing > 0 ? endpointing : 800),
+    endpointing: String(Number.isFinite(endpointing) && endpointing > 0 ? endpointing : 1000),
     utterance_end_ms: String(
-      Number.isFinite(utteranceEnd) && utteranceEnd >= 1000 ? utteranceEnd : 1500,
+      Number.isFinite(utteranceEnd) && utteranceEnd >= 1000 ? utteranceEnd : 2000,
     ),
     vad_events: 'true',
     encoding: 'linear16',

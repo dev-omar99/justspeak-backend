@@ -307,7 +307,7 @@ export function insufficientReport(metrics: Record<string, unknown>): SessionRep
     },
     follow_up_questions: [],
     drills: [],
-    next_focus: 'Try a longer session (at least 3 minutes of speaking) to get your full report.',
+    next_focus: 'Try a longer session (at least a minute of speaking) to get your full report.',
     suggested_lessons: [],
   };
 }

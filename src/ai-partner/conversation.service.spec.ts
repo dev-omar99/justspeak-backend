@@ -114,13 +114,13 @@ describe('LiveSession turn loop', () => {
     const openStream = (session as any).opts.deepgramService.openStream;
     const captured = openStream.mock.calls[0][0];
     captured.onTranscript({ isFinal: true, speechFinal: false, text: 'hello there coach', confidence: 0.9 });
-    // no speech_final at all: the 1.5s fallback must commit the turn
+    // no speech_final at all: the fallback timer must commit the turn
     await waitFor(
       () => claude.streamReply.mock.calls.length > callsAfterGreeting,
-      4000,
+      8000,
     );
     await session.stop();
-  }, 10000);
+  }, 15000);
 
   it('barges in only on interim text while replying, not on silence', async () => {
     let releaseReply: (v: string) => void = () => undefined;
@@ -172,6 +172,76 @@ describe('LiveSession turn loop', () => {
       .filter((e) => e.event === 'session-state')
       .map((e) => e.args[0].state);
     expect(states[states.length - 1]).toBe('listening');
+    await session.stop();
+  });
+
+  it('emits a "say it better" rephrase for an incorrect user turn', async () => {
+    const { session, events, claude } = makeSession();
+    claude.complete.mockImplementation((async (params: any) => {
+      return params.system.includes('rewrite') ? 'I have lived here for three years.' : '[]';
+    }) as any);
+    await session.start();
+    await waitFor(() => events.some((e) => e.event === 'reply-end'));
+
+    const openStream = (session as any).opts.deepgramService.openStream;
+    const captured = openStream.mock.calls[0][0];
+    captured.onTranscript({
+      isFinal: true,
+      speechFinal: true,
+      text: 'I am living here since three years.',
+      confidence: 0.9,
+    });
+    await waitFor(() =>
+      events.some(
+        (e) =>
+          e.event === 'rephrase' &&
+          e.args[0].suggestion === 'I have lived here for three years.',
+      ),
+    );
+    // the rewrite is stored on the turn, so it lands in the saved transcript
+    await waitFor(() =>
+      (session as any).turns.some((t: any) => t.rephrase === 'I have lived here for three years.'),
+    );
+    await session.stop();
+  });
+
+  it('stays silent when the learner sentence is already correct', async () => {
+    const { session, events, claude } = makeSession();
+    claude.complete.mockImplementation((async (params: any) => {
+      return params.system.includes('rewrite') ? 'OK' : '[]';
+    }) as any);
+    await session.start();
+    await waitFor(() => events.some((e) => e.event === 'reply-end'));
+
+    const openStream = (session as any).opts.deepgramService.openStream;
+    const captured = openStream.mock.calls[0][0];
+    captured.onTranscript({
+      isFinal: true,
+      speechFinal: true,
+      text: 'I have lived here for three years.',
+      confidence: 0.9,
+    });
+    await waitFor(() => events.some((e) => e.event === 'reply-end' && events.filter((x) => x.event === 'reply-end').length > 1));
+    expect(events.some((e) => e.event === 'rephrase')).toBe(false);
+    await session.stop();
+  });
+
+  it('keeps the turn loop alive when the rephrase call fails', async () => {
+    const { session, events, claude } = makeSession();
+    claude.complete.mockImplementation((async (params: any) => {
+      if (params.system.includes('rewrite')) throw new Error('provider down');
+      return '[]';
+    }) as any);
+    await session.start();
+    await waitFor(() => events.some((e) => e.event === 'reply-end'));
+
+    const openStream = (session as any).opts.deepgramService.openStream;
+    const captured = openStream.mock.calls[0][0];
+    const callsBefore = claude.streamReply.mock.calls.length;
+    captured.onTranscript({ isFinal: true, speechFinal: true, text: 'hi', confidence: 0.9 });
+    // the coach still answers; the failed tip stays silent
+    await waitFor(() => claude.streamReply.mock.calls.length > callsBefore);
+    expect(events.some((e) => e.event === 'rephrase')).toBe(false);
     await session.stop();
   });
 });
