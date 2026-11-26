@@ -309,6 +309,11 @@ export class AuthService {
           user: smtpUser,
           pass: smtpPass,
         },
+        // Fail fast when SMTP is unreachable so sendOtp falls back
+        // to the dev-code path in seconds instead of minutes.
+        connectionTimeout: 8000,
+        greetingTimeout: 8000,
+        socketTimeout: 8000,
       });
 
       await transporter.sendMail({
