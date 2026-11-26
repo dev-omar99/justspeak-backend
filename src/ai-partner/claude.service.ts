@@ -8,6 +8,32 @@ export interface ChatTurn {
 
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 const ANTHROPIC_VERSION = '2023-06-01';
+const STREAM_STALL_MS = 20000;
+
+/** Abort a streaming read loop when the provider goes quiet, surfacing a
+ *  real error instead of an invisible hang. */
+function createStallWatchdog(parentSignal: AbortSignal | undefined) {
+  const controller = new AbortController();
+  let stalled = false;
+  let timer: NodeJS.Timeout | null = null;
+  const arm = () => {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => {
+      stalled = true;
+      controller.abort();
+    }, STREAM_STALL_MS);
+  };
+  arm();
+  parentSignal?.addEventListener('abort', () => controller.abort());
+  return {
+    signal: controller.signal,
+    ping: arm,
+    stop: () => {
+      if (timer) clearTimeout(timer);
+    },
+    wasStalled: () => stalled,
+  };
+}
 
 /** Split a token stream into sentences so TTS can start early. */
 function createSentenceSplitter(onSentence: (s: string, isLast: boolean) => void) {
@@ -83,42 +109,53 @@ export class ClaudeService {
 
     let fullText = '';
     const splitter = createSentenceSplitter(params.onSentence);
+    const watchdog = createStallWatchdog(params.signal);
 
-    const reader = res.body.getReader();
-    const decoder = new TextDecoder();
-    let buffer = '';
+    try {
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
 
-    for (;;) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      buffer += decoder.decode(value, { stream: true });
-      const events = buffer.split('\n\n');
-      buffer = events.pop() ?? '';
-      for (const eventBlock of events) {
-        const dataLine = eventBlock
-          .split('\n')
-          .find((line) => line.startsWith('data:'));
-        if (!dataLine) continue;
-        const payload = dataLine.slice(5).trim();
-        if (!payload || payload === '[DONE]') continue;
-        let event: any;
-        try {
-          event = JSON.parse(payload);
-        } catch {
-          continue;
-        }
-        if (event?.type === 'content_block_delta' && event?.delta?.type === 'text_delta') {
-          const text: string = event.delta.text ?? '';
-          fullText += text;
-          splitter.push(text);
-        }
-        if (event?.type === 'message_stop') {
-          splitter.end();
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        watchdog.ping();
+        buffer += decoder.decode(value, { stream: true });
+        const events = buffer.split('\n\n');
+        buffer = events.pop() ?? '';
+        for (const eventBlock of events) {
+          const dataLine = eventBlock
+            .split('\n')
+            .find((line) => line.startsWith('data:'));
+          if (!dataLine) continue;
+          const payload = dataLine.slice(5).trim();
+          if (!payload || payload === '[DONE]') continue;
+          let event: any;
+          try {
+            event = JSON.parse(payload);
+          } catch {
+            continue;
+          }
+          if (event?.type === 'content_block_delta' && event?.delta?.type === 'text_delta') {
+            const text: string = event.delta.text ?? '';
+            fullText += text;
+            splitter.push(text);
+          }
+          if (event?.type === 'message_stop') {
+            splitter.end();
+          }
         }
       }
+      splitter.end();
+      return fullText.trim();
+    } catch (err) {
+      if (watchdog.wasStalled()) {
+        throw new Error('LLM stream stalled: no data from Anthropic for 20s');
+      }
+      throw err;
+    } finally {
+      watchdog.stop();
     }
-    splitter.end();
-    return fullText.trim();
   }
 
   /**
@@ -148,7 +185,11 @@ export class ClaudeService {
       },
       body: JSON.stringify({
         model: params.model,
-        max_tokens: params.maxTokens ?? 220,
+        // Reasoning models (gpt-oss) can eat the whole token budget on
+        // reasoning and return empty content: keep effort low and a floor
+        // on max_tokens so a reply always fits.
+        reasoning_effort: 'low',
+        max_tokens: Math.max(params.maxTokens ?? 220, 512),
         stream: true,
         messages: [
           { role: 'system', content: params.system },
@@ -165,43 +206,54 @@ export class ClaudeService {
 
     let fullText = '';
     const splitter = createSentenceSplitter(params.onSentence);
+    const watchdog = createStallWatchdog(params.signal);
 
-    const reader = res.body.getReader();
-    const decoder = new TextDecoder();
-    let buffer = '';
+    try {
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
 
-    for (;;) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      buffer += decoder.decode(value, { stream: true });
-      const events = buffer.split('\n\n');
-      buffer = events.pop() ?? '';
-      for (const eventBlock of events) {
-        const dataLine = eventBlock
-          .split('\n')
-          .find((line) => line.startsWith('data:'));
-        if (!dataLine) continue;
-        const payload = dataLine.slice(5).trim();
-        if (!payload) continue;
-        if (payload === '[DONE]') {
-          splitter.end();
-          continue;
-        }
-        let event: any;
-        try {
-          event = JSON.parse(payload);
-        } catch {
-          continue;
-        }
-        const text: string = event?.choices?.[0]?.delta?.content ?? '';
-        if (text) {
-          fullText += text;
-          splitter.push(text);
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        watchdog.ping();
+        buffer += decoder.decode(value, { stream: true });
+        const events = buffer.split('\n\n');
+        buffer = events.pop() ?? '';
+        for (const eventBlock of events) {
+          const dataLine = eventBlock
+            .split('\n')
+            .find((line) => line.startsWith('data:'));
+          if (!dataLine) continue;
+          const payload = dataLine.slice(5).trim();
+          if (!payload) continue;
+          if (payload === '[DONE]') {
+            splitter.end();
+            continue;
+          }
+          let event: any;
+          try {
+            event = JSON.parse(payload);
+          } catch {
+            continue;
+          }
+          const text: string = event?.choices?.[0]?.delta?.content ?? '';
+          if (text) {
+            fullText += text;
+            splitter.push(text);
+          }
         }
       }
+      splitter.end();
+      return fullText.trim();
+    } catch (err) {
+      if (watchdog.wasStalled()) {
+        throw new Error('LLM stream stalled: no data from the live provider for 20s');
+      }
+      throw err;
+    } finally {
+      watchdog.stop();
     }
-    splitter.end();
-    return fullText.trim();
   }
 
   /** Non-streaming single call, used for feedback reports. */

@@ -72,6 +72,10 @@ export class LiveSession {
   private assessments: UtteranceAssessment[] = [];
   private pendingAssessments = new Set<Promise<void>>();
 
+  // Turn-commit fallback: Deepgram sometimes never sends speech_final
+  // (mic noise keeps the endpoint open), so commit shortly after the last final.
+  private commitTimer: NodeJS.Timeout | null = null;
+
   private wrapUpTimer: NodeJS.Timeout | null = null;
   private saveTimer: NodeJS.Timeout | null = null;
   private userTurnsSinceFacts = 0;
@@ -113,7 +117,9 @@ export class LiveSession {
 
     this.deepgram = this.opts.deepgramService.openStream({
       onTranscript: (event) => this.handleTranscript(event),
-      onSpeechStarted: () => this.handleBargeIn(),
+      // SpeechStarted alone does not barge in: TTS playback echoing into the
+      // mic (laptop speakers) trips the VAD and would abort every reply.
+      // Barge-in happens on real interim transcript text instead (see below).
       onError: (message) => this.opts.emit('error', { code: 'STT_ERROR', message }),
     });
 
@@ -158,6 +164,7 @@ export class LiveSession {
     this.ended = true;
     if (this.wrapUpTimer) clearTimeout(this.wrapUpTimer);
     if (this.saveTimer) clearInterval(this.saveTimer);
+    if (this.commitTimer) clearTimeout(this.commitTimer);
     this.replyAbort?.abort();
     this.deepgram?.finish();
     // Let in-flight pronunciation assessments land before the final save.
@@ -178,6 +185,9 @@ export class LiveSession {
     if (this.ended) return;
     if (!event.isFinal) {
       this.opts.emit('transcript', { role: 'user', text: event.text, isFinal: false });
+      // Barge in only on actual transcribed speech while the AI is talking,
+      // never on the bare VAD signal (speaker echo trips the VAD too).
+      if (event.text.trim() && this.replying) this.handleBargeIn();
       return;
     }
 
@@ -187,39 +197,60 @@ export class LiveSession {
         ? `${this.currentUserText} ${event.text}`
         : event.text;
       this.opts.emit('transcript', { role: 'user', text: event.text, isFinal: true });
+      // If speech_final never arrives, commit shortly after the last final.
+      this.scheduleCommitFallback();
     }
 
     if (event.speechFinal) {
-      // Metrics for this utterance.
-      const now = Date.now();
-      if (this.currentUserSpeechStart > 0) {
-        this.studentSpeechSec += (now - this.currentUserSpeechStart) / 1000;
-        this.currentUserSpeechStart = 0;
-      }
-      if (event.confidence > 0) {
-        this.confidenceSum += event.confidence;
-        this.confidenceSamples += 1;
-      }
-
-      const said = this.currentUserText.trim();
-      this.currentUserText = '';
-
-      if (this.pronunciationActive) {
-        const pcm = Buffer.concat(this.pronunciationChunks);
-        this.pronunciationChunks = [];
-        this.pronunciationBytes = 0;
-        if (said) this.assessPronunciation(pcm, said);
-      }
-      if (!said) return;
-
-      const words = said.split(/\s+/).filter(Boolean);
-      this.studentWords += words.length;
-      const fillers = said.match(FILLER_PATTERN);
-      if (fillers) this.fillerCount += fillers.length;
-
-      this.turns.push({ role: 'user', text: said, at: now });
-      void this.generateReply(said);
+      this.commitTurn('speech-final', event.confidence);
     }
+  }
+
+  private scheduleCommitFallback(): void {
+    if (this.commitTimer) clearTimeout(this.commitTimer);
+    this.commitTimer = setTimeout(() => {
+      if (!this.ended && this.currentUserText.trim()) {
+        this.commitTurn('fallback-timer', 0);
+      }
+    }, 1500);
+  }
+
+  private commitTurn(reason: string, confidence: number): void {
+    if (this.ended) return;
+    if (this.commitTimer) {
+      clearTimeout(this.commitTimer);
+      this.commitTimer = null;
+    }
+    // Metrics for this utterance.
+    const now = Date.now();
+    if (this.currentUserSpeechStart > 0) {
+      this.studentSpeechSec += (now - this.currentUserSpeechStart) / 1000;
+      this.currentUserSpeechStart = 0;
+    }
+    if (confidence > 0) {
+      this.confidenceSum += confidence;
+      this.confidenceSamples += 1;
+    }
+
+    const said = this.currentUserText.trim();
+    this.currentUserText = '';
+
+    if (this.pronunciationActive) {
+      const pcm = Buffer.concat(this.pronunciationChunks);
+      this.pronunciationChunks = [];
+      this.pronunciationBytes = 0;
+      if (said) this.assessPronunciation(pcm, said);
+    }
+    if (!said) return;
+
+    this.opts.logger.log(`User turn committed (${reason}): "${said.slice(0, 80)}"`);
+    const words = said.split(/\s+/).filter(Boolean);
+    this.studentWords += words.length;
+    const fillers = said.match(FILLER_PATTERN);
+    if (fillers) this.fillerCount += fillers.length;
+
+    this.turns.push({ role: 'user', text: said, at: now });
+    void this.generateReply(said);
   }
 
   // -------------------------------------------------------- conversation
@@ -323,6 +354,16 @@ export class LiveSession {
         }
         void this.persist();
         this.emitMetrics();
+      } else if (!this.ended) {
+        // Provider returned an empty completion: never hang silently.
+        this.opts.logger.warn(
+          `Empty completion from the live model in session ${this.sessionId}`,
+        );
+        this.opts.emit('error', {
+          code: 'LLM_EMPTY',
+          message: 'The AI had no answer that time. Please say that again.',
+        });
+        this.opts.emit('session-state', { state: 'listening' });
       }
     } catch (err) {
       if ((err as Error).name === 'AbortError') {
