@@ -337,7 +337,9 @@ export class ClaudeService {
       ],
     };
     if (/gpt-oss/i.test(params.model)) {
-      body.reasoning_effort = 'low';
+      // Non-streaming calls are reports/facts/rephrases: quality first, so
+      // medium effort (the streaming live loop stays on low for latency).
+      body.reasoning_effort = 'medium';
     }
 
     let res: Response | null = null;
