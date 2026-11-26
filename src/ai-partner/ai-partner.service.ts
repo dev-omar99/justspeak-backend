@@ -66,9 +66,15 @@ export class AiPartnerService {
   async getQuota(userId: string): Promise<QuotaInfo> {
     const planTier = await this.planTierFor(userId);
     if (planTier === 'FREE') {
-      const used = await this.prisma.aiPartnerSession.count({
+      // Quota is tracked separately from saved history: sessions are never
+      // deleted to adjust the counter, the offset row shifts it instead.
+      const rawCount = await this.prisma.aiPartnerSession.count({
         where: { userId },
       });
+      const offsetRow = await this.prisma.aiPartnerQuotaOffset.findUnique({
+        where: { userId },
+      });
+      const used = Math.max(0, rawCount - (offsetRow?.offset ?? 0));
       const limit = freeSessionQuota();
       return {
         planTier,
@@ -171,10 +177,13 @@ export class AiPartnerService {
   async generateReport(sessionId: string, userId: string) {
     this.assertEnabled();
     const session = await this.getOwnedSession(sessionId, userId);
-    if (session.report) {
+    const saved = session.report as unknown as SessionReport | null;
+    // INSUFFICIENT_DATA reports are placeholders, never cached: speaking
+    // more (or a threshold change) should regenerate them for real.
+    if (saved && saved.status !== 'INSUFFICIENT_DATA') {
       return {
         session,
-        report: session.report as unknown as SessionReport,
+        report: saved,
         cached: true,
         pronunciation_assessment: extractPronunciation(session.metrics),
       };
@@ -203,6 +212,15 @@ export class AiPartnerService {
       );
     }
 
+    if (report.status === 'INSUFFICIENT_DATA') {
+      // placeholder only: return it, never store it over future potential
+      return {
+        session,
+        report,
+        cached: false,
+        pronunciation_assessment: extractPronunciation(session.metrics),
+      };
+    }
     const updated = await this.prisma.aiPartnerSession.update({
       where: { id: sessionId },
       data: { report: report as any, reportModel: feedbackModel() },

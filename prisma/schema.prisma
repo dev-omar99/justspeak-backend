@@ -36,6 +36,7 @@ model User {
   partnerMemos      PartnerMemo[]
   academyProgress   AcademyProgress?
   aiPartnerSessions AiPartnerSession[]
+  aiPartnerQuotaOffset AiPartnerQuotaOffset?
 
   @@index([phone])
   @@index([country])
@@ -186,4 +187,10 @@ model AcademyProgress {
   dailyDateKey              String   @default("")
   scores                    Json
   updatedAt                 DateTime @updatedAt
+}
+model AiPartnerQuotaOffset {
+  userId    String   @id
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  offset    Int      @default(0)
+  updatedAt DateTime @updatedAt
 }
