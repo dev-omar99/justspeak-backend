@@ -194,7 +194,8 @@ describe('LiveSession turn loop', () => {
     await waitFor(() =>
       events.some(
         (e) =>
-          e.event === 'rephrase' &&
+          e.event === 'sentence-check' &&
+          e.args[0].ok === false &&
           e.args[0].suggestion === 'I have lived here for three years.',
       ),
     );
@@ -205,7 +206,7 @@ describe('LiveSession turn loop', () => {
     await session.stop();
   });
 
-  it('stays silent when the learner sentence is already correct', async () => {
+  it('emits a check-mark verdict when the learner sentence is already correct', async () => {
     const { session, events, claude } = makeSession();
     claude.complete.mockImplementation((async (params: any) => {
       return params.system.includes('rewrite') ? 'OK' : '[]';
@@ -221,8 +222,10 @@ describe('LiveSession turn loop', () => {
       text: 'I have lived here for three years.',
       confidence: 0.9,
     });
-    await waitFor(() => events.some((e) => e.event === 'reply-end' && events.filter((x) => x.event === 'reply-end').length > 1));
-    expect(events.some((e) => e.event === 'rephrase')).toBe(false);
+    await waitFor(() =>
+      events.some((e) => e.event === 'sentence-check' && e.args[0].ok === true),
+    );
+    expect(events.some((e) => e.event === 'sentence-check' && e.args[0].ok === false)).toBe(false);
     await session.stop();
   });
 
@@ -239,9 +242,9 @@ describe('LiveSession turn loop', () => {
     const captured = openStream.mock.calls[0][0];
     const callsBefore = claude.streamReply.mock.calls.length;
     captured.onTranscript({ isFinal: true, speechFinal: true, text: 'hi', confidence: 0.9 });
-    // the coach still answers; the failed tip stays silent
+    // the coach still answers; the failed verdict stays silent
     await waitFor(() => claude.streamReply.mock.calls.length > callsBefore);
-    expect(events.some((e) => e.event === 'rephrase')).toBe(false);
+    expect(events.some((e) => e.event === 'sentence-check')).toBe(false);
     await session.stop();
   });
 });

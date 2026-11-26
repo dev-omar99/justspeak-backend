@@ -277,29 +277,34 @@ export class LiveSession {
   }
 
   /**
-   * Yoodli-style live recast: rewrite the learner's turn in correct,
-   * natural English right after they said it. Fires per user turn, in
-   * parallel with the coach's reply; failures stay silent (the tip is a
-   * nice-to-have, never worth breaking the call for).
+   * Yoodli-style live check on every learner turn: a verdict (correct /
+   * needs fixing) plus a corrected rewrite when needed. The client shows a
+   * check mark or a magic wand next to the learner's bubble and reveals
+   * the rewrite underneath on tap. One small free-model call per turn, in
+   * parallel with the coach's reply; failures stay silent (the verdict is
+   * a nice-to-have, never worth breaking the call for).
    */
   private async rephraseTurn(turn: Turn): Promise<void> {
     try {
       const raw = await this.opts.claude.complete({
         model: rephraseModel(),
         system:
-          'You rewrite what an English learner just said in correct, natural English. ' +
-          'Keep their meaning and keep it short and spoken-style; fix grammar, word choice and logic. ' +
-          'If what they said is already correct and natural, answer with exactly: OK. ' +
-          'Never explain, never add punctuation commentary: answer with only the rewritten sentence or OK.',
+          'You check what an English learner just said. ' +
+          'If it is already correct, natural English, answer with exactly: OK. ' +
+          'Otherwise rewrite it in correct, natural English: keep their meaning, keep it short and spoken-style, fix grammar, word choice and logic. ' +
+          'Never explain: answer with only OK or the rewritten sentence.',
         prompt: turn.text,
         maxTokens: 150,
       });
       const suggestion = raw.trim().replace(/^["'`]+|["'`]+$/g, '').trim();
-      if (!suggestion || /^ok\b/i.test(suggestion)) return;
-      if (suggestion.toLowerCase() === turn.text.trim().toLowerCase()) return;
       if (this.ended) return;
+      if (!suggestion || /^ok\b/i.test(suggestion) ||
+          suggestion.toLowerCase() === turn.text.trim().toLowerCase()) {
+        this.opts.emit('sentence-check', { original: turn.text, ok: true });
+        return;
+      }
       turn.rephrase = suggestion;
-      this.opts.emit('rephrase', { original: turn.text, suggestion });
+      this.opts.emit('sentence-check', { original: turn.text, ok: false, suggestion });
     } catch {
       // silent by design
     }
