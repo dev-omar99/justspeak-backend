@@ -68,6 +68,21 @@ export function maxSessionMinutes(): number {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : 20;
 }
 
+
+/** Optional OpenAI-compatible provider for the live loop (e.g. Groq free tier).
+ *  When AI_PARTNER_LIVE_BASE_URL is unset, the live loop stays on Anthropic. */
+export function liveBaseUrl(): string | null {
+  return process.env.AI_PARTNER_LIVE_BASE_URL?.trim() || null;
+}
+
+export function liveApiKey(): string | null {
+  return (
+    process.env.AI_PARTNER_LIVE_API_KEY?.trim() ||
+    process.env.ANTHROPIC_API_KEY?.trim() ||
+    null
+  );
+}
+
 /** Optional Azure Pronunciation Assessment (real phoneme-level scoring). Off by default. */
 export function pronunciationEnabled(): boolean {
   return (

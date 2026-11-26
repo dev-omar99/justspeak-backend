@@ -1,5 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { anthropicApiKey } from './ai-partner.config';
+import { anthropicApiKey, liveApiKey, liveBaseUrl } from './ai-partner.config';
 
 export interface ChatTurn {
   role: 'user' | 'assistant';
@@ -8,6 +8,26 @@ export interface ChatTurn {
 
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 const ANTHROPIC_VERSION = '2023-06-01';
+
+/** Split a token stream into sentences so TTS can start early. */
+function createSentenceSplitter(onSentence: (s: string, isLast: boolean) => void) {
+  let pending = '';
+  return {
+    push(text: string) {
+      pending += text;
+      const match = pending.match(/([\s\S]*?[.!?])(\s+|$)([\s\S]*)$/);
+      if (match && match[3].trim()) {
+        onSentence(match[1].trim(), false);
+        pending = match[3];
+      }
+    },
+    end() {
+      const sentence = pending.trim();
+      if (sentence) onSentence(sentence, true);
+      pending = '';
+    },
+  };
+}
 
 /**
  * Thin Anthropic Messages API client (plain fetch, no SDK dependency).
@@ -31,6 +51,11 @@ export class ClaudeService {
     onSentence: (sentence: string, isLast: boolean) => void;
     signal?: AbortSignal;
   }): Promise<string> {
+    // Optional OpenAI-compatible provider for the live loop (Groq free tier,
+    // Gemini OpenAI-compatible endpoint, ...). Anthropic stays the default.
+    const baseUrl = liveBaseUrl();
+    if (baseUrl) return this.streamOpenAICompatible(baseUrl, params);
+
     const key = anthropicApiKey();
     if (!key) throw new Error('ANTHROPIC_API_KEY is not configured');
 
@@ -57,12 +82,7 @@ export class ClaudeService {
     }
 
     let fullText = '';
-    let pending = '';
-    const flushSentence = (isLast: boolean) => {
-      const sentence = pending.trim();
-      if (sentence) params.onSentence(sentence, isLast);
-      pending = '';
-    };
+    const splitter = createSentenceSplitter(params.onSentence);
 
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
@@ -90,23 +110,97 @@ export class ClaudeService {
         if (event?.type === 'content_block_delta' && event?.delta?.type === 'text_delta') {
           const text: string = event.delta.text ?? '';
           fullText += text;
-          pending += text;
-          // Flush on sentence boundaries.
-          const match = pending.match(/([\s\S]*?[.!?])(\s+|$)([\s\S]*)$/);
-          if (match && match[3].trim()) {
-            pending = match[1] + match[2] + match[3];
-            const firstSentence = match[1];
-            const rest = match[3];
-            params.onSentence(firstSentence.trim(), false);
-            pending = rest;
-          }
+          splitter.push(text);
         }
         if (event?.type === 'message_stop') {
-          flushSentence(true);
+          splitter.end();
         }
       }
     }
-    flushSentence(true);
+    splitter.end();
+    return fullText.trim();
+  }
+
+  /**
+   * OpenAI-compatible streaming (chat/completions SSE). Used only when
+   * AI_PARTNER_LIVE_BASE_URL is set. Same sentence-flush behavior as the
+   * Anthropic path, so per-sentence TTS timing is unchanged.
+   */
+  private async streamOpenAICompatible(
+    baseUrl: string,
+    params: {
+      model: string;
+      system: string;
+      turns: ChatTurn[];
+      maxTokens?: number;
+      onSentence: (sentence: string, isLast: boolean) => void;
+      signal?: AbortSignal;
+    },
+  ): Promise<string> {
+    const key = liveApiKey();
+    if (!key) throw new Error('AI_PARTNER_LIVE_API_KEY is not configured');
+
+    const res = await fetch(`${baseUrl.replace(/\/+$/, '')}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        authorization: `Bearer ${key}`,
+      },
+      body: JSON.stringify({
+        model: params.model,
+        max_tokens: params.maxTokens ?? 220,
+        stream: true,
+        messages: [
+          { role: 'system', content: params.system },
+          ...params.turns,
+        ],
+      }),
+      signal: params.signal,
+    });
+
+    if (!res.ok || !res.body) {
+      const detail = await res.text().catch(() => '');
+      throw new Error(`Live provider request failed (${res.status}): ${detail.slice(0, 200)}`);
+    }
+
+    let fullText = '';
+    const splitter = createSentenceSplitter(params.onSentence);
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const events = buffer.split('\n\n');
+      buffer = events.pop() ?? '';
+      for (const eventBlock of events) {
+        const dataLine = eventBlock
+          .split('\n')
+          .find((line) => line.startsWith('data:'));
+        if (!dataLine) continue;
+        const payload = dataLine.slice(5).trim();
+        if (!payload) continue;
+        if (payload === '[DONE]') {
+          splitter.end();
+          continue;
+        }
+        let event: any;
+        try {
+          event = JSON.parse(payload);
+        } catch {
+          continue;
+        }
+        const text: string = event?.choices?.[0]?.delta?.content ?? '';
+        if (text) {
+          fullText += text;
+          splitter.push(text);
+        }
+      }
+    }
+    splitter.end();
     return fullText.trim();
   }
 
