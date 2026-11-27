@@ -305,7 +305,7 @@ export class AiPartnerService {
           `ROLEPLAY CONTEXT: this was the roleplay "${scenario.title}". ` +
           `The partner played ${scenario.personaRole}. ` +
           `Learner goal: ${scenario.goal}. ` +
-          `Scoring rubric: ${scenario.rubric.join('; ')}. ` +
+          `Scoring rubric: ${scenario.rubric.map((r) => `${r.label} (${r.hint})`).join('; ')}. ` +
           `Judge the summary, strength and growth area against this goal and rubric, ` +
           `and mention the scenario by name in the summary.\n\n`;
       }
