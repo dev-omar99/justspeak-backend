@@ -57,6 +57,7 @@ CEFR ESTIMATE
 HONESTY RULES (non-negotiable)
    - Never inflate a score to please the student.
    - Every correction, coaching card quote and recast must quote the student's exact words from the transcript. If you cannot quote it, do not report it.
+   - For a dimension you cannot judge from this transcript, write null instead of a number. 0 means the student really scored zero, never "unknown".
    - If student speech totals under 1 minute, do not score. Return status INSUFFICIENT_DATA with a friendly note in next_focus.
 
 CORRECTIONS (this is what makes JustSpeak different)
@@ -152,12 +153,15 @@ export interface SessionReport {
   cefr_estimate: string;
   summary: string;
   dimensions: {
-    grammar: number;
-    vocabulary: number;
-    fluency: number;
-    pronunciation: number;
-    interaction: number;
+    /** 0-100, or null when the dimension could not be measured (never 0 as a stand-in). */
+    grammar: number | null;
+    vocabulary: number | null;
+    fluency: number | null;
+    pronunciation: number | null;
+    interaction: number | null;
   };
+  /** Dimensions the learner knowingly skipped; shown as "Not attempted". Absent when none. */
+  skipped_dimensions?: string[];
   metrics_echo: {
     student_speech_sec: number;
     words_per_minute: number;
@@ -182,6 +186,18 @@ export interface SessionReport {
   drills: ReportDrill[];
   next_focus: string;
   suggested_lessons: string[];
+}
+
+/**
+ * Score for one dimension: a real number (including a measured 0) is clamped
+ * to 0-100; anything missing or non-numeric is null = "could not be measured".
+ * A technical failure must never look like a zero the learner earned.
+ */
+export function scoreOrNull(value: unknown): number | null {
+  if (value === null || value === undefined || value === '') return null;
+  const num = typeof value === 'number' ? value : Number(value);
+  if (!Number.isFinite(num)) return null;
+  return Math.max(0, Math.min(100, Math.round(num)));
 }
 
 export function clampScore(value: unknown): number {
@@ -225,11 +241,11 @@ export function parseSessionReport(rawText: string): SessionReport | null {
     cefr_estimate: typeof parsed.cefr_estimate === 'string' ? parsed.cefr_estimate : '',
     summary: typeof parsed.summary === 'string' ? parsed.summary : '',
     dimensions: {
-      grammar: clampScore(dims.grammar),
-      vocabulary: clampScore(dims.vocabulary),
-      fluency: clampScore(dims.fluency),
-      pronunciation: clampScore(dims.pronunciation),
-      interaction: clampScore(dims.interaction),
+      grammar: scoreOrNull(dims.grammar),
+      vocabulary: scoreOrNull(dims.vocabulary),
+      fluency: scoreOrNull(dims.fluency),
+      pronunciation: scoreOrNull(dims.pronunciation),
+      interaction: scoreOrNull(dims.interaction),
     },
     metrics_echo: {
       student_speech_sec: Number(metrics.student_speech_sec) || 0,
@@ -295,7 +311,7 @@ export function insufficientReport(metrics: Record<string, unknown>): SessionRep
     overall_score: 0,
     cefr_estimate: '',
     summary: '',
-    dimensions: { grammar: 0, vocabulary: 0, fluency: 0, pronunciation: 0, interaction: 0 },
+    dimensions: { grammar: null, vocabulary: null, fluency: null, pronunciation: null, interaction: null },
     metrics_echo: {
       student_speech_sec: Number(metrics['student_speech_sec'] ?? 0),
       words_per_minute: Number(metrics['words_per_minute'] ?? 0),

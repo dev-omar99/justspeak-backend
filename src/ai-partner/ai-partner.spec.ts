@@ -86,3 +86,40 @@ describe('rubric parsing', () => {
     expect(report?.status).toBe('INSUFFICIENT_DATA');
   });
 });
+
+describe('report dimension scores: measured zero vs not measured', () => {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const { parseSessionReport, scoreOrNull, insufficientReport } = require('./content/rubric');
+  const wrap = (dims: unknown) => JSON.stringify({ status: 'OK', overall_score: 50, dimensions: dims });
+
+  it('keeps a real 0 as 0 and clamps to 0-100', () => {
+    expect(scoreOrNull(0)).toBe(0);
+    expect(scoreOrNull('0')).toBe(0);
+    expect(scoreOrNull(-4)).toBe(0);
+    expect(scoreOrNull(140)).toBe(100);
+    expect(scoreOrNull(59.4)).toBe(59);
+    expect(scoreOrNull(59.6)).toBe(60);
+  });
+
+  it('turns missing or unusable values into null, never 0', () => {
+    for (const bad of [undefined, null, '', 'n/a', NaN, {}, Infinity]) {
+      expect(scoreOrNull(bad)).toBeNull();
+    }
+  });
+
+  it('parses a partial report: absent dimensions are null, a measured 0 stays 0', () => {
+    const report = parseSessionReport(wrap({ grammar: 0, vocabulary: 71, fluency: null, pronunciation: 'x' }));
+    expect(report.dimensions).toEqual({
+      grammar: 0,
+      vocabulary: 71,
+      fluency: null,
+      pronunciation: null,
+      interaction: null,
+    });
+  });
+
+  it('insufficient-data placeholder has no scores (all null)', () => {
+    const r = insufficientReport({});
+    expect(Object.values(r.dimensions).every((v) => v === null)).toBe(true);
+  });
+});
