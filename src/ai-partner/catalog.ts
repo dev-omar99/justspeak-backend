@@ -19,7 +19,7 @@ import type { CurriculumLesson } from './content/curriculum/types';
 import { DEFAULT_PASS_PCT, PROGRAMMES, SELF_WRITTEN, type ContentSource } from './content/programmes';
 import { reportScore } from './programmes.progress';
 import { getPersona } from './content/personas';
-import { CURRICULUM_PROGRAMMES, lessonVisible } from './content/curriculum';
+import { CURRICULUM_PROGRAMMES, lessonVisible, type CurriculumViewer } from './content/curriculum';
 
 export const CATALOG_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
 export type CatalogLevel = (typeof CATALOG_LEVELS)[number];
@@ -204,7 +204,7 @@ function buildProgramme(
     };
 }
 
-export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
+export function buildCatalog(sessions: CatalogSession[], viewer?: CurriculumViewer): FieldView[] {
   return FIELDS.map((field) => {
     const scenarios = ROLEPLAY_SCENARIOS.filter((s) => s.category === field.category);
     const base = buildProgramme(
@@ -215,7 +215,7 @@ export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
     // Curriculum programmes (hidden unless CURRICULUM_ENABLED=true or a lesson is marked live).
     const extra = CURRICULUM_PROGRAMMES.filter((p) => p.fieldId === field.id)
       .map((p) => {
-        const lessons = Object.values(p.levels).flat().filter(lessonVisible);
+        const lessons = Object.values(p.levels).flat().filter((l) => lessonVisible(l, viewer));
         if (lessons.length === 0) return null;
         const extraById = new Map<string, Partial<LessonView>>(
           lessons.map((l) => [

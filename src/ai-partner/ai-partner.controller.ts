@@ -118,7 +118,8 @@ export class AiPartnerController {
   async catalog(@Req() req: any) {
     this.aiPartner.assertEnabled();
     const sessions = await this.aiPartner.sessionsForCatalog(req.user.sub);
-    return { fields: buildCatalog(sessions) };
+    const viewer = await this.aiPartner.curriculumViewer(req.user.sub);
+    return { fields: buildCatalog(sessions, viewer) };
   }
 
   @Get('sessions/:id')

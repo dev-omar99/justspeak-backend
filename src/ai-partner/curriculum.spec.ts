@@ -1,5 +1,5 @@
 import { buildCatalog } from './catalog';
-import { CURRICULUM_PROGRAMMES, curriculumEnabled } from './content/curriculum';
+import { CURRICULUM_PROGRAMMES, curriculumEnabled, canStartCurriculumLesson } from './content/curriculum';
 import { getRoleplay, ROLEPLAY_SCENARIOS } from './content/roleplays';
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
@@ -58,15 +58,39 @@ describe('curriculum data (review checks)', () => {
 
 describe('curriculum flag', () => {
   const OLD = process.env.CURRICULUM_ENABLED;
+  const OLD_P = process.env.CURRICULUM_ADMIN_PREVIEW;
   afterEach(() => {
     if (OLD === undefined) delete process.env.CURRICULUM_ENABLED;
     else process.env.CURRICULUM_ENABLED = OLD;
+    if (OLD_P === undefined) delete process.env.CURRICULUM_ADMIN_PREVIEW;
+    else process.env.CURRICULUM_ADMIN_PREVIEW = OLD_P;
+  });
+
+  it('admin preview: only the admin viewer sees drafts; everyone else sees production', () => {
+    delete process.env.CURRICULUM_ENABLED;
+    process.env.CURRICULUM_ADMIN_PREVIEW = 'true';
+    const admin = buildCatalog([], { isPreviewer: true });
+    const user = buildCatalog([], { isPreviewer: false });
+    const anon = buildCatalog([]);
+    expect(admin.find((f) => f.id === 'work')?.programmes).toHaveLength(2);
+    expect(user.find((f) => f.id === 'work')?.programmes).toHaveLength(1);
+    expect(anon.find((f) => f.id === 'interviews')?.programmes).toHaveLength(1);
+    expect(canStartCurriculumLesson('work-cs-b1-u1-l1', { isPreviewer: true })).toBe(true);
+    expect(canStartCurriculumLesson('work-cs-b1-u1-l1', { isPreviewer: false })).toBe(false);
+    expect(canStartCurriculumLesson('work-cs-b1-u1-l1')).toBe(false);
+    expect(canStartCurriculumLesson('some-other-roleplay', { isPreviewer: false })).toBe(true);
+  });
+
+  it('admin preview flag off: even the admin viewer sees nothing', () => {
+    delete process.env.CURRICULUM_ENABLED;
+    delete process.env.CURRICULUM_ADMIN_PREVIEW;
+    expect(buildCatalog([], { isPreviewer: true }).find((f) => f.id === 'work')?.programmes).toHaveLength(1);
+    expect(canStartCurriculumLesson('work-cs-b1-u1-l1', { isPreviewer: true })).toBe(false);
   });
 
   it('is hidden by default: production catalog and roleplay lookup are unchanged', () => {
     delete process.env.CURRICULUM_ENABLED;
     expect(curriculumEnabled()).toBe(false);
-    expect(getRoleplay('work-cs-b1-u1-l1')).toBeNull();
     const fields = buildCatalog([]);
     expect(fields.find((f) => f.id === 'work')?.programmes).toHaveLength(1);
     expect(fields.find((f) => f.id === 'interviews')?.programmes).toHaveLength(1);

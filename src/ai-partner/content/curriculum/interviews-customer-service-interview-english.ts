@@ -20,15 +20,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says hello",
-      "hint": "Checked in your answers: says hello."
+      "hint": "Full credit if the learner clearly does this: says hello. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says thank you",
-      "hint": "Checked in your answers: says thank you."
+      "hint": "Full credit if the learner clearly does this: says thank you. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Smiles in the voice",
-      "hint": "Checked in your answers: smiles in the voice."
+      "hint": "Full credit if the learner clearly does this: smiles in the voice. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -55,15 +55,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Full name",
-      "hint": "Checked in your answers: full name."
+      "hint": "Full credit if the learner clearly does this: full name. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Country or city",
-      "hint": "Checked in your answers: country or city."
+      "hint": "Full credit if the learner clearly does this: country or city. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Complete sentence",
-      "hint": "Checked in your answers: complete sentence."
+      "hint": "Full credit if the learner clearly does this: complete sentence. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -90,15 +90,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"I study/I work as\"",
-      "hint": "Checked in your answers: \"I study/I work as\"."
+      "hint": "Full credit if the learner clearly does this: \"I study/I work as\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Clear word",
-      "hint": "Checked in your answers: clear word."
+      "hint": "Full credit if the learner clearly does this: clear word. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Complete sentence",
-      "hint": "Checked in your answers: complete sentence."
+      "hint": "Full credit if the learner clearly does this: complete sentence. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -125,15 +125,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks",
-      "hint": "Checked in your answers: thanks."
+      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Goodbye",
-      "hint": "Checked in your answers: goodbye."
+      "hint": "Full credit if the learner clearly does this: says goodbye. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Polite tone",
-      "hint": "Checked in your answers: polite tone."
+      "hint": "Full credit if the learner clearly does this: polite tone. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -160,15 +160,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Yes/No first",
-      "hint": "Checked in your answers: yes/No first."
+      "hint": "Full credit if the learner clearly does this: yes/No first. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Short reason",
-      "hint": "Checked in your answers: short reason."
+      "hint": "Full credit if the learner clearly does this: short reason. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Clear voice",
-      "hint": "Checked in your answers: clear voice."
+      "hint": "Full credit if the learner clearly does this: clear voice. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -195,15 +195,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Digits in groups",
-      "hint": "Checked in your answers: digits in groups."
+      "hint": "Full credit if the learner clearly does this: digits in groups. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Spells email",
-      "hint": "Checked in your answers: spells email."
+      "hint": "Full credit if the learner clearly does this: spells email. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Checks",
-      "hint": "Checked in your answers: checks."
+      "hint": "Full credit if the learner clearly does this: checks they understood. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -230,15 +230,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names languages",
-      "hint": "Checked in your answers: names languages."
+      "hint": "Full credit if the learner clearly does this: names languages. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Complete sentence",
-      "hint": "Checked in your answers: complete sentence."
+      "hint": "Full credit if the learner clearly does this: complete sentence. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Level word",
-      "hint": "Checked in your answers: level word."
+      "hint": "Full credit if the learner clearly does this: level word. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -265,15 +265,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"I like helping people\"",
-      "hint": "Checked in your answers: \"I like helping people\"."
+      "hint": "Full credit if the learner clearly does this: \"I like helping people\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "One example",
-      "hint": "Checked in your answers: one example."
+      "hint": "Full credit if the learner clearly does this: one example. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Clear voice",
-      "hint": "Checked in your answers: clear voice."
+      "hint": "Full credit if the learner clearly does this: clear voice. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -300,15 +300,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"Could you repeat that, please?\"",
-      "hint": "Checked in your answers: \"Could you repeat that, please?\"."
+      "hint": "Full credit if the learner clearly does this: \"Could you repeat that, please?\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Polite tone",
-      "hint": "Checked in your answers: polite tone."
+      "hint": "Full credit if the learner clearly does this: polite tone. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Answers after repeat",
-      "hint": "Checked in your answers: answers after repeat."
+      "hint": "Full credit if the learner clearly does this: answers after repeat. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -335,15 +335,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"Slowly, please\"",
-      "hint": "Checked in your answers: \"Slowly, please\"."
+      "hint": "Full credit if the learner clearly does this: \"Slowly, please\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Polite",
-      "hint": "Checked in your answers: polite."
+      "hint": "Full credit if the learner clearly does this: uses polite words and a polite tone. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Answers after",
-      "hint": "Checked in your answers: answers after."
+      "hint": "Full credit if the learner clearly does this: answers after. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -370,15 +370,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"What does ... mean?\"",
-      "hint": "Checked in your answers: \"What does ... mean?\"."
+      "hint": "Full credit if the learner clearly does this: \"What does ... mean?\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Polite",
-      "hint": "Checked in your answers: polite."
+      "hint": "Full credit if the learner clearly does this: uses polite words and a polite tone. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Uses the meaning",
-      "hint": "Checked in your answers: uses the meaning."
+      "hint": "Full credit if the learner clearly does this: uses the meaning. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -405,15 +405,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"I understand\"",
-      "hint": "Checked in your answers: \"I understand\"."
+      "hint": "Full credit if the learner clearly does this: \"I understand\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Thanks",
-      "hint": "Checked in your answers: thanks."
+      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Short answer",
-      "hint": "Checked in your answers: short answer."
+      "hint": "Full credit if the learner clearly does this: short answer. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -442,15 +442,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"I am good at...\"",
-      "hint": "Checked in your answers: \"I am good at...\"."
+      "hint": "Full credit if the learner clearly does this: \"I am good at...\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "One example",
-      "hint": "Checked in your answers: one example."
+      "hint": "Full credit if the learner clearly does this: one example. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Clear voice",
-      "hint": "Checked in your answers: clear voice."
+      "hint": "Full credit if the learner clearly does this: clear voice. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -477,15 +477,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Where",
-      "hint": "Checked in your answers: where."
+      "hint": "Full credit if the learner clearly does this: says where (place). Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "How long",
-      "hint": "Checked in your answers: how long."
+      "hint": "Full credit if the learner clearly does this: how long. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Complete sentences",
-      "hint": "Checked in your answers: complete sentences."
+      "hint": "Full credit if the learner clearly does this: complete sentences. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -512,15 +512,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "\"I...\" past simple",
-      "hint": "Checked in your answers: \"I...\" past simple."
+      "hint": "Full credit if the learner clearly does this: \"I...\" past simple. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "One result",
-      "hint": "Checked in your answers: one result."
+      "hint": "Full credit if the learner clearly does this: one result. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Clear voice",
-      "hint": "Checked in your answers: clear voice."
+      "hint": "Full credit if the learner clearly does this: clear voice. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -547,15 +547,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Three words",
-      "hint": "Checked in your answers: three words."
+      "hint": "Full credit if the learner clearly does this: three words. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "One reason",
-      "hint": "Checked in your answers: one reason."
+      "hint": "Full credit if the learner clearly does this: one reason. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Clear voice",
-      "hint": "Checked in your answers: clear voice."
+      "hint": "Full credit if the learner clearly does this: clear voice. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -582,15 +582,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Reason",
-      "hint": "Checked in your answers: reason."
+      "hint": "Full credit if the learner clearly does this: gives a reason, not only a claim. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Example",
-      "hint": "Checked in your answers: example."
+      "hint": "Full credit if the learner clearly does this: gives one concrete example. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Clear voice",
-      "hint": "Checked in your answers: clear voice."
+      "hint": "Full credit if the learner clearly does this: clear voice. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -617,15 +617,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "A reason about the company",
-      "hint": "Checked in your answers: a reason about the company."
+      "hint": "Full credit if the learner clearly does this: a reason about the company. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "A reason about you",
-      "hint": "Checked in your answers: a reason about you."
+      "hint": "Full credit if the learner clearly does this: a reason about you. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Polite tone",
-      "hint": "Checked in your answers: polite tone."
+      "hint": "Full credit if the learner clearly does this: polite tone. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -652,15 +652,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Level",
-      "hint": "Checked in your answers: level."
+      "hint": "Full credit if the learner clearly does this: says their level honestly. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Example",
-      "hint": "Checked in your answers: example."
+      "hint": "Full credit if the learner clearly does this: gives one concrete example. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Clear voice",
-      "hint": "Checked in your answers: clear voice."
+      "hint": "Full credit if the learner clearly does this: clear voice. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -687,15 +687,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Two skills",
-      "hint": "Checked in your answers: two skills."
+      "hint": "Full credit if the learner clearly does this: two skills. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "One example",
-      "hint": "Checked in your answers: one example."
+      "hint": "Full credit if the learner clearly does this: one example. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Short sentences",
-      "hint": "Checked in your answers: short sentences."
+      "hint": "Full credit if the learner clearly does this: short sentences. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -722,15 +722,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Yes/No first",
-      "hint": "Checked in your answers: yes/No first."
+      "hint": "Full credit if the learner clearly does this: yes/No first. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Reason",
-      "hint": "Checked in your answers: reason."
+      "hint": "Full credit if the learner clearly does this: gives a reason, not only a claim. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Short",
-      "hint": "Checked in your answers: short."
+      "hint": "Full credit if the learner clearly does this: keeps the answer short and to the point. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -757,15 +757,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Checked in your answers: answer first."
+      "hint": "Full credit if the learner clearly does this: answer first. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "One reason",
-      "hint": "Checked in your answers: one reason."
+      "hint": "Full credit if the learner clearly does this: one reason. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Short example",
-      "hint": "Checked in your answers: short example."
+      "hint": "Full credit if the learner clearly does this: short example. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -792,15 +792,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Checked in your answers: answer first."
+      "hint": "Full credit if the learner clearly does this: answer first. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Which programs",
-      "hint": "Checked in your answers: which programs."
+      "hint": "Full credit if the learner clearly does this: which programs. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Short",
-      "hint": "Checked in your answers: short."
+      "hint": "Full credit if the learner clearly does this: keeps the answer short and to the point. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -827,15 +827,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Checked in your answers: answer first."
+      "hint": "Full credit if the learner clearly does this: answer first. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Example",
-      "hint": "Checked in your answers: example."
+      "hint": "Full credit if the learner clearly does this: gives one concrete example. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Short",
-      "hint": "Checked in your answers: short."
+      "hint": "Full credit if the learner clearly does this: keeps the answer short and to the point. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -862,15 +862,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Checked in your answers: phrase."
+      "hint": "Full credit if the learner clearly does this: uses the target phrase for this lesson. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Pause",
-      "hint": "Checked in your answers: pause."
+      "hint": "Full credit if the learner clearly does this: pauses calmly before answering. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Answer",
-      "hint": "Checked in your answers: answer."
+      "hint": "Full credit if the learner clearly does this: gives a direct answer. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -897,15 +897,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Checked in your answers: phrase."
+      "hint": "Full credit if the learner clearly does this: uses the target phrase for this lesson. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Pause",
-      "hint": "Checked in your answers: pause."
+      "hint": "Full credit if the learner clearly does this: pauses calmly before answering. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Answer",
-      "hint": "Checked in your answers: answer."
+      "hint": "Full credit if the learner clearly does this: gives a direct answer. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -932,15 +932,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Checked in your answers: phrase."
+      "hint": "Full credit if the learner clearly does this: uses the target phrase for this lesson. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Main point first",
-      "hint": "Checked in your answers: main point first."
+      "hint": "Full credit if the learner clearly does this: main point first. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Short",
-      "hint": "Checked in your answers: short."
+      "hint": "Full credit if the learner clearly does this: keeps the answer short and to the point. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -967,15 +967,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Pauses",
-      "hint": "Checked in your answers: pauses."
+      "hint": "Full credit if the learner clearly does this: uses short pauses instead of filler sounds. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Slow pace",
-      "hint": "Checked in your answers: slow pace."
+      "hint": "Full credit if the learner clearly does this: slow pace. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Complete answer",
-      "hint": "Checked in your answers: complete answer."
+      "hint": "Full credit if the learner clearly does this: complete answer. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1004,15 +1004,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Skills first",
-      "hint": "Checked in your answers: skills first."
+      "hint": "Full credit if the learner clearly does this: skills first. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Education or experience",
-      "hint": "Checked in your answers: education or experience."
+      "hint": "Full credit if the learner clearly does this: education or experience. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Complete sentences",
-      "hint": "Checked in your answers: complete sentences."
+      "hint": "Full credit if the learner clearly does this: complete sentences. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1039,15 +1039,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "One real achievement",
-      "hint": "Checked in your answers: one real achievement."
+      "hint": "Full credit if the learner clearly does this: one real achievement. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Evidence",
-      "hint": "Checked in your answers: evidence."
+      "hint": "Full credit if the learner clearly does this: backs the claim with a fact or number. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Smooth link",
-      "hint": "Checked in your answers: smooth link."
+      "hint": "Full credit if the learner clearly does this: smooth link. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1074,15 +1074,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Three traits",
-      "hint": "Checked in your answers: three traits."
+      "hint": "Full credit if the learner clearly does this: three traits. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "One example",
-      "hint": "Checked in your answers: one example."
+      "hint": "Full credit if the learner clearly does this: one example. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Link to the job",
-      "hint": "Checked in your answers: link to the job."
+      "hint": "Full credit if the learner clearly does this: link to the job. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1109,15 +1109,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "All four parts in order",
-      "hint": "Checked in your answers: all four parts in order."
+      "hint": "Full credit if the learner clearly does this: all four parts in order. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "About one minute",
-      "hint": "Checked in your answers: about one minute."
+      "hint": "Full credit if the learner clearly does this: about one minute. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Calm pace",
-      "hint": "Checked in your answers: calm pace."
+      "hint": "Full credit if the learner clearly does this: calm pace. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1144,15 +1144,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Checked in your answers: answer first."
+      "hint": "Full credit if the learner clearly does this: answer first. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Short priority line",
-      "hint": "Checked in your answers: short priority line."
+      "hint": "Full credit if the learner clearly does this: short priority line. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Short example",
-      "hint": "Checked in your answers: short example."
+      "hint": "Full credit if the learner clearly does this: short example. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1179,15 +1179,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "All four parts",
-      "hint": "Checked in your answers: all four parts."
+      "hint": "Full credit if the learner clearly does this: all four parts. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Clear example",
-      "hint": "Checked in your answers: clear example."
+      "hint": "Full credit if the learner clearly does this: clear example. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Closing point",
-      "hint": "Checked in your answers: closing point."
+      "hint": "Full credit if the learner clearly does this: closing point. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1214,15 +1214,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "What",
-      "hint": "Checked in your answers: what."
+      "hint": "Full credit if the learner clearly does this: says what they do. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Why",
-      "hint": "Checked in your answers: why."
+      "hint": "Full credit if the learner clearly does this: gives a why. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "How with steps",
-      "hint": "Checked in your answers: how with steps."
+      "hint": "Full credit if the learner clearly does this: how with steps. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1249,15 +1249,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "All four parts",
-      "hint": "Checked in your answers: all four parts."
+      "hint": "Full credit if the learner clearly does this: all four parts. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Real evidence",
-      "hint": "Checked in your answers: real evidence."
+      "hint": "Full credit if the learner clearly does this: real evidence. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Link to this job",
-      "hint": "Checked in your answers: link to this job."
+      "hint": "Full credit if the learner clearly does this: link to this job. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1284,15 +1284,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Since + subject + verb",
-      "hint": "Checked in your answers: since + subject + verb."
+      "hint": "Full credit if the learner clearly does this: since + subject + verb. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Therefore + comma",
-      "hint": "Checked in your answers: therefore + comma."
+      "hint": "Full credit if the learner clearly does this: therefore + comma. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Own sentences",
-      "hint": "Checked in your answers: own sentences."
+      "hint": "Full credit if the learner clearly does this: own sentences. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1319,15 +1319,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "New sentence + comma",
-      "hint": "Checked in your answers: new sentence + comma."
+      "hint": "Full credit if the learner clearly does this: new sentence + comma. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Correct meaning",
-      "hint": "Checked in your answers: correct meaning."
+      "hint": "Full credit if the learner clearly does this: correct meaning. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Own sentences",
-      "hint": "Checked in your answers: own sentences."
+      "hint": "Full credit if the learner clearly does this: own sentences. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1354,15 +1354,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Although + subject + verb",
-      "hint": "Checked in your answers: although + subject + verb."
+      "hint": "Full credit if the learner clearly does this: although + subject + verb. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "No \"although ... but\"",
-      "hint": "Checked in your answers: no \"although ... but\"."
+      "hint": "Full credit if the learner clearly does this: no \"although ... but\". Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Own example",
-      "hint": "Checked in your answers: own example."
+      "hint": "Full credit if the learner clearly does this: own example. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1389,15 +1389,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "As a result + comma",
-      "hint": "Checked in your answers: as a result + comma."
+      "hint": "Full credit if the learner clearly does this: as a result + comma. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Rules from the checkpoint",
-      "hint": "Checked in your answers: rules from the checkpoint."
+      "hint": "Full credit if the learner clearly does this: rules from the checkpoint. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Own sentence",
-      "hint": "Checked in your answers: own sentence."
+      "hint": "Full credit if the learner clearly does this: own sentence. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1424,15 +1424,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "No negative words about people",
-      "hint": "Checked in your answers: no negative words about people."
+      "hint": "Full credit if the learner clearly does this: no negative words about people. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Truthful",
-      "hint": "Checked in your answers: truthful."
+      "hint": "Full credit if the learner clearly does this: stays truthful. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Focus on next step",
-      "hint": "Checked in your answers: focus on next step."
+      "hint": "Full credit if the learner clearly does this: focus on next step. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1459,15 +1459,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges challenge",
-      "hint": "Checked in your answers: acknowledges challenge."
+      "hint": "Full credit if the learner clearly does this: acknowledges challenge. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Shows patience",
-      "hint": "Checked in your answers: shows patience."
+      "hint": "Full credit if the learner clearly does this: shows patience. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Focus on solution",
-      "hint": "Checked in your answers: focus on solution."
+      "hint": "Full credit if the learner clearly does this: focus on solution. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1494,15 +1494,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Real weakness",
-      "hint": "Checked in your answers: real weakness."
+      "hint": "Full credit if the learner clearly does this: real weakness. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Action",
-      "hint": "Checked in your answers: action."
+      "hint": "Full credit if the learner clearly does this: says what they did, in their own role. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Improvement",
-      "hint": "Checked in your answers: improvement."
+      "hint": "Full credit if the learner clearly does this: improvement. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1529,15 +1529,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short",
-      "hint": "Checked in your answers: short."
+      "hint": "Full credit if the learner clearly does this: keeps the answer short and to the point. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Relevant",
-      "hint": "Checked in your answers: relevant."
+      "hint": "Full credit if the learner clearly does this: relevant. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Links to the role",
-      "hint": "Checked in your answers: links to the role."
+      "hint": "Full credit if the learner clearly does this: links to the role. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1564,15 +1564,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Pauses",
-      "hint": "Checked in your answers: pauses."
+      "hint": "Full credit if the learner clearly does this: uses short pauses instead of filler sounds. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Steady pace",
-      "hint": "Checked in your answers: steady pace."
+      "hint": "Full credit if the learner clearly does this: steady pace. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Clear stress",
-      "hint": "Checked in your answers: clear stress."
+      "hint": "Full credit if the learner clearly does this: clear stress. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1599,15 +1599,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Calm phrase",
-      "hint": "Checked in your answers: calm phrase."
+      "hint": "Full credit if the learner clearly does this: calm phrase. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Main point first",
-      "hint": "Checked in your answers: main point first."
+      "hint": "Full credit if the learner clearly does this: main point first. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Complete answer",
-      "hint": "Checked in your answers: complete answer."
+      "hint": "Full credit if the learner clearly does this: complete answer. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1634,15 +1634,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names two tips",
-      "hint": "Checked in your answers: names two tips."
+      "hint": "Full credit if the learner clearly does this: names two tips. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Explains why",
-      "hint": "Checked in your answers: explains why."
+      "hint": "Full credit if the learner clearly does this: explains why. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Practises one aloud",
-      "hint": "Checked in your answers: practises one aloud."
+      "hint": "Full credit if the learner clearly does this: practises one aloud. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1669,15 +1669,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Polite phrase",
-      "hint": "Checked in your answers: polite phrase."
+      "hint": "Full credit if the learner clearly does this: polite phrase. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Checks meaning",
-      "hint": "Checked in your answers: checks meaning."
+      "hint": "Full credit if the learner clearly does this: checks meaning. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Then answers",
-      "hint": "Checked in your answers: then answers."
+      "hint": "Full credit if the learner clearly does this: then answers. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1706,15 +1706,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Checked in your answers: answer first."
+      "hint": "Full credit if the learner clearly does this: answer first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "One relevant story",
-      "hint": "Checked in your answers: one relevant story."
+      "hint": "Full credit if the learner clearly does this: one relevant story. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Connect to the job",
-      "hint": "Checked in your answers: connect to the job."
+      "hint": "Full credit if the learner clearly does this: connect to the job. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1741,15 +1741,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short situation",
-      "hint": "Checked in your answers: short situation."
+      "hint": "Full credit if the learner clearly does this: short situation. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Clear responsibility",
-      "hint": "Checked in your answers: clear responsibility."
+      "hint": "Full credit if the learner clearly does this: clear responsibility. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "No extra details",
-      "hint": "Checked in your answers: no extra details."
+      "hint": "Full credit if the learner clearly does this: no extra details. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1776,15 +1776,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "What YOU did",
-      "hint": "Checked in your answers: what YOU did."
+      "hint": "Full credit if the learner clearly does this: what YOU did. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "A clear result",
-      "hint": "Checked in your answers: a clear result."
+      "hint": "Full credit if the learner clearly does this: a clear result. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Past tense",
-      "hint": "Checked in your answers: past tense."
+      "hint": "Full credit if the learner clearly does this: past tense. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1811,15 +1811,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Priorities",
-      "hint": "Checked in your answers: priorities."
+      "hint": "Full credit if the learner clearly does this: priorities. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Action with customers",
-      "hint": "Checked in your answers: action with customers."
+      "hint": "Full credit if the learner clearly does this: action with customers. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Result",
-      "hint": "Checked in your answers: result."
+      "hint": "Full credit if the learner clearly does this: states the result of what they did. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1846,15 +1846,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stay calm",
-      "hint": "Checked in your answers: stay calm."
+      "hint": "Full credit if the learner clearly does this: stay calm. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Reason",
-      "hint": "Checked in your answers: reason."
+      "hint": "Full credit if the learner clearly does this: gives a reason, not only a claim. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Steps incl. escalate if needed",
-      "hint": "Checked in your answers: steps incl. escalate if needed."
+      "hint": "Full credit if the learner clearly does this: steps incl. escalate if needed. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1881,15 +1881,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says no kindly",
-      "hint": "Checked in your answers: says no kindly."
+      "hint": "Full credit if the learner clearly does this: says no kindly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers alternatives",
-      "hint": "Checked in your answers: offers alternatives."
+      "hint": "Full credit if the learner clearly does this: offers alternatives. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Respects policy",
-      "hint": "Checked in your answers: respects policy."
+      "hint": "Full credit if the learner clearly does this: respects policy. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1916,15 +1916,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Offers help first",
-      "hint": "Checked in your answers: offers help first."
+      "hint": "Full credit if the learner clearly does this: offers help first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Escalates properly",
-      "hint": "Checked in your answers: escalates properly."
+      "hint": "Full credit if the learner clearly does this: escalates properly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Informs the customer",
-      "hint": "Checked in your answers: informs the customer."
+      "hint": "Full credit if the learner clearly does this: informs the customer. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1951,15 +1951,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Priorities",
-      "hint": "Checked in your answers: priorities."
+      "hint": "Full credit if the learner clearly does this: priorities. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Communication",
-      "hint": "Checked in your answers: communication."
+      "hint": "Full credit if the learner clearly does this: communication. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Follow up",
-      "hint": "Checked in your answers: follow up."
+      "hint": "Full credit if the learner clearly does this: follow up. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -1986,15 +1986,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Strength",
-      "hint": "Checked in your answers: strength."
+      "hint": "Full credit if the learner clearly does this: strength. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Evidence",
-      "hint": "Checked in your answers: evidence."
+      "hint": "Full credit if the learner clearly does this: backs the claim with a fact or number. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Link to job",
-      "hint": "Checked in your answers: link to job."
+      "hint": "Full credit if the learner clearly does this: link to job. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2021,15 +2021,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Honest",
-      "hint": "Checked in your answers: honest."
+      "hint": "Full credit if the learner clearly does this: honest. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Action",
-      "hint": "Checked in your answers: action."
+      "hint": "Full credit if the learner clearly does this: says what they did, in their own role. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Improvement",
-      "hint": "Checked in your answers: improvement."
+      "hint": "Full credit if the learner clearly does this: improvement. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2056,15 +2056,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Owns it",
-      "hint": "Checked in your answers: owns it."
+      "hint": "Full credit if the learner clearly does this: owns it. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "What changed",
-      "hint": "Checked in your answers: what changed."
+      "hint": "Full credit if the learner clearly does this: what changed. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Positive close",
-      "hint": "Checked in your answers: positive close."
+      "hint": "Full credit if the learner clearly does this: positive close. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2091,15 +2091,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Example",
-      "hint": "Checked in your answers: example."
+      "hint": "Full credit if the learner clearly does this: gives one concrete example. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Action",
-      "hint": "Checked in your answers: action."
+      "hint": "Full credit if the learner clearly does this: says what they did, in their own role. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Result",
-      "hint": "Checked in your answers: result."
+      "hint": "Full credit if the learner clearly does this: states the result of what they did. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2126,15 +2126,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Four parts",
-      "hint": "Checked in your answers: four parts."
+      "hint": "Full credit if the learner clearly does this: four parts. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Evidence",
-      "hint": "Checked in your answers: evidence."
+      "hint": "Full credit if the learner clearly does this: backs the claim with a fact or number. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Application",
-      "hint": "Checked in your answers: application."
+      "hint": "Full credit if the learner clearly does this: application. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2161,15 +2161,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Reasoned range",
-      "hint": "Checked in your answers: reasoned range."
+      "hint": "Full credit if the learner clearly does this: reasoned range. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Flexible",
-      "hint": "Checked in your answers: flexible."
+      "hint": "Full credit if the learner clearly does this: flexible. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Polite",
-      "hint": "Checked in your answers: polite."
+      "hint": "Full credit if the learner clearly does this: uses polite words and a polite tone. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2196,15 +2196,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Relevant",
-      "hint": "Checked in your answers: relevant."
+      "hint": "Full credit if the learner clearly does this: relevant. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Polite",
-      "hint": "Checked in your answers: polite."
+      "hint": "Full credit if the learner clearly does this: uses polite words and a polite tone. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Listens to the answer",
-      "hint": "Checked in your answers: listens to the answer."
+      "hint": "Full credit if the learner clearly does this: listens to the answer. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2231,15 +2231,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short close",
-      "hint": "Checked in your answers: short close."
+      "hint": "Full credit if the learner clearly does this: short close. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Thanks",
-      "hint": "Checked in your answers: thanks."
+      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Link to the role",
-      "hint": "Checked in your answers: link to the role."
+      "hint": "Full credit if the learner clearly does this: link to the role. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2268,15 +2268,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Checked in your answers: phrase."
+      "hint": "Full credit if the learner clearly does this: uses the target phrase for this lesson. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Structure",
-      "hint": "Checked in your answers: structure."
+      "hint": "Full credit if the learner clearly does this: structure. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Concise",
-      "hint": "Checked in your answers: concise."
+      "hint": "Full credit if the learner clearly does this: stays concise. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2303,15 +2303,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Honest",
-      "hint": "Checked in your answers: honest."
+      "hint": "Full credit if the learner clearly does this: honest. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "No excuse",
-      "hint": "Checked in your answers: no excuse."
+      "hint": "Full credit if the learner clearly does this: no excuse. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Focus on growth",
-      "hint": "Checked in your answers: focus on growth."
+      "hint": "Full credit if the learner clearly does this: focus on growth. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2338,15 +2338,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Respects policy",
-      "hint": "Checked in your answers: respects policy."
+      "hint": "Full credit if the learner clearly does this: respects policy. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Raises it properly",
-      "hint": "Checked in your answers: raises it properly."
+      "hint": "Full credit if the learner clearly does this: raises it properly. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Keeps customer service",
-      "hint": "Checked in your answers: keeps customer service."
+      "hint": "Full credit if the learner clearly does this: keeps customer service. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2373,15 +2373,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Calm pace",
-      "hint": "Checked in your answers: calm pace."
+      "hint": "Full credit if the learner clearly does this: calm pace. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Structure",
-      "hint": "Checked in your answers: structure."
+      "hint": "Full credit if the learner clearly does this: structure. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Does not apologise too much",
-      "hint": "Checked in your answers: does not apologise too much."
+      "hint": "Full credit if the learner clearly does this: does not apologise too much. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2408,15 +2408,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Eye on all",
-      "hint": "Checked in your answers: eye on all."
+      "hint": "Full credit if the learner clearly does this: eye on all. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Names",
-      "hint": "Checked in your answers: names."
+      "hint": "Full credit if the learner clearly does this: names. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Clear",
-      "hint": "Checked in your answers: clear."
+      "hint": "Full credit if the learner clearly does this: speaks clearly. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2443,15 +2443,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Position",
-      "hint": "Checked in your answers: position."
+      "hint": "Full credit if the learner clearly does this: position. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Reason",
-      "hint": "Checked in your answers: reason."
+      "hint": "Full credit if the learner clearly does this: gives a reason, not only a claim. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Nuance",
-      "hint": "Checked in your answers: nuance."
+      "hint": "Full credit if the learner clearly does this: nuance. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2478,15 +2478,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Principles",
-      "hint": "Checked in your answers: principles."
+      "hint": "Full credit if the learner clearly does this: principles. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Examples",
-      "hint": "Checked in your answers: examples."
+      "hint": "Full credit if the learner clearly does this: examples. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Customer and company",
-      "hint": "Checked in your answers: customer and company."
+      "hint": "Full credit if the learner clearly does this: customer and company. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2513,15 +2513,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Three stages",
-      "hint": "Checked in your answers: three stages."
+      "hint": "Full credit if the learner clearly does this: three stages. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Measures",
-      "hint": "Checked in your answers: measures."
+      "hint": "Full credit if the learner clearly does this: measures. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Realistic",
-      "hint": "Checked in your answers: realistic."
+      "hint": "Full credit if the learner clearly does this: realistic. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2548,15 +2548,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Approach",
-      "hint": "Checked in your answers: approach."
+      "hint": "Full credit if the learner clearly does this: approach. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Example",
-      "hint": "Checked in your answers: example."
+      "hint": "Full credit if the learner clearly does this: gives one concrete example. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Result",
-      "hint": "Checked in your answers: result."
+      "hint": "Full credit if the learner clearly does this: states the result of what they did. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2583,15 +2583,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Problem",
-      "hint": "Checked in your answers: problem."
+      "hint": "Full credit if the learner clearly does this: problem. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Action",
-      "hint": "Checked in your answers: action."
+      "hint": "Full credit if the learner clearly does this: says what they did, in their own role. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Measured result",
-      "hint": "Checked in your answers: measured result."
+      "hint": "Full credit if the learner clearly does this: measured result. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2618,15 +2618,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Source",
-      "hint": "Checked in your answers: source."
+      "hint": "Full credit if the learner clearly does this: source. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Insight",
-      "hint": "Checked in your answers: insight."
+      "hint": "Full credit if the learner clearly does this: insight. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Action",
-      "hint": "Checked in your answers: action."
+      "hint": "Full credit if the learner clearly does this: says what they did, in their own role. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -2653,15 +2653,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear principles",
-      "hint": "Checked in your answers: clear principles."
+      "hint": "Full credit if the learner clearly does this: clear principles. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Examples",
-      "hint": "Checked in your answers: examples."
+      "hint": "Full credit if the learner clearly does this: examples. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Calm delivery",
-      "hint": "Checked in your answers: calm delivery."
+      "hint": "Full credit if the learner clearly does this: calm delivery. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [

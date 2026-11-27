@@ -11,13 +11,39 @@ import type { CurriculumLesson, CurriculumProgramme } from './types';
 
 export const CURRICULUM_PROGRAMMES: CurriculumProgramme[] = [WORK_CUSTOMER_SERVICE, INTERVIEW_ENGLISH_CS];
 
+/** Global switch: every user sees every lesson (only for a full launch or a throwaway staging). */
 export function curriculumEnabled(): boolean {
   return process.env.CURRICULUM_ENABLED === 'true';
 }
 
-/** Which lessons users can see: all of them on staging, only status "live" otherwise. */
-export function lessonVisible(l: CurriculumLesson): boolean {
-  return curriculumEnabled() || l.status === 'live';
+/**
+ * Admin-only preview switch: with CURRICULUM_ADMIN_PREVIEW=true the draft lessons are visible
+ * to the single admin account only (the caller proves that with {@link CurriculumViewer}).
+ */
+export function curriculumAdminPreviewEnabled(): boolean {
+  return process.env.CURRICULUM_ADMIN_PREVIEW === 'true';
+}
+
+/** Who is asking. `isPreviewer` is true only for the configured admin account. */
+export interface CurriculumViewer {
+  isPreviewer: boolean;
+}
+
+/** Which lessons a viewer can see: all if the global flag is on, drafts for the admin previewer, else only "live". */
+export function lessonVisible(l: CurriculumLesson, viewer?: CurriculumViewer): boolean {
+  if (curriculumEnabled() || l.status === 'live') return true;
+  return curriculumAdminPreviewEnabled() && viewer?.isPreviewer === true;
+}
+
+/** True when this id belongs to a curriculum lesson (draft or live). */
+export function isCurriculumLessonId(id: string): boolean {
+  return CURRICULUM_PROGRAMMES.some((p) => Object.values(p.levels).flat().some((l) => l.id === id));
+}
+
+/** Can this viewer start the given lesson id? (Non-curriculum ids are not this module's business.) */
+export function canStartCurriculumLesson(id: string, viewer?: CurriculumViewer): boolean {
+  const l = CURRICULUM_PROGRAMMES.flatMap((p) => Object.values(p.levels).flat()).find((x) => x.id === id);
+  return !l || lessonVisible(l, viewer);
 }
 
 function toScenario(l: CurriculumLesson, field: string): RoleplayScenario {
@@ -35,16 +61,29 @@ function toScenario(l: CurriculumLesson, field: string): RoleplayScenario {
   };
 }
 
-/** All visible curriculum lessons as roleplay scenarios (empty in production until lessons are "live"). */
-export function curriculumScenarios(): RoleplayScenario[] {
-  return CURRICULUM_PROGRAMMES.flatMap((p) =>
-    Object.values(p.levels)
-      .flat()
-      .filter(lessonVisible)
-      .map((l) => toScenario(l, p.fieldId)),
+/** All curriculum lessons visible to the viewer, as roleplay scenarios (none in production until lessons are "live"). */
+export function curriculumScenarios(viewer?: CurriculumViewer): RoleplayScenario[] {
+  return allScenarios().filter((s) => visibleIds(viewer).has(s.id));
+}
+
+function visibleIds(viewer?: CurriculumViewer): Set<string> {
+  return new Set(
+    CURRICULUM_PROGRAMMES.flatMap((p) => Object.values(p.levels).flat())
+      .filter((l) => lessonVisible(l, viewer))
+      .map((l) => l.id),
   );
 }
 
+function allScenarios(): RoleplayScenario[] {
+  return CURRICULUM_PROGRAMMES.flatMap((p) =>
+    Object.values(p.levels).flat().map((l) => toScenario(l, p.fieldId)),
+  );
+}
+
+/**
+ * Resolve a lesson for an EXISTING session (coach and report). Visibility is enforced when the
+ * session is created and in the catalog, so a started session keeps working even if the flag flips.
+ */
 export function getCurriculumScenario(id: string): RoleplayScenario | null {
-  return curriculumScenarios().find((s) => s.id === id) ?? null;
+  return allScenarios().find((s) => s.id === id) ?? null;
 }

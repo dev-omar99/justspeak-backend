@@ -20,15 +20,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says hello and the company name",
-      "hint": "Checked in your answers: says hello and the company name."
+      "hint": "Full credit if the learner clearly does this: says hello and the company name. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says own name",
-      "hint": "Checked in your answers: says own name."
+      "hint": "Full credit if the learner clearly does this: says own name. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Asks \"How can I help?\"",
-      "hint": "Checked in your answers: asks \"How can I help?\"."
+      "hint": "Full credit if the learner clearly does this: asks \"How can I help?\". Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -54,15 +54,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives name slowly",
-      "hint": "Checked in your answers: gives name slowly."
+      "hint": "Full credit if the learner clearly does this: gives name slowly. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Names the company",
-      "hint": "Checked in your answers: names the company."
+      "hint": "Full credit if the learner clearly does this: names the company. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Repeats if asked",
-      "hint": "Checked in your answers: repeats if asked."
+      "hint": "Full credit if the learner clearly does this: repeats if asked. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -88,15 +88,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses please",
-      "hint": "Checked in your answers: uses please."
+      "hint": "Full credit if the learner clearly does this: uses please. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Uses thank you",
-      "hint": "Checked in your answers: uses thank you."
+      "hint": "Full credit if the learner clearly does this: uses thank you. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Replies \"You are welcome\"",
-      "hint": "Checked in your answers: replies \"You are welcome\"."
+      "hint": "Full credit if the learner clearly does this: replies \"You are welcome\". Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -122,15 +122,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says goodbye",
-      "hint": "Checked in your answers: says goodbye."
+      "hint": "Full credit if the learner clearly does this: says goodbye. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Thanks the customer",
-      "hint": "Checked in your answers: thanks the customer."
+      "hint": "Full credit if the learner clearly does this: thanks the customer. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Wishes a good day",
-      "hint": "Checked in your answers: wishes a good day."
+      "hint": "Full credit if the learner clearly does this: wishes a good day. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -156,15 +156,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for the spelling",
-      "hint": "Checked in your answers: asks for the spelling."
+      "hint": "Full credit if the learner clearly does this: asks for the spelling. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Repeats letters back",
-      "hint": "Checked in your answers: repeats letters back."
+      "hint": "Full credit if the learner clearly does this: repeats letters back. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says \"Is that right?\"",
-      "hint": "Checked in your answers: says \"Is that right?\"."
+      "hint": "Full credit if the learner clearly does this: says \"Is that right?\". Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -190,15 +190,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for the number",
-      "hint": "Checked in your answers: asks for the number."
+      "hint": "Full credit if the learner clearly does this: asks for the number. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Reads digits in groups",
-      "hint": "Checked in your answers: reads digits in groups."
+      "hint": "Full credit if the learner clearly does this: reads digits in groups. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Confirms it",
-      "hint": "Checked in your answers: confirms it."
+      "hint": "Full credit if the learner clearly does this: confirms it. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -224,15 +224,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for the number",
-      "hint": "Checked in your answers: asks for the number."
+      "hint": "Full credit if the learner clearly does this: asks for the number. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Repeats it",
-      "hint": "Checked in your answers: repeats it."
+      "hint": "Full credit if the learner clearly does this: repeats it. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Corrects a mistake politely",
-      "hint": "Checked in your answers: corrects a mistake politely."
+      "hint": "Full credit if the learner clearly does this: corrects a mistake politely. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -258,15 +258,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"Could you repeat that?\"",
-      "hint": "Checked in your answers: says \"Could you repeat that?\"."
+      "hint": "Full credit if the learner clearly does this: says \"Could you repeat that?\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Repeats the key words",
-      "hint": "Checked in your answers: repeats the key words."
+      "hint": "Full credit if the learner clearly does this: repeats the key words. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Thanks him",
-      "hint": "Checked in your answers: thanks him."
+      "hint": "Full credit if the learner clearly does this: thanks him. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -292,15 +292,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"It costs...\"",
-      "hint": "Checked in your answers: says \"It costs...\"."
+      "hint": "Full credit if the learner clearly does this: says \"It costs...\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says the number clearly",
-      "hint": "Checked in your answers: says the number clearly."
+      "hint": "Full credit if the learner clearly does this: says the number clearly. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Asks \"Anything else?\"",
-      "hint": "Checked in your answers: asks \"Anything else?\"."
+      "hint": "Full credit if the learner clearly does this: asks \"Anything else?\". Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -326,15 +326,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names sizes",
-      "hint": "Checked in your answers: names sizes."
+      "hint": "Full credit if the learner clearly does this: names sizes. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Names colours",
-      "hint": "Checked in your answers: names colours."
+      "hint": "Full credit if the learner clearly does this: names colours. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Uses simple sentences",
-      "hint": "Checked in your answers: uses simple sentences."
+      "hint": "Full credit if the learner clearly does this: uses simple sentences. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -360,15 +360,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"Yes, we have it\" or \"No, we don't\"",
-      "hint": "Checked in your answers: says \"Yes, we have it\" or \"No, we don't\"."
+      "hint": "Full credit if the learner clearly does this: says \"Yes, we have it\" or \"No, we don't\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Offers another item",
-      "hint": "Checked in your answers: offers another item."
+      "hint": "Full credit if the learner clearly does this: offers another item. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Stays polite",
-      "hint": "Checked in your answers: stays polite."
+      "hint": "Full credit if the learner clearly does this: stays polite. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -394,15 +394,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks cash or card",
-      "hint": "Checked in your answers: asks cash or card."
+      "hint": "Full credit if the learner clearly does this: asks cash or card. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says the total",
-      "hint": "Checked in your answers: says the total."
+      "hint": "Full credit if the learner clearly does this: says the total. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says thank you",
-      "hint": "Checked in your answers: says thank you."
+      "hint": "Full credit if the learner clearly does this: says thank you. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -428,15 +428,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Names the company",
-      "hint": "Checked in your answers: names the company."
+      "hint": "Full credit if the learner clearly does this: names the company. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Asks how to help",
-      "hint": "Checked in your answers: asks how to help."
+      "hint": "Full credit if the learner clearly does this: asks how to help. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -462,15 +462,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"Please wait a moment\"",
-      "hint": "Checked in your answers: says \"Please wait a moment\"."
+      "hint": "Full credit if the learner clearly does this: says \"Please wait a moment\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Comes back with \"Thank you for waiting\"",
-      "hint": "Checked in your answers: comes back with \"Thank you for waiting\"."
+      "hint": "Full credit if the learner clearly does this: comes back with \"Thank you for waiting\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Stays polite",
-      "hint": "Checked in your answers: stays polite."
+      "hint": "Full credit if the learner clearly does this: stays polite. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -496,15 +496,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I will transfer you\"",
-      "hint": "Checked in your answers: says \"I will transfer you\"."
+      "hint": "Full credit if the learner clearly does this: says \"I will transfer you\". Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says who will help",
-      "hint": "Checked in your answers: says who will help."
+      "hint": "Full credit if the learner clearly does this: says who will help. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Thanks him",
-      "hint": "Checked in your answers: thanks him."
+      "hint": "Full credit if the learner clearly does this: thanks him. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -530,15 +530,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the days",
-      "hint": "Checked in your answers: names the days."
+      "hint": "Full credit if the learner clearly does this: names the days. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says the times",
-      "hint": "Checked in your answers: says the times."
+      "hint": "Full credit if the learner clearly does this: says the times. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Checks she understood",
-      "hint": "Checked in your answers: checks she understood."
+      "hint": "Full credit if the learner clearly does this: checks she understood. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -564,15 +564,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Answers the question",
-      "hint": "Checked in your answers: answers the question."
+      "hint": "Full credit if the learner clearly does this: answers the question. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Closes politely",
-      "hint": "Checked in your answers: closes politely."
+      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -598,15 +598,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Gives the price clearly",
-      "hint": "Checked in your answers: gives the price clearly."
+      "hint": "Full credit if the learner clearly does this: gives the price clearly. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Closes politely",
-      "hint": "Checked in your answers: closes politely."
+      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -632,15 +632,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for name and number",
-      "hint": "Checked in your answers: asks for name and number."
+      "hint": "Full credit if the learner clearly does this: asks for name and number. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Checks them",
-      "hint": "Checked in your answers: checks them."
+      "hint": "Full credit if the learner clearly does this: checks them. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Closes politely",
-      "hint": "Checked in your answers: closes politely."
+      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -666,15 +666,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Explains the transfer",
-      "hint": "Checked in your answers: explains the transfer."
+      "hint": "Full credit if the learner clearly does this: explains the transfer. Partial if tried but unclear. Single words and short phrases are enough."
      },
      {
       "label": "Says goodbye",
-      "hint": "Checked in your answers: says goodbye."
+      "hint": "Full credit if the learner clearly does this: says goodbye. Partial if tried but unclear. Single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -702,15 +702,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I will ask my supervisor\"",
-      "hint": "Checked in your answers: says \"I will ask my supervisor\"."
+      "hint": "Full credit if the learner clearly does this: says \"I will ask my supervisor\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks him to wait",
-      "hint": "Checked in your answers: asks him to wait."
+      "hint": "Full credit if the learner clearly does this: asks him to wait. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Comes back with an answer",
-      "hint": "Checked in your answers: comes back with an answer."
+      "hint": "Full credit if the learner clearly does this: comes back with an answer. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -736,15 +736,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a day or time",
-      "hint": "Checked in your answers: gives a day or time."
+      "hint": "Full credit if the learner clearly does this: gives a day or time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says how long",
-      "hint": "Checked in your answers: says how long."
+      "hint": "Full credit if the learner clearly does this: says how long. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Checks she understands",
-      "hint": "Checked in your answers: checks she understands."
+      "hint": "Full credit if the learner clearly does this: checks she understands. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -770,15 +770,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a time",
-      "hint": "Checked in your answers: gives a time."
+      "hint": "Full credit if the learner clearly does this: gives a time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Explains one step",
-      "hint": "Checked in your answers: explains one step."
+      "hint": "Full credit if the learner clearly does this: explains one step. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks if that is OK",
-      "hint": "Checked in your answers: asks if that is OK."
+      "hint": "Full credit if the learner clearly does this: asks if that is OK. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -804,15 +804,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes both",
-      "hint": "Checked in your answers: describes both."
+      "hint": "Full credit if the learner clearly does this: describes both. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Gives a time for each",
-      "hint": "Checked in your answers: gives a time for each."
+      "hint": "Full credit if the learner clearly does this: gives a time for each. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Confirms the choice",
-      "hint": "Checked in your answers: confirms the choice."
+      "hint": "Full credit if the learner clearly does this: confirms the choice. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -838,15 +838,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks what and how many",
-      "hint": "Checked in your answers: asks what and how many."
+      "hint": "Full credit if the learner clearly does this: asks what and how many. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Repeats the order",
-      "hint": "Checked in your answers: repeats the order."
+      "hint": "Full credit if the learner clearly does this: repeats the order. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Gives the total",
-      "hint": "Checked in your answers: gives the total."
+      "hint": "Full credit if the learner clearly does this: gives the total. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -872,15 +872,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for day and time",
-      "hint": "Checked in your answers: asks for day and time."
+      "hint": "Full credit if the learner clearly does this: asks for day and time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Checks they are free",
-      "hint": "Checked in your answers: checks they are free."
+      "hint": "Full credit if the learner clearly does this: checks they are free. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Confirms the booking",
-      "hint": "Checked in your answers: confirms the booking."
+      "hint": "Full credit if the learner clearly does this: confirms the booking. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -906,15 +906,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Finds the booking",
-      "hint": "Checked in your answers: finds the booking."
+      "hint": "Full credit if the learner clearly does this: finds the booking. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks for the new time",
-      "hint": "Checked in your answers: asks for the new time."
+      "hint": "Full credit if the learner clearly does this: asks for the new time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Confirms the change",
-      "hint": "Checked in your answers: confirms the change."
+      "hint": "Full credit if the learner clearly does this: confirms the change. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -940,15 +940,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Repeats name, date and place",
-      "hint": "Checked in your answers: repeats name, date and place."
+      "hint": "Full credit if the learner clearly does this: repeats name, date and place. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks \"Is that correct?\"",
-      "hint": "Checked in your answers: asks \"Is that correct?\"."
+      "hint": "Full credit if the learner clearly does this: asks \"Is that correct?\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Thanks her",
-      "hint": "Checked in your answers: thanks her."
+      "hint": "Full credit if the learner clearly does this: thanks her. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -974,15 +974,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I am sorry\"",
-      "hint": "Checked in your answers: says \"I am sorry\"."
+      "hint": "Full credit if the learner clearly does this: says \"I am sorry\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says what happened",
-      "hint": "Checked in your answers: says what happened."
+      "hint": "Full credit if the learner clearly does this: says what happened. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says the next step",
-      "hint": "Checked in your answers: says the next step."
+      "hint": "Full credit if the learner clearly does this: says the next step. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1008,15 +1008,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks which item",
-      "hint": "Checked in your answers: asks which item."
+      "hint": "Full credit if the learner clearly does this: asks which item. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says sorry",
-      "hint": "Checked in your answers: says sorry."
+      "hint": "Full credit if the learner clearly does this: says sorry. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Arranges a replacement",
-      "hint": "Checked in your answers: arranges a replacement."
+      "hint": "Full credit if the learner clearly does this: arranges a replacement. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1042,15 +1042,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Apologises",
-      "hint": "Checked in your answers: apologises."
+      "hint": "Full credit if the learner clearly does this: says sorry clearly and sincerely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Gives a date",
-      "hint": "Checked in your answers: gives a date."
+      "hint": "Full credit if the learner clearly does this: gives a date. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Offers to call back",
-      "hint": "Checked in your answers: offers to call back."
+      "hint": "Full credit if the learner clearly does this: offers to call back. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1076,15 +1076,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says the first step",
-      "hint": "Checked in your answers: says the first step."
+      "hint": "Full credit if the learner clearly does this: says the first step. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says when",
-      "hint": "Checked in your answers: says when."
+      "hint": "Full credit if the learner clearly does this: says when. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says how you will tell her",
-      "hint": "Checked in your answers: says how you will tell her."
+      "hint": "Full credit if the learner clearly does this: says how you will tell her. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1110,15 +1110,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Thanks",
-      "hint": "Checked in your answers: thanks."
+      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Closes politely",
-      "hint": "Checked in your answers: closes politely."
+      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1144,15 +1144,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Answers in one or two sentences",
-      "hint": "Checked in your answers: answers in one or two sentences."
+      "hint": "Full credit if the learner clearly does this: answers in one or two sentences. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Closes politely",
-      "hint": "Checked in your answers: closes politely."
+      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1178,15 +1178,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets with name",
-      "hint": "Checked in your answers: greets with name."
+      "hint": "Full credit if the learner clearly does this: greets with name. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks how to help",
-      "hint": "Checked in your answers: asks how to help."
+      "hint": "Full credit if the learner clearly does this: asks how to help. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Keeps sentences short",
-      "hint": "Checked in your answers: keeps sentences short."
+      "hint": "Full credit if the learner clearly does this: keeps sentences short. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1212,15 +1212,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I will call you back\"",
-      "hint": "Checked in your answers: says \"I will call you back\"."
+      "hint": "Full credit if the learner clearly does this: says \"I will call you back\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Gives a time",
-      "hint": "Checked in your answers: gives a time."
+      "hint": "Full credit if the learner clearly does this: gives a time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks for the number",
-      "hint": "Checked in your answers: asks for the number."
+      "hint": "Full credit if the learner clearly does this: asks for the number. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1246,15 +1246,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Checked in your answers: explains why."
+      "hint": "Full credit if the learner clearly does this: explains why. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks name",
-      "hint": "Checked in your answers: asks name."
+      "hint": "Full credit if the learner clearly does this: asks name. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks date of birth",
-      "hint": "Checked in your answers: asks date of birth."
+      "hint": "Full credit if the learner clearly does this: asks date of birth. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1280,15 +1280,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Finds the amount",
-      "hint": "Checked in your answers: finds the amount."
+      "hint": "Full credit if the learner clearly does this: finds the amount. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says the date",
-      "hint": "Checked in your answers: says the date."
+      "hint": "Full credit if the learner clearly does this: says the date. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks \"Is there anything else?\"",
-      "hint": "Checked in your answers: asks \"Is there anything else?\"."
+      "hint": "Full credit if the learner clearly does this: asks \"Is there anything else?\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1314,15 +1314,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives step one",
-      "hint": "Checked in your answers: gives step one."
+      "hint": "Full credit if the learner clearly does this: gives step one. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Gives step two",
-      "hint": "Checked in your answers: gives step two."
+      "hint": "Full credit if the learner clearly does this: gives step two. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Asks her to tell you what happens",
-      "hint": "Checked in your answers: asks her to tell you what happens."
+      "hint": "Full credit if the learner clearly does this: asks her to tell you what happens. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1348,15 +1348,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"You are welcome\"",
-      "hint": "Checked in your answers: says \"You are welcome\"."
+      "hint": "Full credit if the learner clearly does this: says \"You are welcome\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Offers more help",
-      "hint": "Checked in your answers: offers more help."
+      "hint": "Full credit if the learner clearly does this: offers more help. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says goodbye",
-      "hint": "Checked in your answers: says goodbye."
+      "hint": "Full credit if the learner clearly does this: says goodbye. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1382,15 +1382,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Gives news and apologises",
-      "hint": "Checked in your answers: gives news and apologises."
+      "hint": "Full credit if the learner clearly does this: gives news and apologises. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Closes",
-      "hint": "Checked in your answers: closes."
+      "hint": "Full credit if the learner clearly does this: ends the call politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1416,15 +1416,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Changes it",
-      "hint": "Checked in your answers: changes it."
+      "hint": "Full credit if the learner clearly does this: changes it. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Confirms and closes",
-      "hint": "Checked in your answers: confirms and closes."
+      "hint": "Full credit if the learner clearly does this: confirms and closes. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1450,15 +1450,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Checked in your answers: greets."
+      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Apologises",
-      "hint": "Checked in your answers: apologises."
+      "hint": "Full credit if the learner clearly does this: says sorry clearly and sincerely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Says next step and closes",
-      "hint": "Checked in your answers: says next step and closes."
+      "hint": "Full credit if the learner clearly does this: says next step and closes. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1484,15 +1484,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets and checks name",
-      "hint": "Checked in your answers: greets and checks name."
+      "hint": "Full credit if the learner clearly does this: greets and checks name. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Answers",
-      "hint": "Checked in your answers: answers."
+      "hint": "Full credit if the learner clearly does this: answers the question that was asked. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      },
      {
       "label": "Closes",
-      "hint": "Checked in your answers: closes."
+      "hint": "Full credit if the learner clearly does this: ends the call politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
      }
     ],
     "targets": [
@@ -1520,15 +1520,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses open questions (What, When, How)",
-      "hint": "Checked in your answers: uses open questions (What, When, How)."
+      "hint": "Full credit if the learner clearly does this: uses open questions (What, When, How). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Does not interrupt the customer",
-      "hint": "Checked in your answers: does not interrupt the customer."
+      "hint": "Full credit if the learner clearly does this: does not interrupt the customer. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Ends with a clear statement of the problem",
-      "hint": "Checked in your answers: ends with a clear statement of the problem."
+      "hint": "Full credit if the learner clearly does this: ends with a clear statement of the problem. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1554,15 +1554,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises in one or two sentences",
-      "hint": "Checked in your answers: summarises in one or two sentences."
+      "hint": "Full credit if the learner clearly does this: summarises in one or two sentences. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Uses a check phrase ('Is that right?')",
-      "hint": "Checked in your answers: uses a check phrase ('Is that right?')."
+      "hint": "Full credit if the learner clearly does this: uses a check phrase ('Is that right?'). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Corrects the summary if the customer says no",
-      "hint": "Checked in your answers: corrects the summary if the customer says no."
+      "hint": "Full credit if the learner clearly does this: corrects the summary if the customer says no. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1588,15 +1588,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Shows understanding ('I understand')",
-      "hint": "Checked in your answers: shows understanding ('I understand')."
+      "hint": "Full credit if the learner clearly does this: shows understanding ('I understand'). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Speaks slowly and clearly",
-      "hint": "Checked in your answers: speaks slowly and clearly."
+      "hint": "Full credit if the learner clearly does this: speaks slowly and clearly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "States one clear next step",
-      "hint": "Checked in your answers: states one clear next step."
+      "hint": "Full credit if the learner clearly does this: states one clear next step. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1622,15 +1622,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks politely for the number",
-      "hint": "Checked in your answers: asks politely for the number."
+      "hint": "Full credit if the learner clearly does this: asks politely for the number. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Offers an alternative (name, email, phone)",
-      "hint": "Checked in your answers: offers an alternative (name, email, phone)."
+      "hint": "Full credit if the learner clearly does this: offers an alternative (name, email, phone). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Repeats details back correctly",
-      "hint": "Checked in your answers: repeats details back correctly."
+      "hint": "Full credit if the learner clearly does this: repeats details back correctly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1656,15 +1656,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Lets the customer finish",
-      "hint": "Checked in your answers: lets the customer finish."
+      "hint": "Full credit if the learner clearly does this: lets the customer finish. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Uses a phrase of understanding",
-      "hint": "Checked in your answers: uses a phrase of understanding."
+      "hint": "Full credit if the learner clearly does this: uses a phrase of understanding. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Asks one question about the details",
-      "hint": "Checked in your answers: asks one question about the details."
+      "hint": "Full credit if the learner clearly does this: asks one question about the details. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1690,15 +1690,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says sorry clearly and once",
-      "hint": "Checked in your answers: says sorry clearly and once."
+      "hint": "Full credit if the learner clearly does this: says sorry clearly and once. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Names the problem specifically",
-      "hint": "Checked in your answers: names the problem specifically."
+      "hint": "Full credit if the learner clearly does this: names the problem specifically. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Moves to what happens next",
-      "hint": "Checked in your answers: moves to what happens next."
+      "hint": "Full credit if the learner clearly does this: moves to what happens next. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1724,15 +1724,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Offers a clear solution",
-      "hint": "Checked in your answers: offers a clear solution."
+      "hint": "Full credit if the learner clearly does this: offers a clear solution. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Explains the steps in order",
-      "hint": "Checked in your answers: explains the steps in order."
+      "hint": "Full credit if the learner clearly does this: explains the steps in order. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Checks the customer agrees",
-      "hint": "Checked in your answers: checks the customer agrees."
+      "hint": "Full credit if the learner clearly does this: checks the customer agrees. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1758,15 +1758,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes both options",
-      "hint": "Checked in your answers: describes both options."
+      "hint": "Full credit if the learner clearly does this: describes both options. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives one honest time frame",
-      "hint": "Checked in your answers: gives one honest time frame."
+      "hint": "Full credit if the learner clearly does this: gives one honest time frame. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Lets the customer decide",
-      "hint": "Checked in your answers: lets the customer decide."
+      "hint": "Full credit if the learner clearly does this: lets the customer decide. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1792,15 +1792,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the rule clearly",
-      "hint": "Checked in your answers: states the rule clearly."
+      "hint": "Full credit if the learner clearly does this: states the rule clearly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives the reason",
-      "hint": "Checked in your answers: gives the reason."
+      "hint": "Full credit if the learner clearly does this: gives the reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Suggests what the customer can still do",
-      "hint": "Checked in your answers: suggests what the customer can still do."
+      "hint": "Full credit if the learner clearly does this: suggests what the customer can still do. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1826,15 +1826,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the fee and the amount",
-      "hint": "Checked in your answers: names the fee and the amount."
+      "hint": "Full credit if the learner clearly does this: names the fee and the amount. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives a short reason",
-      "hint": "Checked in your answers: gives a short reason."
+      "hint": "Full credit if the learner clearly does this: gives a short reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Responds politely to the objection",
-      "hint": "Checked in your answers: responds politely to the objection."
+      "hint": "Full credit if the learner clearly does this: responds politely to the objection. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1860,15 +1860,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses a soft opening ('Unfortunately')",
-      "hint": "Checked in your answers: uses a soft opening ('Unfortunately')."
+      "hint": "Full credit if the learner clearly does this: uses a soft opening ('Unfortunately'). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives a reason",
-      "hint": "Checked in your answers: gives a reason."
+      "hint": "Full credit if the learner clearly does this: gives a reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Checked in your answers: offers an alternative."
+      "hint": "Full credit if the learner clearly does this: offers an alternative. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1894,15 +1894,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains the cause simply",
-      "hint": "Checked in your answers: explains the cause simply."
+      "hint": "Full credit if the learner clearly does this: explains the cause simply. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives a realistic new date",
-      "hint": "Checked in your answers: gives a realistic new date."
+      "hint": "Full credit if the learner clearly does this: gives a realistic new date. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Offers something to make up for it",
-      "hint": "Checked in your answers: offers something to make up for it."
+      "hint": "Full credit if the learner clearly does this: offers something to make up for it. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1928,15 +1928,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises the actions",
-      "hint": "Checked in your answers: summarises the actions."
+      "hint": "Full credit if the learner clearly does this: summarises the actions. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Asks 'Anything else?'",
-      "hint": "Checked in your answers: asks 'Anything else?'."
+      "hint": "Full credit if the learner clearly does this: asks 'Anything else?'. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Closes warmly",
-      "hint": "Checked in your answers: closes warmly."
+      "hint": "Full credit if the learner clearly does this: closes warmly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1962,15 +1962,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a specific time",
-      "hint": "Checked in your answers: gives a specific time."
+      "hint": "Full credit if the learner clearly does this: gives a specific time. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Says who will call",
-      "hint": "Checked in your answers: says who will call."
+      "hint": "Full credit if the learner clearly does this: says who will call. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Thanks the customer for waiting",
-      "hint": "Checked in your answers: thanks the customer for waiting."
+      "hint": "Full credit if the learner clearly does this: thanks the customer for waiting. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1996,15 +1996,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Has all four parts",
-      "hint": "Checked in your answers: has all four parts."
+      "hint": "Full credit if the learner clearly does this: has all four parts. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Short clear sentences",
-      "hint": "Checked in your answers: short clear sentences."
+      "hint": "Full credit if the learner clearly does this: short clear sentences. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Polite closing",
-      "hint": "Checked in your answers: polite closing."
+      "hint": "Full credit if the learner clearly does this: polite closing. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2030,15 +2030,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answers each by name",
-      "hint": "Checked in your answers: answers each by name."
+      "hint": "Full credit if the learner clearly does this: answers each by name. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives a wait time when needed",
-      "hint": "Checked in your answers: gives a wait time when needed."
+      "hint": "Full credit if the learner clearly does this: gives a wait time when needed. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Stays polite and short",
-      "hint": "Checked in your answers: stays polite and short."
+      "hint": "Full credit if the learner clearly does this: stays polite and short. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2064,15 +2064,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks what matters most to him",
-      "hint": "Checked in your answers: asks what matters most to him."
+      "hint": "Full credit if the learner clearly does this: asks what matters most to him. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Offers two clear alternatives",
-      "hint": "Checked in your answers: offers two clear alternatives."
+      "hint": "Full credit if the learner clearly does this: offers two clear alternatives. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Confirms the choice",
-      "hint": "Checked in your answers: confirms the choice."
+      "hint": "Full credit if the learner clearly does this: confirms the choice. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2098,15 +2098,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why you must check",
-      "hint": "Checked in your answers: explains why you must check."
+      "hint": "Full credit if the learner clearly does this: explains why you must check. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Asks two security questions politely",
-      "hint": "Checked in your answers: asks two security questions politely."
+      "hint": "Full credit if the learner clearly does this: asks two security questions politely. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Does not share account details before checking",
-      "hint": "Checked in your answers: does not share account details before checking."
+      "hint": "Full credit if the learner clearly does this: does not share account details before checking. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2132,15 +2132,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Confirms the amount and date",
-      "hint": "Checked in your answers: confirms the amount and date."
+      "hint": "Full credit if the learner clearly does this: confirms the amount and date. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Explains the cause or next step simply",
-      "hint": "Checked in your answers: explains the cause or next step simply."
+      "hint": "Full credit if the learner clearly does this: explains the cause or next step simply. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives a time for the correction",
-      "hint": "Checked in your answers: gives a time for the correction."
+      "hint": "Full credit if the learner clearly does this: gives a time for the correction. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2166,15 +2166,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares the plans in simple words",
-      "hint": "Checked in your answers: compares the plans in simple words."
+      "hint": "Full credit if the learner clearly does this: compares the plans in simple words. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Asks about her needs",
-      "hint": "Checked in your answers: asks about her needs."
+      "hint": "Full credit if the learner clearly does this: asks about her needs. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Recommends one with a reason",
-      "hint": "Checked in your answers: recommends one with a reason."
+      "hint": "Full credit if the learner clearly does this: recommends one with a reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2200,15 +2200,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Tells the customer who and why",
-      "hint": "Checked in your answers: tells the customer who and why."
+      "hint": "Full credit if the learner clearly does this: tells the customer who and why. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives a short summary to the colleague",
-      "hint": "Checked in your answers: gives a short summary to the colleague."
+      "hint": "Full credit if the learner clearly does this: gives a short summary to the colleague. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Stays on the line until the handover is done",
-      "hint": "Checked in your answers: stays on the line until the handover is done."
+      "hint": "Full credit if the learner clearly does this: stays on the line until the handover is done. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2234,15 +2234,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays polite and does not argue",
-      "hint": "Checked in your answers: stays polite and does not argue."
+      "hint": "Full credit if the learner clearly does this: stays polite and does not argue. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Explains the escalation steps",
-      "hint": "Checked in your answers: explains the escalation steps."
+      "hint": "Full credit if the learner clearly does this: explains the escalation steps. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives a time and a reference number",
-      "hint": "Checked in your answers: gives a time and a reference number."
+      "hint": "Full credit if the learner clearly does this: gives a time and a reference number. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2268,15 +2268,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Admits the mistake clearly",
-      "hint": "Checked in your answers: admits the mistake clearly."
+      "hint": "Full credit if the learner clearly does this: admits the mistake clearly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives the correct information",
-      "hint": "Checked in your answers: gives the correct information."
+      "hint": "Full credit if the learner clearly does this: gives the correct information. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Offers a fair way to put it right",
-      "hint": "Checked in your answers: offers a fair way to put it right."
+      "hint": "Full credit if the learner clearly does this: offers a fair way to put it right. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2302,15 +2302,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives steps one at a time",
-      "hint": "Checked in your answers: gives steps one at a time."
+      "hint": "Full credit if the learner clearly does this: gives steps one at a time. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Checks after each step",
-      "hint": "Checked in your answers: checks after each step."
+      "hint": "Full credit if the learner clearly does this: checks after each step. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Offers another way if it fails",
-      "hint": "Checked in your answers: offers another way if it fails."
+      "hint": "Full credit if the learner clearly does this: offers another way if it fails. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2336,19 +2336,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets and verifies before details",
-      "hint": "Checked in your answers: greets and verifies before details."
+      "hint": "Full credit if the learner clearly does this: greets and verifies before details. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Listens and clarifies the problem",
-      "hint": "Checked in your answers: listens and clarifies the problem."
+      "hint": "Full credit if the learner clearly does this: listens and clarifies the problem. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Explains the charge and the next step",
-      "hint": "Checked in your answers: explains the charge and the next step."
+      "hint": "Full credit if the learner clearly does this: explains the charge and the next step. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Recaps and closes politely",
-      "hint": "Checked in your answers: recaps and closes politely."
+      "hint": "Full credit if the learner clearly does this: recaps and closes politely. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2374,19 +2374,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and finds the order",
-      "hint": "Checked in your answers: verifies and finds the order."
+      "hint": "Full credit if the learner clearly does this: verifies and finds the order. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Gives an honest date",
-      "hint": "Checked in your answers: gives an honest date."
+      "hint": "Full credit if the learner clearly does this: gives an honest date. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Offers an option",
-      "hint": "Checked in your answers: offers an option."
+      "hint": "Full credit if the learner clearly does this: offers an option. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Checked in your answers: recaps and closes."
+      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2412,19 +2412,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks clear questions",
-      "hint": "Checked in your answers: asks clear questions."
+      "hint": "Full credit if the learner clearly does this: asks clear questions. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Explains the warranty simply",
-      "hint": "Checked in your answers: explains the warranty simply."
+      "hint": "Full credit if the learner clearly does this: explains the warranty simply. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Agrees a solution and steps",
-      "hint": "Checked in your answers: agrees a solution and steps."
+      "hint": "Full credit if the learner clearly does this: agrees a solution and steps. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Checked in your answers: recaps and closes."
+      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2450,19 +2450,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains the security check",
-      "hint": "Checked in your answers: explains the security check."
+      "hint": "Full credit if the learner clearly does this: explains the security check. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Checks identity before changes",
-      "hint": "Checked in your answers: checks identity before changes."
+      "hint": "Full credit if the learner clearly does this: checks identity before changes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Confirms the change aloud",
-      "hint": "Checked in your answers: confirms the change aloud."
+      "hint": "Full credit if the learner clearly does this: confirms the change aloud. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Checked in your answers: recaps and closes."
+      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -2490,15 +2490,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges feelings first",
-      "hint": "Checked in your answers: acknowledges feelings first."
+      "hint": "Full credit if the learner clearly does this: acknowledges feelings first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Keeps a calm steady tone",
-      "hint": "Checked in your answers: keeps a calm steady tone."
+      "hint": "Full credit if the learner clearly does this: keeps a calm steady tone. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Moves to a clear plan",
-      "hint": "Checked in your answers: moves to a clear plan."
+      "hint": "Full credit if the learner clearly does this: moves to a clear plan. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2524,15 +2524,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Does not copy the tone",
-      "hint": "Checked in your answers: does not copy the tone."
+      "hint": "Full credit if the learner clearly does this: does not copy the tone. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Uses her name",
-      "hint": "Checked in your answers: uses her name."
+      "hint": "Full credit if the learner clearly does this: uses her name. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Returns to the issue politely",
-      "hint": "Checked in your answers: returns to the issue politely."
+      "hint": "Full credit if the learner clearly does this: returns to the issue politely. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2558,15 +2558,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says no clearly and kindly",
-      "hint": "Checked in your answers: says no clearly and kindly."
+      "hint": "Full credit if the learner clearly does this: says no clearly and kindly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives a reason",
-      "hint": "Checked in your answers: gives a reason."
+      "hint": "Full credit if the learner clearly does this: gives a reason. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers two real choices",
-      "hint": "Checked in your answers: offers two real choices."
+      "hint": "Full credit if the learner clearly does this: offers two real choices. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2592,15 +2592,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Offers to help first",
-      "hint": "Checked in your answers: offers to help first."
+      "hint": "Full credit if the learner clearly does this: offers to help first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains the escalation",
-      "hint": "Checked in your answers: explains the escalation."
+      "hint": "Full credit if the learner clearly does this: explains the escalation. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives a time",
-      "hint": "Checked in your answers: gives a time."
+      "hint": "Full credit if the learner clearly does this: gives a time. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2626,15 +2626,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives an overview first",
-      "hint": "Checked in your answers: gives an overview first."
+      "hint": "Full credit if the learner clearly does this: gives an overview first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains steps in order",
-      "hint": "Checked in your answers: explains steps in order."
+      "hint": "Full credit if the learner clearly does this: explains steps in order. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Checks after each step",
-      "hint": "Checked in your answers: checks after each step."
+      "hint": "Full credit if the learner clearly does this: checks after each step. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2660,15 +2660,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what is possible",
-      "hint": "Checked in your answers: says what is possible."
+      "hint": "Full credit if the learner clearly does this: says what is possible. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Says what is not",
-      "hint": "Checked in your answers: says what is not."
+      "hint": "Full credit if the learner clearly does this: says what is not. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers the best next date",
-      "hint": "Checked in your answers: offers the best next date."
+      "hint": "Full credit if the learner clearly does this: offers the best next date. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2694,15 +2694,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Checked in your answers: explains why."
+      "hint": "Full credit if the learner clearly does this: explains why. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Summarises the case for the team",
-      "hint": "Checked in your answers: summarises the case for the team."
+      "hint": "Full credit if the learner clearly does this: summarises the case for the team. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives a reference and time",
-      "hint": "Checked in your answers: gives a reference and time."
+      "hint": "Full credit if the learner clearly does this: gives a reference and time. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2728,15 +2728,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States what changed",
-      "hint": "Checked in your answers: states what changed."
+      "hint": "Full credit if the learner clearly does this: states what changed. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "States what is next",
-      "hint": "Checked in your answers: states what is next."
+      "hint": "Full credit if the learner clearly does this: states what is next. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives a date",
-      "hint": "Checked in your answers: gives a date."
+      "hint": "Full credit if the learner clearly does this: gives a date. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2762,15 +2762,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks why",
-      "hint": "Checked in your answers: asks why."
+      "hint": "Full credit if the learner clearly does this: asks why. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Does not push",
-      "hint": "Checked in your answers: does not push."
+      "hint": "Full credit if the learner clearly does this: does not push. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers a fair option",
-      "hint": "Checked in your answers: offers a fair option."
+      "hint": "Full credit if the learner clearly does this: offers a fair option. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2796,15 +2796,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks about needs",
-      "hint": "Checked in your answers: asks about needs."
+      "hint": "Full credit if the learner clearly does this: asks about needs. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains benefits",
-      "hint": "Checked in your answers: explains benefits."
+      "hint": "Full credit if the learner clearly does this: explains benefits. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Lets her decide",
-      "hint": "Checked in your answers: lets her decide."
+      "hint": "Full credit if the learner clearly does this: lets her decide. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2830,15 +2830,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges the concern",
-      "hint": "Checked in your answers: acknowledges the concern."
+      "hint": "Full credit if the learner clearly does this: acknowledges the concern. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains the value",
-      "hint": "Checked in your answers: explains the value."
+      "hint": "Full credit if the learner clearly does this: explains the value. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Checked in your answers: offers an alternative."
+      "hint": "Full credit if the learner clearly does this: offers an alternative. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2864,15 +2864,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains limits",
-      "hint": "Checked in your answers: explains limits."
+      "hint": "Full credit if the learner clearly does this: explains limits. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers a compromise",
-      "hint": "Checked in your answers: offers a compromise."
+      "hint": "Full credit if the learner clearly does this: offers a compromise. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Confirms agreement",
-      "hint": "Checked in your answers: confirms agreement."
+      "hint": "Full credit if the learner clearly does this: confirms agreement. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2898,15 +2898,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives name and issue",
-      "hint": "Checked in your answers: gives name and issue."
+      "hint": "Full credit if the learner clearly does this: gives name and issue. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives what was done",
-      "hint": "Checked in your answers: gives what was done."
+      "hint": "Full credit if the learner clearly does this: gives what was done. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives the next step",
-      "hint": "Checked in your answers: gives the next step."
+      "hint": "Full credit if the learner clearly does this: gives the next step. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2932,15 +2932,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes the problem with numbers",
-      "hint": "Checked in your answers: describes the problem with numbers."
+      "hint": "Full credit if the learner clearly does this: describes the problem with numbers. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives examples",
-      "hint": "Checked in your answers: gives examples."
+      "hint": "Full credit if the learner clearly does this: gives examples. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Asks for action",
-      "hint": "Checked in your answers: asks for action."
+      "hint": "Full credit if the learner clearly does this: asks for action. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -2966,15 +2966,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the suggestion",
-      "hint": "Checked in your answers: states the suggestion."
+      "hint": "Full credit if the learner clearly does this: states the suggestion. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives two reasons",
-      "hint": "Checked in your answers: gives two reasons."
+      "hint": "Full credit if the learner clearly does this: gives two reasons. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Answers a question",
-      "hint": "Checked in your answers: answers a question."
+      "hint": "Full credit if the learner clearly does this: answers a question. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3000,15 +3000,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives results",
-      "hint": "Checked in your answers: gives results."
+      "hint": "Full credit if the learner clearly does this: gives results. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains one challenge",
-      "hint": "Checked in your answers: explains one challenge."
+      "hint": "Full credit if the learner clearly does this: explains one challenge. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Sets a goal",
-      "hint": "Checked in your answers: sets a goal."
+      "hint": "Full credit if the learner clearly does this: sets a goal. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3034,15 +3034,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares phone, chat and email",
-      "hint": "Checked in your answers: compares phone, chat and email."
+      "hint": "Full credit if the learner clearly does this: compares phone, chat and email. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Matches to her problem",
-      "hint": "Checked in your answers: matches to her problem."
+      "hint": "Full credit if the learner clearly does this: matches to her problem. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains in simple words",
-      "hint": "Checked in your answers: explains in simple words."
+      "hint": "Full credit if the learner clearly does this: explains in simple words. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3068,15 +3068,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks and apologises",
-      "hint": "Checked in your answers: thanks and apologises."
+      "hint": "Full credit if the learner clearly does this: thanks and apologises. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Answers each point",
-      "hint": "Checked in your answers: answers each point."
+      "hint": "Full credit if the learner clearly does this: answers each point. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Gives next step and close",
-      "hint": "Checked in your answers: gives next step and close."
+      "hint": "Full credit if the learner clearly does this: gives next step and close. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3102,15 +3102,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short and polite",
-      "hint": "Checked in your answers: short and polite."
+      "hint": "Full credit if the learner clearly does this: short and polite. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "No private details",
-      "hint": "Checked in your answers: no private details."
+      "hint": "Full credit if the learner clearly does this: no private details. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Invites a private message",
-      "hint": "Checked in your answers: invites a private message."
+      "hint": "Full credit if the learner clearly does this: invites a private message. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3136,15 +3136,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks for feedback",
-      "hint": "Checked in your answers: thanks for feedback."
+      "hint": "Full credit if the learner clearly does this: thanks for feedback. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Acknowledges the issue",
-      "hint": "Checked in your answers: acknowledges the issue."
+      "hint": "Full credit if the learner clearly does this: acknowledges the issue. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers to fix it offline",
-      "hint": "Checked in your answers: offers to fix it offline."
+      "hint": "Full credit if the learner clearly does this: offers to fix it offline. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3170,15 +3170,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives one warning",
-      "hint": "Checked in your answers: gives one warning."
+      "hint": "Full credit if the learner clearly does this: gives one warning. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Says the limit calmly",
-      "hint": "Checked in your answers: says the limit calmly."
+      "hint": "Full credit if the learner clearly does this: says the limit calmly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Ends politely if it continues",
-      "hint": "Checked in your answers: ends politely if it continues."
+      "hint": "Full credit if the learner clearly does this: ends politely if it continues. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3204,15 +3204,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Slows down",
-      "hint": "Checked in your answers: slows down."
+      "hint": "Full credit if the learner clearly does this: slows down. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Uses simple words",
-      "hint": "Checked in your answers: uses simple words."
+      "hint": "Full credit if the learner clearly does this: uses simple words. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Checks every step",
-      "hint": "Checked in your answers: checks every step."
+      "hint": "Full credit if the learner clearly does this: checks every step. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3238,15 +3238,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short sentences",
-      "hint": "Checked in your answers: short sentences."
+      "hint": "Full credit if the learner clearly does this: short sentences. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "No idioms",
-      "hint": "Checked in your answers: no idioms."
+      "hint": "Full credit if the learner clearly does this: no idioms. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Checks understanding",
-      "hint": "Checked in your answers: checks understanding."
+      "hint": "Full credit if the learner clearly does this: checks understanding. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3272,15 +3272,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Admits the mistake",
-      "hint": "Checked in your answers: admits the mistake."
+      "hint": "Full credit if the learner clearly does this: admits the mistake. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains the fix",
-      "hint": "Checked in your answers: explains the fix."
+      "hint": "Full credit if the learner clearly does this: explains the fix. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers fair compensation",
-      "hint": "Checked in your answers: offers fair compensation."
+      "hint": "Full credit if the learner clearly does this: offers fair compensation. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3306,15 +3306,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and listens",
-      "hint": "Checked in your answers: verifies and listens."
+      "hint": "Full credit if the learner clearly does this: verifies and listens. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Explains options",
-      "hint": "Checked in your answers: explains options."
+      "hint": "Full credit if the learner clearly does this: explains options. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Checked in your answers: recaps and closes."
+      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3340,15 +3340,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks why",
-      "hint": "Checked in your answers: asks why."
+      "hint": "Full credit if the learner clearly does this: asks why. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Offers options",
-      "hint": "Checked in your answers: offers options."
+      "hint": "Full credit if the learner clearly does this: offers options. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Respects his decision",
-      "hint": "Checked in your answers: respects his decision."
+      "hint": "Full credit if the learner clearly does this: respects his decision. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3374,15 +3374,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Checked in your answers: stays calm."
+      "hint": "Full credit if the learner clearly does this: stays calm. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Sets a limit",
-      "hint": "Checked in your answers: sets a limit."
+      "hint": "Full credit if the learner clearly does this: sets a limit. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Checked in your answers: recaps and closes."
+      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3408,15 +3408,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains steps",
-      "hint": "Checked in your answers: explains steps."
+      "hint": "Full credit if the learner clearly does this: explains steps. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Hands over clearly",
-      "hint": "Checked in your answers: hands over clearly."
+      "hint": "Full credit if the learner clearly does this: hands over clearly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      },
      {
       "label": "Updates the customer",
-      "hint": "Checked in your answers: updates the customer."
+      "hint": "Full credit if the learner clearly does this: updates the customer. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
      }
     ],
     "targets": [
@@ -3444,15 +3444,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses \"I\" and \"we\"",
-      "hint": "Checked in your answers: uses \"I\" and \"we\"."
+      "hint": "Full credit if the learner clearly does this: uses \"I\" and \"we\". Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "No excuses",
-      "hint": "Checked in your answers: no excuses."
+      "hint": "Full credit if the learner clearly does this: no excuses. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "States clear actions",
-      "hint": "Checked in your answers: states clear actions."
+      "hint": "Full credit if the learner clearly does this: states clear actions. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3478,15 +3478,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the failure",
-      "hint": "Checked in your answers: names the failure."
+      "hint": "Full credit if the learner clearly does this: names the failure. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Makes specific promises",
-      "hint": "Checked in your answers: makes specific promises."
+      "hint": "Full credit if the learner clearly does this: makes specific promises. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Gives dates",
-      "hint": "Checked in your answers: gives dates."
+      "hint": "Full credit if the learner clearly does this: gives dates. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3512,15 +3512,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Calm professional tone",
-      "hint": "Checked in your answers: calm professional tone."
+      "hint": "Full credit if the learner clearly does this: calm professional tone. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Facts only",
-      "hint": "Checked in your answers: facts only."
+      "hint": "Full credit if the learner clearly does this: facts only. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Moves to a private channel",
-      "hint": "Checked in your answers: moves to a private channel."
+      "hint": "Full credit if the learner clearly does this: moves to a private channel. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3546,15 +3546,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear message",
-      "hint": "Checked in your answers: clear message."
+      "hint": "Full credit if the learner clearly does this: clear message. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Soft wording",
-      "hint": "Checked in your answers: soft wording."
+      "hint": "Full credit if the learner clearly does this: soft wording. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Offers support",
-      "hint": "Checked in your answers: offers support."
+      "hint": "Full credit if the learner clearly does this: offers support. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3580,15 +3580,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains current levels",
-      "hint": "Checked in your answers: explains current levels."
+      "hint": "Full credit if the learner clearly does this: explains current levels. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Names what can change",
-      "hint": "Checked in your answers: names what can change."
+      "hint": "Full credit if the learner clearly does this: names what can change. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Asks his priorities",
-      "hint": "Checked in your answers: asks his priorities."
+      "hint": "Full credit if the learner clearly does this: asks his priorities. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3614,15 +3614,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States conditions",
-      "hint": "Checked in your answers: states conditions."
+      "hint": "Full credit if the learner clearly does this: states conditions. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Explains why now",
-      "hint": "Checked in your answers: explains why now."
+      "hint": "Full credit if the learner clearly does this: explains why now. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Confirms in writing",
-      "hint": "Checked in your answers: confirms in writing."
+      "hint": "Full credit if the learner clearly does this: confirms in writing. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3648,15 +3648,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear no",
-      "hint": "Checked in your answers: clear no."
+      "hint": "Full credit if the learner clearly does this: clear no. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Reason",
-      "hint": "Checked in your answers: reason."
+      "hint": "Full credit if the learner clearly does this: gives a reason, not only a claim. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Alternative",
-      "hint": "Checked in your answers: alternative."
+      "hint": "Full credit if the learner clearly does this: offers another option. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3682,15 +3682,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises terms",
-      "hint": "Checked in your answers: summarises terms."
+      "hint": "Full credit if the learner clearly does this: summarises terms. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Checks agreement",
-      "hint": "Checked in your answers: checks agreement."
+      "hint": "Full credit if the learner clearly does this: checks agreement. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "States next steps",
-      "hint": "Checked in your answers: states next steps."
+      "hint": "Full credit if the learner clearly does this: states next steps. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3716,15 +3716,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Positive start",
-      "hint": "Checked in your answers: positive start."
+      "hint": "Full credit if the learner clearly does this: positive start. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Specific example",
-      "hint": "Checked in your answers: specific example."
+      "hint": "Full credit if the learner clearly does this: specific example. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Practice plan",
-      "hint": "Checked in your answers: practice plan."
+      "hint": "Full credit if the learner clearly does this: practice plan. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3750,15 +3750,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear structure",
-      "hint": "Checked in your answers: clear structure."
+      "hint": "Full credit if the learner clearly does this: clear structure. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Uses numbers",
-      "hint": "Checked in your answers: uses numbers."
+      "hint": "Full credit if the learner clearly does this: uses numbers. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Gives a recommendation",
-      "hint": "Checked in your answers: gives a recommendation."
+      "hint": "Full credit if the learner clearly does this: gives a recommendation. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3784,15 +3784,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the trend",
-      "hint": "Checked in your answers: names the trend."
+      "hint": "Full credit if the learner clearly does this: names the trend. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Gives reasons",
-      "hint": "Checked in your answers: gives reasons."
+      "hint": "Full credit if the learner clearly does this: gives reasons. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Gives a next step",
-      "hint": "Checked in your answers: gives a next step."
+      "hint": "Full credit if the learner clearly does this: gives a next step. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3818,15 +3818,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the change",
-      "hint": "Checked in your answers: states the change."
+      "hint": "Full credit if the learner clearly does this: states the change. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Benefits and risks",
-      "hint": "Checked in your answers: benefits and risks."
+      "hint": "Full credit if the learner clearly does this: benefits and risks. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Answers objections",
-      "hint": "Checked in your answers: answers objections."
+      "hint": "Full credit if the learner clearly does this: answers objections. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3852,15 +3852,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what happened",
-      "hint": "Checked in your answers: says what happened."
+      "hint": "Full credit if the learner clearly does this: says what happened. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Says what you do",
-      "hint": "Checked in your answers: says what you do."
+      "hint": "Full credit if the learner clearly does this: says what you do. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Gives next update time",
-      "hint": "Checked in your answers: gives next update time."
+      "hint": "Full credit if the learner clearly does this: gives next update time. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3886,15 +3886,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Takes it seriously",
-      "hint": "Checked in your answers: takes it seriously."
+      "hint": "Full credit if the learner clearly does this: takes it seriously. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Says what you can and cannot say",
-      "hint": "Checked in your answers: says what you can and cannot say."
+      "hint": "Full credit if the learner clearly does this: says what you can and cannot say. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Gives the process",
-      "hint": "Checked in your answers: gives the process."
+      "hint": "Full credit if the learner clearly does this: gives the process. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3920,15 +3920,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Checked in your answers: stays calm."
+      "hint": "Full credit if the learner clearly does this: stays calm. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Does not argue",
-      "hint": "Checked in your answers: does not argue."
+      "hint": "Full credit if the learner clearly does this: does not argue. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Passes to the right team",
-      "hint": "Checked in your answers: passes to the right team."
+      "hint": "Full credit if the learner clearly does this: passes to the right team. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3954,15 +3954,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Formal tone",
-      "hint": "Checked in your answers: formal tone."
+      "hint": "Full credit if the learner clearly does this: formal tone. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Clear facts",
-      "hint": "Checked in your answers: clear facts."
+      "hint": "Full credit if the learner clearly does this: clear facts. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Next steps and contact",
-      "hint": "Checked in your answers: next steps and contact."
+      "hint": "Full credit if the learner clearly does this: next steps and contact. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -3988,15 +3988,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses his history",
-      "hint": "Checked in your answers: uses his history."
+      "hint": "Full credit if the learner clearly does this: uses his history. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Anticipates needs",
-      "hint": "Checked in your answers: anticipates needs."
+      "hint": "Full credit if the learner clearly does this: anticipates needs. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Offers a direct contact",
-      "hint": "Checked in your answers: offers a direct contact."
+      "hint": "Full credit if the learner clearly does this: offers a direct contact. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -4022,15 +4022,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks politely",
-      "hint": "Checked in your answers: asks politely."
+      "hint": "Full credit if the learner clearly does this: asks politely. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Explains purpose",
-      "hint": "Checked in your answers: explains purpose."
+      "hint": "Full credit if the learner clearly does this: explains purpose. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Thanks",
-      "hint": "Checked in your answers: thanks."
+      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -4056,15 +4056,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks",
-      "hint": "Checked in your answers: thanks."
+      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Does not oversell",
-      "hint": "Checked in your answers: does not oversell."
+      "hint": "Full credit if the learner clearly does this: does not oversell. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Explains how referrals work",
-      "hint": "Checked in your answers: explains how referrals work."
+      "hint": "Full credit if the learner clearly does this: explains how referrals work. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -4090,15 +4090,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises the timeline",
-      "hint": "Checked in your answers: summarises the timeline."
+      "hint": "Full credit if the learner clearly does this: summarises the timeline. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Records decisions",
-      "hint": "Checked in your answers: records decisions."
+      "hint": "Full credit if the learner clearly does this: records decisions. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "States follow-up",
-      "hint": "Checked in your answers: states follow-up."
+      "hint": "Full credit if the learner clearly does this: states follow-up. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -4124,15 +4124,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and listens",
-      "hint": "Checked in your answers: verifies and listens."
+      "hint": "Full credit if the learner clearly does this: verifies and listens. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Offers tailored options",
-      "hint": "Checked in your answers: offers tailored options."
+      "hint": "Full credit if the learner clearly does this: offers tailored options. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Recaps with commitments",
-      "hint": "Checked in your answers: recaps with commitments."
+      "hint": "Full credit if the learner clearly does this: recaps with commitments. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -4158,15 +4158,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Empathy",
-      "hint": "Checked in your answers: empathy."
+      "hint": "Full credit if the learner clearly does this: shows they understand the customer's feeling. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Clear facts",
-      "hint": "Checked in your answers: clear facts."
+      "hint": "Full credit if the learner clearly does this: clear facts. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Next update time",
-      "hint": "Checked in your answers: next update time."
+      "hint": "Full credit if the learner clearly does this: next update time. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -4192,15 +4192,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies identity",
-      "hint": "Checked in your answers: verifies identity."
+      "hint": "Full credit if the learner clearly does this: verifies identity. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Handles data carefully",
-      "hint": "Checked in your answers: handles data carefully."
+      "hint": "Full credit if the learner clearly does this: handles data carefully. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Records the case",
-      "hint": "Checked in your answers: records the case."
+      "hint": "Full credit if the learner clearly does this: records the case. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [
@@ -4226,15 +4226,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Checked in your answers: listens."
+      "hint": "Full credit if the learner clearly does this: reacts to what the other person just said. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Negotiates",
-      "hint": "Checked in your answers: negotiates."
+      "hint": "Full credit if the learner clearly does this: moves toward a deal both sides accept. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      },
      {
       "label": "Confirms in writing",
-      "hint": "Checked in your answers: confirms in writing."
+      "hint": "Full credit if the learner clearly does this: confirms in writing. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
      }
     ],
     "targets": [

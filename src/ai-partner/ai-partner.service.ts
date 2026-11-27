@@ -25,6 +25,8 @@ import {
 import { DeepgramPrerecordedService } from './deepgram.service';
 import { getLesson } from './content/course';
 import { getRoleplay } from './content/roleplays';
+import { canStartCurriculumLesson, curriculumAdminPreviewEnabled, isCurriculumLessonId, type CurriculumViewer } from './content/curriculum';
+import { isAdminEmail } from '../admin/admin-policy';
 import { analyzeWordChoice } from './word-choice';
 import { StartSessionDto } from './dto';
 
@@ -101,8 +103,21 @@ export class AiPartnerService {
     };
   }
 
+  /** Preview rights: only the single configured admin account (isAdmin flag AND ADMIN_EMAIL match). */
+  async curriculumViewer(userId: string): Promise<CurriculumViewer> {
+    if (!curriculumAdminPreviewEnabled()) return { isPreviewer: false };
+    const u = await this.prisma.user.findUnique({ where: { id: userId }, select: { email: true, isAdmin: true } });
+    return { isPreviewer: !!u && u.isAdmin === true && isAdminEmail(u.email) };
+  }
+
   async startSession(userId: string, dto: StartSessionDto) {
     this.assertEnabled();
+    if (dto.roleplayId && isCurriculumLessonId(dto.roleplayId)) {
+      const viewer = await this.curriculumViewer(userId);
+      if (!canStartCurriculumLesson(dto.roleplayId, viewer)) {
+        throw new NotFoundException('This lesson is not available yet.');
+      }
+    }
     const quota = await this.getQuota(userId);
     if (quota.remaining <= 0) {
       throw new ForbiddenException(
