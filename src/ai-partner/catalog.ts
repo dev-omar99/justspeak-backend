@@ -142,7 +142,7 @@ function buildProgramme(
   meta: { id: string; fieldId: string; title: string; description: string },
   scenarios: RoleplayScenario[],
   sessions: CatalogSession[],
-  unitOf: (id: string) => string | undefined = () => undefined,
+  extraOf: (id: string) => Partial<LessonView> | undefined = () => undefined,
 ): ProgrammeCatalogView {
     const field = { id: meta.fieldId, programmeTitle: meta.title, programmeDescription: meta.description };
     const levels: LevelView[] = CATALOG_LEVELS.map((level) => {
@@ -178,7 +178,7 @@ function buildProgramme(
             status,
             bestScore,
             attempts,
-            ...(unitOf(s.id) ? { unit: unitOf(s.id) } : {}),
+            ...(extraOf(s.id) ?? {}),
           } as LessonView;
         });
       return {
@@ -217,9 +217,17 @@ export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
       .map((p) => {
         const lessons = Object.values(p.levels).flat().filter(lessonVisible);
         if (lessons.length === 0) return null;
-        const unitById = new Map(lessons.map((l) => [l.id, l.unit]));
+        const extraById = new Map<string, Partial<LessonView>>(
+          lessons.map((l) => [
+            l.id,
+            {
+              unit: l.unit,
+              source: { origin: 'self-written', licence: l.licence, basedOn: ['CEFR level scale (Council of Europe)'], attribution: l.source },
+            },
+          ]),
+        );
         const sc = curriculumScenariosOf(lessons, field.category);
-        return buildProgramme({ id: p.id, fieldId: p.fieldId, title: p.title, description: p.description }, sc, sessions, (id) => unitById.get(id));
+        return buildProgramme({ id: p.id, fieldId: p.fieldId, title: p.title, description: p.description }, sc, sessions, (id) => extraById.get(id));
       })
       .filter((x): x is ProgrammeCatalogView => x !== null);
     const programmes = [base, ...extra];
