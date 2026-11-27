@@ -138,6 +138,8 @@ export interface CoachingCard {
   detail: string;
 }
 
+import { WordChoiceStats } from '../word-choice';
+
 export interface ReportDrill {
   title: string;
   instruction: string;
@@ -161,6 +163,10 @@ export interface SessionReport {
     words_per_minute: number;
     fillers_per_minute: number;
     student_talk_ratio: number;
+    /** Deterministic word-choice analytics, computed in code after the
+     *  model call (never trusted to generated math). Optional so older
+     *  cached reports without it still parse. */
+    word_choice?: WordChoiceStats;
   };
   corrections: ReportCorrection[];
   recasts: ReportRecast[];

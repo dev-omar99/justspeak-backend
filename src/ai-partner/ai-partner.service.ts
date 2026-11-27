@@ -24,6 +24,8 @@ import {
 } from './content/rubric';
 import { DeepgramPrerecordedService } from './deepgram.service';
 import { getLesson } from './content/course';
+import { getRoleplay } from './content/roleplays';
+import { analyzeWordChoice } from './word-choice';
 import { StartSessionDto } from './dto';
 
 export type AiPartnerMode = 'free-talk' | 'interview' | 'lesson';
@@ -204,6 +206,7 @@ export class AiPartnerService {
         transcript,
         metrics,
         session.lessonId,
+        session.roleplayId,
       );
     }
 
@@ -211,6 +214,13 @@ export class AiPartnerService {
       throw new ServiceUnavailableException(
         'Could not generate the report right now. Please try again in a moment.',
       );
+    }
+
+    // Deterministic delivery analytics are attached in code: the model
+    // writes the coaching words, the numbers come from the transcript.
+    if (report.status === 'OK') {
+      const learnerTurns = transcript.filter((t) => t.role === 'user').map((t) => t.text);
+      report.metrics_echo.word_choice = analyzeWordChoice(learnerTurns);
     }
 
     if (report.status === 'INSUFFICIENT_DATA') {
@@ -270,6 +280,7 @@ export class AiPartnerService {
     transcript: { role: string; text: string }[],
     metrics: Record<string, unknown>,
     lessonId?: string | null,
+    roleplayId?: string | null,
   ): Promise<SessionReport | null> {
     const transcriptText = transcript
       .map((turn) => `${turn.role === 'user' ? 'STUDENT' : 'PARTNER'}: ${turn.text}`)
@@ -284,10 +295,33 @@ export class AiPartnerService {
           `Assess the lesson_result against this goal and target language.\n\n`;
       }
     }
+    // Roleplay context: grade the learner against the scenario goal and
+    // its rubric, the same target the coach steered toward in session.
+    let roleplayContext = '';
+    if (roleplayId) {
+      const scenario = getRoleplay(roleplayId);
+      if (scenario) {
+        roleplayContext =
+          `ROLEPLAY CONTEXT: this was the roleplay "${scenario.title}". ` +
+          `The partner played ${scenario.personaRole}. ` +
+          `Learner goal: ${scenario.goal}. ` +
+          `Scoring rubric: ${scenario.rubric.join('; ')}. ` +
+          `Judge the summary, strength and growth area against this goal and rubric, ` +
+          `and mention the scenario by name in the summary.\n\n`;
+      }
+    }
+    // Give the model the computed word-choice numbers so its coaching
+    // words and the displayed metrics never disagree.
+    const learnerTurns = transcript.filter((t) => t.role === 'user').map((t) => t.text);
+    const metricsForModel = {
+      ...metrics,
+      word_choice: analyzeWordChoice(learnerTurns),
+    };
     const prompt =
       `Student declared level: ${level}. Mode: ${mode}.\n\n` +
       lessonContext +
-      `METRICS JSON:\n${JSON.stringify(metrics, null, 2)}\n\n` +
+      roleplayContext +
+      `METRICS JSON:\n${JSON.stringify(metricsForModel, null, 2)}\n\n` +
       `TRANSCRIPT:\n${transcriptText}\n\n` +
       `Score this session by the rubric. Respond with the JSON object only.`;
     try {
