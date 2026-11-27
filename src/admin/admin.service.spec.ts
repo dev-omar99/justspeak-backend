@@ -4,6 +4,7 @@ import { JwtService } from '@nestjs/jwt';
 import { AdminService } from './admin.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { PrismaService } from '../prisma.service';
+import { isAdminEmail } from './admin-policy';
 
 describe('AdminService & JwtAuthGuard Account Lifecycle (Stage 2 Batch 1)', () => {
   let adminService: AdminService;
@@ -96,5 +97,75 @@ describe('AdminService & JwtAuthGuard Account Lifecycle (Stage 2 Batch 1)', () =
     await expect(jwtAuthGuard.canActivate(ctx)).rejects.toThrow(
       UnauthorizedException,
     );
+  });
+});
+
+describe('Single-admin policy at boot (ADMIN_EMAIL)', () => {
+  const original = process.env.ADMIN_EMAIL;
+
+  afterEach(() => {
+    if (original === undefined) {
+      delete process.env.ADMIN_EMAIL;
+    } else {
+      process.env.ADMIN_EMAIL = original;
+    }
+  });
+
+  function buildService() {
+    const prisma = {
+      user: { updateMany: jest.fn().mockResolvedValue({ count: 0 }) },
+    };
+    const service = new AdminService(prisma as any);
+    return { prisma, service };
+  }
+
+  it('promotes the configured account and demotes every other admin', async () => {
+    process.env.ADMIN_EMAIL = 'Owner@Example.com';
+    const { prisma, service } = buildService();
+
+    await service.onApplicationBootstrap();
+
+    expect(prisma.user.updateMany).toHaveBeenCalledWith({
+      where: { email: 'owner@example.com', isAdmin: false },
+      data: { isAdmin: true },
+    });
+    expect(prisma.user.updateMany).toHaveBeenCalledWith({
+      where: { email: { not: 'owner@example.com' }, isAdmin: true },
+      data: { isAdmin: false },
+    });
+  });
+
+  it('does nothing when ADMIN_EMAIL is not configured', async () => {
+    delete process.env.ADMIN_EMAIL;
+    const { prisma, service } = buildService();
+
+    await service.onApplicationBootstrap();
+
+    expect(prisma.user.updateMany).not.toHaveBeenCalled();
+  });
+});
+
+describe('admin-policy helpers', () => {
+  const original = process.env.ADMIN_EMAIL;
+
+  afterEach(() => {
+    if (original === undefined) {
+      delete process.env.ADMIN_EMAIL;
+    } else {
+      process.env.ADMIN_EMAIL = original;
+    }
+  });
+
+  it('matches the admin email case-insensitively', () => {
+    process.env.ADMIN_EMAIL = 'Owner@Example.com';
+    expect(isAdminEmail('owner@example.com')).toBe(true);
+    expect(isAdminEmail('OWNER@EXAMPLE.COM')).toBe(true);
+    expect(isAdminEmail('other@example.com')).toBe(false);
+    expect(isAdminEmail(null)).toBe(false);
+  });
+
+  it('fails closed when ADMIN_EMAIL is unset', () => {
+    delete process.env.ADMIN_EMAIL;
+    expect(isAdminEmail('owner@example.com')).toBe(false);
   });
 });

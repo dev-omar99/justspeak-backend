@@ -36,6 +36,9 @@ describe('AuthService', () => {
 
   beforeEach(async () => {
     jest.clearAllMocks();
+    // clearAllMocks keeps custom implementations; reset the user.update mock so
+    // one test's update result cannot leak into the next test's syncAdminFlag.
+    mockPrisma.user.update.mockReset();
     mockPrisma.otpCode.updateMany.mockResolvedValue({ count: 1 });
     const module: TestingModule = await Test.createTestingModule({
       providers: [
@@ -953,6 +956,99 @@ describe('AuthService', () => {
           }
         }
       }
+    });
+  });
+
+
+  describe('single-admin flag sync on login', () => {
+    const original = process.env.ADMIN_EMAIL;
+
+    afterEach(() => {
+      if (original === undefined) {
+        delete process.env.ADMIN_EMAIL;
+      } else {
+        process.env.ADMIN_EMAIL = original;
+      }
+    });
+
+    it('promotes the configured admin account on login', async () => {
+      process.env.ADMIN_EMAIL = 'owner@example.com';
+      const bcrypt = require('bcrypt');
+      jest.spyOn(bcrypt, 'compare').mockResolvedValue(true);
+
+      mockPrisma.user.findUnique.mockResolvedValue({
+        id: 'user-owner',
+        email: 'owner@example.com',
+        isAdmin: false,
+        password: 'hashed',
+      });
+      mockPrisma.user.update.mockResolvedValue({
+        id: 'user-owner',
+        email: 'owner@example.com',
+        isAdmin: true,
+        password: 'hashed',
+      });
+
+      const res = await service.login({
+        identifier: 'owner@example.com',
+        password: 'whatever-123',
+      } as any);
+
+      expect(mockPrisma.user.update).toHaveBeenCalledWith({
+        where: { id: 'user-owner' },
+        data: { isAdmin: true },
+      });
+      expect(res.user.isAdmin).toBe(true);
+    });
+
+    it('demotes an account whose email is not the configured admin', async () => {
+      process.env.ADMIN_EMAIL = 'owner@example.com';
+      const bcrypt = require('bcrypt');
+      jest.spyOn(bcrypt, 'compare').mockResolvedValue(true);
+
+      mockPrisma.user.findUnique.mockResolvedValue({
+        id: 'user-stale-admin',
+        email: 'someone-else@example.com',
+        isAdmin: true,
+        password: 'hashed',
+      });
+      mockPrisma.user.update.mockResolvedValue({
+        id: 'user-stale-admin',
+        email: 'someone-else@example.com',
+        isAdmin: false,
+        password: 'hashed',
+      });
+
+      const res = await service.login({
+        identifier: 'someone-else@example.com',
+        password: 'whatever-123',
+      } as any);
+
+      expect(mockPrisma.user.update).toHaveBeenCalledWith({
+        where: { id: 'user-stale-admin' },
+        data: { isAdmin: false },
+      });
+      expect(res.user.isAdmin).toBe(false);
+    });
+
+    it('never promotes anyone when ADMIN_EMAIL is unset', async () => {
+      delete process.env.ADMIN_EMAIL;
+      const bcrypt = require('bcrypt');
+      jest.spyOn(bcrypt, 'compare').mockResolvedValue(true);
+
+      mockPrisma.user.findUnique.mockResolvedValue({
+        id: 'user-plain',
+        email: 'owner@example.com',
+        isAdmin: false,
+        password: 'hashed',
+      });
+
+      await service.login({
+        identifier: 'owner@example.com',
+        password: 'whatever-123',
+      } as any);
+
+      expect(mockPrisma.user.update).not.toHaveBeenCalled();
     });
   });
 });

@@ -14,6 +14,7 @@ import * as nodemailer from 'nodemailer';
 import { PrismaService } from '../prisma.service';
 import { SignupDto, LoginDto, GoogleAuthDto, ResetPasswordDto } from './dto';
 import { OAuth2Client, TokenPayload } from 'google-auth-library';
+import { isAdminEmail } from '../admin/admin-policy';
 
 export interface SafeUser {
   id: string;
@@ -124,6 +125,27 @@ export class AuthService {
     return safeUser as SafeUser;
   }
 
+  /**
+   * Keep the user's stored admin flag in sync with the single-admin policy
+   * (ADMIN_EMAIL). Runs on every successful authentication so promoting or
+   * demoting an account never requires manual database edits.
+   */
+  private async syncAdminFlag<T extends { id: string; email: string | null; isAdmin: boolean }>(
+    user: T,
+  ): Promise<T> {
+    const shouldBeAdmin = isAdminEmail(user.email);
+    if (user.isAdmin === shouldBeAdmin) {
+      return user;
+    }
+    const updated = await this.prisma.user.update({
+      where: { id: user.id },
+      data: { isAdmin: shouldBeAdmin },
+    });
+    // Some callers (and lightweight test doubles) may not return the fresh row;
+    // fall back to the in-memory user with the corrected flag.
+    return (updated ?? { ...user, isAdmin: shouldBeAdmin }) as unknown as T;
+  }
+
   async signup(dto: SignupDto): Promise<AuthResult> {
     const email = dto.email ? dto.email.toLowerCase().trim() : null;
     const phone = dto.phone
@@ -160,7 +182,7 @@ export class AuthService {
 
     const hashedPassword = await bcrypt.hash(dto.password, 10);
 
-    const user = await this.prisma.user.create({
+    let user: any = await this.prisma.user.create({
       data: {
         email: email || null,
         emailVerified: false,
@@ -176,6 +198,8 @@ export class AuthService {
       user.id,
       user.email || user.phone || user.id,
     );
+
+    user = await this.syncAdminFlag(user);
 
     // Best-effort welcome email; never blocks or fails the signup.
     if (user.email) {
@@ -246,6 +270,8 @@ export class AuthService {
         'Invalid credentials. Please check your email or phone number and password.',
       );
     }
+
+    user = await this.syncAdminFlag(user);
 
     const accessToken = this.generateToken(
       user.id,
@@ -998,6 +1024,8 @@ export class AuthService {
         });
       }
     }
+
+    user = await this.syncAdminFlag(user);
 
     const accessToken = this.generateToken(user.id, user.email || user.id);
 

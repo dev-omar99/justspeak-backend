@@ -7,6 +7,7 @@ import {
 } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { PrismaService } from '../prisma.service';
+import { isAdminEmail } from './admin-policy';
 
 @Injectable()
 export class AdminGuard implements CanActivate {
@@ -38,7 +39,10 @@ export class AdminGuard implements CanActivate {
       where: { id: payload.sub },
     });
 
-    if (!user || !user.isAdmin) {
+    // Server-side single-admin rule: the JWT user must carry the admin flag
+    // AND their email must be the one configured in ADMIN_EMAIL. When the
+    // env is unset, isAdminEmail fails closed and nobody gets in.
+    if (!user || !user.isAdmin || !isAdminEmail(user.email)) {
       throw new ForbiddenException('Access denied. Administrator privileges required.');
     }
 

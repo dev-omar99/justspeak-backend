@@ -21,6 +21,7 @@ Configure these in `justspeak_backend/.env` (see [`.env.example`](file:///c:/Use
 | `DATABASE_URL` | Yes | PostgreSQL connection string for the primary database |
 | `SHADOW_DATABASE_URL` | Dev / Migrate | Separate PostgreSQL database used only as Prisma's shadow DB |
 | `JWT_SECRET` | Yes | Secret key used to sign and verify 24-hour user JWTs |
+| `ADMIN_EMAIL` | Recommended | Email of the single administrator account. The AdminGuard fails closed when unset; on every login and at boot the stored flag is synced to match exactly this account |
 | `GOOGLE_CLIENT_ID` | For Google Auth | Google OAuth 2.0 Web Client ID verified by `OAuth2Client.verifyIdToken` |
 | `PORT` | Optional | HTTP & WebSocket server port (default `3000` in code, `4000` in `.env.example`) |
 | `CORS_ORIGINS` | Recommended | Comma-separated list of allowed frontend origins for HTTP and Socket.IO CORS |

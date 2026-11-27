@@ -1,5 +1,6 @@
-import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
+import { Injectable, Logger, NotFoundException, BadRequestException, OnApplicationBootstrap } from '@nestjs/common';
 import { PrismaService } from '../prisma.service';
+import { getAdminEmail } from './admin-policy';
 import { subscriptionStore, PlanTierId } from '../users/subscription-store';
 
 export interface AdminUserListItem {
@@ -24,8 +25,41 @@ export interface AdminStats {
 }
 
 @Injectable()
-export class AdminService {
+export class AdminService implements OnApplicationBootstrap {
+  private readonly logger = new Logger(AdminService.name);
+
   constructor(private readonly prisma: PrismaService) {}
+
+  /**
+   * Startup reconciliation for the single-admin policy: promote the account
+   * matching ADMIN_EMAIL (when it exists) and demote every other admin.
+   * Runs once per boot so the database can never drift to zero or two
+   * admins, regardless of manual edits.
+   */
+  async onApplicationBootstrap(): Promise<void> {
+    const adminEmail = getAdminEmail();
+    if (!adminEmail) {
+      this.logger.warn(
+        'ADMIN_EMAIL is not configured: admin area stays closed to everyone.',
+      );
+      return;
+    }
+
+    const promoted = await this.prisma.user.updateMany({
+      where: { email: adminEmail, isAdmin: false },
+      data: { isAdmin: true },
+    });
+    const demoted = await this.prisma.user.updateMany({
+      where: { email: { not: adminEmail }, isAdmin: true },
+      data: { isAdmin: false },
+    });
+
+    if (promoted.count > 0 || demoted.count > 0) {
+      this.logger.log(
+        `Admin policy applied: ${promoted.count} promoted, ${demoted.count} demoted.`,
+      );
+    }
+  }
 
   async getAllUsers(): Promise<AdminUserListItem[]> {
     const users = await this.prisma.user.findMany({
