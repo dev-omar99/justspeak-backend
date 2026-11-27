@@ -14,10 +14,12 @@
  * All lessons are our own writing (see content/roleplays.ts).
  */
 
-import { ROLEPLAY_SCENARIOS, type RoleplayCategory } from './content/roleplays';
+import { ROLEPLAY_SCENARIOS, type RoleplayCategory, type RoleplayScenario } from './content/roleplays';
+import type { CurriculumLesson } from './content/curriculum/types';
 import { DEFAULT_PASS_PCT, PROGRAMMES, SELF_WRITTEN, type ContentSource } from './content/programmes';
 import { reportScore } from './programmes.progress';
 import { getPersona } from './content/personas';
+import { CURRICULUM_PROGRAMMES, lessonVisible } from './content/curriculum';
 
 export const CATALOG_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
 export type CatalogLevel = (typeof CATALOG_LEVELS)[number];
@@ -67,6 +69,8 @@ export interface LessonView {
   coachLine: string | null;
   rubric: { label: string; hint: string }[];
   level: CatalogLevel;
+  /** Unit title for curriculum programmes (absent for the original lessons). */
+  unit?: string;
   passPct: number;
   partner: { personaId: string; name: string; title: string };
   status: 'not_started' | 'in_progress' | 'passed';
@@ -133,9 +137,14 @@ function coachLineFor(roleplayId: string): string | null {
   return null;
 }
 
-export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
-  return FIELDS.map((field) => {
-    const scenarios = ROLEPLAY_SCENARIOS.filter((s) => s.category === field.category);
+/** Builds one programme view (levels, lessons, attempts, progress) from its scenarios. */
+function buildProgramme(
+  meta: { id: string; fieldId: string; title: string; description: string },
+  scenarios: RoleplayScenario[],
+  sessions: CatalogSession[],
+  unitOf: (id: string) => string | undefined = () => undefined,
+): ProgrammeCatalogView {
+    const field = { id: meta.fieldId, programmeTitle: meta.title, programmeDescription: meta.description };
     const levels: LevelView[] = CATALOG_LEVELS.map((level) => {
       const lessons: LessonView[] = scenarios
         .filter((s) => s.level === level)
@@ -169,6 +178,7 @@ export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
             status,
             bestScore,
             attempts,
+            ...(unitOf(s.id) ? { unit: unitOf(s.id) } : {}),
           } as LessonView;
         });
       return {
@@ -181,23 +191,51 @@ export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
     const all = levels.flatMap((l) => l.lessons);
     const recommended = levels.find((l) => l.lessons.some((x) => x.status !== 'passed')) ?? levels.find((l) => l.totalLessons > 0) ?? levels[0];
     const next = recommended.lessons.find((x) => x.status !== 'passed') ?? null;
-    const programme: ProgrammeCatalogView = {
-      id: `${field.id}-english`,
-      fieldId: field.id,
-      title: field.programmeTitle,
-      description: field.programmeDescription,
+    return {
+      id: meta.id,
+      fieldId: meta.fieldId,
+      title: meta.title,
+      description: meta.description,
       levels,
       totalLessons: all.length,
       passedLessons: all.filter((l) => l.status === 'passed').length,
       recommendedLevel: recommended.level,
       nextLessonId: next ? next.id : null,
     };
+}
+
+export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
+  return FIELDS.map((field) => {
+    const scenarios = ROLEPLAY_SCENARIOS.filter((s) => s.category === field.category);
+    const base = buildProgramme(
+      { id: `${field.id}-english`, fieldId: field.id, title: field.programmeTitle, description: field.programmeDescription },
+      scenarios,
+      sessions,
+    );
+    // Curriculum programmes (hidden unless CURRICULUM_ENABLED=true or a lesson is marked live).
+    const extra = CURRICULUM_PROGRAMMES.filter((p) => p.fieldId === field.id)
+      .map((p) => {
+        const lessons = Object.values(p.levels).flat().filter(lessonVisible);
+        if (lessons.length === 0) return null;
+        const unitById = new Map(lessons.map((l) => [l.id, l.unit]));
+        const sc = curriculumScenariosOf(lessons, field.category);
+        return buildProgramme({ id: p.id, fieldId: p.fieldId, title: p.title, description: p.description }, sc, sessions, (id) => unitById.get(id));
+      })
+      .filter((x): x is ProgrammeCatalogView => x !== null);
+    const programmes = [base, ...extra];
     return {
       id: field.id,
       title: field.title,
-      programmes: [programme],
-      totalLessons: programme.totalLessons,
-      passedLessons: programme.passedLessons,
+      programmes,
+      totalLessons: programmes.reduce((n, p) => n + p.totalLessons, 0),
+      passedLessons: programmes.reduce((n, p) => n + p.passedLessons, 0),
     };
   });
+}
+
+function curriculumScenariosOf(lessons: CurriculumLesson[], category: RoleplayCategory): RoleplayScenario[] {
+  return lessons.map((l) => ({
+    id: l.id, category, title: l.title, description: l.description, persona: l.persona, personaRole: l.personaRole,
+    level: l.level, goal: l.goal, rubric: l.rubric, targets: l.targets,
+  }));
 }

@@ -9,6 +9,7 @@
  */
 
 import type { PersonaId } from './personas';
+import { getCurriculumScenario } from './curriculum';
 
 export type RoleplayCategory =
   | 'interview'
@@ -27,7 +28,7 @@ export interface RoleplayScenario {
   /** Who the persona plays, shown on the persona card. */
   personaRole: string;
   /** Minimum CEFR the scene suits. */
-  level: 'A2' | 'B1' | 'B2' | 'C1';
+  level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
   /** The learner's target for the scene, in plain words. */
   goal: string;
   /** Yoodli-style rubric: checked while scoring the report. */
@@ -289,7 +290,7 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
 
 export function getRoleplay(id: string | undefined | null): RoleplayScenario | null {
   if (!id) return null;
-  return ROLEPLAY_SCENARIOS.find((r) => r.id === id) ?? null;
+  return ROLEPLAY_SCENARIOS.find((r) => r.id === id) ?? getCurriculumScenario(id);
 }
 
 export function roleplaysByCategory(): Record<RoleplayCategory, RoleplayScenario[]> {

@@ -1,0 +1,100 @@
+import { buildCatalog } from './catalog';
+import { CURRICULUM_PROGRAMMES, curriculumEnabled } from './content/curriculum';
+import { getRoleplay, ROLEPLAY_SCENARIOS } from './content/roleplays';
+
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
+const all = CURRICULUM_PROGRAMMES.flatMap((p) => Object.values(p.levels).flat().map((l) => ({ p, l })));
+
+describe('curriculum data (review checks)', () => {
+  it('has the expected lesson counts', () => {
+    const count = (id: string) => all.filter((x) => x.p.id === id).length;
+    expect(count('work-customer-service')).toBe(124);
+    expect(count('interviews-customer-service-interview-english')).toBe(76);
+  });
+
+  it('every programme has all five levels and 4 lessons per unit', () => {
+    for (const p of CURRICULUM_PROGRAMMES) {
+      for (const lv of LEVELS) {
+        const lessons = p.levels[lv];
+        expect(lessons.length).toBeGreaterThan(0);
+        const perUnit = new Map<string, number>();
+        lessons.forEach((l) => perUnit.set(l.unit, (perUnit.get(l.unit) ?? 0) + 1));
+        for (const [unit, n] of perUnit) expect([p.id, lv, unit, n]).toEqual([p.id, lv, unit, 4]);
+      }
+    }
+  });
+
+  it('lesson ids are unique and do not clash with existing roleplays', () => {
+    const ids = all.map((x) => x.l.id);
+    expect(new Set(ids).size).toBe(ids.length);
+    const existing = new Set(ROLEPLAY_SCENARIOS.map((s) => s.id));
+    ids.forEach((id) => expect(existing.has(id)).toBe(false));
+  });
+
+  it('every lesson has goal, persona role, 3 or 4 rubric points (4 on full calls), beats, source and licence, and starts as draft', () => {
+    for (const { l } of all) {
+      expect(l.goal.length).toBeGreaterThan(10);
+      expect(l.personaRole.length).toBeGreaterThan(5);
+      expect([3, 4]).toContain(l.rubric.length);
+      l.rubric.forEach((r) => expect(r.label.length).toBeGreaterThan(2));
+      expect(l.targets.length).toBeGreaterThanOrEqual(4);
+      expect(l.source.length).toBeGreaterThan(5);
+      expect(l.licence.length).toBeGreaterThan(5);
+      expect(l.status).toBe('draft');
+    }
+  });
+
+  it('keeps content rules: no third-party names, no pricing words', () => {
+    const text = JSON.stringify(CURRICULUM_PROGRAMMES).toLowerCase();
+    for (const bad of ['oxford', 'yoodli', 'checkout', 'plans.ts']) expect(text).not.toContain(bad);
+  });
+
+  it('interview answer keys cover all seven linking expressions', () => {
+    const keys = CURRICULUM_PROGRAMMES.find((p) => p.answerKeys)?.answerKeys?.['linking-expressions'] ?? [];
+    expect(keys.map((k) => k.answer)).toEqual(['Since', 'Therefore', 'In addition to that', 'However', 'Although', 'For instance', 'As a result']);
+    keys.forEach((k) => expect(k.sentence).toContain('___'));
+  });
+});
+
+describe('curriculum flag', () => {
+  const OLD = process.env.CURRICULUM_ENABLED;
+  afterEach(() => {
+    if (OLD === undefined) delete process.env.CURRICULUM_ENABLED;
+    else process.env.CURRICULUM_ENABLED = OLD;
+  });
+
+  it('is hidden by default: production catalog and roleplay lookup are unchanged', () => {
+    delete process.env.CURRICULUM_ENABLED;
+    expect(curriculumEnabled()).toBe(false);
+    expect(getRoleplay('work-cs-b1-u1-l1')).toBeNull();
+    const fields = buildCatalog([]);
+    expect(fields.find((f) => f.id === 'work')?.programmes).toHaveLength(1);
+    expect(fields.find((f) => f.id === 'interviews')?.programmes).toHaveLength(1);
+  });
+
+  it('on staging, programmes appear next to the existing ones and lessons start as roleplays', () => {
+    process.env.CURRICULUM_ENABLED = 'true';
+    const fields = buildCatalog([]);
+    const work = fields.find((f) => f.id === 'work')!;
+    expect(work.programmes.map((p) => p.id)).toEqual(['work-english', 'work-customer-service']);
+    const cs = work.programmes[1];
+    expect(cs.totalLessons).toBe(124);
+    expect(cs.levels.map((l) => l.level)).toEqual([...LEVELS]);
+    expect(cs.levels[0].lessons[0].unit).toBe('Greeting a customer');
+    const iv = fields.find((f) => f.id === 'interviews')!.programmes[1];
+    expect(iv.totalLessons).toBe(76);
+    const scenario = getRoleplay('work-cs-b1-u1-l1');
+    expect(scenario?.title).toBe('Asking open questions');
+    expect(scenario?.targets.length).toBeGreaterThanOrEqual(4);
+  });
+
+  it('attempts and progress work for a curriculum lesson', () => {
+    process.env.CURRICULUM_ENABLED = 'true';
+    const sessions = [{ id: 's1', roleplayId: 'work-cs-a1-u1-l1', createdAt: new Date(), report: { status: 'OK', dimensions: { fluency: 80, grammar: 70 } } }];
+    const cs = buildCatalog(sessions).find((f) => f.id === 'work')!.programmes[1];
+    const lesson = cs.levels[0].lessons[0];
+    expect(lesson.status).toBe('passed');
+    expect(lesson.bestScore).toBe(75);
+    expect(cs.passedLessons).toBe(1);
+  });
+});
