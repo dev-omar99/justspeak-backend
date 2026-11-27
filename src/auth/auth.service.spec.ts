@@ -918,7 +918,7 @@ describe('AuthService', () => {
       expect(welcomeSpy).not.toHaveBeenCalled();
     });
 
-    it('configures the SMTP transport with IPv4 only (Railway cannot route IPv6)', async () => {
+    it('resolves the SMTP host to IPv4 itself (nodemailer 10 picks a random family and Railway cannot route IPv6)', async () => {
       const original = {
         SMTP_HOST: process.env.SMTP_HOST,
         SMTP_USER: process.env.SMTP_USER,
@@ -932,6 +932,62 @@ describe('AuthService', () => {
       const transportSpy = jest
         .spyOn(nodemailer, 'createTransport')
         .mockReturnValue({ sendMail: jest.fn().mockResolvedValue({}) });
+      const dns = require('dns').promises;
+      const resolveSpy = jest
+        .spyOn(dns, 'resolve4')
+        .mockResolvedValue(['142.250.1.1']);
+
+      try {
+        const sent = await (service as any).sendSmtpEmail(
+          'user@example.com',
+          'Subject',
+          'text',
+          '<p>html</p>',
+          'Test email',
+        );
+
+        expect(sent).toBe(true);
+        expect(resolveSpy).toHaveBeenCalledWith('smtp.gmail.com');
+        // Connects to the IPv4 address directly, with the real hostname as
+        // the TLS servername so certificate validation still matches.
+        expect(transportSpy).toHaveBeenCalledWith(
+          expect.objectContaining({
+            host: '142.250.1.1',
+            servername: 'smtp.gmail.com',
+          }),
+        );
+      } finally {
+        transportSpy.mockRestore();
+        resolveSpy.mockRestore();
+        for (const [key, value] of Object.entries(original)) {
+          if (value === undefined) {
+            delete process.env[key];
+          } else {
+            process.env[key] = value;
+          }
+        }
+      }
+    });
+
+    it('falls back to the hostname when the IPv4 lookup fails', async () => {
+      const original = {
+        SMTP_HOST: process.env.SMTP_HOST,
+        SMTP_USER: process.env.SMTP_USER,
+        SMTP_PASS: process.env.SMTP_PASS,
+      };
+      process.env.SMTP_HOST = 'smtp.offline.example';
+      process.env.SMTP_USER = 'sender@example.com';
+      process.env.SMTP_PASS = 'app-password';
+
+      const nodemailer = require('nodemailer');
+      const transportSpy = jest
+        .spyOn(nodemailer, 'createTransport')
+        .mockReturnValue({ sendMail: jest.fn().mockResolvedValue({}) });
+      const dns = require('dns').promises;
+      const resolveSpy = jest
+        .spyOn(dns, 'resolve4')
+        .mockRejectedValue(new Error('ENOTFOUND'));
+      const warnSpy = jest.spyOn(console, 'warn').mockImplementation(() => {});
 
       try {
         const sent = await (service as any).sendSmtpEmail(
@@ -944,10 +1000,12 @@ describe('AuthService', () => {
 
         expect(sent).toBe(true);
         expect(transportSpy).toHaveBeenCalledWith(
-          expect.objectContaining({ family: 4 }),
+          expect.objectContaining({ host: 'smtp.offline.example' }),
         );
       } finally {
         transportSpy.mockRestore();
+        resolveSpy.mockRestore();
+        warnSpy.mockRestore();
         for (const [key, value] of Object.entries(original)) {
           if (value === undefined) {
             delete process.env[key];

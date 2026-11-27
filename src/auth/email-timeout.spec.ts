@@ -6,6 +6,18 @@ import { JwtService } from '@nestjs/jwt';
 jest.mock('nodemailer', () => ({
   createTransport: jest.fn(),
 }));
+// Keep DNS offline in this spec: the IPv4 self-resolution must fail fast
+// and fall back to the hostname instead of hitting the network.
+jest.mock('dns', () => {
+  const actual = jest.requireActual('dns');
+  return {
+    ...actual,
+    promises: {
+      ...actual.promises,
+      resolve4: jest.fn().mockRejectedValue(new Error('ENOTFOUND')),
+    },
+  };
+});
 import * as nodemailer from 'nodemailer';
 
 /**
