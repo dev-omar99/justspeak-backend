@@ -125,3 +125,13 @@ describe('curriculum flag', () => {
     expect(cs.passedLessons).toBe(1);
   });
 });
+
+describe('insufficientReport', () => {
+  it('states the real seconds heard and the seconds needed', () => {
+    const { insufficientReport } = require('./content/rubric');
+    const r = insufficientReport({ student_speech_sec: 38 }, 60);
+    expect(r.status).toBe('INSUFFICIENT_DATA');
+    expect(r.next_focus).toContain('38s');
+    expect(r.next_focus).toContain('60s');
+  });
+});

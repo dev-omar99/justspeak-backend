@@ -2,6 +2,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { ClaudeService, ChatTurn } from './claude.service';
 import { DeepgramService, DeepgramStream } from './deepgram.service';
 import { TtsService } from './tts.service';
+import { countFillers } from './word-choice';
 import { AiPartnerService } from './ai-partner.service';
 import {
   buildPersonaSystemPrompt,
@@ -36,7 +37,6 @@ export interface LiveSessionEmit {
   (event: string, ...args: any[]): void;
 }
 
-const FILLER_PATTERN = /\b(um+|uh+|er+|erm|like|you know|basically|actually|literally)\b/gi;
 
 interface Turn {
   role: 'user' | 'assistant';
@@ -282,11 +282,24 @@ export class LiveSession {
     if (this.pauseLimitTimer) clearTimeout(this.pauseLimitTimer);
     this.replyAbort?.abort();
     this.deepgram?.finish();
+    // Keep the learner's last words: speech heard but not yet committed as a turn
+    // would otherwise be lost from the transcript and the report.
+    this.commitPendingOnEnd();
     // Let in-flight pronunciation assessments land before the final save.
     await Promise.allSettled([...this.pendingAssessments]);
     await this.persist();
     const durationSec = Math.round(this.activeMs() / 1000);
     await this.opts.aiPartner.endSession(this.opts.sessionId, this.opts.userId, durationSec);
+  }
+
+  /** Save speech that was heard but not yet committed as a turn (no reply is generated). */
+  private commitPendingOnEnd(): void {
+    const said = this.currentUserText.trim();
+    this.currentUserText = '';
+    if (!said) return;
+    this.studentWords += said.split(/\s+/).filter(Boolean).length;
+    this.fillerCount += countFillers(said);
+    this.turns.push({ role: 'user', text: said, at: Date.now() });
   }
 
   // ---------------------------------------------------------------- STT
@@ -383,6 +396,10 @@ export class LiveSession {
       ) {
         this.studentSpeechSec += event.end - event.start;
       }
+      if (event.confidence > 0) {
+        this.confidenceSum += event.confidence;
+        this.confidenceSamples += 1;
+      }
       this.currentUserText = this.currentUserText
         ? `${this.currentUserText} ${event.text}`
         : event.text;
@@ -416,10 +433,9 @@ export class LiveSession {
     }
     // Metrics for this utterance.
     const now = Date.now();
-    if (confidence > 0) {
-      this.confidenceSum += confidence;
-      this.confidenceSamples += 1;
-    }
+    // Recognizer confidence is sampled on every final result (see handleTranscript),
+    // so turns committed by the fallback timer still count.
+    void confidence;
 
     const said = this.currentUserText.trim();
     this.currentUserText = '';
@@ -435,8 +451,7 @@ export class LiveSession {
     this.opts.logger.log(`User turn committed (${reason}): "${said.slice(0, 80)}"`);
     const words = said.split(/\s+/).filter(Boolean);
     this.studentWords += words.length;
-    const fillers = said.match(FILLER_PATTERN);
-    if (fillers) this.fillerCount += fillers.length;
+    this.fillerCount += countFillers(said);
 
     const turn: Turn = { role: 'user', text: said, at: now };
     this.turns.push(turn);
@@ -580,7 +595,21 @@ export class LiveSession {
             .catch((err: Error) => {
               if (!this.ended && err.name !== 'AbortError') {
                 this.opts.logger.warn(`TTS failed: ${err.message}`);
-                this.emitFn('error', { code: 'TTS_ERROR', message: 'Voice generation failed for one sentence.' });
+                const status = (err as { status?: number }).status;
+                // quota_exceeded / paid plan problems come back as 401/402/403, rate limits as 429.
+                const reason =
+                  status === 401 || status === 402 || status === 403
+                    ? 'quota_or_plan'
+                    : status === 429
+                      ? 'rate_limited'
+                      : 'other';
+                this.emitFn('error', {
+                  code: 'TTS_ERROR',
+                  message: 'Voice generation failed for one sentence.',
+                  reason,
+                  replyId: myReply,
+                  sentence: mySentence,
+                });
               }
             });
         },

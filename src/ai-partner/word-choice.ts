@@ -34,6 +34,52 @@ export interface WordChoiceStats {
 /** Fillers as regexes over the raw text, so variants count too
  *  ("umm" -> um, "uhh" -> uh, "you know" as a phrase). Word boundaries
  *  keep "actually" from matching "actuality". */
+/** Words before "like" that make it a real verb or comparison ("I like", "looks like"). */
+const LIKE_REAL_BEFORE = new Set([
+  'i', 'we', 'you', 'they', 'he', 'she', 'to', 'would', 'do', 'dont', "don't", 'did', "didn't",
+  'does', "doesn't", 'not', 'also', 'might', 'will', 'could', 'look', 'looks', 'looked', 'feel',
+  'feels', 'sound', 'sounds', 'something', 'anything', 'nothing', 'what', 'how', 'more', 'much',
+  'people', 'who', 'one',
+]);
+/** Words after "like" that make it a real verb or comparison ("like this", "like a car"). */
+const LIKE_REAL_AFTER = new Set([
+  'a', 'an', 'the', 'to', 'this', 'that', 'these', 'those', 'my', 'your', 'his', 'her', 'its',
+  'our', 'their', 'it', 'me', 'him', 'them', 'us', 'you', 'being', 'doing', 'going', 'playing',
+  'watching', 'eating', 'reading', 'when', 'how', 'what', 'most', 'both', 'all', 'some',
+]);
+
+/**
+ * Count "like" only when it is a filler. "I like cars" and "like this" are real
+ * words, so they are skipped. Rule of thumb, not a parser: "like" is a filler
+ * unless the word before or after it marks a real use. This is an ESTIMATE.
+ */
+export function countLikeFillers(text: string): number {
+  const words = text.toLowerCase().replace(/[.!?;:()"]/g, ' ').split(/\s+/).filter(Boolean);
+  let count = 0;
+  for (let i = 0; i < words.length; i++) {
+    const w = words[i];
+    // A comma right after ("like, I think") is the clearest filler sign.
+    const hasComma = w.startsWith('like,') || w === 'like,';
+    if (w !== 'like' && !hasComma) continue;
+    const before = (words[i - 1] ?? '').replace(/,$/, '');
+    const after = (words[i + 1] ?? '').replace(/,$/, '');
+    if (hasComma) { count++; continue; }
+    if (LIKE_REAL_BEFORE.has(before) || LIKE_REAL_AFTER.has(after)) continue;
+    count++;
+  }
+  return count;
+}
+
+/** Total filler words in a text (um, uh, er, you know, like (context aware), basically, actually, literally). */
+export function countFillers(text: string): number {
+  let total = countLikeFillers(text);
+  for (const { label, pattern } of FILLER_PATTERNS) {
+    if (label === 'like') continue;
+    total += text.match(pattern)?.length ?? 0;
+  }
+  return total;
+}
+
 const FILLER_PATTERNS: { label: string; pattern: RegExp }[] = [
   { label: 'um', pattern: /\bum+\b/gi },
   { label: 'uh', pattern: /\buh+\b/gi },
@@ -107,7 +153,7 @@ export function analyzeWordChoice(learnerTurns: string[]): WordChoiceStats {
   const fillerCounts = new Map<string, number>();
   let fillerTotal = 0;
   for (const { label, pattern } of FILLER_PATTERNS) {
-    const hits = fullText.match(pattern)?.length ?? 0;
+    const hits = label === 'like' ? countLikeFillers(fullText) : (fullText.match(pattern)?.length ?? 0);
     if (hits > 0) {
       fillerCounts.set(label, hits);
       fillerTotal += hits;

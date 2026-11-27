@@ -166,8 +166,11 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
       select: { name: true },
     });
 
-    // One live session per socket; stop any previous one.
+    // One live session per socket; stop any previous one. A second join for the SAME
+    // session on the same socket (double click, fast reconnect) is a duplicate: ignore it,
+    // otherwise the session restarts and the coach greets twice.
     const previous = this.socketSessions.get(client.id);
+    if (previous === sessionId) return;
     if (previous) await this.conversation.destroy(previous);
 
     this.socketSessions.set(client.id, sessionId);

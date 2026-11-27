@@ -63,7 +63,7 @@ HONESTY RULES (non-negotiable)
 CORRECTIONS (this is what makes JustSpeak different)
    - Find the student's real grammar mistakes. For each: quote the exact sentence (said), give the corrected version (better), name the rule in one short English line (rule), and explain the rule in clear Modern Standard Arabic (explanation_ar): simple, correct فصحى مبسطة that any Arabic speaker understands, the way a skilled teacher explains it, two short sentences at most. Never Egyptian dialect, never transliteration.
    - Common Egyptian-learner patterns to watch for: "I am agree", "she don't", "afraid from", "since/for confusion" ("living here since 3 years"), present perfect with past simple, "informations/advices", "explain me", "discuss about", missing third-person -s, "I am study" for "I am studying".
-   - Up to 5 corrections, most important first. Only real quotes.
+   - Up to 8 corrections, most important first. Spread them across the WHOLE session (beginning, middle and end), not only the opening turns. Only real quotes.
 
 RECASTS
    - Pick up to 3 sentences the student said that were understandable but unnatural, and rewrite each the way a native speaker would say the same idea (natural). Quote the original exactly (said).
@@ -113,7 +113,7 @@ Respond ONLY with valid JSON (no markdown fences) matching exactly:
     "conciseness_note": "one line"
   },
   "follow_up_questions": ["question 1", "question 2", "question 3"],
-  "lesson_result": { "goal_met": "yes | partly | no", "note": "one line: how the student did against this lesson's goal and target phrases (lesson sessions only; omit for other modes)" },
+  "lesson_result": { "goal_met": "yes | partly | no", "note": "one line: how the student did against this lesson's goal and target phrases (lesson and roleplay sessions only; omit for free talk)" },
   "drills": [
     { "title": "short label", "instruction": "one line", "example": "one example answer" }
   ],
@@ -256,7 +256,7 @@ export function parseSessionReport(rawText: string): SessionReport | null {
     corrections: Array.isArray(parsed.corrections)
       ? parsed.corrections
           .filter((m: any) => m && typeof m.said === 'string' && m.said.trim())
-          .slice(0, 5)
+          .slice(0, MAX_CORRECTIONS)
           .map((m: any) => ({
             said: String(m.said),
             better: typeof m.better === 'string' ? m.better : '',
@@ -305,7 +305,19 @@ export function parseSessionReport(rawText: string): SessionReport | null {
 }
 
 /** The no-score answer for sessions with too little student speech. */
-export function insufficientReport(metrics: Record<string, unknown>): SessionReport {
+/** Corrections kept in a report: enough to cover a whole session, not just the opening. */
+const MAX_CORRECTIONS = 8;
+
+export function insufficientReport(
+  metrics: Record<string, unknown>,
+  requiredSpeechSec?: number,
+): SessionReport {
+  const heard = Math.round(Number(metrics['student_speech_sec'] ?? 0));
+  // Say the real numbers so the learner can see why there is no score.
+  const next =
+    requiredSpeechSec && requiredSpeechSec > 0
+      ? `We heard ${heard}s of your speech. A scored report needs at least ${requiredSpeechSec}s. Try a longer session with fuller answers.`
+      : 'Try a longer session (at least a minute of speaking) to get your full report.';
   return {
     status: 'INSUFFICIENT_DATA',
     overall_score: 0,
@@ -329,7 +341,7 @@ export function insufficientReport(metrics: Record<string, unknown>): SessionRep
     },
     follow_up_questions: [],
     drills: [],
-    next_focus: 'Try a longer session (at least a minute of speaking) to get your full report.',
+    next_focus: next,
     suggested_lessons: [],
   };
 }

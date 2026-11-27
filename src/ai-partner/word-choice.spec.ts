@@ -1,3 +1,4 @@
+import { countFillers } from './word-choice';
 import { analyzeWordChoice } from './word-choice';
 
 describe('analyzeWordChoice', () => {
@@ -51,5 +52,19 @@ describe('analyzeWordChoice', () => {
     const stats = analyzeWordChoice(['I went home. I ate dinner. Then I slept.']);
     expect(stats.sentenceStarters[0]).toMatchObject({ word: 'i', count: 2 });
     expect(stats.sentenceStarters[1]).toMatchObject({ word: 'then', count: 1 });
+  });
+});
+
+describe('countFillers (context aware "like")', () => {
+  it('does not count "like" used as a real word', () => {
+    expect(countFillers('Yes. Like this kind of cards.')).toBe(0);
+    expect(countFillers('I like Japanese cars and it looks like a good deal')).toBe(0);
+  });
+  it('counts "like" used as a filler', () => {
+    expect(countFillers('It was, like, really big and, like, loud')).toBe(2);
+    expect(countFillers('We went there like yesterday')).toBe(1);
+  });
+  it('still counts um, uh and you know', () => {
+    expect(countFillers('Um I think, uh, you know, it works')).toBe(3);
   });
 });

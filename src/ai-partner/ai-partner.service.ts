@@ -41,6 +41,11 @@ export interface QuotaInfo {
   remaining: number;
 }
 
+/** True for internal cue turns the engine stores as role user with a [system] prefix. */
+export function isSystemTurn(turn: { text: string }): boolean {
+  return turn.text.startsWith('[system]');
+}
+
 @Injectable()
 export class AiPartnerService {
   private readonly logger = new Logger('AiPartnerService');
@@ -202,6 +207,7 @@ export class AiPartnerService {
       return {
         session,
         report: saved,
+        goal: this.sessionGoal(session),
         cached: true,
         pronunciation_assessment: extractPronunciation(session.metrics),
       };
@@ -213,7 +219,7 @@ export class AiPartnerService {
 
     let report: SessionReport | null = null;
     if (studentSpeechSec < minReportSpeechSec()) {
-      report = insufficientReport(metrics);
+      report = insufficientReport(metrics, minReportSpeechSec());
     } else {
       report = await this.buildModelReport(
         session.level,
@@ -234,7 +240,9 @@ export class AiPartnerService {
     // Deterministic delivery analytics are attached in code: the model
     // writes the coaching words, the numbers come from the transcript.
     if (report.status === 'OK') {
-      const learnerTurns = transcript.filter((t) => t.role === 'user').map((t) => t.text);
+      const learnerTurns = transcript
+        .filter((t) => t.role === 'user' && !isSystemTurn(t))
+        .map((t) => t.text);
       report.metrics_echo.word_choice = analyzeWordChoice(learnerTurns);
     }
 
@@ -243,6 +251,7 @@ export class AiPartnerService {
       return {
         session,
         report,
+        goal: this.sessionGoal(session),
         cached: false,
         pronunciation_assessment: extractPronunciation(session.metrics),
       };
@@ -254,9 +263,28 @@ export class AiPartnerService {
     return {
       session: updated,
       report,
+      goal: this.sessionGoal(updated),
       cached: false,
       pronunciation_assessment: extractPronunciation(updated.metrics),
     };
+  }
+
+  /**
+   * What the learner was practising, shown at the top of the report.
+   * Only real data: the roleplay or lesson goal, or null for open practice.
+   */
+  private sessionGoal(session: {
+    roleplayId?: string | null;
+    lessonId?: string | null;
+    mode?: string | null;
+  }): { title: string; goal: string; rubric: string[] } | null {
+    const scenario = session.roleplayId ? getRoleplay(session.roleplayId) : null;
+    if (scenario) {
+      return { title: scenario.title, goal: scenario.goal, rubric: scenario.rubric.map((r) => r.label) };
+    }
+    const lesson = session.lessonId ? getLesson(session.lessonId) : null;
+    if (lesson) return { title: lesson.title, goal: lesson.goal, rubric: lesson.targetLanguage };
+    return null;
   }
 
   /** Level placement check: scored with the stronger model. */
@@ -297,6 +325,8 @@ export class AiPartnerService {
     lessonId?: string | null,
     roleplayId?: string | null,
   ): Promise<SessionReport | null> {
+    // Internal "[system]" prompts (e.g. the time-up wrap-up cue) are not learner speech.
+    transcript = transcript.filter((t) => !isSystemTurn(t));
     const transcriptText = transcript
       .map((turn) => `${turn.role === 'user' ? 'STUDENT' : 'PARTNER'}: ${turn.text}`)
       .join('\n');
