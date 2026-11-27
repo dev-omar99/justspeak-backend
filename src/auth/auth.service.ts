@@ -528,6 +528,30 @@ export class AuthService {
     );
   }
 
+  /**
+   * Decides whether the one-time code may be echoed back in the API response
+   * when no real email/SMS was delivered (the "dev code" fallback that lets
+   * signup keep working before email delivery is fully configured).
+   *
+   * Security rule: the code is NEVER echoed for an identifier that already
+   * belongs to an account. Otherwise anyone who knows a user's email could
+   * request a code, read it from the response and reset that user's password.
+   * Set ALLOW_DEV_OTP=false to disable the fallback entirely.
+   */
+  private async shouldExposeDevCode(
+    identifier: string,
+    isRealSent: boolean,
+  ): Promise<boolean> {
+    if (isRealSent) return false;
+    if ((process.env.ALLOW_DEV_OTP || '').trim().toLowerCase() === 'false') {
+      return false;
+    }
+    const existing: any = identifier.includes('@')
+      ? await this.prisma.user.findUnique({ where: { email: identifier } })
+      : await this.prisma.user.findFirst({ where: { phone: identifier } });
+    return !existing;
+  }
+
   async sendOtp(dto: {
     identifier: string;
     type?: 'email' | 'phone';
@@ -619,7 +643,9 @@ export class AuthService {
         : `تم إرسال رمز التحقق إلى هاتفك (${identifier}) عبر رسالة نصية SMS`,
       identifier,
       isRealSent,
-      devCode: !isRealSent ? code : undefined,
+      devCode: (await this.shouldExposeDevCode(identifier, isRealSent))
+        ? code
+        : undefined,
       cooldownSeconds: 60,
     };
   }
