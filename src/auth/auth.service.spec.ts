@@ -914,5 +914,45 @@ describe('AuthService', () => {
       expect(res.success).toBe(true);
       expect(welcomeSpy).not.toHaveBeenCalled();
     });
+
+    it('configures the SMTP transport with IPv4 only (Railway cannot route IPv6)', async () => {
+      const original = {
+        SMTP_HOST: process.env.SMTP_HOST,
+        SMTP_USER: process.env.SMTP_USER,
+        SMTP_PASS: process.env.SMTP_PASS,
+      };
+      process.env.SMTP_HOST = 'smtp.gmail.com';
+      process.env.SMTP_USER = 'sender@example.com';
+      process.env.SMTP_PASS = 'app-password';
+
+      const nodemailer = require('nodemailer');
+      const transportSpy = jest
+        .spyOn(nodemailer, 'createTransport')
+        .mockReturnValue({ sendMail: jest.fn().mockResolvedValue({}) });
+
+      try {
+        const sent = await (service as any).sendSmtpEmail(
+          'user@example.com',
+          'Subject',
+          'text',
+          '<p>html</p>',
+          'Test email',
+        );
+
+        expect(sent).toBe(true);
+        expect(transportSpy).toHaveBeenCalledWith(
+          expect.objectContaining({ family: 4 }),
+        );
+      } finally {
+        transportSpy.mockRestore();
+        for (const [key, value] of Object.entries(original)) {
+          if (value === undefined) {
+            delete process.env[key];
+          } else {
+            process.env[key] = value;
+          }
+        }
+      }
+    });
   });
 });

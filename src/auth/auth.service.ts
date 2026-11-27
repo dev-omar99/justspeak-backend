@@ -308,6 +308,10 @@ export class AuthService {
       return null;
     }
 
+    // Railway containers cannot route IPv6, and smtp.gmail.com resolves
+    // to IPv6 first, so without `family: 4` the connect dies with
+    // ENETUNREACH. The option is passed through to the socket but is not
+    // declared in nodemailer's transport types.
     const transporter = nodemailer.createTransport({
       host: smtpHost,
       port: smtpPort,
@@ -316,11 +320,14 @@ export class AuthService {
         user: smtpUser,
         pass: smtpPass,
       },
+      family: 4,
       // Fail fast when SMTP is unreachable so callers fall back
       // in seconds instead of minutes.
       connectionTimeout: 8000,
       greetingTimeout: 8000,
       socketTimeout: 8000,
+    } as Parameters<typeof nodemailer.createTransport>[0] & {
+      family?: number;
     });
 
     return { transporter, fromEmail };
