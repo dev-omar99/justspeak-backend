@@ -437,6 +437,14 @@ export class LiveSession {
       context += `\n\nThings the student has mentioned before: ${this.facts.join('; ')}.`;
     }
 
+    const recentCoachLines = this.turns
+      .filter((turn) => turn.role === 'assistant')
+      .slice(-3)
+      .map((turn) => `"${turn.text}"`);
+    if (recentCoachLines.length) {
+      context += `\n\nYour last lines were: ${recentCoachLines.join(' | ')}. Do not repeat or closely paraphrase any of them.`;
+    }
+
     return `${base}\n\n${ENGINE_RULES_PROMPT}${context}`;
   }
 
