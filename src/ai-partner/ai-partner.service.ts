@@ -535,6 +535,16 @@ export class AiPartnerService {
     });
   }
 
+  /** Sessions that belong to a roleplay lesson, for the catalog (read only). */
+  async sessionsForCatalog(userId: string) {
+    return this.prisma.aiPartnerSession.findMany({
+      where: { userId, roleplayId: { not: null } },
+      orderBy: { createdAt: 'desc' },
+      take: 500,
+      select: { id: true, roleplayId: true, report: true, createdAt: true },
+    });
+  }
+
   async listSessions(userId: string, limit = 20) {
     return this.prisma.aiPartnerSession.findMany({
       where: { userId },

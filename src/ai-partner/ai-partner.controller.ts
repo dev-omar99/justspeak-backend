@@ -26,6 +26,7 @@ import { HALF_LEVELS, SAMPLE_LESSONS, LESSONS_PER_HALF_LEVEL } from './content/c
 import { aiPartnerEnabled } from './ai-partner.config';
 import { PROGRAMMES } from './content/programmes';
 import { buildProgrammes } from './programmes.progress';
+import { buildCatalog } from './catalog';
 
 @ApiTags('AI Partner')
 @ApiBearerAuth('JWT-auth')
@@ -110,6 +111,14 @@ export class AiPartnerController {
     this.aiPartner.assertEnabled();
     const sessions = await this.aiPartner.sessionsForProgress(req.user.sub);
     return { programmes: buildProgrammes(PROGRAMMES, sessions) };
+  }
+
+  @Get('catalog')
+  @ApiOperation({ summary: 'Fields > programmes > levels > lessons with attempts and derived progress (read only)' })
+  async catalog(@Req() req: any) {
+    this.aiPartner.assertEnabled();
+    const sessions = await this.aiPartner.sessionsForCatalog(req.user.sub);
+    return { fields: buildCatalog(sessions) };
   }
 
   @Get('sessions/:id')
