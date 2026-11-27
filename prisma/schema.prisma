@@ -8,34 +8,34 @@ datasource db {
 }
 
 model User {
-  id                String            @id @default(uuid())
-  email             String?           @unique
-  emailVerified     Boolean           @default(false)
-  phone             String?           @unique
-  countryCode       String?
-  password          String
-  name              String?
-  country           String?
-  englishLevel      String?           @default("Intermediate")
-  isAdmin           Boolean           @default(false)
-  avatarUrl         String?
-  bio               String?
-  ticketsLeft       Int               @default(5)
-  lastTicketReset   DateTime          @default(now())
-  tribeId           Int?
-  lastTribeBonus    DateTime?
-  createdAt         DateTime          @default(now())
+  id              String    @id @default(uuid())
+  email           String?   @unique
+  emailVerified   Boolean   @default(false)
+  phone           String?   @unique
+  countryCode     String?
+  password        String
+  name            String?
+  country         String?
+  englishLevel    String?   @default("Intermediate")
+  isAdmin         Boolean   @default(false)
+  avatarUrl       String?
+  bio             String?
+  ticketsLeft     Int       @default(5)
+  lastTicketReset DateTime  @default(now())
+  tribeId         Int?
+  lastTribeBonus  DateTime?
+  createdAt       DateTime  @default(now())
 
-  givenFeedbacks    SessionFeedback[] @relation("GivenFeedback")
-  receivedFeedbacks SessionFeedback[] @relation("ReceivedFeedback")
-  blockedUsers      UserBlock[]       @relation("UserBlocks")
-  blockedByUsers    UserBlock[]       @relation("BlockedUsers")
-  buddies           UserBuddy[]       @relation("UserBuddies")
-  buddyOf           UserBuddy[]       @relation("UserBuddyOf")
-  subscription      UserSubscription?
-  partnerMemos      PartnerMemo[]
-  academyProgress   AcademyProgress?
-  aiPartnerSessions AiPartnerSession[]
+  givenFeedbacks       SessionFeedback[]     @relation("GivenFeedback")
+  receivedFeedbacks    SessionFeedback[]     @relation("ReceivedFeedback")
+  blockedUsers         UserBlock[]           @relation("UserBlocks")
+  blockedByUsers       UserBlock[]           @relation("BlockedUsers")
+  buddies              UserBuddy[]           @relation("UserBuddies")
+  buddyOf              UserBuddy[]           @relation("UserBuddyOf")
+  subscription         UserSubscription?
+  partnerMemos         PartnerMemo[]
+  academyProgress      AcademyProgress?
+  aiPartnerSessions    AiPartnerSession[]
   aiPartnerQuotaOffset AiPartnerQuotaOffset?
 
   @@index([phone])
@@ -116,13 +116,13 @@ enum PartnerRating {
 }
 
 model OtpCode {
-  id          String   @id @default(uuid())
-  identifier  String
-  code        String
-  expiresAt   DateTime
-  verified    Boolean  @default(false)
-  attempts    Int      @default(0)
-  createdAt   DateTime @default(now())
+  id         String   @id @default(uuid())
+  identifier String
+  code       String
+  expiresAt  DateTime
+  verified   Boolean  @default(false)
+  attempts   Int      @default(0)
+  createdAt  DateTime @default(now())
 
   @@index([identifier])
   @@index([code])
@@ -149,24 +149,25 @@ model PartnerMemo {
 }
 
 model AiPartnerSession {
-  id          String    @id @default(uuid())
+  id          String               @id @default(uuid())
   userId      String
-  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user        User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
   mode        String
   personaId   String
   fieldId     String?
   lessonId    String?
   level       String
-  status      String    @default("active")
-  startedAt   DateTime  @default(now())
+  status      String               @default("active")
+  startedAt   DateTime             @default(now())
   endedAt     DateTime?
-  durationSec Int       @default(0)
-  transcript  Json      @default("[]")
-  facts       Json      @default("[]")
-  metrics     Json      @default("{}")
+  durationSec Int                  @default(0)
+  transcript  Json                 @default("[]")
+  facts       Json                 @default("[]")
+  metrics     Json                 @default("{}")
   report      Json?
   reportModel String?
-  createdAt   DateTime  @default(now())
+  createdAt   DateTime             @default(now())
+  recordings  AiPartnerRecording[]
 
   @@index([userId, createdAt])
 }
@@ -188,9 +189,29 @@ model AcademyProgress {
   scores                    Json
   updatedAt                 DateTime @updatedAt
 }
+
 model AiPartnerQuotaOffset {
   userId    String   @id
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   offset    Int      @default(0)
   updatedAt DateTime @updatedAt
+}
+
+model AiPartnerRecording {
+  id         String           @id @default(uuid())
+  sessionId  String
+  session    AiPartnerSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  userId     String
+  kind       String
+  status     String           @default("pending")
+  storageKey String?
+  mimeType   String           @default("")
+  bytes      Int              @default(0)
+  durationMs Int              @default(0)
+  position   Int              @default(0)
+  createdAt  DateTime         @default(now())
+  updatedAt  DateTime         @updatedAt
+
+  @@index([sessionId, position])
+  @@index([userId, createdAt])
 }

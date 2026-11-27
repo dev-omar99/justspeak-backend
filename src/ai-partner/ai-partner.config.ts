@@ -122,3 +122,53 @@ export function pronunciationMaxConcurrent(): number {
   const parsed = parseInt(process.env.AZURE_SPEECH_MAX_CONCURRENT ?? '', 10);
   return Number.isFinite(parsed) && parsed > 0 ? parsed : 4;
 }
+
+/**
+ * Session recording storage. Everything is opt-in and free-tier first:
+ *  - AI_PARTNER_RECORDINGS_S3_BUCKET (+ _ENDPOINT, _ACCESS_KEY_ID,
+ *    _SECRET_ACCESS_KEY, optional _PUBLIC_BASE_URL) selects any
+ *    S3-compatible object store: Cloudflare R2 (10 GB free, free egress)
+ *    or Backblaze B2 (10 GB free). Uploads and playback go through
+ *    presigned URLs, so media bytes never cross the web service.
+ *  - AI_PARTNER_RECORDINGS_DIR selects a local directory (development
+ *    only; container disks are ephemeral on Railway).
+ *  - With neither set, recording endpoints answer 503 and the client
+ *    keeps recording UI hidden.
+ */
+export function recordingsS3(): {
+  bucket: string;
+  endpoint?: string;
+  region: string;
+  accessKeyId: string;
+  secretAccessKey: string;
+  publicBaseUrl?: string;
+} | null {
+  const bucket = process.env.AI_PARTNER_RECORDINGS_S3_BUCKET?.trim();
+  const accessKeyId = process.env.AI_PARTNER_RECORDINGS_S3_ACCESS_KEY_ID?.trim();
+  const secretAccessKey = process.env.AI_PARTNER_RECORDINGS_S3_SECRET_ACCESS_KEY?.trim();
+  if (!bucket || !accessKeyId || !secretAccessKey) return null;
+  return {
+    bucket,
+    endpoint: process.env.AI_PARTNER_RECORDINGS_S3_ENDPOINT?.trim() || undefined,
+    region: process.env.AI_PARTNER_RECORDINGS_S3_REGION?.trim() || 'auto',
+    accessKeyId,
+    secretAccessKey,
+    publicBaseUrl: process.env.AI_PARTNER_RECORDINGS_S3_PUBLIC_BASE_URL?.trim() || undefined,
+  };
+}
+
+export function recordingsLocalDir(): string | null {
+  return process.env.AI_PARTNER_RECORDINGS_DIR?.trim() || null;
+}
+
+/** Presigned upload/playback URL lifetime. */
+export function recordingsUrlTtlSec(): number {
+  const parsed = parseInt(process.env.AI_PARTNER_RECORDINGS_URL_TTL_SEC ?? '', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? Math.min(parsed, 3600) : 900;
+}
+
+/** Hard cap on one uploaded recording (also enforced client-side). */
+export function recordingsMaxBytes(): number {
+  const parsed = parseInt(process.env.AI_PARTNER_RECORDINGS_MAX_BYTES ?? '', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 150 * 1024 * 1024;
+}

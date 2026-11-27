@@ -7,6 +7,7 @@ import {
   Post,
   Query,
   Req,
+  Res,
   UseGuards,
   UploadedFile,
   UseInterceptors,
@@ -15,6 +16,8 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { AiPartnerService } from './ai-partner.service';
+import { RecordingService } from './recording.service';
+import { recordingsMaxBytes } from './ai-partner.config';
 import { StartSessionDto } from './dto';
 import { PERSONAS } from './content/personas';
 import { INTERVIEW_FIELDS } from './content/interview-bank';
@@ -26,13 +29,17 @@ import { aiPartnerEnabled } from './ai-partner.config';
 @UseGuards(JwtAuthGuard)
 @Controller('ai-partner')
 export class AiPartnerController {
-  constructor(private readonly aiPartner: AiPartnerService) {}
+  constructor(
+    private readonly aiPartner: AiPartnerService,
+    private readonly recordings: RecordingService,
+  ) {}
 
   @Get('status')
   @ApiOperation({ summary: 'Feature flag and configuration status for the client' })
   status() {
     return {
       enabled: aiPartnerEnabled(),
+      recordingStorage: this.recordings.storageConfigured(),
       personas: PERSONAS.map((p) => ({
         id: p.id,
         displayName: p.displayName,
@@ -66,8 +73,21 @@ export class AiPartnerController {
 
   @Get('sessions')
   @ApiOperation({ summary: 'Recent AI Partner sessions for the current user' })
-  list(@Req() req: any, @Query('limit') limit?: string) {
-    return this.aiPartner.listSessions(req.user.sub, limit ? parseInt(limit, 10) : 20);
+  async list(@Req() req: any, @Query('limit') limit?: string) {
+    const sessions = await this.aiPartner.listSessions(
+      req.user.sub,
+      limit ? parseInt(limit, 10) : 20,
+    );
+    const withRecordings = new Set(
+      await this.recordings.sessionsWithRecordings(
+        req.user.sub,
+        sessions.map((session: { id: string }) => session.id),
+      ),
+    );
+    return sessions.map((session: { id: string }) => ({
+      ...session,
+      hasRecordings: withRecordings.has(session.id),
+    }));
   }
 
   @Get('sessions/:id')
@@ -92,6 +112,68 @@ export class AiPartnerController {
       throw new BadRequestException('Attach an audio file as multipart field "file".');
     }
     return this.aiPartner.analyzeUpload(req.user.sub, file);
+  }
+
+  @Post('sessions/:id/recordings/start')
+  @ApiOperation({ summary: 'Reserve a session recording and get an upload plan' })
+  startRecording(
+    @Req() req: any,
+    @Param('id') id: string,
+    @Body() body: { kind?: string; mimeType?: string },
+  ) {
+    return this.recordings.start(id, req.user.sub, body?.kind ?? '', body?.mimeType ?? '');
+  }
+
+  @Post('recordings/:rid/blob')
+  @ApiOperation({ summary: 'Relay upload of a recording blob (local storage mode)' })
+  @UseInterceptors(
+    FileInterceptor('file', { limits: { fileSize: recordingsMaxBytes() } }),
+  )
+  uploadRecordingBlob(
+    @Req() req: any,
+    @Param('rid') rid: string,
+    @UploadedFile() file?: { buffer: Buffer },
+  ) {
+    if (!file || !file.buffer?.length) {
+      throw new BadRequestException('Attach the recording as multipart field "file".');
+    }
+    return this.recordings.saveBlob(rid, req.user.sub, file.buffer);
+  }
+
+  @Post('recordings/:rid/complete')
+  @ApiOperation({ summary: 'Mark a recording upload finished' })
+  completeRecording(
+    @Req() req: any,
+    @Param('rid') rid: string,
+    @Body() body: { bytes?: number; durationMs?: number },
+  ) {
+    return this.recordings.complete(
+      rid,
+      req.user.sub,
+      Number(body?.bytes ?? 0),
+      Number(body?.durationMs ?? 0),
+    );
+  }
+
+  @Get('sessions/:id/recordings')
+  @ApiOperation({ summary: 'Playable recordings of one session, in order' })
+  listRecordings(@Req() req: any, @Param('id') id: string) {
+    return this.recordings.list(id, req.user.sub);
+  }
+
+  @Get('recordings/:rid/playback')
+  @ApiOperation({ summary: 'Short-lived playback URL for a recording' })
+  playbackRecording(@Req() req: any, @Param('rid') rid: string) {
+    return this.recordings.playback(rid, req.user.sub);
+  }
+
+  @Get('recordings/:rid/blob')
+  @ApiOperation({ summary: 'Stream a recording blob (local storage mode)' })
+  async streamRecordingBlob(@Req() req: any, @Param('rid') rid: string, @Res() res: any) {
+    const blob = await this.recordings.openBlob(rid, req.user.sub);
+    res.setHeader('content-type', blob.mimeType || 'application/octet-stream');
+    if (blob.bytes > 0) res.setHeader('content-length', String(blob.bytes));
+    blob.stream.pipe(res);
   }
 
   @Post('sessions/:id/report')
