@@ -104,6 +104,26 @@ export interface FieldView {
   passedLessons: number;
 }
 
+const DIMENSION_KEYS = ['pronunciation', 'fluency', 'vocabulary', 'grammar', 'interaction'] as const;
+
+/**
+ * Overall score (0-100) of a stored report, the same number the report page shows:
+ * the mean of the measured dimension scores (unavailable ones are left out, never counted as 0).
+ * Only reports with status OK count. Falls back to the stored overall_score when a report has no
+ * dimension numbers, and to null when nothing is measured.
+ */
+export function overallOf(report: unknown): number | null {
+  if (!report || typeof report !== 'object') return null;
+  const r = report as { status?: unknown; dimensions?: Record<string, unknown> };
+  if (r.status !== 'OK') return null;
+  const dims = DIMENSION_KEYS.map((k) => r.dimensions?.[k]).filter(
+    (n): n is number => typeof n === 'number' && Number.isFinite(n),
+  );
+  if (dims.length === 0) return reportScore(report);
+  const mean = dims.reduce((a, b) => a + Math.max(0, Math.min(100, b)), 0) / dims.length;
+  return Math.round(mean * 10) / 10;
+}
+
 /** Coach opening lines already written for the earlier programmes, reused by roleplay id. */
 function coachLineFor(roleplayId: string): string | null {
   for (const p of PROGRAMMES) {
@@ -125,7 +145,7 @@ export function buildCatalog(sessions: CatalogSession[]): FieldView[] {
             .map((x) => ({
               sessionId: x.id,
               at: new Date(x.createdAt).toISOString(),
-              score: reportScore(x.report),
+              score: overallOf(x.report),
             }))
             .sort((a, b) => a.at.localeCompare(b.at));
           const scores = attempts.map((a) => a.score).filter((n): n is number => n !== null);
