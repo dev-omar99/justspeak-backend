@@ -39,9 +39,9 @@ export function buildStreamParams(): URLSearchParams {
     smart_format: 'true',
     filler_words: 'true',
     interim_results: 'true',
-    endpointing: String(Number.isFinite(endpointing) && endpointing > 0 ? endpointing : 1000),
+    endpointing: String(Number.isFinite(endpointing) && endpointing > 0 ? endpointing : 3000),
     utterance_end_ms: String(
-      Number.isFinite(utteranceEnd) && utteranceEnd >= 1000 ? utteranceEnd : 2000,
+      Number.isFinite(utteranceEnd) && utteranceEnd >= 1000 ? utteranceEnd : 4000,
     ),
     vad_events: 'true',
     encoding: 'linear16',

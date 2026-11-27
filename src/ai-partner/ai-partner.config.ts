@@ -89,10 +89,11 @@ export function rephraseModel(): string {
 }
 
 /** How long after the last STT final we still wait before committing the
- *  learner's turn (long = more room to finish a sentence). */
+ *  learner's turn (long = more room to finish a sentence). Yoodli lets a
+ *  learner pause 3-5s mid-answer and replies ~4s after the real end. */
 export function commitFallbackMs(): number {
   const parsed = parseInt(process.env.AI_PARTNER_COMMIT_FALLBACK_MS ?? '', 10);
-  return Number.isFinite(parsed) && parsed > 0 ? parsed : 4000;
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 6000;
 }
 
 /** Minimum voiced seconds before a scored session report is attempted. */

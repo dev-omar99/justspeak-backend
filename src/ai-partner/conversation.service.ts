@@ -14,6 +14,7 @@ import {
   WRAP_UP_INSTRUCTION,
 } from './content/engine-rules';
 import { getInterviewField } from './content/interview-bank';
+import { getRoleplay } from './content/roleplays';
 import { getLesson } from './content/course';
 import {
   azureSpeechKey,
@@ -93,6 +94,7 @@ export class LiveSession {
       level: string;
       fieldId?: string | null;
       lessonId?: string | null;
+      roleplayId?: string | null;
       topicSeed?: string;
       emit: LiveSessionEmit;
       deepgramService: DeepgramService;
@@ -358,6 +360,15 @@ export class LiveSession {
       }
     }
 
+    if (this.opts.roleplayId) {
+      const scenario = getRoleplay(this.opts.roleplayId);
+      if (scenario) {
+        const beats = scenario.targets.map((t, i) => `${i + 1}. ${t}`).join('\n');
+        const rubric = scenario.rubric.map((r) => `- ${r.label}: ${r.hint}`).join('\n');
+        context += `\n\nYou are running the roleplay "${scenario.title}". You play: ${scenario.personaRole}. Stay in that role the whole session; the learner plays themselves.\nThe learner's goal for this scene: ${scenario.goal}\nWork through these beats roughly in order, one at a time, following the learner's answers and never rushing to the next beat before the current one lands:\n${beats}\nWhile coaching, keep these scoring criteria in mind (they shape your on-the-spot feedback):\n${rubric}\nWhen every beat is done, close the scene warmly, name the one thing they did best and the one thing to practise, and ask if they want to run it again.`;
+      }
+    }
+
     if (this.opts.topicSeed && this.opts.mode === 'free-talk') {
       context += `\n\nThe student chose to practise this exact question: "${this.opts.topicSeed}". Open the conversation by asking it naturally, then follow their answers as usual.`;
     }
@@ -564,6 +575,7 @@ export class ConversationService {
     level: string;
     fieldId?: string | null;
     lessonId?: string | null;
+    roleplayId?: string | null;
     topicSeed?: string;
     emit: LiveSessionEmit;
   }): Promise<LiveSession> {
@@ -577,6 +589,7 @@ export class ConversationService {
       level: params.level,
       fieldId: params.fieldId,
       lessonId: params.lessonId,
+      roleplayId: params.roleplayId,
       topicSeed: params.topicSeed,
       emit: params.emit,
       deepgramService: this.deepgramService,

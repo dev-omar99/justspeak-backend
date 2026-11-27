@@ -149,6 +149,7 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
       level: session.level,
       fieldId: session.fieldId,
       lessonId: session.lessonId,
+      roleplayId: session.roleplayId,
       topicSeed: typeof body.topicSeed === 'string' ? body.topicSeed.slice(0, 300) : undefined,
       emit: (event, ...args) => client.emit(event, ...args),
     });

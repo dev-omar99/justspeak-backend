@@ -21,6 +21,7 @@ import { recordingsMaxBytes } from './ai-partner.config';
 import { StartSessionDto } from './dto';
 import { PERSONAS } from './content/personas';
 import { INTERVIEW_FIELDS } from './content/interview-bank';
+import { ROLEPLAY_SCENARIOS } from './content/roleplays';
 import { HALF_LEVELS, SAMPLE_LESSONS, LESSONS_PER_HALF_LEVEL } from './content/course';
 import { aiPartnerEnabled } from './ai-partner.config';
 
@@ -47,6 +48,17 @@ export class AiPartnerController {
         bestFor: p.bestFor,
       })),
       interviewFields: INTERVIEW_FIELDS.map((f) => ({ id: f.id, title: f.title })),
+      roleplays: ROLEPLAY_SCENARIOS.map((r) => ({
+        id: r.id,
+        category: r.category,
+        title: r.title,
+        description: r.description,
+        persona: r.persona,
+        personaRole: r.personaRole,
+        level: r.level,
+        goal: r.goal,
+        rubric: r.rubric,
+      })),
       halfLevels: HALF_LEVELS,
       lessonsPerHalfLevel: LESSONS_PER_HALF_LEVEL,
       availableLessons: SAMPLE_LESSONS.map((l) => ({

@@ -156,6 +156,7 @@ model AiPartnerSession {
   personaId   String
   fieldId     String?
   lessonId    String?
+  roleplayId  String?
   level       String
   status      String               @default("active")
   startedAt   DateTime             @default(now())

@@ -12,8 +12,8 @@ describe('buildStreamParams', () => {
     const params = buildStreamParams();
     expect(params.get('model')).toBe('nova-3');
     expect(params.get('language')).toBe('en');
-    expect(params.get('endpointing')).toBe('1000');
-    expect(params.get('utterance_end_ms')).toBe('2000');
+    expect(params.get('endpointing')).toBe('3000');
+    expect(params.get('utterance_end_ms')).toBe('4000');
     expect(params.get('filler_words')).toBe('true');
     expect(params.get('interim_results')).toBe('true');
   });
@@ -23,6 +23,6 @@ describe('buildStreamParams', () => {
     process.env.DEEPGRAM_UTTERANCE_END_MS = '50'; // below Deepgram minimum
     const params = buildStreamParams();
     expect(params.get('endpointing')).toBe('1200');
-    expect(params.get('utterance_end_ms')).toBe('2000');
+    expect(params.get('utterance_end_ms')).toBe('4000');
   });
 });

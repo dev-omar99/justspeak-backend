@@ -18,6 +18,9 @@ export class StartSessionDto {
   @MaxLength(16)
   lessonId?: string;
 
+  /** Goal-driven roleplay scenario (see content/roleplays.ts). */
+  roleplayId?: string;
+
   @IsOptional()
   @IsString()
   @MaxLength(8)
