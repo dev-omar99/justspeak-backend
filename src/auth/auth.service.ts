@@ -177,6 +177,11 @@ export class AuthService {
       user.email || user.phone || user.id,
     );
 
+    // Best-effort welcome email; never blocks or fails the signup.
+    if (user.email) {
+      await this.sendWelcomeEmail(user.email, user.name);
+    }
+
     return {
       user: this.sanitizeUser(user),
       accessToken,
@@ -284,10 +289,14 @@ export class AuthService {
     }
   }
 
-  private async dispatchRealEmail(
-    email: string,
-    code: string,
-  ): Promise<boolean> {
+  /**
+   * Build an SMTP transporter from environment configuration.
+   * Returns null when SMTP is not configured so callers can skip quietly.
+   */
+  private createSmtpTransport(): {
+    transporter: nodemailer.Transporter;
+    fromEmail: string;
+  } | null {
     const smtpHost = process.env.SMTP_HOST?.trim();
     const smtpPort = parseInt(process.env.SMTP_PORT || '587', 10);
     const smtpUser = process.env.SMTP_USER?.trim();
@@ -296,58 +305,122 @@ export class AuthService {
       process.env.SMTP_FROM?.trim() || smtpUser || 'no-reply@justspeak.app';
 
     if (!smtpHost || !smtpUser || !smtpPass) {
+      return null;
+    }
+
+    const transporter = nodemailer.createTransport({
+      host: smtpHost,
+      port: smtpPort,
+      secure: smtpPort === 465,
+      auth: {
+        user: smtpUser,
+        pass: smtpPass,
+      },
+      // Fail fast when SMTP is unreachable so callers fall back
+      // in seconds instead of minutes.
+      connectionTimeout: 8000,
+      greetingTimeout: 8000,
+      socketTimeout: 8000,
+    });
+
+    return { transporter, fromEmail };
+  }
+
+  /**
+   * Send a single transactional email over SMTP.
+   * Never throws: returns false when SMTP is missing or the send fails,
+   * so account flows (signup, OTP) are never blocked by email delivery.
+   */
+  private async sendSmtpEmail(
+    to: string,
+    subject: string,
+    text: string,
+    html: string,
+    logLabel: string,
+  ): Promise<boolean> {
+    const transport = this.createSmtpTransport();
+    if (!transport) {
       this.logger.log(
-        `[EMAIL INFO] SMTP credentials not configured in .env. Real email skipped for ${this.maskIdentifier(email)}.`,
+        `[EMAIL INFO] SMTP credentials not configured in .env. Real email skipped for ${this.maskIdentifier(to)}.`,
       );
       return false;
     }
 
     try {
-      const transporter = nodemailer.createTransport({
-        host: smtpHost,
-        port: smtpPort,
-        secure: smtpPort === 465,
-        auth: {
-          user: smtpUser,
-          pass: smtpPass,
-        },
-        // Fail fast when SMTP is unreachable so sendOtp falls back
-        // to the dev-code path in seconds instead of minutes.
-        connectionTimeout: 8000,
-        greetingTimeout: 8000,
-        socketTimeout: 8000,
-      });
-
-      await transporter.sendMail({
-        from: `"JustSpeak" <${fromEmail}>`,
-        to: email,
-        subject: `JustSpeak - رمز التحقق الخاص بك`,
-        text: `رمز التحقق الخاص بك في JustSpeak هو: ${code} (صالح لمدة 10 دقائق)`,
-        html: `
-          <div dir="rtl" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 480px; margin: 0 auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background-color: #ffffff;">
-            <div style="text-align: center; margin-bottom: 20px;">
-              <h2 style="color: #2563EB; font-size: 24px; margin: 0; font-weight: 800;">JustSpeak</h2>
-              <p style="color: #64748B; font-size: 14px; margin-top: 4px;">تأكيد الدخول / التسجيل</p>
-            </div>
-            <p style="font-size: 15px; color: #334155;">مرحباً بك،</p>
-            <p style="font-size: 14px; color: #475569;">رمز التحقق الخاص بك لإتمام عملية التسجيل أو الدخول في تطبيق JustSpeak هو:</p>
-            <div style="background-color: #F8FAFC; border: 2px dashed #2563EB; border-radius: 12px; padding: 18px; text-align: center; margin: 20px 0;">
-              <span style="font-size: 32px; font-weight: 900; letter-spacing: 6px; color: #0F172A; font-family: monospace;">${code}</span>
-            </div>
-            <p style="font-size: 13px; color: #64748B;">صالح لمدة 10 دقائق. يُرجى عدم مشاركة هذا الرمز مع أي شخص.</p>
-          </div>
-        `,
+      await transport.transporter.sendMail({
+        from: `"JustSpeak" <${transport.fromEmail}>`,
+        to,
+        subject,
+        text,
+        html,
       });
       this.logger.log(
-        `[REAL EMAIL SENT] Verification email sent to ${this.maskIdentifier(email)}`,
+        `[REAL EMAIL SENT] ${logLabel} sent to ${this.maskIdentifier(to)}`,
       );
       return true;
     } catch (err: any) {
       this.logger.error(
-        `[REAL EMAIL ERROR] Failed to send email to ${this.maskIdentifier(email)}: ${err?.message || 'Email dispatch error'}`,
+        `[REAL EMAIL ERROR] Failed to send ${logLabel} to ${this.maskIdentifier(to)}: ${err?.message || 'Email dispatch error'}`,
       );
       return false;
     }
+  }
+
+  private async dispatchRealEmail(
+    email: string,
+    code: string,
+  ): Promise<boolean> {
+    return this.sendSmtpEmail(
+      email,
+      `JustSpeak - رمز التحقق الخاص بك`,
+      `رمز التحقق الخاص بك في JustSpeak هو: ${code} (صالح لمدة 10 دقائق)`,
+      `
+        <div dir="rtl" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 480px; margin: 0 auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background-color: #ffffff;">
+          <div style="text-align: center; margin-bottom: 20px;">
+            <h2 style="color: #2563EB; font-size: 24px; margin: 0; font-weight: 800;">JustSpeak</h2>
+            <p style="color: #64748B; font-size: 14px; margin-top: 4px;">تأكيد الدخول / التسجيل</p>
+          </div>
+          <p style="font-size: 15px; color: #334155;">مرحباً بك،</p>
+          <p style="font-size: 14px; color: #475569;">رمز التحقق الخاص بك لإتمام عملية التسجيل أو الدخول في تطبيق JustSpeak هو:</p>
+          <div style="background-color: #F8FAFC; border: 2px dashed #2563EB; border-radius: 12px; padding: 18px; text-align: center; margin: 20px 0;">
+            <span style="font-size: 32px; font-weight: 900; letter-spacing: 6px; color: #0F172A; font-family: monospace;">${code}</span>
+          </div>
+          <p style="font-size: 13px; color: #64748B;">صالح لمدة 10 دقائق. يُرجى عدم مشاركة هذا الرمز مع أي شخص.</p>
+        </div>
+      `,
+      'Verification email',
+    );
+  }
+
+  /**
+   * Welcome email sent once when a new account is created, through any
+   * registration path (email/password signup or first Google sign-in).
+   * Delivery is best-effort and never blocks account creation.
+   */
+  private async sendWelcomeEmail(
+    email: string,
+    name: string | null,
+  ): Promise<boolean> {
+    const displayName = (name || '').trim() || email.split('@')[0];
+    return this.sendSmtpEmail(
+      email,
+      'مرحباً بك في JustSpeak',
+      `أهلاً ${displayName}، تم إنشاء حسابك في JustSpeak بنجاح. يمكنك الآن بدء ممارسة الإنجليزية في أي وقت. Welcome to JustSpeak - your account is ready.`,
+      `
+        <div dir="rtl" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 480px; margin: 0 auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background-color: #ffffff;">
+          <div style="text-align: center; margin-bottom: 20px;">
+            <h2 style="color: #2563EB; font-size: 24px; margin: 0; font-weight: 800;">JustSpeak</h2>
+            <p style="color: #64748B; font-size: 14px; margin-top: 4px;">ممارسة الإنجليزية بالمحادثة</p>
+          </div>
+          <p style="font-size: 15px; color: #334155;">أهلاً ${displayName}،</p>
+          <p style="font-size: 14px; color: #475569;">تم إنشاء حسابك في JustSpeak بنجاح. يمكنك الآن بدء مكالمات المحادثة، والتدرّب مع المدرّب الصوتي، وحفظ كلماتك الجديدة - كل ذلك من حساب واحد.</p>
+          <p style="font-size: 13px; color: #64748B;">إذا لم تنشئ هذا الحساب، يمكنك تجاهل هذه الرسالة.</p>
+          <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 20px 0;" />
+          <p dir="ltr" style="font-size: 13px; color: #94A3B8; text-align: center;">Welcome to JustSpeak - your account is ready.</p>
+        </div>
+      `,
+      'Welcome email',
+    );
   }
 
   async sendOtp(dto: {
@@ -897,6 +970,10 @@ export class AuthService {
           password: hashedPassword,
         },
       });
+
+      // First Google sign-in creates the account: send the same welcome
+      // email a password signup receives. Best-effort, never blocking.
+      await this.sendWelcomeEmail(email, user.name);
     } else {
       // Prevent an unverified email account from being automatically linked to a Google identity
       // solely because the email strings match.

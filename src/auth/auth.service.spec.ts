@@ -792,4 +792,127 @@ describe('AuthService', () => {
       ).rejects.toThrow(UnauthorizedException);
     });
   });
+
+  describe('welcome email on account creation', () => {
+    const originalClientId = process.env.GOOGLE_CLIENT_ID;
+
+    beforeEach(() => {
+      process.env.GOOGLE_CLIENT_ID = 'test-client-id.apps.googleusercontent.com';
+    });
+
+    afterEach(() => {
+      if (originalClientId === undefined) {
+        delete process.env.GOOGLE_CLIENT_ID;
+      } else {
+        process.env.GOOGLE_CLIENT_ID = originalClientId;
+      }
+    });
+
+    it('sends a welcome email after email/password signup', async () => {
+      mockPrisma.user.findUnique.mockResolvedValue(null);
+      mockPrisma.user.create.mockResolvedValue({
+        id: 'user-new',
+        email: 'newuser@example.com',
+        phone: null,
+        name: 'New User',
+      });
+      const welcomeSpy = jest
+        .spyOn(service as any, 'sendWelcomeEmail')
+        .mockResolvedValue(true);
+
+      const res = await service.signup({
+        email: 'newuser@example.com',
+        password: 'super-secret-1',
+        name: 'New User',
+      } as any);
+
+      expect(res.accessToken).toBe('mock-jwt-token');
+      expect(welcomeSpy).toHaveBeenCalledWith('newuser@example.com', 'New User');
+    });
+
+    it('still completes signup when the welcome email cannot be sent', async () => {
+      mockPrisma.user.findUnique.mockResolvedValue(null);
+      mockPrisma.user.create.mockResolvedValue({
+        id: 'user-new-2',
+        email: 'nosmtp@example.com',
+        phone: null,
+        name: null,
+      });
+      const welcomeSpy = jest
+        .spyOn(service as any, 'sendWelcomeEmail')
+        .mockResolvedValue(false);
+
+      const res = await service.signup({
+        email: 'nosmtp@example.com',
+        password: 'super-secret-1',
+      } as any);
+
+      expect(res.accessToken).toBe('mock-jwt-token');
+      expect(welcomeSpy).toHaveBeenCalled();
+    });
+
+    it('sends a welcome email when a Google sign-in creates a new account', async () => {
+      const mockOAuthClient = {
+        verifyIdToken: jest.fn().mockResolvedValue({
+          getPayload: () => ({
+            email: 'fresh@gmail.com',
+            email_verified: true,
+            name: 'Fresh User',
+            picture: null,
+          }),
+        }),
+      } as unknown as OAuth2Client;
+      service.setGoogleClient(mockOAuthClient);
+
+      mockPrisma.user.findUnique.mockResolvedValue(null);
+      mockPrisma.user.create.mockResolvedValue({
+        id: 'user-google-new',
+        email: 'fresh@gmail.com',
+        name: 'Fresh User',
+        avatarUrl: null,
+      });
+      const welcomeSpy = jest
+        .spyOn(service as any, 'sendWelcomeEmail')
+        .mockResolvedValue(true);
+
+      const res = await service.googleLogin({
+        credential: 'valid-google-id-token',
+      });
+
+      expect(res.success).toBe(true);
+      expect(welcomeSpy).toHaveBeenCalledWith('fresh@gmail.com', 'Fresh User');
+    });
+
+    it('does NOT send a welcome email when a Google sign-in matches an existing account', async () => {
+      const mockOAuthClient = {
+        verifyIdToken: jest.fn().mockResolvedValue({
+          getPayload: () => ({
+            email: 'returning@gmail.com',
+            email_verified: true,
+            name: 'Returning User',
+            picture: null,
+          }),
+        }),
+      } as unknown as OAuth2Client;
+      service.setGoogleClient(mockOAuthClient);
+
+      mockPrisma.user.findUnique.mockResolvedValue({
+        id: 'user-google-existing',
+        email: 'returning@gmail.com',
+        emailVerified: true,
+        name: 'Returning User',
+        avatarUrl: null,
+      });
+      const welcomeSpy = jest
+        .spyOn(service as any, 'sendWelcomeEmail')
+        .mockResolvedValue(true);
+
+      const res = await service.googleLogin({
+        credential: 'valid-google-id-token',
+      });
+
+      expect(res.success).toBe(true);
+      expect(welcomeSpy).not.toHaveBeenCalled();
+    });
+  });
 });
