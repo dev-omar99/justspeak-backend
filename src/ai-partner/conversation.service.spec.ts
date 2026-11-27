@@ -357,3 +357,67 @@ describe('ConversationService concurrency cap', () => {
     ).rejects.not.toBeInstanceOf(AiPartnerBusyError);
   });
 });
+
+describe('LiveSession pause / resume', () => {
+  beforeEach(() => jest.useFakeTimers());
+  afterEach(() => jest.useRealTimers());
+
+  it('pause acks, drops audio and stops the cap clock; resume restarts it with the time left', async () => {
+    const { session, events, stream } = makeSession();
+    await session.start();
+    events.length = 0;
+    jest.advanceTimersByTime(60 * 1000);
+
+    expect(session.pause()).toBe(true);
+    expect(session.isPaused).toBe(true);
+    expect(events.some((e) => e.event === 'session-state' && e.args[0].state === 'paused')).toBe(true);
+    // Audio while paused never reaches the speech provider.
+    stream.sendAudio.mockClear();
+    session.sendAudio(Buffer.from('pcm'));
+    expect(stream.sendAudio).not.toHaveBeenCalled();
+
+    // A very long pause (under the pause limit) does not trigger the wrap-up.
+    jest.advanceTimersByTime(8 * 60 * 1000);
+    expect(events.some((e) => e.event === 'session-state' && e.args[0].state === 'time-up')).toBe(false);
+
+    expect(session.resume()).toBe(true);
+    expect(events.some((e) => e.event === 'session-state' && e.args[0].state === 'listening')).toBe(true);
+    await session.stop();
+  });
+
+  it('pause and resume refuse invalid states and never throw', async () => {
+    const { session } = makeSession();
+    await session.start();
+    expect(session.resume()).toBe(false); // not paused
+    expect(session.pause()).toBe(true);
+    expect(session.pause()).toBe(false); // already paused
+    await session.stop();
+    expect(session.pause()).toBe(false); // ended
+    expect(session.resume()).toBe(false);
+  });
+
+  it('a pause nobody ends is closed through onOrphaned after the limit', async () => {
+    const orphaned = jest.fn();
+    const { session } = makeSession({ onOrphaned: orphaned });
+    await session.start();
+    session.pause(5000);
+    jest.advanceTimersByTime(4000);
+    expect(orphaned).not.toHaveBeenCalled();
+    jest.advanceTimersByTime(2000);
+    expect(orphaned).toHaveBeenCalledWith('s1');
+    await session.stop();
+  });
+
+  it('paused time is not counted in the saved duration', async () => {
+    const { session } = makeSession();
+    await session.start();
+    jest.advanceTimersByTime(30 * 1000);
+    session.pause();
+    jest.advanceTimersByTime(5 * 60 * 1000);
+    session.resume();
+    jest.advanceTimersByTime(10 * 1000);
+    const ended = (session as any).opts.aiPartner.endSession as jest.Mock;
+    await session.stop();
+    expect(ended.mock.calls[0][2]).toBe(40);
+  });
+});

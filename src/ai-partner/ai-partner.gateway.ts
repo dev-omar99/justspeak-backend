@@ -33,6 +33,8 @@ function resolveGatewayCorsOrigin(): string | string[] {
  *  -> 'start-session'  { sessionId }        (session created via REST first)
  *  -> 'audio'          Buffer               (linear16 PCM, 16 kHz, mono)
  *  -> 'stop-session'   {}
+ *  -> 'pause-session'  {}                   (coach goes silent, cap clock stops; acked by session-state 'paused')
+ *  -> 'resume-session' {}                   (acked by session-state 'listening')
  *  <- 'session-state'  { state: 'listening' | 'thinking' | 'time-up' }
  *  <- 'transcript'     { role:'user', text, isFinal }
  *  <- 'reply-text'     { replyId, sentence, text }
@@ -213,6 +215,26 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
       this.socketSessions.delete(client.id);
       await this.conversation.destroy(sessionId);
       client.emit('session-state', { state: 'ended' });
+    }
+  }
+
+  /** Pause the live call. The client shows "paused" only after the 'paused' session-state ack. */
+  @SubscribeMessage('pause-session')
+  pauseSession(@ConnectedSocket() client: Socket) {
+    const sessionId = this.socketSessions.get(client.id);
+    const live = sessionId ? this.conversation.get(sessionId) : undefined;
+    if (!live || !live.pause()) {
+      client.emit('error', { code: 'PAUSE_FAILED', message: 'Could not pause the session.' });
+    }
+  }
+
+  /** Resume a paused call. */
+  @SubscribeMessage('resume-session')
+  resumeSession(@ConnectedSocket() client: Socket) {
+    const sessionId = this.socketSessions.get(client.id);
+    const live = sessionId ? this.conversation.get(sessionId) : undefined;
+    if (!live || !live.resume()) {
+      client.emit('error', { code: 'RESUME_FAILED', message: 'Could not resume the session.' });
     }
   }
 }

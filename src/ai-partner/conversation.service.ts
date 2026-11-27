@@ -69,6 +69,16 @@ export class LiveSession {
   private confidenceSamples = 0;
   private startedAt = Date.now();
 
+  // Pause: while paused the coach is silent, audio is ignored and the session-length cap clock is
+  // stopped. pausedTotalMs is the time already spent paused, so durations and metrics count only
+  // active time. A pause that nobody ends is closed after maxPauseMs through onOrphaned.
+  private paused = false;
+  private pausedAt = 0;
+  private pausedTotalMs = 0;
+  private wrapUpDeadline = 0;
+  private wrapUpRemainingMs = 0;
+  private pauseLimitTimer: NodeJS.Timeout | null = null;
+
   // Optional Azure phoneme-level pronunciation assessment. The mic PCM is
   // buffered per utterance (55s cap) and assessed against its transcript.
   private readonly pronunciationActive =
@@ -181,6 +191,7 @@ export class LiveSession {
 
     this.openDeepgram();
 
+    this.wrapUpDeadline = Date.now() + maxSessionMinutes() * 60 * 1000;
     this.wrapUpTimer = setTimeout(
       () => void this.wrapUp(),
       maxSessionMinutes() * 60 * 1000,
@@ -214,6 +225,11 @@ export class LiveSession {
       // so a hard-down provider does not spin forever.
       onClose: () => {
         if (this.ended) return;
+        // Paused: the idle stream closing is expected. Drop it; resume() opens a fresh one.
+        if (this.paused) {
+          this.deepgram = null;
+          return;
+        }
         if (this.deepgramReconnects >= 10) {
           this.emitFn('error', {
             code: 'STT_ERROR',
@@ -231,6 +247,7 @@ export class LiveSession {
   }
 
   sendAudio(chunk: Buffer): void {
+    if (this.paused) return;
     this.deepgram?.sendAudio(chunk);
     if (this.pronunciationActive) {
       // Cap the buffered utterance at 55s of PCM (Azure short-audio limit).
@@ -262,16 +279,79 @@ export class LiveSession {
     if (this.detachTimer) clearTimeout(this.detachTimer);
     if (this.saveTimer) clearInterval(this.saveTimer);
     if (this.commitTimer) clearTimeout(this.commitTimer);
+    if (this.pauseLimitTimer) clearTimeout(this.pauseLimitTimer);
     this.replyAbort?.abort();
     this.deepgram?.finish();
     // Let in-flight pronunciation assessments land before the final save.
     await Promise.allSettled([...this.pendingAssessments]);
     await this.persist();
-    const durationSec = Math.round((Date.now() - this.startedAt) / 1000);
+    const durationSec = Math.round(this.activeMs() / 1000);
     await this.opts.aiPartner.endSession(this.opts.sessionId, this.opts.userId, durationSec);
   }
 
   // ---------------------------------------------------------------- STT
+
+  /** Milliseconds of active (not paused) time since the session started. */
+  private activeMs(): number {
+    const now = Date.now();
+    return now - this.startedAt - this.pausedTotalMs - (this.paused ? now - this.pausedAt : 0);
+  }
+
+  get isPaused(): boolean {
+    return this.paused;
+  }
+
+  /**
+   * Pause the call: silence the coach (any reply in flight is cancelled), stop listening, freeze the
+   * session-length cap and close the idle speech stream. Returns false when the session is ended or
+   * already paused. maxPauseMs is the longest a pause may last before the session is closed.
+   */
+  pause(maxPauseMs = 10 * 60 * 1000): boolean {
+    if (this.ended || this.paused) return false;
+    this.paused = true;
+    this.pausedAt = Date.now();
+    // Stop the cap clock, remember what is left.
+    this.wrapUpRemainingMs = Math.max(0, this.wrapUpDeadline - this.pausedAt);
+    if (this.wrapUpTimer) clearTimeout(this.wrapUpTimer);
+    this.wrapUpTimer = null;
+    if (this.commitTimer) clearTimeout(this.commitTimer);
+    this.commitTimer = null;
+    this.currentUserText = '';
+    // Cancel the coach's reply: invalidates in-flight TTS chunks, same as a barge-in.
+    this.replySeq += 1;
+    this.replyAbort?.abort();
+    this.replying = false;
+    this.emitFn('interrupt');
+    this.deepgram?.finish();
+    this.deepgram = null;
+    this.pauseLimitTimer = setTimeout(() => {
+      this.pauseLimitTimer = null;
+      if (!this.ended && this.paused) {
+        this.opts.logger.warn(`Pause limit reached for live session ${this.sessionId}; ending it`);
+        void this.opts.onOrphaned(this.sessionId);
+      }
+    }, maxPauseMs);
+    this.emitFn('session-state', { state: 'paused' });
+    return true;
+  }
+
+  /** Resume after a pause: reopen listening and restart the cap clock with the time that was left. */
+  resume(): boolean {
+    if (this.ended || !this.paused) return false;
+    const now = Date.now();
+    this.pausedTotalMs += now - this.pausedAt;
+    this.paused = false;
+    if (this.pauseLimitTimer) clearTimeout(this.pauseLimitTimer);
+    this.pauseLimitTimer = null;
+    this.wrapUpDeadline = now + this.wrapUpRemainingMs;
+    this.wrapUpTimer = setTimeout(() => void this.wrapUp(), this.wrapUpRemainingMs);
+    if (!this.deepgram) {
+      this.deepgramReconnects = 0;
+      this.openDeepgram();
+    }
+    this.emitFn('session-state', { state: 'listening' });
+    return true;
+  }
 
   private handleTranscript(event: {
     isFinal: boolean;
@@ -281,6 +361,7 @@ export class LiveSession {
     start?: number;
     end?: number;
   }): void {
+    if (this.paused) return; // late transcripts that arrive after Pause are ignored
     if (this.ended) return;
     if (!event.isFinal) {
       this.emitFn('transcript', { role: 'user', text: event.text, isFinal: false });
@@ -552,7 +633,7 @@ export class LiveSession {
   // ------------------------------------------------------------ metrics
 
   private computeMetrics() {
-    const elapsedSec = Math.max(1, (Date.now() - this.startedAt) / 1000);
+    const elapsedSec = Math.max(1, this.activeMs() / 1000);
     const speechMinutes = this.studentSpeechSec / 60;
     return {
       student_speech_sec: Math.round(this.studentSpeechSec),
@@ -599,7 +680,7 @@ export class LiveSession {
   }
 
   private async wrapUp(): Promise<void> {
-    if (this.ended) return;
+    if (this.ended || this.paused) return;
     this.turns.push({ role: 'user', text: `[system] ${WRAP_UP_INSTRUCTION}`, at: Date.now() });
     await this.generateReply(WRAP_UP_INSTRUCTION);
     setTimeout(() => this.emitFn('session-state', { state: 'time-up' }), 15000);
