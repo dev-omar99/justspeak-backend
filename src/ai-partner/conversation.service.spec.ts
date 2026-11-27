@@ -1,4 +1,4 @@
-import { LiveSession } from './conversation.service';
+import { AiPartnerBusyError, ConversationService, LiveSession } from './conversation.service';
 import { getPersona } from './content/personas';
 import { Logger } from '@nestjs/common';
 
@@ -246,5 +246,60 @@ describe('LiveSession turn loop', () => {
     await waitFor(() => claude.streamReply.mock.calls.length > callsBefore);
     expect(events.some((e) => e.event === 'sentence-check')).toBe(false);
     await session.stop();
+  });
+});
+
+describe('ConversationService concurrency cap', () => {
+  afterEach(() => {
+    delete process.env.AI_PARTNER_MAX_CONCURRENT_LIVE;
+  });
+
+  it('refuses a new live session once the cap is reached', async () => {
+    process.env.AI_PARTNER_MAX_CONCURRENT_LIVE = '1';
+    const service = new ConversationService(
+      {} as any,
+      {} as any,
+      {} as any,
+      {} as any,
+      {} as any,
+    );
+    // One session already live (the map entry only needs to exist).
+    (service as any).sessions.set('live-1', {});
+    await expect(
+      service.createLiveSession({
+        sessionId: 'live-2',
+        userId: 'u',
+        userName: 'Omar',
+        mode: 'free-talk',
+        personaId: 'tutor',
+        level: 'B1',
+        emit: () => undefined,
+      }),
+    ).rejects.toBeInstanceOf(AiPartnerBusyError);
+  });
+
+  it('allows a session while under the cap', async () => {
+    process.env.AI_PARTNER_MAX_CONCURRENT_LIVE = '5';
+    const service = new ConversationService(
+      {} as any,
+      {} as any,
+      {} as any,
+      {} as any,
+      {} as any,
+    );
+    (service as any).sessions.set('live-1', {});
+    // The guard passes; construction then fails on the stubbed Deepgram
+    // dependency, which proves the busy guard itself did not throw.
+    await expect(
+      service.createLiveSession({
+        sessionId: 'live-2',
+        userId: 'u',
+        userName: 'Omar',
+        mode: 'free-talk',
+        personaId: 'tutor',
+        level: 'B1',
+        emit: () => undefined,
+      }),
+    ).rejects.not.toBeInstanceOf(AiPartnerBusyError);
   });
 });

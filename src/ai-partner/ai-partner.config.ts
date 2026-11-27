@@ -68,6 +68,15 @@ export function maxSessionMinutes(): number {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : 20;
 }
 
+/** Cap on simultaneous live sessions, protecting the free-tier providers
+ *  (Groq TPM, ElevenLabs characters) and the server's own memory. Past the
+ *  cap a new starter gets a friendly "busy, try again" instead of a
+ *  degraded session for everyone. */
+export function maxConcurrentLiveSessions(): number {
+  const parsed = parseInt(process.env.AI_PARTNER_MAX_CONCURRENT_LIVE ?? '', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 20;
+}
+
 
 /** Optional OpenAI-compatible provider for the live loop (e.g. Groq free tier).
  *  When AI_PARTNER_LIVE_BASE_URL is unset, the live loop stays on Anthropic. */

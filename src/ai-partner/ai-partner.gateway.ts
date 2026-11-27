@@ -10,7 +10,7 @@ import { Socket } from 'socket.io';
 import { Logger } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { PrismaService } from '../prisma.service';
-import { ConversationService } from './conversation.service';
+import { AiPartnerBusyError, ConversationService } from './conversation.service';
 import { AiPartnerService } from './ai-partner.service';
 import { aiPartnerEnabled } from './ai-partner.config';
 
@@ -140,19 +140,34 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
     if (previous) await this.conversation.destroy(previous);
 
     this.socketSessions.set(client.id, sessionId);
-    await this.conversation.createLiveSession({
-      sessionId,
-      userId,
-      userName: user?.name?.split(' ')[0] || 'there',
-      mode: session.mode,
-      personaId: session.personaId,
-      level: session.level,
-      fieldId: session.fieldId,
-      lessonId: session.lessonId,
-      roleplayId: session.roleplayId,
-      topicSeed: typeof body.topicSeed === 'string' ? body.topicSeed.slice(0, 300) : undefined,
-      emit: (event, ...args) => client.emit(event, ...args),
-    });
+    try {
+      await this.conversation.createLiveSession({
+        sessionId,
+        userId,
+        userName: user?.name?.split(' ')[0] || 'there',
+        mode: session.mode,
+        personaId: session.personaId,
+        level: session.level,
+        fieldId: session.fieldId,
+        lessonId: session.lessonId,
+        roleplayId: session.roleplayId,
+        topicSeed: typeof body.topicSeed === 'string' ? body.topicSeed.slice(0, 300) : undefined,
+        emit: (event, ...args) => client.emit(event, ...args),
+      });
+    } catch (err) {
+      // A refused start must reach the user as a message, never a hang:
+      // the concurrency cap answers "busy, try again", anything else is
+      // a generic start failure. The session row stays active so the
+      // learner can retry without spending another session of quota.
+      this.socketSessions.delete(client.id);
+      const busy = err instanceof AiPartnerBusyError;
+      client.emit('error', {
+        code: busy ? 'AI_PARTNER_BUSY' : 'START_FAILED',
+        message: busy
+          ? 'The AI partner is busy with other learners right now. Please try again in a few minutes.'
+          : 'Could not start the session. Please try again.',
+      });
+    }
   }
 
   @SubscribeMessage('audio')

@@ -20,6 +20,7 @@ import {
   azureSpeechKey,
   commitFallbackMs,
   liveModel,
+  maxConcurrentLiveSessions,
   maxSessionMinutes,
   pronunciationEnabled,
   rephraseModel,
@@ -553,6 +554,15 @@ export class LiveSession {
   }
 }
 
+/** Thrown when the concurrent live-session cap is reached. Carries a
+ *  stable code the gateway maps to a friendly client message. */
+export class AiPartnerBusyError extends Error {
+  readonly code = 'AI_PARTNER_BUSY';
+  constructor() {
+    super('Too many live AI Partner sessions right now.');
+  }
+}
+
 @Injectable()
 export class ConversationService {
   private readonly logger = new Logger('AiPartnerConversation');
@@ -579,6 +589,11 @@ export class ConversationService {
     topicSeed?: string;
     emit: LiveSessionEmit;
   }): Promise<LiveSession> {
+    // Concurrency guard: refuse cleanly past the cap so one busy evening
+    // cannot degrade every live session or exhaust the free-tier keys.
+    if (this.sessions.size >= maxConcurrentLiveSessions()) {
+      throw new AiPartnerBusyError();
+    }
     const persona = getPersona(params.personaId);
     const live = new LiveSession({
       sessionId: params.sessionId,
