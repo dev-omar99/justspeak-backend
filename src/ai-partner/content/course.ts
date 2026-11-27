@@ -83,7 +83,7 @@ export const SAMPLE_LESSONS: CourseLesson[] = [
       'What about you?',
     ],
     guidedDialogue: [
-      { speaker: 'persona', text: "Hi! I do not think we have met. I am Sara." },
+      { speaker: 'persona', text: "Hi! I do not think we have met. I am Emma." },
       { speaker: 'student', text: '(say your name, and Nice to meet you)' },
       { speaker: 'persona', text: 'Nice to meet you too. Where are you from?' },
       { speaker: 'student', text: '(I am from ...)' },
@@ -91,7 +91,7 @@ export const SAMPLE_LESSONS: CourseLesson[] = [
       { speaker: 'student', text: '(I am a ... / I work as a ...)' },
     ],
     roleplay:
-      'You are at a welcome party. Sara is a new neighbour. Talk for two minutes: names, cities, jobs.',
+      'You are at a welcome party. Emma is a new neighbour. Talk for two minutes: names, cities, jobs.',
     freePractice: ['Tell me about your family.', 'Who is your best friend?'],
     quiz: [
       'Say your name and city in one sentence.',
@@ -125,7 +125,7 @@ export const SAMPLE_LESSONS: CourseLesson[] = [
       { speaker: 'student', text: '(I learned how to ...)' },
     ],
     roleplay:
-      'A real mini-interview with Rachel. She asks about your last two jobs and one problem you solved. She interrupts if you ramble.',
+      'A real mini-interview with Rachel Morgan. She asks about your last two jobs and one problem you solved. She interrupts if you ramble.',
     freePractice: [
       'What did you dislike about that job?',
       'What would your old boss say about you?',
@@ -162,7 +162,7 @@ export const SAMPLE_LESSONS: CourseLesson[] = [
       { speaker: 'student', text: '(That is a fair point, but ...)' },
     ],
     roleplay:
-      'A formal debate with Mr. Adams on a topic the student chooses from three cards. He challenges every weak argument.',
+      'A formal debate with Daniel Adams on a topic the student chooses from three cards. He challenges every weak argument.',
     freePractice: [
       'What opinion do most people around you disagree with? Defend it.',
       'Now argue the opposite side.',
@@ -185,8 +185,8 @@ export const SAMPLE_LESSONS: CourseLesson[] = [
  * - Target language must be spoken phrases, not grammar tables; vocabulary
  *   must match the level band (A1: top 1000 words; A2: 2000; B1: 3500;
  *   B2: 5500; C1+: unrestricted).
- * - Persona fit: Sam for A1-A2, Sara for A2-B2 everyday, Rachel for
- *   interview lessons, Mr. Adams for C1-C2.
+ * - Persona fit: Omar for A1-A2, Emma for A2-B2 everyday, Rachel for
+ *   interview lessons, Daniel Adams for C1-C2.
  * - Every lesson ends with a hook naming the next lesson.
  */
 export const LESSON_GENERATION_SPEC_VERSION = 1;
