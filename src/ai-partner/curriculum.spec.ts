@@ -10,6 +10,7 @@ describe('curriculum data (review checks)', () => {
     const count = (id: string) => all.filter((x) => x.p.id === id).length;
     expect(count('work-customer-service')).toBe(124);
     expect(count('interviews-customer-service-interview-english')).toBe(76);
+    expect(count('work-sales')).toBe(104);
   });
 
   it('every programme has all five levels and 4 lessons per unit', () => {
@@ -72,7 +73,7 @@ describe('curriculum flag', () => {
     const admin = buildCatalog([], { isPreviewer: true });
     const user = buildCatalog([], { isPreviewer: false });
     const anon = buildCatalog([]);
-    expect(admin.find((f) => f.id === 'work')?.programmes).toHaveLength(2);
+    expect(admin.find((f) => f.id === 'work')?.programmes).toHaveLength(3);
     expect(user.find((f) => f.id === 'work')?.programmes).toHaveLength(1);
     expect(anon.find((f) => f.id === 'interviews')?.programmes).toHaveLength(1);
     expect(canStartCurriculumLesson('work-cs-b1-u1-l1', { isPreviewer: true })).toBe(true);
@@ -100,7 +101,7 @@ describe('curriculum flag', () => {
     process.env.CURRICULUM_ENABLED = 'true';
     const fields = buildCatalog([]);
     const work = fields.find((f) => f.id === 'work')!;
-    expect(work.programmes.map((p) => p.id)).toEqual(['work-english', 'work-customer-service']);
+    expect(work.programmes.map((p) => p.id)).toEqual(['work-english', 'work-customer-service', 'work-sales']);
     const cs = work.programmes[1];
     expect(cs.totalLessons).toBe(124);
     expect(cs.levels.map((l) => l.level)).toEqual([...LEVELS]);

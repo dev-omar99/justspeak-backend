@@ -7,9 +7,10 @@
 import type { RoleplayScenario } from '../roleplays';
 import { INTERVIEW_ENGLISH_CS } from './interviews-customer-service-interview-english';
 import { WORK_CUSTOMER_SERVICE } from './work-customer-service';
+import { SALES_ENGLISH } from './work-sales';
 import type { CurriculumLesson, CurriculumProgramme } from './types';
 
-export const CURRICULUM_PROGRAMMES: CurriculumProgramme[] = [WORK_CUSTOMER_SERVICE, INTERVIEW_ENGLISH_CS];
+export const CURRICULUM_PROGRAMMES: CurriculumProgramme[] = [WORK_CUSTOMER_SERVICE, SALES_ENGLISH, INTERVIEW_ENGLISH_CS];
 
 /** Global switch: every user sees every lesson (only for a full launch or a throwaway staging). */
 export function curriculumEnabled(): boolean {
