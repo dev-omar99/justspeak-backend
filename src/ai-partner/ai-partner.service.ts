@@ -525,6 +525,16 @@ export class AiPartnerService {
     return { sessionId: session.id, report };
   }
 
+  /** Minimal read of the learner's own sessions for programme progress. Read only. */
+  async sessionsForProgress(userId: string) {
+    return this.prisma.aiPartnerSession.findMany({
+      where: { userId, roleplayId: { not: null } },
+      orderBy: { createdAt: 'desc' },
+      take: 500,
+      select: { roleplayId: true, report: true },
+    });
+  }
+
   async listSessions(userId: string, limit = 20) {
     return this.prisma.aiPartnerSession.findMany({
       where: { userId },

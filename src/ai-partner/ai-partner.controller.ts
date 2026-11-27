@@ -24,6 +24,8 @@ import { INTERVIEW_FIELDS } from './content/interview-bank';
 import { ROLEPLAY_SCENARIOS } from './content/roleplays';
 import { HALF_LEVELS, SAMPLE_LESSONS, LESSONS_PER_HALF_LEVEL } from './content/course';
 import { aiPartnerEnabled } from './ai-partner.config';
+import { PROGRAMMES } from './content/programmes';
+import { buildProgrammes } from './programmes.progress';
 
 @ApiTags('AI Partner')
 @ApiBearerAuth('JWT-auth')
@@ -100,6 +102,14 @@ export class AiPartnerController {
       ...session,
       hasRecordings: withRecordings.has(session.id),
     }));
+  }
+
+  @Get('programmes')
+  @ApiOperation({ summary: 'Learning programmes with the learner\'s derived progress (read only)' })
+  async programmes(@Req() req: any) {
+    this.aiPartner.assertEnabled();
+    const sessions = await this.aiPartner.sessionsForProgress(req.user.sub);
+    return { programmes: buildProgrammes(PROGRAMMES, sessions) };
   }
 
   @Get('sessions/:id')
