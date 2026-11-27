@@ -54,5 +54,19 @@ describe('programmes', () => {
     expect(t.partner.name).toBe('Emma Clarke');
     expect(t.partner.trait).toBe('Empathetic');
     expect(t.partner.title.length).toBeGreaterThan(0);
+    expect(t.coachLine.length).toBeGreaterThan(20);
+  });
+
+  it('every programme and task declares its source and licence; no Oxford list is embedded', () => {
+    for (const p of PROGRAMMES) {
+      for (const item of [p, ...p.tasks]) {
+        expect(['self-written', 'open-licence']).toContain(item.source.origin);
+        expect(item.source.licence.length).toBeGreaterThan(0);
+        if (item.source.origin === 'open-licence') expect(item.source.attribution).toBeTruthy();
+      }
+    }
+    const view = buildProgrammes(PROGRAMMES, [])[0];
+    expect(view.source.licence).toBeTruthy();
+    expect(view.tasks[0].source.licence).toBeTruthy();
   });
 });

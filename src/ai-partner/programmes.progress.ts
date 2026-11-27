@@ -9,7 +9,7 @@
  */
 
 import { ROLEPLAY_SCENARIOS } from './content/roleplays';
-import { DEFAULT_PASS_PCT, PERSONA_TRAITS, type ProgrammeDef } from './content/programmes';
+import { DEFAULT_PASS_PCT, PERSONA_TRAITS, type ContentSource, type ProgrammeDef } from './content/programmes';
 import { getPersona, type PersonaId } from './content/personas';
 
 export type TaskStatus = 'not_started' | 'in_progress' | 'passed';
@@ -21,10 +21,12 @@ export interface SessionLite {
 }
 
 export interface TaskView {
+  source: ContentSource;
   id: string;
   title: string;
   description: string;
   goal: string;
+  coachLine: string;
   roleplayId: string;
   level: string;
   passPct: number;
@@ -36,6 +38,7 @@ export interface TaskView {
 }
 
 export interface ProgrammeView {
+  source: ContentSource;
   id: string;
   title: string;
   description: string;
@@ -72,10 +75,12 @@ export function buildProgrammes(programmes: ProgrammeDef[], sessions: SessionLit
         bestScore !== null && bestScore >= passPct ? 'passed' : mine.length > 0 ? 'in_progress' : 'not_started';
       const persona = getPersona(scenario.persona);
       tasks.push({
+        source: def.source,
         id: def.id,
         title: def.title,
         description: scenario.description,
         goal: scenario.goal,
+        coachLine: def.coachLine,
         roleplayId: def.roleplayId,
         level: scenario.level,
         passPct,
@@ -93,6 +98,7 @@ export function buildProgrammes(programmes: ProgrammeDef[], sessions: SessionLit
     const passedTasks = tasks.filter((t) => t.status === 'passed').length;
     const next = tasks.find((t) => t.status !== 'passed');
     views.push({
+      source: programme.source,
       id: programme.id,
       title: programme.title,
       description: programme.description,
