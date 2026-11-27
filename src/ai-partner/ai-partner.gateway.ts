@@ -104,7 +104,12 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
     const sessionId = this.socketSessions.get(client.id);
     if (sessionId) {
       this.socketSessions.delete(client.id);
-      await this.conversation.destroy(sessionId);
+      // Do NOT destroy the session here: a mobile network blip, wifi-to-cell
+      // handoff or a screen-locked tab drops the socket for seconds while
+      // the learner is still on the call. Detach and hold the session for
+      // the reconnect grace window; the session ends itself if nobody
+      // returns (see LiveSession.detach).
+      this.conversation.get(sessionId)?.detach();
     }
   }
 
@@ -128,6 +133,30 @@ export class AiPartnerGateway implements OnGatewayConnection, OnGatewayDisconnec
     if (session.status !== 'active') {
       client.emit('error', { code: 'SESSION_ENDED', message: 'This session has already ended.' });
       return;
+    }
+
+    // Reconnect path: this session is already live but orphaned (its
+    // socket dropped). Re-attach the new socket and resume the call
+    // instead of burning a new session of quota.
+    const existing = this.conversation.get(sessionId);
+    if (existing && !existing.isEnded) {
+      const previousOrphan = this.socketSessions.get(client.id);
+      if (previousOrphan && previousOrphan !== sessionId) {
+        await this.conversation.destroy(previousOrphan);
+      }
+      if (this.conversation.reattachSession(sessionId, (event, ...args) => client.emit(event, ...args))) {
+        // The old socket's disconnect event may not have fired yet (ping
+        // timeout lags a fast reconnect). Unmap every stale owner of this
+        // session NOW so that late disconnect cannot re-detach the session
+        // the new socket just resumed.
+        for (const [socketId, ownerSessionId] of this.socketSessions.entries()) {
+          if (ownerSessionId === sessionId && socketId !== client.id) {
+            this.socketSessions.delete(socketId);
+          }
+        }
+        this.socketSessions.set(client.id, sessionId);
+        return;
+      }
     }
 
     const user = await this.prisma.user.findUnique({

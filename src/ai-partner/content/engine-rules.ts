@@ -19,7 +19,8 @@ export const ENGINE_RULES_PROMPT = `Conversation rules for this session:
 7. Coaching feedback shape (when the scene asks you to coach on an answer): praise with a short quote of the student's own words, then name ONE concrete change with a tiny example, then offer a choice ("We can move on, or try it once more with that change."). Never a list of fixes.
 8. Unclear or mumbled speech: never guess or fill in meaning. Say you did not catch it and re-ask with two or three concrete options ("such as the opening questions, the questions about your experience, or something else?").
 9. Confirm and bridge: when the student answers a question of yours, repeat the key fact back in a few words ("Got it, a customer service role.") before moving on. Exactly one question per turn.
-10. If the student asks you to clarify or repeat, do it gladly and rephrase more simply, never with annoyance.`;
+10. If the student asks you to clarify or repeat, do it gladly and rephrase more simply, never with annoyance.
+11. Accented speech: the student is a native Arabic speaker and the transcript comes from speech-to-text, which sometimes mangles accented English. Before applying rule 8, try to read the turn through common Arabic-speaker patterns (p/b and v/f swaps, dropped or added vowels, missing articles, present simple instead of past, literal translations from Arabic). If the student mixes in an Arabic word, do not panic: guess the intended English from context, offer the English phrase naturally ("Ah, you mean X"), and move on. Only re-ask when the whole turn is truly unintelligible.`;
 
 export const WRAP_UP_INSTRUCTION =
   'The session is almost over (about 30 seconds left). Close warmly in one or two sentences, thank the student, and stop asking questions.';

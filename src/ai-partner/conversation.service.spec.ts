@@ -14,6 +14,7 @@ interface FakeStream {
 
 function makeSession(overrides: {
   replyImpl?: (params: any) => Promise<string>;
+  onOrphaned?: (sessionId: string) => void;
 } = {}) {
   const events: { event: string; args: any[] }[] = [];
   const emit = (event: string, ...args: any[]) => {
@@ -58,6 +59,7 @@ function makeSession(overrides: {
     persona: getPersona('sara'),
     level: 'B1',
     emit,
+    onOrphaned: overrides.onOrphaned ?? (() => undefined),
     deepgramService: deepgramService as any,
     claude: claude as any,
     tts: tts as any,
@@ -246,6 +248,57 @@ describe('LiveSession turn loop', () => {
     await waitFor(() => claude.streamReply.mock.calls.length > callsBefore);
     expect(events.some((e) => e.event === 'sentence-check')).toBe(false);
     await session.stop();
+  });
+});
+
+
+describe('LiveSession reconnect (socket drop)', () => {
+  beforeEach(() => jest.useFakeTimers());
+  afterEach(() => jest.useRealTimers());
+
+  it('keeps the session alive on detach and resumes on reattach with a state snapshot', async () => {
+    const orphaned = jest.fn();
+    const { session, events } = makeSession({ onOrphaned: orphaned });
+    await session.start();
+    events.length = 0;
+
+    session.detach();
+    // Events emitted while detached go nowhere (dead socket), and the
+    // orphan timer has not fired yet.
+    jest.advanceTimersByTime(30000);
+    expect(orphaned).not.toHaveBeenCalled();
+
+    const resumed: { event: string; args: any[] }[] = [];
+    const ok = session.reattach((event, ...args) => resumed.push({ event, args }));
+    expect(ok).toBe(true);
+    expect(resumed[0].event).toBe('session-resumed');
+    expect(resumed[0].args[0].sessionId).toBe('s1');
+
+    // Well past the grace window: nothing orphaned, session still alive.
+    jest.advanceTimersByTime(120000);
+    expect(orphaned).not.toHaveBeenCalled();
+    await session.stop();
+  });
+
+  it('ends the session through onOrphaned when the grace window lapses', async () => {
+    const orphaned = jest.fn();
+    const { session } = makeSession({ onOrphaned: orphaned });
+    await session.start();
+
+    session.detach();
+    jest.advanceTimersByTime(90000);
+    expect(orphaned).toHaveBeenCalledWith('s1');
+    // stop() is idempotent-safe after orphaning path runs destroy().
+    await session.stop();
+  });
+
+  it('detach is idempotent and reattach refuses an ended session', async () => {
+    const { session } = makeSession();
+    await session.start();
+    session.detach();
+    session.detach();
+    await session.stop();
+    expect(session.reattach(() => undefined)).toBe(false);
   });
 });
 

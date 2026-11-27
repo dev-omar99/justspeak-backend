@@ -23,6 +23,7 @@ import {
   maxConcurrentLiveSessions,
   maxSessionMinutes,
   pronunciationEnabled,
+  reconnectGraceMs,
   rephraseModel,
 } from './ai-partner.config';
 import {
@@ -81,6 +82,12 @@ export class LiveSession {
   // (mic noise keeps the endpoint open), so commit shortly after the last final.
   private commitTimer: NodeJS.Timeout | null = null;
 
+  // Emission target is mutable so a reconnected socket can take over the
+  // session (see detach/reattach); while detached, events go to a no-op
+  // sink instead of a dead socket.
+  private emitFn: LiveSessionEmit = () => undefined;
+  private detachTimer: NodeJS.Timeout | null = null;
+
   private wrapUpTimer: NodeJS.Timeout | null = null;
   private saveTimer: NodeJS.Timeout | null = null;
   private userTurnsSinceFacts = 0;
@@ -98,6 +105,7 @@ export class LiveSession {
       roleplayId?: string | null;
       topicSeed?: string;
       emit: LiveSessionEmit;
+      onOrphaned: (sessionId: string) => void;
       deepgramService: DeepgramService;
       claude: ClaudeService;
       tts: TtsService;
@@ -111,10 +119,60 @@ export class LiveSession {
     return this.opts.sessionId;
   }
 
+  get isEnded(): boolean {
+    return this.ended;
+  }
+
+  /**
+   * The owning socket dropped. Keep the session (Deepgram, timers, model
+   * state) fully alive for reconnectGraceMs() so the client can re-attach;
+   * events emitted meanwhile are discarded rather than sent to a dead
+   * socket. When the grace window lapses without a re-attach, the session
+   * is stopped and ended through the onOrphaned callback.
+   */
+  detach(): void {
+    if (this.ended || this.detachTimer) return;
+    this.emitFn = () => undefined;
+    this.opts.logger.log(
+      `Socket detached from live session ${this.sessionId}; holding for reconnect up to ${reconnectGraceMs()}ms`,
+    );
+    this.detachTimer = setTimeout(() => {
+      this.detachTimer = null;
+      if (!this.ended) {
+        this.opts.logger.warn(
+          `Reconnect grace expired for live session ${this.sessionId}; ending it`,
+        );
+        void this.opts.onOrphaned(this.sessionId);
+      }
+    }, reconnectGraceMs());
+  }
+
+  /**
+   * A reconnected socket takes over this live session: swap the emission
+   * target, cancel the orphan timer, and push a state snapshot so the
+   * client's UI resumes in the right mode. Returns false when the session
+   * already ended (client should start a fresh one).
+   */
+  reattach(emit: LiveSessionEmit): boolean {
+    if (this.ended) return false;
+    if (this.detachTimer) {
+      clearTimeout(this.detachTimer);
+      this.detachTimer = null;
+    }
+    this.emitFn = emit;
+    this.opts.logger.log(`Socket reattached to live session ${this.sessionId}`);
+    this.emitFn('session-resumed', {
+      sessionId: this.sessionId,
+      state: this.replying ? 'thinking' : 'listening',
+    });
+    return true;
+  }
+
   async start(): Promise<void> {
+    this.emitFn = this.opts.emit;
     const voiceId = this.opts.tts.resolveVoiceId(this.opts.persona);
     if (!voiceId) {
-      this.opts.emit('error', {
+      this.emitFn('error', {
         code: 'VOICE_NOT_CONFIGURED',
         message: `Voice for persona ${this.opts.persona.id} is not configured (${this.opts.persona.voiceEnvVar}).`,
       });
@@ -129,7 +187,7 @@ export class LiveSession {
     );
     this.saveTimer = setInterval(() => void this.persist(), 10000);
 
-    this.opts.emit('session-state', { state: 'listening' });
+    this.emitFn('session-state', { state: 'listening' });
     // The persona opens the conversation.
     await this.generateReply(null);
   }
@@ -150,14 +208,14 @@ export class LiveSession {
       // SpeechStarted alone does not barge in: TTS playback echoing into the
       // mic (laptop speakers) trips the VAD and would abort every reply.
       // Barge-in happens on real interim transcript text instead (see below).
-      onError: (message) => this.opts.emit('error', { code: 'STT_ERROR', message }),
+      onError: (message) => this.emitFn('error', { code: 'STT_ERROR', message }),
       // If the STT socket dies mid-session (network blip, provider-side
       // close), reopen it so the coach never goes permanently deaf. Capped
       // so a hard-down provider does not spin forever.
       onClose: () => {
         if (this.ended) return;
         if (this.deepgramReconnects >= 10) {
-          this.opts.emit('error', {
+          this.emitFn('error', {
             code: 'STT_ERROR',
             message: 'Speech recognition dropped and could not recover. Please restart the session.',
           });
@@ -201,6 +259,7 @@ export class LiveSession {
     if (this.ended) return;
     this.ended = true;
     if (this.wrapUpTimer) clearTimeout(this.wrapUpTimer);
+    if (this.detachTimer) clearTimeout(this.detachTimer);
     if (this.saveTimer) clearInterval(this.saveTimer);
     if (this.commitTimer) clearTimeout(this.commitTimer);
     this.replyAbort?.abort();
@@ -224,7 +283,7 @@ export class LiveSession {
   }): void {
     if (this.ended) return;
     if (!event.isFinal) {
-      this.opts.emit('transcript', { role: 'user', text: event.text, isFinal: false });
+      this.emitFn('transcript', { role: 'user', text: event.text, isFinal: false });
       // Barge in only on actual transcribed speech while the AI is talking,
       // never on the bare VAD signal (speaker echo trips the VAD too).
       if (event.text.trim() && this.replying) this.handleBargeIn();
@@ -246,7 +305,7 @@ export class LiveSession {
       this.currentUserText = this.currentUserText
         ? `${this.currentUserText} ${event.text}`
         : event.text;
-      this.opts.emit('transcript', { role: 'user', text: event.text, isFinal: true });
+      this.emitFn('transcript', { role: 'user', text: event.text, isFinal: true });
       // If neither speech_final nor UtteranceEnd arrives, commit after a
       // pause following the last final.
       this.scheduleCommitFallback();
@@ -328,11 +387,11 @@ export class LiveSession {
       if (this.ended) return;
       if (!suggestion || /^ok\b/i.test(suggestion) ||
           suggestion.toLowerCase() === turn.text.trim().toLowerCase()) {
-        this.opts.emit('sentence-check', { original: turn.text, ok: true });
+        this.emitFn('sentence-check', { original: turn.text, ok: true });
         return;
       }
       turn.rephrase = suggestion;
-      this.opts.emit('sentence-check', { original: turn.text, ok: false, suggestion });
+      this.emitFn('sentence-check', { original: turn.text, ok: false, suggestion });
     } catch {
       // silent by design
     }
@@ -386,7 +445,7 @@ export class LiveSession {
     this.replying = true;
     const replyId = ++this.replySeq;
     this.replyAbort = new AbortController();
-    this.opts.emit('session-state', { state: 'thinking' });
+    this.emitFn('session-state', { state: 'thinking' });
 
     try {
       const recentTurns: ChatTurn[] = this.turns
@@ -411,7 +470,7 @@ export class LiveSession {
         onSentence: (sentence) => {
           const myReply = replyId;
           const mySentence = sentenceIndex++;
-          this.opts.emit('reply-text', { replyId: myReply, sentence: mySentence, text: sentence });
+          this.emitFn('reply-text', { replyId: myReply, sentence: mySentence, text: sentence });
           void this.opts.tts
             .synthesizeSentence({
               text: sentence,
@@ -419,19 +478,19 @@ export class LiveSession {
               signal: this.replyAbort?.signal,
               onChunk: (chunk) => {
                 if (this.replySeq === myReply && !this.ended) {
-                  this.opts.emit('reply-audio', { replyId: myReply, sentence: mySentence }, chunk);
+                  this.emitFn('reply-audio', { replyId: myReply, sentence: mySentence }, chunk);
                 }
               },
             })
             .then(() => {
               if (this.replySeq === myReply && !this.ended) {
-                this.opts.emit('reply-sentence-end', { replyId: myReply, sentence: mySentence });
+                this.emitFn('reply-sentence-end', { replyId: myReply, sentence: mySentence });
               }
             })
             .catch((err: Error) => {
               if (!this.ended && err.name !== 'AbortError') {
                 this.opts.logger.warn(`TTS failed: ${err.message}`);
-                this.opts.emit('error', { code: 'TTS_ERROR', message: 'Voice generation failed for one sentence.' });
+                this.emitFn('error', { code: 'TTS_ERROR', message: 'Voice generation failed for one sentence.' });
               }
             });
         },
@@ -439,8 +498,8 @@ export class LiveSession {
 
       if (assistantText && !this.ended) {
         this.turns.push({ role: 'assistant', text: assistantText, at: Date.now() });
-        this.opts.emit('reply-end', { replyId });
-        this.opts.emit('session-state', { state: 'listening' });
+        this.emitFn('reply-end', { replyId });
+        this.emitFn('session-state', { state: 'listening' });
         this.userTurnsSinceFacts += userSaid ? 1 : 0;
         if (this.userTurnsSinceFacts >= 4) {
           this.userTurnsSinceFacts = 0;
@@ -453,20 +512,20 @@ export class LiveSession {
         this.opts.logger.warn(
           `Empty completion from the live model in session ${this.sessionId}`,
         );
-        this.opts.emit('error', {
+        this.emitFn('error', {
           code: 'LLM_EMPTY',
           message: 'The AI had no answer that time. Please say that again.',
         });
-        this.opts.emit('session-state', { state: 'listening' });
+        this.emitFn('session-state', { state: 'listening' });
       }
     } catch (err) {
       if ((err as Error).name === 'AbortError') {
         // Barge-in: a newer reply is on its way.
-        this.opts.emit('session-state', { state: 'listening' });
+        this.emitFn('session-state', { state: 'listening' });
       } else {
         this.opts.logger.warn(`Reply generation failed: ${(err as Error).message}`);
-        this.opts.emit('error', { code: 'LLM_ERROR', message: 'The conversation hit a problem. Try again.' });
-        this.opts.emit('session-state', { state: 'listening' });
+        this.emitFn('error', { code: 'LLM_ERROR', message: 'The conversation hit a problem. Try again.' });
+        this.emitFn('session-state', { state: 'listening' });
       }
     } finally {
       this.replying = false;
@@ -478,7 +537,7 @@ export class LiveSession {
     this.replySeq += 1; // invalidate in-flight TTS chunks
     this.replyAbort?.abort();
     this.replying = false;
-    this.opts.emit('interrupt');
+    this.emitFn('interrupt');
   }
 
   // ------------------------------------------------------------ metrics
@@ -500,7 +559,7 @@ export class LiveSession {
   }
 
   private emitMetrics(): void {
-    this.opts.emit('metrics', this.computeMetrics());
+    this.emitFn('metrics', this.computeMetrics());
   }
 
   private async refreshFacts(): Promise<void> {
@@ -534,7 +593,7 @@ export class LiveSession {
     if (this.ended) return;
     this.turns.push({ role: 'user', text: `[system] ${WRAP_UP_INSTRUCTION}`, at: Date.now() });
     await this.generateReply(WRAP_UP_INSTRUCTION);
-    setTimeout(() => this.opts.emit('session-state', { state: 'time-up' }), 15000);
+    setTimeout(() => this.emitFn('session-state', { state: 'time-up' }), 15000);
   }
 
   private async persist(): Promise<void> {
@@ -607,6 +666,11 @@ export class ConversationService {
       roleplayId: params.roleplayId,
       topicSeed: params.topicSeed,
       emit: params.emit,
+      onOrphaned: (sessionId) => {
+        // Grace window lapsed with no reconnect: end the session normally
+        // (persists transcript, closes Deepgram, marks the row ended).
+        void this.destroy(sessionId);
+      },
       deepgramService: this.deepgramService,
       claude: this.claude,
       tts: this.tts,
@@ -621,6 +685,16 @@ export class ConversationService {
 
   get(sessionId: string): LiveSession | undefined {
     return this.sessions.get(sessionId);
+  }
+
+  /**
+   * Re-attach an orphaned live session to a fresh socket. Returns true when
+   * the session is alive again under the new emission target.
+   */
+  reattachSession(sessionId: string, emit: LiveSessionEmit): boolean {
+    const live = this.sessions.get(sessionId);
+    if (!live) return false;
+    return live.reattach(emit);
   }
 
   async destroy(sessionId: string): Promise<void> {

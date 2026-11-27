@@ -105,6 +105,17 @@ export function commitFallbackMs(): number {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : 6000;
 }
 
+/**
+ * How long a live session survives its socket dropping (mobile network blip,
+ * wifi-to-cellular handoff, screen lock suspending the tab). Within this
+ * window the client can reconnect and re-attach to the SAME session instead
+ * of the call dying. Deepgram stays open via its KeepAlive while detached.
+ */
+export function reconnectGraceMs(): number {
+  const parsed = parseInt(process.env.AI_PARTNER_RECONNECT_GRACE_MS ?? '', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 90000;
+}
+
 /** Minimum voiced seconds before a scored session report is attempted. */
 export function minReportSpeechSec(): number {
   const parsed = parseInt(process.env.AI_PARTNER_MIN_REPORT_SPEECH_SEC ?? '', 10);
