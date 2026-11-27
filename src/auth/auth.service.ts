@@ -375,9 +375,62 @@ export class AuthService {
   }
 
   /**
-   * Send a single transactional email over SMTP.
-   * Never throws: returns false when SMTP is missing or the send fails,
-   * so account flows (signup, OTP) are never blocked by email delivery.
+   * Deliver one email through the Resend HTTPS API.
+   * Returns false (quietly) when RESEND_API_KEY is not configured so the
+   * caller falls back to SMTP; logs and returns false on API errors.
+   */
+  private async sendViaResend(
+    to: string,
+    subject: string,
+    text: string,
+    html: string,
+    logLabel: string,
+  ): Promise<boolean> {
+    const apiKey = process.env.RESEND_API_KEY?.trim();
+    if (!apiKey) {
+      return false;
+    }
+    // Without a verified domain, Resend only delivers from onboarding@resend.dev
+    // and only to the account owner's own address; RESEND_FROM documents the
+    // sender once a domain is verified.
+    const from =
+      process.env.RESEND_FROM?.trim() ||
+      'JustSpeak <onboarding@resend.dev>';
+
+    try {
+      const res = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ from, to: [to], subject, text, html }),
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!res.ok) {
+        const body = await res.text().catch(() => '');
+        this.logger.warn(
+          `[REAL EMAIL ERROR] Resend rejected ${logLabel} email to ${this.maskIdentifier(to)}: HTTP ${res.status} ${body.slice(0, 200)}`,
+        );
+        return false;
+      }
+      return true;
+    } catch (err) {
+      this.logger.warn(
+        `[REAL EMAIL ERROR] Resend send failed for ${logLabel} email to ${this.maskIdentifier(to)}: ${err}`,
+      );
+      return false;
+    }
+  }
+
+  /**
+   * Send a single transactional email. Provider chain:
+   *   1. Resend HTTPS API when RESEND_API_KEY is set (works from Railway -
+   *      outbound SMTP to Gmail is blocked there, port 443 is not);
+   *   2. Gmail/generic SMTP as the fallback;
+   *   3. simulated (returns false) when neither is configured.
+   * Never throws: returns false when every provider fails, so account
+   * flows (signup, OTP) are never blocked by email delivery.
    */
   private async sendSmtpEmail(
     to: string,
@@ -386,6 +439,10 @@ export class AuthService {
     html: string,
     logLabel: string,
   ): Promise<boolean> {
+    if (await this.sendViaResend(to, subject, text, html, logLabel)) {
+      return true;
+    }
+
     const transport = await this.createSmtpTransport();
     if (!transport) {
       this.logger.log(

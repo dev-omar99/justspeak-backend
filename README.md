@@ -25,7 +25,8 @@ Configure these in `justspeak_backend/.env` (see [`.env.example`](file:///c:/Use
 | `GOOGLE_CLIENT_ID` | For Google Auth | Google OAuth 2.0 Web Client ID verified by `OAuth2Client.verifyIdToken` |
 | `PORT` | Optional | HTTP & WebSocket server port (default `3000` in code, `4000` in `.env.example`) |
 | `CORS_ORIGINS` | Recommended | Comma-separated list of allowed frontend origins for HTTP and Socket.IO CORS |
-| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | Optional (Prod) | Nodemailer SMTP settings for real email OTP delivery |
+| `RESEND_API_KEY`, `RESEND_FROM` | Optional (Prod) | Resend HTTPS API email delivery (preferred on Railway, where outbound SMTP is blocked); without a verified domain Resend only emails the account owner |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | Optional (Prod) | Nodemailer SMTP fallback for real email OTP delivery |
 
 ## Security & Real-Time Assumptions
 

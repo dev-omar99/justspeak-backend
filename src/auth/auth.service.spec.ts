@@ -1109,4 +1109,137 @@ describe('AuthService', () => {
       expect(mockPrisma.user.update).not.toHaveBeenCalled();
     });
   });
+
+  describe('Resend email provider', () => {
+    const ENV_KEYS = ['RESEND_API_KEY', 'RESEND_FROM'];
+    let saved: Record<string, string | undefined>;
+
+    beforeEach(() => {
+      saved = {};
+      for (const key of ENV_KEYS) {
+        saved[key] = process.env[key];
+        delete process.env[key];
+      }
+    });
+
+    afterEach(() => {
+      jest.restoreAllMocks();
+      for (const key of ENV_KEYS) {
+        if (saved[key] === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = saved[key];
+        }
+      }
+    });
+
+    it('sends through the Resend HTTPS API when RESEND_API_KEY is set', async () => {
+      process.env.RESEND_API_KEY = 're_test_key';
+      const fetchSpy = jest
+        .spyOn(global, 'fetch')
+        .mockResolvedValue(new Response('{"id":"email-1"}', { status: 200 }));
+
+      const sent = await (service as any).sendSmtpEmail(
+        'user@example.com',
+        'Subject',
+        'text body',
+        '<p>html</p>',
+        'Test email',
+      );
+
+      expect(sent).toBe(true);
+      expect(fetchSpy).toHaveBeenCalledTimes(1);
+      const [url, init] = fetchSpy.mock.calls[0] as [string, any];
+      expect(url).toBe('https://api.resend.com/emails');
+      expect(init.method).toBe('POST');
+      expect(init.headers.Authorization).toBe('Bearer re_test_key');
+      const payload = JSON.parse(init.body as string);
+      expect(payload.to).toEqual(['user@example.com']);
+      expect(payload.subject).toBe('Subject');
+      expect(payload.from).toContain('onboarding@resend.dev');
+    });
+
+    it('uses RESEND_FROM as the sender when configured', async () => {
+      process.env.RESEND_API_KEY = 're_test_key';
+      process.env.RESEND_FROM = 'JustSpeak <verify@justspeak.app>';
+      const fetchSpy = jest
+        .spyOn(global, 'fetch')
+        .mockResolvedValue(new Response('{}', { status: 200 }));
+
+      await (service as any).sendSmtpEmail(
+        'user@example.com',
+        'S',
+        't',
+        '<p>h</p>',
+        'Test email',
+      );
+
+      const resendInit = fetchSpy.mock.calls[0][1] as any;
+      expect(JSON.parse(resendInit.body as string).from).toBe(
+        'JustSpeak <verify@justspeak.app>',
+      );
+    });
+
+    it('falls back to SMTP when the Resend API rejects the send', async () => {
+      process.env.RESEND_API_KEY = 're_test_key';
+      process.env.SMTP_HOST = 'smtp.gmail.com';
+      process.env.SMTP_USER = 'sender@example.com';
+      process.env.SMTP_PASS = 'app-password';
+      const fetchSpy = jest
+        .spyOn(global, 'fetch')
+        .mockResolvedValue(new Response('{"message":"invalid"}', { status: 422 }));
+      const nodemailer = require('nodemailer');
+      const transportSpy = jest
+        .spyOn(nodemailer, 'createTransport')
+        .mockReturnValue({ sendMail: jest.fn().mockResolvedValue({}) });
+      jest
+        .spyOn(require('dns').promises, 'resolve4')
+        .mockResolvedValue(['142.250.1.1']);
+      const warnSpy = jest.spyOn(console, 'warn').mockImplementation(() => {});
+
+      const sent = await (service as any).sendSmtpEmail(
+        'user@example.com',
+        'S',
+        't',
+        '<p>h</p>',
+        'Test email',
+      );
+
+      expect(fetchSpy).toHaveBeenCalledTimes(1);
+      expect(transportSpy).toHaveBeenCalled();
+      expect(sent).toBe(true);
+      warnSpy.mockRestore();
+      delete process.env.SMTP_HOST;
+      delete process.env.SMTP_USER;
+      delete process.env.SMTP_PASS;
+    });
+
+    it('skips Resend and uses SMTP when no API key is configured', async () => {
+      process.env.SMTP_HOST = 'smtp.gmail.com';
+      process.env.SMTP_USER = 'sender@example.com';
+      process.env.SMTP_PASS = 'app-password';
+      const fetchSpy = jest.spyOn(global, 'fetch');
+      const nodemailer = require('nodemailer');
+      const transportSpy = jest
+        .spyOn(nodemailer, 'createTransport')
+        .mockReturnValue({ sendMail: jest.fn().mockResolvedValue({}) });
+      jest
+        .spyOn(require('dns').promises, 'resolve4')
+        .mockResolvedValue(['142.250.1.1']);
+
+      const sent = await (service as any).sendSmtpEmail(
+        'user@example.com',
+        'S',
+        't',
+        '<p>h</p>',
+        'Test email',
+      );
+
+      expect(fetchSpy).not.toHaveBeenCalled();
+      expect(sent).toBe(true);
+      delete process.env.SMTP_HOST;
+      delete process.env.SMTP_USER;
+      delete process.env.SMTP_PASS;
+    });
+  });
 });
