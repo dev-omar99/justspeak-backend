@@ -11,6 +11,8 @@ describe('curriculum data (review checks)', () => {
     expect(count('work-customer-service')).toBe(124);
     expect(count('interviews-customer-service-interview-english')).toBe(76);
     expect(count('work-sales')).toBe(104);
+    expect(count('daily-life-everyday')).toBe(104);
+    expect(count('travel-conversations')).toBe(100);
   });
 
   it('every programme has all five levels and 4 lessons per unit', () => {
