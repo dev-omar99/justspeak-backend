@@ -1,4 +1,5 @@
 import {
+  Logger,
   Injectable,
   ConflictException,
   UnauthorizedException,
@@ -38,6 +39,8 @@ export interface AuthResult {
 
 @Injectable()
 export class AuthService {
+  private readonly logger = new Logger(AuthService.name);
+
   public static readonly MAX_OTP_ATTEMPTS = 5;
   public static readonly MAX_OTP_REQUESTS_PER_WINDOW = 5;
   public static readonly OTP_RATE_WINDOW_MS = 15 * 60 * 1000;
@@ -256,7 +259,7 @@ export class AuthService {
     const fromNumber = process.env.TWILIO_PHONE_NUMBER?.trim();
 
     if (!accountSid || !authToken || !fromNumber) {
-      console.log(
+      this.logger.log(
         `[SMS INFO] Twilio credentials not configured in .env. Real SMS skipped for ${this.maskIdentifier(phone)}.`,
       );
       return false;
@@ -269,14 +272,13 @@ export class AuthService {
         from: fromNumber,
         to: phone,
       });
-      console.log(
+      this.logger.log(
         `[REAL SMS SENT] SID: ${message.sid} to ${this.maskIdentifier(phone)}`,
       );
       return true;
     } catch (err: any) {
-      console.error(
-        `[REAL SMS ERROR] Failed to send SMS to ${this.maskIdentifier(phone)}:`,
-        err?.message || 'SMS dispatch error',
+      this.logger.error(
+        `[REAL SMS ERROR] Failed to send SMS to ${this.maskIdentifier(phone)}: ${err?.message || 'SMS dispatch error'}`,
       );
       return false;
     }
@@ -294,7 +296,7 @@ export class AuthService {
       process.env.SMTP_FROM?.trim() || smtpUser || 'no-reply@justspeak.app';
 
     if (!smtpHost || !smtpUser || !smtpPass) {
-      console.log(
+      this.logger.log(
         `[EMAIL INFO] SMTP credentials not configured in .env. Real email skipped for ${this.maskIdentifier(email)}.`,
       );
       return false;
@@ -336,14 +338,13 @@ export class AuthService {
           </div>
         `,
       });
-      console.log(
+      this.logger.log(
         `[REAL EMAIL SENT] Verification email sent to ${this.maskIdentifier(email)}`,
       );
       return true;
     } catch (err: any) {
-      console.error(
-        `[REAL EMAIL ERROR] Failed to send email to ${this.maskIdentifier(email)}:`,
-        err?.message || 'Email dispatch error',
+      this.logger.error(
+        `[REAL EMAIL ERROR] Failed to send email to ${this.maskIdentifier(email)}: ${err?.message || 'Email dispatch error'}`,
       );
       return false;
     }
@@ -429,7 +430,7 @@ export class AuthService {
     }
 
     // Never log OTP values, verification codes, passwords, or tokens
-    console.log(
+    this.logger.log(
       `[JUSTSPEAK OTP] Verification code generated for ${this.maskIdentifier(identifier)} (Real Dispatch: ${isRealSent ? 'SUCCESS' : 'DEV/SIMULATED'})`,
     );
 

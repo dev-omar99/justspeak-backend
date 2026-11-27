@@ -9,6 +9,7 @@ NestJS + TypeScript + Prisma + PostgreSQL + Socket.IO backend for the **JustSpea
 - **`FeedbackModule` (`src/feedback`)**: Post-session peer feedback with strict session & participant authorization and duplicate-submission protection.
 - **`UsersModule` (`src/users`)**: User dashboard, daily ticket quota & 24-hour reset, streak calculation, buddies, blocklist, and global/tribe leaderboards.
 - **`AdminModule` (`src/admin`)**: Admin-only user management and platform statistics guarded by `AdminGuard` (cleans up associated OTP records upon user deletion).
+- **`AiPartnerModule` (`src/ai-partner`)**: AI speaking partner: live voice sessions over Socket.IO (Deepgram speech-to-text, an OpenAI-compatible chat provider for the coach loop, ElevenLabs text-to-speech), goal-driven roleplay scenarios, deterministic word-choice analytics, scored session reports, recording upload/playback, and per-plan session quotas. Feature-flagged by `JUSTSPEAK_AI_ENABLED`; see `src/ai-partner/ai-partner.config.ts` for every knob.
 - **`PrismaModule` (`src/prisma.module.ts`)**: Global singleton `PrismaService` managing the PostgreSQL connection pool.
 
 ## Environment Variables
