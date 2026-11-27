@@ -11,6 +11,7 @@ import * as bcrypt from 'bcrypt';
 import { randomBytes, randomInt, timingSafeEqual } from 'crypto';
 import twilio from 'twilio';
 import * as nodemailer from 'nodemailer';
+import { promises as dns } from 'dns';
 import { PrismaService } from '../prisma.service';
 import { SignupDto, LoginDto, GoogleAuthDto, ResetPasswordDto } from './dto';
 import { OAuth2Client, TokenPayload } from 'google-auth-library';
@@ -319,10 +320,10 @@ export class AuthService {
    * Build an SMTP transporter from environment configuration.
    * Returns null when SMTP is not configured so callers can skip quietly.
    */
-  private createSmtpTransport(): {
+  private async createSmtpTransport(): Promise<{
     transporter: nodemailer.Transporter;
     fromEmail: string;
-  } | null {
+  } | null> {
     const smtpHost = process.env.SMTP_HOST?.trim();
     const smtpPort = parseInt(process.env.SMTP_PORT || '587', 10);
     const smtpUser = process.env.SMTP_USER?.trim();
@@ -334,26 +335,40 @@ export class AuthService {
       return null;
     }
 
-    // Railway containers cannot route IPv6, and smtp.gmail.com resolves
-    // to IPv6 first, so without `family: 4` the connect dies with
-    // ENETUNREACH. The option is passed through to the socket but is not
-    // declared in nodemailer's transport types.
+    // Railway containers cannot route IPv6, and nodemailer 10 resolves the
+    // SMTP host to BOTH families and then picks a RANDOM address (ignoring
+    // the old `family` option), so roughly half of all sends died with
+    // ENETUNREACH against an IPv6 address. Resolve the host's IPv4 address
+    // ourselves and connect to it directly, keeping the real hostname as
+    // the TLS servername so certificate validation still matches.
+    let connectHost = smtpHost;
+    try {
+      const ipv4 = await dns.resolve4(smtpHost);
+      if (ipv4.length > 0) {
+        connectHost = ipv4[0];
+      }
+    } catch (err) {
+      this.logger.warn(
+        `IPv4 lookup for SMTP host ${smtpHost} failed, using hostname as-is: ${err}`,
+      );
+    }
+
     const transporter = nodemailer.createTransport({
-      host: smtpHost,
+      host: connectHost,
       port: smtpPort,
       secure: smtpPort === 465,
+      servername: smtpHost,
       auth: {
         user: smtpUser,
         pass: smtpPass,
       },
-      family: 4,
       // Fail fast when SMTP is unreachable so callers fall back
       // in seconds instead of minutes.
       connectionTimeout: 8000,
       greetingTimeout: 8000,
       socketTimeout: 8000,
     } as Parameters<typeof nodemailer.createTransport>[0] & {
-      family?: number;
+      servername?: string;
     });
 
     return { transporter, fromEmail };
@@ -371,7 +386,7 @@ export class AuthService {
     html: string,
     logLabel: string,
   ): Promise<boolean> {
-    const transport = this.createSmtpTransport();
+    const transport = await this.createSmtpTransport();
     if (!transport) {
       this.logger.log(
         `[EMAIL INFO] SMTP credentials not configured in .env. Real email skipped for ${this.maskIdentifier(to)}.`,
