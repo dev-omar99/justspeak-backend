@@ -118,6 +118,22 @@ export class LiveSession {
       return;
     }
 
+    this.openDeepgram();
+
+    this.wrapUpTimer = setTimeout(
+      () => void this.wrapUp(),
+      maxSessionMinutes() * 60 * 1000,
+    );
+    this.saveTimer = setInterval(() => void this.persist(), 10000);
+
+    this.opts.emit('session-state', { state: 'listening' });
+    // The persona opens the conversation.
+    await this.generateReply(null);
+  }
+
+  private deepgramReconnects = 0;
+
+  private openDeepgram(): void {
     this.deepgram = this.opts.deepgramService.openStream({
       onTranscript: (event) => this.handleTranscript(event),
       // Deepgram VAD says the utterance ended: commit right away instead of
@@ -132,17 +148,25 @@ export class LiveSession {
       // mic (laptop speakers) trips the VAD and would abort every reply.
       // Barge-in happens on real interim transcript text instead (see below).
       onError: (message) => this.opts.emit('error', { code: 'STT_ERROR', message }),
+      // If the STT socket dies mid-session (network blip, provider-side
+      // close), reopen it so the coach never goes permanently deaf. Capped
+      // so a hard-down provider does not spin forever.
+      onClose: () => {
+        if (this.ended) return;
+        if (this.deepgramReconnects >= 10) {
+          this.opts.emit('error', {
+            code: 'STT_ERROR',
+            message: 'Speech recognition dropped and could not recover. Please restart the session.',
+          });
+          return;
+        }
+        this.deepgramReconnects += 1;
+        this.opts.logger.warn(
+          `Deepgram stream closed mid-session ${this.sessionId}; reopening (${this.deepgramReconnects})`,
+        );
+        this.openDeepgram();
+      },
     });
-
-    this.wrapUpTimer = setTimeout(
-      () => void this.wrapUp(),
-      maxSessionMinutes() * 60 * 1000,
-    );
-    this.saveTimer = setInterval(() => void this.persist(), 10000);
-
-    this.opts.emit('session-state', { state: 'listening' });
-    // The persona opens the conversation.
-    await this.generateReply(null);
   }
 
   sendAudio(chunk: Buffer): void {
@@ -205,6 +229,7 @@ export class LiveSession {
     }
 
     if (event.text) {
+      this.deepgramReconnects = 0;
       // Real voiced seconds from Deepgram's audio timestamps, not wall
       // clock: wall clock mixed AI speech and silence into student WPM and
       // produced nonsense readings (e.g. 1079 WPM).

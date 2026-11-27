@@ -121,6 +121,9 @@ export class DeepgramStream {
   private opened = false;
   private closed = false;
   private queue: Buffer[] = [];
+  // Deepgram closes streams that go ~10s without audio. A backgrounded tab
+  // can stall the mic worklet, so send an explicit KeepAlive on a timer.
+  private keepAlive: NodeJS.Timeout | null = null;
 
   constructor(
     private readonly handlers: DeepgramStreamHandlers,
@@ -143,6 +146,14 @@ export class DeepgramStream {
       this.opened = true;
       for (const chunk of this.queue) this.ws?.send(chunk);
       this.queue = [];
+      this.keepAlive = setInterval(() => {
+        if (this.closed || !this.opened) return;
+        try {
+          this.ws?.send(JSON.stringify({ type: 'KeepAlive' }));
+        } catch {
+          // socket already gone; the close handler deals with it
+        }
+      }, 8000);
     });
 
     this.ws.on('message', (data: WebSocket.RawData) => {
@@ -156,6 +167,10 @@ export class DeepgramStream {
 
     this.ws.on('close', () => {
       this.closed = true;
+      if (this.keepAlive) {
+        clearInterval(this.keepAlive);
+        this.keepAlive = null;
+      }
       this.handlers.onClose?.();
     });
   }
@@ -178,6 +193,10 @@ export class DeepgramStream {
       // socket already gone
     }
     this.closed = true;
+    if (this.keepAlive) {
+      clearInterval(this.keepAlive);
+      this.keepAlive = null;
+    }
     this.ws?.close();
     this.ws = null;
   }
