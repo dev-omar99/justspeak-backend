@@ -137,6 +137,15 @@ export class AiPartnerService {
       select: { name: true, englishLevel: true },
     });
 
+    // A roleplay is written for one CEFR level: coach and score at THAT level,
+    // not at the learner's profile level (a B1 scenario was shown and scored as C1).
+    let scenarioLevel: string | undefined;
+    if (dto.roleplayId) {
+      const scenario = getRoleplay(dto.roleplayId);
+      if (!scenario) throw new NotFoundException('This scenario does not exist.');
+      scenarioLevel = scenario.level;
+    }
+
     const session = await this.prisma.aiPartnerSession.create({
       data: {
         userId,
@@ -145,7 +154,7 @@ export class AiPartnerService {
         fieldId: dto.fieldId ?? null,
         lessonId: dto.lessonId ?? null,
         roleplayId: dto.roleplayId ?? null,
-        level: normalizeCefrLevel(dto.level || user?.englishLevel),
+        level: normalizeCefrLevel(dto.level || scenarioLevel || user?.englishLevel),
         status: 'active',
         transcript: [],
         facts: [],

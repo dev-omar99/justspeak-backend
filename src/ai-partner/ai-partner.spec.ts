@@ -123,3 +123,16 @@ describe('report dimension scores: measured zero vs not measured', () => {
     expect(Object.values(r.dimensions).every((v) => v === null)).toBe(true);
   });
 });
+
+describe('StartSessionDto through the global ValidationPipe (whitelist)', () => {
+  it('keeps roleplayId (regression: it was stripped, so no scenario ever ran)', async () => {
+    const { ValidationPipe } = require('@nestjs/common');
+    const { StartSessionDto } = require('./dto');
+    const pipe = new ValidationPipe({ whitelist: true, transform: true });
+    const out = await pipe.transform(
+      { mode: 'free-talk', personaId: 'sara', roleplayId: 'some-scenario' },
+      { type: 'body', metatype: StartSessionDto },
+    );
+    expect(out.roleplayId).toBe('some-scenario');
+  });
+});
