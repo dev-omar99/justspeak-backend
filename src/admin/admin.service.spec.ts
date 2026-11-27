@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { NotFoundException, UnauthorizedException } from '@nestjs/common';
+import { NotFoundException, UnauthorizedException, BadRequestException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { AdminService } from './admin.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
@@ -167,5 +167,210 @@ describe('admin-policy helpers', () => {
   it('fails closed when ADMIN_EMAIL is unset', () => {
     delete process.env.ADMIN_EMAIL;
     expect(isAdminEmail('owner@example.com')).toBe(false);
+  });
+});
+
+describe('Admin full control (sessions, quotas, audit)', () => {
+  const original = process.env.ADMIN_EMAIL;
+
+  function buildService() {
+    const prisma = {
+      user: {
+        findUnique: jest.fn(),
+        findMany: jest.fn(),
+        count: jest.fn(),
+        delete: jest.fn(),
+      },
+      otpCode: { deleteMany: jest.fn() },
+      userSubscription: { findUnique: jest.fn(), upsert: jest.fn() },
+      aiPartnerQuotaOffset: { findUnique: jest.fn(), upsert: jest.fn() },
+      aiPartnerSession: {
+        count: jest.fn(),
+        findMany: jest.fn(),
+        findUnique: jest.fn(),
+        update: jest.fn(),
+      },
+      aiPartnerRecording: { count: jest.fn(), findMany: jest.fn() },
+      session: { count: jest.fn(), findMany: jest.fn() },
+      sessionFeedback: { count: jest.fn(), findMany: jest.fn() },
+      userBlock: { count: jest.fn() },
+      adminAuditLog: { create: jest.fn(), findMany: jest.fn() },
+    };
+    const service = new AdminService(prisma as any);
+    return { prisma, service };
+  }
+
+  afterEach(() => {
+    if (original === undefined) {
+      delete process.env.ADMIN_EMAIL;
+    } else {
+      process.env.ADMIN_EMAIL = original;
+    }
+  });
+
+  it('getStats returns the extended platform counters', async () => {
+    const { prisma, service } = buildService();
+    prisma.user.count.mockResolvedValue(10);
+    prisma.session.count.mockResolvedValue(4);
+    prisma.sessionFeedback.count.mockResolvedValue(6);
+    prisma.userBlock.count.mockResolvedValue(1);
+    prisma.aiPartnerSession.count
+      .mockResolvedValueOnce(9) // total
+      .mockResolvedValueOnce(2); // active
+    prisma.aiPartnerRecording.count.mockResolvedValue(3);
+    // second user.count call (newUsersLast7d)
+    prisma.user.count.mockResolvedValueOnce(10).mockResolvedValueOnce(5);
+
+    const stats = await service.getStats();
+
+    expect(stats).toEqual({
+      totalUsers: 10,
+      totalSessions: 4,
+      totalFeedbacks: 6,
+      totalBlocks: 1,
+      totalAiSessions: 9,
+      activeAiSessions: 2,
+      totalRecordings: 3,
+      newUsersLast7d: 5,
+    });
+  });
+
+  it('getUserDetail combines profile, subscription and AI quota', async () => {
+    const { prisma, service } = buildService();
+    prisma.user.findUnique.mockResolvedValue({
+      id: 'u1',
+      email: 'u1@example.com',
+      phone: null,
+      name: 'User One',
+      country: 'Egypt',
+      englishLevel: 'B1',
+      isAdmin: false,
+      ticketsLeft: 5,
+      createdAt: new Date('2026-01-01'),
+      _count: {
+        buddies: 2,
+        blockedUsers: 1,
+        givenFeedbacks: 3,
+        receivedFeedbacks: 4,
+        aiPartnerSessions: 7,
+      },
+    });
+    prisma.userSubscription.findUnique.mockResolvedValue({
+      planTier: 'PLUS',
+      aiTokensBalance: 250,
+    });
+    prisma.aiPartnerQuotaOffset.findUnique.mockResolvedValue({ offset: 4 });
+
+    const detail = await service.getUserDetail('u1');
+
+    expect(detail.planTier).toBe('PLUS');
+    expect(detail.aiSessionsUsed).toBe(7);
+    expect(detail.aiQuotaOffset).toBe(4);
+    expect(detail.buddiesCount).toBe(2);
+  });
+
+  it('getUserDetail throws NotFoundException for unknown users', async () => {
+    const { prisma, service } = buildService();
+    prisma.user.findUnique.mockResolvedValue(null);
+    await expect(service.getUserDetail('nope')).rejects.toThrow(
+      NotFoundException,
+    );
+  });
+
+  it('setAiQuotaOffset upserts the offset and writes an audit entry (no history deletion)', async () => {
+    const { prisma, service } = buildService();
+    prisma.user.findUnique.mockResolvedValue({ id: 'u1' });
+    prisma.aiPartnerQuotaOffset.upsert.mockResolvedValue({ offset: 6 });
+    prisma.adminAuditLog.create.mockResolvedValue({});
+
+    const res = await service.setAiQuotaOffset('owner@example.com', 'u1', 6.9);
+
+    expect(res).toEqual({ success: true, userId: 'u1', offset: 6 });
+    expect(prisma.aiPartnerQuotaOffset.upsert).toHaveBeenCalledWith({
+      where: { userId: 'u1' },
+      create: { userId: 'u1', offset: 6 },
+      update: { offset: 6 },
+    });
+    expect(prisma.adminAuditLog.create).toHaveBeenCalledWith({
+      data: expect.objectContaining({
+        adminEmail: 'owner@example.com',
+        action: 'user.ai-quota-offset.set',
+        targetType: 'user',
+        targetId: 'u1',
+      }),
+    });
+  });
+
+  it('deleteUser refuses to delete the configured admin account', async () => {
+    process.env.ADMIN_EMAIL = 'owner@example.com';
+    const { prisma, service } = buildService();
+    prisma.user.findUnique.mockResolvedValue({
+      id: 'admin-1',
+      email: 'Owner@Example.com',
+      phone: null,
+    });
+
+    await expect(
+      service.deleteUser('admin-1', 'owner@example.com'),
+    ).rejects.toThrow(BadRequestException);
+    expect(prisma.user.delete).not.toHaveBeenCalled();
+  });
+
+  it('forceEndAiSession closes an active session and audits it', async () => {
+    const { prisma, service } = buildService();
+    prisma.aiPartnerSession.findUnique.mockResolvedValue({
+      id: 's1',
+      status: 'active',
+      startedAt: new Date(Date.now() - 65_000),
+    });
+    prisma.aiPartnerSession.update.mockResolvedValue({ id: 's1', status: 'finished' });
+    prisma.adminAuditLog.create.mockResolvedValue({});
+
+    const res = await service.forceEndAiSession('owner@example.com', 's1');
+
+    expect(res.changed).toBe(true);
+    expect(prisma.aiPartnerSession.update).toHaveBeenCalledWith({
+      where: { id: 's1' },
+      data: expect.objectContaining({ status: 'finished' }),
+      select: { id: true, status: true },
+    });
+    expect(prisma.adminAuditLog.create).toHaveBeenCalledWith({
+      data: expect.objectContaining({ action: 'ai-session.force-end' }),
+    });
+  });
+
+  it('forceEndAiSession leaves finished sessions untouched', async () => {
+    const { prisma, service } = buildService();
+    prisma.aiPartnerSession.findUnique.mockResolvedValue({
+      id: 's2',
+      status: 'finished',
+      startedAt: new Date(),
+    });
+
+    const res = await service.forceEndAiSession('owner@example.com', 's2');
+
+    expect(res).toEqual({ success: true, id: 's2', status: 'finished', changed: false });
+    expect(prisma.aiPartnerSession.update).not.toHaveBeenCalled();
+  });
+
+  it('getAiSessionDetail throws NotFoundException for unknown sessions', async () => {
+    const { prisma, service } = buildService();
+    prisma.aiPartnerSession.findUnique.mockResolvedValue(null);
+    await expect(service.getAiSessionDetail('nope')).rejects.toThrow(
+      NotFoundException,
+    );
+  });
+
+  it('getAuditLog clamps the page size and newest-first order', async () => {
+    const { prisma, service } = buildService();
+    prisma.adminAuditLog.findMany.mockResolvedValue([]);
+
+    await service.getAuditLog(5000, -3);
+
+    expect(prisma.adminAuditLog.findMany).toHaveBeenCalledWith({
+      orderBy: { createdAt: 'desc' },
+      take: 200,
+      skip: 0,
+    });
   });
 });

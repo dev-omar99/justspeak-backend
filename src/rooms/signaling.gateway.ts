@@ -59,6 +59,25 @@ export class SignalingGateway implements OnGatewayConnection, OnGatewayDisconnec
     private readonly roomsService: RoomsService,
   ) {}
 
+  /**
+   * Read-only snapshot of the rooms that have participants connected right
+   * now. Used by the admin dashboard; the gateway stays the single owner of
+   * the in-memory room state.
+   */
+  getLiveRooms(): {
+    roomName: string;
+    participants: { userId: string; userName: string; userCountry: string }[];
+  }[] {
+    return Array.from(this.rooms.entries()).map(([roomName, room]) => ({
+      roomName,
+      participants: Array.from(room.values()).map((p) => ({
+        userId: p.userId,
+        userName: p.userName,
+        userCountry: p.userCountry,
+      })),
+    }));
+  }
+
   private extractToken(client: Socket): string | null {
     // 1. Check handshake.auth
     const auth = client.handshake?.auth;

@@ -8,6 +8,6 @@ import { AuthModule } from '../auth/auth.module';
   imports: [AuthModule],
   controllers: [RoomsController],
   providers: [RoomsService, SignalingGateway],
-  exports: [RoomsService],
+  exports: [RoomsService, SignalingGateway],
 })
 export class RoomsModule {}
