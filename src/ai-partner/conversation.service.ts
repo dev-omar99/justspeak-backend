@@ -475,6 +475,7 @@ export class LiveSession {
             .synthesizeSentence({
               text: sentence,
               voiceId,
+              fallbackVoiceId: this.opts.tts.resolveFallbackVoiceId(this.opts.persona),
               signal: this.replyAbort?.signal,
               onChunk: (chunk) => {
                 if (this.replySeq === myReply && !this.ended) {

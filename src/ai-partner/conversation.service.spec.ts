@@ -36,6 +36,7 @@ function makeSession(overrides: {
   };
   const tts = {
     resolveVoiceId: jest.fn(() => 'voice-1'),
+    resolveFallbackVoiceId: jest.fn(() => 'fallback-1'),
     synthesizeSentence: jest.fn(async ({ onChunk }: any) => {
       onChunk?.(Buffer.from('mp3'));
     }),
