@@ -216,6 +216,8 @@ export function verifyDimensionQuotes(
 
 export interface SessionReport {
   status: 'OK' | 'INSUFFICIENT_DATA';
+  /** True when the model answered but no skill could be measured: the attempt counts as "did not reach the target", never as a score. */
+  incomplete?: boolean;
   overall_score: number;
   cefr_estimate: string;
   summary: string;
@@ -480,6 +482,19 @@ export function reportOverall(report: unknown): number | null {
   const rounded = Math.round(mean);
   const cap = r.score_cap && typeof r.score_cap.to === 'number' && Number.isFinite(r.score_cap.to) ? r.score_cap.to : null;
   return cap !== null ? Math.min(rounded, cap) : rounded;
+}
+
+/**
+ * The report for a session whose model answer had no measured skill. It carries no score (never 0), is marked
+ * incomplete so the lesson shows "did not reach the target score", and is never cached: opening it again
+ * (the "Try again" button) asks the model again.
+ */
+export function incompleteReport(metrics: Record<string, unknown>): SessionReport {
+  return {
+    ...insufficientReport(metrics),
+    incomplete: true,
+    next_focus: 'Score incomplete. We could not measure your skills from this session. Press Try again to re-check it.',
+  };
 }
 
 /**

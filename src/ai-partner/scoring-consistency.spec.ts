@@ -2,6 +2,7 @@ import {
   OFF_GOAL_CAP,
   dimensionMean,
   finaliseScores,
+  incompleteReport,
   parseSessionReport,
   reportOverall,
   type SessionReport,
@@ -91,3 +92,24 @@ describe('one overall score everywhere', () => {
     expect(reportOverall({ status: 'INSUFFICIENT_DATA', dimensions: dims(80, 80, 80, 80, 80) })).toBeNull();
   });
 });
+
+describe('incomplete report (model answered, nothing measured)', () => {
+  const r = incompleteReport({ student_speech_sec: 90 });
+  it('has no score, is flagged, and says so', () => {
+    expect(r.incomplete).toBe(true);
+    expect(r.status).toBe('INSUFFICIENT_DATA');
+    expect(reportOverall(r)).toBeNull();
+    expect(r.next_focus).toMatch(/Score incomplete/);
+    expect(r.metrics_echo.student_speech_sec).toBe(90);
+  });
+  it('is never a passing or numeric result in progress', () => {
+    expect(reportScore(r)).toBeNull();
+  });
+  it('a normal insufficient report is not flagged incomplete', () => {
+    expect(insufficientReportFlag()).toBeUndefined();
+  });
+});
+function insufficientReportFlag() {
+  const { insufficientReport } = require('./content/rubric');
+  return insufficientReport({}).incomplete;
+}

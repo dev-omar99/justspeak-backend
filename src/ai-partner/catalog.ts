@@ -56,6 +56,8 @@ export interface AttemptView {
   at: string;
   /** Overall score 0-100, or null when the report has no measured score. */
   score: number | null;
+  /** True when the try ended with an incomplete report: shown as "did not reach the target score". */
+  incomplete: boolean;
 }
 
 export interface LessonView {
@@ -144,6 +146,7 @@ function buildProgramme(
               sessionId: x.id,
               at: new Date(x.createdAt).toISOString(),
               score: overallOf(x.report),
+              incomplete: (x.report as { incomplete?: unknown } | null)?.incomplete === true,
             }))
             .sort((a, b) => a.at.localeCompare(b.at));
           const scores = attempts.map((a) => a.score).filter((n): n is number => n !== null);

@@ -22,6 +22,7 @@ import {
   SessionReport,
   finaliseScores,
   insufficientReport,
+  incompleteReport,
   reportOverall,
   parseSessionReport,
   verifyDimensionQuotes,
@@ -248,8 +249,9 @@ export class AiPartnerService {
     }
 
     // One overall score, computed in code (never the model's own number). A model answer with no measured
-    // skill is not a score: it is treated like a failed call and retried, never stored as 0.
-    if (report && report.status === 'OK') report = finaliseScores(report);
+    // skill is not a score: it is stored as an incomplete report, never as 0.
+    // A model answer with no measured skill becomes an incomplete report (no score, counts as "did not reach the target").
+    if (report && report.status === 'OK') report = finaliseScores(report) ?? incompleteReport(metrics);
 
     if (!report) {
       throw new ServiceUnavailableException(
@@ -275,6 +277,21 @@ export class AiPartnerService {
       };
     }
 
+    if (report.incomplete) {
+      // Stored so the lesson records this try as "did not reach the target score". It is still regenerated on
+      // every open (INSUFFICIENT_DATA is never served from the cache), so "Try again" asks the model again.
+      const marked = await this.prisma.aiPartnerSession.update({
+        where: { id: sessionId },
+        data: { report: report as any, reportModel: feedbackModel() },
+      });
+      return {
+        session: marked,
+        report,
+        goal: this.sessionGoal(marked),
+        cached: false,
+        pronunciation_assessment: extractPronunciation(marked.metrics),
+      };
+    }
     if (report.status === 'INSUFFICIENT_DATA') {
       // placeholder only: return it, never store it over future potential
       return {
