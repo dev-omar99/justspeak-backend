@@ -22,6 +22,13 @@ SHORTEN = {
     'Stays on the line until the handover is done': 'Stays on the line to hand over',
 }
 GOAL_FIX = {'Ask for her name and ask her to spell it, then check it.': 'Ask for her name, ask her to spell it, then check it.'}
+GOALS_DIR = pathlib.Path(__file__).resolve().parent / 'goals'
+
+def goals_for(pid):
+    """Hand-written goals per lesson id (goals/<programme-id>.txt, `lesson-id | goal`). They replace the old goal text and the copy inside targets."""
+    f = GOALS_DIR / f'{pid}.txt'
+    return dict(ln.split(' | ', 1) for ln in f.read_text().splitlines() if ' | ' in ln) if f.exists() else {}
+
 root = pathlib.Path(__file__).resolve().parents[2] / 'src/ai-partner/content/curriculum'
 HINTS_DIR = pathlib.Path(__file__).with_name('hints')
 
@@ -45,10 +52,10 @@ for f in sorted(root.glob('*.ts')):
     if f.name in ('index.ts', 'types.ts', 'vocabulary.ts') or f.name.endswith('.spec.ts'): continue
     s = f.read_text(); a = s.index('{', s.index('CurriculumProgramme =')); b = s.rindex('};') + 1
     d = json.loads(s[a:b])
-    over = overrides_for(d['id'])
+    over = overrides_for(d['id']); GOALS = goals_for(d['id'])
     for lv in d['levels'].values():
         for l in lv:
-            old_goal = l['goal']; l['goal'] = GOAL_FIX.get(old_goal, old_goal)
+            old_goal = l['goal']; l['goal'] = GOAL_FIX.get(old_goal, GOALS.get(l['id'], old_goal))
             if l['goal'] != old_goal: l['targets'] = [t.replace(old_goal, l['goal']) for t in l['targets']]
             for r in l['rubric']:
                 if r['label'] in SHORTEN:

@@ -2062,7 +2062,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Run a discovery call that finds real needs and pain points.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a manager on a first call",
-    "goal": "Set the agenda and the time.",
+    "goal": "Open a discovery call: state the aim, agree that you have only ten minutes, and ask a first open question.",
     "rubric": [
      {
       "label": "Says the aim",
@@ -2079,7 +2079,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a manager on a first call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Set the agenda and the time.",
+     "Let the learner work toward this goal: Open a discovery call: state the aim, agree that you have only ten minutes, and ask a first open question.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the aim; Agrees the time; Asks a first question.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2096,7 +2096,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Run a discovery call that finds real needs and pain points.",
     "persona": "sara",
     "personaRole": "Dalia, a manager with an unclear problem",
-    "goal": "Dig deeper with follow-up questions.",
+    "goal": "Her problem is unclear: ask follow-up questions until she names the problem, then ask what it costs her.",
     "rubric": [
      {
       "label": "Uses follow-ups",
@@ -2113,7 +2113,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Dalia, a manager with an unclear problem: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Dig deeper with follow-up questions.",
+     "Let the learner work toward this goal: Her problem is unclear: ask follow-up questions until she names the problem, then ask what it costs her.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses follow-ups; Asks about impact; Summarises.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2130,7 +2130,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Run a discovery call that finds real needs and pain points.",
     "persona": "adams",
     "personaRole": "Mr Wael, a contact who is not the decision maker",
-    "goal": "Find who decides.",
+    "goal": "Your contact does not decide: ask politely who does, and plan how to bring that person in without going around him.",
     "rubric": [
      {
       "label": "Asks who decides",
@@ -2147,7 +2147,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a contact who is not the decision maker: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Find who decides.",
+     "Let the learner work toward this goal: Your contact does not decide: ask politely who does, and plan how to bring that person in without going around him.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks who decides; Stays polite; Plans to include them.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2164,7 +2164,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Run a discovery call that finds real needs and pain points.",
     "persona": "sara",
     "personaRole": "Mona, a manager after a long call",
-    "goal": "Summarise the needs accurately.",
+    "goal": "After a long call, sum up her needs in her own words, then check that you have understood them correctly.",
     "rubric": [
      {
       "label": "Summarises",
@@ -2181,7 +2181,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mona, a manager after a long call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Summarise the needs accurately.",
+     "Let the learner work toward this goal: After a long call, sum up her needs in her own words, then check that you have understood them correctly.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises; Uses her words; Checks it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2198,7 +2198,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Write and present proposals and clear emails.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a buyer who asked for a proposal",
-    "goal": "Send a clear short proposal.",
+    "goal": "He asked for a proposal: state his need, give the offer with one price, and end with a clear next step and date.",
     "rubric": [
      {
       "label": "States the need",
@@ -2215,7 +2215,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer who asked for a proposal: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Send a clear short proposal.",
+     "Let the learner work toward this goal: He asked for a proposal: state his need, give the offer with one price, and end with a clear next step and date.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the need; Gives the offer; Gives the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2232,7 +2232,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Write and present proposals and clear emails.",
     "persona": "sara",
     "personaRole": "Rasha, a buyer on a video call",
-    "goal": "Walk through a proposal.",
+    "goal": "Present a proposal on a video call: start with her need, walk through two options, and ask for a decision.",
     "rubric": [
      {
       "label": "Opens with the need",
@@ -2249,7 +2249,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Rasha, a buyer on a video call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Walk through a proposal.",
+     "Let the learner work toward this goal: Present a proposal on a video call: start with her need, walk through two options, and ask for a decision.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens with the need; Walks through options; Asks for a decision.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2266,7 +2266,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Write and present proposals and clear emails.",
     "persona": "adams",
     "personaRole": "Mr Sherif, a buyer who is silent",
-    "goal": "Chase politely and keep value.",
+    "goal": "He has been silent for a week: write a brief chaser that gives one reason to reply and offers a time to talk.",
     "rubric": [
      {
       "label": "Gives a reason to reply",
@@ -2283,7 +2283,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer who is silent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Chase politely and keep value.",
+     "Let the learner work toward this goal: He has been silent for a week: write a brief chaser that gives one reason to reply and offers a time to talk.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a reason to reply; Is brief; Offers a time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2300,7 +2300,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Write and present proposals and clear emails.",
     "persona": "sara",
     "personaRole": "Huda, an existing customer",
-    "goal": "Run a short review.",
+    "goal": "Run a ten-minute review with an existing customer: review the results, ask about her plans, and offer next steps.",
     "rubric": [
      {
       "label": "Reviews results",
@@ -2317,7 +2317,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Huda, an existing customer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Run a short review.",
+     "Let the learner work toward this goal: Run a ten-minute review with an existing customer: review the results, ask about her plans, and offer next steps.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reviews results; Asks about plans; Offers next steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2334,7 +2334,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present a solution in terms of value and results.",
     "persona": "adams",
     "personaRole": "Mr Sherif, a manager who wants savings",
-    "goal": "Present the value with figures.",
+    "goal": "He wants savings: present your value with at least two figures and link it to his own goal, without overclaiming.",
     "rubric": [
      {
       "label": "Uses figures",
@@ -2351,7 +2351,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a manager who wants savings: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Present the value with figures.",
+     "Let the learner work toward this goal: He wants savings: present your value with at least two figures and link it to his own goal, without overclaiming.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses figures; Links to his goal; Stays honest.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2368,7 +2368,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present a solution in terms of value and results.",
     "persona": "sara",
     "personaRole": "Heba, a manager who wants proof",
-    "goal": "Use a short story with a result.",
+    "goal": "She wants proof: tell a short customer story with context, the action, and a result she can measure.",
     "rubric": [
      {
       "label": "Gives context",
@@ -2385,7 +2385,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Heba, a manager who wants proof: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Use a short story with a result.",
+     "Let the learner work toward this goal: She wants proof: tell a short customer story with context, the action, and a result she can measure.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives context; Gives the action; Gives the result.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2402,7 +2402,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present a solution in terms of value and results.",
     "persona": "adams",
     "personaRole": "Mr Tarek and two colleagues",
-    "goal": "Present clearly to three people.",
+    "goal": "Present to three people: open clearly, look to all of them, and answer one question without losing your thread.",
     "rubric": [
      {
       "label": "Opens clearly",
@@ -2419,7 +2419,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek and two colleagues: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Present clearly to three people.",
+     "Let the learner work toward this goal: Present to three people: open clearly, look to all of them, and answer one question without losing your thread.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens clearly; Looks to all; Handles one question.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2436,7 +2436,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present a solution in terms of value and results.",
     "persona": "sara",
     "personaRole": "Rania, a manager who challenges your claim",
-    "goal": "Answer calmly and with evidence.",
+    "goal": "She challenges your claim: stay calm, answer with evidence, and say honestly what you do not know.",
     "rubric": [
      {
       "label": "Stays calm",
@@ -2453,7 +2453,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Rania, a manager who challenges your claim: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer calmly and with evidence.",
+     "Let the learner work toward this goal: She challenges your claim: stay calm, answer with evidence, and say honestly what you do not know.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Gives evidence; Admits limits.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2470,7 +2470,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Grow and keep accounts.",
     "persona": "adams",
     "personaRole": "Mr Tarek, a happy buyer",
-    "goal": "Offer an upgrade fairly.",
+    "goal": "He is happy with the product: offer an upgrade that fits how he uses it, state the benefit, and accept a no.",
     "rubric": [
      {
       "label": "Links to his use",
@@ -2487,7 +2487,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, a happy buyer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Offer an upgrade fairly.",
+     "Let the learner work toward this goal: He is happy with the product: offer an upgrade that fits how he uses it, state the benefit, and accept a no.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Links to his use; States the benefit; Accepts a no.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2504,7 +2504,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Grow and keep accounts.",
     "persona": "sara",
     "personaRole": "Mona, an angry key buyer",
-    "goal": "Calm her and fix it.",
+    "goal": "An angry key buyer calls: listen without interrupting, take ownership of the problem, and give a plan with a date.",
     "rubric": [
      {
       "label": "Listens",
@@ -2521,7 +2521,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mona, an angry key buyer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Calm her and fix it.",
+     "Let the learner work toward this goal: An angry key buyer calls: listen without interrupting, take ownership of the problem, and give a plan with a date.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Takes ownership; Gives a plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2538,7 +2538,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Grow and keep accounts.",
     "persona": "adams",
     "personaRole": "Mr Karim, a buyer near renewal",
-    "goal": "Renew with a clear value story.",
+    "goal": "His contract ends next month: review the value he got, discuss the terms, and agree a renewal date.",
     "rubric": [
      {
       "label": "Reviews value",
@@ -2555,7 +2555,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a buyer near renewal: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Renew with a clear value story.",
+     "Let the learner work toward this goal: His contract ends next month: review the value he got, discuss the terms, and agree a renewal date.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reviews value; Discusses terms; Agrees the date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2572,7 +2572,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Grow and keep accounts.",
     "persona": "sara",
     "personaRole": "Amira, a buyer who asks for the impossible",
-    "goal": "Say no and offer another way.",
+    "goal": "She asks for something you cannot do: say no kindly, give the reason, and offer another way that helps her.",
     "rubric": [
      {
       "label": "Says no kindly",
@@ -2589,7 +2589,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Amira, a buyer who asks for the impossible: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say no and offer another way.",
+     "Let the learner work toward this goal: She asks for something you cannot do: say no kindly, give the reason, and offer another way that helps her.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says no kindly; Gives the reason; Offers another way.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2606,7 +2606,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate price and terms and keep the relationship.",
     "persona": "adams",
     "personaRole": "Mr Adel, a buyer who wants better terms",
-    "goal": "Open a negotiation clearly.",
+    "goal": "He wants better terms: state your position, ask for his, and keep the tone friendly from the first minute.",
     "rubric": [
      {
       "label": "States your position",
@@ -2623,7 +2623,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a buyer who wants better terms: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Open a negotiation clearly.",
+     "Let the learner work toward this goal: He wants better terms: state your position, ask for his, and keep the tone friendly from the first minute.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States your position; Asks for his; Stays friendly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2640,7 +2640,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate price and terms and keep the relationship.",
     "persona": "sara",
     "personaRole": "Layla, a buyer asking for a discount",
-    "goal": "Trade a discount for something.",
+    "goal": "She asks for a discount: use \"if you ... then I ...\" to trade it for something, and protect your margin.",
     "rubric": [
      {
       "label": "Says \"if you... then I...\"",
@@ -2657,7 +2657,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Layla, a buyer asking for a discount: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Trade a discount for something.",
+     "Let the learner work toward this goal: She asks for a discount: use \"if you ... then I ...\" to trade it for something, and protect your margin.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"if you... then I...\"; Names the trade; Protects margin.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2674,7 +2674,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate price and terms and keep the relationship.",
     "persona": "adams",
     "personaRole": "Mr Wael, a buyer who will not move",
-    "goal": "Find a way through a deadlock.",
+    "goal": "He will not move: name the issue, offer one new option, and pause to think instead of giving in.",
     "rubric": [
      {
       "label": "Names the issue",
@@ -2691,7 +2691,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a buyer who will not move: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Find a way through a deadlock.",
+     "Let the learner work toward this goal: He will not move: name the issue, offer one new option, and pause to think instead of giving in.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the issue; Offers an option; Pauses to think.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2708,7 +2708,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate price and terms and keep the relationship.",
     "persona": "sara",
     "personaRole": "Dina, a buyer after a deal",
-    "goal": "Confirm the terms in writing.",
+    "goal": "After the deal, list the agreed terms, check each one with her, and plan the paperwork with a date.",
     "rubric": [
      {
       "label": "Lists the terms",
@@ -2725,7 +2725,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Dina, a buyer after a deal: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Confirm the terms in writing.",
+     "Let the learner work toward this goal: After the deal, list the agreed terms, check each one with her, and plan the paperwork with a date.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists the terms; Checks each one; Plans the paper.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2742,7 +2742,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Respond to objections about price, timing and risk.",
     "persona": "adams",
     "personaRole": "Mr Nabil, a buyer with a fixed budget",
-    "goal": "Work within the budget.",
+    "goal": "His budget is fixed and lower than your price: ask about the budget, offer two options, and protect the value.",
     "rubric": [
      {
       "label": "Asks about the budget",
@@ -2759,7 +2759,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer with a fixed budget: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Work within the budget.",
+     "Let the learner work toward this goal: His budget is fixed and lower than your price: ask about the budget, offer two options, and protect the value.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about the budget; Offers options; Protects value.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2776,7 +2776,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Respond to objections about price, timing and risk.",
     "persona": "sara",
     "personaRole": "Salma, a buyer who says \"not now\"",
-    "goal": "Respond to timing.",
+    "goal": "She says \"not now\": ask why now is hard, offer a small first step, and agree a date to speak again.",
     "rubric": [
      {
       "label": "Asks why now is hard",
@@ -2793,7 +2793,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Salma, a buyer who says \"not now\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Respond to timing.",
+     "Let the learner work toward this goal: She says \"not now\": ask why now is hard, offer a small first step, and agree a date to speak again.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks why now is hard; Offers a small step; Agrees a date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2810,7 +2810,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Respond to objections about price, timing and risk.",
     "persona": "adams",
     "personaRole": "Mr Karim, a buyer who fears risk",
-    "goal": "Reduce the risk.",
+    "goal": "He fears the risk: name the risk, offer proof, and offer a trial or guarantee he can accept.",
     "rubric": [
      {
       "label": "Names the risk",
@@ -2827,7 +2827,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a buyer who fears risk: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Reduce the risk.",
+     "Let the learner work toward this goal: He fears the risk: name the risk, offer proof, and offer a trial or guarantee he can accept.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the risk; Offers proof; Offers a trial or guarantee.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2844,7 +2844,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Respond to objections about price, timing and risk.",
     "persona": "sara",
     "personaRole": "Amira, a buyer using another supplier",
-    "goal": "Respond without attacking.",
+    "goal": "She already uses another supplier: respect that choice, find the gap, and offer a small test, never attack the rival.",
     "rubric": [
      {
       "label": "Respects the current supplier",
@@ -2861,7 +2861,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Amira, a buyer using another supplier: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Respond without attacking.",
+     "Let the learner work toward this goal: She already uses another supplier: respect that choice, find the gap, and offer a small test, never attack the rival.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Respects the current supplier; Finds the gap; Offers a test.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2880,7 +2880,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead a consultative conversation with senior buyers.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a director who sees the problem narrowly",
-    "goal": "Reframe the problem with insight.",
+    "goal": "He sees the problem narrowly: share one insight that changes his view, check his reaction, and link it to his goals.",
     "rubric": [
      {
       "label": "Shares an insight",
@@ -2897,7 +2897,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a director who sees the problem narrowly: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Reframe the problem with insight.",
+     "Let the learner work toward this goal: He sees the problem narrowly: share one insight that changes his view, check his reaction, and link it to his goals.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Shares an insight; Checks it; Links to his goals.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2914,7 +2914,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead a consultative conversation with senior buyers.",
     "persona": "sara",
     "personaRole": "Dina, a director who holds a wrong belief",
-    "goal": "Challenge without offending.",
+    "goal": "She holds a belief that is wrong: challenge it with soft language and evidence while keeping her respect.",
     "rubric": [
      {
       "label": "Uses soft language",
@@ -2931,7 +2931,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Dina, a director who holds a wrong belief: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Challenge without offending.",
+     "Let the learner work toward this goal: She holds a belief that is wrong: challenge it with soft language and evidence while keeping her respect.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses soft language; Gives evidence; Keeps respect.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2948,7 +2948,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead a consultative conversation with senior buyers.",
     "persona": "adams",
     "personaRole": "Mr Wael, a director who gives short answers",
-    "goal": "Use silence and open questions.",
+    "goal": "He gives short answers: use silence and open questions, and reflect his words back until he opens up.",
     "rubric": [
      {
       "label": "Uses silence",
@@ -2965,7 +2965,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a director who gives short answers: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Use silence and open questions.",
+     "Let the learner work toward this goal: He gives short answers: use silence and open questions, and reflect his words back until he opens up.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses silence; Asks open questions; Reflects back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2982,7 +2982,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead a consultative conversation with senior buyers.",
     "persona": "sara",
     "personaRole": "Rania, a CFO who wants numbers",
-    "goal": "Build a case with figures.",
+    "goal": "The CFO wants numbers: build a business case with figures, state your assumptions, and link it to her risk.",
     "rubric": [
      {
       "label": "Uses figures",
@@ -2999,7 +2999,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Rania, a CFO who wants numbers: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Build a case with figures.",
+     "Let the learner work toward this goal: The CFO wants numbers: build a business case with figures, state your assumptions, and link it to her risk.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses figures; States assumptions; Links to risk.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3016,7 +3016,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead team calls and coach newer sellers.",
     "persona": "adams",
     "personaRole": "Mr Sherif and three team members",
-    "goal": "Lead a short team call.",
+    "goal": "Lead a ten-minute team call with four people: set the aim, share the floor, and agree actions with owners.",
     "rubric": [
      {
       "label": "Sets the aim",
@@ -3033,7 +3033,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Sherif and three team members: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Lead a short team call.",
+     "Let the learner work toward this goal: Lead a ten-minute team call with four people: set the aim, share the floor, and agree actions with owners.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sets the aim; Shares the floor; Agrees actions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3050,7 +3050,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead team calls and coach newer sellers.",
     "persona": "sara",
     "personaRole": "Reem, a new seller after a bad call",
-    "goal": "Give clear kind feedback.",
+    "goal": "A new seller had a bad call: start with a real strength, give one clear point, and agree the next step with her.",
     "rubric": [
      {
       "label": "Starts with a strength",
@@ -3067,7 +3067,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Reem, a new seller after a bad call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give clear kind feedback.",
+     "Let the learner work toward this goal: A new seller had a bad call: start with a real strength, give one clear point, and agree the next step with her.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Starts with a strength; Gives one point; Agrees a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3084,7 +3084,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead team calls and coach newer sellers.",
     "persona": "adams",
     "personaRole": "Mr Tarek, the sales manager",
-    "goal": "Share a win in two minutes.",
+    "goal": "Share a team win in two minutes: state the result with a number, credit the team by name, and share one lesson.",
     "rubric": [
      {
       "label": "States the result",
@@ -3101,7 +3101,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, the sales manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Share a win in two minutes.",
+     "Let the learner work toward this goal: Share a team win in two minutes: state the result with a number, credit the team by name, and share one lesson.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the result; Credits the team; Shares the lesson.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3118,7 +3118,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Lead team calls and coach newer sellers.",
     "persona": "adams",
     "personaRole": "Mr Wael, a manager after a lost quarter",
-    "goal": "Explain a miss honestly.",
+    "goal": "The quarter was lost: own the miss without excuses, give the real cause, and present a plan with dates.",
     "rubric": [
      {
       "label": "Owns it",
@@ -3135,7 +3135,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a manager after a lost quarter: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a miss honestly.",
+     "Let the learner work toward this goal: The quarter was lost: own the miss without excuses, give the real cause, and present a plan with dates.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Owns it; Gives the cause; Gives the plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3152,7 +3152,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Plan growth and renewals with key accounts.",
     "persona": "adams",
     "personaRole": "Mr Karim, a key buyer who lost trust",
-    "goal": "Rebuild trust.",
+    "goal": "A key buyer lost trust after your mistake: own the problem, make specific promises, and set dates you can keep.",
     "rubric": [
      {
       "label": "Owns the problem",
@@ -3169,7 +3169,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a key buyer who lost trust: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Rebuild trust.",
+     "Let the learner work toward this goal: A key buyer lost trust after your mistake: own the problem, make specific promises, and set dates you can keep.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Owns the problem; Makes specific promises; Sets dates.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3186,7 +3186,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Plan growth and renewals with key accounts.",
     "persona": "sara",
     "personaRole": "Amira, a champion in the company",
-    "goal": "Ask for an introduction.",
+    "goal": "Ask your champion to introduce you to another team: give a reason, make it easy for her, and thank her.",
     "rubric": [
      {
       "label": "Gives a reason",
@@ -3203,7 +3203,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Amira, a champion in the company: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for an introduction.",
+     "Let the learner work toward this goal: Ask your champion to introduce you to another team: give a reason, make it easy for her, and thank her.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a reason; Makes it easy; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3220,7 +3220,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Plan growth and renewals with key accounts.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a buyer who hates price rises",
-    "goal": "Explain a price rise.",
+    "goal": "He hates price rises: explain the rise honestly, show the value he gets, and offer options that soften it.",
     "rubric": [
      {
       "label": "Is honest",
@@ -3237,7 +3237,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer who hates price rises: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a price rise.",
+     "Let the learner work toward this goal: He hates price rises: explain the rise honestly, show the value he gets, and offer options that soften it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Is honest; Explains value; Offers options.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3254,7 +3254,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Plan growth and renewals with key accounts.",
     "persona": "sara",
     "personaRole": "Salma, a buyer who is leaving",
-    "goal": "End well and keep respect.",
+    "goal": "A buyer is leaving: thank her, ask for honest feedback without defending, and leave the door open.",
     "rubric": [
      {
       "label": "Thanks her",
@@ -3271,7 +3271,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Salma, a buyer who is leaving: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: End well and keep respect.",
+     "Let the learner work toward this goal: A buyer is leaving: thank her, ask for honest feedback without defending, and leave the door open.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks her; Asks for feedback; Leaves the door open.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3288,7 +3288,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present to senior people with clear structure and calm.",
     "persona": "adams",
     "personaRole": "Mr Tarek and the executive team",
-    "goal": "Give a clear pitch in five minutes.",
+    "goal": "Give a five-minute pitch to the executive team: open with the point, keep to time, and close with one request.",
     "rubric": [
      {
       "label": "Opens with the point",
@@ -3305,7 +3305,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek and the executive team: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a clear pitch in five minutes.",
+     "Let the learner work toward this goal: Give a five-minute pitch to the executive team: open with the point, keep to time, and close with one request.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens with the point; Keeps to time; Closes with a request.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3322,7 +3322,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present to senior people with clear structure and calm.",
     "persona": "sara",
     "personaRole": "Mona, an executive who interrupts",
-    "goal": "Handle interruptions smoothly.",
+    "goal": "The executive keeps interrupting: stay calm, answer briefly each time, and return to your main point.",
     "rubric": [
      {
       "label": "Stays calm",
@@ -3339,7 +3339,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mona, an executive who interrupts: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle interruptions smoothly.",
+     "Let the learner work toward this goal: The executive keeps interrupting: stay calm, answer briefly each time, and return to your main point.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Answers briefly; Returns to the point.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3356,7 +3356,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present to senior people with clear structure and calm.",
     "persona": "adams",
     "personaRole": "Mr Adel, an executive who attacks your offer",
-    "goal": "Answer a hostile question.",
+    "goal": "An executive attacks your offer: do not argue, answer with facts, and move the meeting forward.",
     "rubric": [
      {
       "label": "Does not argue",
@@ -3373,7 +3373,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, an executive who attacks your offer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer a hostile question.",
+     "Let the learner work toward this goal: An executive attacks your offer: do not argue, answer with facts, and move the meeting forward.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Does not argue; Uses facts; Moves forward.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3390,7 +3390,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Present to senior people with clear structure and calm.",
     "persona": "sara",
     "personaRole": "Layla, an executive at the end",
-    "goal": "Close with one ask.",
+    "goal": "The meeting is ending: summarise in two sentences, make one clear ask, and agree a date.",
     "rubric": [
      {
       "label": "Summarises",
@@ -3407,7 +3407,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Layla, an executive at the end: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close with one ask.",
+     "Let the learner work toward this goal: The meeting is ending: summarise in two sentences, make one clear ask, and agree a date.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises; Asks clearly; Agrees a date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3424,7 +3424,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate multi-part deals with senior people.",
     "persona": "adams",
     "personaRole": "Mr Nabil, a buyer with five demands",
-    "goal": "Handle several issues in a package.",
+    "goal": "He brings five demands at once: list them, prioritise with him, and propose one package that covers the key ones.",
     "rubric": [
      {
       "label": "Lists the issues",
@@ -3441,7 +3441,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer with five demands: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle several issues in a package.",
+     "Let the learner work toward this goal: He brings five demands at once: list them, prioritise with him, and propose one package that covers the key ones.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists the issues; Prioritises; Proposes a package.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3458,7 +3458,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate multi-part deals with senior people.",
     "persona": "sara",
     "personaRole": "Salma, a buyer who pressures you",
-    "goal": "Hold your position politely.",
+    "goal": "She pressures you: hold your position politely, repeat your limit calmly, and offer value inside it.",
     "rubric": [
      {
       "label": "Stays calm",
@@ -3475,7 +3475,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Salma, a buyer who pressures you: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Hold your position politely.",
+     "Let the learner work toward this goal: She pressures you: hold your position politely, repeat your limit calmly, and offer value inside it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Repeats the limit; Offers value.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3492,7 +3492,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate multi-part deals with senior people.",
     "persona": "adams",
     "personaRole": "Mr Sherif, a buyer who sounds uncertain",
-    "goal": "Read tone and act on it.",
+    "goal": "He sounds uncertain although he says yes: notice the signal, check it politely, and adapt your next step.",
     "rubric": [
      {
       "label": "Notices the signal",
@@ -3509,7 +3509,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer who sounds uncertain: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Read tone and act on it.",
+     "Let the learner work toward this goal: He sounds uncertain although he says yes: notice the signal, check it politely, and adapt your next step.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Notices the signal; Checks it politely; Adapts.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3526,7 +3526,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "description": "Negotiate multi-part deals with senior people.",
     "persona": "sara",
     "personaRole": "Heba, a buyer who has one last concern",
-    "goal": "Close with one last concern.",
+    "goal": "She has one last concern before signing: name it, solve it or trade for it, and confirm the deal.",
     "rubric": [
      {
       "label": "Names the concern",
@@ -3543,7 +3543,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Heba, a buyer who has one last concern: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close with one last concern.",
+     "Let the learner work toward this goal: She has one last concern before signing: name it, solve it or trade for it, and confirm the deal.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the concern; Solves or trades; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."

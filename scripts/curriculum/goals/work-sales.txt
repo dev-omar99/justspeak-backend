@@ -1,0 +1,44 @@
+work-sales-b2-u1-l1 | Open a discovery call: state the aim, agree that you have only ten minutes, and ask a first open question.
+work-sales-b2-u1-l2 | Her problem is unclear: ask follow-up questions until she names the problem, then ask what it costs her.
+work-sales-b2-u1-l3 | Your contact does not decide: ask politely who does, and plan how to bring that person in without going around him.
+work-sales-b2-u1-l4 | After a long call, sum up her needs in her own words, then check that you have understood them correctly.
+work-sales-b2-u5-l1 | He asked for a proposal: state his need, give the offer with one price, and end with a clear next step and date.
+work-sales-b2-u5-l2 | Present a proposal on a video call: start with her need, walk through two options, and ask for a decision.
+work-sales-b2-u5-l3 | He has been silent for a week: write a brief chaser that gives one reason to reply and offers a time to talk.
+work-sales-b2-u5-l4 | Run a ten-minute review with an existing customer: review the results, ask about her plans, and offer next steps.
+work-sales-b2-u2-l1 | He wants savings: present your value with at least two figures and link it to his own goal, without overclaiming.
+work-sales-b2-u2-l2 | She wants proof: tell a short customer story with context, the action, and a result she can measure.
+work-sales-b2-u2-l3 | Present to three people: open clearly, look to all of them, and answer one question without losing your thread.
+work-sales-b2-u2-l4 | She challenges your claim: stay calm, answer with evidence, and say honestly what you do not know.
+work-sales-b2-u6-l1 | He is happy with the product: offer an upgrade that fits how he uses it, state the benefit, and accept a no.
+work-sales-b2-u6-l2 | An angry key buyer calls: listen without interrupting, take ownership of the problem, and give a plan with a date.
+work-sales-b2-u6-l3 | His contract ends next month: review the value he got, discuss the terms, and agree a renewal date.
+work-sales-b2-u6-l4 | She asks for something you cannot do: say no kindly, give the reason, and offer another way that helps her.
+work-sales-b2-u4-l1 | He wants better terms: state your position, ask for his, and keep the tone friendly from the first minute.
+work-sales-b2-u4-l2 | She asks for a discount: use "if you ... then I ..." to trade it for something, and protect your margin.
+work-sales-b2-u4-l3 | He will not move: name the issue, offer one new option, and pause to think instead of giving in.
+work-sales-b2-u4-l4 | After the deal, list the agreed terms, check each one with her, and plan the paperwork with a date.
+work-sales-b2-u3-l1 | His budget is fixed and lower than your price: ask about the budget, offer two options, and protect the value.
+work-sales-b2-u3-l2 | She says "not now": ask why now is hard, offer a small first step, and agree a date to speak again.
+work-sales-b2-u3-l3 | He fears the risk: name the risk, offer proof, and offer a trial or guarantee he can accept.
+work-sales-b2-u3-l4 | She already uses another supplier: respect that choice, find the gap, and offer a small test, never attack the rival.
+work-sales-c1-u1-l1 | He sees the problem narrowly: share one insight that changes his view, check his reaction, and link it to his goals.
+work-sales-c1-u1-l2 | She holds a belief that is wrong: challenge it with soft language and evidence while keeping her respect.
+work-sales-c1-u1-l3 | He gives short answers: use silence and open questions, and reflect his words back until he opens up.
+work-sales-c1-u1-l4 | The CFO wants numbers: build a business case with figures, state your assumptions, and link it to her risk.
+work-sales-c1-u5-l1 | Lead a ten-minute team call with four people: set the aim, share the floor, and agree actions with owners.
+work-sales-c1-u5-l2 | A new seller had a bad call: start with a real strength, give one clear point, and agree the next step with her.
+work-sales-c1-u5-l3 | Share a team win in two minutes: state the result with a number, credit the team by name, and share one lesson.
+work-sales-c1-u5-l4 | The quarter was lost: own the miss without excuses, give the real cause, and present a plan with dates.
+work-sales-c1-u4-l1 | A key buyer lost trust after your mistake: own the problem, make specific promises, and set dates you can keep.
+work-sales-c1-u4-l2 | Ask your champion to introduce you to another team: give a reason, make it easy for her, and thank her.
+work-sales-c1-u4-l3 | He hates price rises: explain the rise honestly, show the value he gets, and offer options that soften it.
+work-sales-c1-u4-l4 | A buyer is leaving: thank her, ask for honest feedback without defending, and leave the door open.
+work-sales-c1-u3-l1 | Give a five-minute pitch to the executive team: open with the point, keep to time, and close with one request.
+work-sales-c1-u3-l2 | The executive keeps interrupting: stay calm, answer briefly each time, and return to your main point.
+work-sales-c1-u3-l3 | An executive attacks your offer: do not argue, answer with facts, and move the meeting forward.
+work-sales-c1-u3-l4 | The meeting is ending: summarise in two sentences, make one clear ask, and agree a date.
+work-sales-c1-u2-l1 | He brings five demands at once: list them, prioritise with him, and propose one package that covers the key ones.
+work-sales-c1-u2-l2 | She pressures you: hold your position politely, repeat your limit calmly, and offer value inside it.
+work-sales-c1-u2-l3 | He sounds uncertain although he says yes: notice the signal, check it politely, and adapt your next step.
+work-sales-c1-u2-l4 | She has one last concern before signing: name it, solve it or trade for it, and confirm the deal.
