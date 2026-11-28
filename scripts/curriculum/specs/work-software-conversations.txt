@@ -1,0 +1,106 @@
+@programme work-software-conversations | work | Software Engineer Conversations | Talk about your work as a software engineer: your speciality, your experience, your projects and your team. Questions a colleague or a hiring manager really asks, not lessons about programming. | Information exchange
+@level A1
+## Say who you are | Give simple facts about you and your work.
+Your name and job | s | A friendly colleague | Say your name and that you are a software engineer. | Says name; Says job; Uses I am
+Your speciality | s | A friendly colleague | Say if you do web, mobile or data work. | Names the area; Uses I do; Speaks clearly
+Your company | s | A friendly colleague | Say where you work. | Names the place; Uses I work at; Speaks slowly
+Your city | s | A friendly colleague | Say which city you work in. | Names the city; Uses I work in; Speaks clearly
+## How long | Say how long you have worked in software.
+Years of work | s | A team lead | Say how many years you have worked. | Says a number; Uses for; Speaks slowly
+Your first job | s | A team lead | Say what your first job was. | Names the job; Uses my first job was; Speaks clearly
+Your studies | s | A team lead | Say what you studied. | Says the subject; Uses I studied; Speaks slowly
+Your language | s | A team lead | Say your main programming language. | Names it; Uses I use; Speaks clearly
+## Your day | Describe a simple work day.
+Start time | s | A friendly colleague | Say when your work day starts. | Says time; Uses at; Speaks clearly
+Your tools | s | A friendly colleague | Name two tools you use every day. | Names two; Uses I use; Speaks clearly
+Meetings | s | A friendly colleague | Say how many meetings you have. | Says a number; Uses I have; Speaks slowly
+Lunch break | s | A friendly colleague | Say what you do at lunch. | Says one action; Uses I; Speaks clearly
+## Your team | Talk about the people you work with.
+Team size | s | A new teammate | Say how many people are in your team. | Says a number; Uses there are; Speaks clearly
+Your manager | s | A new teammate | Say who your manager is. | Names a person; Uses my manager is; Speaks slowly
+Working together | s | A new teammate | Say you like your team. | Says like; Uses I like; Gives one word of reason
+Asking for help | s | A new teammate | Ask a teammate for help. | Uses can you; Says please; Speaks clearly
+@level A2
+## Tell me about your work | Answer the first questions in a tech conversation.
+What do you do? | s | Ms Nora, a tech lead | Say what you do and what kind of software you build. | Says the job; Says the product; Uses simple present
+Why your speciality | s | Ms Nora, a tech lead | Say your speciality and why you chose it. | Names it; Gives a reason; Uses because
+How long? | s | Ms Nora, a tech lead | Say how long you have worked in this area. | Uses for or since; Gives years; Speaks clearly
+Your last job | s | Ms Nora, a tech lead | Say where you worked before and what you did there. | Names the place; Uses past tense; Says one task
+## A project you know | Describe a small project in simple sentences.
+The project | s | Mr Adel, a manager | Say what one project was about. | Says the purpose; Uses past tense; Speaks clearly
+Your part | s | Mr Adel, a manager | Say what you did in the project. | Says the task; Uses I did; Speaks clearly
+The tools | s | Mr Adel, a manager | Say which tools you used. | Names tools; Uses I used; Speaks clearly
+The result | s | Mr Adel, a manager | Say how the project ended. | Says the result; Uses past tense; Speaks clearly
+## Working with others | Talk about teamwork in simple terms.
+Your team | s | A teammate | Say who you work with and what each person does. | Names roles; Uses simple present; Speaks clearly
+A problem | s | A teammate | Say one problem the team had. | Names the problem; Uses past tense; Speaks clearly
+How you helped | s | A teammate | Say how you helped to fix it. | Says the action; Uses I helped; Gives a result
+Daily stand-up | s | A teammate | Say what you did yesterday and what you do today. | Says yesterday; Says today; Uses the right tense
+## Learning and plans | Say what you learn and what you want next.
+What you learn | s | Ms Nora, a tech lead | Say one new thing you are learning. | Names it; Uses I am learning; Speaks clearly
+How you learn | s | Ms Nora, a tech lead | Say how you learn, for example videos or books. | Names a way; Uses I learn by; Speaks clearly
+Your goal | s | Ms Nora, a tech lead | Say one goal for next year. | Says a goal; Uses I want to; Speaks clearly
+Why this job | s | Ms Nora, a tech lead | Say why you want this kind of work. | Gives a reason; Uses because; Speaks clearly
+@level B1
+## Your background | Give a clear picture of your career.
+Your career so far | s | Ms Nora, a tech lead | Give a short summary of your career in order. | Clear order; Uses past and present; Names the main steps
+Your speciality in depth | s | Ms Nora, a tech lead | Explain your speciality and what makes it interesting. | Explains it; Gives a reason; Speaks clearly
+Your daily work | s | Ms Nora, a tech lead | Describe a normal week of work. | Gives a routine; Uses time words; Speaks clearly
+Your strongest skill | s | Ms Nora, a tech lead | Say your strongest skill and give an example. | Names the skill; Gives an example; Speaks clearly
+## Projects | Explain a project with a reason and a result.
+Your best project | s | Mr Adel, a manager | Describe your best project and why it mattered. | Describes it; Gives a reason; Speaks clearly
+Your role | s | Mr Adel, a manager | Explain exactly what you were responsible for. | Names duties; Uses I was responsible; Speaks clearly
+A decision | s | Mr Adel, a manager | Explain one technical choice you made and why. | Names the choice; Gives a reason; Uses because
+What you would change | s | Mr Adel, a manager | Say what you would do differently now. | Says a change; Uses would; Gives a reason
+## Teamwork | Describe how you work with other people.
+A disagreement | s | A teammate | Describe a disagreement and how it ended. | Tells it in order; Stays polite; Gives the result
+Giving feedback | s | A teammate | Explain how you give feedback on someone's work. | Gives a method; Gives an example; Speaks clearly
+Receiving feedback | s | A teammate | Describe a time you took feedback and changed something. | Tells the story; Says the change; Speaks clearly
+Working remotely | s | A teammate | Explain how your team works from different places. | Describes the way; Names a tool; Speaks clearly
+## Growth | Talk about learning, mistakes and plans.
+A mistake | s | Ms Nora, a tech lead | Describe a mistake at work and what you learned. | Tells it clearly; Says the lesson; Stays honest
+A hard deadline | s | Ms Nora, a tech lead | Describe a time you had little time to finish. | Describes it; Says what you did; Gives the result
+Your next skill | s | Ms Nora, a tech lead | Say what skill you want to build and how. | Names a skill; Gives a plan; Uses will or want to
+Your five-year plan | s | Ms Nora, a tech lead | Say where you want to be in five years. | States a goal; Gives a reason; Speaks clearly
+@level B2
+## Your story | Give a clear, organised account of your experience.
+Walk me through your career | s | Ms Nora, an engineering manager | Give an organised account of your career and your biggest step. | Clear order; Shows growth; Speaks fluently
+What drew you to this field | s | Ms Nora, an engineering manager | Explain what drew you to software and what keeps you in it. | Gives reasons; Gives an example; Sounds sincere
+Your speciality and the market | s | Ms Nora, an engineering manager | Explain where your speciality is going and how you keep up. | Gives a view; Gives support; Speaks clearly
+What sets you apart | s | Ms Nora, an engineering manager | Say what you do better than most engineers, with proof. | Makes a claim; Gives proof; Speaks with confidence
+## Technical conversations | Talk about your work to a person who is not in your team.
+Explain your work simply | s | A product manager | Explain what you build to someone who does not code. | Uses plain words; Uses an example; Checks understanding
+Explain a trade-off | s | A product manager | Explain a choice between speed and quality you faced. | Names both sides; Gives a decision; Gives the reason
+Explain a delay | s | A product manager | Explain why work is late and what you will do. | Gives the cause; Gives a plan; Stays calm
+Estimate the work | s | A product manager | Give an estimate and say what could change it. | Gives a range; Names the risks; Speaks clearly
+## Leading and collaborating | Describe how you work with and guide others.
+Helping a junior | s | A teammate | Describe how you help a new engineer grow. | Gives a method; Gives an example; Stays patient
+A code review | s | A teammate | Describe how you handle a code review you disagree with. | Stays polite; Gives a reason; Reaches a decision
+An incident | s | A teammate | Describe a production problem and how the team handled it. | Tells it in order; Says your part; Says the lesson
+Working across teams | s | A teammate | Describe a project with another team and what you learned. | Describes it; Names a challenge; Says the result
+## Your impact | Show the value of your work with facts.
+Your biggest result | s | Mr Adel, a manager | Describe a result you are proud of and how you measured it. | States the result; Gives numbers or proof; Speaks clearly
+A failure | s | Mr Adel, a manager | Describe a project that failed and what changed after. | Tells it honestly; Says the change; Shows learning
+A hard choice | s | Mr Adel, a manager | Describe a hard decision and how you made it. | Gives the options; Gives the reason; Owns the result
+What you want next | s | Mr Adel, a manager | Say what you want from your next role and why. | States the goal; Gives reasons; Speaks clearly
+@level C1
+## Your professional story | Present your career with precision and ownership.
+A career in one story | s | Ms Nora, a director of engineering | Present your career as one clear story with a theme. | Clear theme; Precise detail; Natural flow
+Your engineering philosophy | s | Ms Nora, a director of engineering | Explain the principles that guide your technical decisions. | States principles; Gives examples; Defends them
+Where your field is going | s | Ms Nora, a director of engineering | Give a view on where your speciality is heading and how you prepare. | Takes a position; Supports it; Handles doubt
+Your unique value | s | Ms Nora, a director of engineering | Explain the value you add that is hard to copy. | Makes a precise claim; Gives proof; Speaks with confidence
+## Judgement and trade-offs | Discuss decisions with nuance.
+Build or buy | s | A chief technology officer | Discuss how you decide whether to build or buy. | Weighs both; Gives criteria; Makes a call
+Technical debt | s | A chief technology officer | Explain how you decide when to pay down technical debt. | Gives criteria; Gives an example; Defends the call
+A risky release | s | A chief technology officer | Describe a risky release and how you managed the risk. | Names the risks; Gives actions; Says the outcome
+Saying no | s | A chief technology officer | Describe how you refused a request and kept trust. | States the reason; Offers an option; Stays respectful
+## Leadership | Show how you guide people and teams.
+Building a team culture | s | A senior colleague | Describe the team habits you build and why. | Names habits; Gives reasons; Gives an example
+A conflict between people | s | A senior colleague | Describe how you handled a conflict in your team. | Stays neutral; Says the steps; Gives the result
+Growing an engineer | s | A senior colleague | Describe how you grew someone who struggled. | Describes the plan; Says the result; Shows care
+Hard feedback | s | A senior colleague | Describe how you gave hard feedback to a strong engineer. | Is direct; Is kind; Reaches an agreement
+## Strategy and influence | Speak with weight to senior people.
+Influence without authority | s | Ms Nora, a director of engineering | Describe how you changed a decision without being the boss. | Gives a method; Gives an example; Speaks with confidence
+A bold proposal | s | Ms Nora, a director of engineering | Pitch a change to how your team works and handle pushback. | States the case; Answers doubts; Stays calm
+Learning from a big failure | s | Ms Nora, a director of engineering | Reflect on your biggest failure and what it taught you. | Owns it; Shows insight; Speaks naturally
+The role you want | s | Ms Nora, a director of engineering | Explain the role you want next and what you will bring. | States the aim; Gives proof; Speaks with confidence

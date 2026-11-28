@@ -96,7 +96,7 @@ describe('curriculum flag', () => {
     const admin = buildCatalog([], { isPreviewer: true });
     const user = buildCatalog([], { isPreviewer: false });
     const anon = buildCatalog([]);
-    expect(admin.find((f) => f.id === 'work')?.programmes).toHaveLength(4);
+    expect(admin.find((f) => f.id === 'work')?.programmes).toHaveLength(5);
     expect(user.find((f) => f.id === 'work')?.programmes).toHaveLength(1);
     expect(anon.find((f) => f.id === 'interviews')?.programmes).toHaveLength(1);
     expect(canStartCurriculumLesson('work-cs-b1-u1-l1', { isPreviewer: true })).toBe(true);
@@ -124,7 +124,7 @@ describe('curriculum flag', () => {
     process.env.CURRICULUM_ENABLED = 'true';
     const fields = buildCatalog([]);
     const work = fields.find((f) => f.id === 'work')!;
-    expect(work.programmes.map((p) => p.id)).toEqual(['work-english', 'work-customer-service', 'work-sales', 'workplace-english-course']);
+    expect(work.programmes.map((p) => p.id)).toEqual(['work-english', 'work-customer-service', 'work-sales', 'workplace-english-course', 'work-software-conversations']);
     const cs = work.programmes[1];
     expect(cs.totalLessons).toBe(124);
     expect(cs.levels.map((l) => l.level)).toEqual([...LEVELS]);
