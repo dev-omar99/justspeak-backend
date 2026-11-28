@@ -1,5 +1,5 @@
 import { buildCatalog } from './catalog';
-import { CURRICULUM_PROGRAMMES, curriculumEnabled, canStartCurriculumLesson } from './content/curriculum';
+import { CURRICULUM_PROGRAMMES, curriculumEnabled, canStartCurriculumLesson, isPreviewAllowlisted } from './content/curriculum';
 import { getRoleplay, ROLEPLAY_SCENARIOS } from './content/roleplays';
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
@@ -154,5 +154,26 @@ describe('insufficientReport', () => {
     expect(r.status).toBe('INSUFFICIENT_DATA');
     expect(r.next_focus).toContain('38s');
     expect(r.next_focus).toContain('60s');
+  });
+});
+
+describe('preview allowlist (CURRICULUM_PREVIEW_EMAILS)', () => {
+  const OLD = process.env.CURRICULUM_PREVIEW_EMAILS;
+  afterEach(() => {
+    if (OLD === undefined) delete process.env.CURRICULUM_PREVIEW_EMAILS;
+    else process.env.CURRICULUM_PREVIEW_EMAILS = OLD;
+  });
+  it('is empty by default: nobody is allowlisted', () => {
+    delete process.env.CURRICULUM_PREVIEW_EMAILS;
+    expect(isPreviewAllowlisted('anyone@example.com')).toBe(false);
+    expect(isPreviewAllowlisted('')).toBe(false);
+    expect(isPreviewAllowlisted(null)).toBe(false);
+  });
+  it('matches only the listed addresses, case-insensitively, whole address', () => {
+    process.env.CURRICULUM_PREVIEW_EMAILS = ' Ali@Example.com , sara@example.com ,';
+    expect(isPreviewAllowlisted('ali@example.com')).toBe(true);
+    expect(isPreviewAllowlisted('SARA@example.com')).toBe(true);
+    expect(isPreviewAllowlisted('bali@example.com')).toBe(false);
+    expect(isPreviewAllowlisted('ali@example.com.evil.io')).toBe(false);
   });
 });

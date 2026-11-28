@@ -25,7 +25,7 @@ import {
 import { DeepgramPrerecordedService } from './deepgram.service';
 import { getLesson } from './content/course';
 import { getRoleplay } from './content/roleplays';
-import { canStartCurriculumLesson, curriculumAdminPreviewEnabled, isCurriculumLessonId, type CurriculumViewer } from './content/curriculum';
+import { canStartCurriculumLesson, curriculumAdminPreviewEnabled, isCurriculumLessonId, isPreviewAllowlisted, type CurriculumViewer } from './content/curriculum';
 import { isAdminEmail } from '../admin/admin-policy';
 import { analyzeWordChoice } from './word-choice';
 import { StartSessionDto } from './dto';
@@ -108,11 +108,12 @@ export class AiPartnerService {
     };
   }
 
-  /** Preview rights: only the single configured admin account (isAdmin flag AND ADMIN_EMAIL match). */
+  /** Preview rights: the configured admin account (isAdmin flag AND ADMIN_EMAIL match) plus any emails in CURRICULUM_PREVIEW_EMAILS (empty by default). */
   async curriculumViewer(userId: string): Promise<CurriculumViewer> {
     if (!curriculumAdminPreviewEnabled()) return { isPreviewer: false };
     const u = await this.prisma.user.findUnique({ where: { id: userId }, select: { email: true, isAdmin: true } });
-    return { isPreviewer: !!u && u.isAdmin === true && isAdminEmail(u.email) };
+    const isAdminPreviewer = !!u && u.isAdmin === true && isAdminEmail(u.email);
+    return { isPreviewer: isAdminPreviewer || (!!u && isPreviewAllowlisted(u.email)) };
   }
 
   async startSession(userId: string, dto: StartSessionDto) {

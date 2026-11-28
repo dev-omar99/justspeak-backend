@@ -29,6 +29,21 @@ export function curriculumAdminPreviewEnabled(): boolean {
   return process.env.CURRICULUM_ADMIN_PREVIEW === 'true';
 }
 
+/**
+ * Extra preview accounts: CURRICULUM_PREVIEW_EMAILS="a@x.com,b@y.com". Empty by default, so only the
+ * admin sees draft lessons. Matching is case-insensitive on the whole address. Only works while
+ * CURRICULUM_ADMIN_PREVIEW=true. Never makes anything visible to other users.
+ */
+export function isPreviewAllowlisted(email: string | null | undefined): boolean {
+  const mail = (email || '').trim().toLowerCase();
+  if (!mail) return false;
+  return (process.env.CURRICULUM_PREVIEW_EMAILS || '')
+    .split(',')
+    .map((e) => e.trim().toLowerCase())
+    .filter(Boolean)
+    .includes(mail);
+}
+
 /** Who is asking. `isPreviewer` is true only for the configured admin account. */
 export interface CurriculumViewer {
   isPreviewer: boolean;
