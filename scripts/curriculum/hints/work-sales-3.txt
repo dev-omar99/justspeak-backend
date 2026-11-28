@@ -1,0 +1,122 @@
+Says the aim | Full: states why they called and what the call should achieve, for example "I would like to understand your needs and see if we can help." Partial: greets and starts asking questions with no stated aim. None: no purpose given.
+Agrees the time | Full: checks the time available, for example "Do you have ten minutes?", and keeps to it. Partial: mentions time but does not check it. None: ignores time.
+Asks a first question | Full: asks an open question about the buyer's work, for example "How do you handle this today?" Partial: asks a yes or no question. None: no question.
+Uses follow-ups | Full: builds on the buyer's last answer, for example "You said it is slow, what causes that?" Partial: asks a new question that ignores the answer. None: no follow-up.
+Asks about impact | Full: asks what the problem costs, for example "What does that cost you each month?" Partial: asks about the problem but not its effect. None: does not ask.
+Summarises | Full: sums up the key points in two or three short sentences and checks them. Partial: repeats one point. None: no summary.
+Asks who decides | Full: asks politely who decides, for example "Who else would be part of this decision?" Partial: hints without asking. None: does not ask.
+Stays polite | Full: polite and respectful even when pressed, using phrases like "I understand" and "Thank you". Partial: one blunt moment. None: rude or dismissive.
+Plans to include them | Full: suggests a clear way to bring the decision maker in, for example "Could we set up a short call with her?" Partial: vague, for example "maybe later". None: no plan.
+Uses her words | Full: repeats the buyer's own key words back, for example "You called it a bottleneck." Partial: paraphrases with different words. None: ignores her words.
+Checks it | Full: asks whether the summary is right, for example "Did I get that right?" Partial: says "okay?" only. None: does not check.
+States the need | Full: opens the email with the buyer's need in one sentence. Partial: mentions the product first. None: need not stated.
+Gives the offer | Full: states what is offered, with one price or scope. Partial: offer is vague. None: no offer.
+Gives the next step | Full: ends with one clear next step and a date, for example "I will call you on Thursday." Partial: says "let me know". None: none.
+Opens with the need | Full: starts with the buyer's problem before the product. Partial: starts with the product. None: no clear opening.
+Walks through options | Full: explains two options with one difference each, then compares. Partial: one option only. None: reads a list without explaining.
+Asks for a decision | Full: asks directly for a decision and a date. Partial: asks "what do you think?" only. None: no ask.
+Gives a reason to reply | Full: gives a real reason to answer now, for example a deadline or new fact. Partial: only "just checking in". None: no reason.
+Is brief | Full: short and easy to scan, two to four sentences. Partial: a little long. None: long and unfocused.
+Offers a time | Full: offers a specific time to talk, for example "Tuesday at 10?" Partial: "sometime this week". None: none.
+Reviews results | Full: reviews real results with at least one figure. Partial: general words like "it went well". None: no review.
+Asks about plans | Full: asks about the buyer's goals for the next period. Partial: asks one narrow question. None: none.
+Offers next steps | Full: offers one or two concrete next steps with owners. Partial: vague offer. None: none.
+Uses figures | Full: uses at least two figures that fit the buyer's goal, for example "a 12 percent saving". Partial: one figure. None: no numbers.
+Links to his goal | Full: connects the value to the buyer's own stated goal. Partial: talks about general benefits. None: no link.
+Stays honest | Full: does not overclaim, for example "In similar cases we saw about 10 percent." Partial: one strong claim without evidence. None: exaggerates.
+Gives context | Full: sets the customer's situation in one or two sentences. Partial: skips who or why. None: none.
+Gives the action | Full: says what was done, step by step. Partial: vague. None: none.
+Gives the result | Full: states a measurable result. Partial: result without a number. None: none.
+Opens clearly | Full: opens with the topic, the plan and the time. Partial: only a greeting. None: starts without a frame.
+Looks to all | Full: addresses all three people, for example uses names or "and you". Partial: speaks to one person. None: ignores the group.
+Handles one question | Full: answers the question directly and returns to the point. Partial: answers but loses the thread. None: avoids it.
+Stays calm | Full: keeps a steady tone under pressure, no defensive words, short sentences. Partial: one tense moment. None: loses calm.
+Gives evidence | Full: supports a claim with a fact, figure or example. Partial: says "trust me" or uses a general claim. None: no evidence.
+Admits limits | Full: says what is unknown or outside scope and offers to check, for example "I will confirm and come back." Partial: avoids the question. None: bluffs.
+Links to his use | Full: ties the upgrade to how he uses the product now. Partial: lists upgrade features. None: no link.
+States the benefit | Full: states one clear benefit for him. Partial: lists features. None: none.
+Accepts a no | Full: accepts a no gracefully, for example "That is fine, the offer stays open." Partial: asks once more. None: pushes.
+Listens | Full: lets the other person finish and reflects the point, for example "So the delivery was late twice." Partial: interrupts once. None: talks over them.
+Takes ownership | Full: says "I will handle this" and avoids blame. Partial: apologises without owning it. None: blames others.
+Gives a plan | Full: gives steps with a date. Partial: steps without a date. None: no plan.
+Reviews value | Full: recalls specific value delivered, with a figure if possible. Partial: general. None: none.
+Discusses terms | Full: discusses price, length and conditions clearly. Partial: one of them. None: none.
+Agrees the date | Full: agrees a clear renewal or signing date. Partial: "soon". None: none.
+Says no kindly | Full: says no clearly and warmly, for example "I am sorry, we cannot do that." Partial: vague no. None: blunt or says yes by mistake.
+Gives the reason | Full: gives a short honest reason. Partial: reason unclear. None: none.
+Offers another way | Full: offers a real alternative that helps. Partial: vague. None: none.
+States your position | Full: states what you want and your limit in one or two sentences. Partial: unclear limit. None: none.
+Asks for his | Full: asks what the buyer needs and why. Partial: asks only "what do you want?". None: none.
+Stays friendly | Full: warm tone while holding a position. Partial: cool once. None: hostile.
+Says "if you... then I..." | Full: uses an if-then trade, for example "If you sign for two years, then I can lower the price." Partial: gives a discount first. None: gives in.
+Names the trade | Full: names what each side gives. Partial: names only one side. None: none.
+Protects margin | Full: keeps the price above the floor by trading, not cutting. Partial: weak. None: cuts without return.
+Names the issue | Full: names the real issue in neutral words. Partial: blames. None: none.
+Offers an option | Full: offers one new option to move forward. Partial: repeats the old position. None: none.
+Pauses to think | Full: asks for a short pause or says "let me think about that". Partial: answers fast and gives in. None: no pause.
+Lists the terms | Full: lists every agreed term clearly. Partial: lists some. None: none.
+Checks each one | Full: confirms each term with the buyer. Partial: one confirmation for all. None: none.
+Plans the paper | Full: says who sends the written agreement and by when. Partial: "we will send it". None: none.
+Asks about the budget | Full: asks about the budget range politely. Partial: asks about price only. None: none.
+Offers options | Full: offers two options at different prices. Partial: one option. None: none.
+Protects value | Full: explains what is lost when the price drops. Partial: weak. None: cuts value silently.
+Asks why now is hard | Full: asks about the reason for the delay, for example "What makes now difficult?" Partial: accepts "not now". None: none.
+Offers a small step | Full: offers a smaller first step, for example a pilot. Partial: vague. None: none.
+Agrees a date | Full: agrees a date to speak again. Partial: "later". None: none.
+Names the risk | Full: names the buyer's risk in his words. Partial: general. None: none.
+Offers proof | Full: offers proof such as a case, reference or data. Partial: says "we are reliable". None: none.
+Offers a trial or guarantee | Full: offers a trial period or guarantee with clear terms. Partial: vague promise. None: none.
+Respects the current supplier | Full: speaks respectfully about the other supplier. Partial: neutral. None: criticises.
+Finds the gap | Full: asks what the current supplier does not do well. Partial: guesses. None: none.
+Offers a test | Full: offers a small low-risk test. Partial: vague. None: none.
+Shares an insight | Full: shares one fact or pattern that changes the buyer's view. Partial: common knowledge. None: none.
+Links to his goals | Full: links the insight to his goals. Partial: general. None: none.
+Uses soft language | Full: softens the challenge, for example "I wonder if", "Could it be". Partial: one softener. None: blunt.
+Keeps respect | Full: keeps respect while disagreeing. Partial: slightly dismissive. None: disrespectful.
+Uses silence | Full: leaves a natural pause after a question. Partial: fills the pause quickly. None: talks continuously.
+Asks open questions | Full: asks questions that start with what, how or why. Partial: mixes in yes or no questions. None: only closed questions.
+Reflects back | Full: repeats the key part of the answer to invite more. Partial: nods. None: none.
+States assumptions | Full: says what the figures assume, for example "This assumes 100 users." Partial: mentions one. None: hides them.
+Links to risk | Full: connects the case to the risk the buyer cares about. Partial: general. None: none.
+Sets the aim | Full: states the aim of the meeting at the start. Partial: vague. None: none.
+Shares the floor | Full: invites each person to speak. Partial: invites one. None: monologue.
+Agrees actions | Full: ends with actions, owners and dates. Partial: actions only. None: none.
+Starts with a strength | Full: starts with a real, specific strength. Partial: general praise. None: starts with criticism.
+Gives one point | Full: gives one clear point to improve, with an example. Partial: several points. None: none.
+Agrees a next step | Full: agrees one practice step with the person. Partial: suggests it. None: none.
+States the result | Full: states the result with a number. Partial: no number. None: none.
+Credits the team | Full: names people and what they did. Partial: "the team". None: none.
+Shares the lesson | Full: shares one lesson others can use. Partial: vague. None: none.
+Owns it | Full: owns the miss in the first sentence, no excuses. Partial: softens it. None: blames.
+Gives the cause | Full: gives the real cause with facts. Partial: general. None: none.
+Owns the problem | Full: says clearly the problem was theirs. Partial: partial apology. None: denies.
+Makes specific promises | Full: promises actions that can be checked. Partial: general promises. None: none.
+Sets dates | Full: gives dates for each promise. Partial: one date. None: none.
+Gives a reason | Full: gives a clear reason for the request. Partial: unclear. None: none.
+Makes it easy | Full: makes the request easy, for example offers a draft message. Partial: asks only. None: none.
+Thanks her | Full: thanks her sincerely and specifically. Partial: short thanks. None: none.
+Is honest | Full: says plainly why prices rise. Partial: vague. None: hides it.
+Explains value | Full: explains the value he keeps or gains. Partial: general. None: none.
+Asks for feedback | Full: asks why she is leaving without defending. Partial: asks but argues. None: none.
+Leaves the door open | Full: leaves a clear way back, for example "You are welcome to come back." Partial: vague. None: none.
+Opens with the point | Full: opens with the main point in one sentence. Partial: opens with background. None: no point.
+Keeps to time | Full: finishes within the time. Partial: a little over. None: far over.
+Closes with a request | Full: closes with one clear request. Partial: vague. None: none.
+Answers briefly | Full: answers in one or two sentences. Partial: longer. None: none.
+Returns to the point | Full: returns to the main point, for example "To come back to the key figure". Partial: drifts. None: lost.
+Does not argue | Full: stays factual and does not defend, for example "That is a fair concern. Here is the data." Partial: argues once. None: argues repeatedly.
+Uses facts | Full: answers with specific facts or figures. Partial: opinion. None: none.
+Moves forward | Full: moves the meeting on, for example "Shall we look at the next step?" Partial: stuck on the point. None: none.
+Asks clearly | Full: makes one clear ask with a date. Partial: asks vaguely. None: none.
+Lists the issues | Full: lists all demands in short form. Partial: lists some. None: none.
+Prioritises | Full: agrees which issues matter most with the buyer. Partial: picks alone. None: none.
+Proposes a package | Full: offers one package that covers the main demands. Partial: handles them one by one. None: none.
+Repeats the limit | Full: repeats the limit calmly in other words. Partial: weakens it. None: gives in.
+Offers value | Full: offers value inside the limit. Partial: vague. None: none.
+Notices the signal | Full: notices a tone or hesitation and names it. Partial: notices but ignores. None: misses.
+Checks it politely | Full: checks gently, for example "I sense some hesitation, is that fair?" Partial: blunt. None: none.
+Adapts | Full: changes the approach after the signal. Partial: small change. None: no change.
+Names the concern | Full: names the last concern exactly. Partial: general. None: none.
+Solves or trades | Full: solves the concern or trades for it. Partial: partial answer. None: none.
+Confirms | Full: confirms the deal and the next step. Partial: only "okay". None: none.
+Gives the plan | Full: gives a clear plan with steps and dates, for example "I will fix X by Friday and report on Monday." Partial: steps without dates. None: no plan.

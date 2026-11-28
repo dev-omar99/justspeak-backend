@@ -34,7 +34,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Layla, a customer who calls and says hello: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Greet her, give your name and offer help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says hello and the company name; Says own name; Asks \"How can I help?\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -68,7 +68,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a customer who asks who he is talking to: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say your name and your company clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives name slowly; Names the company; Repeats if asked.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -102,7 +102,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sondos, a polite customer who says thank you a lot: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Use please, thank you and you are welcome.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses please; Uses thank you; Replies \"You are welcome\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -136,7 +136,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Wael, a customer ending a call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: End the call politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says goodbye; Thanks the customer; Wishes a good day.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -170,7 +170,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a customer calling the shop: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Answer the phone and offer help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Names the company; Asks how to help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -204,7 +204,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Yara, a customer who needs to wait: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask her to wait a moment and come back politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"Please wait a moment\"; Comes back with \"Thank you for waiting\"; Stays polite.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -238,7 +238,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ahmed, a customer who needs another department: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say you will transfer him and say why.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"I will transfer you\"; Says who will help; Thanks him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -272,7 +272,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a customer asking opening hours: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the opening days and times.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the days; Says the times; Checks she understood.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -306,7 +306,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dina, a customer asking how much a product costs: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the price of one product.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"It costs...\"; Says the number clearly; Asks \"Anything else?\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -340,7 +340,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Fadi, a customer asking about sizes and colours: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say which sizes and colours you have.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names sizes; Names colours; Uses simple sentences.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -374,7 +374,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rania, a customer asking if an item is available: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say yes or no and what you can do.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"Yes, we have it\" or \"No, we don't\"; Offers another item; Stays polite.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -408,7 +408,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Karim, a customer who wants to pay: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask how he wants to pay.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks cash or card; Says the total; Says thank you.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -442,7 +442,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Huda, a customer giving her name and spelling it: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for her name, ask her to spell it, then check it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the spelling; Repeats letters back; Says \"Is that right?\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -476,7 +476,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Tarek, a customer giving a phone number: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take a phone number and read it back.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the number; Reads digits in groups; Confirms it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -510,7 +510,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a customer with an order number: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take an order or account number and check it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the number; Repeats it; Corrects a mistake politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -544,7 +544,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Bassem, a customer who speaks fast: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Check what you heard and ask him to repeat.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"Could you repeat that?\"; Repeats the key words; Thanks him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -578,7 +578,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hasan, a customer asking when the shop opens: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a very short call about opening hours from greeting to goodbye.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Answers the question; Closes politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -612,7 +612,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nadia, a customer asking for a price: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a short call: greet, give a price, close.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Gives the price clearly; Closes politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -646,7 +646,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sami, a customer who wants to leave his name and number: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a short call: take a name and number, check, close.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for name and number; Checks them; Closes politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -680,7 +680,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a customer who needs a colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a short call that ends in a transfer.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Explains the transfer; Says goodbye.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -716,7 +716,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Omar, a customer who asks if the supervisor is in: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say you will ask your supervisor and come back.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"I will ask my supervisor\"; Asks him to wait; Comes back with an answer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -750,7 +750,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Lina, a customer asking when her parcel will arrive: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a delivery time and explain how long it takes.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a day or time; Says how long; Checks she understands.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -784,7 +784,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mazen, a customer asking how long a repair takes: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how long it takes.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a time; Explains one step; Asks if that is OK.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -818,7 +818,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rasha, a customer choosing delivery or pickup: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain delivery and pickup and help her choose.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes both; Gives a time for each; Confirms the choice.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -852,7 +852,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sherif, a customer upset about a small mistake: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say sorry and say what you will do.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"I am sorry\"; Says what happened; Says the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -886,7 +886,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Doaa, a customer who got the wrong item: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Listen, say sorry and arrange a new item.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks which item; Says sorry; Arranges a replacement.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -920,7 +920,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Kareem, a customer whose order is late: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say sorry and give a new date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Apologises; Gives a date; Offers to call back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -954,7 +954,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rawan, a customer who wants to know what happens next: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain what will happen and when.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the first step; Says when; Says how you will tell her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -988,7 +988,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Suhaila, a customer who must prove who she is: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Check her name and date of birth politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains why; Asks name; Asks date of birth.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1022,7 +1022,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ibrahim, a customer asking about his bill: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Answer a simple question about a bill.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Finds the amount; Says the date; Asks \"Is there anything else?\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1056,7 +1056,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Noura, a customer whose router is not working: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give two simple steps: turn it off and on.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives step one; Gives step two; Asks her to tell you what happens.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1090,7 +1090,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Zein, a customer who says thank you at the end: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Reply to thanks and close the call.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"You are welcome\"; Offers more help; Says goodbye.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1124,7 +1124,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Tamer, a customer who wants to order two items: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take a simple order and confirm it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks what and how many; Repeats the order; Gives the total.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1158,7 +1158,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a customer booking an appointment: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Book a date and a time.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for day and time; Checks they are free; Confirms the booking.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1192,7 +1192,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ziad, a customer who wants to change his booking: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Change a booking and confirm the new time.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Finds the booking; Asks for the new time; Confirms the change.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1226,7 +1226,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Maha, a customer who is unsure of the details: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Confirm all the details at the end.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Repeats name, date and place; Asks \"Is that correct?\"; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1260,7 +1260,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Eman, a customer who sends a short thank-you message: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Write and say a short thank-you reply.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Thanks; Closes politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1294,7 +1294,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amr, a customer who sends a simple email question: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the answer you would write to a simple email.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Answers in one or two sentences; Closes politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1328,7 +1328,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Jana, a customer on a chat window: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Start a chat with a greeting and a question.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets with name; Asks how to help; Keeps sentences short.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1362,7 +1362,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Walid, a customer who needs a call back: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say you will call back and say when.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"I will call you back\"; Gives a time; Asks for the number.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1396,7 +1396,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Reda, a customer about a late order: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a short whole call about a late order.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Gives news and apologises; Closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1430,7 +1430,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Malak, a customer changing a booking: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a short whole call to change a booking.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Changes it; Confirms and closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1464,7 +1464,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Youssef, a customer with a wrong item: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a short whole call about a wrong item.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Apologises; Says next step and closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1498,7 +1498,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Farida, a customer asking about her bill: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a short whole call about a simple bill question.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets and checks name; Answers; Closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1534,7 +1534,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a customer whose internet is 'not working' but gives few details: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask at least three open questions to find out what is wrong.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses open questions (What, When, How); Does not interrupt the customer; States the problem clearly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1568,7 +1568,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Karim, a customer explaining a billing issue with a long story: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Summarise the problem in your own words and check it is right.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises in one or two sentences; Uses a check phrase ('Is that right?'); Fixes the summary if told no.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1602,7 +1602,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a worried customer whose parcel is missing: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Calm the customer and say what you will do.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Shows understanding ('I understand'); Speaks slowly and clearly; States one clear next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1636,7 +1636,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Tamer, a customer who does not know his order number: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for the order number and offer another way to find it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks politely for the number; Offers another contact option; Repeats details back correctly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1670,7 +1670,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hassan, a customer at the end of a call, issue now solved: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Summarise what was done and check there is nothing else.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises the actions; Asks 'Anything else?'; Closes warmly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1704,7 +1704,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mariam, a customer waiting for a decision from another team: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Promise a call back with a time and keep to it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a specific time; Says who will call; Thanks the customer for waiting.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1738,7 +1738,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Your supervisor, who asks you to write the follow-up email for a solved case: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say aloud the follow-up email you would write: greeting, summary, next step, close.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Has all four parts; Short clear sentences; Polite closing.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1772,7 +1772,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Two customers on chat at the same time: one asks about delivery, one about a refund: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Keep both customers informed and do not mix them up.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Answers each by name; Gives a wait time when needed; Stays polite and short.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1806,7 +1806,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Colleague Ahmed in billing, who will take over a customer call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Transfer the call: tell the customer, then give the colleague a clear summary.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Tells the customer who and why; Gives a short summary to the colleague; Stays on the line to hand over.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1840,7 +1840,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sara, a customer who wants a supervisor after two failed calls: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain you will escalate and what the supervisor will do.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays polite and does not argue; Explains the escalation steps; Gives a time and a reference number.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1874,7 +1874,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Walid, a customer who was told the wrong delivery date: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Own the mistake, give the right information and say how you will help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Admits the mistake clearly; Gives the correct information; Offers a fair way to put it right.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1908,7 +1908,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dalia, a customer whose router lights are red: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Guide her through three simple steps and check each one.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives steps one at a time; Checks after each step; Offers another way if it fails.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1942,7 +1942,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nour, a customer who wants to return an item after 40 days: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain the return policy in simple clear words.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the rule clearly; Gives the reason; Suggests what the customer can still do.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1976,7 +1976,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sami, a customer surprised by a new fee: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a fee and why it exists.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the fee and the amount; Gives a short reason; Responds politely to the objection.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2010,7 +2010,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dina, a customer asking for something outside the rules: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say no politely and offer an alternative.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses a soft opening ('Unfortunately'); Gives a reason; Offers an alternative.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2044,7 +2044,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ola, a customer whose delivery is late because of a stock problem: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a delay honestly and give a new date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains the cause simply; Gives a realistic new date; Offers something to make up for it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2078,7 +2078,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rami, a customer who wants a specific phone model colour that is out of stock: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Find out exactly what he wants and offer the closest options.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks what matters most to him; Offers two clear alternatives; Confirms the choice.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2112,7 +2112,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a customer who wants to change her address on the account: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Verify her identity politely before you help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains why you must check; Asks two security questions politely; Checks identity before sharing details.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2146,7 +2146,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Fady, a customer charged twice this month: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Find out what happened and explain what you will fix.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Confirms the amount and date; Explains the cause or next step simply; Gives a time for the correction.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2180,7 +2180,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rana, a customer who does not understand the difference between two plans: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain two plans simply and help her choose.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares the plans in simple words; Asks about her needs; Recommends one with a reason.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2214,7 +2214,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a customer complaining about a broken product: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Listen, then show you understand before you answer.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lets the customer finish; Uses a phrase of understanding; Asks one question about the details.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2248,7 +2248,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Youssef, a customer waiting two weeks for a repair: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a sincere apology without making excuses.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry clearly and once; Names the problem specifically; Moves to what happens next.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2282,7 +2282,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Laila, a customer with a faulty phone charger: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Offer a solution and explain what the customer needs to do.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Offers a clear solution; Explains the steps in order; Checks the customer agrees.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2316,7 +2316,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Adam, a customer who wants his money back: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Offer a choice between a refund and a replacement and explain each.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes both options; Gives one honest time frame; Lets the customer decide.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2354,7 +2354,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Omar, a customer charged an extra fee on his bill and a little angry: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call: greet, verify, listen, clarify, explain, close.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets and verifies before details; Listens and clarifies the problem; Explains the charge and the next step; Recaps and closes politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2392,7 +2392,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nadia, a customer whose parcel has not arrived: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call: find the order, give a date, offer an option, close.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Verifies and finds the order; Gives an honest date; Offers an option; Recaps and closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2430,7 +2430,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Khaled, a customer with a broken product still under warranty: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call: understand the problem, explain warranty, agree a solution.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks clear questions; Explains the warranty simply; Agrees a solution and steps; Recaps and closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2468,7 +2468,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Reem, a customer who wants to change the name and address on her account: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call with a careful identity check.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains the security check; Checks identity before changes; Confirms the change aloud; Recaps and closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2504,7 +2504,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Fouad, a very angry customer whose internet has been down for three days: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Stay calm, acknowledge the anger and move to a plan.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Acknowledges feelings first; Keeps a calm steady tone; Moves to a clear plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2538,7 +2538,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ms Gamila, a customer who is rude and raises her voice: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Stay professional and bring the call back to the issue.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Does not copy the tone; Uses her name; Returns to the issue politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2572,7 +2572,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Tarek, a customer who wants something you cannot give: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say no and offer two choices.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says no clearly and kindly; Gives a reason; Offers two real choices.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2606,7 +2606,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Samar, a customer who asks for a supervisor: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Respond to the request without losing the customer.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Offers to help first; Explains the escalation; Gives a time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2640,7 +2640,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Colleague Huda, who takes over a case: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Hand over a case so she can continue without asking the customer again.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives name and issue; Gives what was done; Gives the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2674,7 +2674,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Team lead Sherif, in a team meeting: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Report a problem that keeps happening.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the problem with numbers; Gives examples; Asks for action.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2708,7 +2708,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Team lead Sherif, in the same meeting: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Suggest one improvement and give your reasons.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the suggestion; Gives two reasons; Answers a question.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2742,7 +2742,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Manager Amal, in a monthly review: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about your results and what you will do next month.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives results; Explains one challenge; Sets a goal.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2776,7 +2776,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ayman, a customer with a problem that needs four steps: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a multi-step fix in order.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives an overview first; Explains steps in order; Checks after each step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2810,7 +2810,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dalia, a customer who expects a result tomorrow that is not possible: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Manage her expectations honestly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what is possible; Says what is not; Offers the best next date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2844,7 +2844,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hazem, a customer who needs another team: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Escalate to another team and tell him what happens.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains why; Summarises the case for the team; Gives a reference and time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2878,7 +2878,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nesma, a customer waiting for an update: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a clear update and the next date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States what changed; States what is next; Gives a date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2912,7 +2912,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a customer who asks which channel is best: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Choose the best channel for her problem and explain why.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares phone, chat and email; Matches to her problem; Explains in simple words.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2946,7 +2946,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, who wrote a long complaint email: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the reply you would write to a long complaint.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks and apologises; Answers each point; Gives next step and close.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2980,7 +2980,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ola, who posted a complaint on social media: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Reply publicly in short and move to private help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Short and polite; No private details; Invites a private message.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3014,7 +3014,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Reviewer Zaki, who left a one-star review: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Reply to a bad review in a calm and honest way.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks for feedback; Acknowledges the issue; Offers to fix it offline.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3048,7 +3048,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Khalil, who shouts and uses insults: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Set a limit and be ready to end the call.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives one warning; Says the limit calmly; Ends politely if it continues.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3082,7 +3082,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mrs Sabah, an older customer who feels confused: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Slow down, simplify and check she understands.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Slows down; Uses simple words; Checks every step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3116,7 +3116,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Chen, a customer with limited English: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Make yourself understood in simple clear English.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Short sentences; No idioms; Checks understanding.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3150,7 +3150,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Rafat, who lost money because of a wrong answer from the company: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take responsibility and say how you will make it right.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Admits the mistake; Explains the fix; Offers fair compensation.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3184,7 +3184,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Adel, a customer who wants to cancel his plan: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Find out why and offer a fair option.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks why; Does not push; Offers a fair option.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3218,7 +3218,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rania, a customer who may take a better plan: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Recommend a better plan without pressure.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about needs; Explains benefits; Lets her decide.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3252,7 +3252,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sayed, a customer who says everything is too expensive: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Respond to a price objection.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Acknowledges the concern; Explains the value; Offers an alternative.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3286,7 +3286,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Maged, a customer who asks for a discount: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Offer a fair compromise you are allowed to give.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains limits; Offers a compromise; Confirms agreement.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3320,7 +3320,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call with Mr Fouad, angry about a repeated fault and a refund: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call from greeting to a refund decision.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Verifies and listens; Explains options; Recaps and closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3354,7 +3354,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call with Adel, who wants to cancel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call and try to keep him fairly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks why; Offers options; Respects his decision.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3388,7 +3388,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call with Mr Khalil, who is rude: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call, set a limit and finish professionally.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Sets a limit; Recaps and closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3422,7 +3422,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call with Hazem, a complex case needing a hand-over: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call and hand the case over.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains steps; Hands over clearly; Updates the customer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3458,7 +3458,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ms Reem, a customer who has been let down twice: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take full ownership without blaming others.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses \"I\" and \"we\"; No excuses; States clear actions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3492,7 +3492,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hakim, whose trust is broken after a failure: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Rebuild trust with specific promises you can keep.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the failure; Makes specific promises; Gives dates.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3526,7 +3526,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Public customer Ms Lamia, complaining online with many followers: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Respond to a public complaint with tact and precision.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Calm professional tone; Facts only; Moves to a private channel.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3560,7 +3560,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Anwar, who needs to hear bad news: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say a hard thing softly and clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear message; Soft wording; Offers support.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3594,7 +3594,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Key client Mr Basil, who asks for better service levels: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Discuss service levels and what is possible.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains current levels; Names what can change; Asks his priorities.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3628,7 +3628,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Client Ms Shaza, who asks for an exception: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Grant an exception and record the conditions.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States conditions; Explains why now; Confirms in writing.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3662,7 +3662,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Client Mr Nader, who wants more than you can give: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Hold a firm line with respect.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear no; Reason; Alternative.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3696,7 +3696,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Client Ms Dalal, ready to sign: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Close an agreement and confirm each point.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises terms; Checks agreement; States next steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3730,7 +3730,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as New agent Hossam, who struggles with angry customers: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Coach him with specific feedback.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Positive start; Specific example; Practice plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3764,7 +3764,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Manager Dr Salah, in a quarterly meeting: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Present customer feedback with evidence.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear structure; Uses numbers; Gives a recommendation.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3798,7 +3798,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Director Ms Ghada, who asks about a trend: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a trend in the data and what it means.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the trend; Gives reasons; Gives a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3832,7 +3832,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Executive Mr Ayad, who sits on a service committee: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Propose a service change and defend it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the change; Benefits and risks; Answers objections.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3866,7 +3866,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sameh, who cannot use a service during an outage: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Announce an outage with clarity and empathy.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what happened; Says what you do; Gives next update time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3900,7 +3900,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Customer Ms Iman, worried about her data: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Handle a privacy concern correctly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Takes it seriously; Says what you can and cannot say; Gives the process.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3934,7 +3934,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Customer Mr Karam, who threatens legal action: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Respond calmly without admitting what you cannot.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Does not argue; Passes to the right team.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3968,7 +3968,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Complaints office Ms Nahed, who needs a formal reply: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the formal written response you would send.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Formal tone; Clear facts; Next steps and contact.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4002,7 +4002,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as VIP client Mr Selim, who expects personal service: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Personalise your service and show you remember him.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses his history; Anticipates needs; Offers a direct contact.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4036,7 +4036,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Survey manager Ms Hoda: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for survey feedback and explain how you use it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks politely; Explains purpose; Thanks.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4070,7 +4070,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Customer Mrs Wafaa, who gives praise and offers a referral: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Receive praise graciously and handle a referral.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks; Does not oversell; Explains how referrals work.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4104,7 +4104,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Supervisor Mr Emad, reviewing a long case: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Close and document a long case clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises the timeline; Records decisions; States follow-up.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4138,7 +4138,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call with key client Mr Basil, who has a serious complaint: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call at a senior level.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Verifies and listens; Offers tailored options; Recaps with commitments.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4172,7 +4172,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call during an outage with Mr Sameh: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call and inform clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Empathy; Clear facts; Next update time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4206,7 +4206,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call with Ms Iman, a privacy concern: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call correctly and safely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Verifies identity; Handles data carefully; Records the case.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -4240,7 +4240,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Full call with Ms Shaza, a negotiated exception: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run the whole call and agree conditions.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Negotiates; Confirms in writing.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],

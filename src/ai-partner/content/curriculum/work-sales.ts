@@ -34,7 +34,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Layla, a shopper who walks in: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Welcome her and say your name.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says welcome; Says own name; Offers help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -68,7 +68,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer who asks what the shop sells: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say in simple words what you sell.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the product; Uses a simple sentence; Speaks clearly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -102,7 +102,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sondos, a shopper leaving: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Thank her and say goodbye.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says thank you; Says goodbye; Invites her back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -136,7 +136,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Wael, a caller who asks about the company: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the name of your company.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the company; Says own name; Repeats if asked.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -170,7 +170,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a caller who asks for sales: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Answer and say your name and company.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says company and name; Asks how to help; Polite tone.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -198,13 +198,13 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Checks it",
-      "hint": "Full: checks it with the customer. Partial: skips the check. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks whether the summary is right, for example \"Did I get that right?\" Partial: says \"okay?\" only. None: does not check. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
      "Open the scene in character as Layla, a caller who wants a callback: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for her name and spell it back.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks the name; Spells it back; Checks it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -232,13 +232,13 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Checks it",
-      "hint": "Full: checks it with the customer. Partial: skips the check. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks whether the summary is right, for example \"Did I get that right?\" Partial: says \"okay?\" only. None: does not check. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a caller who leaves a number: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take the number and repeat it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the number; Repeats it in groups; Checks it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -266,13 +266,13 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer. Partial: forgets. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: thanks her sincerely and specifically. Partial: short thanks. None: none. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
      "Open the scene in character as Yara, a caller waiting for a call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say you will call her and when.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"We will call you\"; Gives a time; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -306,7 +306,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a buyer who points at a product: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Name a product and one thing about it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the product; Says a colour or size; Uses \"This is\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -340,7 +340,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dina, a buyer who asks the price: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the price clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the number; Says the currency; Speaks slowly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -374,7 +374,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer comparing two items: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe two products with simple words.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses two adjectives; Compares two items; Clear words.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -398,7 +398,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Offers an option",
-      "hint": "Full: offers another option. Partial: none. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: offers one new option to move forward. Partial: repeats the old position. None: none. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Polite tone",
@@ -408,7 +408,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rania, a buyer who wants an item: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say yes or no and what you have.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Answers yes or no; Offers an option; Polite tone.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -436,13 +436,13 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Checks it",
-      "hint": "Full: checks it with the customer. Partial: skips the check. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks whether the summary is right, for example \"Did I get that right?\" Partial: says \"okay?\" only. None: does not check. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer ordering a few items: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask how many and repeat the number.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks how many; Repeats the number; Checks it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -476,7 +476,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a buyer who asks for the total: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the total price.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the total; Says the currency; Speaks clearly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -510,7 +510,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a buyer at the counter: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask how they want to pay.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks cash or card; Takes the answer; Says thank you.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -544,7 +544,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nadia, a buyer who is leaving: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a receipt and say thank you.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"Here is your receipt\"; Says thank you; Says goodbye.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -580,7 +580,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a buyer who asks what a product is for: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what the product is for.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what it is for; Uses short sentences; Clear words.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -614,7 +614,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a buyer who asks about options: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe size, colour and material.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives size; Gives colour; Gives material.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -648,7 +648,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a buyer who asks about the condition: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say if the product is new or used.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says new or used; Gives one detail; Honest tone.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -672,7 +672,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Full: gives a clear reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a clear reason for the request. Partial: unclear. None: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Does not push",
@@ -682,7 +682,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a buyer who cannot choose: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Compare two products simply.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares two items; Gives a reason; Does not push.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -716,7 +716,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Layla, a buyer whose order is late: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say sorry and give a new date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Gives a new date; Says what you do next.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -750,7 +750,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a buyer who got a broken item: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say sorry and offer a new one.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Offers a replacement; Says how long.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -784,7 +784,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a buyer who got the wrong colour: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say sorry and fix it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Offers to fix it; Confirms the plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -808,7 +808,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: sums up the key points in two or three short sentences and checks them. Partial: repeats one point. None: no summary. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says goodbye",
@@ -818,7 +818,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a buyer at the end of a call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Close the call helpfully.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Offers more help; Summarises; Says goodbye.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -842,7 +842,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Gives the reason",
-      "hint": "Full: gives the reason for calling. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a short honest reason. Partial: reason unclear. None: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks if it is a good time",
@@ -852,7 +852,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a past buyer you call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Call, say who you are and why.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says name and company; Gives the reason; Asks if it is a good time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -876,7 +876,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Gives the reason",
-      "hint": "Full: gives the reason for calling. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a short honest reason. Partial: reason unclear. None: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Leaves a number",
@@ -886,7 +886,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Voicemail of Mr Hamdy: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Leave a short clear message.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says name and company; Gives the reason; Leaves a number.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -920,7 +920,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a buyer you write to by chat: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Write or say a short message with an offer.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets her; States the offer; Closes politely.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -954,7 +954,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a buyer who just paid: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Thank him after the sale.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks him; Confirms the order; Offers help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -988,7 +988,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a buyer who wants three items: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take the order and repeat it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists the items; Repeats the quantity; Confirms the total.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1022,7 +1022,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rasha, a buyer who asks about delivery: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say how long and how much.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives the time; Gives the cost; Checks the address.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1050,13 +1050,13 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Confirms",
-      "hint": "Full: confirms the details. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: confirms the deal and the next step. Partial: only \"okay\". None: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer who wants to change the size: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Change the order and confirm.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Understands the change; Repeats the new order; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1090,7 +1090,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dalia, a buyer who wants an item you do not have: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say it is out of stock and offer another.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says it is out of stock; Offers another; Says when it returns.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1124,7 +1124,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer who asks for a discount: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the price and the discount.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives the price; Gives the discount; Polite tone.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1158,7 +1158,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a buyer who hears about an offer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a simple offer.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the offer; Gives the end date; Checks she understood.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1192,7 +1192,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer who likes the offer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a two-for-one offer.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains the offer; Gives the total; Checks the deal.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1226,7 +1226,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Huda, a buyer on a small budget: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Offer a cheaper product.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Offers a cheaper item; Says the difference; Does not push.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1248,7 +1248,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks open questions",
-      "hint": "Full: asks open questions (What, How, Why). Partial: only closed ones. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks questions that start with what, how or why. Partial: mixes in yes or no questions. None: only closed questions. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Listens and follows up",
@@ -1262,7 +1262,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer with a vague need: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask open questions to find what he needs.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks open questions; Listens and follows up; Summarises the need.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1296,7 +1296,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a buyer with a small budget and high hopes: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Find out her top priority.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about priorities; Checks budget; Repeats the priority.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1330,7 +1330,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer who explains a long story: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Check you understood.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Paraphrases; Asks if correct; Fixes the gap.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1350,7 +1350,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm throughout. Partial: shaky. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: keeps a steady tone under pressure, no defensive words, short sentences. Partial: one tense moment. None: loses calm. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks one helpful question",
@@ -1364,7 +1364,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a buyer who is not sure yet: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Help her without pushing.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Asks one helpful question; Offers a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1398,7 +1398,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a buyer in a demo: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Walk through a simple demo.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Explains steps in order; Links to his need; Checks questions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1432,7 +1432,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dina, a buyer who wants proof: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Use a short example of another customer.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a clear example; Keeps it short; Links to her case.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1466,7 +1466,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a buyer with a technical question: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Answer clearly without jargon.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Answers directly; Avoids jargon; Checks he understood.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1500,7 +1500,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Layla, a buyer who asks something you do not know: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say you will find out and when.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says you will find out; Gives a time; Follows up.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1528,13 +1528,13 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Offers an option",
-      "hint": "Full: offers another option. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: offers one new option to move forward. Partial: repeats the old position. None: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer who says it is too expensive: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Respond to the price objection.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Acknowledges the concern; Explains the value; Offers an option.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1554,7 +1554,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm throughout. Partial: shaky. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: keeps a steady tone under pressure, no defensive words, short sentences. Partial: one tense moment. None: loses calm. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks what worries her",
@@ -1562,13 +1562,13 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Agrees a next step",
-      "hint": "Full: agrees a next step. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: agrees one practice step with the person. Partial: suggests it. None: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Mona, a buyer who is hesitating: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Handle \"I need to think\".",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Asks what worries her; Agrees a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1602,7 +1602,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a buyer who compares prices: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Answer a price comparison.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Does not attack the competitor; Explains the difference; Keeps trust.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1636,7 +1636,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a buyer asking for a better price: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Offer a fair discount.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the limit; Asks for something in return; Confirms the deal.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1670,7 +1670,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a buyer who needs a laptop for work: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Recommend a product that fits.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Links the need to the product; Gives one benefit; Checks fit.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1704,7 +1704,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rasha, a buyer who asks why this model: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a feature as a benefit.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the feature; Says the benefit; Uses an example.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1738,7 +1738,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer between two plans: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Compare two options fairly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares clearly; Gives pros and cons; Lets him choose.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1772,7 +1772,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Huda, a buyer who asks if it can do something it cannot: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what a product cannot do.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says honestly; Offers an alternative; Keeps trust.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1806,7 +1806,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a buyer who has not replied: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Follow up politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reminds him of the quote; Asks one question; Keeps it short.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1826,11 +1826,11 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks open questions",
-      "hint": "Full: asks open questions (What, How, Why). Partial: only closed ones. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks questions that start with what, how or why. Partial: mixes in yes or no questions. None: only closed questions. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Listens",
-      "hint": "Full: listens without interrupting. Partial: interrupts. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: lets the other person finish and reflects the point, for example \"So the delivery was late twice.\" Partial: interrupts once. None: talks over them. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers help",
@@ -1840,7 +1840,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rasha, a buyer a week after buying: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Check she is happy.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks open questions; Listens; Offers help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1864,17 +1864,17 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Asks clearly",
-      "hint": "Full: asks clearly. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: makes one clear ask with a date. Partial: asks vaguely. None: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Accepts a no",
-      "hint": "Full: accepts a no politely. Partial: pushes. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: accepts a no gracefully, for example \"That is fine, the offer stays open.\" Partial: asks once more. None: pushes. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a happy buyer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for a referral politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks him first; Asks clearly; Accepts a no.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1894,21 +1894,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer. Partial: forgets. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: thanks her sincerely and specifically. Partial: short thanks. None: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for feedback",
-      "hint": "Full: asks for feedback. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks why she is leaving without defending. Partial: asks but argues. None: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Leaves the door open",
-      "hint": "Full: leaves the door open for later. Partial: closes it. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: leaves a clear way back, for example \"You are welcome to come back.\" Partial: vague. None: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Huda, a buyer who chose another company: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Close a lost sale well.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks her; Asks for feedback; Leaves the door open.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1928,7 +1928,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: sums up the key points in two or three short sentences and checks them. Partial: repeats one point. None: no summary. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for the order",
@@ -1942,7 +1942,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer who seems ready: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for the order politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises; Asks for the order; Waits for a reply.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1976,7 +1976,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a buyer who says yes: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Agree the next steps clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists the steps; Gives dates; Checks she agrees.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2010,7 +2010,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer paying by phone: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Take payment details carefully.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks step by step; Repeats safely; Confirms the total.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2030,7 +2030,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer. Partial: forgets. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: thanks her sincerely and specifically. Partial: short thanks. None: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Sets a follow-up",
@@ -2044,7 +2044,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a buyer who has just bought: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Thank her and plan a follow-up.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks her; Sets a follow-up; Closes warmly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2066,21 +2066,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says the aim",
-      "hint": "Full: states the aim of the call. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states why they called and what the call should achieve, for example \"I would like to understand your needs and see if we can help.\" Partial: greets and starts asking questions with no stated aim. None: no purpose given. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Agrees the time",
-      "hint": "Full: agrees how long the call will take. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: checks the time available, for example \"Do you have ten minutes?\", and keeps to it. Partial: mentions time but does not check it. None: ignores time. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Asks a first question",
-      "hint": "Full: opens with a good first question. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks an open question about the buyer's work, for example \"How do you handle this today?\" Partial: asks a yes or no question. None: no question. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a manager on a first call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Open a discovery call: state the aim, agree that you have only ten minutes, and ask a first open question.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the aim; Agrees the time; Asks a first question.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2100,21 +2100,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses follow-ups",
-      "hint": "Full: asks follow-up questions. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: builds on the buyer's last answer, for example \"You said it is slow, what causes that?\" Partial: asks a new question that ignores the answer. None: no follow-up. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Asks about impact",
-      "hint": "Full: asks about the impact of the problem. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks what the problem costs, for example \"What does that cost you each month?\" Partial: asks about the problem but not its effect. None: does not ask. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: sums up the key points in two or three short sentences and checks them. Partial: repeats one point. None: no summary. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Dalia, a manager with an unclear problem: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Her problem is unclear: ask follow-up questions until she names the problem, then ask what it costs her.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses follow-ups; Asks about impact; Summarises.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2134,21 +2134,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks who decides",
-      "hint": "Full: asks who decides. Partial: assumes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks politely who decides, for example \"Who else would be part of this decision?\" Partial: hints without asking. None: does not ask. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Stays polite",
-      "hint": "Full: stays polite. Partial: slips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: polite and respectful even when pressed, using phrases like \"I understand\" and \"Thank you\". Partial: one blunt moment. None: rude or dismissive. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Plans to include them",
-      "hint": "Full: plans to include the decision maker. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: suggests a clear way to bring the decision maker in, for example \"Could we set up a short call with her?\" Partial: vague, for example \"maybe later\". None: no plan. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a contact who is not the decision maker: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Your contact does not decide: ask politely who does, and plan how to bring that person in without going around him.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks who decides; Stays polite; Plans to include them.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2168,21 +2168,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: sums up the key points in two or three short sentences and checks them. Partial: repeats one point. None: no summary. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Uses her words",
-      "hint": "Full: reuses the customer's own words. Partial: own words only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: repeats the buyer's own key words back, for example \"You called it a bottleneck.\" Partial: paraphrases with different words. None: ignores her words. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks it",
-      "hint": "Full: checks it with the customer. Partial: skips the check. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks whether the summary is right, for example \"Did I get that right?\" Partial: says \"okay?\" only. None: does not check. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mona, a manager after a long call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: After a long call, sum up her needs in her own words, then check that you have understood them correctly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises; Uses her words; Checks it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2202,21 +2202,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the need",
-      "hint": "Full: states the need. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: opens the email with the buyer's need in one sentence. Partial: mentions the product first. None: need not stated. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives the offer",
-      "hint": "Full: gives the offer. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states what is offered, with one price or scope. Partial: offer is vague. None: no offer. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives the next step",
-      "hint": "Full: gives the next step. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: ends with one clear next step and a date, for example \"I will call you on Thursday.\" Partial: says \"let me know\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer who asked for a proposal: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He asked for a proposal: state his need, give the offer with one price, and end with a clear next step and date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the need; Gives the offer; Gives the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2236,21 +2236,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens with the need",
-      "hint": "Full: opens with the customer's need. Partial: opens with self. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: starts with the buyer's problem before the product. Partial: starts with the product. None: no clear opening. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Walks through options",
-      "hint": "Full: walks through options. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: explains two options with one difference each, then compares. Partial: one option only. None: reads a list without explaining. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Asks for a decision",
-      "hint": "Full: asks for a decision. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks directly for a decision and a date. Partial: asks \"what do you think?\" only. None: no ask. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Rasha, a buyer on a video call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Present a proposal on a video call: start with her need, walk through two options, and ask for a decision.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens with the need; Walks through options; Asks for a decision.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2270,21 +2270,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a reason to reply",
-      "hint": "Full: gives a reason to reply. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a real reason to answer now, for example a deadline or new fact. Partial: only \"just checking in\". None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Is brief",
-      "hint": "Full: is brief. Partial: long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: short and easy to scan, two to four sentences. Partial: a little long. None: long and unfocused. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a time",
-      "hint": "Full: offers a time. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers a specific time to talk, for example \"Tuesday at 10?\" Partial: \"sometime this week\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer who is silent: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He has been silent for a week: write a brief chaser that gives one reason to reply and offers a time to talk.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a reason to reply; Is brief; Offers a time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2304,21 +2304,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Reviews results",
-      "hint": "Full: reviews results. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: reviews real results with at least one figure. Partial: general words like \"it went well\". None: no review. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Asks about plans",
-      "hint": "Full: asks about plans. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks about the buyer's goals for the next period. Partial: asks one narrow question. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers next steps",
-      "hint": "Full: offers next steps. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers one or two concrete next steps with owners. Partial: vague offer. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Huda, an existing customer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Run a ten-minute review with an existing customer: review the results, ask about her plans, and offer next steps.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reviews results; Asks about plans; Offers next steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2338,21 +2338,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses figures",
-      "hint": "Full: uses figures. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: uses at least two figures that fit the buyer's goal, for example \"a 12 percent saving\". Partial: one figure. None: no numbers. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Links to his goal",
-      "hint": "Full: links to his goal. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: connects the value to the buyer's own stated goal. Partial: talks about general benefits. None: no link. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Stays honest",
-      "hint": "Full: stays honest. Partial: stretches the truth. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: does not overclaim, for example \"In similar cases we saw about 10 percent.\" Partial: one strong claim without evidence. None: exaggerates. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a manager who wants savings: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He wants savings: present your value with at least two figures and link it to his own goal, without overclaiming.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses figures; Links to his goal; Stays honest.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2372,21 +2372,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives context",
-      "hint": "Full: gives the context briefly. Partial: too long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: sets the customer's situation in one or two sentences. Partial: skips who or why. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives the action",
-      "hint": "Full: gives the action taken. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says what was done, step by step. Partial: vague. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives the result",
-      "hint": "Full: gives the result. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states a measurable result. Partial: result without a number. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Heba, a manager who wants proof: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She wants proof: tell a short customer story with context, the action, and a result she can measure.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives context; Gives the action; Gives the result.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2406,21 +2406,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens clearly",
-      "hint": "Full: opens clearly. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: opens with the topic, the plan and the time. Partial: only a greeting. None: starts without a frame. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Looks to all",
-      "hint": "Full: addresses everyone in the room. Partial: one person. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: addresses all three people, for example uses names or \"and you\". Partial: speaks to one person. None: ignores the group. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Handles one question",
-      "hint": "Full: answers one question well. Partial: dodges. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: answers the question directly and returns to the point. Partial: answers but loses the thread. None: avoids it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Tarek and two colleagues: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Present to three people: open clearly, look to all of them, and answer one question without losing your thread.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens clearly; Looks to all; Handles one question.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2440,21 +2440,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm throughout. Partial: shaky. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: keeps a steady tone under pressure, no defensive words, short sentences. Partial: one tense moment. None: loses calm. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives evidence",
-      "hint": "Full: backs the challenge with a specific fact, figure or case, like \"Our last three clients saved 12 percent.\" Partial: says \"studies show\" with no detail. None: opinion only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: supports a claim with a fact, figure or example. Partial: says \"trust me\" or uses a general claim. None: no evidence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Admits limits",
-      "hint": "Full: admits limits honestly. Partial: hides. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says what is unknown or outside scope and offers to check, for example \"I will confirm and come back.\" Partial: avoids the question. None: bluffs. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Rania, a manager who challenges your claim: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She challenges your claim: stay calm, answer with evidence, and say honestly what you do not know.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Gives evidence; Admits limits.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2474,21 +2474,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Links to his use",
-      "hint": "Full: links to how he uses it. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: ties the upgrade to how he uses the product now. Partial: lists upgrade features. None: no link. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "States the benefit",
-      "hint": "Full: states the benefit. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states one clear benefit for him. Partial: lists features. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Accepts a no",
-      "hint": "Full: accepts a no politely. Partial: pushes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: accepts a no gracefully, for example \"That is fine, the offer stays open.\" Partial: asks once more. None: pushes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, a happy buyer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He is happy with the product: offer an upgrade that fits how he uses it, state the benefit, and accept a no.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Links to his use; States the benefit; Accepts a no.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2508,21 +2508,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Full: listens without interrupting. Partial: interrupts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: lets the other person finish and reflects the point, for example \"So the delivery was late twice.\" Partial: interrupts once. None: talks over them. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Takes ownership",
-      "hint": "Full: takes ownership. Partial: blames. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says \"I will handle this\" and avoids blame. Partial: apologises without owning it. None: blames others. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a plan",
-      "hint": "Full: gives a plan. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives steps with a date. Partial: steps without a date. None: no plan. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mona, an angry key buyer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: An angry key buyer calls: listen without interrupting, take ownership of the problem, and give a plan with a date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Takes ownership; Gives a plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2542,21 +2542,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Reviews value",
-      "hint": "Full: reviews value delivered. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: recalls specific value delivered, with a figure if possible. Partial: general. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Discusses terms",
-      "hint": "Full: discusses terms. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: discusses price, length and conditions clearly. Partial: one of them. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Agrees the date",
-      "hint": "Full: agrees the date. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: agrees a clear renewal or signing date. Partial: \"soon\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a buyer near renewal: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: His contract ends next month: review the value he got, discuss the terms, and agree a renewal date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reviews value; Discusses terms; Agrees the date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2576,21 +2576,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says no kindly",
-      "hint": "Full: says no kindly. Partial: blunt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says no clearly and warmly, for example \"I am sorry, we cannot do that.\" Partial: vague no. None: blunt or says yes by mistake. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives the reason",
-      "hint": "Full: gives the reason for calling. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a short honest reason. Partial: reason unclear. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers another way",
-      "hint": "Full: offers another way. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers a real alternative that helps. Partial: vague. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Amira, a buyer who asks for the impossible: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She asks for something you cannot do: say no kindly, give the reason, and offer another way that helps her.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says no kindly; Gives the reason; Offers another way.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2610,21 +2610,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States your position",
-      "hint": "Full: states their position clearly. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states what you want and your limit in one or two sentences. Partial: unclear limit. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Asks for his",
-      "hint": "Full: asks for his position. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks what the buyer needs and why. Partial: asks only \"what do you want?\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Stays friendly",
-      "hint": "Full: stays friendly. Partial: cold. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: warm tone while holding a position. Partial: cool once. None: hostile. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a buyer who wants better terms: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He wants better terms: state your position, ask for his, and keep the tone friendly from the first minute.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States your position; Asks for his; Stays friendly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2644,21 +2644,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"if you... then I...\"",
-      "hint": "Full: uses the \"If you..., then I...\" trade. Partial: gives without trade. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: uses an if-then trade, for example \"If you sign for two years, then I can lower the price.\" Partial: gives a discount first. None: gives in. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Names the trade",
-      "hint": "Full: names what is traded. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names what each side gives. Partial: names only one side. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Protects margin",
-      "hint": "Full: protects margin. Partial: gives away. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: keeps the price above the floor by trading, not cutting. Partial: weak. None: cuts without return. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Layla, a buyer asking for a discount: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She asks for a discount: use \"if you ... then I ...\" to trade it for something, and protect your margin.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"if you... then I...\"; Names the trade; Protects margin.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2678,21 +2678,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the issue",
-      "hint": "Full: names the issue. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names the real issue in neutral words. Partial: blames. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers an option",
-      "hint": "Full: offers another option. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers one new option to move forward. Partial: repeats the old position. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Pauses to think",
-      "hint": "Full: pauses to think. Partial: rushes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks for a short pause or says \"let me think about that\". Partial: answers fast and gives in. None: no pause. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a buyer who will not move: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He will not move: name the issue, offer one new option, and pause to think instead of giving in.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the issue; Offers an option; Pauses to think.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2712,21 +2712,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Lists the terms",
-      "hint": "Full: lists the terms. Partial: some. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: lists every agreed term clearly. Partial: lists some. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks each one",
-      "hint": "Full: checks each term. Partial: some. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: confirms each term with the buyer. Partial: one confirmation for all. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Plans the paper",
-      "hint": "Full: says what will be written and when. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says who sends the written agreement and by when. Partial: \"we will send it\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Dina, a buyer after a deal: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: After the deal, list the agreed terms, check each one with her, and plan the paperwork with a date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists the terms; Checks each one; Plans the paper.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2746,21 +2746,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks about the budget",
-      "hint": "Full: asks about the budget. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks about the budget range politely. Partial: asks about price only. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers options",
-      "hint": "Full: offers options. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers two options at different prices. Partial: one option. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Protects value",
-      "hint": "Full: protects value, not just price. Partial: drops price. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: explains what is lost when the price drops. Partial: weak. None: cuts value silently. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer with a fixed budget: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: His budget is fixed and lower than your price: ask about the budget, offer two options, and protect the value.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about the budget; Offers options; Protects value.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2780,21 +2780,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks why now is hard",
-      "hint": "Full: asks why now is hard. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks about the reason for the delay, for example \"What makes now difficult?\" Partial: accepts \"not now\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a small step",
-      "hint": "Full: offers a small first step. Partial: big ask. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers a smaller first step, for example a pilot. Partial: vague. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Agrees a date",
-      "hint": "Full: agrees a date. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: agrees a date to speak again. Partial: \"later\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Salma, a buyer who says \"not now\": greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She says \"not now\": ask why now is hard, offer a small first step, and agree a date to speak again.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks why now is hard; Offers a small step; Agrees a date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2814,21 +2814,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the risk",
-      "hint": "Full: names the risk. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names the buyer's risk in his words. Partial: general. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers proof",
-      "hint": "Full: offers proof. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers proof such as a case, reference or data. Partial: says \"we are reliable\". None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a trial or guarantee",
-      "hint": "Full: offers a trial or guarantee. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers a trial period or guarantee with clear terms. Partial: vague promise. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a buyer who fears risk: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He fears the risk: name the risk, offer proof, and offer a trial or guarantee he can accept.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the risk; Offers proof; Offers a trial or guarantee.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2848,21 +2848,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Respects the current supplier",
-      "hint": "Full: respects the current supplier. Partial: criticises. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: speaks respectfully about the other supplier. Partial: neutral. None: criticises. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Finds the gap",
-      "hint": "Full: finds the gap in the current supply. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks what the current supplier does not do well. Partial: guesses. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a test",
-      "hint": "Full: offers a test. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: offers a small low-risk test. Partial: vague. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
      "Open the scene in character as Amira, a buyer using another supplier: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She already uses another supplier: respect that choice, find the gap, and offer a small test, never attack the rival.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Respects the current supplier; Finds the gap; Offers a test.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2884,21 +2884,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Shares an insight",
-      "hint": "Full: shares an insight about the customer's market. Partial: generic. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: shares one fact or pattern that changes the buyer's view. Partial: common knowledge. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Checks it",
-      "hint": "Full: checks it with the customer. Partial: skips the check. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: asks whether the summary is right, for example \"Did I get that right?\" Partial: says \"okay?\" only. None: does not check. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Links to his goals",
-      "hint": "Full: links to his goals. Partial: generic. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: links the insight to his goals. Partial: general. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a director who sees the problem narrowly: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He sees the problem narrowly: share one insight that changes his view, check his reaction, and link it to his goals.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Shares an insight; Checks it; Links to his goals.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2918,21 +2918,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses soft language",
-      "hint": "Full: softens a challenge with phrases like \"I wonder if\", \"perhaps\", \"may I suggest\". Partial: polite words but a direct contradiction, like \"Perhaps, but you are wrong.\" None: blunt, like \"That is not true.\" Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: softens the challenge, for example \"I wonder if\", \"Could it be\". Partial: one softener. None: blunt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives evidence",
-      "hint": "Full: backs the challenge with a specific fact, figure or case, like \"Our last three clients saved 12 percent.\" Partial: says \"studies show\" with no detail. None: opinion only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: supports a claim with a fact, figure or example. Partial: says \"trust me\" or uses a general claim. None: no evidence. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Keeps respect",
-      "hint": "Full: acknowledges the buyer's view before disagreeing, like \"I understand why you see it that way.\" Partial: respectful at first, sharp later. None: dismissive. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: keeps respect while disagreeing. Partial: slightly dismissive. None: disrespectful. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Dina, a director who holds a wrong belief: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She holds a belief that is wrong: challenge it with soft language and evidence while keeping her respect.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses soft language; Gives evidence; Keeps respect.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2952,21 +2952,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses silence",
-      "hint": "Full: uses silence to let the buyer think. Partial: fills it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: leaves a natural pause after a question. Partial: fills the pause quickly. None: talks continuously. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Asks open questions",
-      "hint": "Full: asks open questions (What, How, Why). Partial: only closed ones. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: asks questions that start with what, how or why. Partial: mixes in yes or no questions. None: only closed questions. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reflects back",
-      "hint": "Full: reflects back what the buyer said. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: repeats the key part of the answer to invite more. Partial: nods. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a director who gives short answers: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He gives short answers: use silence and open questions, and reflect his words back until he opens up.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses silence; Asks open questions; Reflects back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2986,21 +2986,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses figures",
-      "hint": "Full: uses figures. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: uses at least two figures that fit the buyer's goal, for example \"a 12 percent saving\". Partial: one figure. None: no numbers. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States assumptions",
-      "hint": "Full: states assumptions. Partial: hidden. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says what the figures assume, for example \"This assumes 100 users.\" Partial: mentions one. None: hides them. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Links to risk",
-      "hint": "Full: links to risk. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: connects the case to the risk the buyer cares about. Partial: general. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Rania, a CFO who wants numbers: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: The CFO wants numbers: build a business case with figures, state your assumptions, and link it to her risk.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses figures; States assumptions; Links to risk.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3020,21 +3020,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Sets the aim",
-      "hint": "Full: sets the aim. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states the aim of the meeting at the start. Partial: vague. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Shares the floor",
-      "hint": "Full: shares the floor. Partial: dominates. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: invites each person to speak. Partial: invites one. None: monologue. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Agrees actions",
-      "hint": "Full: agrees actions. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: ends with actions, owners and dates. Partial: actions only. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Sherif and three team members: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Lead a ten-minute team call with four people: set the aim, share the floor, and agree actions with owners.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sets the aim; Shares the floor; Agrees actions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3054,21 +3054,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Starts with a strength",
-      "hint": "Full: starts with a real strength. Partial: criticism first. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: starts with a real, specific strength. Partial: general praise. None: starts with criticism. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives one point",
-      "hint": "Full: gives one point to improve. Partial: many. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives one clear point to improve, with an example. Partial: several points. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Agrees a next step",
-      "hint": "Full: agrees a next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: agrees one practice step with the person. Partial: suggests it. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Reem, a new seller after a bad call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: A new seller had a bad call: start with a real strength, give one clear point, and agree the next step with her.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Starts with a strength; Gives one point; Agrees a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3088,21 +3088,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the result",
-      "hint": "Full: states the result. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states the result with a number. Partial: no number. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Credits the team",
-      "hint": "Full: credits the team. Partial: self only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names people and what they did. Partial: \"the team\". None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Shares the lesson",
-      "hint": "Full: shares the lesson. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: shares one lesson others can use. Partial: vague. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, the sales manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Share a team win in two minutes: state the result with a number, credit the team by name, and share one lesson.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the result; Credits the team; Shares the lesson.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3122,21 +3122,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Owns it",
-      "hint": "Full: owns it. Partial: blames. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: owns the miss in the first sentence, no excuses. Partial: softens it. None: blames. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives the cause",
-      "hint": "Full: gives the cause. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives the real cause with facts. Partial: general. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives the plan",
-      "hint": "Full: gives the plan. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a clear plan with steps and dates, for example \"I will fix X by Friday and report on Monday.\" Partial: steps without dates. None: no plan. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a manager after a lost quarter: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: The quarter was lost: own the miss without excuses, give the real cause, and present a plan with dates.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Owns it; Gives the cause; Gives the plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3156,21 +3156,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Owns the problem",
-      "hint": "Full: owns the problem. Partial: blames. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says clearly the problem was theirs. Partial: partial apology. None: denies. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Makes specific promises",
-      "hint": "Full: makes specific promises. Partial: general. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: promises actions that can be checked. Partial: general promises. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Sets dates",
-      "hint": "Full: sets dates. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives dates for each promise. Partial: one date. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a key buyer who lost trust: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: A key buyer lost trust after your mistake: own the problem, make specific promises, and set dates you can keep.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Owns the problem; Makes specific promises; Sets dates.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3190,21 +3190,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a reason",
-      "hint": "Full: gives a clear reason. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a clear reason for the request. Partial: unclear. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Makes it easy",
-      "hint": "Full: makes the next step easy. Partial: hard. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: makes the request easy, for example offers a draft message. Partial: asks only. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer. Partial: forgets. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: thanks her sincerely and specifically. Partial: short thanks. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Amira, a champion in the company: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask your champion to introduce you to another team: give a reason, make it easy for her, and thank her.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a reason; Makes it easy; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3224,21 +3224,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Is honest",
-      "hint": "Full: is honest. Partial: evasive. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says plainly why prices rise. Partial: vague. None: hides it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains value",
-      "hint": "Full: explains value. Partial: price only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: explains the value he keeps or gains. Partial: general. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers options",
-      "hint": "Full: offers options. Partial: one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers two options at different prices. Partial: one option. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a buyer who hates price rises: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He hates price rises: explain the rise honestly, show the value he gets, and offer options that soften it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Is honest; Explains value; Offers options.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3258,21 +3258,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer. Partial: forgets. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: thanks her sincerely and specifically. Partial: short thanks. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Asks for feedback",
-      "hint": "Full: asks for feedback. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: asks why she is leaving without defending. Partial: asks but argues. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Leaves the door open",
-      "hint": "Full: leaves the door open for later. Partial: closes it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: leaves a clear way back, for example \"You are welcome to come back.\" Partial: vague. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Salma, a buyer who is leaving: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: A buyer is leaving: thank her, ask for honest feedback without defending, and leave the door open.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Thanks her; Asks for feedback; Leaves the door open.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3292,21 +3292,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens with the point",
-      "hint": "Full: opens with the point. Partial: story first. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: opens with the main point in one sentence. Partial: opens with background. None: no point. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Keeps to time",
-      "hint": "Full: keeps to time. Partial: runs over. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: finishes within the time. Partial: a little over. None: far over. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Closes with a request",
-      "hint": "Full: closes with a clear request. Partial: fades. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: closes with one clear request. Partial: vague. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Tarek and the executive team: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a five-minute pitch to the executive team: open with the point, keep to time, and close with one request.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens with the point; Keeps to time; Closes with a request.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3326,21 +3326,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm throughout. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: keeps a steady tone under pressure, no defensive words, short sentences. Partial: one tense moment. None: loses calm. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Answers briefly",
-      "hint": "Full: answers briefly. Partial: long. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: answers in one or two sentences. Partial: longer. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Returns to the point",
-      "hint": "Full: returns to the point. Partial: drifts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: returns to the main point, for example \"To come back to the key figure\". Partial: drifts. None: lost. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mona, an executive who interrupts: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: The executive keeps interrupting: stay calm, answer briefly each time, and return to your main point.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Answers briefly; Returns to the point.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3360,21 +3360,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Does not argue",
-      "hint": "Full: does not argue. Partial: argues. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: stays factual and does not defend, for example \"That is a fair concern. Here is the data.\" Partial: argues once. None: argues repeatedly. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Uses facts",
-      "hint": "Full: uses facts. Partial: opinion. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: answers with specific facts or figures. Partial: opinion. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Moves forward",
-      "hint": "Full: moves forward. Partial: stuck. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: moves the meeting on, for example \"Shall we look at the next step?\" Partial: stuck on the point. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Adel, an executive who attacks your offer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: An executive attacks your offer: do not argue, answer with facts, and move the meeting forward.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Does not argue; Uses facts; Moves forward.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3394,21 +3394,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: sums up the key points in two or three short sentences and checks them. Partial: repeats one point. None: no summary. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Asks clearly",
-      "hint": "Full: asks clearly. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: makes one clear ask with a date. Partial: asks vaguely. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Agrees a date",
-      "hint": "Full: agrees a date. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: agrees a date to speak again. Partial: \"later\". None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Layla, an executive at the end: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: The meeting is ending: summarise in two sentences, make one clear ask, and agree a date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises; Asks clearly; Agrees a date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3428,21 +3428,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Lists the issues",
-      "hint": "Full: lists the issues. Partial: some. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: lists all demands in short form. Partial: lists some. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Prioritises",
-      "hint": "Full: prioritises the issues. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: agrees which issues matter most with the buyer. Partial: picks alone. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Proposes a package",
-      "hint": "Full: proposes a package of terms. Partial: single point. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers one package that covers the main demands. Partial: handles them one by one. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Nabil, a buyer with five demands: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He brings five demands at once: list them, prioritise with him, and propose one package that covers the key ones.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists the issues; Prioritises; Proposes a package.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3462,21 +3462,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm throughout. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: keeps a steady tone under pressure, no defensive words, short sentences. Partial: one tense moment. None: loses calm. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Repeats the limit",
-      "hint": "Full: repeats the limit calmly. Partial: gives way. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: repeats the limit calmly in other words. Partial: weakens it. None: gives in. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers value",
-      "hint": "Full: offers value instead of price. Partial: price only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers value inside the limit. Partial: vague. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Salma, a buyer who pressures you: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She pressures you: hold your position politely, repeat your limit calmly, and offer value inside it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Repeats the limit; Offers value.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3496,21 +3496,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Notices the signal",
-      "hint": "Full: notices a buying or doubt signal. Partial: misses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: notices a tone or hesitation and names it. Partial: notices but ignores. None: misses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Checks it politely",
-      "hint": "Full: checks it politely. Partial: assumes. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: checks gently, for example \"I sense some hesitation, is that fair?\" Partial: blunt. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Adapts",
-      "hint": "Full: adapts the approach. Partial: continues the same. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: changes the approach after the signal. Partial: small change. None: no change. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a buyer who sounds uncertain: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: He sounds uncertain although he says yes: notice the signal, check it politely, and adapt your next step.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Notices the signal; Checks it politely; Adapts.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3530,21 +3530,21 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the concern",
-      "hint": "Full: names the concern. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names the last concern exactly. Partial: general. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Solves or trades",
-      "hint": "Full: solves the concern or trades. Partial: ignores. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: solves the concern or trades for it. Partial: partial answer. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Confirms",
-      "hint": "Full: confirms the details. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: confirms the deal and the next step. Partial: only \"okay\". None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
      "Open the scene in character as Heba, a buyer who has one last concern: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: She has one last concern before signing: name it, solve it or trade for it, and confirm the deal.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the concern; Solves or trades; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],

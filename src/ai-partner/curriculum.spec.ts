@@ -56,9 +56,7 @@ describe('curriculum data (review checks)', () => {
       const goals = lessons.map((l) => l.goal.toLowerCase());
       expect([p.id, titles.length - new Set(titles).size]).toEqual([p.id, 0]);
       expect([p.id, goals.length - new Set(goals).size]).toEqual([p.id, 0]);
-      if (!/customer|sales/.test(p.id)) {
-        lessons.forEach((l) => expect(l.targets.join(' ')).not.toContain("customer's replies"));
-      }
+      lessons.forEach((l) => expect(l.targets.join(' ')).not.toContain("customer's replies"));
     }
   });
 
