@@ -1,7 +1,7 @@
 /** Generated from the reviewed programme data (do not edit by hand; re-run the curriculum build). Draft until the owner approves each batch. */
 import type { CurriculumProgramme } from './types';
 
-export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
+export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
  "id": "interviews-customer-service-interview-english",
  "fieldId": "interviews",
  "title": "Customer Service Interview English",
@@ -573,7 +573,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
    },
    {
     "id": "iv-cs-a2-u2-l1",
-    "title": "I like helping people",
+    "title": "Why I like helping people",
     "unit": "Why this job",
     "description": "Say simply why you want a customer-service job.",
     "persona": "adams",
@@ -1877,7 +1877,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Samia, \"A customer wants a refund policy does not allow\"",
-    "goal": "Explain what you would do.",
+    "goal": "Explain how you would say no to a refund the policy does not allow.",
     "rubric": [
      {
       "label": "Says no kindly",
@@ -1894,7 +1894,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Samia, \"A customer wants a refund policy does not allow\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain what you would do.",
+     "Let the learner work toward this goal: Explain how you would say no to a refund the policy does not allow.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says no kindly; Offers alternatives; Respects policy.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1912,7 +1912,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Samia, \"A customer asks for a supervisor\"",
-    "goal": "Explain what you would do.",
+    "goal": "Explain how you would respond to a customer who asks for a supervisor.",
     "rubric": [
      {
       "label": "Offers help first",
@@ -1929,7 +1929,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Samia, \"A customer asks for a supervisor\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain what you would do.",
+     "Let the learner work toward this goal: Explain how you would respond to a customer who asks for a supervisor.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Offers help first; Escalates properly; Informs the customer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."

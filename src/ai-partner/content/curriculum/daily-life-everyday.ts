@@ -34,7 +34,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Layla, a neighbour you meet in the lift: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Greet her and say goodbye.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says hello; Says goodbye; Smiles in the voice.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -68,7 +68,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a new neighbour: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say your name and ask his.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says own name; Asks his name; Says nice to meet you.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -102,7 +102,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dina, a new friend: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say where you are from.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says country or city; Uses \"I am from\"; Asks back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -136,7 +136,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a friend you meet: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask and answer \"How are you?\".",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks how he is; Answers; Says thank you.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -170,7 +170,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Sondos, a friend who asks about your family: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say who is in your family.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names two people; Uses \"I have\"; Clear words.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -204,7 +204,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a friend who asks what people do: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say an age and a job.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says an age; Says a job; Uses short sentences.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -238,7 +238,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Yara, a friend who asks what you like: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you like and do not like.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"I like\"; Says \"I do not like\"; Gives one thing.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -272,7 +272,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a friend who asks about your best friend: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a friend simply.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives the name; Gives one fact; Says why you like him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -306,7 +306,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a shop assistant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for an item and the price.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the item; Asks the price; Says thank you.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -340,7 +340,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a waitress in a cafe: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Order a drink and say thank you.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Orders politely; Says size or type; Says thank you.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -374,7 +374,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a friend who asks what you eat: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you eat in a day.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names three foods; Uses \"I eat\"; Uses time words.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -408,7 +408,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a seller at a market: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask the price and pay.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks the price; Understands the number; Pays and thanks.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -442,7 +442,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a stranger who asks the time: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the time.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the hour; Says o'clock or half; Speaks clearly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -476,7 +476,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rania, a friend planning the week: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the day of a plan.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the day; Says one plan; Uses \"on\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -510,7 +510,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a man who asks the way: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say where a place is.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses \"next to\"; Uses \"on the left or right\"; Short and clear.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -544,7 +544,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a friend who asks about your day: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you do in the morning and evening.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses time words; Names two things; Uses simple verbs.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -580,7 +580,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a friend who wants to meet: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Make a plan for a day and a time.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Suggests a day; Suggests a time; Agrees.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -614,7 +614,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a friend who invites you: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Accept or say no politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says yes or no; Gives a reason; Stays friendly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -648,7 +648,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a friend you must tell: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Change a plan politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Gives a reason; Suggests another time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -682,7 +682,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a friend who asks about your weekend: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about a weekend and a hobby.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses past or future; Gives one detail; Asks back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -716,7 +716,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a waiter: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Order a meal with a drink.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Orders clearly; Asks one question; Thanks him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -750,7 +750,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a waiter at the end: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for the bill and pay.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the bill; Checks the total; Thanks him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -784,7 +784,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Reem, a shop assistant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for a size and colour.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for size; Asks for colour; Decides.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -818,7 +818,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a shop assistant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask to return or change an item.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the problem; Asks to change; Thanks him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -852,7 +852,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dr Hala, a doctor: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what is wrong.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"I have\"; Says where it hurts; Says how long.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -886,7 +886,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a pharmacist: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for medicine.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the medicine; Says the problem; Understands how to take it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -920,7 +920,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nadia, a receptionist: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Make a doctor's appointment.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for a time; Says the name; Repeats the time.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -954,7 +954,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a friend who asks about sport: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about food and sport.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says one habit; Gives a reason; Uses simple present.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -988,7 +988,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a friend who asks about your home: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe your home simply.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names rooms; Uses \"there is\"; Gives one detail.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1022,7 +1022,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a landlord on the phone: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what is broken and ask for help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what is broken; Says since when; Asks for help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1056,7 +1056,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Layla, a neighbour who hears noise: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say sorry and fix a small problem.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Gives a reason; Offers a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1090,7 +1090,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a clerk at the electric company: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask about a bill.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the question; Understands the amount; Asks how to pay.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1124,7 +1124,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a friend on the phone: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Start and end a phone call.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Says why you call; Says goodbye.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1158,7 +1158,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Voicemail of Sondos: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Leave a short clear message.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says your name; Gives the reason; Says a time to call.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1192,7 +1192,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Yara, a friend you write to: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Write or say a short message to a friend.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Gives the main point; Closes.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1226,7 +1226,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a friend on a bad line: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask someone to repeat.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says \"Sorry?\"; Asks to repeat; Repeats back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1262,7 +1262,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a person you meet at a party: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Start a conversation with a stranger.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says hello; Asks an open question; Listens.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1296,7 +1296,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a new friend: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Keep talking with follow-up questions.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks follow-up questions; Adds a detail; Shows interest.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1330,7 +1330,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a friend who asks about your week: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Tell a short story from this week.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses past tense; Gives a sequence; Adds a feeling.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1364,7 +1364,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a person at the end of a chat: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: End a chat politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a reason; Says nice to meet you; Suggests meeting again.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1398,7 +1398,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a friend who asks about a good day: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Tell a short story from the past.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses past tense; Uses linking words; Ends clearly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1432,7 +1432,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dina, a friend who asks about a holiday: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a holiday.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says where and when; Says what you did; Says how it felt.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1466,7 +1466,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a friend who asks about a bad day: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Tell what went wrong and what you did.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the problem; Says what you did; Says what you learned.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1500,7 +1500,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a friend who wants a laugh: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Tell a short funny story.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sets the scene; Builds up; Ends with the joke.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1534,7 +1534,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a friend who asks what you think: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give an opinion with a reason.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States an opinion; Gives a reason; Uses softeners.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1568,7 +1568,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rasha, a friend with another view: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Disagree politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses \"I see, but\"; Gives a reason; Stays friendly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1602,7 +1602,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a friend who asks about next year: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about goals and plans.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses future forms; Gives reasons; Adds a detail.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1636,7 +1636,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona and Mr Tarek, two friends: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Decide together on a plan.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Suggests an idea; Listens to others; Agrees on one.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1670,7 +1670,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a bank clerk: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for a simple bank service.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the need; Answers questions; Checks the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1704,7 +1704,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a manager at a restaurant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Complain politely about a problem.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the problem; Stays calm; Asks for a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1738,7 +1738,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, an agent: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a problem on a call.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives the details; Answers questions; Asks what happens next.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1772,7 +1772,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a repair technician: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for a repair and agree a time.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the fault; Agrees a time; Confirms the cost.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1806,7 +1806,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dr Rania, a doctor: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe symptoms clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives the symptoms; Gives the time; Answers questions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1840,7 +1840,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dr Karim, a doctor giving advice: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Check you understood advice.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Repeats the advice; Asks one question; Says thank you.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1874,7 +1874,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a friend who is worried about you: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about how you feel.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the feeling; Gives a reason; Asks for advice.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1908,7 +1908,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a friend who wants to start sport: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Share a routine.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes a routine; Gives a reason; Gives one tip.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1942,7 +1942,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a bus driver: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask about the route and the price.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks the route; Asks the price; Confirms the stop.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -1976,7 +1976,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nadia, an official at an office: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask about a rule or a form.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the question; Listens; Checks the answer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2010,7 +2010,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a visitor who is lost: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give directions and help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives clear directions; Checks; Stays friendly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2044,7 +2044,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a group leader: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask to join and say what you want.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what you want; Asks about time and cost; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2080,7 +2080,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a friend who loves debate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Discuss a topic with ideas and examples.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives ideas; Gives examples; Responds to him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2114,7 +2114,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a friend with a problem: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Show empathy and offer help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reflects feeling; Asks gently; Offers help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2148,7 +2148,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a friend who asks for advice: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give advice without pushing.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses soft language; Gives a reason; Lets him choose.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2182,7 +2182,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rasha, a friend who is angry: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Calm a disagreement.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Names the issue; Finds a middle way.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2216,7 +2216,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a new colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain your job or studies.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives clear details; Uses examples; Asks back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2250,7 +2250,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for help clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the task; Says what you need; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2284,7 +2284,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a friend who should hear news: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Share good or bad news.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Prepares him; Gives the news; Responds to his reaction.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2318,7 +2318,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a person you are meeting: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain you are late.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Gives a short reason; Offers a plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2352,7 +2352,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a landlord: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask about the terms of a rental.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about the cost; Asks about the contract; Checks the date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2386,7 +2386,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ms Reem, a manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Make a formal complaint.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the facts; States what you want; Stays calm.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2420,7 +2420,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a shop manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Negotiate a return.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the problem; Stays polite; Accepts a fair solution.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2454,7 +2454,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dalia, a bank adviser: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask about a long contract.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about the terms; Checks the cost; Asks about leaving.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2488,7 +2488,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a friend who also saw it: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Share what you thought.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what happened; Gives an opinion; Gives a reason.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2522,7 +2522,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rania, a friend who reads the news: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about a news story.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises; Gives a view; Asks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2556,7 +2556,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Nabil, a friend who worries about screens: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about habits and effects.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes habits; Gives a view; Considers another view.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2590,7 +2590,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a friend who asks for a tip: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Recommend something with reasons.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes it; Gives reasons; Says who it is for.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2624,7 +2624,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a visitor who asks about a custom: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a custom clearly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes it; Gives a reason; Checks he understands.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2658,7 +2658,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a host from another country: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask about customs politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses polite language; Asks open questions; Shows respect.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2692,7 +2692,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a friend who was offended: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Fix a misunderstanding.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Explains what you meant; Asks how he feels.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2726,7 +2726,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Dina, a visitor: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe your city and tips.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes places; Gives tips; Shows pride.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2760,7 +2760,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Emergency operator Mr Sherif: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give the key facts calmly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says where; Says what happened; Answers questions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2794,7 +2794,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nadia, a police officer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Report a lost item.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the item; Says where and when; Gives contact.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2828,7 +2828,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a mechanic: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a car problem.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the problem; Answers questions; Agrees the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2862,7 +2862,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a person who feels ill: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Help calmly and call for help.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks questions; Reassures; Gets help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2898,7 +2898,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a friend who hints at a problem: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Notice and respond to hints.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Notices the hint; Checks gently; Offers support.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2932,7 +2932,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Salma, a friend who likes jokes: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Use humour naturally.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses a light joke; Reads her reaction; Stays kind.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -2966,7 +2966,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a friend who asks a big favour: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say no kindly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says no clearly; Gives a reason; Offers a smaller help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3000,7 +3000,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Heba, a friend who asks for a frank view: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give honest feedback kindly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States a strength; States a concern; Offers a way forward.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3034,7 +3034,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a friend with a different view: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Discuss values with respect.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States a view; Asks about his; Stays respectful.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3068,7 +3068,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Rania, a friend who wants advice: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Think through a big decision with a friend.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists options; Weighs them; Does not decide for her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3102,7 +3102,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a friend who has regrets: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Discuss regret with care.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Reflects; Offers perspective.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3136,7 +3136,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Amira, a friend who has not seen you for years: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you changed.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares then and now; Gives reasons; Links to values.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3170,7 +3170,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ms Dalia and the guests: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a short toast or speech.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens warmly; Keeps it short; Closes well.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3204,7 +3204,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Adel, a government officer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Handle a formal conversation.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses formal language; Asks clearly; Confirms the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3238,7 +3238,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy and neighbours: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Share a view in a meeting.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Waits for a turn; States a view; Responds to others.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3272,7 +3272,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Nadia, a manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Make a formal request.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the request; Gives reasons; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3306,7 +3306,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Wael, a neighbour who is angry: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Resolve a dispute.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Names the issue; Agrees a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3340,7 +3340,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Sherif, a landlord who wants more rent: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Negotiate fairly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States your case; Offers a trade; Agrees terms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3374,7 +3374,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mona, a friend you hurt: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a real apology.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the mistake; Says sorry clearly; Offers to repair.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3408,7 +3408,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Tarek, a person who pressures you: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Hold your position politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Repeats the limit; Offers an alternative.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3442,7 +3442,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Karim, a bank adviser: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Open an account and understand the terms.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about requirements; Asks about fees; Confirms the steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3476,7 +3476,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Ms Reem, a school administrator: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Handle a formal appointment.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the need; Answers questions; Confirms the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3510,7 +3510,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Hana, a new local friend: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Build a friendship.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Shows interest; Shares something personal; Plans to meet.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
@@ -3544,7 +3544,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "targets": [
      "Open the scene in character as Mr Hamdy, a neighbour who welcomes you: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Talk about life in a new place.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes experiences; Asks for tips; Shows thanks.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],

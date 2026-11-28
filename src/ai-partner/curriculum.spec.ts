@@ -13,6 +13,8 @@ describe('curriculum data (review checks)', () => {
     expect(count('work-sales')).toBe(104);
     expect(count('daily-life-everyday')).toBe(104);
     expect(count('travel-conversations')).toBe(100);
+    expect(count('academic-english-course')).toBe(84);
+    expect(count('workplace-english-course')).toBe(80);
   });
 
   it('every programme has all five levels and 4 lessons per unit', () => {
@@ -47,6 +49,19 @@ describe('curriculum data (review checks)', () => {
     }
   });
 
+  it('quality lint: no duplicate titles or goals inside a programme, no customer wording outside customer programmes', () => {
+    for (const p of CURRICULUM_PROGRAMMES) {
+      const lessons = Object.values(p.levels).flat();
+      const titles = lessons.map((l) => l.title.toLowerCase());
+      const goals = lessons.map((l) => l.goal.toLowerCase());
+      expect([p.id, titles.length - new Set(titles).size]).toEqual([p.id, 0]);
+      expect([p.id, goals.length - new Set(goals).size]).toEqual([p.id, 0]);
+      if (!/customer|sales/.test(p.id)) {
+        lessons.forEach((l) => expect(l.targets.join(' ')).not.toMatch(/customer/i));
+      }
+    }
+  });
+
   it('keeps content rules: no third-party names, no pricing words', () => {
     const text = JSON.stringify(CURRICULUM_PROGRAMMES).toLowerCase();
     for (const bad of ['oxford', 'yoodli', 'checkout', 'plans.ts']) expect(text).not.toContain(bad);
@@ -75,7 +90,7 @@ describe('curriculum flag', () => {
     const admin = buildCatalog([], { isPreviewer: true });
     const user = buildCatalog([], { isPreviewer: false });
     const anon = buildCatalog([]);
-    expect(admin.find((f) => f.id === 'work')?.programmes).toHaveLength(3);
+    expect(admin.find((f) => f.id === 'work')?.programmes).toHaveLength(4);
     expect(user.find((f) => f.id === 'work')?.programmes).toHaveLength(1);
     expect(anon.find((f) => f.id === 'interviews')?.programmes).toHaveLength(1);
     expect(canStartCurriculumLesson('work-cs-b1-u1-l1', { isPreviewer: true })).toBe(true);
@@ -103,7 +118,7 @@ describe('curriculum flag', () => {
     process.env.CURRICULUM_ENABLED = 'true';
     const fields = buildCatalog([]);
     const work = fields.find((f) => f.id === 'work')!;
-    expect(work.programmes.map((p) => p.id)).toEqual(['work-english', 'work-customer-service', 'work-sales']);
+    expect(work.programmes.map((p) => p.id)).toEqual(['work-english', 'work-customer-service', 'work-sales', 'workplace-english-course']);
     const cs = work.programmes[1];
     expect(cs.totalLessons).toBe(124);
     expect(cs.levels.map((l) => l.level)).toEqual([...LEVELS]);

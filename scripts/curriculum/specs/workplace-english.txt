@@ -1,0 +1,106 @@
+@programme workplace-english-course | work | Workplace Communication | Everyday English with colleagues, managers and clients: from the first day to meetings, negotiation and leading a team. | Information exchange
+@level A1
+## First day at work | Greet people and say who you are.
+Meeting the team | s | Mona, a new colleague | Say your name and your job. | Says name; Says job; Greets politely
+Finding your desk | s | Ahmed, an office assistant | Ask where things are. | Asks where; Understands directions; Says thank you
+Using the office kit | s | Mona, a colleague | Ask how to use the printer. | Asks for help; Names the thing; Says thank you
+Lunch with colleagues | s | Ahmed, a colleague | Say what you want to eat and drink. | Orders food; Orders a drink; Says please
+## Simple tasks | Understand and ask about basic work tasks.
+Taking a message | a | Mr Samy, a manager | Write down a name and number. | Asks to spell; Repeats the number; Confirms
+Asking what to do | a | Mr Samy, a manager | Ask your manager what to do next. | Asks for the task; Repeats it; Says when it will be done
+Telling the time and date | s | Mona, a colleague | Say a time and a date for a meeting. | Says a time; Says a date; Checks it
+Saying you are busy | s | Ahmed, a colleague | Say you are busy and offer a later time. | Says busy; Offers a time; Says sorry
+## Work talk | Talk about your day and your team.
+My work day | s | Mona, a colleague | Describe your day in simple words. | Names activities; Uses times; Uses present tense
+My team | s | Ahmed, a visitor | Say who is in your team. | Names people; Says jobs; Says one fact
+Asking for help | s | Mona, a colleague | Ask a colleague for help with a task. | Asks politely; Explains the task; Thanks them
+Saying goodbye | s | Ahmed, a colleague | Say goodbye at the end of the day. | Says goodbye; Says see you; Wishes a good evening
+@level A2
+## Everyday office talk | Chat and ask for things at work.
+Small talk in the kitchen | s | Mona, a colleague | Chat about the weekend. | Asks a question; Answers simply; Reacts naturally
+Borrowing something | s | Ahmed, a colleague | Ask to borrow an item and promise to return it. | Asks politely; Says why; Thanks
+Reporting a problem | a | Mr Samy, a manager | Report a broken thing and ask for a fix. | Describes the problem; Says when it started; Asks for action
+Asking for a day off | a | Mr Samy, a manager | Ask for a day off and give a reason. | Asks politely; Gives dates; Gives a reason
+## Phone and messages | Handle short calls and messages.
+Answering the phone | a | A caller, Mr Hady | Answer a call and ask who is calling. | Greets; Asks the name; Offers help
+Leaving a message | s | Mona, a colleague | Leave a short message with a number. | States the name; Gives the message; Gives the number
+Writing a quick email aloud | s | Ahmed, a colleague | Say what an email should say. | States the purpose; Gives the detail; Closes politely
+Making an appointment | s | Ms Rania, a client | Agree a time to meet. | Suggests a time; Handles a clash; Confirms
+## Meetings | Take part in short, simple meetings.
+Introducing yourself in a meeting | s | Mr Samy, a meeting chair | Say who you are and your role. | Says name; Says role; Says why attending
+Giving a short update | a | Mr Samy, a meeting chair | Say what you did this week. | Says what is done; Says what is next; Mentions a problem
+Asking a question | s | Mona, a colleague | Ask a clear question in a meeting. | Gets attention; Asks clearly; Thanks the answer
+Agreeing a next step | s | Mr Samy, a meeting chair | Agree who does what by when. | Says the task; Says who; Says when
+## Working with others | Plan and share work in a team.
+Offering to help | s | Ahmed, a busy colleague | Offer help and agree what to do. | Offers; Asks what is needed; Agrees
+Asking for a deadline | a | Mr Samy, a manager | Ask when something is due. | Asks when; Checks the date; Raises a concern
+Giving simple feedback | s | Mona, a colleague | Say what is good and what to change. | Says a good point; Says one change; Stays kind
+Thanking a colleague | s | Ahmed, a colleague | Thank someone for specific help. | Says thank you; Says what they did; Says the result
+@level B1
+## Meetings that work | Contribute and keep a meeting on track.
+Giving your opinion | s | Ms Rania, a meeting chair | Give a view with a reason. | States opinion; Gives reason; Invites response
+Disagreeing politely | a | Mr Hady, a colleague | Disagree and offer another idea. | Acknowledges; Disagrees politely; Offers alternative
+Asking for clarity | s | Ms Rania, a meeting chair | Ask for a point to be explained again. | Asks politely; Says what was unclear; Confirms
+Summarising a meeting | s | Mr Samy, a manager | Sum up decisions and tasks. | Lists decisions; Assigns tasks; Gives dates
+## Emails and calls | Handle longer calls and written follow-up.
+Making a request | a | Mr Hady, a supplier | Request something and give a clear reason. | Makes the request; Gives the reason; Sets a time
+Following up | a | Mr Hady, a slow supplier | Follow up politely on something late. | Refers to the earlier request; Asks for an update; Sets a date
+Handling a wrong number | s | Mona, a colleague | Fix a mix-up on a call. | Explains the issue; Offers a fix; Confirms
+Conference call etiquette | s | Ms Rania, a call host | Join, speak and leave a call properly. | Greets; Waits to speak; Closes politely
+## Working with your manager | Report progress and discuss workload.
+Weekly check-in | s | Mr Samy, a manager | Report progress, blockers and next steps. | Reports progress; Names a blocker; States next step
+Saying no politely | a | Mr Samy, a manager | Turn down extra work and give a reason. | Declines politely; Gives a reason; Offers an alternative
+Asking for feedback | s | Mr Samy, a manager | Ask your manager how you are doing. | Asks openly; Listens; Says what to do
+Talking about workload | a | Mr Samy, a manager | Explain you are overloaded and propose a plan. | Describes workload; Gives a fact; Proposes a plan
+## Teamwork | Solve problems and handle conflict.
+Solving a team problem | s | Ms Rania, a team lead | Suggest a way to fix a problem. | Describes the problem; Suggests a fix; Checks agreement
+Handling a misunderstanding | s | Mr Hady, a colleague | Clear up a mistake calmly. | Names the mistake; Takes responsibility; Suggests a fix
+Delegating a task | a | Omar, a team member | Hand over a task with clear instructions. | Explains the task; Sets the deadline; Checks understanding
+Welcoming a newcomer | s | Mona, a new colleague | Help a new person feel at home. | Welcomes; Explains basics; Offers support
+## Short presentations | Give a clear update to a small group.
+Opening a presentation | s | Ms Rania, an audience | Greet and say what you will cover. | Greets; Names the topic; Gives the plan
+Explaining a process | s | Mr Hady, a listener | Explain how something works in order. | Uses order words; Keeps it clear; Checks understanding
+Presenting numbers | a | Mr Samy, a manager | Report numbers and what they mean. | States the numbers; Compares; Gives the meaning
+Handling questions | a | Mr Hady, a curious colleague | Answer and admit when you do not know. | Answers clearly; Admits limits; Offers to follow up
+@level B2
+## Leading meetings | Run a meeting from agenda to action.
+Setting the agenda | s | Ms Rania, a participant | Open a meeting with purpose and agenda. | States the purpose; Sets the agenda; Sets time
+Controlling the discussion | a | Mr Hady, a dominant participant | Keep the meeting on topic politely. | Redirects; Includes others; Keeps time
+Reaching a decision | a | Mr Hady, a participant who disagrees | Move the group to a decision. | Summarises options; Tests agreement; Decides
+Closing with actions | s | Ms Rania, a participant | Recap and confirm the owners. | Recaps; Assigns owners; Sets dates
+## Negotiating | Negotiate scope, price and deadlines.
+Negotiating a deadline | a | Mr Hady, a client | Agree a realistic deadline. | Explains constraints; Offers options; Agrees terms
+Negotiating scope | a | Mr Hady, a client | Reduce a request without losing the relationship. | Clarifies the aim; Offers a smaller version; Confirms
+Negotiating a rate | a | Ms Dalia, a supplier | Negotiate a better rate with a reason. | Opens firmly; Gives a reason; Closes the deal
+Handling a hard no | a | Ms Dalia, a supplier | Respond when the other side refuses. | Stays calm; Probes the reason; Finds a middle
+## Difficult conversations | Give hard messages with respect.
+Giving critical feedback | a | Omar, a team member | Give honest feedback on poor work. | Describes the facts; Explains the effect; Agrees a fix
+Receiving criticism | s | Mr Samy, a manager | Take criticism and respond well. | Listens; Asks questions; Commits to action
+Raising a concern | a | Mr Samy, a manager | Raise a risk early and propose a response. | States the risk; Gives evidence; Proposes a plan
+Apologising for a mistake | s | Ms Rania, a client | Own a mistake and repair trust. | Takes responsibility; Explains briefly; Offers a fix
+## Presenting and persuading | Explain a plan and win support.
+Presenting a plan | s | Ms Rania, a director | Present a plan with reasons and timing. | States the goal; Gives the steps; Gives the timing
+Pitching an idea | a | Mr Hady, a sceptical manager | Pitch an idea and answer doubts. | Opens strongly; Handles doubts; Asks for a decision
+Explaining a risk | a | Ms Dalia, a director | Explain a risk and your response. | Names the risk; Gives likelihood; Gives a response
+Reporting to leadership | a | Ms Dalia, a director | Give a concise status for senior people. | Leads with the point; Gives evidence; Asks for support
+@level C1
+## Leadership communication | Set direction and inspire a team.
+Setting a vision | s | Omar, a team member | Explain where the team is going and why. | States the vision; Gives the why; Links to roles
+Motivating the team | s | Mona, a tired team member | Lift morale during a hard period. | Acknowledges effort; Gives the reason to continue; Sets next step
+Coaching a colleague | s | Ahmed, a junior colleague | Coach with questions, not answers. | Asks open questions; Listens; Agrees actions
+Managing up | a | Ms Dalia, a director | Persuade your manager of a different approach. | States the case; Handles pushback; Agrees steps
+## Strategic conversations | Discuss priorities, trade-offs and change.
+Prioritising | a | Ms Dalia, a director | Explain what to drop and why. | States criteria; Explains trade-offs; Gets agreement
+Announcing a change | a | Omar, a worried team member | Announce a change and deal with concerns. | States the change; Explains why; Handles concerns
+Handling resistance | a | Mr Hady, a resistant colleague | Respond to resistance without pushing. | Listens; Names the real concern; Adapts
+Making a business case | a | Ms Dalia, a finance director | Argue for investment with evidence. | States the case; Gives numbers; Handles objections
+## Complex negotiations | Handle multi-issue and high-stakes talks.
+Opening a high-stakes negotiation | a | Mr Karim, a senior counterpart | Set the tone and agenda with confidence. | Sets tone; Frames interests; Sets agenda
+Trading concessions | a | Mr Karim, a counterpart | Trade concessions without giving away too much. | Links concessions; Holds the line; Protects value
+Breaking a deadlock | a | Mr Karim, a counterpart | Unblock a stuck negotiation. | Names the deadlock; Reframes; Proposes a move
+Closing and confirming | s | Mr Karim, a counterpart | Close the deal and confirm the terms. | Summarises terms; Confirms details; Sets next step
+## Executive presence | Speak with authority and handle pressure.
+Presenting to executives | a | Ms Dalia, an executive panel | Present a concise case with a clear ask. | Leads with the ask; Supports it; Closes crisply
+Handling tough questions | a | Mr Karim, an executive panel member | Answer hard questions with composure. | Stays composed; Answers directly; Bridges back
+Leading in a crisis | a | Omar, an anxious team member | Communicate clearly under pressure. | States the facts; Gives direction; Reassures
+Giving a farewell talk | s | Mona, a colleague | Close a chapter with warmth and credit. | Thanks people; Shares a lesson; Looks ahead

@@ -1,0 +1,111 @@
+@programme academic-english-course | academic | Academic Speaking | Speak clearly at university: introduce yourself, join classes and seminars, present ideas and defend an argument. | Information exchange
+@level A1
+## First day at university | Introduce yourself and find your way around campus.
+Saying who you are | s | Salma, a classmate | Say your name, country and subject. | Says name; Says country; Says subject
+Finding the lecture hall | s | Karim, a student guide | Ask where a room is. | Asks where; Understands left or right; Says thank you
+Registering for a class | a | Mr Fathy, a registration clerk | Give your name and the class you want. | Gives name; Names the class; Spells a word
+Meeting the tutor | s | Dr Hana, a friendly tutor | Greet a teacher and say what you study. | Greets politely; Says what they study; Asks one question
+## Classroom basics | Use simple phrases to follow a lesson.
+Asking for repeats | s | Mr Adel, a teacher who speaks fast | Ask the teacher to say it again. | Asks to repeat; Asks to speak slowly; Says thank you
+Saying you do not understand | s | Dr Hana, a tutor | Say what you do not understand. | Says I do not understand; Names the word; Asks for an example
+Asking for a word | s | Salma, a classmate | Ask what a word means. | Asks what it means; Repeats the answer; Says thank you
+Numbers and dates | a | Mr Fathy, a registration clerk | Say a date and a phone number. | Says a date; Says a number; Checks it back
+## Study life | Talk about your timetable and the library.
+My timetable | s | Karim, a classmate | Say which days you have class. | Names days; Says times; Names a subject
+At the library | s | Ms Dina, a librarian | Ask to borrow a book. | Asks to borrow; Gives a title; Asks how long
+Asking for homework | s | Mr Adel, a teacher | Ask what the homework is and when it is due. | Asks about homework; Asks about the date; Confirms
+Study together | s | Salma, a classmate | Invite a classmate to study. | Invites; Suggests a time; Agrees a place
+@level A2
+## Joining a course | Handle courses, teachers and simple admin.
+Choosing a course | s | Ms Rana, a course adviser | Say what you want to study and why. | Says the subject; Gives one reason; Asks about the schedule
+Asking about the timetable | a | Mr Fathy, a clerk | Ask when and where a class is. | Asks the time; Asks the room; Checks the answer
+Missing a class | s | Dr Hana, a tutor | Explain why you missed a class. | Says sorry; Gives a reason; Asks what they missed
+Asking for more time | a | Dr Samir, a strict lecturer | Politely ask for a later deadline. | Explains the problem; Asks politely; Thanks the lecturer
+## Talking about studies | Describe your subject, your day and your plans.
+My subject | s | Karim, a classmate | Describe what you study and what you like about it. | Names the subject; Gives a reason; Mentions one topic
+A day at university | s | Salma, a new student | Describe a normal study day. | Uses time words; Names activities; Uses simple past or present correctly
+Study habits | s | Dr Hana, a tutor | Explain how you prepare for exams. | Describes routine; Gives one tip; Says what is hard
+Future plans | s | Ms Rana, an adviser | Say what you want to do after graduating. | States a plan; Gives a reason; Says when
+## Group work | Share ideas and agree tasks with classmates.
+Choosing a project topic | s | Karim, a groupmate | Suggest a topic and ask what others think. | Suggests a topic; Asks for opinions; Agrees on one
+Sharing the tasks | a | Mona, a groupmate who wants less work | Agree who does which part. | Offers a task; Asks others; Confirms the plan
+Setting a meeting | s | Salma, a groupmate | Arrange a time and place to meet. | Suggests a time; Handles a clash; Confirms
+Giving a short update | s | Dr Hana, a supervisor | Say what your group has done so far. | Says what is done; Says what is next; Mentions one problem
+## Simple presentations | Give a short talk about a familiar topic.
+Introducing a talk | s | Dr Hana, an audience | Open a talk with your name and topic. | Greets; Names the topic; Says the plan
+Describing a picture | s | Mr Adel, a teacher | Describe what you can see in a picture. | Names things; Says where they are; Says what people do
+Giving a simple opinion | s | Salma, a classmate | Say what you think and give one reason. | States opinion; Gives a reason; Uses because
+Ending and questions | s | Dr Hana, an audience | Finish a talk and answer one question. | Thanks the audience; Answers briefly; Asks if there are questions
+@level B1
+## Lectures and seminars | Follow classes and take part with confidence.
+Joining a seminar discussion | s | Dr Nour, a seminar leader | Give a short opinion and a reason in a seminar. | States a view; Gives a reason; Responds to a classmate
+Asking a question in a lecture | a | Dr Samir, a lecturer | Ask a clear question after a lecture point. | Refers to the point; Asks clearly; Follows up
+Checking understanding | s | Karim, a classmate | Check what you understood with a classmate. | Summarises; Asks if correct; Fixes a detail
+Agreeing and disagreeing politely | s | Salma, a classmate | Disagree politely and keep the discussion friendly. | Uses polite language; Gives a reason; Offers a middle way
+## Office hours | Ask a lecturer for help and feedback.
+Booking office hours | s | Ms Dina, a department assistant | Arrange a meeting with a lecturer. | Gives the reason; Suggests times; Confirms
+Asking about feedback | a | Dr Samir, a lecturer | Ask what to improve in your work. | Asks what to improve; Asks for an example; Says what they will do
+Explaining a problem | s | Dr Nour, a tutor | Explain a problem with an assignment. | Describes the problem; Says what they tried; Asks for advice
+Asking for a reference | s | Dr Hana, a lecturer | Politely ask a lecturer for a reference. | Explains why; Asks politely; Gives details
+## Describing and comparing | Talk about data, trends and options.
+Describing a chart | a | Dr Samir, an examiner | Describe the main points of a simple chart. | Gives the topic; Names the highest and lowest; Compares two items
+Describing change | s | Dr Nour, a lecturer | Describe how something has changed over time. | Uses change words; Gives numbers; Gives a time frame
+Comparing two options | s | Karim, a groupmate | Compare two choices and pick one. | Compares; Gives reasons; Decides
+Talking about causes | s | Dr Nour, a seminar leader | Explain a cause and its result. | Names the cause; Names the result; Links them clearly
+## Presentations | Plan and deliver a clear five-minute talk.
+Opening with a hook | s | Dr Hana, an audience | Open a talk with an interesting question or fact. | Opens with a hook; Names the topic; Gives the plan
+Structuring the middle | a | Dr Samir, a marker | Present two or three points in order. | Signposts points; Gives an example; Keeps the order
+Using visuals | s | Salma, an audience member | Talk about a slide while keeping eye contact. | Refers to the slide; Explains the key point; Moves on
+Handling questions | a | Dr Samir, an audience member | Answer a question and say when you do not know. | Answers clearly; Admits limits; Offers to follow up
+## Study skills and exams | Talk about learning, stress and exam tasks.
+Planning revision | s | Ms Rana, an adviser | Explain a revision plan. | Sets a schedule; Gives priorities; Says how to check progress
+Dealing with stress | s | Dr Hana, a tutor | Say what stresses you and how you cope. | Describes stress; Gives a coping idea; Asks for advice
+Exam speaking part one | a | Mr Tarek, an exam interviewer | Answer personal questions with extended answers. | Answers fully; Adds a reason; Adds an example
+Exam speaking long turn | a | Mr Tarek, an exam interviewer | Talk for one minute on a given topic. | Organises the talk; Keeps going; Finishes clearly
+@level B2
+## Seminar leadership | Lead and shape an academic discussion.
+Opening a discussion | s | Dr Nour, a seminar tutor | Introduce a topic and invite views. | Frames the topic; Invites views; Keeps neutral
+Managing the group | a | Hassan, a dominant classmate | Include quiet members and keep to time. | Invites others; Redirects politely; Keeps to time
+Summarising views | s | Dr Nour, a seminar tutor | Summarise what different people said. | Reports fairly; Groups similar views; Names the gap
+Closing with action points | s | Dr Nour, a seminar tutor | Close with decisions and next steps. | Recaps decisions; Assigns tasks; Sets a time
+## Arguing a case | Give reasons, evidence and counter-points.
+Stating a position | a | Dr Samir, a debate chair | State a clear position with two reasons. | States position; Gives two reasons; Adds evidence
+Using evidence | a | Dr Samir, a sceptical lecturer | Support a claim with a source or example. | Names a source; Explains it; Links to the claim
+Responding to a challenge | a | Hassan, a debate opponent | Answer a challenge without losing your point. | Acknowledges; Defends calmly; Concedes a detail
+Conceding and shifting | s | Dr Nour, a seminar leader | Change your view when the evidence is strong. | Admits the point; Adjusts the view; Explains why
+## Research talks | Explain a study and what it shows.
+Describing your method | s | Dr Hana, a supervisor | Explain how you collected information. | States the aim; Describes the method; Notes a limit
+Reporting results | a | Dr Samir, an examiner | Report findings with numbers and comparison. | Gives results; Compares; Avoids overclaiming
+Explaining limits | a | Dr Samir, an examiner | Say what your study could not show. | Names limits; Explains effect; Suggests next step
+Talking about sources | s | Ms Dina, a librarian | Explain how you judge a source. | Names criteria; Gives an example; Admits doubt
+## Academic interviews | Speak in scholarship and course interviews.
+Why this course | s | Prof Mariam, an admissions tutor | Explain your reasons for choosing a course. | States motivation; Gives evidence; Links to goals
+Talking about strengths | a | Prof Mariam, an admissions tutor | Describe strengths with proof. | Names strengths; Gives examples; Stays honest
+Handling a hard question | a | Prof Yusuf, a panel member | Answer an unexpected question calmly. | Buys thinking time; Gives structure; Concludes
+Questions for the panel | s | Prof Mariam, an admissions tutor | Ask smart questions at the end. | Asks relevant questions; Shows interest; Thanks the panel
+## Exam-style speaking | Practise a full three-part speaking test.
+Short questions | a | Mr Tarek, an exam interviewer | Give extended answers to quick questions. | Adds reasons; Adds examples; Keeps pace
+Two-minute talk | a | Mr Tarek, an exam interviewer | Talk for two minutes with a clear structure. | Opens clearly; Develops points; Closes clearly
+Opinion discussion | a | Mr Tarek, an exam interviewer | Discuss a wider question with balanced views. | Gives both sides; Takes a position; Uses linking words
+Fixing your weak point | s | Dr Hana, a speaking coach | Practise the skill you find hardest. | Names the weakness; Tries a fix; Compares the result
+@level C1
+## Scholarly discussion | Debate abstract ideas with precision.
+Defining terms | a | Prof Yusuf, a professor | Define a key term and set its limits. | Defines clearly; Sets limits; Gives an example
+Weighing evidence | a | Prof Yusuf, a professor | Compare strong and weak evidence on a claim. | Compares evidence; Judges quality; Reaches a view
+Nuanced disagreement | a | Dr Leila, a visiting scholar | Disagree with respect and precision. | Acknowledges; Pinpoints the gap; Offers an alternative
+Synthesising views | s | Dr Nour, a seminar chair | Combine several viewpoints into one position. | Summarises sources; Finds a link; States a position
+## Conference and defence | Present research and answer expert questions.
+Opening a conference talk | s | Prof Mariam, a session chair | Open a research talk and state the contribution. | States the contribution; Frames the gap; Signposts
+Presenting findings | a | Dr Leila, an expert listener | Explain key findings and what they mean. | Explains findings; States implications; Stays precise
+Answering hostile questions | a | Prof Yusuf, a sceptical panel member | Respond to a tough challenge with composure. | Stays calm; Addresses the core; Defends or concedes
+Defending a thesis | a | Prof Yusuf, an examiner | Defend a key choice in your research. | Justifies the choice; Names alternatives; Accepts limits
+## Writing to speaking | Turn written ideas into clear spoken academic English.
+Summarising an article | s | Dr Hana, a tutor | Summarise an article in your own words. | States the main claim; Covers key points; Gives a view
+Explaining a graph aloud | a | Dr Samir, a lecturer | Explain a complex graph to a mixed audience. | Orients the audience; Highlights the trend; Interprets it
+Paraphrasing on the spot | a | Dr Leila, a seminar partner | Restate a complex idea more simply. | Keeps the meaning; Simplifies; Checks understanding
+Spoken versus written style | s | Dr Hana, a tutor | Rephrase a formal sentence for speech. | Rephrases; Keeps accuracy; Sounds natural
+## Career and networking | Talk with senior academics and employers.
+Introducing your research | s | Prof Mariam, a senior academic | Describe your research in under a minute. | Explains the topic; Explains the value; Invites questions
+Networking at an event | s | Dr Leila, a conference delegate | Start and end a conversation gracefully. | Opens naturally; Finds common ground; Closes politely
+Asking for a supervisor | a | Prof Yusuf, a potential supervisor | Make your case to a potential supervisor. | States interest; Shows preparation; Proposes next step
+Giving feedback to a peer | s | Dr Leila, a colleague | Give honest, kind feedback on a talk. | Names a strength; Names a fix; Offers a suggestion
