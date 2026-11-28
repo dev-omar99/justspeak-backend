@@ -1,0 +1,101 @@
+@programme interviews-tech-interview-english | interviews | Tech Interview English | Interview answers for software and IT jobs, from a first hello to a senior panel: your skills, your projects, your thinking. | Information exchange
+@level A1
+## Meeting the interviewer | Greet, say your name and say you want the job.
+Saying hello | s | Ms Nora, a tech lead | Greet the interviewer and say your name. | Says hello; Says name; Smiles in the voice
+Sitting down | s | Ms Nora, a tech lead | Answer "How are you?" and say thank you. | Answers how are you; Says thank you; Speaks slowly
+The tech job | s | Ms Nora, a tech lead | Say you want the developer job. | Says the job; Says want; Uses a full sentence
+Saying goodbye | s | Ms Nora, a tech lead | Thank the interviewer and say goodbye. | Says thank you; Says goodbye; Smiles in the voice
+## About you | Give simple facts about yourself.
+Where you are from | s | Mr Adel, an interviewer | Say your city and country. | Says city; Says country; Uses I am from
+Your languages | s | Mr Adel, an interviewer | Say which languages you speak. | Names languages; Uses I speak; Speaks clearly
+Your studies | s | Mr Adel, an interviewer | Say what you studied. | Says the subject; Uses I studied; Speaks slowly
+Your email address | a | Mr Adel, an interviewer | Say your email address slowly. | Says each part; Says at and dot; Checks it
+## Tech words | Use the first words of the tech world.
+Your computer | s | A team lead | Name the computer and phone you use. | Names devices; Uses I use; Speaks clearly
+Programming languages | s | A team lead | Say two programming languages you know. | Names two; Uses I know; Speaks clearly
+Files and folders | s | A team lead | Say where you save your files. | Names a place; Uses I save; Speaks slowly
+Websites and apps | s | A team lead | Name a website or app you built or use. | Names it; Uses I built or I use; Speaks clearly
+## Your time | Talk about days and times.
+Your work days | s | An office assistant | Say which days you can work. | Names days; Uses I can; Speaks clearly
+Start time | s | An office assistant | Say what time you can start. | Says the time; Uses at; Speaks slowly
+The interview time | s | An office assistant | Confirm the day and time of your interview. | Says the day; Says the time; Checks it
+Being late | s | An office assistant | Say you are late and say sorry. | Says sorry; Says late; Gives a short reason
+@level A2
+## Tell me about yourself | Give a short answer about you and your tech skills.
+Your last job | s | Ms Nora, a tech lead | Say where you worked and what you did. | Names the job; Uses past tense; Speaks clearly
+Your best skill | s | Ms Nora, a tech lead | Say one thing you do well in code. | Names a skill; Uses I can; Gives an example
+Your tools | s | Ms Nora, a tech lead | Say which tools you use every day. | Names tools; Uses I use; Speaks clearly
+Your plan | s | Ms Nora, a tech lead | Say what you want to learn in this job. | Uses I want to; Names a goal; Speaks clearly
+## Why tech | Say why you want this job.
+Why this job | s | Mr Adel, an interviewer | Give one reason you want to work in tech. | Gives a reason; Uses because; Speaks clearly
+Why this company | s | Mr Adel, an interviewer | Say one thing you like about the company. | Names a thing; Uses I like; Speaks clearly
+How you learn | s | Mr Adel, an interviewer | Say how you learn a new tool. | Describes steps; Uses first and then; Speaks slowly
+Your project | s | Mr Adel, an interviewer | Tell a short story about a small project. | Says what you made; Uses past tense; Says the result
+## A simple problem | Answer simple questions about fixing things.
+Describing a bug | s | A developer | Say what is wrong with a program. | Says the problem; Uses it does not; Speaks clearly
+Asking for help | s | A developer | Ask a teammate to help you with an error. | Uses can you; Names the error; Says thank you
+Saying what you tried | s | A developer | Say two things you tried. | Uses I tried; Names two; Speaks clearly
+Saying it works | s | A developer | Say the problem is fixed. | Says fixed; Says how; Speaks clearly
+## Questions for you | Ask and answer simple practical questions.
+Asking about the team | s | Ms Nora, a tech lead | Ask how big the team is. | Asks a question; Uses how many; Speaks clearly
+Asking about tools | s | Ms Nora, a tech lead | Ask which tools the team uses. | Asks a question; Uses which; Speaks clearly
+Asking about hours | s | Ms Nora, a tech lead | Ask about the working hours. | Asks a question; Uses what time; Speaks clearly
+Closing the meeting | s | Ms Nora, a tech lead | Thank the interviewer and say you are interested. | Says thank you; Says interested; Speaks clearly
+@level B1
+## Tell me about yourself | Give a clear one-minute introduction for a tech job.
+Your background | s | Ms Nora, a tech lead | Describe your education and work in one minute. | Gives a clear order; Uses past and present; Stays near one minute
+Your main skills | s | Ms Nora, a tech lead | Describe your strongest technical skills. | Names skills; Gives an example; Speaks clearly
+Your best project | s | Ms Nora, a tech lead | Describe a project you are proud of. | Says what it did; Says your part; Says the result
+Why you now | s | Ms Nora, a tech lead | Say why you want this role at this time. | Gives a reason; Links to the job; Speaks clearly
+## Working in a team | Talk about how you work with people.
+Code review | s | An engineering manager | Explain how you give and take feedback on code. | Describes a method; Gives an example; Stays polite
+Disagreeing | s | An engineering manager | Explain what you do when you disagree with a teammate. | Describes steps; Stays calm; Gives a result
+Working with other teams | s | An engineering manager | Explain how you work with designers or testers. | Gives an example; Names a benefit; Speaks clearly
+When to ask for help | s | An engineering manager | Explain when and how you ask for help. | Gives a rule; Gives an example; Speaks clearly
+## Problems and solutions | Explain how you solve problems.
+Explaining a bug | s | A senior developer | Explain a bug you fixed and how you found it. | Says the problem; Says the steps; Says the result
+Breaking down a task | s | A senior developer | Explain how you split a big task into parts. | Describes steps; Uses first and then; Speaks clearly
+Meeting a deadline | s | A senior developer | Explain what you did when time was short. | Says what happened; Says what you did; Says the result
+Learning something new | s | A senior developer | Describe how you learned a new tool quickly. | Describes steps; Gives an example; Speaks clearly
+## Strengths and weaknesses | Answer the classic questions.
+Your strengths | s | Ms Nora, a tech lead | Name two strengths with examples. | Names two; Gives examples; Speaks clearly
+Your weakness | s | Ms Nora, a tech lead | Name a real weakness and how you improve it. | Names a weakness; Says what you do; Stays positive
+A mistake | s | Ms Nora, a tech lead | Describe a mistake in production and what you learned. | Says what happened; Takes responsibility; Says the lesson
+Your questions | s | Ms Nora, a tech lead | Ask two good questions about the role. | Asks two; Uses polite forms; Listens
+@level B2
+## Answer, story, connect | Answer with a structure that shows your value.
+Answer first | s | Ms Nora, a tech lead | Give the main point first, then the proof. | Opens with the point; Gives proof; Stays short
+Telling a project story | s | Ms Nora, a tech lead | Tell a story with situation, action and result. | Gives the situation; Describes your action; States the result
+Linking to the role | s | Ms Nora, a tech lead | Connect your story to what this role needs. | Names a need; Links your story; Sounds natural
+Closing with impact | s | Ms Nora, a tech lead | End an answer with a clear result and a next step. | States the result; Gives a next step; Stops cleanly
+## Thinking out loud | Explain your thinking during a technical question.
+Restating the problem | a | A senior developer | Repeat the problem in your own words and ask one question. | Restates it; Asks a question; Stays calm
+Explaining your approach | a | A senior developer | Explain your plan before you write code. | Gives steps; Gives a reason; Speaks clearly
+Explaining trade-offs | a | A senior developer | Compare two solutions and choose one. | Names both; Gives a reason; Chooses clearly
+Handling a hint | a | A senior developer | Take a hint and change your approach. | Accepts the hint; Changes the plan; Stays calm
+## Pay and the offer | Discuss pay and conditions.
+Salary question | s | An HR manager | Answer "What salary do you expect?" with a range. | Gives a range; Gives a reason; Stays polite
+Negotiating | s | An HR manager | Ask for more and keep a good tone. | Makes a clear ask; Gives a reason; Stays polite
+Remote and hours | s | An HR manager | Ask about remote work and flexibility. | Asks clearly; Uses polite forms; Listens
+Accepting the offer | s | An HR manager | Accept the offer and confirm the next steps. | Says yes clearly; Checks details; Thanks them
+## Hard questions | Answer difficult questions calmly.
+Why you left | s | Ms Nora, a tech lead | Explain why you left your last job without blame. | Stays neutral; Gives a reason; Looks forward
+A gap in your CV | s | Ms Nora, a tech lead | Explain a gap honestly. | States the fact; Shows growth; Stays calm
+A skill you lack | s | Ms Nora, a tech lead | Respond when you do not know a required tool. | Admits it; Shows related skill; Offers a plan
+Not knowing the answer | a | Ms Nora, a tech lead | Say you do not know and show how you would find out. | Admits it; Gives a method; Stays confident
+@level C1
+## Design and judgment | Show senior technical thinking.
+Designing a system | a | A principal engineer | Explain the design of a system and its main parts. | Gives the parts; Gives reasons; Sounds clear
+Scale and risk | a | A principal engineer | Explain what could fail as the system grows. | Names risks; Gives fixes; Sounds realistic
+Build or buy | a | A principal engineer | Explain a decision to build or buy a tool. | Names the options; Explains the choice; Owns the risk
+Technical debt | a | A principal engineer | Explain when you accept technical debt and when you do not. | Gives criteria; Gives an example; Sounds credible
+## Leadership and ethics | Handle sensitive questions.
+Leading without authority | s | A senior panel | Describe how you led a change without being the manager. | Describes steps; Gives an example; States the result
+A security concern | s | A senior panel | Explain what you do when you find a security problem. | Takes a clear position; Gives steps; Stays calm
+Saying no to a deadline | s | A senior panel | Explain how you push back on an unsafe deadline. | Gives reasons; Offers an option; Stays polite
+Admitting you were wrong | s | A senior panel | Describe a time your technical choice was wrong. | Owns it; Says what changed; Stays confident
+## Panel and presence | Perform at a senior interview.
+Opening with presence | s | A senior panel | Give a confident opening in under a minute. | Sounds confident; Stays short; Looks forward
+Explaining to non-experts | s | A senior panel | Explain a technical idea to a non-technical person. | Uses simple words; Uses an example; Checks understanding
+Defending your view | s | A senior panel | Defend a technical view politely under challenge. | Holds the view; Gives evidence; Stays polite
+Final statement | s | A senior panel | Give a closing statement that is memorable. | Sums up value; Ends strongly; Stays short

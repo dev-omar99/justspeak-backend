@@ -11169,6 +11169,1777 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
    ]
   }
  },
+ "interviews-tech-interview-english": {
+  "A1": {
+   "words": [
+    {
+     "word": "time",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l2"
+    },
+    {
+     "word": "know",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l2"
+    },
+    {
+     "word": "want",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l3"
+    },
+    {
+     "word": "work",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l1"
+    },
+    {
+     "word": "being",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l4"
+    },
+    {
+     "word": "day",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l3"
+    },
+    {
+     "word": "say",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "down",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l2"
+    },
+    {
+     "word": "use",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l1"
+    },
+    {
+     "word": "part",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l4"
+    },
+    {
+     "word": "place",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l3"
+    },
+    {
+     "word": "each",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l4"
+    },
+    {
+     "word": "city",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l1"
+    },
+    {
+     "word": "days",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l1"
+    },
+    {
+     "word": "name",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "start",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l2"
+    },
+    {
+     "word": "full",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l3"
+    },
+    {
+     "word": "job",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l3"
+    },
+    {
+     "word": "says",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "country",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l1"
+    },
+    {
+     "word": "thank",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l2"
+    },
+    {
+     "word": "saying",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "late",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l4"
+    },
+    {
+     "word": "short",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l4"
+    },
+    {
+     "word": "reason",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l4"
+    },
+    {
+     "word": "phone",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l1"
+    },
+    {
+     "word": "sorry",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l4"
+    },
+    {
+     "word": "answer",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l2"
+    },
+    {
+     "word": "save",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l3"
+    },
+    {
+     "word": "website",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l4"
+    },
+    {
+     "word": "built",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l4"
+    },
+    {
+     "word": "voice",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "gives",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l4"
+    },
+    {
+     "word": "speak",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l2"
+    },
+    {
+     "word": "studies",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l3"
+    },
+    {
+     "word": "computer",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l1"
+    },
+    {
+     "word": "subject",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l3"
+    },
+    {
+     "word": "clearly",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l2"
+    },
+    {
+     "word": "address",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l4"
+    },
+    {
+     "word": "names",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l2"
+    },
+    {
+     "word": "uses",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l3"
+    },
+    {
+     "word": "app",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l4"
+    },
+    {
+     "word": "interview",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l3"
+    },
+    {
+     "word": "sitting",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l2"
+    },
+    {
+     "word": "hello",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "tech",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l3"
+    },
+    {
+     "word": "email",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l4"
+    },
+    {
+     "word": "slowly",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l2"
+    },
+    {
+     "word": "answers",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l2"
+    },
+    {
+     "word": "devices",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l1"
+    },
+    {
+     "word": "sentence",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l3"
+    },
+    {
+     "word": "studied",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l3"
+    },
+    {
+     "word": "files",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l3"
+    },
+    {
+     "word": "speaks",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l2"
+    },
+    {
+     "word": "languages",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l2"
+    },
+    {
+     "word": "confirm",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u4-l3"
+    },
+    {
+     "word": "programming",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l2"
+    },
+    {
+     "word": "apps",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l4"
+    },
+    {
+     "word": "checks",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l4"
+    },
+    {
+     "word": "goodbye",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l4"
+    },
+    {
+     "word": "developer",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l3"
+    },
+    {
+     "word": "websites",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l4"
+    },
+    {
+     "word": "dot",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a1-u2-l4"
+    },
+    {
+     "word": "smiles",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "greet",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "interviewer",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-a1-u1-l1"
+    },
+    {
+     "word": "folders",
+     "tier": 5,
+     "firstLessonId": "interviews-tech-interview-a1-u3-l3"
+    }
+   ],
+   "phrases": [
+    "Says hello",
+    "Says name",
+    "Smiles in the voice",
+    "Answers how are you",
+    "Says thank you",
+    "Speaks slowly",
+    "Says the job",
+    "Says want",
+    "Uses a full sentence",
+    "Says goodbye",
+    "Says city",
+    "Says country",
+    "Uses I am from",
+    "Names languages",
+    "Uses I speak",
+    "Speaks clearly",
+    "Says the subject",
+    "Uses I studied",
+    "Says each part",
+    "Says at and dot",
+    "Checks it",
+    "Names devices",
+    "Uses I use",
+    "Names two",
+    "Uses I know",
+    "Names a place",
+    "Uses I save",
+    "Names it",
+    "Uses I built or I use",
+    "Names days",
+    "Uses I can",
+    "Says the time",
+    "Uses at",
+    "Says the day",
+    "Says sorry",
+    "Says late",
+    "Gives a short reason"
+   ]
+  },
+  "A2": {
+   "words": [
+    {
+     "word": "like",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l2"
+    },
+    {
+     "word": "new",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l3"
+    },
+    {
+     "word": "first",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l3"
+    },
+    {
+     "word": "because",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l1"
+    },
+    {
+     "word": "well",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l2"
+    },
+    {
+     "word": "made",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l4"
+    },
+    {
+     "word": "many",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l1"
+    },
+    {
+     "word": "last",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l1"
+    },
+    {
+     "word": "best",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l2"
+    },
+    {
+     "word": "every",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l3"
+    },
+    {
+     "word": "help",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l2"
+    },
+    {
+     "word": "things",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l3"
+    },
+    {
+     "word": "thing",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l2"
+    },
+    {
+     "word": "give",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l1"
+    },
+    {
+     "word": "big",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l1"
+    },
+    {
+     "word": "team",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l1"
+    },
+    {
+     "word": "company",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l2"
+    },
+    {
+     "word": "tell",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l4"
+    },
+    {
+     "word": "small",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l4"
+    },
+    {
+     "word": "story",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l4"
+    },
+    {
+     "word": "working",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l3"
+    },
+    {
+     "word": "hours",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l3"
+    },
+    {
+     "word": "problem",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l1"
+    },
+    {
+     "word": "wrong",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l1"
+    },
+    {
+     "word": "past",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l1"
+    },
+    {
+     "word": "question",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l1"
+    },
+    {
+     "word": "ask",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l2"
+    },
+    {
+     "word": "plan",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l4"
+    },
+    {
+     "word": "works",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l4"
+    },
+    {
+     "word": "example",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l2"
+    },
+    {
+     "word": "program",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l1"
+    },
+    {
+     "word": "project",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l4"
+    },
+    {
+     "word": "result",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l4"
+    },
+    {
+     "word": "learn",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l4"
+    },
+    {
+     "word": "tried",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l3"
+    },
+    {
+     "word": "worked",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l1"
+    },
+    {
+     "word": "meeting",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l4"
+    },
+    {
+     "word": "code",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l2"
+    },
+    {
+     "word": "goal",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l4"
+    },
+    {
+     "word": "asking",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l2"
+    },
+    {
+     "word": "interested",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l4"
+    },
+    {
+     "word": "steps",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l3"
+    },
+    {
+     "word": "fixed",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l4"
+    },
+    {
+     "word": "tools",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l3"
+    },
+    {
+     "word": "tool",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l3"
+    },
+    {
+     "word": "error",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l2"
+    },
+    {
+     "word": "closing",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l4"
+    },
+    {
+     "word": "asks",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a2-u4-l1"
+    },
+    {
+     "word": "skill",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l2"
+    },
+    {
+     "word": "describes",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a2-u2-l3"
+    },
+    {
+     "word": "describing",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l1"
+    },
+    {
+     "word": "bug",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l1"
+    },
+    {
+     "word": "tense",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-a2-u1-l1"
+    },
+    {
+     "word": "teammate",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-a2-u3-l2"
+    }
+   ],
+   "phrases": [
+    "Names the job",
+    "Uses past tense",
+    "Speaks clearly",
+    "Names a skill",
+    "Uses I can",
+    "Gives an example",
+    "Names tools",
+    "Uses I use",
+    "Uses I want to",
+    "Names a goal",
+    "Gives a reason",
+    "Uses because",
+    "Names a thing",
+    "Uses I like",
+    "Describes steps",
+    "Uses first and then",
+    "Speaks slowly",
+    "Says what you made",
+    "Says the result",
+    "Says the problem",
+    "Uses it does not",
+    "Uses can you",
+    "Names the error",
+    "Says thank you",
+    "Uses I tried",
+    "Names two",
+    "Says fixed",
+    "Says how",
+    "Asks a question",
+    "Uses how many",
+    "Uses which",
+    "Uses what time",
+    "Says interested"
+   ]
+  },
+  "B1": {
+   "words": [
+    {
+     "word": "was",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l3"
+    },
+    {
+     "word": "now",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l4"
+    },
+    {
+     "word": "other",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l3"
+    },
+    {
+     "word": "good",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l4"
+    },
+    {
+     "word": "take",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l1"
+    },
+    {
+     "word": "something",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l4"
+    },
+    {
+     "word": "found",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l1"
+    },
+    {
+     "word": "real",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l2"
+    },
+    {
+     "word": "order",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "near",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "education",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "clear",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "main",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l2"
+    },
+    {
+     "word": "happened",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l3"
+    },
+    {
+     "word": "present",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "takes",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l3"
+    },
+    {
+     "word": "role",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l4"
+    },
+    {
+     "word": "questions",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l4"
+    },
+    {
+     "word": "production",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l3"
+    },
+    {
+     "word": "review",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l1"
+    },
+    {
+     "word": "parts",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l2"
+    },
+    {
+     "word": "quickly",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l4"
+    },
+    {
+     "word": "positive",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l2"
+    },
+    {
+     "word": "minute",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "teams",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l3"
+    },
+    {
+     "word": "rule",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l4"
+    },
+    {
+     "word": "learning",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l4"
+    },
+    {
+     "word": "explain",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l1"
+    },
+    {
+     "word": "learned",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l4"
+    },
+    {
+     "word": "benefit",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l3"
+    },
+    {
+     "word": "method",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l1"
+    },
+    {
+     "word": "improve",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l2"
+    },
+    {
+     "word": "proud",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l3"
+    },
+    {
+     "word": "background",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "skills",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l2"
+    },
+    {
+     "word": "responsibility",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l3"
+    },
+    {
+     "word": "technical",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l2"
+    },
+    {
+     "word": "breaking",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l2"
+    },
+    {
+     "word": "forms",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l4"
+    },
+    {
+     "word": "links",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l4"
+    },
+    {
+     "word": "mistake",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l3"
+    },
+    {
+     "word": "split",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l2"
+    },
+    {
+     "word": "task",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l2"
+    },
+    {
+     "word": "examples",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l1"
+    },
+    {
+     "word": "describe",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "calm",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l2"
+    },
+    {
+     "word": "lesson",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l3"
+    },
+    {
+     "word": "feedback",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l1"
+    },
+    {
+     "word": "stays",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l1"
+    },
+    {
+     "word": "explaining",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l1"
+    },
+    {
+     "word": "weakness",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l2"
+    },
+    {
+     "word": "deadline",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u3-l3"
+    },
+    {
+     "word": "strongest",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u1-l2"
+    },
+    {
+     "word": "disagree",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l2"
+    },
+    {
+     "word": "designers",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l3"
+    },
+    {
+     "word": "polite",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l1"
+    },
+    {
+     "word": "strengths",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l1"
+    },
+    {
+     "word": "listens",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b1-u4-l4"
+    },
+    {
+     "word": "testers",
+     "tier": 5,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l3"
+    },
+    {
+     "word": "disagreeing",
+     "tier": 5,
+     "firstLessonId": "interviews-tech-interview-b1-u2-l2"
+    }
+   ],
+   "phrases": [
+    "Gives a clear order",
+    "Uses past and present",
+    "Stays near one minute",
+    "Names skills",
+    "Gives an example",
+    "Speaks clearly",
+    "Says what it did",
+    "Says your part",
+    "Says the result",
+    "Gives a reason",
+    "Links to the job",
+    "Describes a method",
+    "Stays polite",
+    "Describes steps",
+    "Stays calm",
+    "Gives a result",
+    "Names a benefit",
+    "Gives a rule",
+    "Says the problem",
+    "Says the steps",
+    "Uses first and then",
+    "Says what happened",
+    "Says what you did",
+    "Names two",
+    "Gives examples",
+    "Names a weakness",
+    "Says what you do",
+    "Stays positive",
+    "Takes responsibility",
+    "Says the lesson",
+    "Asks two",
+    "Uses polite forms",
+    "Listens"
+   ]
+  },
+  "B2": {
+   "words": [
+    {
+     "word": "need",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l3"
+    },
+    {
+     "word": "both",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l3"
+    },
+    {
+     "word": "find",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l4"
+    },
+    {
+     "word": "own",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l1"
+    },
+    {
+     "word": "next",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l4"
+    },
+    {
+     "word": "without",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l1"
+    },
+    {
+     "word": "end",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l4"
+    },
+    {
+     "word": "show",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l4"
+    },
+    {
+     "word": "keep",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l2"
+    },
+    {
+     "word": "left",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l1"
+    },
+    {
+     "word": "change",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l4"
+    },
+    {
+     "word": "point",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l1"
+    },
+    {
+     "word": "states",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l2"
+    },
+    {
+     "word": "yes",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l4"
+    },
+    {
+     "word": "makes",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l2"
+    },
+    {
+     "word": "thanks",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l4"
+    },
+    {
+     "word": "fact",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l2"
+    },
+    {
+     "word": "needs",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l3"
+    },
+    {
+     "word": "looks",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l1"
+    },
+    {
+     "word": "action",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l2"
+    },
+    {
+     "word": "words",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l1"
+    },
+    {
+     "word": "shows",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l2"
+    },
+    {
+     "word": "step",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l4"
+    },
+    {
+     "word": "changes",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l4"
+    },
+    {
+     "word": "forward",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l1"
+    },
+    {
+     "word": "range",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l1"
+    },
+    {
+     "word": "trade",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l3"
+    },
+    {
+     "word": "natural",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l3"
+    },
+    {
+     "word": "related",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l3"
+    },
+    {
+     "word": "situation",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l2"
+    },
+    {
+     "word": "offer",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l4"
+    },
+    {
+     "word": "growth",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l2"
+    },
+    {
+     "word": "write",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l2"
+    },
+    {
+     "word": "required",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l3"
+    },
+    {
+     "word": "expect",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l1"
+    },
+    {
+     "word": "sounds",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l3"
+    },
+    {
+     "word": "approach",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l2"
+    },
+    {
+     "word": "impact",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l4"
+    },
+    {
+     "word": "lack",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l3"
+    },
+    {
+     "word": "telling",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l2"
+    },
+    {
+     "word": "choose",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l3"
+    },
+    {
+     "word": "details",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l4"
+    },
+    {
+     "word": "accept",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l4"
+    },
+    {
+     "word": "knowing",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l4"
+    },
+    {
+     "word": "offers",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l3"
+    },
+    {
+     "word": "proof",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l1"
+    },
+    {
+     "word": "honestly",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l2"
+    },
+    {
+     "word": "blame",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l1"
+    },
+    {
+     "word": "respond",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l3"
+    },
+    {
+     "word": "solutions",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l3"
+    },
+    {
+     "word": "repeat",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l1"
+    },
+    {
+     "word": "tone",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l2"
+    },
+    {
+     "word": "gap",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l2"
+    },
+    {
+     "word": "compare",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l3"
+    },
+    {
+     "word": "confident",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l4"
+    },
+    {
+     "word": "opens",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l1"
+    },
+    {
+     "word": "remote",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l3"
+    },
+    {
+     "word": "stops",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l4"
+    },
+    {
+     "word": "handling",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l4"
+    },
+    {
+     "word": "connect",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l3"
+    },
+    {
+     "word": "salary",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l1"
+    },
+    {
+     "word": "neutral",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l1"
+    },
+    {
+     "word": "accepting",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l4"
+    },
+    {
+     "word": "hint",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l4"
+    },
+    {
+     "word": "flexibility",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l3"
+    },
+    {
+     "word": "linking",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l3"
+    },
+    {
+     "word": "admits",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b2-u4-l3"
+    },
+    {
+     "word": "accepts",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l4"
+    },
+    {
+     "word": "chooses",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l3"
+    },
+    {
+     "word": "negotiating",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b2-u3-l2"
+    },
+    {
+     "word": "offs",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l3"
+    },
+    {
+     "word": "cleanly",
+     "tier": 5,
+     "firstLessonId": "interviews-tech-interview-b2-u1-l4"
+    },
+    {
+     "word": "restating",
+     "tier": 5,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l1"
+    },
+    {
+     "word": "restates",
+     "tier": 5,
+     "firstLessonId": "interviews-tech-interview-b2-u2-l1"
+    }
+   ],
+   "phrases": [
+    "Opens with the point",
+    "Gives proof",
+    "Stays short",
+    "Gives the situation",
+    "Describes your action",
+    "States the result",
+    "Names a need",
+    "Links your story",
+    "Sounds natural",
+    "Gives a next step",
+    "Stops cleanly",
+    "Restates it",
+    "Asks a question",
+    "Stays calm",
+    "Gives steps",
+    "Gives a reason",
+    "Speaks clearly",
+    "Names both",
+    "Chooses clearly",
+    "Accepts the hint",
+    "Changes the plan",
+    "Gives a range",
+    "Stays polite",
+    "Makes a clear ask",
+    "Asks clearly",
+    "Uses polite forms",
+    "Listens",
+    "Says yes clearly",
+    "Checks details",
+    "Thanks them",
+    "Stays neutral",
+    "Looks forward",
+    "States the fact",
+    "Shows growth",
+    "Admits it",
+    "Shows related skill",
+    "Offers a plan",
+    "Gives a method",
+    "Stays confident"
+   ]
+  },
+  "C1": {
+   "words": [
+    {
+     "word": "were",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l4"
+    },
+    {
+     "word": "back",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l3"
+    },
+    {
+     "word": "under",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l1"
+    },
+    {
+     "word": "system",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l1"
+    },
+    {
+     "word": "person",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l2"
+    },
+    {
+     "word": "idea",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l2"
+    },
+    {
+     "word": "buy",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l3"
+    },
+    {
+     "word": "non",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l2"
+    },
+    {
+     "word": "final",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l4"
+    },
+    {
+     "word": "position",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l2"
+    },
+    {
+     "word": "security",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l2"
+    },
+    {
+     "word": "view",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l3"
+    },
+    {
+     "word": "design",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l1"
+    },
+    {
+     "word": "value",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l4"
+    },
+    {
+     "word": "evidence",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l3"
+    },
+    {
+     "word": "led",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l1"
+    },
+    {
+     "word": "decision",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l3"
+    },
+    {
+     "word": "choice",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l3"
+    },
+    {
+     "word": "simple",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l2"
+    },
+    {
+     "word": "changed",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l4"
+    },
+    {
+     "word": "risk",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l2"
+    },
+    {
+     "word": "build",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l3"
+    },
+    {
+     "word": "leading",
+     "tier": 1,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l1"
+    },
+    {
+     "word": "manager",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l1"
+    },
+    {
+     "word": "statement",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l4"
+    },
+    {
+     "word": "opening",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l1"
+    },
+    {
+     "word": "reasons",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l1"
+    },
+    {
+     "word": "challenge",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l3"
+    },
+    {
+     "word": "scale",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l2"
+    },
+    {
+     "word": "push",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l3"
+    },
+    {
+     "word": "understanding",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l2"
+    },
+    {
+     "word": "authority",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l1"
+    },
+    {
+     "word": "option",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l3"
+    },
+    {
+     "word": "ends",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l4"
+    },
+    {
+     "word": "presence",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l1"
+    },
+    {
+     "word": "options",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l3"
+    },
+    {
+     "word": "debt",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l4"
+    },
+    {
+     "word": "concern",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l2"
+    },
+    {
+     "word": "fail",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l2"
+    },
+    {
+     "word": "holds",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l3"
+    },
+    {
+     "word": "experts",
+     "tier": 2,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l2"
+    },
+    {
+     "word": "defend",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l3"
+    },
+    {
+     "word": "strongly",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l4"
+    },
+    {
+     "word": "explains",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l3"
+    },
+    {
+     "word": "risks",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l2"
+    },
+    {
+     "word": "defending",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l3"
+    },
+    {
+     "word": "criteria",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l4"
+    },
+    {
+     "word": "owns",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l3"
+    },
+    {
+     "word": "grows",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l2"
+    },
+    {
+     "word": "realistic",
+     "tier": 3,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l2"
+    },
+    {
+     "word": "memorable",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l4"
+    },
+    {
+     "word": "sums",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l4"
+    },
+    {
+     "word": "designing",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l1"
+    },
+    {
+     "word": "admitting",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l4"
+    },
+    {
+     "word": "credible",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l4"
+    },
+    {
+     "word": "unsafe",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-c1-u2-l3"
+    },
+    {
+     "word": "fixes",
+     "tier": 4,
+     "firstLessonId": "interviews-tech-interview-c1-u1-l2"
+    },
+    {
+     "word": "politely",
+     "tier": 5,
+     "firstLessonId": "interviews-tech-interview-c1-u3-l3"
+    }
+   ],
+   "phrases": [
+    "Gives the parts",
+    "Gives reasons",
+    "Sounds clear",
+    "Names risks",
+    "Gives fixes",
+    "Sounds realistic",
+    "Names the options",
+    "Explains the choice",
+    "Owns the risk",
+    "Gives criteria",
+    "Gives an example",
+    "Sounds credible",
+    "Describes steps",
+    "States the result",
+    "Takes a clear position",
+    "Gives steps",
+    "Stays calm",
+    "Offers an option",
+    "Stays polite",
+    "Owns it",
+    "Says what changed",
+    "Stays confident",
+    "Sounds confident",
+    "Stays short",
+    "Looks forward",
+    "Uses simple words",
+    "Uses an example",
+    "Checks understanding",
+    "Holds the view",
+    "Gives evidence",
+    "Sums up value",
+    "Ends strongly"
+   ]
+  }
+ },
  "travel-conversations": {
   "A1": {
    "words": [
