@@ -1180,7 +1180,7 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares",
-      "hint": "Full: compares options with reasons. Partial: lists. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: compares two numbers or groups, for example \"Women scored higher than men, 78 against 71.\" Partial: compares without numbers. None: no comparison. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives reasons",
@@ -1286,7 +1286,7 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
      },
      {
       "label": "Gives an example",
-      "hint": "Full: gives an example. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a real or realistic example of a good or weak source. Partial: a general example. None: no example. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Keeps the order",
@@ -1622,7 +1622,7 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Full: explains why they ask. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives the reason the view changed, for example \"The new study used a larger group.\" Partial: reason is unclear. None: no reason. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks politely",
@@ -1658,15 +1658,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Frames the topic",
-      "hint": "Full: frames the topic and the main question. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names the topic and why it matters in one or two sentences, for example \"Today we will look at remote study and whether it helps learning.\" Partial: names the topic only. None: starts without a frame. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Invites views",
-      "hint": "Full: invites views. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks an open question that needs reasons, for example \"What is your view, and why?\" Partial: asks a yes or no question. None: gives no invitation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps neutral",
-      "hint": "Full: stays neutral. Partial: pushes a view. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: does not push own opinion while opening, for example \"There are different views on this.\" Partial: one leading phrase. None: states own view as the answer. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1692,15 +1692,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Invites others",
-      "hint": "Full: invites quiet members. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: invites a quiet person by name, for example \"Omar, we have not heard from you yet. What do you think?\" Partial: asks the whole group only. None: no invitation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Redirects politely",
-      "hint": "Full: redirects politely. Partial: ignores. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: brings the talk back kindly, for example \"That is interesting. Let us return to the main question.\" Partial: redirects bluntly. None: lets the talk drift. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps to time",
-      "hint": "Full: keeps to time. Partial: over. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states or checks the time, for example \"We have five minutes left, so one point each.\" Partial: mentions time once without acting. None: ignores time. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1726,15 +1726,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Reports fairly",
-      "hint": "Full: reports views fairly. Partial: biased. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: reports each view accurately and without judging, for example \"Ali thinks the exam is fair, Sara disagrees.\" Partial: leaves one view out. None: reports only own view. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Groups similar views",
-      "hint": "Full: groups similar views. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: puts views together, for example \"Two of you prefer group work, one prefers working alone.\" Partial: lists views one by one. None: no grouping. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Names the gap",
-      "hint": "Full: names the gap between views. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names what is still unresolved, for example \"We still disagree about the deadline.\" Partial: hints at a gap. None: says everyone agrees when they do not. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1760,15 +1760,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Recaps decisions",
-      "hint": "Full: recaps decisions. Partial: some. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states what was decided in short sentences, for example \"We decided to meet on Monday and use the shared file.\" Partial: recaps one decision. None: no recap. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Assigns tasks",
-      "hint": "Full: assigns tasks. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives each task an owner, for example \"Salma will write the intro, Ali will find two sources.\" Partial: tasks without owners. None: no tasks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Sets a time",
-      "hint": "Full: sets a time. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: sets a clear time or deadline, for example \"Let us finish by Friday at noon.\" Partial: says \"soon\". None: no time. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1794,15 +1794,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States motivation",
-      "hint": "Full: states motivation. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a real reason for choosing the course, for example \"I chose it because I want to work in public health.\" Partial: a general reason like \"it is good\". None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives evidence",
-      "hint": "Full: gives evidence. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: supports a claim with a fact, figure, source or example, for example \"A 2022 survey found 70 percent of students prefer this.\" Partial: a general claim like \"many people say\". None: no support. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Links to goals",
-      "hint": "Full: links to goals. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: connects the point to a clear goal, for example \"This course prepares me for a master's in nutrition.\" Partial: a vague link. None: no link. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1828,15 +1828,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names strengths",
-      "hint": "Full: names strengths. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names two or three real strengths in precise words, for example \"I am organised and I explain ideas clearly.\" Partial: one vague strength like \"I am good\". None: no strength named. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives examples",
-      "hint": "Full: gives examples. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a short specific example for a claim, for example \"Last term I led a group of four and we finished early.\" Partial: an example without detail. None: no example. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Stays honest",
-      "hint": "Full: stays honest. Partial: exaggerates. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: does not overclaim and says what is uncertain, for example \"I think so, but I would need to check.\" Partial: one strong claim with no support. None: exaggerates or invents. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1862,15 +1862,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Buys thinking time",
-      "hint": "Full: says \"That's a good question, let me think.\" Partial: silence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: uses a natural phrase to think, for example \"That is a good question. Let me think for a moment.\" Partial: long silence or \"um\" only. None: panics or says \"I don't know\" and stops. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives structure",
-      "hint": "Full: answers in structure. Partial: loose. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: shows a clear order, for example \"There are two points. First... Second...\" Partial: ideas in no clear order. None: no structure. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Concludes",
-      "hint": "Full: concludes. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: ends with a clear final sentence, for example \"So overall, I would say the benefits are greater.\" Partial: stops without a conclusion. None: trails off. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1896,15 +1896,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks relevant questions",
-      "hint": "Full: asks relevant questions. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks a question linked to the course or role, for example \"How do students usually work with supervisors?\" Partial: a generic question. None: no question. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Shows interest",
-      "hint": "Full: shows interest. Partial: flat. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: shows real interest with a specific detail, for example \"I read about your lab's project on water quality.\" Partial: polite but general. None: neutral or bored tone. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Thanks the panel",
-      "hint": "Full: thanks the panel. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: thanks the panel warmly and by role, for example \"Thank you for your time and your questions.\" Partial: a short \"thanks\". None: no thanks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1930,15 +1930,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States position",
-      "hint": "Full: states a clear position. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states a clear position in one sentence, for example \"I believe universities should offer more online options.\" Partial: unclear or both sides. None: no position. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives two reasons",
-      "hint": "Full: gives two reasons. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives two separate reasons, each in its own sentence, with a link word. Partial: one reason or two mixed together. None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Adds evidence",
-      "hint": "Full: adds evidence. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: adds a fact, figure or example to a reason, for example \"For instance, attendance rose by 15 percent.\" Partial: a claim without proof. None: no evidence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1964,15 +1964,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names a source",
-      "hint": "Full: names a source. Partial: \"studies say\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names where the evidence comes from, for example \"According to a 2021 report by the university...\" Partial: \"I read somewhere\". None: no source. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains it",
-      "hint": "Full: explains what the source shows. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: explains what the evidence shows in plain words, for example \"This means students who practise more score higher.\" Partial: repeats the fact only. None: no explanation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Links to the claim",
-      "hint": "Full: links the evidence back to the claim. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: shows how the evidence supports the claim, for example \"This supports my point that practice matters.\" Partial: link is implied. None: no link. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1998,15 +1998,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges",
-      "hint": "Full: acknowledges the challenge. Partial: ignores. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: acknowledges the challenge first, for example \"That is a fair point.\" Partial: a short \"okay\". None: ignores or dismisses it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Defends calmly",
-      "hint": "Full: defends calmly. Partial: defensive. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: defends the point with a reason in a steady tone, for example \"I still think so, because the data covers three years.\" Partial: repeats the claim. None: gets defensive or gives up. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Concedes a detail",
-      "hint": "Full: concedes a small detail. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: accepts one small point while keeping the main view, for example \"You are right about the sample size, but the trend is clear.\" Partial: concedes everything or nothing. None: refuses to give any ground. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2032,15 +2032,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Admits the point",
-      "hint": "Full: admits the good point. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: admits the other person is right, for example \"I had not considered that. You are right.\" Partial: admits reluctantly or vaguely. None: denies. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Adjusts the view",
-      "hint": "Full: adjusts the view. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states the new view clearly, for example \"So I now think the effect is smaller than I said.\" Partial: hints at a change. None: keeps the old view unchanged. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains why",
-      "hint": "Full: explains why they ask. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives the reason the view changed, for example \"The new study used a larger group.\" Partial: reason is unclear. None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2066,15 +2066,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the aim",
-      "hint": "Full: states the aim. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states the aim in one sentence, for example \"I wanted to find out how students use their phones in class.\" Partial: aim is vague. None: no aim. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Describes the method",
-      "hint": "Full: describes the method. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: describes who, how many and how, for example \"I surveyed 50 students with a short questionnaire.\" Partial: one detail only. None: no method. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Notes a limit",
-      "hint": "Full: notes a limit. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names one limit of the method, for example \"The group was small and from one faculty.\" Partial: says \"it was not perfect\". None: no limit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2100,15 +2100,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives results",
-      "hint": "Full: gives results with numbers. Partial: general. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: reports at least two figures with their meaning, for example \"62 percent said yes, 25 percent said no.\" Partial: one figure. None: only general words like \"many\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Compares",
-      "hint": "Full: compares options with reasons. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: compares two numbers or groups, for example \"Women scored higher than men, 78 against 71.\" Partial: compares without numbers. None: no comparison. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Avoids overclaiming",
-      "hint": "Full: avoids overclaiming, like \"suggests\" not \"proves\". Partial: overclaims. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: uses careful language, for example \"This suggests\" instead of \"This proves\". Partial: one too-strong claim. None: claims certainty without support. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2134,15 +2134,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names limits",
-      "hint": "Full: names limits. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says clearly what the study could not show, for example \"We cannot say whether the effect lasts.\" Partial: a vague limit. None: no limit named. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains effect",
-      "hint": "Full: explains how limits affect results. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: explains how the limit affects the result, for example \"Because the group was small, the numbers may change.\" Partial: names the limit without its effect. None: no effect explained. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Suggests next step",
-      "hint": "Full: suggests next step. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: suggests a concrete next step, for example \"A larger study over a full year would help.\" Partial: says \"more research is needed\". None: no suggestion. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2168,15 +2168,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names criteria",
-      "hint": "Full: names criteria for judging a source. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names two criteria for a good source, for example \"who wrote it and how recent it is.\" Partial: one criterion. None: none named. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives an example",
-      "hint": "Full: gives an example. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a real or realistic example of a good or weak source. Partial: a general example. None: no example. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Admits doubt",
-      "hint": "Full: admits doubt. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says when unsure and how to check, for example \"I am not sure about this website, so I would check the author.\" Partial: says \"maybe\". None: claims certainty. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2202,15 +2202,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Adds reasons",
-      "hint": "Full: adds reasons. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: adds a reason to a short answer, for example \"Yes, because it saves me time.\" Partial: one-word or yes/no. None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Adds examples",
-      "hint": "Full: adds examples. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: adds a short example, for example \"For instance, last week I...\" Partial: a general statement. None: no example. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps pace",
-      "hint": "Full: keeps a steady pace. Partial: slow. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: answers quickly and smoothly without long pauses. Partial: two or three long pauses. None: frequent long silences. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2236,15 +2236,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens clearly",
-      "hint": "Full: opens clearly. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: opens with the topic and a plan, for example \"I will talk about X in two parts.\" Partial: topic only. None: starts without a frame. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Develops points",
-      "hint": "Full: develops points. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: develops each point with a reason or example for about the time given. Partial: points are short or repeated. None: only one thin point. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Closes clearly",
-      "hint": "Full: closes clearly. Partial: trails. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: closes with a short summary and a final sentence, for example \"To sum up...\" Partial: stops abruptly. None: no closing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2270,15 +2270,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives both sides",
-      "hint": "Full: gives both sides. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives one argument for and one against, for example \"On one hand... on the other hand...\" Partial: one side with a brief mention of the other. None: one side only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Takes a position",
-      "hint": "Full: takes a position. Partial: avoids. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: chooses a side and says why. Partial: sits on the fence. None: no position. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Uses linking words",
-      "hint": "Full: uses however, although, because. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: uses at least three linking words naturally, such as however, because, for example. Partial: one or two. None: ideas stand alone. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2304,15 +2304,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the weakness",
-      "hint": "Full: names the weakness. Partial: avoids. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names one specific weak skill and when it shows, for example \"I lose my words when I answer questions.\" Partial: \"my English is weak\". None: none named. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Tries a fix",
-      "hint": "Full: tries the fix. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: tries a specific fix during the task, for example slows down or uses a phrase. Partial: mentions a fix without trying it. None: no attempt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Compares the result",
-      "hint": "Full: compares before and after. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: compares before and after, for example \"This time I paused less.\" Partial: says \"it was better\". None: no comparison. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2340,15 +2340,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Defines clearly",
-      "hint": "Full: defines clearly. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a clear definition in one or two sentences with the key features. Partial: a loose description. None: no definition. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Sets limits",
-      "hint": "Full: sets limits of the term. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says what the term does not include, for example \"Here I mean written sources, not interviews.\" Partial: a vague limit. None: no limit. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives an example",
-      "hint": "Full: gives an example. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a real or realistic example of a good or weak source. Partial: a general example. None: no example. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2374,15 +2374,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares evidence",
-      "hint": "Full: compares evidence. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: compares two pieces of evidence on a clear point, for example \"The survey has more people, but the interview gives more detail.\" Partial: lists both without comparing. None: one only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Judges quality",
-      "hint": "Full: judges quality. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: judges quality with a reason, for example \"The study is stronger because it is peer reviewed.\" Partial: says \"good\" or \"bad\". None: no judgement. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reaches a view",
-      "hint": "Full: reaches a view. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: reaches a clear view from the comparison, for example \"So I trust the second source more.\" Partial: a tentative view. None: no view. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2408,15 +2408,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges",
-      "hint": "Full: acknowledges the challenge. Partial: ignores. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: acknowledges the challenge first, for example \"That is a fair point.\" Partial: a short \"okay\". None: ignores or dismisses it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Pinpoints the gap",
-      "hint": "Full: pinpoints the gap. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names exactly where the views differ, for example \"We agree on the data but not on what it means.\" Partial: a general \"I disagree\". None: does not say where. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Full: offers an alternative. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers a different explanation or approach politely, for example \"Another way to see it is...\" Partial: just says no. None: no alternative. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2442,15 +2442,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises sources",
-      "hint": "Full: summarises sources. Partial: one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives each source's main point in one sentence. Partial: summarises one source. None: no summary. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Finds a link",
-      "hint": "Full: finds a link between views. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: finds a link or conflict between sources, for example \"Both stress practice, but they differ on timing.\" Partial: lists differences without a link. None: no link. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States a position",
-      "hint": "Full: states a position. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states a clear position drawing on the sources. Partial: position is implied. None: no position. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2476,15 +2476,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains the topic",
-      "hint": "Full: explains the topic. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: explains the research topic in plain words a non-expert can follow. Partial: uses technical words without explaining. None: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains the value",
-      "hint": "Full: explains the value. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says why it matters, for example \"This could help schools plan better.\" Partial: says \"it is important\". None: no value stated. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Invites questions",
-      "hint": "Full: invites questions. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: invites questions warmly, for example \"I would be glad to take questions.\" Partial: says \"any questions?\" abruptly. None: does not invite. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2510,15 +2510,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens naturally",
-      "hint": "Full: opens naturally. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: starts with a natural opener, for example \"Hi, I am Omar. Are you enjoying the conference?\" Partial: a stiff introduction. None: starts abruptly. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Finds common ground",
-      "hint": "Full: finds common ground. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: finds something shared and builds on it, for example \"I also work on language learning.\" Partial: notes a shared point without building. None: no common ground. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Closes politely",
-      "hint": "Full: closes politely. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: ends gracefully, for example \"It was great talking to you. I hope we meet again.\" Partial: a short goodbye. None: walks away or ends abruptly. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2544,15 +2544,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States interest",
-      "hint": "Full: states interest. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states interest in the supervisor's work with a specific detail. Partial: general interest. None: no interest shown. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Shows preparation",
-      "hint": "Full: shows preparation. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: shows they read the supervisor's work, for example \"I read your paper on classroom talk.\" Partial: general knowledge. None: no preparation. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Proposes next step",
-      "hint": "Full: proposes next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: proposes a concrete next step, for example \"May I send you a short proposal next week?\" Partial: \"let me know\". None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2578,15 +2578,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names a strength",
-      "hint": "Full: names a strength. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names a real strength with an example, for example \"Your slides were clear and your opening grabbed attention.\" Partial: \"good job\". None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names a fix",
-      "hint": "Full: names a fix. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names one fix kindly and specifically, for example \"The graph was hard to read. A larger font would help.\" Partial: a vague criticism. None: harsh or none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers a suggestion",
-      "hint": "Full: offers a suggestion. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers a practical suggestion, for example \"You could slow down in the methods section.\" Partial: a general wish. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2612,15 +2612,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the contribution",
-      "hint": "Full: states the contribution. Partial: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states the new contribution in one clear sentence, for example \"This study shows that X affects Y in a new setting.\" Partial: a vague claim. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Frames the gap",
-      "hint": "Full: frames the research gap. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names what was missing before the study, for example \"Earlier work did not look at adult learners.\" Partial: says \"little is known\". None: no gap. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Signposts",
-      "hint": "Full: signposts. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: tells the audience the plan, for example \"First the method, then the results, then what they mean.\" Partial: one signpost. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2646,15 +2646,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains findings",
-      "hint": "Full: explains findings. Partial: lists. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: explains the key findings with figures in clear order. Partial: lists figures without explaining. None: no findings. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States implications",
-      "hint": "Full: states implications. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states what the findings mean for practice or theory, for example \"This suggests teachers should...\" Partial: a general remark. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Stays precise",
-      "hint": "Full: stays precise. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: uses exact numbers and careful words, for example \"increased by 12 percent\". Partial: some vague words. None: mostly vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2680,15 +2680,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: keeps a steady voice and short sentences under pressure, with no defensive words. Partial: one tense moment. None: loses calm. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Addresses the core",
-      "hint": "Full: addresses the core of the question. Partial: side issue. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: answers the real point of the challenge in the first sentence. Partial: answers a side issue. None: avoids the point. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Defends or concedes",
-      "hint": "Full: defends or concedes with reasons. Partial: neither. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: either defends with a reason or concedes with a reason, clearly. Partial: unclear which. None: neither. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2714,15 +2714,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Justifies the choice",
-      "hint": "Full: justifies the choice. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a reason for the research choice, for example \"I chose interviews because they give detail.\" Partial: a weak reason. None: no reason. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names alternatives",
-      "hint": "Full: names alternatives. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names an alternative choice and why it was not used. Partial: names one without comment. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Accepts limits",
-      "hint": "Full: accepts limits. Partial: denies. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: accepts the limit honestly and says how it was handled. Partial: accepts without detail. None: denies. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2748,15 +2748,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the main claim",
-      "hint": "Full: states the main claim. Partial: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states the article's main claim in one sentence in own words. Partial: copies the title. None: missing. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Covers key points",
-      "hint": "Full: covers key points. Partial: some. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: covers two or three key points in order, briefly. Partial: one point only. None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a view",
-      "hint": "Full: gives a view. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a short view of the article with a reason. Partial: \"it was interesting\". None: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2782,15 +2782,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Orients the audience",
-      "hint": "Full: orients the audience (axes, units, scope). Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: tells the audience what the axes and units are before details. Partial: starts with details. None: no orientation. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Highlights the trend",
-      "hint": "Full: highlights the main trend. Partial: lists. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names the main trend with numbers, for example \"It rises from 20 to 45.\" Partial: names it without numbers. None: no trend. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Interprets it",
-      "hint": "Full: interprets what it means. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says what the pattern means, with care. Partial: describes only. None: no interpretation. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2816,15 +2816,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Keeps the meaning",
-      "hint": "Full: keeps the meaning. Partial: changes. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: the restated idea has the same meaning as the original. Partial: loses one point. None: changes the meaning. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Simplifies",
-      "hint": "Full: simplifies. Partial: same. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: uses simpler words and shorter sentences than the original. Partial: partly simpler. None: as complex as before. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Checks understanding",
-      "hint": "Full: checks understanding. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: checks that the listener understood, for example \"Does that make sense?\" Partial: says \"okay?\". None: does not check. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2850,15 +2850,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Rephrases",
-      "hint": "Full: rephrases. Partial: repeats. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: changes the formal sentence into natural spoken English. Partial: changes a few words only. None: repeats it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Keeps accuracy",
-      "hint": "Full: keeps accuracy. Partial: loses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: all facts and numbers stay the same. Partial: one small change. None: changes facts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Sounds natural",
-      "hint": "Full: sounds natural. Partial: stiff. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: sounds like speech, with contractions or short sentences. Partial: still stiff. None: reads like writing. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
