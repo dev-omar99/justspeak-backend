@@ -24,7 +24,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: say hello and thank her for meeting you. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Smiles in the voice",
@@ -125,7 +125,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Thanks",
-      "hint": "Scene goal: say goodbye and thank you. Full credit if the learner clearly shows: thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Goodbye",
@@ -409,7 +409,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks",
-      "hint": "Scene goal: show you understand and thank him. Full credit if the learner clearly shows: thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Short answer",
@@ -582,7 +582,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Reason",
-      "hint": "Scene goal: say simply why you like helping people. Full credit if the learner clearly shows: reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a reason for the no. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Example",
@@ -695,7 +695,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Short sentences",
-      "hint": "Scene goal: say what you can do for the team. Full credit if the learner clearly shows: short sentences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: keeps sentences short. Partial: mixed lengths. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -726,7 +726,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Reason",
-      "hint": "Scene goal: answer \"Can you work shifts?\" with answer first. Full credit if the learner clearly shows: reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a reason for the no. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Short",
@@ -1638,7 +1638,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Explains why",
-      "hint": "Scene goal: read the card and tell the coach two tips you will use. Full credit if the learner clearly shows: explains why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a short reason for the question, like \"This is for security.\" Partial: gives no reason. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Practises one aloud",
@@ -1850,7 +1850,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Reason",
-      "hint": "Scene goal: use WHAT-WHY-HOW with steps. Full credit if the learner clearly shows: reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a reason for the no. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Steps incl. escalate if needed",
@@ -2235,7 +2235,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks",
-      "hint": "Scene goal: close with confidence, a smile in your voice and thanks. Full credit if the learner clearly shows: thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Link to the role",
@@ -2447,7 +2447,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Reason",
-      "hint": "Scene goal: answer with a clear position and nuance. Full credit if the learner clearly shows: reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a reason for the no. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Nuance",

@@ -24,7 +24,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says goodbye",
-      "hint": "Scene goal: greet her and say goodbye. Full credit if the learner clearly shows: says goodbye. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: ends with \"Goodbye\" or \"Bye\" before hanging up. Partial: just stops talking. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Smiles in the voice",
@@ -54,7 +54,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says own name",
-      "hint": "Scene goal: say your name and ask his. Full credit if the learner clearly shows: says own name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: gives their own first name clearly, like \"My name is Sam.\" Partial: name mumbled or missing. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks his name",
@@ -126,11 +126,11 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Answers",
-      "hint": "Scene goal: ask and answer \"How are you?\". Full credit if the learner clearly shows: answers. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: answers the bill question correctly. Partial: answers incompletely. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: ask and answer \"How are you?\". Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -300,7 +300,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: ask for an item and the price. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -334,7 +334,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: order a drink and say thank you. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -604,7 +604,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: accept or say no politely. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Stays friendly",
@@ -634,11 +634,11 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says sorry",
-      "hint": "Scene goal: change a plan politely. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: apologises sincerely for the problem. Partial: says sorry flatly or too late. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: change a plan politely. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Suggests another time",
@@ -710,7 +710,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Thanks him",
-      "hint": "Scene goal: order a meal with a drink. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: thanks the customer by \"Thank you\" at the end. Partial: forgets or mumbles it. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -744,7 +744,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Thanks him",
-      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: thanks the customer by \"Thank you\" at the end. Partial: forgets or mumbles it. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -812,7 +812,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Thanks him",
-      "hint": "Scene goal: ask to return or change an item. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: thanks the customer by \"Thank you\" at the end. Partial: forgets or mumbles it. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -846,7 +846,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says how long",
-      "hint": "Scene goal: say what is wrong. Full credit if the learner clearly shows: says how long. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says a length of time, like \"two to three days\". Partial: says \"a while\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -944,7 +944,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: talk about food and sport. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Uses simple present",
@@ -1042,11 +1042,11 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says sorry",
-      "hint": "Scene goal: say sorry and fix a small problem. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: apologises sincerely for the problem. Partial: says sorry flatly or too late. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: say sorry and fix a small problem. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Offers a fix",
@@ -1110,7 +1110,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Scene goal: start and end a phone call. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says why you call",
@@ -1118,7 +1118,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says goodbye",
-      "hint": "Scene goal: start and end a phone call. Full credit if the learner clearly shows: says goodbye. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: ends with \"Goodbye\" or \"Bye\" before hanging up. Partial: just stops talking. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1148,7 +1148,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives the reason",
-      "hint": "Scene goal: leave a short clear message. Full credit if the learner clearly shows: gives the reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a short reason for the rule. Partial: says only \"it is the policy\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says a time to call",
@@ -1178,7 +1178,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Scene goal: write or say a short message to a friend. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives the main point",
@@ -1186,7 +1186,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Closes",
-      "hint": "Scene goal: write or say a short message to a friend. Full credit if the learner clearly shows: closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: ends the call with a polite close. Partial: ends abruptly. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1256,7 +1256,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Listens",
-      "hint": "Scene goal: start a conversation with a stranger. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: listens and reflects back. Partial: interrupts. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1350,7 +1350,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: end a chat politely. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Says nice to meet you",
@@ -1524,7 +1524,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: give an opinion with a reason. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Uses softeners",
@@ -1558,7 +1558,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: disagree politely. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Stays friendly",
@@ -1592,7 +1592,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives reasons",
-      "hint": "Scene goal: talk about goals and plans. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives likely reasons. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Adds a detail",
@@ -1694,7 +1694,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Stays calm",
-      "hint": "Scene goal: complain politely about a problem. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for a fix",
@@ -1834,7 +1834,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: check you understood advice. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1864,7 +1864,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: talk about how you feel. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for advice",
@@ -1898,7 +1898,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: share a routine. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives one tip",
@@ -1966,7 +1966,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Listens",
-      "hint": "Scene goal: ask about a rule or a form. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: listens and reflects back. Partial: interrupts. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Checks the answer",
@@ -2038,7 +2038,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Thanks her",
-      "hint": "Scene goal: ask to join and say what you want. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2070,7 +2070,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives examples",
-      "hint": "Scene goal: discuss a topic with ideas and examples. Full credit if the learner clearly shows: gives examples. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives one or two concrete examples. Partial: speaks in general. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Responds to him",
@@ -2138,7 +2138,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: give advice without pushing. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Lets him choose",
@@ -2168,7 +2168,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Scene goal: calm a disagreement. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: listens and reflects back. Partial: interrupts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Names the issue",
@@ -2244,7 +2244,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Thanks her",
-      "hint": "Scene goal: ask for help clearly. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2304,11 +2304,11 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says sorry",
-      "hint": "Scene goal: explain you are late. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: apologises sincerely for the problem. Partial: says sorry flatly or too late. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a short reason",
-      "hint": "Scene goal: explain you are late. Full credit if the learner clearly shows: gives a short reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives one sentence of reasoning. Partial: rambles or gives none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a plan",
@@ -2380,7 +2380,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Stays calm",
-      "hint": "Scene goal: make a formal complaint. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2410,7 +2410,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Stays polite",
-      "hint": "Scene goal: negotiate a return. Full credit if the learner clearly shows: stays polite. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: polite words and tone throughout, even when saying no. Partial: polite at first but blunt later. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Accepts a fair solution",
@@ -2474,7 +2474,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what happened",
-      "hint": "Scene goal: share what you thought. Full credit if the learner clearly shows: says what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: describes the problem in one simple sentence. Partial: repeats the complaint without detail. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives an opinion",
@@ -2482,7 +2482,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: share what you thought. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2580,7 +2580,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives reasons",
-      "hint": "Scene goal: recommend something with reasons. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives likely reasons. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Says who it is for",
@@ -2614,7 +2614,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: explain a custom clearly. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks he understands",
@@ -2678,7 +2678,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says sorry",
-      "hint": "Scene goal: fix a misunderstanding. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: apologises sincerely for the problem. Partial: says sorry flatly or too late. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains what you meant",
@@ -2750,7 +2750,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says what happened",
-      "hint": "Scene goal: give the key facts calmly. Full credit if the learner clearly shows: says what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: describes the problem in one simple sentence. Partial: repeats the complaint without detail. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Answers questions",
@@ -2892,7 +2892,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Offers support",
-      "hint": "Scene goal: notice and respond to hints. Full credit if the learner clearly shows: offers support. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers concrete help. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2956,7 +2956,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: say no kindly. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers a smaller help",
@@ -3088,7 +3088,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Scene goal: discuss regret with care. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: listens and reflects back. Partial: interrupts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reflects",
@@ -3126,7 +3126,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives reasons",
-      "hint": "Scene goal: describe how you changed. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives likely reasons. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Links to values",
@@ -3262,11 +3262,11 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Gives reasons",
-      "hint": "Scene goal: make a formal request. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives likely reasons. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Thanks her",
-      "hint": "Scene goal: make a formal request. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3292,7 +3292,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Scene goal: resolve a dispute. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: listens and reflects back. Partial: interrupts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names the issue",
@@ -3394,7 +3394,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Scene goal: hold your position politely. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Repeats the limit",
@@ -3402,7 +3402,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Offers an alternative",
-      "hint": "Scene goal: hold your position politely. Full credit if the learner clearly shows: offers an alternative. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers a real alternative. Partial: offers nothing or something unrealistic. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [

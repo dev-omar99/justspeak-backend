@@ -2,8 +2,8 @@
 """Rewrite every rubric hint from the lesson's own goal and the level's standard.
 
 A hint says what full, partial and no credit look like for THAT point in THAT scene.
-Hand-written hints per label go in hint_overrides.json ({"<label lower case>": "hint text"})
-and win over the generated text. Run: python3 refine_hints.py (rewrites the data files in place).
+Hand-written hints per label live in hints/*.txt, one per line as `Label | Full: ... Partial: ...`;
+they win over the generated text (the level standard is appended). Run: python3 refine_hints.py (rewrites the data files in place).
 """
 import json, pathlib
 
@@ -23,8 +23,12 @@ SHORTEN = {
 }
 GOAL_FIX = {'Ask for her name and ask her to spell it, then check it.': 'Ask for her name, ask her to spell it, then check it.'}
 root = pathlib.Path(__file__).resolve().parents[2] / 'src/ai-partner/content/curriculum'
-over_path = pathlib.Path(__file__).with_name('hint_overrides.json')
-over = json.loads(over_path.read_text()) if over_path.exists() else {}
+over = {}
+for hf in sorted(pathlib.Path(__file__).with_name('hints').glob('*.txt')):
+    for ln in hf.read_text().splitlines():
+        if ' | ' in ln:
+            k, v = ln.split(' | ', 1)
+            over[k.strip().lower()] = v.strip()
 
 def lf(t): return t if t[:1] in '"\'' or t[:2].isupper() else t[:1].lower() + t[1:]
 
@@ -43,9 +47,9 @@ for f in sorted(root.glob('*.ts')):
                     r['label'] = SHORTEN[r['label']]
                 key = r['label'].lower()
                 goal = l['goal'].rstrip('.')
-                r['hint'] = over.get(key) or (
+                r['hint'] = (f"{over[key]} {TIERS[l['level']]}" if key in over else (
                     f"Scene goal: {lf(goal)}. Full credit if the learner clearly shows: {lf(r['label'])}. "
-                    f"Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. {TIERS[l['level']]}")
+                    f"Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. {TIERS[l['level']]}"))
                 total += 1
     f.write_text(s[:a] + json.dumps(d, indent=1, ensure_ascii=False) + s[b:])
 print('hints rewritten:', total)

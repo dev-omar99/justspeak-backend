@@ -62,6 +62,14 @@ describe('curriculum data (review checks)', () => {
     }
   });
 
+  it('the scenario the coach and the scorer receive carries every rubric hint (both prompts print r.hint)', () => {
+    for (const { l } of all.slice(0, 600)) {
+      const sc = getRoleplay(l.id);
+      expect(sc?.rubric.map((r) => r.hint)).toEqual(l.rubric.map((r) => r.hint));
+      l.rubric.forEach((r) => expect(r.hint).toMatch(/Full|Full credit/));
+    }
+  });
+
   it('keeps content rules: no third-party names, no pricing words', () => {
     const text = JSON.stringify(CURRICULUM_PROGRAMMES).toLowerCase();
     for (const bad of ['oxford', 'yoodli', 'checkout', 'plans.ts']) expect(text).not.toContain(bad);
