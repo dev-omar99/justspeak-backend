@@ -1,0 +1,101 @@
+@programme interviews-manager-interview-english | interviews | Manager Interview English | Interview answers for team lead and manager jobs, from a first hello to a senior panel: your team, your decisions, your results. | Information exchange
+@level A1
+## Meeting the interviewer | Greet, say your name and say you want the job.
+Saying hello | s | Ms Dina, a director | Greet the interviewer and say your name. | Says hello; Says name; Smiles in the voice
+Sitting down | s | Ms Dina, a director | Answer "How are you?" and say thank you. | Answers how are you; Says thank you; Speaks slowly
+The manager job | s | Ms Dina, a director | Say you want the manager job. | Says the job; Says want; Uses a full sentence
+Saying goodbye | s | Ms Dina, a director | Thank the interviewer and say goodbye. | Says thank you; Says goodbye; Smiles in the voice
+## About you | Give simple facts about yourself.
+Where you are from | s | Mr Samir, an interviewer | Say your city and country. | Says city; Says country; Uses I am from
+Your languages | s | Mr Samir, an interviewer | Say which languages you speak. | Names languages; Uses I speak; Speaks clearly
+Your studies | s | Mr Samir, an interviewer | Say what you studied. | Says the subject; Uses I studied; Speaks slowly
+Your phone number | a | Mr Samir, an interviewer | Say your phone number slowly. | Says each digit; Pauses; Checks it
+## Your time | Talk about days and times.
+Your work days | s | An office assistant | Say which days you can work. | Names days; Uses I can; Speaks clearly
+Start time | s | An office assistant | Say what time you can start. | Says the time; Uses at; Speaks slowly
+The interview time | s | An office assistant | Confirm the day and time of your interview. | Says the day; Says the time; Checks it
+Being late | s | An office assistant | Say you are late and say sorry. | Says sorry; Says late; Gives a short reason
+## Team words | Use the first words about teams.
+Naming people | s | A team leader | Say the names of three team members. | Says names; Uses and; Speaks clearly
+Roles | s | A team leader | Say who is the boss and who is the assistant. | Names roles; Uses is; Speaks clearly
+Team size | s | A team leader | Say how many people are in your team. | Says a number; Uses there are; Speaks slowly
+Asking for help | s | A team leader | Ask a team member for help politely. | Uses please; Asks a question; Says thank you
+@level A2
+## Tell me about yourself | Give a short answer about you and your work.
+Your last job | s | Ms Dina, a director | Say where you worked and what you did. | Names the job; Uses past tense; Speaks clearly
+Your team before | s | Ms Dina, a director | Say how many people were in your team. | Says a number; Uses was or were; Speaks slowly
+Your best skill | s | Ms Dina, a director | Say one thing you do well. | Names a skill; Uses I can; Gives an example
+Your plan | s | Ms Dina, a director | Say what you want to do in this job. | Uses I want to; Names a goal; Speaks clearly
+## Why manager | Say why you want to lead a team.
+Why this job | s | Mr Samir, an interviewer | Give one reason you want to be a manager. | Gives a reason; Uses because; Speaks clearly
+Why this company | s | Mr Samir, an interviewer | Say one thing you like about the company. | Names a thing; Uses I like; Speaks clearly
+Helping people | s | Mr Samir, an interviewer | Say how you help people learn. | Describes help; Uses I show or I explain; Speaks slowly
+Your example | s | Mr Samir, an interviewer | Tell a short story about leading a small task. | Says what happened; Uses past tense; Says the result
+## A simple day | Answer simple questions about a manager's day.
+Planning the day | s | A team member | Say what you do first in the morning. | Uses first; Names the task; Speaks clearly
+Giving a task | s | A team member | Ask someone to do a simple task. | Uses can you; Names the task; Says thank you
+Checking work | s | A team member | Ask if a task is finished. | Asks a question; Uses is it done; Speaks clearly
+Saying well done | s | A team member | Praise a team member for good work. | Says well done; Says why; Smiles in the voice
+## Questions for you | Ask and answer simple practical questions.
+Asking about the team | s | Ms Dina, a director | Ask how big the team is. | Asks a question; Uses how many; Speaks clearly
+Asking about hours | s | Ms Dina, a director | Ask about the working hours. | Asks a question; Uses what time; Speaks clearly
+Asking about the start date | s | Ms Dina, a director | Ask when you can start. | Asks a question; Uses when; Speaks clearly
+Closing the meeting | s | Ms Dina, a director | Thank the interviewer and say you are interested. | Says thank you; Says interested; Speaks clearly
+@level B1
+## Tell me about yourself | Give a clear one-minute introduction for a manager job.
+Your background | s | Ms Dina, a director | Describe your education and work in one minute. | Gives a clear order; Uses past and present; Stays near one minute
+Your leadership style | s | Ms Dina, a director | Describe how you lead people. | Names a style; Gives an example; Speaks clearly
+Your proudest result | s | Ms Dina, a director | Describe a result you are proud of. | Says the result; Gives a number or fact; Speaks clearly
+Why you now | s | Ms Dina, a director | Say why you want this role at this time. | Gives a reason; Links to the job; Speaks clearly
+## Working with a team | Talk about how you work with people.
+Giving clear tasks | s | An HR manager | Explain how you give tasks to a team. | Describes steps; Uses first and then; Speaks clearly
+Giving feedback | s | An HR manager | Explain how you give feedback. | Describes a method; Gives an example; Stays polite
+A late team member | s | An HR manager | Explain what you do when someone is often late. | Describes steps; Stays calm; Gives a result
+A new team member | s | An HR manager | Explain how you help a new person start. | Describes steps; Uses will or would; Speaks clearly
+## Plans and results | Talk about goals, plans and numbers.
+Setting goals | s | A senior manager | Explain how you set goals for a team. | Describes steps; Gives an example; Speaks clearly
+Tracking progress | s | A senior manager | Explain how you check progress. | Names a method; Gives an example; Speaks clearly
+A missed target | s | A senior manager | Explain what you did when a target was missed. | Says what happened; Says what you did; Says what you learned
+Reporting results | s | A senior manager | Report a team result with numbers. | Gives numbers; Compares with before; Speaks clearly
+## Strengths and weaknesses | Answer the classic questions.
+Your strengths | s | Ms Dina, a director | Name two strengths with examples. | Names two; Gives examples; Speaks clearly
+Your weakness | s | Ms Dina, a director | Name a real weakness and how you improve it. | Names a weakness; Says what you do; Stays positive
+A mistake | s | Ms Dina, a director | Describe a mistake and what you learned. | Says what happened; Takes responsibility; Says the lesson
+Your questions | s | Ms Dina, a director | Ask two good questions about the role. | Asks two; Uses polite forms; Listens
+@level B2
+## Answer, story, connect | Answer with a structure that shows your value.
+Answer first | s | Ms Dina, a director | Give the main point first, then the proof. | Opens with the point; Gives proof; Stays short
+Telling a leadership story | s | Ms Dina, a director | Tell a story with situation, action and result. | Gives the situation; Describes your action; States the result
+Linking to the role | s | Ms Dina, a director | Connect your story to what this role needs. | Names a need; Links your story; Sounds natural
+Closing with impact | s | Ms Dina, a director | End an answer with a clear result and a next step. | States the result; Gives a next step; Stops cleanly
+## Leading people | Explain how you lead in difficult moments.
+Motivating a team | s | A senior manager | Explain how you keep a team motivated under pressure. | Gives a method; Gives an example; Sounds credible
+Managing conflict | s | A senior manager | Describe how you solved a conflict between two people. | Describes both sides; Says what you did; Gives the result
+Delegating | s | A senior manager | Explain how you decide what to delegate. | Gives criteria; Gives an example; Speaks clearly
+Underperformance | s | A senior manager | Explain how you handle a weak performer. | Describes steps; Stays fair; Gives the result
+## Pay and the offer | Discuss pay and conditions.
+Salary question | s | An HR manager | Answer "What salary do you expect?" with a range. | Gives a range; Gives a reason; Stays polite
+Negotiating | s | An HR manager | Ask for more and keep a good tone. | Makes a clear ask; Gives a reason; Stays polite
+Benefits | s | An HR manager | Ask about benefits and flexibility. | Asks clearly; Uses polite forms; Listens
+Accepting the offer | s | An HR manager | Accept the offer and confirm the next steps. | Says yes clearly; Checks details; Thanks them
+## Hard questions | Answer difficult questions calmly.
+Why you left | s | Ms Dina, a director | Explain why you left your last job without blame. | Stays neutral; Gives a reason; Looks forward
+A gap in your CV | s | Ms Dina, a director | Explain a gap honestly. | States the fact; Shows growth; Stays calm
+Lack of experience | s | Ms Dina, a director | Respond when you lack one requirement. | Admits it; Shows related skill; Offers a plan
+A direct challenge | s | Ms Dina, a director | Respond calmly when the interviewer doubts you. | Stays calm; Gives evidence; Stays polite
+@level C1
+## Strategy and judgment | Show senior thinking.
+Your first ninety days | s | A senior panel | Present your plan for the first ninety days. | Gives phases; Gives priorities; Sounds realistic
+Hard trade-offs | s | A senior panel | Explain a decision with no perfect option. | Names the options; Explains the choice; Owns the risk
+Managing managers | s | A senior panel | Explain how you lead other managers. | Gives a method; Gives an example; Sounds credible
+Change and resistance | s | A senior panel | Describe how you led a change that people resisted. | Describes the resistance; Describes your steps; States the result
+## Leadership and ethics | Handle sensitive questions.
+A hard decision about people | s | A senior panel | Describe a difficult decision about someone's job. | Stays respectful; Explains the reasoning; Shows care
+Pressure to hide a problem | s | A senior panel | Explain what you do if asked to hide bad news. | Takes a clear position; Gives reasons; Stays calm
+Fairness | s | A senior panel | Explain how you keep decisions fair. | Gives a method; Gives an example; Sounds credible
+Admitting you were wrong | s | A senior panel | Describe a time you were wrong as a leader. | Owns it; Says what changed; Stays confident
+## Panel and presence | Perform at a senior interview.
+Opening with presence | s | A senior panel | Give a confident opening in under a minute. | Sounds confident; Stays short; Looks forward
+Handling several people | s | A senior panel | Answer a panel and address each person. | Names or looks at each; Keeps the thread; Stays clear
+Defending your view | s | A senior panel | Defend a view politely under challenge. | Holds the view; Gives evidence; Stays polite
+Final statement | s | A senior panel | Give a closing statement that is memorable. | Sums up value; Ends strongly; Stays short

@@ -7584,6 +7584,1737 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
    ]
   }
  },
+ "interviews-manager-interview-english": {
+  "A1": {
+   "words": [
+    {
+     "word": "there",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l3"
+    },
+    {
+     "word": "time",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l2"
+    },
+    {
+     "word": "people",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l1"
+    },
+    {
+     "word": "want",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l3"
+    },
+    {
+     "word": "work",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l1"
+    },
+    {
+     "word": "being",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l4"
+    },
+    {
+     "word": "day",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l3"
+    },
+    {
+     "word": "many",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l3"
+    },
+    {
+     "word": "say",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "down",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l2"
+    },
+    {
+     "word": "help",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "each",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l4"
+    },
+    {
+     "word": "team",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l1"
+    },
+    {
+     "word": "please",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "number",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l4"
+    },
+    {
+     "word": "city",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l1"
+    },
+    {
+     "word": "days",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l1"
+    },
+    {
+     "word": "name",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "start",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l2"
+    },
+    {
+     "word": "full",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l3"
+    },
+    {
+     "word": "job",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l3"
+    },
+    {
+     "word": "says",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "country",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l1"
+    },
+    {
+     "word": "thank",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l2"
+    },
+    {
+     "word": "saying",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "members",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l1"
+    },
+    {
+     "word": "question",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "ask",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "late",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l4"
+    },
+    {
+     "word": "short",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l4"
+    },
+    {
+     "word": "reason",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l4"
+    },
+    {
+     "word": "phone",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l4"
+    },
+    {
+     "word": "member",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "sorry",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l4"
+    },
+    {
+     "word": "answer",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l2"
+    },
+    {
+     "word": "size",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l3"
+    },
+    {
+     "word": "voice",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "gives",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l4"
+    },
+    {
+     "word": "speak",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l2"
+    },
+    {
+     "word": "studies",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l3"
+    },
+    {
+     "word": "manager",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l3"
+    },
+    {
+     "word": "asking",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "subject",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l3"
+    },
+    {
+     "word": "clearly",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l2"
+    },
+    {
+     "word": "names",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l2"
+    },
+    {
+     "word": "uses",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l3"
+    },
+    {
+     "word": "interview",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l3"
+    },
+    {
+     "word": "sitting",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l2"
+    },
+    {
+     "word": "boss",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l2"
+    },
+    {
+     "word": "assistant",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l2"
+    },
+    {
+     "word": "hello",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "slowly",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l2"
+    },
+    {
+     "word": "answers",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l2"
+    },
+    {
+     "word": "sentence",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l3"
+    },
+    {
+     "word": "studied",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l3"
+    },
+    {
+     "word": "asks",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "roles",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l2"
+    },
+    {
+     "word": "speaks",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l2"
+    },
+    {
+     "word": "languages",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l2"
+    },
+    {
+     "word": "confirm",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u3-l3"
+    },
+    {
+     "word": "checks",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l4"
+    },
+    {
+     "word": "goodbye",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l4"
+    },
+    {
+     "word": "smiles",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "naming",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l1"
+    },
+    {
+     "word": "digit",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l4"
+    },
+    {
+     "word": "greet",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "interviewer",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-a1-u1-l1"
+    },
+    {
+     "word": "politely",
+     "tier": 5,
+     "firstLessonId": "interviews-manager-interview-a1-u4-l4"
+    },
+    {
+     "word": "pauses",
+     "tier": 5,
+     "firstLessonId": "interviews-manager-interview-a1-u2-l4"
+    }
+   ],
+   "phrases": [
+    "Says hello",
+    "Says name",
+    "Smiles in the voice",
+    "Answers how are you",
+    "Says thank you",
+    "Speaks slowly",
+    "Says the job",
+    "Says want",
+    "Uses a full sentence",
+    "Says goodbye",
+    "Says city",
+    "Says country",
+    "Uses I am from",
+    "Names languages",
+    "Uses I speak",
+    "Speaks clearly",
+    "Says the subject",
+    "Uses I studied",
+    "Says each digit",
+    "Pauses",
+    "Checks it",
+    "Names days",
+    "Uses I can",
+    "Says the time",
+    "Uses at",
+    "Says the day",
+    "Says sorry",
+    "Says late",
+    "Gives a short reason",
+    "Says names",
+    "Uses and",
+    "Names roles",
+    "Uses is",
+    "Says a number",
+    "Uses there are",
+    "Uses please",
+    "Asks a question"
+   ]
+  },
+  "A2": {
+   "words": [
+    {
+     "word": "was",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l2"
+    },
+    {
+     "word": "like",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l2"
+    },
+    {
+     "word": "were",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l2"
+    },
+    {
+     "word": "good",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l4"
+    },
+    {
+     "word": "first",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l1"
+    },
+    {
+     "word": "because",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l1"
+    },
+    {
+     "word": "well",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l3"
+    },
+    {
+     "word": "last",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l1"
+    },
+    {
+     "word": "best",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l3"
+    },
+    {
+     "word": "thing",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l3"
+    },
+    {
+     "word": "give",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l1"
+    },
+    {
+     "word": "show",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l3"
+    },
+    {
+     "word": "big",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u4-l1"
+    },
+    {
+     "word": "someone",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l2"
+    },
+    {
+     "word": "company",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l2"
+    },
+    {
+     "word": "done",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l3"
+    },
+    {
+     "word": "tell",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l4"
+    },
+    {
+     "word": "small",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l4"
+    },
+    {
+     "word": "story",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l4"
+    },
+    {
+     "word": "working",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u4-l2"
+    },
+    {
+     "word": "hours",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u4-l2"
+    },
+    {
+     "word": "past",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l1"
+    },
+    {
+     "word": "morning",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l1"
+    },
+    {
+     "word": "plan",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l4"
+    },
+    {
+     "word": "example",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l3"
+    },
+    {
+     "word": "date",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u4-l3"
+    },
+    {
+     "word": "happened",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l4"
+    },
+    {
+     "word": "result",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l4"
+    },
+    {
+     "word": "learn",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l3"
+    },
+    {
+     "word": "worked",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l1"
+    },
+    {
+     "word": "giving",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l2"
+    },
+    {
+     "word": "meeting",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u4-l4"
+    },
+    {
+     "word": "simple",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l2"
+    },
+    {
+     "word": "goal",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l4"
+    },
+    {
+     "word": "leading",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l4"
+    },
+    {
+     "word": "interested",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a2-u4-l4"
+    },
+    {
+     "word": "finished",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l3"
+    },
+    {
+     "word": "planning",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l1"
+    },
+    {
+     "word": "explain",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l3"
+    },
+    {
+     "word": "helping",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l3"
+    },
+    {
+     "word": "task",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l4"
+    },
+    {
+     "word": "closing",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a2-u4-l4"
+    },
+    {
+     "word": "checking",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l3"
+    },
+    {
+     "word": "skill",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l3"
+    },
+    {
+     "word": "describes",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a2-u2-l3"
+    },
+    {
+     "word": "praise",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-a2-u3-l4"
+    },
+    {
+     "word": "tense",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-a2-u1-l1"
+    }
+   ],
+   "phrases": [
+    "Names the job",
+    "Uses past tense",
+    "Speaks clearly",
+    "Says a number",
+    "Uses was or were",
+    "Speaks slowly",
+    "Names a skill",
+    "Uses I can",
+    "Gives an example",
+    "Uses I want to",
+    "Names a goal",
+    "Gives a reason",
+    "Uses because",
+    "Names a thing",
+    "Uses I like",
+    "Describes help",
+    "Uses I show or I explain",
+    "Says what happened",
+    "Says the result",
+    "Uses first",
+    "Names the task",
+    "Uses can you",
+    "Says thank you",
+    "Asks a question",
+    "Uses is it done",
+    "Says well done",
+    "Says why",
+    "Smiles in the voice",
+    "Uses how many",
+    "Uses what time",
+    "Uses when",
+    "Says interested"
+   ]
+  },
+  "B1": {
+   "words": [
+    {
+     "word": "new",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l4"
+    },
+    {
+     "word": "now",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l4"
+    },
+    {
+     "word": "real",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l2"
+    },
+    {
+     "word": "set",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l1"
+    },
+    {
+     "word": "person",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l4"
+    },
+    {
+     "word": "order",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "fact",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l3"
+    },
+    {
+     "word": "often",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l3"
+    },
+    {
+     "word": "report",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l4"
+    },
+    {
+     "word": "check",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l2"
+    },
+    {
+     "word": "near",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "education",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "clear",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "results",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l4"
+    },
+    {
+     "word": "lead",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l2"
+    },
+    {
+     "word": "present",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "takes",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l3"
+    },
+    {
+     "word": "role",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l4"
+    },
+    {
+     "word": "questions",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l4"
+    },
+    {
+     "word": "style",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l2"
+    },
+    {
+     "word": "positive",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l2"
+    },
+    {
+     "word": "minute",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "numbers",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l4"
+    },
+    {
+     "word": "goals",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l1"
+    },
+    {
+     "word": "learned",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l3"
+    },
+    {
+     "word": "missed",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l3"
+    },
+    {
+     "word": "target",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l3"
+    },
+    {
+     "word": "method",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l2"
+    },
+    {
+     "word": "improve",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l2"
+    },
+    {
+     "word": "progress",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l2"
+    },
+    {
+     "word": "proud",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l3"
+    },
+    {
+     "word": "background",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "leadership",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l2"
+    },
+    {
+     "word": "setting",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l1"
+    },
+    {
+     "word": "responsibility",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l3"
+    },
+    {
+     "word": "forms",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l4"
+    },
+    {
+     "word": "steps",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l1"
+    },
+    {
+     "word": "links",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l4"
+    },
+    {
+     "word": "mistake",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l3"
+    },
+    {
+     "word": "examples",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l1"
+    },
+    {
+     "word": "describe",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "calm",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l3"
+    },
+    {
+     "word": "reporting",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l4"
+    },
+    {
+     "word": "lesson",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l3"
+    },
+    {
+     "word": "feedback",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l2"
+    },
+    {
+     "word": "stays",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l1"
+    },
+    {
+     "word": "tracking",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l2"
+    },
+    {
+     "word": "tasks",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l1"
+    },
+    {
+     "word": "weakness",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l2"
+    },
+    {
+     "word": "polite",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b1-u2-l2"
+    },
+    {
+     "word": "strengths",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l1"
+    },
+    {
+     "word": "compares",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b1-u3-l4"
+    },
+    {
+     "word": "listens",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b1-u4-l4"
+    },
+    {
+     "word": "proudest",
+     "tier": 5,
+     "firstLessonId": "interviews-manager-interview-b1-u1-l3"
+    }
+   ],
+   "phrases": [
+    "Gives a clear order",
+    "Uses past and present",
+    "Stays near one minute",
+    "Names a style",
+    "Gives an example",
+    "Speaks clearly",
+    "Says the result",
+    "Gives a number or fact",
+    "Gives a reason",
+    "Links to the job",
+    "Describes steps",
+    "Uses first and then",
+    "Describes a method",
+    "Stays polite",
+    "Stays calm",
+    "Gives a result",
+    "Uses will or would",
+    "Names a method",
+    "Says what happened",
+    "Says what you did",
+    "Says what you learned",
+    "Gives numbers",
+    "Compares with before",
+    "Names two",
+    "Gives examples",
+    "Names a weakness",
+    "Says what you do",
+    "Stays positive",
+    "Takes responsibility",
+    "Says the lesson",
+    "Asks two",
+    "Uses polite forms",
+    "Listens"
+   ]
+  },
+  "B2": {
+   "words": [
+    {
+     "word": "need",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l3"
+    },
+    {
+     "word": "both",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l2"
+    },
+    {
+     "word": "between",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l2"
+    },
+    {
+     "word": "under",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l1"
+    },
+    {
+     "word": "next",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l4"
+    },
+    {
+     "word": "without",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l1"
+    },
+    {
+     "word": "end",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l4"
+    },
+    {
+     "word": "keep",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l1"
+    },
+    {
+     "word": "left",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l1"
+    },
+    {
+     "word": "point",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l1"
+    },
+    {
+     "word": "states",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l2"
+    },
+    {
+     "word": "yes",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l4"
+    },
+    {
+     "word": "makes",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l2"
+    },
+    {
+     "word": "thanks",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l4"
+    },
+    {
+     "word": "needs",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l3"
+    },
+    {
+     "word": "looks",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l1"
+    },
+    {
+     "word": "experience",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l3"
+    },
+    {
+     "word": "action",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l2"
+    },
+    {
+     "word": "main",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l1"
+    },
+    {
+     "word": "shows",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l2"
+    },
+    {
+     "word": "evidence",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l4"
+    },
+    {
+     "word": "step",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l4"
+    },
+    {
+     "word": "forward",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l1"
+    },
+    {
+     "word": "range",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l1"
+    },
+    {
+     "word": "natural",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l3"
+    },
+    {
+     "word": "related",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l3"
+    },
+    {
+     "word": "situation",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l2"
+    },
+    {
+     "word": "offer",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l4"
+    },
+    {
+     "word": "growth",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l2"
+    },
+    {
+     "word": "expect",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l1"
+    },
+    {
+     "word": "pressure",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l1"
+    },
+    {
+     "word": "fair",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l4"
+    },
+    {
+     "word": "sounds",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l3"
+    },
+    {
+     "word": "impact",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l4"
+    },
+    {
+     "word": "lack",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l3"
+    },
+    {
+     "word": "telling",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l2"
+    },
+    {
+     "word": "details",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l4"
+    },
+    {
+     "word": "direct",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l4"
+    },
+    {
+     "word": "challenge",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l4"
+    },
+    {
+     "word": "accept",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l4"
+    },
+    {
+     "word": "benefits",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l3"
+    },
+    {
+     "word": "handle",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l4"
+    },
+    {
+     "word": "decide",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l3"
+    },
+    {
+     "word": "offers",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l3"
+    },
+    {
+     "word": "sides",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l2"
+    },
+    {
+     "word": "proof",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l1"
+    },
+    {
+     "word": "honestly",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l2"
+    },
+    {
+     "word": "weak",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l4"
+    },
+    {
+     "word": "conflict",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l2"
+    },
+    {
+     "word": "blame",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l1"
+    },
+    {
+     "word": "respond",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l3"
+    },
+    {
+     "word": "tone",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l2"
+    },
+    {
+     "word": "gap",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l2"
+    },
+    {
+     "word": "opens",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l1"
+    },
+    {
+     "word": "managing",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l2"
+    },
+    {
+     "word": "stops",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l4"
+    },
+    {
+     "word": "connect",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l3"
+    },
+    {
+     "word": "salary",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l1"
+    },
+    {
+     "word": "requirement",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l3"
+    },
+    {
+     "word": "neutral",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l1"
+    },
+    {
+     "word": "criteria",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l3"
+    },
+    {
+     "word": "accepting",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l4"
+    },
+    {
+     "word": "motivated",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l1"
+    },
+    {
+     "word": "solved",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l2"
+    },
+    {
+     "word": "flexibility",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l3"
+    },
+    {
+     "word": "linking",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l3"
+    },
+    {
+     "word": "doubts",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l4"
+    },
+    {
+     "word": "admits",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l3"
+    },
+    {
+     "word": "performer",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l4"
+    },
+    {
+     "word": "negotiating",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u3-l2"
+    },
+    {
+     "word": "credible",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l1"
+    },
+    {
+     "word": "delegate",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l3"
+    },
+    {
+     "word": "calmly",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-b2-u4-l4"
+    },
+    {
+     "word": "motivating",
+     "tier": 5,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l1"
+    },
+    {
+     "word": "cleanly",
+     "tier": 5,
+     "firstLessonId": "interviews-manager-interview-b2-u1-l4"
+    },
+    {
+     "word": "delegating",
+     "tier": 5,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l3"
+    },
+    {
+     "word": "underperformance",
+     "tier": 5,
+     "firstLessonId": "interviews-manager-interview-b2-u2-l4"
+    }
+   ],
+   "phrases": [
+    "Opens with the point",
+    "Gives proof",
+    "Stays short",
+    "Gives the situation",
+    "Describes your action",
+    "States the result",
+    "Names a need",
+    "Links your story",
+    "Sounds natural",
+    "Gives a next step",
+    "Stops cleanly",
+    "Gives a method",
+    "Gives an example",
+    "Sounds credible",
+    "Describes both sides",
+    "Says what you did",
+    "Gives the result",
+    "Gives criteria",
+    "Speaks clearly",
+    "Describes steps",
+    "Stays fair",
+    "Gives a range",
+    "Gives a reason",
+    "Stays polite",
+    "Makes a clear ask",
+    "Asks clearly",
+    "Uses polite forms",
+    "Listens",
+    "Says yes clearly",
+    "Checks details",
+    "Thanks them",
+    "Stays neutral",
+    "Looks forward",
+    "States the fact",
+    "Shows growth",
+    "Stays calm",
+    "Admits it",
+    "Shows related skill",
+    "Offers a plan",
+    "Gives evidence"
+   ]
+  },
+  "C1": {
+   "words": [
+    {
+     "word": "other",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l3"
+    },
+    {
+     "word": "care",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l1"
+    },
+    {
+     "word": "change",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l4"
+    },
+    {
+     "word": "bad",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l2"
+    },
+    {
+     "word": "hard",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "news",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l2"
+    },
+    {
+     "word": "problem",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l2"
+    },
+    {
+     "word": "several",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l2"
+    },
+    {
+     "word": "wrong",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l4"
+    },
+    {
+     "word": "asked",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l2"
+    },
+    {
+     "word": "final",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l4"
+    },
+    {
+     "word": "position",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l2"
+    },
+    {
+     "word": "perfect",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "view",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l3"
+    },
+    {
+     "word": "value",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l4"
+    },
+    {
+     "word": "trade",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "led",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l4"
+    },
+    {
+     "word": "decision",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "choice",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "changed",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l4"
+    },
+    {
+     "word": "difficult",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l1"
+    },
+    {
+     "word": "risk",
+     "tier": 1,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "statement",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l4"
+    },
+    {
+     "word": "leader",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l4"
+    },
+    {
+     "word": "opening",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l1"
+    },
+    {
+     "word": "reasons",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l2"
+    },
+    {
+     "word": "address",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l2"
+    },
+    {
+     "word": "option",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "ends",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l4"
+    },
+    {
+     "word": "presence",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l1"
+    },
+    {
+     "word": "decisions",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l3"
+    },
+    {
+     "word": "options",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "keeps",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l2"
+    },
+    {
+     "word": "holds",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l3"
+    },
+    {
+     "word": "panel",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l2"
+    },
+    {
+     "word": "resistance",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l4"
+    },
+    {
+     "word": "hide",
+     "tier": 2,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l2"
+    },
+    {
+     "word": "defend",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l3"
+    },
+    {
+     "word": "managers",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l3"
+    },
+    {
+     "word": "strongly",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l4"
+    },
+    {
+     "word": "thread",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l2"
+    },
+    {
+     "word": "confident",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l4"
+    },
+    {
+     "word": "explains",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "handling",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l2"
+    },
+    {
+     "word": "defending",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l3"
+    },
+    {
+     "word": "owns",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "realistic",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l1"
+    },
+    {
+     "word": "priorities",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l1"
+    },
+    {
+     "word": "reasoning",
+     "tier": 3,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l1"
+    },
+    {
+     "word": "memorable",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l4"
+    },
+    {
+     "word": "sums",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u3-l4"
+    },
+    {
+     "word": "phases",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l1"
+    },
+    {
+     "word": "admitting",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l4"
+    },
+    {
+     "word": "fairness",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l3"
+    },
+    {
+     "word": "offs",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l2"
+    },
+    {
+     "word": "ninety",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l1"
+    },
+    {
+     "word": "respectful",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u2-l1"
+    },
+    {
+     "word": "resisted",
+     "tier": 4,
+     "firstLessonId": "interviews-manager-interview-c1-u1-l4"
+    }
+   ],
+   "phrases": [
+    "Gives phases",
+    "Gives priorities",
+    "Sounds realistic",
+    "Names the options",
+    "Explains the choice",
+    "Owns the risk",
+    "Gives a method",
+    "Gives an example",
+    "Sounds credible",
+    "Describes the resistance",
+    "Describes your steps",
+    "States the result",
+    "Stays respectful",
+    "Explains the reasoning",
+    "Shows care",
+    "Takes a clear position",
+    "Gives reasons",
+    "Stays calm",
+    "Owns it",
+    "Says what changed",
+    "Stays confident",
+    "Sounds confident",
+    "Stays short",
+    "Looks forward",
+    "Names or looks at each",
+    "Keeps the thread",
+    "Stays clear",
+    "Holds the view",
+    "Gives evidence",
+    "Stays polite",
+    "Sums up value",
+    "Ends strongly"
+   ]
+  }
+ },
  "interviews-sales-interview-english": {
   "A1": {
    "words": [
