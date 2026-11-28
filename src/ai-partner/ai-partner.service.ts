@@ -21,6 +21,7 @@ import {
   SessionReport,
   insufficientReport,
   parseSessionReport,
+  verifyDimensionQuotes,
 } from './content/rubric';
 import { DeepgramPrerecordedService } from './deepgram.service';
 import { getLesson } from './content/course';
@@ -256,6 +257,15 @@ export class AiPartnerService {
         .filter((t) => t.role === 'user' && !isSystemTurn(t))
         .map((t) => t.text);
       report.metrics_echo.word_choice = analyzeWordChoice(learnerTurns);
+      report.dimension_notes = verifyDimensionQuotes(report.dimension_notes, learnerTurns);
+      report.dimension_basis = {
+        fluency: 'measured',
+        pronunciation: extractPronunciation(session.metrics) ? 'measured' : 'estimated',
+        grammar: 'estimated',
+        vocabulary: 'estimated',
+        interaction: 'estimated',
+        coherence: 'estimated',
+      };
     }
 
     if (report.status === 'INSUFFICIENT_DATA') {

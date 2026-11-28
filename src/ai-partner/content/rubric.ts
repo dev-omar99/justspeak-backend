@@ -46,6 +46,14 @@ DIMENSIONS (each scored 0 to 100, with evidence)
    70-89: answers fully but rarely asks back.
    50-69: minimal answers, needs constant prompting.
 
+6. Coherence (extra criterion, same 0-100 scale)
+   Ideas are connected and follow in a sensible order, answers stay on the question, linking words are used.
+   90-100: clear, well-organised answers that stay on topic. 70-89: mostly connected, some jumps. 50-69: disconnected or often off the question. Below 50: hard to follow.
+   Use null if there is too little connected speech to judge.
+
+DIMENSION NOTES
+   For every dimension you scored, write one short plain-English line "why" (under 20 words) that names the evidence (for example the measured words per minute for fluency). Add "quote" only when you can copy exact words the student said that show it; otherwise leave quote empty. Never invent a quote.
+
 LEVEL-RELATIVE SCORING
    Every session belongs to a level (A1 to C2, half-levels included). Score the student AGAINST that level's expectations, not against native speech: a B1 student using correct past simple and some linking words is a strong B1, even if the language is simple. In each dimension, expect the grammar, vocabulary and structures that the level's syllabus teaches. A session run as a lesson must also be assessed against that lesson's goal and target language (the prompt names them); a session run as a level check (placement) must estimate which level the performance matches.
 
@@ -91,7 +99,16 @@ Respond ONLY with valid JSON (no markdown fences) matching exactly:
     "vocabulary": 0,
     "fluency": 0,
     "pronunciation": 0,
-    "interaction": 0
+    "interaction": 0,
+    "coherence": 0
+  },
+  "dimension_notes": {
+    "grammar": { "why": "...", "quote": "exact words or empty" },
+    "vocabulary": { "why": "...", "quote": "" },
+    "fluency": { "why": "...", "quote": "" },
+    "pronunciation": { "why": "...", "quote": "" },
+    "interaction": { "why": "...", "quote": "" },
+    "coherence": { "why": "...", "quote": "" }
   },
   "metrics_echo": {
     "student_speech_sec": 0,
@@ -147,6 +164,51 @@ export interface ReportDrill {
   example: string;
 }
 
+export type DimensionKey = 'grammar' | 'vocabulary' | 'fluency' | 'pronunciation' | 'interaction' | 'coherence';
+
+export interface DimensionNote {
+  why: string;
+  /** Exact words the learner said, or empty. */
+  quote: string;
+}
+
+const DIMENSION_KEYS: DimensionKey[] = ['grammar', 'vocabulary', 'fluency', 'pronunciation', 'interaction', 'coherence'];
+
+/** Parse the model's per-dimension notes. Only keys we know, short strings only. */
+export function parseDimensionNotes(raw: unknown): Partial<Record<DimensionKey, DimensionNote>> {
+  const out: Partial<Record<DimensionKey, DimensionNote>> = {};
+  if (!raw || typeof raw !== 'object') return out;
+  for (const k of DIMENSION_KEYS) {
+    const n = (raw as Record<string, any>)[k];
+    if (!n || typeof n !== 'object') continue;
+    const why = typeof n.why === 'string' ? n.why.trim().slice(0, 200) : '';
+    const quote = typeof n.quote === 'string' ? n.quote.trim().slice(0, 240) : '';
+    if (why) out[k] = { why, quote };
+  }
+  return out;
+}
+
+/**
+ * Honesty pass, run in code after the model answers: a quote stays only if it
+ * appears word for word in something the learner said (ignoring case and
+ * extra spaces). Otherwise it is dropped and only the reason stays.
+ */
+export function verifyDimensionQuotes(
+  notes: Partial<Record<DimensionKey, DimensionNote>> | undefined,
+  learnerTurns: string[],
+): Partial<Record<DimensionKey, DimensionNote>> {
+  const norm = (t: string) => t.toLowerCase().replace(/\s+/g, ' ').trim();
+  const said = learnerTurns.map(norm);
+  const out: Partial<Record<DimensionKey, DimensionNote>> = {};
+  for (const k of DIMENSION_KEYS) {
+    const n = notes?.[k];
+    if (!n) continue;
+    const q = norm(n.quote);
+    out[k] = { why: n.why, quote: q && said.some((t) => t.includes(q)) ? n.quote : '' };
+  }
+  return out;
+}
+
 export interface SessionReport {
   status: 'OK' | 'INSUFFICIENT_DATA';
   overall_score: number;
@@ -159,7 +221,13 @@ export interface SessionReport {
     fluency: number | null;
     pronunciation: number | null;
     interaction: number | null;
+    /** Extra criterion (IELTS fluency and coherence, CEFR coherence, Cambridge discourse management). Absent on older reports. */
+    coherence?: number | null;
   };
+  /** One-line reason and an exact learner quote per dimension. Quotes are verified against the transcript in code. */
+  dimension_notes?: Partial<Record<DimensionKey, DimensionNote>>;
+  /** How each score was produced, set in code: measured from the audio or metrics, or judged by the model (an estimate). */
+  dimension_basis?: Partial<Record<DimensionKey, 'measured' | 'estimated'>>;
   /** Dimensions the learner knowingly skipped; shown as "Not attempted". Absent when none. */
   skipped_dimensions?: string[];
   metrics_echo: {
@@ -246,7 +314,9 @@ export function parseSessionReport(rawText: string): SessionReport | null {
       fluency: scoreOrNull(dims.fluency),
       pronunciation: scoreOrNull(dims.pronunciation),
       interaction: scoreOrNull(dims.interaction),
+      ...('coherence' in dims ? { coherence: scoreOrNull(dims.coherence) } : {}),
     },
+    dimension_notes: parseDimensionNotes(parsed.dimension_notes),
     metrics_echo: {
       student_speech_sec: Number(metrics.student_speech_sec) || 0,
       words_per_minute: Number(metrics.words_per_minute) || 0,
