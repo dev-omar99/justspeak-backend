@@ -87,6 +87,55 @@ describe('AuthService', () => {
       }
     });
 
+    describe('owner-gated signup (OTP_OWNER_EMAIL)', () => {
+      beforeEach(() => {
+        process.env.OTP_OWNER_EMAIL = 'owner@example.com';
+        mockPrisma.otpCode.findFirst.mockResolvedValue(null);
+        mockPrisma.otpCode.create.mockResolvedValue({ id: 'otp-o' });
+      });
+      afterEach(() => {
+        delete process.env.OTP_OWNER_EMAIL;
+      });
+
+      it('sends a NEW email code to the owner only and hides it from the response', async () => {
+        mockPrisma.user.findUnique.mockResolvedValue(null);
+        const gate = jest
+          .spyOn(service as any, 'dispatchOwnerGateEmail')
+          .mockResolvedValue(true);
+        const real = jest.spyOn(service as any, 'dispatchRealEmail');
+
+        const res: any = await service.sendOtp({
+          identifier: 'Newcomer@Example.com',
+          type: 'email',
+        });
+
+        expect(gate).toHaveBeenCalledWith(
+          'owner@example.com',
+          'newcomer@example.com',
+          expect.stringMatching(/^\d{6}$/),
+        );
+        expect(real).not.toHaveBeenCalled();
+        expect(res.pendingApproval).toBe(true);
+        expect(res.devCode).toBeUndefined();
+        expect(JSON.stringify(res)).not.toMatch(/\b\d{6}\b/);
+      });
+
+      it('does not route existing accounts to the owner', async () => {
+        mockPrisma.user.findUnique.mockResolvedValue({ id: 'u1' });
+        const gate = jest.spyOn(service as any, 'dispatchOwnerGateEmail');
+        jest.spyOn(service as any, 'dispatchRealEmail').mockResolvedValue(false);
+
+        const res: any = await service.sendOtp({
+          identifier: 'old@example.com',
+          type: 'email',
+        });
+
+        expect(gate).not.toHaveBeenCalled();
+        expect(res.pendingApproval).toBeUndefined();
+        expect(res.devCode).toBeUndefined();
+      });
+    });
+
     it('never echoes the dev code for an existing account (blocks OTP-leak password reset)', async () => {
       mockPrisma.otpCode.findFirst.mockResolvedValue(null);
       mockPrisma.otpCode.create.mockResolvedValue({ id: 'otp-x' });
