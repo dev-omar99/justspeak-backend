@@ -1,3 +1,5 @@
+// LEGACY: the JSON-file store below is no longer used by the app (Postgres only since fix/postgres-only).
+// Kept, not deleted, so any old data/user-meta.json can still be read for a future one-off import. Only the PlanTierId type is imported elsewhere.
 import * as fs from 'fs';
 import * as path from 'path';
 

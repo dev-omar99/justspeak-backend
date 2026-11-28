@@ -103,3 +103,39 @@ describe('UsersService AI tokens', () => {
     expect(res.remainingFreeTurns).toBe(3);
   });
 });
+
+describe('Postgres only (no JSON file fallback)', () => {
+  it('a database error is raised, not hidden behind a file fallback', async () => {
+    const prisma: any = {
+      userSubscription: {
+        findUnique: jest.fn().mockRejectedValue(new Error('db down')),
+      },
+      partnerMemo: {
+        findMany: jest.fn().mockRejectedValue(new Error('db down')),
+      },
+      academyProgress: {
+        findUnique: jest.fn().mockRejectedValue(new Error('db down')),
+      },
+    };
+    const service = new UsersService(prisma, {} as any);
+    await expect(service.getMemos('u1')).rejects.toThrow('db down');
+    await expect(service.getAcademyProgress('u1')).rejects.toThrow('db down');
+    await expect(service.consumeAiStudioTokens('u1', 1)).rejects.toBeDefined();
+  });
+
+  it('a user with no subscription row is FREE with 0 tokens', async () => {
+    const prisma: any = {
+      userSubscription: {
+        findUnique: jest.fn().mockResolvedValue(null),
+        upsert: jest
+          .fn()
+          .mockImplementation(({ create }: any) =>
+            Promise.resolve({ ...create, updatedAt: new Date() }),
+          ),
+      },
+    };
+    const service = new UsersService(prisma, {} as any);
+    const res = await service.upgradeSubscription('u1', 'PLUS');
+    expect(res.aiTokensBalance).toBe(500);
+  });
+});

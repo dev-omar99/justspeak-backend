@@ -4,7 +4,7 @@ import * as bcrypt from 'bcrypt';
 import { PrismaService } from '../prisma.service';
 import { RoomsService } from '../rooms/rooms.service';
 import { UpdateProfileDto, AiStudioTurnDto } from './dto';
-import { subscriptionStore, PlanTierId } from './subscription-store';
+import type { PlanTierId } from './subscription-store';
 
 export interface RecentPartnerDto {
   id: string;
@@ -645,30 +645,23 @@ export class UsersService {
     ELITE: 3500,
   };
 
+  /** Reads the subscription from Postgres. A user with no row is a FREE user with 0 tokens. */
   private async getSubscriptionRecord(userId: string) {
-    const delegate = (this.prisma as any).userSubscription;
-    if (delegate?.findUnique) {
-      try {
-        const record = await delegate.findUnique({ where: { userId } });
-        if (record) {
-          return {
-            userId: record.userId,
-            planTier: record.planTier as PlanTierId,
-            aiTokensBalance: record.aiTokensBalance,
-            updatedAt: record.updatedAt.toISOString(),
-          };
-        }
-        return {
-          userId,
-          planTier: 'FREE' as PlanTierId,
-          aiTokensBalance: 0,
-          updatedAt: new Date().toISOString(),
-        };
-      } catch {
-        // Fallback if table not migrated yet
-      }
+    const record = await this.prisma.userSubscription.findUnique({ where: { userId } });
+    if (record) {
+      return {
+        userId: record.userId,
+        planTier: record.planTier as PlanTierId,
+        aiTokensBalance: record.aiTokensBalance,
+        updatedAt: record.updatedAt.toISOString(),
+      };
     }
-    return subscriptionStore.getSubscription(userId);
+    return {
+      userId,
+      planTier: 'FREE' as PlanTierId,
+      aiTokensBalance: 0,
+      updatedAt: new Date().toISOString(),
+    };
   }
 
   /**
@@ -700,36 +693,16 @@ export class UsersService {
         ? current.aiTokensBalance + UsersService.PLAN_DEFAULT_TOKENS[planTier]
         : current.aiTokensBalance;
 
-    const delegate = (this.prisma as any).userSubscription;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId },
-          create: {
-            userId,
-            planTier,
-            aiTokensBalance: nextTokens,
-          },
-          update: {
-            planTier,
-            aiTokensBalance: nextTokens,
-          },
-        });
-        return {
-          success: true,
-          planTier: saved.planTier as PlanTierId,
-          aiTokensBalance: saved.aiTokensBalance,
-          updatedAt: saved.updatedAt.toISOString(),
-        };
-      } catch {}
-    }
-
-    const updated = subscriptionStore.setSubscription(userId, planTier);
+    const saved = await this.prisma.userSubscription.upsert({
+      where: { userId },
+      create: { userId, planTier, aiTokensBalance: nextTokens },
+      update: { planTier, aiTokensBalance: nextTokens },
+    });
     return {
       success: true,
-      planTier: updated.planTier,
-      aiTokensBalance: updated.aiTokensBalance,
-      updatedAt: updated.updatedAt,
+      planTier: saved.planTier as PlanTierId,
+      aiTokensBalance: saved.aiTokensBalance,
+      updatedAt: saved.updatedAt.toISOString(),
     };
   }
 
@@ -976,19 +949,13 @@ Respond ONLY with valid JSON (no markdown) matching:
   }
 
   async getMemos(userId: string) {
-    const delegate = (this.prisma as any).partnerMemo;
-    if (delegate?.findMany) {
-      try {
-        const rows = await delegate.findMany({ where: { userId } });
-        return rows.map((r: any) => ({
-          userId: r.userId,
-          partnerId: r.partnerId,
-          memo: r.memo,
-          updatedAt: r.updatedAt.toISOString(),
-        }));
-      } catch {}
-    }
-    return subscriptionStore.getUserMemos(userId);
+    const rows = await this.prisma.partnerMemo.findMany({ where: { userId } });
+    return rows.map((r) => ({
+      userId: r.userId,
+      partnerId: r.partnerId,
+      memo: r.memo,
+      updatedAt: r.updatedAt.toISOString(),
+    }));
   }
 
   async saveMemo(userId: string, partnerId: string, memo: string) {
@@ -997,62 +964,44 @@ Respond ONLY with valid JSON (no markdown) matching:
     }
     const cleanPartnerId = partnerId.trim();
     const cleanMemo = (memo || '').trim().slice(0, 600);
-    const delegate = (this.prisma as any).partnerMemo;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId_partnerId: { userId, partnerId: cleanPartnerId } },
-          create: { userId, partnerId: cleanPartnerId, memo: cleanMemo },
-          update: { memo: cleanMemo },
-        });
-        return {
-          success: true,
-          memo: {
-            userId: saved.userId,
-            partnerId: saved.partnerId,
-            memo: saved.memo,
-            updatedAt: saved.updatedAt.toISOString(),
-          },
-        };
-      } catch {}
-    }
-    const saved = subscriptionStore.saveUserMemo(userId, cleanPartnerId, cleanMemo);
+    const saved = await this.prisma.partnerMemo.upsert({
+      where: { userId_partnerId: { userId, partnerId: cleanPartnerId } },
+      create: { userId, partnerId: cleanPartnerId, memo: cleanMemo },
+      update: { memo: cleanMemo },
+    });
     return {
       success: true,
-      memo: saved,
+      memo: {
+        userId: saved.userId,
+        partnerId: saved.partnerId,
+        memo: saved.memo,
+        updatedAt: saved.updatedAt.toISOString(),
+      },
     };
   }
 
   async getAcademyProgress(userId: string) {
-    const delegate = (this.prisma as any).academyProgress;
-    if (delegate?.findUnique) {
-      try {
-        const row = await delegate.findUnique({ where: { userId } });
-        if (row) {
-          return {
-            progress: {
-              userId: row.userId,
-              cefrLevel: row.cefrLevel,
-              placementCompleted: row.placementCompleted,
-              dailySpeakingGoalMins: row.dailySpeakingGoalMins,
-              learnedWordIds: row.learnedWordIds || [],
-              completedLessonIds: row.completedLessonIds || [],
-              completedReadingIds: row.completedReadingIds || [],
-              completedListeningIds: row.completedListeningIds || [],
-              completedShadowingIds: row.completedShadowingIds || [],
-              completedPronunciationIds: row.completedPronunciationIds || [],
-              dailyCompletedTaskIds: row.dailyCompletedTaskIds || [],
-              dailyDateKey: row.dailyDateKey || '',
-              scores: row.scores as any,
-              updatedAt: row.updatedAt.toISOString(),
-            },
-          };
-        }
-        return { progress: null };
-      } catch {}
+    const row = await this.prisma.academyProgress.findUnique({ where: { userId } });
+    if (!row) {
+      return { progress: null };
     }
     return {
-      progress: subscriptionStore.getAcademyProgress(userId),
+      progress: {
+        userId: row.userId,
+        cefrLevel: row.cefrLevel,
+        placementCompleted: row.placementCompleted,
+        dailySpeakingGoalMins: row.dailySpeakingGoalMins,
+        learnedWordIds: row.learnedWordIds || [],
+        completedLessonIds: row.completedLessonIds || [],
+        completedReadingIds: row.completedReadingIds || [],
+        completedListeningIds: row.completedListeningIds || [],
+        completedShadowingIds: row.completedShadowingIds || [],
+        completedPronunciationIds: row.completedPronunciationIds || [],
+        dailyCompletedTaskIds: row.dailyCompletedTaskIds || [],
+        dailyDateKey: row.dailyDateKey || '',
+        scores: row.scores as any,
+        updatedAt: row.updatedAt.toISOString(),
+      },
     };
   }
 
@@ -1100,29 +1049,18 @@ Respond ONLY with valid JSON (no markdown) matching:
       },
     };
 
-    const delegate = (this.prisma as any).academyProgress;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId },
-          create: { userId, ...payload },
-          update: payload,
-        });
-        return {
-          success: true,
-          progress: {
-            ...payload,
-            userId: saved.userId,
-            updatedAt: saved.updatedAt.toISOString(),
-          },
-        };
-      } catch {}
-    }
-
-    const saved = subscriptionStore.saveAcademyProgress(userId, payload);
+    const saved = await this.prisma.academyProgress.upsert({
+      where: { userId },
+      create: { userId, ...payload },
+      update: payload,
+    });
     return {
       success: true,
-      progress: saved,
+      progress: {
+        ...payload,
+        userId: saved.userId,
+        updatedAt: saved.updatedAt.toISOString(),
+      },
     };
   }
 
