@@ -28,7 +28,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask for a ticket. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -62,7 +62,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask where the bus is. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -96,7 +96,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask the time of a train. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -130,7 +130,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: say where you want to go. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -156,7 +156,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Says own name",
-      "hint": "Full: gives their own first name clearly, like \"My name is Sam.\" Partial: name mumbled or missing. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: say your name and check in. Full credit if the learner clearly shows: says own name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says you have a room",
@@ -164,7 +164,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: say your name and check in. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -198,7 +198,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask for the key and the room number. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -232,7 +232,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask about breakfast. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -266,7 +266,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: say you are leaving and pay. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -300,7 +300,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask for a table. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -334,7 +334,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask what there is to eat. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -368,7 +368,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -436,7 +436,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks him",
-      "hint": "Full: thanks the customer by \"Thank you\" at the end. Partial: forgets or mumbles it. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: start a question politely. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -470,7 +470,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask where a place is. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -538,7 +538,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Judge meaning only: single words and short phrases are enough."
+      "hint": "Scene goal: ask for help. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -604,7 +604,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says how long",
-      "hint": "Full: says a length of time, like \"two to three days\". Partial: says \"a while\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: answer simple questions. Full credit if the learner clearly shows: says how long. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Answers calmly",
@@ -642,7 +642,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks him",
-      "hint": "Full: thanks the customer by \"Thank you\" at the end. Partial: forgets or mumbles it. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask where the gate is. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -668,7 +668,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Asks why",
-      "hint": "Full: asks why the customer wants to cancel or change, with an open question. Partial: assumes the reason. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask about a delay. Full credit if the learner clearly shows: asks why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks how long",
@@ -676,7 +676,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask about a delay. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -736,7 +736,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Asks politely",
-      "hint": "Full: asks for feedback politely. Partial: abrupt. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask for towels or a late check-out time. Full credit if the learner clearly shows: asks politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives the room number",
@@ -744,7 +744,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask for towels or a late check-out time. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -812,7 +812,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask about places nearby. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -880,7 +880,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask and follow directions. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -940,7 +940,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Says what happened",
-      "hint": "Full: describes the problem in one simple sentence. Partial: repeats the complaint without detail. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: say you missed a connection. Full credit if the learner clearly shows: says what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks for options",
@@ -948,7 +948,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: say you missed a connection. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -982,7 +982,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks him",
-      "hint": "Full: thanks the customer by \"Thank you\" at the end. Partial: forgets or mumbles it. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: order a meal and a drink. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1016,7 +1016,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: ask what is good. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1148,7 +1148,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says how long",
-      "hint": "Full: says a length of time, like \"two to three days\". Partial: says \"a while\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: tell the doctor what is wrong and for how long. Full credit if the learner clearly shows: says how long. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks what to do",
@@ -1186,7 +1186,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks him",
-      "hint": "Full: thanks the customer by \"Thank you\" at the end. Partial: forgets or mumbles it. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: explain that your phone does not work and ask for help. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1212,7 +1212,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Says sorry",
-      "hint": "Full: apologises sincerely for the problem. Partial: says sorry flatly or too late. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Explains",
@@ -1220,7 +1220,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1282,7 +1282,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Gives dates",
-      "hint": "Full: gives dates for each promise. Partial: no dates. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: book a tour with details. Full credit if the learner clearly shows: gives dates. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks what is included",
@@ -1290,7 +1290,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Confirms the booking",
-      "hint": "Full: says the booking is made, with day and time. Partial: says \"OK\" only. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: book a tour with details. Full credit if the learner clearly shows: confirms the booking. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1320,7 +1320,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Gives a reason",
-      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: compare two options together. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Agrees",
@@ -1350,7 +1350,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "States the change",
-      "hint": "Full: states the proposed change in one line. Partial: unclear. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: change a booking and ask about fees. Full credit if the learner clearly shows: states the change. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks about fees",
@@ -1422,7 +1422,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: complain about noise or a dirty room. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for a fix",
@@ -1554,15 +1554,15 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Asks politely",
-      "hint": "Full: asks for feedback politely. Partial: abrupt. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: ask about customs politely. Full credit if the learner clearly shows: asks politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Listens",
-      "hint": "Full: listens and reflects back. Partial: interrupts. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: ask about customs politely. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Says thank you",
-      "hint": "Full: says thank you at the right moment. Partial: only after being thanked first. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: ask about customs politely. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1592,7 +1592,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Listens",
-      "hint": "Full: listens and reflects back. Partial: interrupts. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: make plans with a new friend. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Agrees a time",
@@ -1622,7 +1622,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Asks politely",
-      "hint": "Full: asks for feedback politely. Partial: abrupt. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: ask for a photo politely. Full credit if the learner clearly shows: asks politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Says how",
@@ -1630,7 +1630,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: ask for a photo politely. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1762,7 +1762,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: say the price is wrong. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Agrees a price",
@@ -1868,7 +1868,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: ask about tickets and rules. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2236,7 +2236,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Gives reasons",
-      "hint": "Full: gives likely reasons. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Scene goal: recommend with reasons. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Mentions a downside",
@@ -2308,7 +2308,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Gives reasons",
-      "hint": "Full: gives likely reasons. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Scene goal: compare places in detail. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Lets her choose",
@@ -2346,7 +2346,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Scene goal: complain formally. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2512,11 +2512,11 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Gives a reason",
-      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Scene goal: explain customs from your country. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks she understands",
-      "hint": "Full: asks whether the customer understands or agrees. Partial: assumes understanding. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Scene goal: explain customs from your country. Full credit if the learner clearly shows: checks she understands. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2576,7 +2576,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Says sorry",
-      "hint": "Full: apologises sincerely for the problem. Partial: says sorry flatly or too late. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Scene goal: fix a cultural mistake. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains",
@@ -2824,7 +2824,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Scene goal: complain with impact. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2884,7 +2884,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Full: listens and reflects back. Partial: interrupts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Scene goal: share and respect views. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a view",
@@ -2922,7 +2922,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Gives reasons",
-      "hint": "Full: gives likely reasons. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Scene goal: describe how a place changed. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a view",
@@ -3062,7 +3062,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
      },
      {
       "label": "Asks about needs",
-      "hint": "Full: asks about needs before suggesting. Partial: suggests first. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Scene goal: host with warmth. Full credit if the learner clearly shows: asks about needs. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [

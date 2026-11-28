@@ -1,0 +1,165 @@
+Says hello | Full: greets the interviewer with "Hello" or "Good morning". Partial: starts talking without a greeting.
+Says thank you | Full: thanks the interviewer for meeting, like "Thank you for meeting me." Partial: thanks only when prompted.
+Smiles in the voice | Full: the voice sounds warm and friendly, not flat. Partial: polite but monotone.
+Full name | Full: says first and last name clearly. Partial: first name only or unclear.
+Country or city | Full: says where they are from in a complete phrase, like "I am from Cairo." Partial: single word.
+Complete sentence | Full: answers in a full sentence with a subject and verb. Partial: fragments.
+"I study/I work as" | Full: uses "I study..." or "I work as..." correctly. Partial: wrong verb form or missing frame.
+Clear word | Full: the key word (subject or job) is easy to understand. Partial: mispronounced so the meaning is hard.
+Thanks | Full: thanks the interviewer at the end. Partial: forgets.
+Goodbye | Full: says goodbye clearly. Partial: just stops.
+Polite tone | Full: the tone is polite and calm. Partial: rushed or flat.
+Yes/No first | Full: starts with Yes or No before anything else. Partial: starts with a story.
+Short reason | Full: adds one short reason after the yes or no. Partial: no reason, or a long one.
+Clear voice | Full: the voice is clear and loud enough. Partial: mumbling or too quiet.
+Digits in groups | Full: says the phone number in small groups with pauses. Partial: one fast string.
+Spells email | Full: spells the email address letter by letter, saying "at" and "dot". Partial: skips the symbols.
+Checks | Full: asks whether the interviewer has it right. Partial: moves on.
+Names languages | Full: names the languages they speak. Partial: says only "some".
+Level word | Full: uses a level word such as basic, good or fluent. Partial: no level.
+"I like helping people" | Full: says "I like helping people" or a close version. Partial: says only "help".
+One example | Full: gives one short real example. Partial: only a general claim.
+"Could you repeat that, please?" | Full: uses this polite request. Partial: says "What?" or "Again."
+Answers after repeat | Full: answers properly after the repeat. Partial: asks and then stays silent.
+"Slowly, please" | Full: asks the interviewer to speak slowly using "Slowly, please" or similar. Partial: only says "I don't understand".
+Polite | Full: stays polite when asking for help. Partial: sounds impatient.
+Answers after | Full: answers the question once it is slower. Partial: does not answer.
+"What does ... mean?" | Full: asks "What does ... mean?" with the real word. Partial: asks vaguely.
+Uses the meaning | Full: uses the explained meaning in the answer. Partial: ignores it.
+"I understand" | Full: says "I understand" when they do. Partial: nods or says OK.
+Short answer | Full: gives a brief, relevant answer. Partial: too long or off topic.
+"I am good at..." | Full: uses "I am good at" plus a real skill. Partial: names a skill without the frame.
+Where | Full: says where they studied or worked. Partial: omits.
+How long | Full: says how long. Partial: omits.
+Complete sentences | Full: full sentences throughout. Partial: fragments.
+"I..." past simple | Full: uses "I" plus a past verb, like "I solved." Partial: wrong tense.
+One result | Full: names one clear result. Partial: no result.
+Three words | Full: gives three words that describe them. Partial: gives one or two.
+One reason | Full: gives one reason for a word. Partial: no reason.
+Reason | Full: gives a clear, simple reason. Partial: none.
+Example | Full: gives a short real example. Partial: none.
+A reason about the company | Full: gives a reason about the company, like its service or reputation. Partial: generic.
+A reason about you | Full: gives a reason about their own skills or goals. Partial: none.
+Level | Full: describes their English level honestly in one phrase. Partial: no level.
+Two skills | Full: names two skills for the team. Partial: one.
+Short sentences | Full: keeps sentences short and clear. Partial: long or tangled.
+Short | Full: the answer is short and to the point. Partial: too long.
+Answer first | Full: gives the answer at the start. Partial: gives background first.
+Short example | Full: adds one short example. Partial: none.
+Which programs | Full: names real programs they use. Partial: says "some".
+Phrase | Full: uses the phrase "Let me think for a moment." Partial: another filler such as "um".
+Pause | Full: pauses briefly after the phrase to think. Partial: no pause.
+Answer | Full: gives a complete answer after thinking. Partial: gives half an answer.
+Main point first | Full: states the main point at the start. Partial: starts elsewhere.
+Pauses | Full: pauses naturally between ideas. Partial: no pauses.
+Slow pace | Full: speaks at a slower pace than before. Partial: stays fast.
+Complete answer | Full: finishes the answer. Partial: trails off.
+Skills first | Full: starts the SEAT answer with skills. Partial: starts with education.
+Education or experience | Full: adds education or experience. Partial: skips it.
+One real achievement | Full: names one real, specific achievement. Partial: vague.
+Evidence | Full: gives evidence, like a number or a result. Partial: only a claim.
+Smooth link | Full: links the parts with a connecting phrase. Partial: jumps.
+Three traits | Full: gives three personal traits. Partial: fewer.
+Link to the job | Full: links the traits to the job. Partial: no link.
+All four parts in order | Full: delivers Skills, Education, Achievements, Type in order. Partial: misses a part.
+About one minute | Full: the answer lasts about one minute. Partial: far shorter or longer.
+Calm pace | Full: calm, steady pace. Partial: rushed.
+Short priority line | Full: gives a short priority line first, then the story. Partial: story first.
+All four parts | Full: all four parts of the pattern are present. Partial: misses one.
+Clear example | Full: the example is clear and specific. Partial: vague.
+Closing point | Full: repeats the main point at the end. Partial: stops after the example.
+What | Full: says what they would do. Partial: unclear.
+Why | Full: says why. Partial: omitted.
+How with steps | Full: explains how with ordered steps. Partial: no steps.
+Real evidence | Full: gives real evidence from their experience. Partial: invented or vague.
+Link to this job | Full: applies it to this job. Partial: generic.
+Since + subject + verb | Full: uses "Since" followed by a subject and verb, like "Since I like people, I...". Partial: wrong structure.
+Therefore + comma | Full: uses "Therefore," with a comma, starting a new sentence. Partial: no comma or joins clauses wrongly.
+Own sentences | Full: builds own sentences, not repeated examples. Partial: repeats the model.
+New sentence + comma | Full: begins a new sentence with the linker and a comma. Partial: joins with a comma only.
+Correct meaning | Full: the linker matches the meaning (addition or contrast). Partial: wrong link.
+Although + subject + verb | Full: uses "Although" with a subject and verb. Partial: wrong order.
+No "although ... but" | Full: does not use "although" and "but" in one sentence. Partial: uses both.
+Own example | Full: gives their own example with "For instance". Partial: copies one.
+As a result + comma | Full: uses "As a result," with a comma. Partial: no comma.
+Rules from the checkpoint | Full: follows the grammar rules they just checked. Partial: ignores them.
+Own sentence | Full: makes their own sentence. Partial: copies.
+No negative words about people | Full: says nothing negative about people from the past. Partial: one criticism.
+Truthful | Full: stays honest and does not invent. Partial: avoids the truth.
+Focus on next step | Full: ends on what they want next. Partial: stays in the past.
+Acknowledges challenge | Full: says the job is hard in a neutral way. Partial: complains.
+Shows patience | Full: shows patience and a calm view. Partial: sounds tired.
+Focus on solution | Full: focuses on what they did to solve it. Partial: stays on the problem.
+Real weakness | Full: names a real, small weakness. Partial: names a fake strength.
+Action | Full: says what they are doing about it. Partial: nothing.
+Improvement | Full: gives evidence of progress. Partial: only a plan.
+Relevant | Full: the close is relevant to the job. Partial: generic.
+Links to the role | Full: names a link between their strengths and the role. Partial: none.
+Steady pace | Full: keeps a steady speaking pace. Partial: speeds up under pressure.
+Clear stress | Full: stresses key words clearly. Partial: flat.
+Calm phrase | Full: uses a calm phrase to start. Partial: panics or fills.
+Names two tips | Full: names two tips from the card. Partial: names one.
+Explains why | Full: explains why the tips help. Partial: none.
+Practises one aloud | Full: practises one tip aloud. Partial: only says it.
+Polite phrase | Full: uses a polite clarifying phrase like "Could you clarify...?" Partial: guesses.
+Checks meaning | Full: checks they understood. Partial: assumes.
+Then answers | Full: answers after the check. Partial: stops after the check.
+One relevant story | Full: tells one story that fits the question. Partial: a story that does not fit.
+Connect to the job | Full: connects the story to the job. Partial: none.
+Short situation | Full: describes the situation in one or two sentences. Partial: too long.
+Clear responsibility | Full: says clearly what their task was. Partial: unclear.
+No extra details | Full: leaves out side details. Partial: adds detours.
+What YOU did | Full: focuses on their own actions with "I". Partial: says "we" only.
+A clear result | Full: states a clear result. Partial: no result.
+Past tense | Full: uses past tense correctly. Partial: mixes tenses.
+Priorities | Full: explains how they set priorities. Partial: none.
+Action with customers | Full: describes an action that helped customers. Partial: none.
+Result | Full: states the result. Partial: none.
+Stay calm | Full: says they stay calm and shows how. Partial: only says it.
+Steps incl. escalate if needed | Full: gives steps including when to escalate. Partial: no escalation.
+Says no kindly | Full: says no kindly in the answer. Partial: blunt.
+Offers alternatives | Full: names alternatives. Partial: none.
+Respects policy | Full: respects company policy. Partial: ignores it.
+Offers help first | Full: offers help first. Partial: starts with a limit.
+Escalates properly | Full: escalates by the right steps. Partial: unclear.
+Informs the customer | Full: keeps the customer informed. Partial: not.
+Communication | Full: says how they would communicate. Partial: none.
+Follow up | Full: says how they would follow up. Partial: none.
+Strength | Full: names a clear strength. Partial: vague.
+Link to job | Full: links the strength to the job. Partial: none.
+Honest | Full: sounds honest. Partial: sounds scripted.
+Owns it | Full: owns the mistake. Partial: blames others.
+What changed | Full: says what changed afterwards. Partial: none.
+Positive close | Full: ends positively. Partial: ends on the mistake.
+Four parts | Full: Answer, Reason, Evidence, Application are all present. Partial: one missing.
+Application | Full: applies to the job. Partial: none.
+Reasoned range | Full: gives a pay range with a reason. Partial: a number with no reason.
+Flexible | Full: shows flexibility politely. Partial: rigid.
+Listens to the answer | Full: reacts to the interviewer's answer. Partial: moves on.
+Short close | Full: closes in one or two sentences. Partial: long.
+Link to the role | Full: links back to the role. Partial: none.
+Structure | Full: gives a clear structure. Partial: loose.
+Concise | Full: stays concise. Partial: long.
+No excuse | Full: gives no excuse. Partial: one excuse.
+Focus on growth | Full: focuses on growth. Partial: dwells on the problem.
+Raises it properly | Full: raises the issue in the proper way. Partial: skips channel.
+Keeps customer service | Full: keeps service to the customer in focus. Partial: forgets.
+Does not apologise too much | Full: apologises at most once. Partial: apologises repeatedly.
+Eye on all | Full: addresses each panel member in turn. Partial: one person.
+Names | Full: uses names. Partial: none.
+Clear | Full: clear delivery. Partial: unclear.
+Position | Full: states a clear position. Partial: avoids.
+Nuance | Full: adds a reasoned nuance. Partial: none.
+Principles | Full: states two principles of service. Partial: one.
+Examples | Full: gives examples. Partial: none.
+Customer and company | Full: balances the customer and the company. Partial: one side.
+Three stages | Full: gives the plan in three stages. Partial: fewer.
+Measures | Full: names measures. Partial: none.
+Realistic | Full: realistic targets. Partial: too big.
+Approach | Full: describes a coaching approach. Partial: general.
+Problem | Full: states the problem clearly. Partial: vague.
+Measured result | Full: gives a measured result. Partial: none.
+Source | Full: names the data source. Partial: none.
+Insight | Full: shares an insight. Partial: none.
+Clear principles | Full: states clear principles. Partial: vague.
+Calm delivery | Full: calm delivery. Partial: rushed.

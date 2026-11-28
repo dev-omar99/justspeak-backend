@@ -23,12 +23,20 @@ SHORTEN = {
 }
 GOAL_FIX = {'Ask for her name and ask her to spell it, then check it.': 'Ask for her name, ask her to spell it, then check it.'}
 root = pathlib.Path(__file__).resolve().parents[2] / 'src/ai-partner/content/curriculum'
-over = {}
-for hf in sorted(pathlib.Path(__file__).with_name('hints').glob('*.txt')):
-    for ln in hf.read_text().splitlines():
-        if ' | ' in ln:
-            k, v = ln.split(' | ', 1)
-            over[k.strip().lower()] = v.strip()
+HINTS_DIR = pathlib.Path(__file__).with_name('hints')
+
+def overrides_for(programme_id):
+    """Hints are scoped to one programme: file name = <programme id>[-n].txt (a label means different things in different programmes)."""
+    over = {}
+    for hf in sorted(HINTS_DIR.glob('*.txt')):
+        stem = hf.stem
+        base = stem.rsplit('-', 1)[0] if stem.rsplit('-', 1)[-1].isdigit() else stem
+        if base != programme_id: continue
+        for ln in hf.read_text().splitlines():
+            if ' | ' in ln:
+                k, v = ln.split(' | ', 1)
+                over[k.strip().lower()] = v.strip()
+    return over
 
 def lf(t): return t if t[:1] in '"\'' or t[:2].isupper() else t[:1].lower() + t[1:]
 
@@ -37,6 +45,7 @@ for f in sorted(root.glob('*.ts')):
     if f.name in ('index.ts', 'types.ts'): continue
     s = f.read_text(); a = s.index('{', s.index('CurriculumProgramme =')); b = s.rindex('};') + 1
     d = json.loads(s[a:b])
+    over = overrides_for(d['id'])
     for lv in d['levels'].values():
         for l in lv:
             old_goal = l['goal']; l['goal'] = GOAL_FIX.get(old_goal, old_goal)
