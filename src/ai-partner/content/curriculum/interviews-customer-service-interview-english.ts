@@ -572,146 +572,6 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "scored": true
    },
    {
-    "id": "iv-cs-a2-u2-l1",
-    "title": "Why I like helping people",
-    "unit": "Why this job",
-    "description": "Say simply why you want a customer-service job.",
-    "persona": "adams",
-    "personaRole": "Interviewer Mr Tamer",
-    "goal": "Say simply why you like helping people.",
-    "rubric": [
-     {
-      "label": "Reason",
-      "hint": "Full: gives a clear, simple reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Example",
-      "hint": "Full: gives a short real example. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Clear voice",
-      "hint": "Full: the voice is clear and loud enough. Partial: mumbling or too quiet. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say simply why you like helping people.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Reason; Example; Clear voice.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "JustSpeak-owned",
-    "status": "draft",
-    "scored": true
-   },
-   {
-    "id": "iv-cs-a2-u2-l2",
-    "title": "Why this company?",
-    "unit": "Why this job",
-    "description": "Say simply why you want a customer-service job.",
-    "persona": "adams",
-    "personaRole": "Interviewer Mr Tamer",
-    "goal": "Say why you want to work at this company.",
-    "rubric": [
-     {
-      "label": "A reason about the company",
-      "hint": "Full: gives a reason about the company, like its service or reputation. Partial: generic. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "A reason about you",
-      "hint": "Full: gives a reason about their own skills or goals. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Polite tone",
-      "hint": "Full: the tone is polite and calm. Partial: rushed or flat. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say why you want to work at this company.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: A reason about the company; A reason about you; Polite tone.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "JustSpeak-owned",
-    "status": "draft",
-    "scored": true
-   },
-   {
-    "id": "iv-cs-a2-u2-l3",
-    "title": "My English and my job",
-    "unit": "Why this job",
-    "description": "Say simply why you want a customer-service job.",
-    "persona": "adams",
-    "personaRole": "Interviewer Mr Tamer",
-    "goal": "Say how your English helps in the job.",
-    "rubric": [
-     {
-      "label": "Level",
-      "hint": "Full: describes their English level honestly in one phrase. Partial: no level. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Example",
-      "hint": "Full: gives a short real example. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Clear voice",
-      "hint": "Full: the voice is clear and loud enough. Partial: mumbling or too quiet. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say how your English helps in the job.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Level; Example; Clear voice.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "JustSpeak-owned",
-    "status": "draft",
-    "scored": true
-   },
-   {
-    "id": "iv-cs-a2-u2-l4",
-    "title": "What I can do for you",
-    "unit": "Why this job",
-    "description": "Say simply why you want a customer-service job.",
-    "persona": "adams",
-    "personaRole": "Interviewer Mr Tamer",
-    "goal": "Say what you can do for the team.",
-    "rubric": [
-     {
-      "label": "Two skills",
-      "hint": "Full: names two skills for the team. Partial: one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "One example",
-      "hint": "Full: gives one short real example. Partial: only a general claim. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Short sentences",
-      "hint": "Full: keeps sentences short and clear. Partial: long or tangled. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say what you can do for the team.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Two skills; One example; Short sentences.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "JustSpeak-owned",
-    "status": "draft",
-    "scored": true
-   },
-   {
     "id": "iv-cs-a2-u3-l1",
     "title": "Can you work shifts?",
     "unit": "Yes / no questions",
@@ -848,6 +708,146 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "level": "A2",
     "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
     "licence": "Omar-owned (user statement, 27 Nov 2026)",
+    "status": "draft",
+    "scored": true
+   },
+   {
+    "id": "iv-cs-a2-u2-l1",
+    "title": "Why I like helping people",
+    "unit": "Why this job",
+    "description": "Say simply why you want a customer-service job.",
+    "persona": "adams",
+    "personaRole": "Interviewer Mr Tamer",
+    "goal": "Say simply why you like helping people.",
+    "rubric": [
+     {
+      "label": "Reason",
+      "hint": "Full: gives a clear, simple reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Example",
+      "hint": "Full: gives a short real example. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Clear voice",
+      "hint": "Full: the voice is clear and loud enough. Partial: mumbling or too quiet. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say simply why you like helping people.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Reason; Example; Clear voice.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "JustSpeak-owned",
+    "status": "draft",
+    "scored": true
+   },
+   {
+    "id": "iv-cs-a2-u2-l2",
+    "title": "Why this company?",
+    "unit": "Why this job",
+    "description": "Say simply why you want a customer-service job.",
+    "persona": "adams",
+    "personaRole": "Interviewer Mr Tamer",
+    "goal": "Say why you want to work at this company.",
+    "rubric": [
+     {
+      "label": "A reason about the company",
+      "hint": "Full: gives a reason about the company, like its service or reputation. Partial: generic. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "A reason about you",
+      "hint": "Full: gives a reason about their own skills or goals. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Polite tone",
+      "hint": "Full: the tone is polite and calm. Partial: rushed or flat. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say why you want to work at this company.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: A reason about the company; A reason about you; Polite tone.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "JustSpeak-owned",
+    "status": "draft",
+    "scored": true
+   },
+   {
+    "id": "iv-cs-a2-u2-l3",
+    "title": "My English and my job",
+    "unit": "Why this job",
+    "description": "Say simply why you want a customer-service job.",
+    "persona": "adams",
+    "personaRole": "Interviewer Mr Tamer",
+    "goal": "Say how your English helps in the job.",
+    "rubric": [
+     {
+      "label": "Level",
+      "hint": "Full: describes their English level honestly in one phrase. Partial: no level. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Example",
+      "hint": "Full: gives a short real example. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Clear voice",
+      "hint": "Full: the voice is clear and loud enough. Partial: mumbling or too quiet. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say how your English helps in the job.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Level; Example; Clear voice.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "JustSpeak-owned",
+    "status": "draft",
+    "scored": true
+   },
+   {
+    "id": "iv-cs-a2-u2-l4",
+    "title": "What I can do for you",
+    "unit": "Why this job",
+    "description": "Say simply why you want a customer-service job.",
+    "persona": "adams",
+    "personaRole": "Interviewer Mr Tamer",
+    "goal": "Say what you can do for the team.",
+    "rubric": [
+     {
+      "label": "Two skills",
+      "hint": "Full: names two skills for the team. Partial: one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "One example",
+      "hint": "Full: gives one short real example. Partial: only a general claim. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Short sentences",
+      "hint": "Full: keeps sentences short and clear. Partial: long or tangled. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Interviewer Mr Tamer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say what you can do for the team.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Two skills; One example; Short sentences.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "JustSpeak-owned",
     "status": "draft",
     "scored": true
    },
@@ -1836,142 +1836,142 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u2-l1",
-    "title": "An angry customer (WHAT-WHY-HOW)",
-    "unit": "Situational questions",
-    "description": "Explain what you would do in common customer-service situations.",
+    "id": "iv-cs-b2-u4-l1",
+    "title": "Why should we hire you? (AREA, full)",
+    "unit": "Fit, pay and questions",
+    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Samia, \"How would you handle an angry customer?\"",
-    "goal": "Use WHAT-WHY-HOW with steps.",
+    "personaRole": "Interviewer Ms Hoda, \"Why should we hire you?\"",
+    "goal": "Give a full AREA answer.",
     "rubric": [
      {
-      "label": "Stay calm",
-      "hint": "Full: says they stay calm and shows how. Partial: only says it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Four parts",
+      "hint": "Full: Answer, Reason, Evidence, Application are all present. Partial: one missing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Reason",
-      "hint": "Full: gives a clear, simple reason. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Evidence",
+      "hint": "Full: gives evidence, like a number or a result. Partial: only a claim. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Steps incl. escalate if needed",
-      "hint": "Full: gives steps including when to escalate. Partial: no escalation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Application",
+      "hint": "Full: applies to the job. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Samia, \"How would you handle an angry customer?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Use WHAT-WHY-HOW with steps.",
+     "Open the scene in character as Interviewer Ms Hoda, \"Why should we hire you?\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give a full AREA answer.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Stay calm; Reason; Steps incl. escalate if needed.",
+     "Move through the rubric points naturally: Four parts; Evidence; Application.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "Omar-owned (user statement, 27 Nov 2026)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
     "status": "draft",
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u2-l2",
-    "title": "A customer asking for a refund you cannot give",
-    "unit": "Situational questions",
-    "description": "Explain what you would do in common customer-service situations.",
+    "id": "iv-cs-b2-u4-l2",
+    "title": "Salary and benefits",
+    "unit": "Fit, pay and questions",
+    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Samia, \"A customer wants a refund policy does not allow\"",
-    "goal": "Explain how you would say no to a refund the policy does not allow.",
+    "personaRole": "Interviewer Ms Hoda, \"What salary do you expect?\"",
+    "goal": "Discuss pay politely and with reasons.",
     "rubric": [
      {
-      "label": "Says no kindly",
-      "hint": "Full: says no kindly in the answer. Partial: blunt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Reasoned range",
+      "hint": "Full: gives a pay range with a reason. Partial: a number with no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers alternatives",
-      "hint": "Full: names alternatives. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Flexible",
+      "hint": "Full: shows flexibility politely. Partial: rigid. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Respects policy",
-      "hint": "Full: respects company policy. Partial: ignores it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Polite",
+      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Samia, \"A customer wants a refund policy does not allow\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you would say no to a refund the policy does not allow.",
+     "Open the scene in character as Interviewer Ms Hoda, \"What salary do you expect?\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Discuss pay politely and with reasons.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says no kindly; Offers alternatives; Respects policy.",
+     "Move through the rubric points naturally: Reasoned range; Flexible; Polite.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "Omar-owned (user statement, 27 Nov 2026)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
     "status": "draft",
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u2-l3",
-    "title": "A customer who wants a supervisor",
-    "unit": "Situational questions",
-    "description": "Explain what you would do in common customer-service situations.",
+    "id": "iv-cs-b2-u4-l3",
+    "title": "Questions to ask the interviewer",
+    "unit": "Fit, pay and questions",
+    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Samia, \"A customer asks for a supervisor\"",
-    "goal": "Explain how you would respond to a customer who asks for a supervisor.",
+    "personaRole": "Interviewer Ms Hoda, \"Do you have questions?\"",
+    "goal": "Ask two good questions.",
     "rubric": [
      {
-      "label": "Offers help first",
-      "hint": "Full: offers help first. Partial: starts with a limit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Relevant",
+      "hint": "Full: the close is relevant to the job. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Escalates properly",
-      "hint": "Full: escalates by the right steps. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Polite",
+      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Informs the customer",
-      "hint": "Full: keeps the customer informed. Partial: not. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Listens to the answer",
+      "hint": "Full: reacts to the interviewer's answer. Partial: moves on. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Samia, \"A customer asks for a supervisor\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you would respond to a customer who asks for a supervisor.",
+     "Open the scene in character as Interviewer Ms Hoda, \"Do you have questions?\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask two good questions.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Offers help first; Escalates properly; Informs the customer.",
+     "Move through the rubric points naturally: Relevant; Polite; Listens to the answer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "Omar-owned (user statement, 27 Nov 2026)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
     "status": "draft",
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u2-l4",
-    "title": "Two urgent requests at the same time",
-    "unit": "Situational questions",
-    "description": "Explain what you would do in common customer-service situations.",
+    "id": "iv-cs-b2-u4-l4",
+    "title": "Final close with a smile",
+    "unit": "Fit, pay and questions",
+    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Samia, \"Two urgent requests at once\"",
-    "goal": "Explain how you would decide.",
+    "personaRole": "Interviewer Ms Hoda, closing",
+    "goal": "Close with confidence, a smile in your voice and thanks.",
     "rubric": [
      {
-      "label": "Priorities",
-      "hint": "Full: explains how they set priorities. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Short close",
+      "hint": "Full: closes in one or two sentences. Partial: long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Communication",
-      "hint": "Full: says how they would communicate. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Thanks",
+      "hint": "Full: thanks the interviewer at the end. Partial: forgets. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Follow up",
-      "hint": "Full: says how they would follow up. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Link to the role",
+      "hint": "Full: links back to the role. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Samia, \"Two urgent requests at once\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you would decide.",
+     "Open the scene in character as Interviewer Ms Hoda, closing: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Close with confidence, a smile in your voice and thanks.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Priorities; Communication; Follow up.",
+     "Move through the rubric points naturally: Short close; Thanks; Link to the role.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
-    "licence": "Omar-owned (user statement, 27 Nov 2026)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
     "status": "draft",
     "scored": true
    },
@@ -2116,142 +2116,142 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u4-l1",
-    "title": "Why should we hire you? (AREA, full)",
-    "unit": "Fit, pay and questions",
-    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
+    "id": "iv-cs-b2-u2-l1",
+    "title": "An angry customer (WHAT-WHY-HOW)",
+    "unit": "Situational questions",
+    "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Hoda, \"Why should we hire you?\"",
-    "goal": "Give a full AREA answer.",
+    "personaRole": "Interviewer Ms Samia, \"How would you handle an angry customer?\"",
+    "goal": "Use WHAT-WHY-HOW with steps.",
     "rubric": [
      {
-      "label": "Four parts",
-      "hint": "Full: Answer, Reason, Evidence, Application are all present. Partial: one missing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Stay calm",
+      "hint": "Full: says they stay calm and shows how. Partial: only says it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Evidence",
-      "hint": "Full: gives evidence, like a number or a result. Partial: only a claim. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Reason",
+      "hint": "Full: gives a clear, simple reason. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Application",
-      "hint": "Full: applies to the job. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Steps incl. escalate if needed",
+      "hint": "Full: gives steps including when to escalate. Partial: no escalation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Hoda, \"Why should we hire you?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a full AREA answer.",
+     "Open the scene in character as Interviewer Ms Samia, \"How would you handle an angry customer?\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Use WHAT-WHY-HOW with steps.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Four parts; Evidence; Application.",
+     "Move through the rubric points naturally: Stay calm; Reason; Steps incl. escalate if needed.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
+    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "Omar-owned (user statement, 27 Nov 2026)",
     "status": "draft",
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u4-l2",
-    "title": "Salary and benefits",
-    "unit": "Fit, pay and questions",
-    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
+    "id": "iv-cs-b2-u2-l2",
+    "title": "A customer asking for a refund you cannot give",
+    "unit": "Situational questions",
+    "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Hoda, \"What salary do you expect?\"",
-    "goal": "Discuss pay politely and with reasons.",
+    "personaRole": "Interviewer Ms Samia, \"A customer wants a refund policy does not allow\"",
+    "goal": "Explain how you would say no to a refund the policy does not allow.",
     "rubric": [
      {
-      "label": "Reasoned range",
-      "hint": "Full: gives a pay range with a reason. Partial: a number with no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Says no kindly",
+      "hint": "Full: says no kindly in the answer. Partial: blunt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Flexible",
-      "hint": "Full: shows flexibility politely. Partial: rigid. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers alternatives",
+      "hint": "Full: names alternatives. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Polite",
-      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Respects policy",
+      "hint": "Full: respects company policy. Partial: ignores it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Hoda, \"What salary do you expect?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss pay politely and with reasons.",
+     "Open the scene in character as Interviewer Ms Samia, \"A customer wants a refund policy does not allow\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain how you would say no to a refund the policy does not allow.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Reasoned range; Flexible; Polite.",
+     "Move through the rubric points naturally: Says no kindly; Offers alternatives; Respects policy.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
+    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "Omar-owned (user statement, 27 Nov 2026)",
     "status": "draft",
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u4-l3",
-    "title": "Questions to ask the interviewer",
-    "unit": "Fit, pay and questions",
-    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
+    "id": "iv-cs-b2-u2-l3",
+    "title": "A customer who wants a supervisor",
+    "unit": "Situational questions",
+    "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Hoda, \"Do you have questions?\"",
-    "goal": "Ask two good questions.",
+    "personaRole": "Interviewer Ms Samia, \"A customer asks for a supervisor\"",
+    "goal": "Explain how you would respond to a customer who asks for a supervisor.",
     "rubric": [
      {
-      "label": "Relevant",
-      "hint": "Full: the close is relevant to the job. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers help first",
+      "hint": "Full: offers help first. Partial: starts with a limit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Polite",
-      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Escalates properly",
+      "hint": "Full: escalates by the right steps. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Listens to the answer",
-      "hint": "Full: reacts to the interviewer's answer. Partial: moves on. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Informs the customer",
+      "hint": "Full: keeps the customer informed. Partial: not. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Hoda, \"Do you have questions?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask two good questions.",
+     "Open the scene in character as Interviewer Ms Samia, \"A customer asks for a supervisor\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain how you would respond to a customer who asks for a supervisor.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Relevant; Polite; Listens to the answer.",
+     "Move through the rubric points naturally: Offers help first; Escalates properly; Informs the customer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
+    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "Omar-owned (user statement, 27 Nov 2026)",
     "status": "draft",
     "scored": true
    },
    {
-    "id": "iv-cs-b2-u4-l4",
-    "title": "Final close with a smile",
-    "unit": "Fit, pay and questions",
-    "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
+    "id": "iv-cs-b2-u2-l4",
+    "title": "Two urgent requests at the same time",
+    "unit": "Situational questions",
+    "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
-    "personaRole": "Interviewer Ms Hoda, closing",
-    "goal": "Close with confidence, a smile in your voice and thanks.",
+    "personaRole": "Interviewer Ms Samia, \"Two urgent requests at once\"",
+    "goal": "Explain how you would decide.",
     "rubric": [
      {
-      "label": "Short close",
-      "hint": "Full: closes in one or two sentences. Partial: long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Priorities",
+      "hint": "Full: explains how they set priorities. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Thanks",
-      "hint": "Full: thanks the interviewer at the end. Partial: forgets. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Communication",
+      "hint": "Full: says how they would communicate. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Link to the role",
-      "hint": "Full: links back to the role. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Follow up",
+      "hint": "Full: says how they would follow up. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Interviewer Ms Hoda, closing: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close with confidence, a smile in your voice and thanks.",
+     "Open the scene in character as Interviewer Ms Samia, \"Two urgent requests at once\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain how you would decide.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Short close; Thanks; Link to the role.",
+     "Move through the rubric points naturally: Priorities; Communication; Follow up.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
+    "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
+    "licence": "Omar-owned (user statement, 27 Nov 2026)",
     "status": "draft",
     "scored": true
    }

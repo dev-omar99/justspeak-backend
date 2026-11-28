@@ -556,6 +556,142 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "academic-course-a2-u4-l1",
+    "title": "Introducing a talk",
+    "unit": "Simple presentations",
+    "description": "Give a short talk about a familiar topic.",
+    "persona": "sara",
+    "personaRole": "Dr Hana, an audience",
+    "goal": "Open a talk with your name and topic.",
+    "rubric": [
+     {
+      "label": "Greets",
+      "hint": "Full: greets the audience. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Names the topic",
+      "hint": "Full: names the topic of the talk. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says the plan",
+      "hint": "Full: says what the talk will cover. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Hana, an audience: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Open a talk with your name and topic.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Greets; Names the topic; Says the plan.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-a2-u4-l2",
+    "title": "Describing a picture",
+    "unit": "Simple presentations",
+    "description": "Give a short talk about a familiar topic.",
+    "persona": "sara",
+    "personaRole": "Mr Adel, a teacher",
+    "goal": "Describe what you can see in a picture.",
+    "rubric": [
+     {
+      "label": "Names things",
+      "hint": "Full: names things in the picture. Partial: few. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says where they are",
+      "hint": "Full: uses on, next to, behind correctly. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says what people do",
+      "hint": "Full: uses the present continuous, like \"She is reading.\" Partial: single words. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Adel, a teacher: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Describe what you can see in a picture.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Names things; Says where they are; Says what people do.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-a2-u4-l3",
+    "title": "Giving a simple opinion",
+    "unit": "Simple presentations",
+    "description": "Give a short talk about a familiar topic.",
+    "persona": "sara",
+    "personaRole": "Salma, a classmate",
+    "goal": "Say what you think and give one reason.",
+    "rubric": [
+     {
+      "label": "States opinion",
+      "hint": "Full: states a view with \"I think...\". Partial: hints. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives a reason",
+      "hint": "Full: gives a short reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Uses because",
+      "hint": "Full: uses \"because\" with a reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Salma, a classmate: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say what you think and give one reason.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States opinion; Gives a reason; Uses because.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-a2-u4-l4",
+    "title": "Ending and questions",
+    "unit": "Simple presentations",
+    "description": "Give a short talk about a familiar topic.",
+    "persona": "sara",
+    "personaRole": "Dr Hana, an audience",
+    "goal": "Finish a talk and answer one question.",
+    "rubric": [
+     {
+      "label": "Thanks the audience",
+      "hint": "Full: thanks the audience. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Answers briefly",
+      "hint": "Full: answers a question in one or two sentences. Partial: long. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks if there are questions",
+      "hint": "Full: asks \"Are there any questions?\" Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Hana, an audience: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Finish a talk and answer one question.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Thanks the audience; Answers briefly; Asks if there are questions.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "academic-course-a2-u2-l1",
     "title": "My subject",
     "unit": "Talking about studies",
@@ -826,142 +962,6 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
-   },
-   {
-    "id": "academic-course-a2-u4-l1",
-    "title": "Introducing a talk",
-    "unit": "Simple presentations",
-    "description": "Give a short talk about a familiar topic.",
-    "persona": "sara",
-    "personaRole": "Dr Hana, an audience",
-    "goal": "Open a talk with your name and topic.",
-    "rubric": [
-     {
-      "label": "Greets",
-      "hint": "Full: greets the audience. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Names the topic",
-      "hint": "Full: names the topic of the talk. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says the plan",
-      "hint": "Full: says what the talk will cover. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Hana, an audience: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Open a talk with your name and topic.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Greets; Names the topic; Says the plan.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-a2-u4-l2",
-    "title": "Describing a picture",
-    "unit": "Simple presentations",
-    "description": "Give a short talk about a familiar topic.",
-    "persona": "sara",
-    "personaRole": "Mr Adel, a teacher",
-    "goal": "Describe what you can see in a picture.",
-    "rubric": [
-     {
-      "label": "Names things",
-      "hint": "Full: names things in the picture. Partial: few. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says where they are",
-      "hint": "Full: uses on, next to, behind correctly. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says what people do",
-      "hint": "Full: uses the present continuous, like \"She is reading.\" Partial: single words. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, a teacher: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe what you can see in a picture.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names things; Says where they are; Says what people do.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-a2-u4-l3",
-    "title": "Giving a simple opinion",
-    "unit": "Simple presentations",
-    "description": "Give a short talk about a familiar topic.",
-    "persona": "sara",
-    "personaRole": "Salma, a classmate",
-    "goal": "Say what you think and give one reason.",
-    "rubric": [
-     {
-      "label": "States opinion",
-      "hint": "Full: states a view with \"I think...\". Partial: hints. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives a reason",
-      "hint": "Full: gives a short reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Uses because",
-      "hint": "Full: uses \"because\" with a reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Salma, a classmate: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say what you think and give one reason.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States opinion; Gives a reason; Uses because.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-a2-u4-l4",
-    "title": "Ending and questions",
-    "unit": "Simple presentations",
-    "description": "Give a short talk about a familiar topic.",
-    "persona": "sara",
-    "personaRole": "Dr Hana, an audience",
-    "goal": "Finish a talk and answer one question.",
-    "rubric": [
-     {
-      "label": "Thanks the audience",
-      "hint": "Full: thanks the audience. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Answers briefly",
-      "hint": "Full: answers a question in one or two sentences. Partial: long. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks if there are questions",
-      "hint": "Full: asks \"Are there any questions?\" Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Hana, an audience: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Finish a talk and answer one question.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Thanks the audience; Answers briefly; Asks if there are questions.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
    }
   ],
   "B1": [
@@ -1094,142 +1094,6 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
      "Let the learner work toward this goal: Disagree politely and keep the discussion friendly.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses polite language; Gives a reason; Offers a middle way.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b1-u2-l1",
-    "title": "Booking office hours",
-    "unit": "Office hours",
-    "description": "Ask a lecturer for help and feedback.",
-    "persona": "sara",
-    "personaRole": "Ms Dina, a department assistant",
-    "goal": "Arrange a meeting with a lecturer.",
-    "rubric": [
-     {
-      "label": "Gives the reason",
-      "hint": "Full: gives the reason. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Suggests times",
-      "hint": "Full: suggests two or more times. Partial: one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Confirms",
-      "hint": "Full: repeats to confirm what was said. Partial: \"OK\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ms Dina, a department assistant: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Arrange a meeting with a lecturer.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives the reason; Suggests times; Confirms.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b1-u2-l2",
-    "title": "Asking about feedback",
-    "unit": "Office hours",
-    "description": "Ask a lecturer for help and feedback.",
-    "persona": "adams",
-    "personaRole": "Dr Samir, a lecturer",
-    "goal": "Ask what to improve in your work.",
-    "rubric": [
-     {
-      "label": "Asks what to improve",
-      "hint": "Full: asks what to improve. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks for an example",
-      "hint": "Full: asks \"Can you give an example?\" Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Says what they will do",
-      "hint": "Full: says what they will do next. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Samir, a lecturer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask what to improve in your work.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks what to improve; Asks for an example; Says what they will do.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b1-u2-l3",
-    "title": "Explaining a problem",
-    "unit": "Office hours",
-    "description": "Ask a lecturer for help and feedback.",
-    "persona": "sara",
-    "personaRole": "Dr Nour, a tutor",
-    "goal": "Explain a problem with an assignment.",
-    "rubric": [
-     {
-      "label": "Describes the problem",
-      "hint": "Full: describes the problem with an example. Partial: general. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Says what they tried",
-      "hint": "Full: says what they already tried. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks for advice",
-      "hint": "Full: asks for advice. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Nour, a tutor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a problem with an assignment.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes the problem; Says what they tried; Asks for advice.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b1-u2-l4",
-    "title": "Asking for a reference",
-    "unit": "Office hours",
-    "description": "Ask a lecturer for help and feedback.",
-    "persona": "sara",
-    "personaRole": "Dr Hana, a lecturer",
-    "goal": "Politely ask a lecturer for a reference.",
-    "rubric": [
-     {
-      "label": "Explains why",
-      "hint": "Full: explains why they ask. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks politely",
-      "hint": "Full: uses \"Would it be possible...?\" or \"Could I...?\" Partial: demands. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives details",
-      "hint": "Full: gives details such as the course and date. Partial: general. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Hana, a lecturer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Politely ask a lecturer for a reference.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Explains why; Asks politely; Gives details.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1644,6 +1508,142 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
+   },
+   {
+    "id": "academic-course-b1-u2-l1",
+    "title": "Booking office hours",
+    "unit": "Office hours",
+    "description": "Ask a lecturer for help and feedback.",
+    "persona": "sara",
+    "personaRole": "Ms Dina, a department assistant",
+    "goal": "Arrange a meeting with a lecturer.",
+    "rubric": [
+     {
+      "label": "Gives the reason",
+      "hint": "Full: gives the reason. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Suggests times",
+      "hint": "Full: suggests two or more times. Partial: one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Confirms",
+      "hint": "Full: repeats to confirm what was said. Partial: \"OK\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Dina, a department assistant: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Arrange a meeting with a lecturer.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Gives the reason; Suggests times; Confirms.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-b1-u2-l2",
+    "title": "Asking about feedback",
+    "unit": "Office hours",
+    "description": "Ask a lecturer for help and feedback.",
+    "persona": "adams",
+    "personaRole": "Dr Samir, a lecturer",
+    "goal": "Ask what to improve in your work.",
+    "rubric": [
+     {
+      "label": "Asks what to improve",
+      "hint": "Full: asks what to improve. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks for an example",
+      "hint": "Full: asks \"Can you give an example?\" Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Says what they will do",
+      "hint": "Full: says what they will do next. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Samir, a lecturer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask what to improve in your work.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks what to improve; Asks for an example; Says what they will do.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-b1-u2-l3",
+    "title": "Explaining a problem",
+    "unit": "Office hours",
+    "description": "Ask a lecturer for help and feedback.",
+    "persona": "sara",
+    "personaRole": "Dr Nour, a tutor",
+    "goal": "Explain a problem with an assignment.",
+    "rubric": [
+     {
+      "label": "Describes the problem",
+      "hint": "Full: describes the problem with an example. Partial: general. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Says what they tried",
+      "hint": "Full: says what they already tried. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks for advice",
+      "hint": "Full: asks for advice. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Nour, a tutor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a problem with an assignment.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Describes the problem; Says what they tried; Asks for advice.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-b1-u2-l4",
+    "title": "Asking for a reference",
+    "unit": "Office hours",
+    "description": "Ask a lecturer for help and feedback.",
+    "persona": "sara",
+    "personaRole": "Dr Hana, a lecturer",
+    "goal": "Politely ask a lecturer for a reference.",
+    "rubric": [
+     {
+      "label": "Explains why",
+      "hint": "Full: explains why they ask. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks politely",
+      "hint": "Full: uses \"Would it be possible...?\" or \"Could I...?\" Partial: demands. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives details",
+      "hint": "Full: gives details such as the course and date. Partial: general. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Hana, a lecturer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Politely ask a lecturer for a reference.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Explains why; Asks politely; Gives details.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
    }
   ],
   "B2": [
@@ -1776,6 +1776,142 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
      "Let the learner work toward this goal: Close with decisions and next steps.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Recaps decisions; Assigns tasks; Sets a time.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-b2-u4-l1",
+    "title": "Why this course",
+    "unit": "Academic interviews",
+    "description": "Speak in scholarship and course interviews.",
+    "persona": "sara",
+    "personaRole": "Prof Mariam, an admissions tutor",
+    "goal": "Explain your reasons for choosing a course.",
+    "rubric": [
+     {
+      "label": "States motivation",
+      "hint": "Full: states motivation. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives evidence",
+      "hint": "Full: gives evidence. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Links to goals",
+      "hint": "Full: links to goals. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Prof Mariam, an admissions tutor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain your reasons for choosing a course.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States motivation; Gives evidence; Links to goals.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-b2-u4-l2",
+    "title": "Talking about strengths",
+    "unit": "Academic interviews",
+    "description": "Speak in scholarship and course interviews.",
+    "persona": "adams",
+    "personaRole": "Prof Mariam, an admissions tutor",
+    "goal": "Describe strengths with proof.",
+    "rubric": [
+     {
+      "label": "Names strengths",
+      "hint": "Full: names strengths. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives examples",
+      "hint": "Full: gives examples. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Stays honest",
+      "hint": "Full: stays honest. Partial: exaggerates. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Prof Mariam, an admissions tutor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Describe strengths with proof.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Names strengths; Gives examples; Stays honest.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-b2-u4-l3",
+    "title": "Handling a hard question",
+    "unit": "Academic interviews",
+    "description": "Speak in scholarship and course interviews.",
+    "persona": "adams",
+    "personaRole": "Prof Yusuf, a panel member",
+    "goal": "Answer an unexpected question calmly.",
+    "rubric": [
+     {
+      "label": "Buys thinking time",
+      "hint": "Full: says \"That's a good question, let me think.\" Partial: silence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives structure",
+      "hint": "Full: answers in structure. Partial: loose. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Concludes",
+      "hint": "Full: concludes. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Prof Yusuf, a panel member: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Answer an unexpected question calmly.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Buys thinking time; Gives structure; Concludes.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-b2-u4-l4",
+    "title": "Questions for the panel",
+    "unit": "Academic interviews",
+    "description": "Speak in scholarship and course interviews.",
+    "persona": "sara",
+    "personaRole": "Prof Mariam, an admissions tutor",
+    "goal": "Ask smart questions at the end.",
+    "rubric": [
+     {
+      "label": "Asks relevant questions",
+      "hint": "Full: asks relevant questions. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Shows interest",
+      "hint": "Full: shows interest. Partial: flat. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Thanks the panel",
+      "hint": "Full: thanks the panel. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Prof Mariam, an admissions tutor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask smart questions at the end.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks relevant questions; Shows interest; Thanks the panel.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2048,142 +2184,6 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
      "Let the learner work toward this goal: Explain how you judge a source.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names criteria; Gives an example; Admits doubt.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b2-u4-l1",
-    "title": "Why this course",
-    "unit": "Academic interviews",
-    "description": "Speak in scholarship and course interviews.",
-    "persona": "sara",
-    "personaRole": "Prof Mariam, an admissions tutor",
-    "goal": "Explain your reasons for choosing a course.",
-    "rubric": [
-     {
-      "label": "States motivation",
-      "hint": "Full: states motivation. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Gives evidence",
-      "hint": "Full: gives evidence. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Links to goals",
-      "hint": "Full: links to goals. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Prof Mariam, an admissions tutor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain your reasons for choosing a course.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States motivation; Gives evidence; Links to goals.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b2-u4-l2",
-    "title": "Talking about strengths",
-    "unit": "Academic interviews",
-    "description": "Speak in scholarship and course interviews.",
-    "persona": "adams",
-    "personaRole": "Prof Mariam, an admissions tutor",
-    "goal": "Describe strengths with proof.",
-    "rubric": [
-     {
-      "label": "Names strengths",
-      "hint": "Full: names strengths. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Gives examples",
-      "hint": "Full: gives examples. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Stays honest",
-      "hint": "Full: stays honest. Partial: exaggerates. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Prof Mariam, an admissions tutor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe strengths with proof.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names strengths; Gives examples; Stays honest.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b2-u4-l3",
-    "title": "Handling a hard question",
-    "unit": "Academic interviews",
-    "description": "Speak in scholarship and course interviews.",
-    "persona": "adams",
-    "personaRole": "Prof Yusuf, a panel member",
-    "goal": "Answer an unexpected question calmly.",
-    "rubric": [
-     {
-      "label": "Buys thinking time",
-      "hint": "Full: says \"That's a good question, let me think.\" Partial: silence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Gives structure",
-      "hint": "Full: answers in structure. Partial: loose. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Concludes",
-      "hint": "Full: concludes. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Prof Yusuf, a panel member: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer an unexpected question calmly.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Buys thinking time; Gives structure; Concludes.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-b2-u4-l4",
-    "title": "Questions for the panel",
-    "unit": "Academic interviews",
-    "description": "Speak in scholarship and course interviews.",
-    "persona": "sara",
-    "personaRole": "Prof Mariam, an admissions tutor",
-    "goal": "Ask smart questions at the end.",
-    "rubric": [
-     {
-      "label": "Asks relevant questions",
-      "hint": "Full: asks relevant questions. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Shows interest",
-      "hint": "Full: shows interest. Partial: flat. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Thanks the panel",
-      "hint": "Full: thanks the panel. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Prof Mariam, an admissions tutor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask smart questions at the end.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks relevant questions; Shows interest; Thanks the panel.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2466,6 +2466,142 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "academic-course-c1-u4-l1",
+    "title": "Introducing your research",
+    "unit": "Career and networking",
+    "description": "Talk with senior academics and employers.",
+    "persona": "sara",
+    "personaRole": "Prof Mariam, a senior academic",
+    "goal": "Describe your research in under a minute.",
+    "rubric": [
+     {
+      "label": "Explains the topic",
+      "hint": "Full: explains the topic. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Explains the value",
+      "hint": "Full: explains the value. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Invites questions",
+      "hint": "Full: invites questions. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Prof Mariam, a senior academic: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Describe your research in under a minute.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Explains the topic; Explains the value; Invites questions.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-c1-u4-l2",
+    "title": "Networking at an event",
+    "unit": "Career and networking",
+    "description": "Talk with senior academics and employers.",
+    "persona": "sara",
+    "personaRole": "Dr Leila, a conference delegate",
+    "goal": "Start and end a conversation gracefully.",
+    "rubric": [
+     {
+      "label": "Opens naturally",
+      "hint": "Full: opens naturally. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Finds common ground",
+      "hint": "Full: finds common ground. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Closes politely",
+      "hint": "Full: closes politely. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Leila, a conference delegate: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Start and end a conversation gracefully.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Opens naturally; Finds common ground; Closes politely.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-c1-u4-l3",
+    "title": "Asking for a supervisor",
+    "unit": "Career and networking",
+    "description": "Talk with senior academics and employers.",
+    "persona": "adams",
+    "personaRole": "Prof Yusuf, a potential supervisor",
+    "goal": "Make your case to a potential supervisor.",
+    "rubric": [
+     {
+      "label": "States interest",
+      "hint": "Full: states interest. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Shows preparation",
+      "hint": "Full: shows preparation. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Proposes next step",
+      "hint": "Full: proposes next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Prof Yusuf, a potential supervisor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Make your case to a potential supervisor.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States interest; Shows preparation; Proposes next step.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "academic-course-c1-u4-l4",
+    "title": "Giving feedback to a peer",
+    "unit": "Career and networking",
+    "description": "Talk with senior academics and employers.",
+    "persona": "sara",
+    "personaRole": "Dr Leila, a colleague",
+    "goal": "Give honest, kind feedback on a talk.",
+    "rubric": [
+     {
+      "label": "Names a strength",
+      "hint": "Full: names a strength. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Names a fix",
+      "hint": "Full: names a fix. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Offers a suggestion",
+      "hint": "Full: offers a suggestion. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Leila, a colleague: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give honest, kind feedback on a talk.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Names a strength; Names a fix; Offers a suggestion.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "academic-course-c1-u2-l1",
     "title": "Opening a conference talk",
     "unit": "Conference and defence",
@@ -2730,142 +2866,6 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
      "Let the learner work toward this goal: Rephrase a formal sentence for speech.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Rephrases; Keeps accuracy; Sounds natural.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-c1-u4-l1",
-    "title": "Introducing your research",
-    "unit": "Career and networking",
-    "description": "Talk with senior academics and employers.",
-    "persona": "sara",
-    "personaRole": "Prof Mariam, a senior academic",
-    "goal": "Describe your research in under a minute.",
-    "rubric": [
-     {
-      "label": "Explains the topic",
-      "hint": "Full: explains the topic. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Explains the value",
-      "hint": "Full: explains the value. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Invites questions",
-      "hint": "Full: invites questions. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Prof Mariam, a senior academic: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe your research in under a minute.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Explains the topic; Explains the value; Invites questions.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-c1-u4-l2",
-    "title": "Networking at an event",
-    "unit": "Career and networking",
-    "description": "Talk with senior academics and employers.",
-    "persona": "sara",
-    "personaRole": "Dr Leila, a conference delegate",
-    "goal": "Start and end a conversation gracefully.",
-    "rubric": [
-     {
-      "label": "Opens naturally",
-      "hint": "Full: opens naturally. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Finds common ground",
-      "hint": "Full: finds common ground. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Closes politely",
-      "hint": "Full: closes politely. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Leila, a conference delegate: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Start and end a conversation gracefully.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Opens naturally; Finds common ground; Closes politely.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-c1-u4-l3",
-    "title": "Asking for a supervisor",
-    "unit": "Career and networking",
-    "description": "Talk with senior academics and employers.",
-    "persona": "adams",
-    "personaRole": "Prof Yusuf, a potential supervisor",
-    "goal": "Make your case to a potential supervisor.",
-    "rubric": [
-     {
-      "label": "States interest",
-      "hint": "Full: states interest. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Shows preparation",
-      "hint": "Full: shows preparation. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Proposes next step",
-      "hint": "Full: proposes next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Prof Yusuf, a potential supervisor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Make your case to a potential supervisor.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States interest; Shows preparation; Proposes next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "academic-course-c1-u4-l4",
-    "title": "Giving feedback to a peer",
-    "unit": "Career and networking",
-    "description": "Talk with senior academics and employers.",
-    "persona": "sara",
-    "personaRole": "Dr Leila, a colleague",
-    "goal": "Give honest, kind feedback on a talk.",
-    "rubric": [
-     {
-      "label": "Names a strength",
-      "hint": "Full: names a strength. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Names a fix",
-      "hint": "Full: names a fix. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Offers a suggestion",
-      "hint": "Full: offers a suggestion. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Leila, a colleague: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give honest, kind feedback on a talk.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names a strength; Names a fix; Offers a suggestion.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",

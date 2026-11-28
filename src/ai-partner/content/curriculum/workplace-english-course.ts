@@ -556,142 +556,6 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-a2-u2-l1",
-    "title": "Answering the phone",
-    "unit": "Phone and messages",
-    "description": "Handle short calls and messages.",
-    "persona": "adams",
-    "personaRole": "A caller, Mr Hady",
-    "goal": "Answer a call and ask who is calling.",
-    "rubric": [
-     {
-      "label": "Greets",
-      "hint": "Full: greets with the company name and \"How can I help?\" Partial: \"Hello?\" Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks the name",
-      "hint": "Full: asks \"Who is calling, please?\" Partial: asks bluntly \"Name?\" Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Offers help",
-      "hint": "Full: offers help, like \"How can I help you?\" Partial: waits. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as A caller, Mr Hady: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer a call and ask who is calling.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Greets; Asks the name; Offers help.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-a2-u2-l2",
-    "title": "Leaving a message",
-    "unit": "Phone and messages",
-    "description": "Handle short calls and messages.",
-    "persona": "sara",
-    "personaRole": "Mona, a colleague",
-    "goal": "Leave a short message with a number.",
-    "rubric": [
-     {
-      "label": "States the name",
-      "hint": "Full: states the name of the person to reach. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives the message",
-      "hint": "Full: gives the message in one clear sentence. Partial: rambles. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives the number",
-      "hint": "Full: gives a call-back number in groups. Partial: one string. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mona, a colleague: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Leave a short message with a number.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the name; Gives the message; Gives the number.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-a2-u2-l3",
-    "title": "Writing a quick email aloud",
-    "unit": "Phone and messages",
-    "description": "Handle short calls and messages.",
-    "persona": "sara",
-    "personaRole": "Ahmed, a colleague",
-    "goal": "Say what an email should say.",
-    "rubric": [
-     {
-      "label": "States the purpose",
-      "hint": "Full: says why they write or call in the first sentence. Partial: gives it late. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives the detail",
-      "hint": "Full: gives the key detail, such as date, amount or place. Partial: general. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Closes politely",
-      "hint": "Full: closes with \"Thank you, best regards\" or \"Thanks for your time.\" Partial: stops abruptly. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ahmed, a colleague: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say what an email should say.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the purpose; Gives the detail; Closes politely.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-a2-u2-l4",
-    "title": "Making an appointment",
-    "unit": "Phone and messages",
-    "description": "Handle short calls and messages.",
-    "persona": "sara",
-    "personaRole": "Ms Rania, a client",
-    "goal": "Agree a time to meet.",
-    "rubric": [
-     {
-      "label": "Suggests a time",
-      "hint": "Full: suggests a time, like \"How about Thursday at ten?\" Partial: no time. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Handles a clash",
-      "hint": "Full: offers a different time when the first does not work. Partial: gives up. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Confirms",
-      "hint": "Full: closes the loop with \"So that's... is that right?\" Partial: says \"OK\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ms Rania, a client: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Agree a time to meet.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Suggests a time; Handles a clash; Confirms.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
     "id": "workplace-course-a2-u3-l1",
     "title": "Introducing yourself in a meeting",
     "unit": "Meetings",
@@ -956,6 +820,142 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
      "Let the learner work toward this goal: Thank someone for specific help.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says thank you; Says what they did; Says the result.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-a2-u2-l1",
+    "title": "Answering the phone",
+    "unit": "Phone and messages",
+    "description": "Handle short calls and messages.",
+    "persona": "adams",
+    "personaRole": "A caller, Mr Hady",
+    "goal": "Answer a call and ask who is calling.",
+    "rubric": [
+     {
+      "label": "Greets",
+      "hint": "Full: greets with the company name and \"How can I help?\" Partial: \"Hello?\" Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks the name",
+      "hint": "Full: asks \"Who is calling, please?\" Partial: asks bluntly \"Name?\" Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Offers help",
+      "hint": "Full: offers help, like \"How can I help you?\" Partial: waits. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as A caller, Mr Hady: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Answer a call and ask who is calling.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Greets; Asks the name; Offers help.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-a2-u2-l2",
+    "title": "Leaving a message",
+    "unit": "Phone and messages",
+    "description": "Handle short calls and messages.",
+    "persona": "sara",
+    "personaRole": "Mona, a colleague",
+    "goal": "Leave a short message with a number.",
+    "rubric": [
+     {
+      "label": "States the name",
+      "hint": "Full: states the name of the person to reach. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives the message",
+      "hint": "Full: gives the message in one clear sentence. Partial: rambles. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives the number",
+      "hint": "Full: gives a call-back number in groups. Partial: one string. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mona, a colleague: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Leave a short message with a number.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the name; Gives the message; Gives the number.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-a2-u2-l3",
+    "title": "Writing a quick email aloud",
+    "unit": "Phone and messages",
+    "description": "Handle short calls and messages.",
+    "persona": "sara",
+    "personaRole": "Ahmed, a colleague",
+    "goal": "Say what an email should say.",
+    "rubric": [
+     {
+      "label": "States the purpose",
+      "hint": "Full: says why they write or call in the first sentence. Partial: gives it late. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives the detail",
+      "hint": "Full: gives the key detail, such as date, amount or place. Partial: general. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Closes politely",
+      "hint": "Full: closes with \"Thank you, best regards\" or \"Thanks for your time.\" Partial: stops abruptly. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ahmed, a colleague: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say what an email should say.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the purpose; Gives the detail; Closes politely.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-a2-u2-l4",
+    "title": "Making an appointment",
+    "unit": "Phone and messages",
+    "description": "Handle short calls and messages.",
+    "persona": "sara",
+    "personaRole": "Ms Rania, a client",
+    "goal": "Agree a time to meet.",
+    "rubric": [
+     {
+      "label": "Suggests a time",
+      "hint": "Full: suggests a time, like \"How about Thursday at ten?\" Partial: no time. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Handles a clash",
+      "hint": "Full: offers a different time when the first does not work. Partial: gives up. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Confirms",
+      "hint": "Full: closes the loop with \"So that's... is that right?\" Partial: says \"OK\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Rania, a client: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Agree a time to meet.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Suggests a time; Handles a clash; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
@@ -1238,6 +1238,142 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "workplace-course-b1-u5-l1",
+    "title": "Opening a presentation",
+    "unit": "Short presentations",
+    "description": "Give a clear update to a small group.",
+    "persona": "sara",
+    "personaRole": "Ms Rania, an audience",
+    "goal": "Greet and say what you will cover.",
+    "rubric": [
+     {
+      "label": "Greets",
+      "hint": "Full: greets with the company name and \"How can I help?\" Partial: \"Hello?\" Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Names the topic",
+      "hint": "Full: names the topic in the opening. Partial: unclear. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives the plan",
+      "hint": "Full: says what will be covered in order. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Rania, an audience: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Greet and say what you will cover.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Greets; Names the topic; Gives the plan.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-b1-u5-l2",
+    "title": "Explaining a process",
+    "unit": "Short presentations",
+    "description": "Give a clear update to a small group.",
+    "persona": "sara",
+    "personaRole": "Mr Hady, a listener",
+    "goal": "Explain how something works in order.",
+    "rubric": [
+     {
+      "label": "Uses order words",
+      "hint": "Full: uses first, then, finally. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Keeps it clear",
+      "hint": "Full: keeps each step short. Partial: tangled. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Checks understanding",
+      "hint": "Full: asks the person to repeat or confirm the task. Partial: assumes. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hady, a listener: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain how something works in order.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Uses order words; Keeps it clear; Checks understanding.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-b1-u5-l3",
+    "title": "Presenting numbers",
+    "unit": "Short presentations",
+    "description": "Give a clear update to a small group.",
+    "persona": "adams",
+    "personaRole": "Mr Samy, a manager",
+    "goal": "Report numbers and what they mean.",
+    "rubric": [
+     {
+      "label": "States the numbers",
+      "hint": "Full: states the key numbers. Partial: some. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Compares",
+      "hint": "Full: compares to last month or the target. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives the meaning",
+      "hint": "Full: says what the numbers mean. Partial: only numbers. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Samy, a manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Report numbers and what they mean.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the numbers; Compares; Gives the meaning.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-b1-u5-l4",
+    "title": "Handling questions",
+    "unit": "Short presentations",
+    "description": "Give a clear update to a small group.",
+    "persona": "adams",
+    "personaRole": "Mr Hady, a curious colleague",
+    "goal": "Answer and admit when you do not know.",
+    "rubric": [
+     {
+      "label": "Answers clearly",
+      "hint": "Full: answers the question directly. Partial: avoids. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Admits limits",
+      "hint": "Full: says \"I don't know yet, I'll check.\" Partial: guesses. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Offers to follow up",
+      "hint": "Full: offers to follow up with a time. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hady, a curious colleague: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Answer and admit when you do not know.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Answers clearly; Admits limits; Offers to follow up.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "workplace-course-b1-u3-l1",
     "title": "Weekly check-in",
     "unit": "Working with your manager",
@@ -1508,142 +1644,6 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
-   },
-   {
-    "id": "workplace-course-b1-u5-l1",
-    "title": "Opening a presentation",
-    "unit": "Short presentations",
-    "description": "Give a clear update to a small group.",
-    "persona": "sara",
-    "personaRole": "Ms Rania, an audience",
-    "goal": "Greet and say what you will cover.",
-    "rubric": [
-     {
-      "label": "Greets",
-      "hint": "Full: greets with the company name and \"How can I help?\" Partial: \"Hello?\" Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Names the topic",
-      "hint": "Full: names the topic in the opening. Partial: unclear. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives the plan",
-      "hint": "Full: says what will be covered in order. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ms Rania, an audience: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Greet and say what you will cover.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Greets; Names the topic; Gives the plan.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-b1-u5-l2",
-    "title": "Explaining a process",
-    "unit": "Short presentations",
-    "description": "Give a clear update to a small group.",
-    "persona": "sara",
-    "personaRole": "Mr Hady, a listener",
-    "goal": "Explain how something works in order.",
-    "rubric": [
-     {
-      "label": "Uses order words",
-      "hint": "Full: uses first, then, finally. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Keeps it clear",
-      "hint": "Full: keeps each step short. Partial: tangled. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Checks understanding",
-      "hint": "Full: asks the person to repeat or confirm the task. Partial: assumes. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hady, a listener: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how something works in order.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Uses order words; Keeps it clear; Checks understanding.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-b1-u5-l3",
-    "title": "Presenting numbers",
-    "unit": "Short presentations",
-    "description": "Give a clear update to a small group.",
-    "persona": "adams",
-    "personaRole": "Mr Samy, a manager",
-    "goal": "Report numbers and what they mean.",
-    "rubric": [
-     {
-      "label": "States the numbers",
-      "hint": "Full: states the key numbers. Partial: some. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Compares",
-      "hint": "Full: compares to last month or the target. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives the meaning",
-      "hint": "Full: says what the numbers mean. Partial: only numbers. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Samy, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report numbers and what they mean.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the numbers; Compares; Gives the meaning.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-b1-u5-l4",
-    "title": "Handling questions",
-    "unit": "Short presentations",
-    "description": "Give a clear update to a small group.",
-    "persona": "adams",
-    "personaRole": "Mr Hady, a curious colleague",
-    "goal": "Answer and admit when you do not know.",
-    "rubric": [
-     {
-      "label": "Answers clearly",
-      "hint": "Full: answers the question directly. Partial: avoids. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Admits limits",
-      "hint": "Full: says \"I don't know yet, I'll check.\" Partial: guesses. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Offers to follow up",
-      "hint": "Full: offers to follow up with a time. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hady, a curious colleague: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer and admit when you do not know.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Answers clearly; Admits limits; Offers to follow up.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
    }
   ],
   "B2": [
@@ -1784,32 +1784,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u2-l1",
-    "title": "Negotiating a deadline",
-    "unit": "Negotiating",
-    "description": "Negotiate scope, price and deadlines.",
-    "persona": "adams",
-    "personaRole": "Mr Hady, a client",
-    "goal": "Agree a realistic deadline.",
+    "id": "workplace-course-b2-u4-l1",
+    "title": "Presenting a plan",
+    "unit": "Presenting and persuading",
+    "description": "Explain a plan and win support.",
+    "persona": "sara",
+    "personaRole": "Ms Rania, a director",
+    "goal": "Present a plan with reasons and timing.",
     "rubric": [
      {
-      "label": "Explains constraints",
-      "hint": "Full: explains limits such as time and people. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "States the goal",
+      "hint": "Full: states the goal of the plan. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers options",
-      "hint": "Full: offers two real options. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives the steps",
+      "hint": "Full: gives the steps in order. Partial: some. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Agrees terms",
-      "hint": "Full: states the agreed terms. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives the timing",
+      "hint": "Full: gives timing for each step. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Hady, a client: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Agree a realistic deadline.",
+     "Open the scene in character as Ms Rania, a director: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Present a plan with reasons and timing.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Explains constraints; Offers options; Agrees terms.",
+     "Move through the rubric points naturally: States the goal; Gives the steps; Gives the timing.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -1818,32 +1818,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u2-l2",
-    "title": "Negotiating scope",
-    "unit": "Negotiating",
-    "description": "Negotiate scope, price and deadlines.",
+    "id": "workplace-course-b2-u4-l2",
+    "title": "Pitching an idea",
+    "unit": "Presenting and persuading",
+    "description": "Explain a plan and win support.",
     "persona": "adams",
-    "personaRole": "Mr Hady, a client",
-    "goal": "Reduce a request without losing the relationship.",
+    "personaRole": "Mr Hady, a sceptical manager",
+    "goal": "Pitch an idea and answer doubts.",
     "rubric": [
      {
-      "label": "Clarifies the aim",
-      "hint": "Full: asks what the client really needs. Partial: assumes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Opens strongly",
+      "hint": "Full: opens with the idea and why it matters. Partial: background first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers a smaller version",
-      "hint": "Full: offers a smaller scope that still helps. Partial: refuses. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Handles doubts",
+      "hint": "Full: answers doubts with reasons. Partial: dodges. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Confirms",
-      "hint": "Full: closes the loop with \"So that's... is that right?\" Partial: says \"OK\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks for a decision",
+      "hint": "Full: asks for a decision, like \"Can we approve this today?\" Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Hady, a client: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Reduce a request without losing the relationship.",
+     "Open the scene in character as Mr Hady, a sceptical manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Pitch an idea and answer doubts.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Clarifies the aim; Offers a smaller version; Confirms.",
+     "Move through the rubric points naturally: Opens strongly; Handles doubts; Asks for a decision.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -1852,32 +1852,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u2-l3",
-    "title": "Negotiating a rate",
-    "unit": "Negotiating",
-    "description": "Negotiate scope, price and deadlines.",
+    "id": "workplace-course-b2-u4-l3",
+    "title": "Explaining a risk",
+    "unit": "Presenting and persuading",
+    "description": "Explain a plan and win support.",
     "persona": "adams",
-    "personaRole": "Ms Dalia, a supplier",
-    "goal": "Negotiate a better rate with a reason.",
+    "personaRole": "Ms Dalia, a director",
+    "goal": "Explain a risk and your response.",
     "rubric": [
      {
-      "label": "Opens firmly",
-      "hint": "Full: opens with a clear, firm position. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Names the risk",
+      "hint": "Full: names the risk. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives a reason",
-      "hint": "Full: gives a short, believable reason. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives likelihood",
+      "hint": "Full: says how likely, like \"low\" or \"about one in five\". Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Closes the deal",
-      "hint": "Full: closes with a clear summary and agreement. Partial: fades. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives a response",
+      "hint": "Full: gives a response plan. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Dalia, a supplier: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Negotiate a better rate with a reason.",
+     "Open the scene in character as Ms Dalia, a director: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a risk and your response.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Opens firmly; Gives a reason; Closes the deal.",
+     "Move through the rubric points naturally: Names the risk; Gives likelihood; Gives a response.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -1886,32 +1886,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u2-l4",
-    "title": "Handling a hard no",
-    "unit": "Negotiating",
-    "description": "Negotiate scope, price and deadlines.",
+    "id": "workplace-course-b2-u4-l4",
+    "title": "Reporting to leadership",
+    "unit": "Presenting and persuading",
+    "description": "Explain a plan and win support.",
     "persona": "adams",
-    "personaRole": "Ms Dalia, a supplier",
-    "goal": "Respond when the other side refuses.",
+    "personaRole": "Ms Dalia, a director",
+    "goal": "Give a concise status for senior people.",
     "rubric": [
      {
-      "label": "Stays calm",
-      "hint": "Full: stays calm and steady. Partial: rises or rushes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Leads with the point",
+      "hint": "Full: starts with the main point. Partial: starts with background. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Probes the reason",
-      "hint": "Full: asks why they refuse. Partial: accepts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives evidence",
+      "hint": "Full: gives evidence for the risk. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Finds a middle",
-      "hint": "Full: proposes a middle ground. Partial: sticks to the first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks for support",
+      "hint": "Full: asks for specific support. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Dalia, a supplier: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Respond when the other side refuses.",
+     "Open the scene in character as Ms Dalia, a director: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give a concise status for senior people.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Stays calm; Probes the reason; Finds a middle.",
+     "Move through the rubric points naturally: Leads with the point; Gives evidence; Asks for support.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2056,32 +2056,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u4-l1",
-    "title": "Presenting a plan",
-    "unit": "Presenting and persuading",
-    "description": "Explain a plan and win support.",
-    "persona": "sara",
-    "personaRole": "Ms Rania, a director",
-    "goal": "Present a plan with reasons and timing.",
+    "id": "workplace-course-b2-u2-l1",
+    "title": "Negotiating a deadline",
+    "unit": "Negotiating",
+    "description": "Negotiate scope, price and deadlines.",
+    "persona": "adams",
+    "personaRole": "Mr Hady, a client",
+    "goal": "Agree a realistic deadline.",
     "rubric": [
      {
-      "label": "States the goal",
-      "hint": "Full: states the goal of the plan. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Explains constraints",
+      "hint": "Full: explains limits such as time and people. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives the steps",
-      "hint": "Full: gives the steps in order. Partial: some. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers options",
+      "hint": "Full: offers two real options. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives the timing",
-      "hint": "Full: gives timing for each step. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Agrees terms",
+      "hint": "Full: states the agreed terms. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Rania, a director: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Present a plan with reasons and timing.",
+     "Open the scene in character as Mr Hady, a client: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Agree a realistic deadline.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the goal; Gives the steps; Gives the timing.",
+     "Move through the rubric points naturally: Explains constraints; Offers options; Agrees terms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2090,32 +2090,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u4-l2",
-    "title": "Pitching an idea",
-    "unit": "Presenting and persuading",
-    "description": "Explain a plan and win support.",
+    "id": "workplace-course-b2-u2-l2",
+    "title": "Negotiating scope",
+    "unit": "Negotiating",
+    "description": "Negotiate scope, price and deadlines.",
     "persona": "adams",
-    "personaRole": "Mr Hady, a sceptical manager",
-    "goal": "Pitch an idea and answer doubts.",
+    "personaRole": "Mr Hady, a client",
+    "goal": "Reduce a request without losing the relationship.",
     "rubric": [
      {
-      "label": "Opens strongly",
-      "hint": "Full: opens with the idea and why it matters. Partial: background first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Clarifies the aim",
+      "hint": "Full: asks what the client really needs. Partial: assumes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Handles doubts",
-      "hint": "Full: answers doubts with reasons. Partial: dodges. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers a smaller version",
+      "hint": "Full: offers a smaller scope that still helps. Partial: refuses. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks for a decision",
-      "hint": "Full: asks for a decision, like \"Can we approve this today?\" Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Confirms",
+      "hint": "Full: closes the loop with \"So that's... is that right?\" Partial: says \"OK\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Hady, a sceptical manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Pitch an idea and answer doubts.",
+     "Open the scene in character as Mr Hady, a client: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Reduce a request without losing the relationship.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Opens strongly; Handles doubts; Asks for a decision.",
+     "Move through the rubric points naturally: Clarifies the aim; Offers a smaller version; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2124,32 +2124,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u4-l3",
-    "title": "Explaining a risk",
-    "unit": "Presenting and persuading",
-    "description": "Explain a plan and win support.",
+    "id": "workplace-course-b2-u2-l3",
+    "title": "Negotiating a rate",
+    "unit": "Negotiating",
+    "description": "Negotiate scope, price and deadlines.",
     "persona": "adams",
-    "personaRole": "Ms Dalia, a director",
-    "goal": "Explain a risk and your response.",
+    "personaRole": "Ms Dalia, a supplier",
+    "goal": "Negotiate a better rate with a reason.",
     "rubric": [
      {
-      "label": "Names the risk",
-      "hint": "Full: names the risk. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Opens firmly",
+      "hint": "Full: opens with a clear, firm position. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives likelihood",
-      "hint": "Full: says how likely, like \"low\" or \"about one in five\". Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives a reason",
+      "hint": "Full: gives a short, believable reason. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives a response",
-      "hint": "Full: gives a response plan. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Closes the deal",
+      "hint": "Full: closes with a clear summary and agreement. Partial: fades. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Dalia, a director: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a risk and your response.",
+     "Open the scene in character as Ms Dalia, a supplier: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Negotiate a better rate with a reason.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names the risk; Gives likelihood; Gives a response.",
+     "Move through the rubric points naturally: Opens firmly; Gives a reason; Closes the deal.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2158,32 +2158,32 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "workplace-course-b2-u4-l4",
-    "title": "Reporting to leadership",
-    "unit": "Presenting and persuading",
-    "description": "Explain a plan and win support.",
+    "id": "workplace-course-b2-u2-l4",
+    "title": "Handling a hard no",
+    "unit": "Negotiating",
+    "description": "Negotiate scope, price and deadlines.",
     "persona": "adams",
-    "personaRole": "Ms Dalia, a director",
-    "goal": "Give a concise status for senior people.",
+    "personaRole": "Ms Dalia, a supplier",
+    "goal": "Respond when the other side refuses.",
     "rubric": [
      {
-      "label": "Leads with the point",
-      "hint": "Full: starts with the main point. Partial: starts with background. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Stays calm",
+      "hint": "Full: stays calm and steady. Partial: rises or rushes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives evidence",
-      "hint": "Full: gives evidence for the risk. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Probes the reason",
+      "hint": "Full: asks why they refuse. Partial: accepts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks for support",
-      "hint": "Full: asks for specific support. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Finds a middle",
+      "hint": "Full: proposes a middle ground. Partial: sticks to the first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Dalia, a director: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a concise status for senior people.",
+     "Open the scene in character as Ms Dalia, a supplier: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Respond when the other side refuses.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Leads with the point; Gives evidence; Asks for support.",
+     "Move through the rubric points naturally: Stays calm; Probes the reason; Finds a middle.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2322,6 +2322,142 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
      "Let the learner work toward this goal: Persuade your manager of a different approach.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the case; Handles pushback; Agrees steps.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-c1-u4-l1",
+    "title": "Presenting to executives",
+    "unit": "Executive presence",
+    "description": "Speak with authority and handle pressure.",
+    "persona": "adams",
+    "personaRole": "Ms Dalia, an executive panel",
+    "goal": "Present a concise case with a clear ask.",
+    "rubric": [
+     {
+      "label": "Leads with the ask",
+      "hint": "Full: starts with the ask. Partial: background. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Supports it",
+      "hint": "Full: supports with evidence. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Closes crisply",
+      "hint": "Full: closes in one clear line. Partial: trails off. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Dalia, an executive panel: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Present a concise case with a clear ask.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Leads with the ask; Supports it; Closes crisply.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-c1-u4-l2",
+    "title": "Handling tough questions",
+    "unit": "Executive presence",
+    "description": "Speak with authority and handle pressure.",
+    "persona": "adams",
+    "personaRole": "Mr Karim, an executive panel member",
+    "goal": "Answer hard questions with composure.",
+    "rubric": [
+     {
+      "label": "Stays composed",
+      "hint": "Full: stays composed. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Answers directly",
+      "hint": "Full: answers directly. Partial: avoids. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Bridges back",
+      "hint": "Full: bridges back to the key message. Partial: drifts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Karim, an executive panel member: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Answer hard questions with composure.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Stays composed; Answers directly; Bridges back.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-c1-u4-l3",
+    "title": "Leading in a crisis",
+    "unit": "Executive presence",
+    "description": "Speak with authority and handle pressure.",
+    "persona": "adams",
+    "personaRole": "Omar, an anxious team member",
+    "goal": "Communicate clearly under pressure.",
+    "rubric": [
+     {
+      "label": "States the facts",
+      "hint": "Full: states the facts. Partial: guesses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Gives direction",
+      "hint": "Full: gives clear direction. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Reassures",
+      "hint": "Full: reassures with facts. Partial: empty comfort. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Omar, an anxious team member: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Communicate clearly under pressure.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the facts; Gives direction; Reassures.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "workplace-course-c1-u4-l4",
+    "title": "Giving a farewell talk",
+    "unit": "Executive presence",
+    "description": "Speak with authority and handle pressure.",
+    "persona": "sara",
+    "personaRole": "Mona, a colleague",
+    "goal": "Close a chapter with warmth and credit.",
+    "rubric": [
+     {
+      "label": "Thanks people",
+      "hint": "Full: thanks people by name for specific things. Partial: general. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Shares a lesson",
+      "hint": "Full: shares one lesson. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Looks ahead",
+      "hint": "Full: looks ahead with hope. Partial: ends in the past. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mona, a colleague: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Close a chapter with warmth and credit.",
+     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Thanks people; Shares a lesson; Looks ahead.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
@@ -2594,142 +2730,6 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
      "Let the learner work toward this goal: Close the deal and confirm the terms.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises terms; Confirms details; Sets next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-c1-u4-l1",
-    "title": "Presenting to executives",
-    "unit": "Executive presence",
-    "description": "Speak with authority and handle pressure.",
-    "persona": "adams",
-    "personaRole": "Ms Dalia, an executive panel",
-    "goal": "Present a concise case with a clear ask.",
-    "rubric": [
-     {
-      "label": "Leads with the ask",
-      "hint": "Full: starts with the ask. Partial: background. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Supports it",
-      "hint": "Full: supports with evidence. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Closes crisply",
-      "hint": "Full: closes in one clear line. Partial: trails off. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ms Dalia, an executive panel: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Present a concise case with a clear ask.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Leads with the ask; Supports it; Closes crisply.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-c1-u4-l2",
-    "title": "Handling tough questions",
-    "unit": "Executive presence",
-    "description": "Speak with authority and handle pressure.",
-    "persona": "adams",
-    "personaRole": "Mr Karim, an executive panel member",
-    "goal": "Answer hard questions with composure.",
-    "rubric": [
-     {
-      "label": "Stays composed",
-      "hint": "Full: stays composed. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Answers directly",
-      "hint": "Full: answers directly. Partial: avoids. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Bridges back",
-      "hint": "Full: bridges back to the key message. Partial: drifts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Karim, an executive panel member: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer hard questions with composure.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Stays composed; Answers directly; Bridges back.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-c1-u4-l3",
-    "title": "Leading in a crisis",
-    "unit": "Executive presence",
-    "description": "Speak with authority and handle pressure.",
-    "persona": "adams",
-    "personaRole": "Omar, an anxious team member",
-    "goal": "Communicate clearly under pressure.",
-    "rubric": [
-     {
-      "label": "States the facts",
-      "hint": "Full: states the facts. Partial: guesses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Gives direction",
-      "hint": "Full: gives clear direction. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Reassures",
-      "hint": "Full: reassures with facts. Partial: empty comfort. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Omar, an anxious team member: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Communicate clearly under pressure.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the facts; Gives direction; Reassures.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "workplace-course-c1-u4-l4",
-    "title": "Giving a farewell talk",
-    "unit": "Executive presence",
-    "description": "Speak with authority and handle pressure.",
-    "persona": "sara",
-    "personaRole": "Mona, a colleague",
-    "goal": "Close a chapter with warmth and credit.",
-    "rubric": [
-     {
-      "label": "Thanks people",
-      "hint": "Full: thanks people by name for specific things. Partial: general. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Shares a lesson",
-      "hint": "Full: shares one lesson. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Looks ahead",
-      "hint": "Full: looks ahead with hope. Partial: ends in the past. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mona, a colleague: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close a chapter with warmth and credit.",
-     "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Thanks people; Shares a lesson; Looks ahead.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",

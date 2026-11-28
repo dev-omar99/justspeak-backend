@@ -146,32 +146,32 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-a1-u2-l1",
-    "title": "Can you spell that?",
-    "unit": "Names, numbers, spelling",
-    "description": "Take a name, a phone number and a spelled email.",
+    "id": "work-cs-a1-u4-l1",
+    "title": "Answering the phone",
+    "unit": "Simple help on the phone",
+    "description": "Answer a call and say you will help or find someone.",
     "persona": "sara",
-    "personaRole": "Huda, a customer giving her name and spelling it",
-    "goal": "Ask for her name, ask her to spell it, then check it.",
+    "personaRole": "Salma, a customer calling the shop",
+    "goal": "Answer the phone and offer help.",
     "rubric": [
      {
-      "label": "Asks for the spelling",
-      "hint": "Full: asks for a spelling, like \"Can you spell that, please?\" Partial: asks for the name again but not the spelling. Judge meaning only: single words and short phrases are enough."
+      "label": "Greets",
+      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Repeats letters back",
-      "hint": "Full: reads the letters back one by one. Partial: reads only some letters or only the whole word. Judge meaning only: single words and short phrases are enough."
+      "label": "Names the company",
+      "hint": "Full: the company name is said clearly and in full. Partial: shortened or hard to hear. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Says \"Is that right?\"",
-      "hint": "Full: checks the answer with \"Is that right?\" or similar. Partial: moves on without checking. Judge meaning only: single words and short phrases are enough."
+      "label": "Asks how to help",
+      "hint": "Full: asks what the caller needs, like \"How can I help?\" Partial: waits for the caller to start. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
-     "Open the scene in character as Huda, a customer giving her name and spelling it: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for her name, ask her to spell it, then check it.",
+     "Open the scene in character as Salma, a customer calling the shop: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Answer the phone and offer help.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for the spelling; Repeats letters back; Says \"Is that right?\".",
+     "Move through the rubric points naturally: Greets; Names the company; Asks how to help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A1",
@@ -180,66 +180,32 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-a1-u2-l2",
-    "title": "Phone numbers",
-    "unit": "Names, numbers, spelling",
-    "description": "Take a name, a phone number and a spelled email.",
-    "persona": "adams",
-    "personaRole": "Tarek, a customer giving a phone number",
-    "goal": "Take a phone number and read it back.",
-    "rubric": [
-     {
-      "label": "Asks for the number",
-      "hint": "Full: asks politely for the number, like \"What is your number, please?\" Partial: asks without a polite word or unclear. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Reads digits in groups",
-      "hint": "Full: reads the number in small groups with pauses, like \"012, 345, 678\". Partial: reads in one fast string. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Confirms it",
-      "hint": "Full: says the full number back and waits for a yes. Partial: repeats but does not wait for the answer. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Tarek, a customer giving a phone number: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Take a phone number and read it back.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for the number; Reads digits in groups; Confirms it.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a1-u2-l3",
-    "title": "Order and account numbers",
-    "unit": "Names, numbers, spelling",
-    "description": "Take a name, a phone number and a spelled email.",
+    "id": "work-cs-a1-u4-l2",
+    "title": "Please wait a moment",
+    "unit": "Simple help on the phone",
+    "description": "Answer a call and say you will help or find someone.",
     "persona": "sara",
-    "personaRole": "Amira, a customer with an order number",
-    "goal": "Take an order or account number and check it.",
+    "personaRole": "Yara, a customer who needs to wait",
+    "goal": "Ask her to wait a moment and come back politely.",
     "rubric": [
      {
-      "label": "Asks for the number",
-      "hint": "Full: asks politely for the number, like \"What is your number, please?\" Partial: asks without a polite word or unclear. Judge meaning only: single words and short phrases are enough."
+      "label": "Says \"Please wait a moment\"",
+      "hint": "Full: asks the caller to wait before leaving the line. Partial: goes silent without asking. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Repeats it",
-      "hint": "Full: says the whole number back so the customer can check it. Partial: repeats only the last part. Judge meaning only: single words and short phrases are enough."
+      "label": "Comes back with \"Thank you for waiting\"",
+      "hint": "Full: thanks the caller for waiting when returning. Partial: returns with no thanks. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Corrects a mistake politely",
-      "hint": "Full: fixes an error with a soft phrase like \"Sorry, let me check that again.\" Partial: fixes it but with no polite phrase, or ignores it. Judge meaning only: single words and short phrases are enough."
+      "label": "Stays polite",
+      "hint": "Full: polite words and tone throughout, even when saying no. Partial: polite at first but blunt later. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
-     "Open the scene in character as Amira, a customer with an order number: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Take an order or account number and check it.",
+     "Open the scene in character as Yara, a customer who needs to wait: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask her to wait a moment and come back politely.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for the number; Repeats it; Corrects a mistake politely.",
+     "Move through the rubric points naturally: Says \"Please wait a moment\"; Comes back with \"Thank you for waiting\"; Stays polite.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A1",
@@ -248,21 +214,21 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-a1-u2-l4",
-    "title": "Checking what you heard",
-    "unit": "Names, numbers, spelling",
-    "description": "Take a name, a phone number and a spelled email.",
+    "id": "work-cs-a1-u4-l3",
+    "title": "I will transfer you",
+    "unit": "Simple help on the phone",
+    "description": "Answer a call and say you will help or find someone.",
     "persona": "adams",
-    "personaRole": "Bassem, a customer who speaks fast",
-    "goal": "Check what you heard and ask him to repeat.",
+    "personaRole": "Ahmed, a customer who needs another department",
+    "goal": "Say you will transfer him and say why.",
     "rubric": [
      {
-      "label": "Says \"Could you repeat that?\"",
-      "hint": "Full: asks for a repeat politely, such as \"Could you repeat that, please?\" Partial: says \"What?\" or only \"Again.\" Judge meaning only: single words and short phrases are enough."
+      "label": "Says \"I will transfer you\"",
+      "hint": "Full: says clearly that the call will be transferred. Partial: transfers without saying so. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Repeats the key words",
-      "hint": "Full: says back the main details (name, number, item) to check them. Partial: repeats only one detail. Judge meaning only: single words and short phrases are enough."
+      "label": "Says who will help",
+      "hint": "Full: names the person or team who will help next. Partial: says only \"someone\". Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Thanks him",
@@ -270,10 +236,44 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as Bassem, a customer who speaks fast: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Check what you heard and ask him to repeat.",
+     "Open the scene in character as Ahmed, a customer who needs another department: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say you will transfer him and say why.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says \"Could you repeat that?\"; Repeats the key words; Thanks him.",
+     "Move through the rubric points naturally: Says \"I will transfer you\"; Says who will help; Thanks him.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a1-u4-l4",
+    "title": "Opening hours",
+    "unit": "Simple help on the phone",
+    "description": "Answer a call and say you will help or find someone.",
+    "persona": "sara",
+    "personaRole": "Mona, a customer asking opening hours",
+    "goal": "Say the opening days and times.",
+    "rubric": [
+     {
+      "label": "Names the days",
+      "hint": "Full: names the opening days correctly, like \"Monday to Friday.\" Partial: gives some days or unclear. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Says the times",
+      "hint": "Full: says the opening and closing times correctly. Partial: gives only one time. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Checks she understood",
+      "hint": "Full: checks with \"Is that OK?\" or \"Is that clear?\" Partial: does not check. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mona, a customer asking opening hours: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say the opening days and times.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Names the days; Says the times; Checks she understood.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A1",
@@ -418,32 +418,32 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-a1-u4-l1",
-    "title": "Answering the phone",
-    "unit": "Simple help on the phone",
-    "description": "Answer a call and say you will help or find someone.",
+    "id": "work-cs-a1-u2-l1",
+    "title": "Can you spell that?",
+    "unit": "Names, numbers, spelling",
+    "description": "Take a name, a phone number and a spelled email.",
     "persona": "sara",
-    "personaRole": "Salma, a customer calling the shop",
-    "goal": "Answer the phone and offer help.",
+    "personaRole": "Huda, a customer giving her name and spelling it",
+    "goal": "Ask for her name, ask her to spell it, then check it.",
     "rubric": [
      {
-      "label": "Greets",
-      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Judge meaning only: single words and short phrases are enough."
+      "label": "Asks for the spelling",
+      "hint": "Full: asks for a spelling, like \"Can you spell that, please?\" Partial: asks for the name again but not the spelling. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Names the company",
-      "hint": "Full: the company name is said clearly and in full. Partial: shortened or hard to hear. Judge meaning only: single words and short phrases are enough."
+      "label": "Repeats letters back",
+      "hint": "Full: reads the letters back one by one. Partial: reads only some letters or only the whole word. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Asks how to help",
-      "hint": "Full: asks what the caller needs, like \"How can I help?\" Partial: waits for the caller to start. Judge meaning only: single words and short phrases are enough."
+      "label": "Says \"Is that right?\"",
+      "hint": "Full: checks the answer with \"Is that right?\" or similar. Partial: moves on without checking. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
-     "Open the scene in character as Salma, a customer calling the shop: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer the phone and offer help.",
+     "Open the scene in character as Huda, a customer giving her name and spelling it: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for her name, ask her to spell it, then check it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Greets; Names the company; Asks how to help.",
+     "Move through the rubric points naturally: Asks for the spelling; Repeats letters back; Says \"Is that right?\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A1",
@@ -452,55 +452,89 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-a1-u4-l2",
-    "title": "Please wait a moment",
-    "unit": "Simple help on the phone",
-    "description": "Answer a call and say you will help or find someone.",
-    "persona": "sara",
-    "personaRole": "Yara, a customer who needs to wait",
-    "goal": "Ask her to wait a moment and come back politely.",
-    "rubric": [
-     {
-      "label": "Says \"Please wait a moment\"",
-      "hint": "Full: asks the caller to wait before leaving the line. Partial: goes silent without asking. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Comes back with \"Thank you for waiting\"",
-      "hint": "Full: thanks the caller for waiting when returning. Partial: returns with no thanks. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Stays polite",
-      "hint": "Full: polite words and tone throughout, even when saying no. Partial: polite at first but blunt later. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Yara, a customer who needs to wait: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask her to wait a moment and come back politely.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says \"Please wait a moment\"; Comes back with \"Thank you for waiting\"; Stays polite.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a1-u4-l3",
-    "title": "I will transfer you",
-    "unit": "Simple help on the phone",
-    "description": "Answer a call and say you will help or find someone.",
+    "id": "work-cs-a1-u2-l2",
+    "title": "Phone numbers",
+    "unit": "Names, numbers, spelling",
+    "description": "Take a name, a phone number and a spelled email.",
     "persona": "adams",
-    "personaRole": "Ahmed, a customer who needs another department",
-    "goal": "Say you will transfer him and say why.",
+    "personaRole": "Tarek, a customer giving a phone number",
+    "goal": "Take a phone number and read it back.",
     "rubric": [
      {
-      "label": "Says \"I will transfer you\"",
-      "hint": "Full: says clearly that the call will be transferred. Partial: transfers without saying so. Judge meaning only: single words and short phrases are enough."
+      "label": "Asks for the number",
+      "hint": "Full: asks politely for the number, like \"What is your number, please?\" Partial: asks without a polite word or unclear. Judge meaning only: single words and short phrases are enough."
      },
      {
-      "label": "Says who will help",
-      "hint": "Full: names the person or team who will help next. Partial: says only \"someone\". Judge meaning only: single words and short phrases are enough."
+      "label": "Reads digits in groups",
+      "hint": "Full: reads the number in small groups with pauses, like \"012, 345, 678\". Partial: reads in one fast string. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Confirms it",
+      "hint": "Full: says the full number back and waits for a yes. Partial: repeats but does not wait for the answer. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Tarek, a customer giving a phone number: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Take a phone number and read it back.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for the number; Reads digits in groups; Confirms it.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a1-u2-l3",
+    "title": "Order and account numbers",
+    "unit": "Names, numbers, spelling",
+    "description": "Take a name, a phone number and a spelled email.",
+    "persona": "sara",
+    "personaRole": "Amira, a customer with an order number",
+    "goal": "Take an order or account number and check it.",
+    "rubric": [
+     {
+      "label": "Asks for the number",
+      "hint": "Full: asks politely for the number, like \"What is your number, please?\" Partial: asks without a polite word or unclear. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Repeats it",
+      "hint": "Full: says the whole number back so the customer can check it. Partial: repeats only the last part. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Corrects a mistake politely",
+      "hint": "Full: fixes an error with a soft phrase like \"Sorry, let me check that again.\" Partial: fixes it but with no polite phrase, or ignores it. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Amira, a customer with an order number: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Take an order or account number and check it.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for the number; Repeats it; Corrects a mistake politely.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a1-u2-l4",
+    "title": "Checking what you heard",
+    "unit": "Names, numbers, spelling",
+    "description": "Take a name, a phone number and a spelled email.",
+    "persona": "adams",
+    "personaRole": "Bassem, a customer who speaks fast",
+    "goal": "Check what you heard and ask him to repeat.",
+    "rubric": [
+     {
+      "label": "Says \"Could you repeat that?\"",
+      "hint": "Full: asks for a repeat politely, such as \"Could you repeat that, please?\" Partial: says \"What?\" or only \"Again.\" Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Repeats the key words",
+      "hint": "Full: says back the main details (name, number, item) to check them. Partial: repeats only one detail. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Thanks him",
@@ -508,44 +542,10 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as Ahmed, a customer who needs another department: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say you will transfer him and say why.",
+     "Open the scene in character as Bassem, a customer who speaks fast: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Check what you heard and ask him to repeat.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says \"I will transfer you\"; Says who will help; Thanks him.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a1-u4-l4",
-    "title": "Opening hours",
-    "unit": "Simple help on the phone",
-    "description": "Answer a call and say you will help or find someone.",
-    "persona": "sara",
-    "personaRole": "Mona, a customer asking opening hours",
-    "goal": "Say the opening days and times.",
-    "rubric": [
-     {
-      "label": "Names the days",
-      "hint": "Full: names the opening days correctly, like \"Monday to Friday.\" Partial: gives some days or unclear. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Says the times",
-      "hint": "Full: says the opening and closing times correctly. Partial: gives only one time. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Checks she understood",
-      "hint": "Full: checks with \"Is that OK?\" or \"Is that clear?\" Partial: does not check. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mona, a customer asking opening hours: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say the opening days and times.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names the days; Says the times; Checks she understood.",
+     "Move through the rubric points naturally: Says \"Could you repeat that?\"; Repeats the key words; Thanks him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A1",
@@ -828,142 +828,6 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-a2-u2-l1",
-    "title": "Taking an order",
-    "unit": "Taking an order or booking",
-    "description": "Take a simple order or booking and confirm the details.",
-    "persona": "adams",
-    "personaRole": "Tamer, a customer who wants to order two items",
-    "goal": "Take a simple order and confirm it.",
-    "rubric": [
-     {
-      "label": "Asks what and how many",
-      "hint": "Full: asks for the item and the quantity. Partial: asks for only one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Repeats the order",
-      "hint": "Full: reads back the whole order to confirm. Partial: repeats only part. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives the total",
-      "hint": "Full: states the total price clearly. Partial: states it unclearly or leaves it out. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Tamer, a customer who wants to order two items: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Take a simple order and confirm it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks what and how many; Repeats the order; Gives the total.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a2-u2-l2",
-    "title": "Booking a date and time",
-    "unit": "Taking an order or booking",
-    "description": "Take a simple order or booking and confirm the details.",
-    "persona": "sara",
-    "personaRole": "Hana, a customer booking an appointment",
-    "goal": "Book a date and a time.",
-    "rubric": [
-     {
-      "label": "Asks for day and time",
-      "hint": "Full: asks for both the day and the time. Partial: asks for only one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Checks they are free",
-      "hint": "Full: checks that the slot is free before agreeing. Partial: agrees without checking. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Confirms the booking",
-      "hint": "Full: says the booking is made, with day and time. Partial: says \"OK\" only. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hana, a customer booking an appointment: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Book a date and a time.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for day and time; Checks they are free; Confirms the booking.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a2-u2-l3",
-    "title": "Changing a booking",
-    "unit": "Taking an order or booking",
-    "description": "Take a simple order or booking and confirm the details.",
-    "persona": "adams",
-    "personaRole": "Ziad, a customer who wants to change his booking",
-    "goal": "Change a booking and confirm the new time.",
-    "rubric": [
-     {
-      "label": "Finds the booking",
-      "hint": "Full: asks for the details needed and finds the right booking. Partial: asks for one detail only or guesses. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks for the new time",
-      "hint": "Full: asks what new day or time the customer wants. Partial: offers a time without asking. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Confirms the change",
-      "hint": "Full: says the old and new time to confirm the change. Partial: says only \"Done.\" Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ziad, a customer who wants to change his booking: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Change a booking and confirm the new time.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Finds the booking; Asks for the new time; Confirms the change.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a2-u2-l4",
-    "title": "Confirming the details",
-    "unit": "Taking an order or booking",
-    "description": "Take a simple order or booking and confirm the details.",
-    "persona": "sara",
-    "personaRole": "Maha, a customer who is unsure of the details",
-    "goal": "Confirm all the details at the end.",
-    "rubric": [
-     {
-      "label": "Repeats name, date and place",
-      "hint": "Full: repeats all three details. Partial: repeats one or two. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks \"Is that correct?\"",
-      "hint": "Full: asks the customer to confirm the details. Partial: does not ask. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Thanks her",
-      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Maha, a customer who is unsure of the details: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Confirm all the details at the end.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Repeats name, date and place; Asks \"Is that correct?\"; Thanks her.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
     "id": "work-cs-a2-u3-l1",
     "title": "I am sorry about that",
     "unit": "Small problems",
@@ -1100,142 +964,6 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-a2-u4-l1",
-    "title": "A short thank-you message",
-    "unit": "Messages and emails",
-    "description": "Write and say a short polite message to a customer.",
-    "persona": "sara",
-    "personaRole": "Eman, a customer who sends a short thank-you message",
-    "goal": "Write and say a short thank-you reply.",
-    "rubric": [
-     {
-      "label": "Greets",
-      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Thanks",
-      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Closes politely",
-      "hint": "Full: ends the call with thanks and goodbye. Partial: ends abruptly. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Eman, a customer who sends a short thank-you message: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Write and say a short thank-you reply.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Greets; Thanks; Closes politely.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a2-u4-l2",
-    "title": "Answering a simple email",
-    "unit": "Messages and emails",
-    "description": "Write and say a short polite message to a customer.",
-    "persona": "adams",
-    "personaRole": "Amr, a customer who sends a simple email question",
-    "goal": "Say the answer you would write to a simple email.",
-    "rubric": [
-     {
-      "label": "Greets",
-      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Answers in one or two sentences",
-      "hint": "Full: answers in one or two clear sentences. Partial: answers in fragments or rambles. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Closes politely",
-      "hint": "Full: ends the call with thanks and goodbye. Partial: ends abruptly. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Amr, a customer who sends a simple email question: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say the answer you would write to a simple email.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Greets; Answers in one or two sentences; Closes politely.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a2-u4-l3",
-    "title": "Chat support greeting",
-    "unit": "Messages and emails",
-    "description": "Write and say a short polite message to a customer.",
-    "persona": "sara",
-    "personaRole": "Jana, a customer on a chat window",
-    "goal": "Start a chat with a greeting and a question.",
-    "rubric": [
-     {
-      "label": "Greets with name",
-      "hint": "Full: greets and gives their own name, like \"Hi, I'm Sam.\" Partial: greets without a name. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks how to help",
-      "hint": "Full: asks what the caller needs, like \"How can I help?\" Partial: waits for the caller to start. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Keeps sentences short",
-      "hint": "Full: sentences stay short and easy to read. Partial: a mix, with some long sentences. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Jana, a customer on a chat window: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Start a chat with a greeting and a question.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Greets with name; Asks how to help; Keeps sentences short.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-a2-u4-l4",
-    "title": "Saying we will call back",
-    "unit": "Messages and emails",
-    "description": "Write and say a short polite message to a customer.",
-    "persona": "adams",
-    "personaRole": "Walid, a customer who needs a call back",
-    "goal": "Say you will call back and say when.",
-    "rubric": [
-     {
-      "label": "Says \"I will call you back\"",
-      "hint": "Full: promises a call back and gives a time. Partial: promises with no time. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives a time",
-      "hint": "Full: gives a clear time or time range. Partial: vague time word. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks for the number",
-      "hint": "Full: asks politely for the number, like \"What is your number, please?\" Partial: asks without a polite word or unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Walid, a customer who needs a call back: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say you will call back and say when.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says \"I will call you back\"; Gives a time; Asks for the number.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
     "id": "work-cs-a2-u5-l1",
     "title": "Checking who you are",
     "unit": "Checking and billing basics",
@@ -1368,6 +1096,278 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     ],
     "level": "A2",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u2-l1",
+    "title": "Taking an order",
+    "unit": "Taking an order or booking",
+    "description": "Take a simple order or booking and confirm the details.",
+    "persona": "adams",
+    "personaRole": "Tamer, a customer who wants to order two items",
+    "goal": "Take a simple order and confirm it.",
+    "rubric": [
+     {
+      "label": "Asks what and how many",
+      "hint": "Full: asks for the item and the quantity. Partial: asks for only one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Repeats the order",
+      "hint": "Full: reads back the whole order to confirm. Partial: repeats only part. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives the total",
+      "hint": "Full: states the total price clearly. Partial: states it unclearly or leaves it out. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Tamer, a customer who wants to order two items: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Take a simple order and confirm it.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks what and how many; Repeats the order; Gives the total.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u2-l2",
+    "title": "Booking a date and time",
+    "unit": "Taking an order or booking",
+    "description": "Take a simple order or booking and confirm the details.",
+    "persona": "sara",
+    "personaRole": "Hana, a customer booking an appointment",
+    "goal": "Book a date and a time.",
+    "rubric": [
+     {
+      "label": "Asks for day and time",
+      "hint": "Full: asks for both the day and the time. Partial: asks for only one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Checks they are free",
+      "hint": "Full: checks that the slot is free before agreeing. Partial: agrees without checking. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Confirms the booking",
+      "hint": "Full: says the booking is made, with day and time. Partial: says \"OK\" only. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Hana, a customer booking an appointment: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Book a date and a time.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for day and time; Checks they are free; Confirms the booking.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u2-l3",
+    "title": "Changing a booking",
+    "unit": "Taking an order or booking",
+    "description": "Take a simple order or booking and confirm the details.",
+    "persona": "adams",
+    "personaRole": "Ziad, a customer who wants to change his booking",
+    "goal": "Change a booking and confirm the new time.",
+    "rubric": [
+     {
+      "label": "Finds the booking",
+      "hint": "Full: asks for the details needed and finds the right booking. Partial: asks for one detail only or guesses. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks for the new time",
+      "hint": "Full: asks what new day or time the customer wants. Partial: offers a time without asking. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Confirms the change",
+      "hint": "Full: says the old and new time to confirm the change. Partial: says only \"Done.\" Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ziad, a customer who wants to change his booking: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Change a booking and confirm the new time.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Finds the booking; Asks for the new time; Confirms the change.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u2-l4",
+    "title": "Confirming the details",
+    "unit": "Taking an order or booking",
+    "description": "Take a simple order or booking and confirm the details.",
+    "persona": "sara",
+    "personaRole": "Maha, a customer who is unsure of the details",
+    "goal": "Confirm all the details at the end.",
+    "rubric": [
+     {
+      "label": "Repeats name, date and place",
+      "hint": "Full: repeats all three details. Partial: repeats one or two. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks \"Is that correct?\"",
+      "hint": "Full: asks the customer to confirm the details. Partial: does not ask. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Thanks her",
+      "hint": "Full: thanks the customer by name or politely at the end. Partial: forgets to thank. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Maha, a customer who is unsure of the details: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Confirm all the details at the end.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Repeats name, date and place; Asks \"Is that correct?\"; Thanks her.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u4-l1",
+    "title": "A short thank-you message",
+    "unit": "Messages and emails",
+    "description": "Write and say a short polite message to a customer.",
+    "persona": "sara",
+    "personaRole": "Eman, a customer who sends a short thank-you message",
+    "goal": "Write and say a short thank-you reply.",
+    "rubric": [
+     {
+      "label": "Greets",
+      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Thanks",
+      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Closes politely",
+      "hint": "Full: ends the call with thanks and goodbye. Partial: ends abruptly. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Eman, a customer who sends a short thank-you message: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Write and say a short thank-you reply.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Greets; Thanks; Closes politely.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u4-l2",
+    "title": "Answering a simple email",
+    "unit": "Messages and emails",
+    "description": "Write and say a short polite message to a customer.",
+    "persona": "adams",
+    "personaRole": "Amr, a customer who sends a simple email question",
+    "goal": "Say the answer you would write to a simple email.",
+    "rubric": [
+     {
+      "label": "Greets",
+      "hint": "Full: opens with a greeting like \"Hello\" or \"Good morning.\" Partial: starts with a question and no greeting. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Answers in one or two sentences",
+      "hint": "Full: answers in one or two clear sentences. Partial: answers in fragments or rambles. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Closes politely",
+      "hint": "Full: ends the call with thanks and goodbye. Partial: ends abruptly. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Amr, a customer who sends a simple email question: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say the answer you would write to a simple email.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Greets; Answers in one or two sentences; Closes politely.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u4-l3",
+    "title": "Chat support greeting",
+    "unit": "Messages and emails",
+    "description": "Write and say a short polite message to a customer.",
+    "persona": "sara",
+    "personaRole": "Jana, a customer on a chat window",
+    "goal": "Start a chat with a greeting and a question.",
+    "rubric": [
+     {
+      "label": "Greets with name",
+      "hint": "Full: greets and gives their own name, like \"Hi, I'm Sam.\" Partial: greets without a name. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks how to help",
+      "hint": "Full: asks what the caller needs, like \"How can I help?\" Partial: waits for the caller to start. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Keeps sentences short",
+      "hint": "Full: sentences stay short and easy to read. Partial: a mix, with some long sentences. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Jana, a customer on a chat window: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Start a chat with a greeting and a question.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Greets with name; Asks how to help; Keeps sentences short.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-a2-u4-l4",
+    "title": "Saying we will call back",
+    "unit": "Messages and emails",
+    "description": "Write and say a short polite message to a customer.",
+    "persona": "adams",
+    "personaRole": "Walid, a customer who needs a call back",
+    "goal": "Say you will call back and say when.",
+    "rubric": [
+     {
+      "label": "Says \"I will call you back\"",
+      "hint": "Full: promises a call back and gives a time. Partial: promises with no time. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives a time",
+      "hint": "Full: gives a clear time or time range. Partial: vague time word. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks for the number",
+      "hint": "Full: asks politely for the number, like \"What is your number, please?\" Partial: asks without a polite word or unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Walid, a customer who needs a call back: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say you will call back and say when.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says \"I will call you back\"; Gives a time; Asks for the number.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -1646,32 +1646,202 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b1-u2-l1",
-    "title": "Listening to a complaint",
-    "unit": "Complaints and apologies",
-    "description": "Handle a complaint politely and offer a solution.",
+    "id": "work-cs-b1-u4-l1",
+    "title": "Summing up the call",
+    "unit": "Calls, chat and follow-up",
+    "description": "Close a call or chat well and follow up in writing.",
+    "persona": "adams",
+    "personaRole": "Hassan, a customer at the end of a call, issue now solved",
+    "goal": "Summarise what was done and check there is nothing else.",
+    "rubric": [
+     {
+      "label": "Summarises the actions",
+      "hint": "Full: lists what was done in a short recap. Partial: recaps only one action. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks 'Anything else?'",
+      "hint": "Full: asks if anything else is needed. Partial: skips. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Closes warmly",
+      "hint": "Full: ends with thanks and a warm goodbye. Partial: ends flatly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Hassan, a customer at the end of a call, issue now solved: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Summarise what was done and check there is nothing else.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Summarises the actions; Asks 'Anything else?'; Closes warmly.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b1-u4-l2",
+    "title": "Promising a call back",
+    "unit": "Calls, chat and follow-up",
+    "description": "Close a call or chat well and follow up in writing.",
+    "persona": "adams",
+    "personaRole": "Mariam, a customer waiting for a decision from another team",
+    "goal": "Promise a call back with a time and keep to it.",
+    "rubric": [
+     {
+      "label": "Gives a specific time",
+      "hint": "Full: promises a call at a specific time, like \"by 3 pm\". Partial: says \"later today\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Says who will call",
+      "hint": "Full: says who will call, by name or team. Partial: says \"we\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Thanks the customer for waiting",
+      "hint": "Full: thanks the customer for waiting or being patient. Partial: skips. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mariam, a customer waiting for a decision from another team: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Promise a call back with a time and keep to it.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Gives a specific time; Says who will call; Thanks the customer for waiting.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b1-u4-l3",
+    "title": "Writing a follow-up email",
+    "unit": "Calls, chat and follow-up",
+    "description": "Close a call or chat well and follow up in writing.",
+    "persona": "adams",
+    "personaRole": "Your supervisor, who asks you to write the follow-up email for a solved case",
+    "goal": "Say aloud the follow-up email you would write: greeting, summary, next step, close.",
+    "rubric": [
+     {
+      "label": "Has all four parts",
+      "hint": "Full: the spoken email has a greeting, a summary, a next step and a close. Partial: misses one or more parts. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Short clear sentences",
+      "hint": "Full: sentences are short and easy to follow. Partial: a few are long or tangled. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Polite closing",
+      "hint": "Full: ends with a polite line, like \"Kind regards.\" Partial: ends abruptly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Your supervisor, who asks you to write the follow-up email for a solved case: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say aloud the follow-up email you would write: greeting, summary, next step, close.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Has all four parts; Short clear sentences; Polite closing.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b1-u4-l4",
+    "title": "Handling a chat with two customers",
+    "unit": "Calls, chat and follow-up",
+    "description": "Close a call or chat well and follow up in writing.",
+    "persona": "adams",
+    "personaRole": "Two customers on chat at the same time: one asks about delivery, one about a refund",
+    "goal": "Keep both customers informed and do not mix them up.",
+    "rubric": [
+     {
+      "label": "Answers each by name",
+      "hint": "Full: answers each customer using their name. Partial: mixes names. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives a wait time when needed",
+      "hint": "Full: gives an honest wait time to the waiting customer. Partial: says \"wait\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Stays polite and short",
+      "hint": "Full: polite and brief to both customers. Partial: long or curt. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Two customers on chat at the same time: one asks about delivery, one about a refund: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Keep both customers informed and do not mix them up.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Answers each by name; Gives a wait time when needed; Stays polite and short.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b1-u6-l1",
+    "title": "Transferring a call properly",
+    "unit": "Transfers, escalation and mistakes",
+    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
+    "persona": "adams",
+    "personaRole": "Colleague Ahmed in billing, who will take over a customer call",
+    "goal": "Transfer the call: tell the customer, then give the colleague a clear summary.",
+    "rubric": [
+     {
+      "label": "Tells the customer who and why",
+      "hint": "Full: tells the customer who will help and why they are transferred. Partial: says only \"I will transfer you\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives a short summary to the colleague",
+      "hint": "Full: tells the colleague the name, the issue and what was done. Partial: gives only the name. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Stays on the line to hand over",
+      "hint": "Full: stays on the line until the colleague has the case. Partial: leaves too early. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Colleague Ahmed in billing, who will take over a customer call: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Transfer the call: tell the customer, then give the colleague a clear summary.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Tells the customer who and why; Gives a short summary to the colleague; Stays on the line to hand over.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b1-u6-l2",
+    "title": "Escalating a case to a supervisor",
+    "unit": "Transfers, escalation and mistakes",
+    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
     "persona": "sara",
-    "personaRole": "Salma, a customer complaining about a broken product",
-    "goal": "Listen, then show you understand before you answer.",
+    "personaRole": "Sara, a customer who wants a supervisor after two failed calls",
+    "goal": "Explain you will escalate and what the supervisor will do.",
     "rubric": [
      {
-      "label": "Lets the customer finish",
-      "hint": "Full: lets the customer finish the story. Partial: cuts in once. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Stays polite and does not argue",
+      "hint": "Full: stays polite when challenged and does not argue. Partial: gets defensive. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Uses a phrase of understanding",
-      "hint": "Full: uses a phrase like \"I see\" or \"That sounds difficult.\" Partial: stays silent. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Explains the escalation steps",
+      "hint": "Full: explains what the supervisor will do. Partial: says \"someone will call\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Asks one question about the details",
-      "hint": "Full: asks one useful question about the details. Partial: asks several or none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Gives a time and a reference number",
+      "hint": "Full: gives both a time and a reference number. Partial: gives one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Salma, a customer complaining about a broken product: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Listen, then show you understand before you answer.",
+     "Open the scene in character as Sara, a customer who wants a supervisor after two failed calls: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain you will escalate and what the supervisor will do.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Lets the customer finish; Uses a phrase of understanding; Asks one question about the details.",
+     "Move through the rubric points naturally: Stays polite and does not argue; Explains the escalation steps; Gives a time and a reference number.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1680,32 +1850,32 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b1-u2-l2",
-    "title": "A sincere apology",
-    "unit": "Complaints and apologies",
-    "description": "Handle a complaint politely and offer a solution.",
+    "id": "work-cs-b1-u6-l3",
+    "title": "We gave wrong information",
+    "unit": "Transfers, escalation and mistakes",
+    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
     "persona": "adams",
-    "personaRole": "Youssef, a customer waiting two weeks for a repair",
-    "goal": "Give a sincere apology without making excuses.",
+    "personaRole": "Walid, a customer who was told the wrong delivery date",
+    "goal": "Own the mistake, give the right information and say how you will help.",
     "rubric": [
      {
-      "label": "Says sorry clearly and once",
-      "hint": "Full: apologises clearly one time, with no repeats. Partial: apologises many times or only quietly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Admits the mistake clearly",
+      "hint": "Full: says clearly \"That was our mistake.\" Partial: hints at it. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Names the problem specifically",
-      "hint": "Full: names the exact problem, like \"your parcel arriving late\". Partial: says \"the issue\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Gives the correct information",
+      "hint": "Full: gives the correct information clearly. Partial: leaves it unclear. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Moves to what happens next",
-      "hint": "Full: moves from the apology to the next step. Partial: stays on the apology. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Offers a fair way to put it right",
+      "hint": "Full: offers a fair fix for the mistake. Partial: offers none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Youssef, a customer waiting two weeks for a repair: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a sincere apology without making excuses.",
+     "Open the scene in character as Walid, a customer who was told the wrong delivery date: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Own the mistake, give the right information and say how you will help.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says sorry clearly and once; Names the problem specifically; Moves to what happens next.",
+     "Move through the rubric points naturally: Admits the mistake clearly; Gives the correct information; Offers a fair way to put it right.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1714,66 +1884,32 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b1-u2-l3",
-    "title": "Offering a solution",
-    "unit": "Complaints and apologies",
-    "description": "Handle a complaint politely and offer a solution.",
-    "persona": "adams",
-    "personaRole": "Laila, a customer with a faulty phone charger",
-    "goal": "Offer a solution and explain what the customer needs to do.",
+    "id": "work-cs-b1-u6-l4",
+    "title": "Walking a customer through a fix",
+    "unit": "Transfers, escalation and mistakes",
+    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
+    "persona": "sara",
+    "personaRole": "Dalia, a customer whose router lights are red",
+    "goal": "Guide her through three simple steps and check each one.",
     "rubric": [
      {
-      "label": "Offers a clear solution",
-      "hint": "Full: offers a concrete fix. Partial: offers a vague one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Gives steps one at a time",
+      "hint": "Full: gives one step at a time. Partial: gives several at once. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Explains the steps in order",
-      "hint": "Full: gives the steps in a clear order using first and then. Partial: gives steps out of order. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Checks after each step",
+      "hint": "Full: checks the result after each step. Partial: checks at the end only. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Checks the customer agrees",
-      "hint": "Full: asks whether the plan is OK. Partial: assumes agreement. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Offers another way if it fails",
+      "hint": "Full: offers a different route if the first fails. Partial: gives up. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Laila, a customer with a faulty phone charger: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Offer a solution and explain what the customer needs to do.",
+     "Open the scene in character as Dalia, a customer whose router lights are red: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Guide her through three simple steps and check each one.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Offers a clear solution; Explains the steps in order; Checks the customer agrees.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b1-u2-l4",
-    "title": "Refund or replacement?",
-    "unit": "Complaints and apologies",
-    "description": "Handle a complaint politely and offer a solution.",
-    "persona": "adams",
-    "personaRole": "Adam, a customer who wants his money back",
-    "goal": "Offer a choice between a refund and a replacement and explain each.",
-    "rubric": [
-     {
-      "label": "Describes both options",
-      "hint": "Full: explains both refund and replacement. Partial: explains only one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives one honest time frame",
-      "hint": "Full: gives one realistic time frame. Partial: promises a time the case cannot meet. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Lets the customer decide",
-      "hint": "Full: asks which option the customer prefers. Partial: chooses for them. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Adam, a customer who wants his money back: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Offer a choice between a refund and a replacement and explain each.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes both options; Gives one honest time frame; Lets the customer decide.",
+     "Move through the rubric points naturally: Gives steps one at a time; Checks after each step; Offers another way if it fails.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1918,142 +2054,6 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b1-u4-l1",
-    "title": "Summing up the call",
-    "unit": "Calls, chat and follow-up",
-    "description": "Close a call or chat well and follow up in writing.",
-    "persona": "adams",
-    "personaRole": "Hassan, a customer at the end of a call, issue now solved",
-    "goal": "Summarise what was done and check there is nothing else.",
-    "rubric": [
-     {
-      "label": "Summarises the actions",
-      "hint": "Full: lists what was done in a short recap. Partial: recaps only one action. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks 'Anything else?'",
-      "hint": "Full: asks if anything else is needed. Partial: skips. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Closes warmly",
-      "hint": "Full: ends with thanks and a warm goodbye. Partial: ends flatly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hassan, a customer at the end of a call, issue now solved: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Summarise what was done and check there is nothing else.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Summarises the actions; Asks 'Anything else?'; Closes warmly.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b1-u4-l2",
-    "title": "Promising a call back",
-    "unit": "Calls, chat and follow-up",
-    "description": "Close a call or chat well and follow up in writing.",
-    "persona": "adams",
-    "personaRole": "Mariam, a customer waiting for a decision from another team",
-    "goal": "Promise a call back with a time and keep to it.",
-    "rubric": [
-     {
-      "label": "Gives a specific time",
-      "hint": "Full: promises a call at a specific time, like \"by 3 pm\". Partial: says \"later today\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Says who will call",
-      "hint": "Full: says who will call, by name or team. Partial: says \"we\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Thanks the customer for waiting",
-      "hint": "Full: thanks the customer for waiting or being patient. Partial: skips. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mariam, a customer waiting for a decision from another team: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Promise a call back with a time and keep to it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives a specific time; Says who will call; Thanks the customer for waiting.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b1-u4-l3",
-    "title": "Writing a follow-up email",
-    "unit": "Calls, chat and follow-up",
-    "description": "Close a call or chat well and follow up in writing.",
-    "persona": "adams",
-    "personaRole": "Your supervisor, who asks you to write the follow-up email for a solved case",
-    "goal": "Say aloud the follow-up email you would write: greeting, summary, next step, close.",
-    "rubric": [
-     {
-      "label": "Has all four parts",
-      "hint": "Full: the spoken email has a greeting, a summary, a next step and a close. Partial: misses one or more parts. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Short clear sentences",
-      "hint": "Full: sentences are short and easy to follow. Partial: a few are long or tangled. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Polite closing",
-      "hint": "Full: ends with a polite line, like \"Kind regards.\" Partial: ends abruptly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Your supervisor, who asks you to write the follow-up email for a solved case: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say aloud the follow-up email you would write: greeting, summary, next step, close.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Has all four parts; Short clear sentences; Polite closing.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b1-u4-l4",
-    "title": "Handling a chat with two customers",
-    "unit": "Calls, chat and follow-up",
-    "description": "Close a call or chat well and follow up in writing.",
-    "persona": "adams",
-    "personaRole": "Two customers on chat at the same time: one asks about delivery, one about a refund",
-    "goal": "Keep both customers informed and do not mix them up.",
-    "rubric": [
-     {
-      "label": "Answers each by name",
-      "hint": "Full: answers each customer using their name. Partial: mixes names. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives a wait time when needed",
-      "hint": "Full: gives an honest wait time to the waiting customer. Partial: says \"wait\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Stays polite and short",
-      "hint": "Full: polite and brief to both customers. Partial: long or curt. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Two customers on chat at the same time: one asks about delivery, one about a refund: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Keep both customers informed and do not mix them up.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Answers each by name; Gives a wait time when needed; Stays polite and short.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
     "id": "work-cs-b1-u5-l1",
     "title": "A customer wants something specific",
     "unit": "Specific requests and account matters",
@@ -2190,66 +2190,32 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b1-u6-l1",
-    "title": "Transferring a call properly",
-    "unit": "Transfers, escalation and mistakes",
-    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
-    "persona": "adams",
-    "personaRole": "Colleague Ahmed in billing, who will take over a customer call",
-    "goal": "Transfer the call: tell the customer, then give the colleague a clear summary.",
-    "rubric": [
-     {
-      "label": "Tells the customer who and why",
-      "hint": "Full: tells the customer who will help and why they are transferred. Partial: says only \"I will transfer you\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives a short summary to the colleague",
-      "hint": "Full: tells the colleague the name, the issue and what was done. Partial: gives only the name. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Stays on the line to hand over",
-      "hint": "Full: stays on the line until the colleague has the case. Partial: leaves too early. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Colleague Ahmed in billing, who will take over a customer call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Transfer the call: tell the customer, then give the colleague a clear summary.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Tells the customer who and why; Gives a short summary to the colleague; Stays on the line to hand over.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b1-u6-l2",
-    "title": "Escalating a case to a supervisor",
-    "unit": "Transfers, escalation and mistakes",
-    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
+    "id": "work-cs-b1-u2-l1",
+    "title": "Listening to a complaint",
+    "unit": "Complaints and apologies",
+    "description": "Handle a complaint politely and offer a solution.",
     "persona": "sara",
-    "personaRole": "Sara, a customer who wants a supervisor after two failed calls",
-    "goal": "Explain you will escalate and what the supervisor will do.",
+    "personaRole": "Salma, a customer complaining about a broken product",
+    "goal": "Listen, then show you understand before you answer.",
     "rubric": [
      {
-      "label": "Stays polite and does not argue",
-      "hint": "Full: stays polite when challenged and does not argue. Partial: gets defensive. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Lets the customer finish",
+      "hint": "Full: lets the customer finish the story. Partial: cuts in once. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Explains the escalation steps",
-      "hint": "Full: explains what the supervisor will do. Partial: says \"someone will call\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Uses a phrase of understanding",
+      "hint": "Full: uses a phrase like \"I see\" or \"That sounds difficult.\" Partial: stays silent. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Gives a time and a reference number",
-      "hint": "Full: gives both a time and a reference number. Partial: gives one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Asks one question about the details",
+      "hint": "Full: asks one useful question about the details. Partial: asks several or none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Sara, a customer who wants a supervisor after two failed calls: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain you will escalate and what the supervisor will do.",
+     "Open the scene in character as Salma, a customer complaining about a broken product: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Listen, then show you understand before you answer.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Stays polite and does not argue; Explains the escalation steps; Gives a time and a reference number.",
+     "Move through the rubric points naturally: Lets the customer finish; Uses a phrase of understanding; Asks one question about the details.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -2258,32 +2224,32 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b1-u6-l3",
-    "title": "We gave wrong information",
-    "unit": "Transfers, escalation and mistakes",
-    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
+    "id": "work-cs-b1-u2-l2",
+    "title": "A sincere apology",
+    "unit": "Complaints and apologies",
+    "description": "Handle a complaint politely and offer a solution.",
     "persona": "adams",
-    "personaRole": "Walid, a customer who was told the wrong delivery date",
-    "goal": "Own the mistake, give the right information and say how you will help.",
+    "personaRole": "Youssef, a customer waiting two weeks for a repair",
+    "goal": "Give a sincere apology without making excuses.",
     "rubric": [
      {
-      "label": "Admits the mistake clearly",
-      "hint": "Full: says clearly \"That was our mistake.\" Partial: hints at it. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Says sorry clearly and once",
+      "hint": "Full: apologises clearly one time, with no repeats. Partial: apologises many times or only quietly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Gives the correct information",
-      "hint": "Full: gives the correct information clearly. Partial: leaves it unclear. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Names the problem specifically",
+      "hint": "Full: names the exact problem, like \"your parcel arriving late\". Partial: says \"the issue\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Offers a fair way to put it right",
-      "hint": "Full: offers a fair fix for the mistake. Partial: offers none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Moves to what happens next",
+      "hint": "Full: moves from the apology to the next step. Partial: stays on the apology. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Walid, a customer who was told the wrong delivery date: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Own the mistake, give the right information and say how you will help.",
+     "Open the scene in character as Youssef, a customer waiting two weeks for a repair: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give a sincere apology without making excuses.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Admits the mistake clearly; Gives the correct information; Offers a fair way to put it right.",
+     "Move through the rubric points naturally: Says sorry clearly and once; Names the problem specifically; Moves to what happens next.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -2292,32 +2258,66 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b1-u6-l4",
-    "title": "Walking a customer through a fix",
-    "unit": "Transfers, escalation and mistakes",
-    "description": "Transfer or escalate a case properly, own a mistake and guide a technical fix.",
-    "persona": "sara",
-    "personaRole": "Dalia, a customer whose router lights are red",
-    "goal": "Guide her through three simple steps and check each one.",
+    "id": "work-cs-b1-u2-l3",
+    "title": "Offering a solution",
+    "unit": "Complaints and apologies",
+    "description": "Handle a complaint politely and offer a solution.",
+    "persona": "adams",
+    "personaRole": "Laila, a customer with a faulty phone charger",
+    "goal": "Offer a solution and explain what the customer needs to do.",
     "rubric": [
      {
-      "label": "Gives steps one at a time",
-      "hint": "Full: gives one step at a time. Partial: gives several at once. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Offers a clear solution",
+      "hint": "Full: offers a concrete fix. Partial: offers a vague one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Checks after each step",
-      "hint": "Full: checks the result after each step. Partial: checks at the end only. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Explains the steps in order",
+      "hint": "Full: gives the steps in a clear order using first and then. Partial: gives steps out of order. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Offers another way if it fails",
-      "hint": "Full: offers a different route if the first fails. Partial: gives up. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Checks the customer agrees",
+      "hint": "Full: asks whether the plan is OK. Partial: assumes agreement. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Dalia, a customer whose router lights are red: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Guide her through three simple steps and check each one.",
+     "Open the scene in character as Laila, a customer with a faulty phone charger: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Offer a solution and explain what the customer needs to do.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives steps one at a time; Checks after each step; Offers another way if it fails.",
+     "Move through the rubric points naturally: Offers a clear solution; Explains the steps in order; Checks the customer agrees.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b1-u2-l4",
+    "title": "Refund or replacement?",
+    "unit": "Complaints and apologies",
+    "description": "Handle a complaint politely and offer a solution.",
+    "persona": "adams",
+    "personaRole": "Adam, a customer who wants his money back",
+    "goal": "Offer a choice between a refund and a replacement and explain each.",
+    "rubric": [
+     {
+      "label": "Describes both options",
+      "hint": "Full: explains both refund and replacement. Partial: explains only one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives one honest time frame",
+      "hint": "Full: gives one realistic time frame. Partial: promises a time the case cannot meet. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Lets the customer decide",
+      "hint": "Full: asks which option the customer prefers. Partial: chooses for them. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Adam, a customer who wants his money back: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Offer a choice between a refund and a replacement and explain each.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Describes both options; Gives one honest time frame; Lets the customer decide.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -2616,278 +2616,6 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-cs-b2-u2-l1",
-    "title": "Explaining a multi-step fix",
-    "unit": "Handling complex cases",
-    "description": "Explain a case with several steps and keep the customer informed.",
-    "persona": "adams",
-    "personaRole": "Ayman, a customer with a problem that needs four steps",
-    "goal": "Explain a multi-step fix in order.",
-    "rubric": [
-     {
-      "label": "Gives an overview first",
-      "hint": "Full: starts with a one-line overview of the fix. Partial: jumps into step one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Explains steps in order",
-      "hint": "Full: explains the steps in a clear order. Partial: mixes the order. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Checks after each step",
-      "hint": "Full: checks the result after each step. Partial: checks at the end only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ayman, a customer with a problem that needs four steps: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a multi-step fix in order.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives an overview first; Explains steps in order; Checks after each step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b2-u2-l2",
-    "title": "Managing expectations",
-    "unit": "Handling complex cases",
-    "description": "Explain a case with several steps and keep the customer informed.",
-    "persona": "sara",
-    "personaRole": "Dalia, a customer who expects a result tomorrow that is not possible",
-    "goal": "Manage her expectations honestly.",
-    "rubric": [
-     {
-      "label": "Says what is possible",
-      "hint": "Full: states what can be done. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Says what is not",
-      "hint": "Full: states honestly what cannot be done. Partial: avoids it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Offers the best next date",
-      "hint": "Full: offers the earliest realistic date. Partial: gives a date that is unrealistic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dalia, a customer who expects a result tomorrow that is not possible: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Manage her expectations honestly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says what is possible; Says what is not; Offers the best next date.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b2-u2-l3",
-    "title": "Escalating to another team",
-    "unit": "Handling complex cases",
-    "description": "Explain a case with several steps and keep the customer informed.",
-    "persona": "adams",
-    "personaRole": "Hazem, a customer who needs another team",
-    "goal": "Escalate to another team and tell him what happens.",
-    "rubric": [
-     {
-      "label": "Explains why",
-      "hint": "Full: gives a short reason for the question, like \"This is for security.\" Partial: gives no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Summarises the case for the team",
-      "hint": "Full: gives the other team a short, complete case summary. Partial: leaves out key facts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Gives a reference and time",
-      "hint": "Full: gives a reference number and a time. Partial: gives only one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hazem, a customer who needs another team: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Escalate to another team and tell him what happens.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Explains why; Summarises the case for the team; Gives a reference and time.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b2-u2-l4",
-    "title": "Updating the customer",
-    "unit": "Handling complex cases",
-    "description": "Explain a case with several steps and keep the customer informed.",
-    "persona": "sara",
-    "personaRole": "Nesma, a customer waiting for an update",
-    "goal": "Give a clear update and the next date.",
-    "rubric": [
-     {
-      "label": "States what changed",
-      "hint": "Full: states what changed since the last contact. Partial: repeats old news. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "States what is next",
-      "hint": "Full: states the next step and its date. Partial: no date. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Gives a date",
-      "hint": "Full: gives a specific new date. Partial: says \"soon\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Nesma, a customer waiting for an update: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a clear update and the next date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States what changed; States what is next; Gives a date.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b2-u3-l1",
-    "title": "A customer wants to cancel",
-    "unit": "Retention and upselling with care",
-    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
-    "persona": "adams",
-    "personaRole": "Adel, a customer who wants to cancel his plan",
-    "goal": "Find out why and offer a fair option.",
-    "rubric": [
-     {
-      "label": "Asks why",
-      "hint": "Full: asks why the customer wants to cancel or change, with an open question. Partial: assumes the reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Does not push",
-      "hint": "Full: does not pressure the customer. Partial: pushes once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Offers a fair option",
-      "hint": "Full: offers a fair option based on the reason. Partial: offers a generic one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Adel, a customer who wants to cancel his plan: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Find out why and offer a fair option.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks why; Does not push; Offers a fair option.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b2-u3-l2",
-    "title": "Recommending a better plan",
-    "unit": "Retention and upselling with care",
-    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
-    "persona": "sara",
-    "personaRole": "Rania, a customer who may take a better plan",
-    "goal": "Recommend a better plan without pressure.",
-    "rubric": [
-     {
-      "label": "Asks about needs",
-      "hint": "Full: asks about needs before suggesting. Partial: suggests first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Explains benefits",
-      "hint": "Full: explains benefits in terms of the customer's needs. Partial: lists features. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Lets her decide",
-      "hint": "Full: leaves the final choice to the customer. Partial: pushes for a decision. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Rania, a customer who may take a better plan: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Recommend a better plan without pressure.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about needs; Explains benefits; Lets her decide.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b2-u3-l3",
-    "title": "Handling 'it is too expensive'",
-    "unit": "Retention and upselling with care",
-    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
-    "persona": "adams",
-    "personaRole": "Sayed, a customer who says everything is too expensive",
-    "goal": "Respond to a price objection.",
-    "rubric": [
-     {
-      "label": "Acknowledges the concern",
-      "hint": "Full: acknowledges the price concern respectfully. Partial: ignores it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Explains the value",
-      "hint": "Full: explains what the customer gets for the price. Partial: repeats the price. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Offers an alternative",
-      "hint": "Full: offers a real alternative. Partial: offers nothing or something unrealistic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Sayed, a customer who says everything is too expensive: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Respond to a price objection.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Acknowledges the concern; Explains the value; Offers an alternative.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-cs-b2-u3-l4",
-    "title": "Offering a fair compromise",
-    "unit": "Retention and upselling with care",
-    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
-    "persona": "adams",
-    "personaRole": "Maged, a customer who asks for a discount",
-    "goal": "Offer a fair compromise you are allowed to give.",
-    "rubric": [
-     {
-      "label": "Explains limits",
-      "hint": "Full: explains the limit of what can be offered. Partial: leaves limits unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Offers a compromise",
-      "hint": "Full: offers a fair compromise within the rules. Partial: offers none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Confirms agreement",
-      "hint": "Full: checks that the customer agrees. Partial: assumes agreement. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Maged, a customer who asks for a discount: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Offer a fair compromise you are allowed to give.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Explains limits; Offers a compromise; Confirms agreement.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
     "id": "work-cs-b2-u4-l1",
     "title": "Handing over a case",
     "unit": "Team and quality talk",
@@ -3020,6 +2748,142 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     ],
     "level": "B2",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u2-l1",
+    "title": "Explaining a multi-step fix",
+    "unit": "Handling complex cases",
+    "description": "Explain a case with several steps and keep the customer informed.",
+    "persona": "adams",
+    "personaRole": "Ayman, a customer with a problem that needs four steps",
+    "goal": "Explain a multi-step fix in order.",
+    "rubric": [
+     {
+      "label": "Gives an overview first",
+      "hint": "Full: starts with a one-line overview of the fix. Partial: jumps into step one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Explains steps in order",
+      "hint": "Full: explains the steps in a clear order. Partial: mixes the order. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Checks after each step",
+      "hint": "Full: checks the result after each step. Partial: checks at the end only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ayman, a customer with a problem that needs four steps: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a multi-step fix in order.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Gives an overview first; Explains steps in order; Checks after each step.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u2-l2",
+    "title": "Managing expectations",
+    "unit": "Handling complex cases",
+    "description": "Explain a case with several steps and keep the customer informed.",
+    "persona": "sara",
+    "personaRole": "Dalia, a customer who expects a result tomorrow that is not possible",
+    "goal": "Manage her expectations honestly.",
+    "rubric": [
+     {
+      "label": "Says what is possible",
+      "hint": "Full: states what can be done. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Says what is not",
+      "hint": "Full: states honestly what cannot be done. Partial: avoids it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Offers the best next date",
+      "hint": "Full: offers the earliest realistic date. Partial: gives a date that is unrealistic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dalia, a customer who expects a result tomorrow that is not possible: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Manage her expectations honestly.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says what is possible; Says what is not; Offers the best next date.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u2-l3",
+    "title": "Escalating to another team",
+    "unit": "Handling complex cases",
+    "description": "Explain a case with several steps and keep the customer informed.",
+    "persona": "adams",
+    "personaRole": "Hazem, a customer who needs another team",
+    "goal": "Escalate to another team and tell him what happens.",
+    "rubric": [
+     {
+      "label": "Explains why",
+      "hint": "Full: gives a short reason for the question, like \"This is for security.\" Partial: gives no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Summarises the case for the team",
+      "hint": "Full: gives the other team a short, complete case summary. Partial: leaves out key facts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives a reference and time",
+      "hint": "Full: gives a reference number and a time. Partial: gives only one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Hazem, a customer who needs another team: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Escalate to another team and tell him what happens.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Explains why; Summarises the case for the team; Gives a reference and time.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u2-l4",
+    "title": "Updating the customer",
+    "unit": "Handling complex cases",
+    "description": "Explain a case with several steps and keep the customer informed.",
+    "persona": "sara",
+    "personaRole": "Nesma, a customer waiting for an update",
+    "goal": "Give a clear update and the next date.",
+    "rubric": [
+     {
+      "label": "States what changed",
+      "hint": "Full: states what changed since the last contact. Partial: repeats old news. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "States what is next",
+      "hint": "Full: states the next step and its date. Partial: no date. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives a date",
+      "hint": "Full: gives a specific new date. Partial: says \"soon\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Nesma, a customer waiting for an update: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give a clear update and the next date.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States what changed; States what is next; Gives a date.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -3288,6 +3152,142 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      "Let the learner work toward this goal: Take responsibility and say how you will make it right.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Admits the mistake; Explains the fix; Offers fair compensation.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u3-l1",
+    "title": "A customer wants to cancel",
+    "unit": "Retention and upselling with care",
+    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
+    "persona": "adams",
+    "personaRole": "Adel, a customer who wants to cancel his plan",
+    "goal": "Find out why and offer a fair option.",
+    "rubric": [
+     {
+      "label": "Asks why",
+      "hint": "Full: asks why the customer wants to cancel or change, with an open question. Partial: assumes the reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Does not push",
+      "hint": "Full: does not pressure the customer. Partial: pushes once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Offers a fair option",
+      "hint": "Full: offers a fair option based on the reason. Partial: offers a generic one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Adel, a customer who wants to cancel his plan: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Find out why and offer a fair option.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks why; Does not push; Offers a fair option.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u3-l2",
+    "title": "Recommending a better plan",
+    "unit": "Retention and upselling with care",
+    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
+    "persona": "sara",
+    "personaRole": "Rania, a customer who may take a better plan",
+    "goal": "Recommend a better plan without pressure.",
+    "rubric": [
+     {
+      "label": "Asks about needs",
+      "hint": "Full: asks about needs before suggesting. Partial: suggests first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Explains benefits",
+      "hint": "Full: explains benefits in terms of the customer's needs. Partial: lists features. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Lets her decide",
+      "hint": "Full: leaves the final choice to the customer. Partial: pushes for a decision. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Rania, a customer who may take a better plan: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Recommend a better plan without pressure.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks about needs; Explains benefits; Lets her decide.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u3-l3",
+    "title": "Handling 'it is too expensive'",
+    "unit": "Retention and upselling with care",
+    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
+    "persona": "adams",
+    "personaRole": "Sayed, a customer who says everything is too expensive",
+    "goal": "Respond to a price objection.",
+    "rubric": [
+     {
+      "label": "Acknowledges the concern",
+      "hint": "Full: acknowledges the price concern respectfully. Partial: ignores it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Explains the value",
+      "hint": "Full: explains what the customer gets for the price. Partial: repeats the price. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Offers an alternative",
+      "hint": "Full: offers a real alternative. Partial: offers nothing or something unrealistic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Sayed, a customer who says everything is too expensive: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Respond to a price objection.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Acknowledges the concern; Explains the value; Offers an alternative.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-cs-b2-u3-l4",
+    "title": "Offering a fair compromise",
+    "unit": "Retention and upselling with care",
+    "description": "Suggest a better option without pressure and keep a customer who wants to leave.",
+    "persona": "adams",
+    "personaRole": "Maged, a customer who asks for a discount",
+    "goal": "Offer a fair compromise you are allowed to give.",
+    "rubric": [
+     {
+      "label": "Explains limits",
+      "hint": "Full: explains the limit of what can be offered. Partial: leaves limits unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Offers a compromise",
+      "hint": "Full: offers a fair compromise within the rules. Partial: offers none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Confirms agreement",
+      "hint": "Full: checks that the customer agrees. Partial: assumes agreement. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Maged, a customer who asks for a discount: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Offer a fair compromise you are allowed to give.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Explains limits; Offers a compromise; Confirms agreement.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",

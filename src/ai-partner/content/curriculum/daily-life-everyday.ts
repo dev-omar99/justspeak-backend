@@ -282,142 +282,6 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "daily-life-a1-u3-l1",
-    "title": "At the shop",
-    "unit": "Food and shopping",
-    "description": "Order food and buy simple things.",
-    "persona": "adams",
-    "personaRole": "Mr Adel, a shop assistant",
-    "goal": "Ask for an item and the price.",
-    "rubric": [
-     {
-      "label": "Asks for the item",
-      "hint": "Scene goal: ask for an item and the price. Full credit if the learner clearly shows: asks for the item. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Asks the price",
-      "hint": "Scene goal: ask for an item and the price. Full credit if the learner clearly shows: asks the price. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Says thank you",
-      "hint": "Scene goal: ask for an item and the price. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, a shop assistant: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for an item and the price.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for the item; Asks the price; Says thank you.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-a1-u3-l2",
-    "title": "Ordering a drink",
-    "unit": "Food and shopping",
-    "description": "Order food and buy simple things.",
-    "persona": "sara",
-    "personaRole": "Hana, a waitress in a cafe",
-    "goal": "Order a drink and say thank you.",
-    "rubric": [
-     {
-      "label": "Orders politely",
-      "hint": "Scene goal: order a drink and say thank you. Full credit if the learner clearly shows: orders politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Says size or type",
-      "hint": "Scene goal: order a drink and say thank you. Full credit if the learner clearly shows: says size or type. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Says thank you",
-      "hint": "Scene goal: order a drink and say thank you. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hana, a waitress in a cafe: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Order a drink and say thank you.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Orders politely; Says size or type; Says thank you.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-a1-u3-l3",
-    "title": "Breakfast, lunch and dinner",
-    "unit": "Food and shopping",
-    "description": "Order food and buy simple things.",
-    "persona": "adams",
-    "personaRole": "Mr Wael, a friend who asks what you eat",
-    "goal": "Say what you eat in a day.",
-    "rubric": [
-     {
-      "label": "Names three foods",
-      "hint": "Scene goal: say what you eat in a day. Full credit if the learner clearly shows: names three foods. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Uses \"I eat\"",
-      "hint": "Scene goal: say what you eat in a day. Full credit if the learner clearly shows: uses \"I eat\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Uses time words",
-      "hint": "Scene goal: say what you eat in a day. Full credit if the learner clearly shows: uses time words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Wael, a friend who asks what you eat: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say what you eat in a day.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names three foods; Uses \"I eat\"; Uses time words.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-a1-u3-l4",
-    "title": "How much is this?",
-    "unit": "Food and shopping",
-    "description": "Order food and buy simple things.",
-    "persona": "sara",
-    "personaRole": "Mona, a seller at a market",
-    "goal": "Ask the price and pay.",
-    "rubric": [
-     {
-      "label": "Asks the price",
-      "hint": "Scene goal: ask the price and pay. Full credit if the learner clearly shows: asks the price. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Understands the number",
-      "hint": "Scene goal: ask the price and pay. Full credit if the learner clearly shows: understands the number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Pays and thanks",
-      "hint": "Scene goal: ask the price and pay. Full credit if the learner clearly shows: pays and thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mona, a seller at a market: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask the price and pay.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks the price; Understands the number; Pays and thanks.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
     "id": "daily-life-a1-u4-l1",
     "title": "What time is it?",
     "unit": "Time, days and places",
@@ -550,6 +414,142 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "level": "A1",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-a1-u3-l1",
+    "title": "At the shop",
+    "unit": "Food and shopping",
+    "description": "Order food and buy simple things.",
+    "persona": "adams",
+    "personaRole": "Mr Adel, a shop assistant",
+    "goal": "Ask for an item and the price.",
+    "rubric": [
+     {
+      "label": "Asks for the item",
+      "hint": "Scene goal: ask for an item and the price. Full credit if the learner clearly shows: asks for the item. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Asks the price",
+      "hint": "Scene goal: ask for an item and the price. Full credit if the learner clearly shows: asks the price. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Says thank you",
+      "hint": "Scene goal: ask for an item and the price. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Adel, a shop assistant: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for an item and the price.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for the item; Asks the price; Says thank you.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-a1-u3-l2",
+    "title": "Ordering a drink",
+    "unit": "Food and shopping",
+    "description": "Order food and buy simple things.",
+    "persona": "sara",
+    "personaRole": "Hana, a waitress in a cafe",
+    "goal": "Order a drink and say thank you.",
+    "rubric": [
+     {
+      "label": "Orders politely",
+      "hint": "Scene goal: order a drink and say thank you. Full credit if the learner clearly shows: orders politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Says size or type",
+      "hint": "Scene goal: order a drink and say thank you. Full credit if the learner clearly shows: says size or type. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Says thank you",
+      "hint": "Scene goal: order a drink and say thank you. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Hana, a waitress in a cafe: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Order a drink and say thank you.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Orders politely; Says size or type; Says thank you.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-a1-u3-l3",
+    "title": "Breakfast, lunch and dinner",
+    "unit": "Food and shopping",
+    "description": "Order food and buy simple things.",
+    "persona": "adams",
+    "personaRole": "Mr Wael, a friend who asks what you eat",
+    "goal": "Say what you eat in a day.",
+    "rubric": [
+     {
+      "label": "Names three foods",
+      "hint": "Scene goal: say what you eat in a day. Full credit if the learner clearly shows: names three foods. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Uses \"I eat\"",
+      "hint": "Scene goal: say what you eat in a day. Full credit if the learner clearly shows: uses \"I eat\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Uses time words",
+      "hint": "Scene goal: say what you eat in a day. Full credit if the learner clearly shows: uses time words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Wael, a friend who asks what you eat: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say what you eat in a day.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Names three foods; Uses \"I eat\"; Uses time words.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-a1-u3-l4",
+    "title": "How much is this?",
+    "unit": "Food and shopping",
+    "description": "Order food and buy simple things.",
+    "persona": "sara",
+    "personaRole": "Mona, a seller at a market",
+    "goal": "Ask the price and pay.",
+    "rubric": [
+     {
+      "label": "Asks the price",
+      "hint": "Scene goal: ask the price and pay. Full credit if the learner clearly shows: asks the price. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Understands the number",
+      "hint": "Scene goal: ask the price and pay. Full credit if the learner clearly shows: understands the number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Pays and thanks",
+      "hint": "Scene goal: ask the price and pay. Full credit if the learner clearly shows: pays and thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mona, a seller at a market: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask the price and pay.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks the price; Understands the number; Pays and thanks.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    }
@@ -688,142 +688,6 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "level": "A2",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Social conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-a2-u2-l1",
-    "title": "Ordering a meal",
-    "unit": "Eating out and shopping",
-    "description": "Order a meal, pay and shop for clothes.",
-    "persona": "adams",
-    "personaRole": "Mr Nabil, a waiter",
-    "goal": "Order a meal with a drink.",
-    "rubric": [
-     {
-      "label": "Orders clearly",
-      "hint": "Scene goal: order a meal with a drink. Full credit if the learner clearly shows: orders clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks one question",
-      "hint": "Scene goal: order a meal with a drink. Full credit if the learner clearly shows: asks one question. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Thanks him",
-      "hint": "Scene goal: order a meal with a drink. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Nabil, a waiter: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Order a meal with a drink.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Orders clearly; Asks one question; Thanks him.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-a2-u2-l2",
-    "title": "Asking for the bill",
-    "unit": "Eating out and shopping",
-    "description": "Order a meal, pay and shop for clothes.",
-    "persona": "adams",
-    "personaRole": "Mr Adel, a waiter at the end",
-    "goal": "Ask for the bill and pay.",
-    "rubric": [
-     {
-      "label": "Asks for the bill",
-      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: asks for the bill. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Checks the total",
-      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: checks the total. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Thanks him",
-      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, a waiter at the end: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for the bill and pay.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for the bill; Checks the total; Thanks him.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-a2-u2-l3",
-    "title": "Buying clothes",
-    "unit": "Eating out and shopping",
-    "description": "Order a meal, pay and shop for clothes.",
-    "persona": "sara",
-    "personaRole": "Reem, a shop assistant",
-    "goal": "Ask for a size and colour.",
-    "rubric": [
-     {
-      "label": "Asks for size",
-      "hint": "Scene goal: ask for a size and colour. Full credit if the learner clearly shows: asks for size. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks for colour",
-      "hint": "Scene goal: ask for a size and colour. Full credit if the learner clearly shows: asks for colour. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Decides",
-      "hint": "Scene goal: ask for a size and colour. Full credit if the learner clearly shows: decides. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Reem, a shop assistant: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for a size and colour.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for size; Asks for colour; Decides.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-a2-u2-l4",
-    "title": "Returning something",
-    "unit": "Eating out and shopping",
-    "description": "Order a meal, pay and shop for clothes.",
-    "persona": "adams",
-    "personaRole": "Mr Karim, a shop assistant",
-    "goal": "Ask to return or change an item.",
-    "rubric": [
-     {
-      "label": "Says the problem",
-      "hint": "Scene goal: ask to return or change an item. Full credit if the learner clearly shows: says the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks to change",
-      "hint": "Scene goal: ask to return or change an item. Full credit if the learner clearly shows: asks to change. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Thanks him",
-      "hint": "Scene goal: ask to return or change an item. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Karim, a shop assistant: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask to return or change an item.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says the problem; Asks to change; Thanks him.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -1234,6 +1098,142 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
+   },
+   {
+    "id": "daily-life-a2-u2-l1",
+    "title": "Ordering a meal",
+    "unit": "Eating out and shopping",
+    "description": "Order a meal, pay and shop for clothes.",
+    "persona": "adams",
+    "personaRole": "Mr Nabil, a waiter",
+    "goal": "Order a meal with a drink.",
+    "rubric": [
+     {
+      "label": "Orders clearly",
+      "hint": "Scene goal: order a meal with a drink. Full credit if the learner clearly shows: orders clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks one question",
+      "hint": "Scene goal: order a meal with a drink. Full credit if the learner clearly shows: asks one question. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Thanks him",
+      "hint": "Scene goal: order a meal with a drink. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Nabil, a waiter: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Order a meal with a drink.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Orders clearly; Asks one question; Thanks him.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-a2-u2-l2",
+    "title": "Asking for the bill",
+    "unit": "Eating out and shopping",
+    "description": "Order a meal, pay and shop for clothes.",
+    "persona": "adams",
+    "personaRole": "Mr Adel, a waiter at the end",
+    "goal": "Ask for the bill and pay.",
+    "rubric": [
+     {
+      "label": "Asks for the bill",
+      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: asks for the bill. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Checks the total",
+      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: checks the total. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Thanks him",
+      "hint": "Scene goal: ask for the bill and pay. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Adel, a waiter at the end: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for the bill and pay.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for the bill; Checks the total; Thanks him.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-a2-u2-l3",
+    "title": "Buying clothes",
+    "unit": "Eating out and shopping",
+    "description": "Order a meal, pay and shop for clothes.",
+    "persona": "sara",
+    "personaRole": "Reem, a shop assistant",
+    "goal": "Ask for a size and colour.",
+    "rubric": [
+     {
+      "label": "Asks for size",
+      "hint": "Scene goal: ask for a size and colour. Full credit if the learner clearly shows: asks for size. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks for colour",
+      "hint": "Scene goal: ask for a size and colour. Full credit if the learner clearly shows: asks for colour. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Decides",
+      "hint": "Scene goal: ask for a size and colour. Full credit if the learner clearly shows: decides. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Reem, a shop assistant: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for a size and colour.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for size; Asks for colour; Decides.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-a2-u2-l4",
+    "title": "Returning something",
+    "unit": "Eating out and shopping",
+    "description": "Order a meal, pay and shop for clothes.",
+    "persona": "adams",
+    "personaRole": "Mr Karim, a shop assistant",
+    "goal": "Ask to return or change an item.",
+    "rubric": [
+     {
+      "label": "Says the problem",
+      "hint": "Scene goal: ask to return or change an item. Full credit if the learner clearly shows: says the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks to change",
+      "hint": "Scene goal: ask to return or change an item. Full credit if the learner clearly shows: asks to change. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Thanks him",
+      "hint": "Scene goal: ask to return or change an item. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Karim, a shop assistant: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask to return or change an item.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says the problem; Asks to change; Thanks him.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
    }
   ],
   "B1": [
@@ -1510,138 +1510,138 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "daily-life-b1-u3-l1",
-    "title": "Giving your opinion",
-    "unit": "Opinions and plans",
-    "description": "Give opinions and talk about future plans.",
+    "id": "daily-life-b1-u6-l1",
+    "title": "Using public transport",
+    "unit": "Community and rules",
+    "description": "Talk about rules, transport and the community.",
     "persona": "adams",
-    "personaRole": "Mr Karim, a friend who asks what you think",
-    "goal": "Give an opinion with a reason.",
+    "personaRole": "Mr Tarek, a bus driver",
+    "goal": "Ask about the route and the price.",
     "rubric": [
      {
-      "label": "States an opinion",
-      "hint": "Scene goal: give an opinion with a reason. Full credit if the learner clearly shows: states an opinion. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Asks the route",
+      "hint": "Scene goal: ask about the route and the price. Full credit if the learner clearly shows: asks the route. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Gives a reason",
-      "hint": "Scene goal: give an opinion with a reason. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Asks the price",
+      "hint": "Scene goal: ask about the route and the price. Full credit if the learner clearly shows: asks the price. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Uses softeners",
-      "hint": "Scene goal: give an opinion with a reason. Full credit if the learner clearly shows: uses softeners. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Confirms the stop",
+      "hint": "Scene goal: ask about the route and the price. Full credit if the learner clearly shows: confirms the stop. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Karim, a friend who asks what you think: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give an opinion with a reason.",
+     "Open the scene in character as Mr Tarek, a bus driver: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask about the route and the price.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States an opinion; Gives a reason; Uses softeners.",
+     "Move through the rubric points naturally: Asks the route; Asks the price; Confirms the stop.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "daily-life-b1-u3-l2",
-    "title": "Agreeing and disagreeing",
-    "unit": "Opinions and plans",
-    "description": "Give opinions and talk about future plans.",
+    "id": "daily-life-b1-u6-l2",
+    "title": "Asking about rules",
+    "unit": "Community and rules",
+    "description": "Talk about rules, transport and the community.",
     "persona": "sara",
-    "personaRole": "Rasha, a friend with another view",
-    "goal": "Disagree politely.",
+    "personaRole": "Nadia, an official at an office",
+    "goal": "Ask about a rule or a form.",
     "rubric": [
      {
-      "label": "Uses \"I see, but\"",
-      "hint": "Scene goal: disagree politely. Full credit if the learner clearly shows: uses \"I see, but\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "States the question",
+      "hint": "Scene goal: ask about a rule or a form. Full credit if the learner clearly shows: states the question. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Gives a reason",
-      "hint": "Scene goal: disagree politely. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Listens",
+      "hint": "Scene goal: ask about a rule or a form. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Checks the answer",
+      "hint": "Scene goal: ask about a rule or a form. Full credit if the learner clearly shows: checks the answer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Nadia, an official at an office: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask about a rule or a form.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the question; Listens; Checks the answer.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-b1-u6-l3",
+    "title": "Helping a stranger",
+    "unit": "Community and rules",
+    "description": "Talk about rules, transport and the community.",
+    "persona": "adams",
+    "personaRole": "Mr Hamdy, a visitor who is lost",
+    "goal": "Give directions and help.",
+    "rubric": [
+     {
+      "label": "Gives clear directions",
+      "hint": "Scene goal: give directions and help. Full credit if the learner clearly shows: gives clear directions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Checks",
+      "hint": "Scene goal: give directions and help. Full credit if the learner clearly shows: checks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Stays friendly",
-      "hint": "Scene goal: disagree politely. Full credit if the learner clearly shows: stays friendly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Scene goal: give directions and help. Full credit if the learner clearly shows: stays friendly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Rasha, a friend with another view: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Disagree politely.",
+     "Open the scene in character as Mr Hamdy, a visitor who is lost: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give directions and help.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Uses \"I see, but\"; Gives a reason; Stays friendly.",
+     "Move through the rubric points naturally: Gives clear directions; Checks; Stays friendly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "daily-life-b1-u3-l3",
-    "title": "Plans for the future",
-    "unit": "Opinions and plans",
-    "description": "Give opinions and talk about future plans.",
-    "persona": "adams",
-    "personaRole": "Mr Nabil, a friend who asks about next year",
-    "goal": "Talk about goals and plans.",
-    "rubric": [
-     {
-      "label": "Uses future forms",
-      "hint": "Scene goal: talk about goals and plans. Full credit if the learner clearly shows: uses future forms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives reasons",
-      "hint": "Scene goal: talk about goals and plans. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Adds a detail",
-      "hint": "Scene goal: talk about goals and plans. Full credit if the learner clearly shows: adds a detail. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Nabil, a friend who asks about next year: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about goals and plans.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Uses future forms; Gives reasons; Adds a detail.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b1-u3-l4",
-    "title": "Making a decision together",
-    "unit": "Opinions and plans",
-    "description": "Give opinions and talk about future plans.",
+    "id": "daily-life-b1-u6-l4",
+    "title": "Joining a group or class",
+    "unit": "Community and rules",
+    "description": "Talk about rules, transport and the community.",
     "persona": "sara",
-    "personaRole": "Mona and Mr Tarek, two friends",
-    "goal": "Decide together on a plan.",
+    "personaRole": "Hana, a group leader",
+    "goal": "Ask to join and say what you want.",
     "rubric": [
      {
-      "label": "Suggests an idea",
-      "hint": "Scene goal: decide together on a plan. Full credit if the learner clearly shows: suggests an idea. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Says what you want",
+      "hint": "Scene goal: ask to join and say what you want. Full credit if the learner clearly shows: says what you want. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Listens to others",
-      "hint": "Scene goal: decide together on a plan. Full credit if the learner clearly shows: listens to others. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Asks about time and cost",
+      "hint": "Scene goal: ask to join and say what you want. Full credit if the learner clearly shows: asks about time and cost. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Agrees on one",
-      "hint": "Scene goal: decide together on a plan. Full credit if the learner clearly shows: agrees on one. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Thanks her",
+      "hint": "Scene goal: ask to join and say what you want. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Mona and Mr Tarek, two friends: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Decide together on a plan.",
+     "Open the scene in character as Hana, a group leader: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask to join and say what you want.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Suggests an idea; Listens to others; Agrees on one.",
+     "Move through the rubric points naturally: Says what you want; Asks about time and cost; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -1782,6 +1782,142 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "daily-life-b1-u3-l1",
+    "title": "Giving your opinion",
+    "unit": "Opinions and plans",
+    "description": "Give opinions and talk about future plans.",
+    "persona": "adams",
+    "personaRole": "Mr Karim, a friend who asks what you think",
+    "goal": "Give an opinion with a reason.",
+    "rubric": [
+     {
+      "label": "States an opinion",
+      "hint": "Scene goal: give an opinion with a reason. Full credit if the learner clearly shows: states an opinion. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives a reason",
+      "hint": "Scene goal: give an opinion with a reason. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Uses softeners",
+      "hint": "Scene goal: give an opinion with a reason. Full credit if the learner clearly shows: uses softeners. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Karim, a friend who asks what you think: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give an opinion with a reason.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States an opinion; Gives a reason; Uses softeners.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-b1-u3-l2",
+    "title": "Agreeing and disagreeing",
+    "unit": "Opinions and plans",
+    "description": "Give opinions and talk about future plans.",
+    "persona": "sara",
+    "personaRole": "Rasha, a friend with another view",
+    "goal": "Disagree politely.",
+    "rubric": [
+     {
+      "label": "Uses \"I see, but\"",
+      "hint": "Scene goal: disagree politely. Full credit if the learner clearly shows: uses \"I see, but\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives a reason",
+      "hint": "Scene goal: disagree politely. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Stays friendly",
+      "hint": "Scene goal: disagree politely. Full credit if the learner clearly shows: stays friendly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Rasha, a friend with another view: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Disagree politely.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Uses \"I see, but\"; Gives a reason; Stays friendly.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-b1-u3-l3",
+    "title": "Plans for the future",
+    "unit": "Opinions and plans",
+    "description": "Give opinions and talk about future plans.",
+    "persona": "adams",
+    "personaRole": "Mr Nabil, a friend who asks about next year",
+    "goal": "Talk about goals and plans.",
+    "rubric": [
+     {
+      "label": "Uses future forms",
+      "hint": "Scene goal: talk about goals and plans. Full credit if the learner clearly shows: uses future forms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives reasons",
+      "hint": "Scene goal: talk about goals and plans. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Adds a detail",
+      "hint": "Scene goal: talk about goals and plans. Full credit if the learner clearly shows: adds a detail. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Nabil, a friend who asks about next year: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Talk about goals and plans.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Uses future forms; Gives reasons; Adds a detail.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-b1-u3-l4",
+    "title": "Making a decision together",
+    "unit": "Opinions and plans",
+    "description": "Give opinions and talk about future plans.",
+    "persona": "sara",
+    "personaRole": "Mona and Mr Tarek, two friends",
+    "goal": "Decide together on a plan.",
+    "rubric": [
+     {
+      "label": "Suggests an idea",
+      "hint": "Scene goal: decide together on a plan. Full credit if the learner clearly shows: suggests an idea. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Listens to others",
+      "hint": "Scene goal: decide together on a plan. Full credit if the learner clearly shows: listens to others. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Agrees on one",
+      "hint": "Scene goal: decide together on a plan. Full credit if the learner clearly shows: agrees on one. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mona and Mr Tarek, two friends: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Decide together on a plan.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Suggests an idea; Listens to others; Agrees on one.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "daily-life-b1-u5-l1",
     "title": "Describing symptoms",
     "unit": "Health and wellbeing",
@@ -1910,142 +2046,6 @@ export const DAILY_LIFE: CurriculumProgramme = {
      "Let the learner work toward this goal: Share a routine.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes a routine; Gives a reason; Gives one tip.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b1-u6-l1",
-    "title": "Using public transport",
-    "unit": "Community and rules",
-    "description": "Talk about rules, transport and the community.",
-    "persona": "adams",
-    "personaRole": "Mr Tarek, a bus driver",
-    "goal": "Ask about the route and the price.",
-    "rubric": [
-     {
-      "label": "Asks the route",
-      "hint": "Scene goal: ask about the route and the price. Full credit if the learner clearly shows: asks the route. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks the price",
-      "hint": "Scene goal: ask about the route and the price. Full credit if the learner clearly shows: asks the price. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Confirms the stop",
-      "hint": "Scene goal: ask about the route and the price. Full credit if the learner clearly shows: confirms the stop. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Tarek, a bus driver: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about the route and the price.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks the route; Asks the price; Confirms the stop.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b1-u6-l2",
-    "title": "Asking about rules",
-    "unit": "Community and rules",
-    "description": "Talk about rules, transport and the community.",
-    "persona": "sara",
-    "personaRole": "Nadia, an official at an office",
-    "goal": "Ask about a rule or a form.",
-    "rubric": [
-     {
-      "label": "States the question",
-      "hint": "Scene goal: ask about a rule or a form. Full credit if the learner clearly shows: states the question. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Listens",
-      "hint": "Scene goal: ask about a rule or a form. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Checks the answer",
-      "hint": "Scene goal: ask about a rule or a form. Full credit if the learner clearly shows: checks the answer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Nadia, an official at an office: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about a rule or a form.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the question; Listens; Checks the answer.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b1-u6-l3",
-    "title": "Helping a stranger",
-    "unit": "Community and rules",
-    "description": "Talk about rules, transport and the community.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a visitor who is lost",
-    "goal": "Give directions and help.",
-    "rubric": [
-     {
-      "label": "Gives clear directions",
-      "hint": "Scene goal: give directions and help. Full credit if the learner clearly shows: gives clear directions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Checks",
-      "hint": "Scene goal: give directions and help. Full credit if the learner clearly shows: checks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Stays friendly",
-      "hint": "Scene goal: give directions and help. Full credit if the learner clearly shows: stays friendly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a visitor who is lost: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give directions and help.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives clear directions; Checks; Stays friendly.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b1-u6-l4",
-    "title": "Joining a group or class",
-    "unit": "Community and rules",
-    "description": "Talk about rules, transport and the community.",
-    "persona": "sara",
-    "personaRole": "Hana, a group leader",
-    "goal": "Ask to join and say what you want.",
-    "rubric": [
-     {
-      "label": "Says what you want",
-      "hint": "Scene goal: ask to join and say what you want. Full credit if the learner clearly shows: says what you want. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks about time and cost",
-      "hint": "Scene goal: ask to join and say what you want. Full credit if the learner clearly shows: asks about time and cost. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Thanks her",
-      "hint": "Scene goal: ask to join and say what you want. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hana, a group leader: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask to join and say what you want.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says what you want; Asks about time and cost; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -2328,32 +2328,32 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "daily-life-b2-u3-l1",
-    "title": "Renting a flat",
-    "unit": "Money and rights",
-    "description": "Handle money matters, contracts and complaints.",
+    "id": "daily-life-b2-u6-l1",
+    "title": "Calling for help",
+    "unit": "Emergencies and urgent problems",
+    "description": "Handle urgent situations calmly.",
     "persona": "adams",
-    "personaRole": "Mr Adel, a landlord",
-    "goal": "Ask about the terms of a rental.",
+    "personaRole": "Emergency operator Mr Sherif",
+    "goal": "Give the key facts calmly.",
     "rubric": [
      {
-      "label": "Asks about the cost",
-      "hint": "Scene goal: ask about the terms of a rental. Full credit if the learner clearly shows: asks about the cost. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Says where",
+      "hint": "Scene goal: give the key facts calmly. Full credit if the learner clearly shows: says where. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks about the contract",
-      "hint": "Scene goal: ask about the terms of a rental. Full credit if the learner clearly shows: asks about the contract. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Says what happened",
+      "hint": "Scene goal: give the key facts calmly. Full credit if the learner clearly shows: says what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Checks the date",
-      "hint": "Scene goal: ask about the terms of a rental. Full credit if the learner clearly shows: checks the date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Answers questions",
+      "hint": "Scene goal: give the key facts calmly. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Adel, a landlord: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about the terms of a rental.",
+     "Open the scene in character as Emergency operator Mr Sherif: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give the key facts calmly.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about the cost; Asks about the contract; Checks the date.",
+     "Move through the rubric points naturally: Says where; Says what happened; Answers questions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2362,32 +2362,32 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "daily-life-b2-u3-l2",
-    "title": "Making a formal complaint",
-    "unit": "Money and rights",
-    "description": "Handle money matters, contracts and complaints.",
+    "id": "daily-life-b2-u6-l2",
+    "title": "Reporting a lost item",
+    "unit": "Emergencies and urgent problems",
+    "description": "Handle urgent situations calmly.",
     "persona": "sara",
-    "personaRole": "Ms Reem, a manager",
-    "goal": "Make a formal complaint.",
+    "personaRole": "Nadia, a police officer",
+    "goal": "Report a lost item.",
     "rubric": [
      {
-      "label": "States the facts",
-      "hint": "Scene goal: make a formal complaint. Full credit if the learner clearly shows: states the facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Describes the item",
+      "hint": "Scene goal: report a lost item. Full credit if the learner clearly shows: describes the item. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "States what you want",
-      "hint": "Scene goal: make a formal complaint. Full credit if the learner clearly shows: states what you want. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Says where and when",
+      "hint": "Scene goal: report a lost item. Full credit if the learner clearly shows: says where and when. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Stays calm",
-      "hint": "Scene goal: make a formal complaint. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives contact",
+      "hint": "Scene goal: report a lost item. Full credit if the learner clearly shows: gives contact. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Reem, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Make a formal complaint.",
+     "Open the scene in character as Nadia, a police officer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Report a lost item.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the facts; States what you want; Stays calm.",
+     "Move through the rubric points naturally: Describes the item; Says where and when; Gives contact.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2396,32 +2396,32 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "daily-life-b2-u3-l3",
-    "title": "Returning a product without a receipt",
-    "unit": "Money and rights",
-    "description": "Handle money matters, contracts and complaints.",
+    "id": "daily-life-b2-u6-l3",
+    "title": "Reporting a car problem",
+    "unit": "Emergencies and urgent problems",
+    "description": "Handle urgent situations calmly.",
     "persona": "adams",
-    "personaRole": "Mr Tarek, a shop manager",
-    "goal": "Negotiate a return.",
+    "personaRole": "Mr Karim, a mechanic",
+    "goal": "Explain a car problem.",
     "rubric": [
      {
-      "label": "States the problem",
-      "hint": "Scene goal: negotiate a return. Full credit if the learner clearly shows: states the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Describes the problem",
+      "hint": "Scene goal: explain a car problem. Full credit if the learner clearly shows: describes the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Stays polite",
-      "hint": "Scene goal: negotiate a return. Full credit if the learner clearly shows: stays polite. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Answers questions",
+      "hint": "Scene goal: explain a car problem. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Accepts a fair solution",
-      "hint": "Scene goal: negotiate a return. Full credit if the learner clearly shows: accepts a fair solution. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Agrees the next step",
+      "hint": "Scene goal: explain a car problem. Full credit if the learner clearly shows: agrees the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Tarek, a shop manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Negotiate a return.",
+     "Open the scene in character as Mr Karim, a mechanic: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a car problem.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the problem; Stays polite; Accepts a fair solution.",
+     "Move through the rubric points naturally: Describes the problem; Answers questions; Agrees the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2430,32 +2430,32 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "daily-life-b2-u3-l4",
-    "title": "Understanding a contract",
-    "unit": "Money and rights",
-    "description": "Handle money matters, contracts and complaints.",
-    "persona": "sara",
-    "personaRole": "Dalia, a bank adviser",
-    "goal": "Ask about a long contract.",
+    "id": "daily-life-b2-u6-l4",
+    "title": "Helping someone in need",
+    "unit": "Emergencies and urgent problems",
+    "description": "Handle urgent situations calmly.",
+    "persona": "adams",
+    "personaRole": "Mr Adel, a person who feels ill",
+    "goal": "Help calmly and call for help.",
     "rubric": [
      {
-      "label": "Asks about the terms",
-      "hint": "Scene goal: ask about a long contract. Full credit if the learner clearly shows: asks about the terms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks questions",
+      "hint": "Scene goal: help calmly and call for help. Full credit if the learner clearly shows: asks questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Checks the cost",
-      "hint": "Scene goal: ask about a long contract. Full credit if the learner clearly shows: checks the cost. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Reassures",
+      "hint": "Scene goal: help calmly and call for help. Full credit if the learner clearly shows: reassures. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks about leaving",
-      "hint": "Scene goal: ask about a long contract. Full credit if the learner clearly shows: asks about leaving. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gets help",
+      "hint": "Scene goal: help calmly and call for help. Full credit if the learner clearly shows: gets help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Dalia, a bank adviser: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about a long contract.",
+     "Open the scene in character as Mr Adel, a person who feels ill: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Help calmly and call for help.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about the terms; Checks the cost; Asks about leaving.",
+     "Move through the rubric points naturally: Asks questions; Reassures; Gets help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2600,6 +2600,142 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "daily-life-b2-u3-l1",
+    "title": "Renting a flat",
+    "unit": "Money and rights",
+    "description": "Handle money matters, contracts and complaints.",
+    "persona": "adams",
+    "personaRole": "Mr Adel, a landlord",
+    "goal": "Ask about the terms of a rental.",
+    "rubric": [
+     {
+      "label": "Asks about the cost",
+      "hint": "Scene goal: ask about the terms of a rental. Full credit if the learner clearly shows: asks about the cost. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Asks about the contract",
+      "hint": "Scene goal: ask about the terms of a rental. Full credit if the learner clearly shows: asks about the contract. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Checks the date",
+      "hint": "Scene goal: ask about the terms of a rental. Full credit if the learner clearly shows: checks the date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Adel, a landlord: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask about the terms of a rental.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks about the cost; Asks about the contract; Checks the date.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-b2-u3-l2",
+    "title": "Making a formal complaint",
+    "unit": "Money and rights",
+    "description": "Handle money matters, contracts and complaints.",
+    "persona": "sara",
+    "personaRole": "Ms Reem, a manager",
+    "goal": "Make a formal complaint.",
+    "rubric": [
+     {
+      "label": "States the facts",
+      "hint": "Scene goal: make a formal complaint. Full credit if the learner clearly shows: states the facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "States what you want",
+      "hint": "Scene goal: make a formal complaint. Full credit if the learner clearly shows: states what you want. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Stays calm",
+      "hint": "Scene goal: make a formal complaint. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Reem, a manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Make a formal complaint.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the facts; States what you want; Stays calm.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-b2-u3-l3",
+    "title": "Returning a product without a receipt",
+    "unit": "Money and rights",
+    "description": "Handle money matters, contracts and complaints.",
+    "persona": "adams",
+    "personaRole": "Mr Tarek, a shop manager",
+    "goal": "Negotiate a return.",
+    "rubric": [
+     {
+      "label": "States the problem",
+      "hint": "Scene goal: negotiate a return. Full credit if the learner clearly shows: states the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Stays polite",
+      "hint": "Scene goal: negotiate a return. Full credit if the learner clearly shows: stays polite. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Accepts a fair solution",
+      "hint": "Scene goal: negotiate a return. Full credit if the learner clearly shows: accepts a fair solution. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Tarek, a shop manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Negotiate a return.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the problem; Stays polite; Accepts a fair solution.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-b2-u3-l4",
+    "title": "Understanding a contract",
+    "unit": "Money and rights",
+    "description": "Handle money matters, contracts and complaints.",
+    "persona": "sara",
+    "personaRole": "Dalia, a bank adviser",
+    "goal": "Ask about a long contract.",
+    "rubric": [
+     {
+      "label": "Asks about the terms",
+      "hint": "Scene goal: ask about a long contract. Full credit if the learner clearly shows: asks about the terms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Checks the cost",
+      "hint": "Scene goal: ask about a long contract. Full credit if the learner clearly shows: checks the cost. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Asks about leaving",
+      "hint": "Scene goal: ask about a long contract. Full credit if the learner clearly shows: asks about leaving. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dalia, a bank adviser: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask about a long contract.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks about the terms; Checks the cost; Asks about leaving.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "daily-life-b2-u5-l1",
     "title": "Explaining a custom",
     "unit": "Culture and customs",
@@ -2732,142 +2868,6 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "level": "B2",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b2-u6-l1",
-    "title": "Calling for help",
-    "unit": "Emergencies and urgent problems",
-    "description": "Handle urgent situations calmly.",
-    "persona": "adams",
-    "personaRole": "Emergency operator Mr Sherif",
-    "goal": "Give the key facts calmly.",
-    "rubric": [
-     {
-      "label": "Says where",
-      "hint": "Scene goal: give the key facts calmly. Full credit if the learner clearly shows: says where. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Says what happened",
-      "hint": "Scene goal: give the key facts calmly. Full credit if the learner clearly shows: says what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Answers questions",
-      "hint": "Scene goal: give the key facts calmly. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Emergency operator Mr Sherif: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give the key facts calmly.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says where; Says what happened; Answers questions.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b2-u6-l2",
-    "title": "Reporting a lost item",
-    "unit": "Emergencies and urgent problems",
-    "description": "Handle urgent situations calmly.",
-    "persona": "sara",
-    "personaRole": "Nadia, a police officer",
-    "goal": "Report a lost item.",
-    "rubric": [
-     {
-      "label": "Describes the item",
-      "hint": "Scene goal: report a lost item. Full credit if the learner clearly shows: describes the item. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Says where and when",
-      "hint": "Scene goal: report a lost item. Full credit if the learner clearly shows: says where and when. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Gives contact",
-      "hint": "Scene goal: report a lost item. Full credit if the learner clearly shows: gives contact. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Nadia, a police officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report a lost item.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes the item; Says where and when; Gives contact.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b2-u6-l3",
-    "title": "Reporting a car problem",
-    "unit": "Emergencies and urgent problems",
-    "description": "Handle urgent situations calmly.",
-    "persona": "adams",
-    "personaRole": "Mr Karim, a mechanic",
-    "goal": "Explain a car problem.",
-    "rubric": [
-     {
-      "label": "Describes the problem",
-      "hint": "Scene goal: explain a car problem. Full credit if the learner clearly shows: describes the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Answers questions",
-      "hint": "Scene goal: explain a car problem. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Agrees the next step",
-      "hint": "Scene goal: explain a car problem. Full credit if the learner clearly shows: agrees the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Karim, a mechanic: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a car problem.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes the problem; Answers questions; Agrees the next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-b2-u6-l4",
-    "title": "Helping someone in need",
-    "unit": "Emergencies and urgent problems",
-    "description": "Handle urgent situations calmly.",
-    "persona": "adams",
-    "personaRole": "Mr Adel, a person who feels ill",
-    "goal": "Help calmly and call for help.",
-    "rubric": [
-     {
-      "label": "Asks questions",
-      "hint": "Scene goal: help calmly and call for help. Full credit if the learner clearly shows: asks questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Reassures",
-      "hint": "Scene goal: help calmly and call for help. Full credit if the learner clearly shows: reassures. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Gets help",
-      "hint": "Scene goal: help calmly and call for help. Full credit if the learner clearly shows: gets help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, a person who feels ill: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Help calmly and call for help.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks questions; Reassures; Gets help.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    }
@@ -3010,138 +3010,138 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "daily-life-c1-u2-l1",
-    "title": "Discussing values",
-    "unit": "Complex personal topics",
-    "description": "Talk about values, beliefs and big decisions.",
+    "id": "daily-life-c1-u5-l1",
+    "title": "Opening a bank account abroad",
+    "unit": "Living abroad",
+    "description": "Handle life in another country with confidence.",
     "persona": "adams",
-    "personaRole": "Mr Karim, a friend with a different view",
-    "goal": "Discuss values with respect.",
+    "personaRole": "Mr Karim, a bank adviser",
+    "goal": "Open an account and understand the terms.",
     "rubric": [
      {
-      "label": "States a view",
-      "hint": "Scene goal: discuss values with respect. Full credit if the learner clearly shows: states a view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Asks about requirements",
+      "hint": "Scene goal: open an account and understand the terms. Full credit if the learner clearly shows: asks about requirements. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Asks about his",
-      "hint": "Scene goal: discuss values with respect. Full credit if the learner clearly shows: asks about his. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Asks about fees",
+      "hint": "Scene goal: open an account and understand the terms. Full credit if the learner clearly shows: asks about fees. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Stays respectful",
-      "hint": "Scene goal: discuss values with respect. Full credit if the learner clearly shows: stays respectful. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Confirms the steps",
+      "hint": "Scene goal: open an account and understand the terms. Full credit if the learner clearly shows: confirms the steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Karim, a friend with a different view: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss values with respect.",
+     "Open the scene in character as Mr Karim, a bank adviser: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Open an account and understand the terms.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States a view; Asks about his; Stays respectful.",
+     "Move through the rubric points naturally: Asks about requirements; Asks about fees; Confirms the steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "daily-life-c1-u2-l2",
-    "title": "Making a hard decision",
-    "unit": "Complex personal topics",
-    "description": "Talk about values, beliefs and big decisions.",
+    "id": "daily-life-c1-u5-l2",
+    "title": "Talking to a school or doctor",
+    "unit": "Living abroad",
+    "description": "Handle life in another country with confidence.",
     "persona": "sara",
-    "personaRole": "Rania, a friend who wants advice",
-    "goal": "Think through a big decision with a friend.",
+    "personaRole": "Ms Reem, a school administrator",
+    "goal": "Handle a formal appointment.",
     "rubric": [
      {
-      "label": "Lists options",
-      "hint": "Scene goal: think through a big decision with a friend. Full credit if the learner clearly shows: lists options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "States the need",
+      "hint": "Scene goal: handle a formal appointment. Full credit if the learner clearly shows: states the need. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Weighs them",
-      "hint": "Scene goal: think through a big decision with a friend. Full credit if the learner clearly shows: weighs them. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Answers questions",
+      "hint": "Scene goal: handle a formal appointment. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Does not decide for her",
-      "hint": "Scene goal: think through a big decision with a friend. Full credit if the learner clearly shows: does not decide for her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Confirms the next step",
+      "hint": "Scene goal: handle a formal appointment. Full credit if the learner clearly shows: confirms the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Rania, a friend who wants advice: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Think through a big decision with a friend.",
+     "Open the scene in character as Ms Reem, a school administrator: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Handle a formal appointment.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Lists options; Weighs them; Does not decide for her.",
+     "Move through the rubric points naturally: States the need; Answers questions; Confirms the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "daily-life-c1-u2-l3",
-    "title": "Talking about regrets",
-    "unit": "Complex personal topics",
-    "description": "Talk about values, beliefs and big decisions.",
+    "id": "daily-life-c1-u5-l3",
+    "title": "Making local friends",
+    "unit": "Living abroad",
+    "description": "Handle life in another country with confidence.",
+    "persona": "sara",
+    "personaRole": "Hana, a new local friend",
+    "goal": "Build a friendship.",
+    "rubric": [
+     {
+      "label": "Shows interest",
+      "hint": "Scene goal: build a friendship. Full credit if the learner clearly shows: shows interest. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Shares something personal",
+      "hint": "Scene goal: build a friendship. Full credit if the learner clearly shows: shares something personal. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Plans to meet",
+      "hint": "Scene goal: build a friendship. Full credit if the learner clearly shows: plans to meet. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Hana, a new local friend: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Build a friendship.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Shows interest; Shares something personal; Plans to meet.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-c1-u5-l4",
+    "title": "Settling in",
+    "unit": "Living abroad",
+    "description": "Handle life in another country with confidence.",
     "persona": "adams",
-    "personaRole": "Mr Wael, a friend who has regrets",
-    "goal": "Discuss regret with care.",
+    "personaRole": "Mr Hamdy, a neighbour who welcomes you",
+    "goal": "Talk about life in a new place.",
     "rubric": [
      {
-      "label": "Listens",
-      "hint": "Scene goal: discuss regret with care. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Describes experiences",
+      "hint": "Scene goal: talk about life in a new place. Full credit if the learner clearly shows: describes experiences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Reflects",
-      "hint": "Scene goal: discuss regret with care. Full credit if the learner clearly shows: reflects. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Asks for tips",
+      "hint": "Scene goal: talk about life in a new place. Full credit if the learner clearly shows: asks for tips. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Offers perspective",
-      "hint": "Scene goal: discuss regret with care. Full credit if the learner clearly shows: offers perspective. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Shows thanks",
+      "hint": "Scene goal: talk about life in a new place. Full credit if the learner clearly shows: shows thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Wael, a friend who has regrets: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss regret with care.",
+     "Open the scene in character as Mr Hamdy, a neighbour who welcomes you: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Talk about life in a new place.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Listens; Reflects; Offers perspective.",
+     "Move through the rubric points naturally: Describes experiences; Asks for tips; Shows thanks.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-c1-u2-l4",
-    "title": "Describing change",
-    "unit": "Complex personal topics",
-    "description": "Talk about values, beliefs and big decisions.",
-    "persona": "sara",
-    "personaRole": "Amira, a friend who has not seen you for years",
-    "goal": "Describe how you changed.",
-    "rubric": [
-     {
-      "label": "Compares then and now",
-      "hint": "Scene goal: describe how you changed. Full credit if the learner clearly shows: compares then and now. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Gives reasons",
-      "hint": "Scene goal: describe how you changed. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Links to values",
-      "hint": "Scene goal: describe how you changed. Full credit if the learner clearly shows: links to values. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Amira, a friend who has not seen you for years: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe how you changed.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Compares then and now; Gives reasons; Links to values.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -3282,6 +3282,142 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "daily-life-c1-u2-l1",
+    "title": "Discussing values",
+    "unit": "Complex personal topics",
+    "description": "Talk about values, beliefs and big decisions.",
+    "persona": "adams",
+    "personaRole": "Mr Karim, a friend with a different view",
+    "goal": "Discuss values with respect.",
+    "rubric": [
+     {
+      "label": "States a view",
+      "hint": "Scene goal: discuss values with respect. Full credit if the learner clearly shows: states a view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Asks about his",
+      "hint": "Scene goal: discuss values with respect. Full credit if the learner clearly shows: asks about his. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Stays respectful",
+      "hint": "Scene goal: discuss values with respect. Full credit if the learner clearly shows: stays respectful. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Karim, a friend with a different view: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Discuss values with respect.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States a view; Asks about his; Stays respectful.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-c1-u2-l2",
+    "title": "Making a hard decision",
+    "unit": "Complex personal topics",
+    "description": "Talk about values, beliefs and big decisions.",
+    "persona": "sara",
+    "personaRole": "Rania, a friend who wants advice",
+    "goal": "Think through a big decision with a friend.",
+    "rubric": [
+     {
+      "label": "Lists options",
+      "hint": "Scene goal: think through a big decision with a friend. Full credit if the learner clearly shows: lists options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Weighs them",
+      "hint": "Scene goal: think through a big decision with a friend. Full credit if the learner clearly shows: weighs them. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Does not decide for her",
+      "hint": "Scene goal: think through a big decision with a friend. Full credit if the learner clearly shows: does not decide for her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Rania, a friend who wants advice: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Think through a big decision with a friend.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Lists options; Weighs them; Does not decide for her.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-c1-u2-l3",
+    "title": "Talking about regrets",
+    "unit": "Complex personal topics",
+    "description": "Talk about values, beliefs and big decisions.",
+    "persona": "adams",
+    "personaRole": "Mr Wael, a friend who has regrets",
+    "goal": "Discuss regret with care.",
+    "rubric": [
+     {
+      "label": "Listens",
+      "hint": "Scene goal: discuss regret with care. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Reflects",
+      "hint": "Scene goal: discuss regret with care. Full credit if the learner clearly shows: reflects. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Offers perspective",
+      "hint": "Scene goal: discuss regret with care. Full credit if the learner clearly shows: offers perspective. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Wael, a friend who has regrets: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Discuss regret with care.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Listens; Reflects; Offers perspective.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "daily-life-c1-u2-l4",
+    "title": "Describing change",
+    "unit": "Complex personal topics",
+    "description": "Talk about values, beliefs and big decisions.",
+    "persona": "sara",
+    "personaRole": "Amira, a friend who has not seen you for years",
+    "goal": "Describe how you changed.",
+    "rubric": [
+     {
+      "label": "Compares then and now",
+      "hint": "Scene goal: describe how you changed. Full credit if the learner clearly shows: compares then and now. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Gives reasons",
+      "hint": "Scene goal: describe how you changed. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Links to values",
+      "hint": "Scene goal: describe how you changed. Full credit if the learner clearly shows: links to values. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Amira, a friend who has not seen you for years: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Describe how you changed.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Compares then and now; Gives reasons; Links to values.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "daily-life-c1-u4-l1",
     "title": "Resolving a neighbour dispute",
     "unit": "Dealing with conflict",
@@ -3410,142 +3546,6 @@ export const DAILY_LIFE: CurriculumProgramme = {
      "Let the learner work toward this goal: Hold your position politely.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Repeats the limit; Offers an alternative.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-c1-u5-l1",
-    "title": "Opening a bank account abroad",
-    "unit": "Living abroad",
-    "description": "Handle life in another country with confidence.",
-    "persona": "adams",
-    "personaRole": "Mr Karim, a bank adviser",
-    "goal": "Open an account and understand the terms.",
-    "rubric": [
-     {
-      "label": "Asks about requirements",
-      "hint": "Scene goal: open an account and understand the terms. Full credit if the learner clearly shows: asks about requirements. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Asks about fees",
-      "hint": "Scene goal: open an account and understand the terms. Full credit if the learner clearly shows: asks about fees. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Confirms the steps",
-      "hint": "Scene goal: open an account and understand the terms. Full credit if the learner clearly shows: confirms the steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Karim, a bank adviser: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Open an account and understand the terms.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about requirements; Asks about fees; Confirms the steps.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-c1-u5-l2",
-    "title": "Talking to a school or doctor",
-    "unit": "Living abroad",
-    "description": "Handle life in another country with confidence.",
-    "persona": "sara",
-    "personaRole": "Ms Reem, a school administrator",
-    "goal": "Handle a formal appointment.",
-    "rubric": [
-     {
-      "label": "States the need",
-      "hint": "Scene goal: handle a formal appointment. Full credit if the learner clearly shows: states the need. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Answers questions",
-      "hint": "Scene goal: handle a formal appointment. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Confirms the next step",
-      "hint": "Scene goal: handle a formal appointment. Full credit if the learner clearly shows: confirms the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ms Reem, a school administrator: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle a formal appointment.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the need; Answers questions; Confirms the next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-c1-u5-l3",
-    "title": "Making local friends",
-    "unit": "Living abroad",
-    "description": "Handle life in another country with confidence.",
-    "persona": "sara",
-    "personaRole": "Hana, a new local friend",
-    "goal": "Build a friendship.",
-    "rubric": [
-     {
-      "label": "Shows interest",
-      "hint": "Scene goal: build a friendship. Full credit if the learner clearly shows: shows interest. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Shares something personal",
-      "hint": "Scene goal: build a friendship. Full credit if the learner clearly shows: shares something personal. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Plans to meet",
-      "hint": "Scene goal: build a friendship. Full credit if the learner clearly shows: plans to meet. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hana, a new local friend: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Build a friendship.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Shows interest; Shares something personal; Plans to meet.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "daily-life-c1-u5-l4",
-    "title": "Settling in",
-    "unit": "Living abroad",
-    "description": "Handle life in another country with confidence.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a neighbour who welcomes you",
-    "goal": "Talk about life in a new place.",
-    "rubric": [
-     {
-      "label": "Describes experiences",
-      "hint": "Scene goal: talk about life in a new place. Full credit if the learner clearly shows: describes experiences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Asks for tips",
-      "hint": "Scene goal: talk about life in a new place. Full credit if the learner clearly shows: asks for tips. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Shows thanks",
-      "hint": "Scene goal: talk about life in a new place. Full credit if the learner clearly shows: shows thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a neighbour who welcomes you: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about life in a new place.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes experiences; Asks for tips; Shows thanks.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",

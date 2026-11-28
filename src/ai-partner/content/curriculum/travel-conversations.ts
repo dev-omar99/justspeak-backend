@@ -692,6 +692,142 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "status": "draft"
    },
    {
+    "id": "travel-a2-u5-l1",
+    "title": "I lost my bag",
+    "unit": "Small problems",
+    "description": "Say sorry and ask for help when something goes wrong.",
+    "persona": "adams",
+    "personaRole": "Mr Karim, a lost-property clerk",
+    "goal": "Report a lost bag.",
+    "rubric": [
+     {
+      "label": "Describes the bag",
+      "hint": "Scene goal: report a lost bag. Full credit if the learner clearly shows: describes the bag. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says where and when",
+      "hint": "Scene goal: report a lost bag. Full credit if the learner clearly shows: says where and when. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives a number",
+      "hint": "Scene goal: report a lost bag. Full credit if the learner clearly shows: gives a number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Karim, a lost-property clerk: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Report a lost bag.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Describes the bag; Says where and when; Gives a number.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-a2-u5-l2",
+    "title": "I need a doctor",
+    "unit": "Small problems",
+    "description": "Say sorry and ask for help when something goes wrong.",
+    "persona": "sara",
+    "personaRole": "Dr Heba, a doctor",
+    "goal": "Tell the doctor what is wrong and for how long.",
+    "rubric": [
+     {
+      "label": "Says the problem",
+      "hint": "Scene goal: tell the doctor what is wrong and for how long. Full credit if the learner clearly shows: says the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says how long",
+      "hint": "Scene goal: tell the doctor what is wrong and for how long. Full credit if the learner clearly shows: says how long. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks what to do",
+      "hint": "Scene goal: tell the doctor what is wrong and for how long. Full credit if the learner clearly shows: asks what to do. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Heba, a doctor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Tell the doctor what is wrong and for how long.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says the problem; Says how long; Asks what to do.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-a2-u5-l3",
+    "title": "My phone does not work",
+    "unit": "Small problems",
+    "description": "Say sorry and ask for help when something goes wrong.",
+    "persona": "adams",
+    "personaRole": "Mr Hamdy, a shop assistant",
+    "goal": "Explain that your phone does not work and ask for help.",
+    "rubric": [
+     {
+      "label": "Says the problem",
+      "hint": "Scene goal: explain that your phone does not work and ask for help. Full credit if the learner clearly shows: says the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Asks for help",
+      "hint": "Scene goal: explain that your phone does not work and ask for help. Full credit if the learner clearly shows: asks for help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Thanks him",
+      "hint": "Scene goal: explain that your phone does not work and ask for help. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hamdy, a shop assistant: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain that your phone does not work and ask for help.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says the problem; Asks for help; Thanks him.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-a2-u5-l4",
+    "title": "Saying sorry",
+    "unit": "Small problems",
+    "description": "Say sorry and ask for help when something goes wrong.",
+    "persona": "sara",
+    "personaRole": "Rasha, a person you bumped into",
+    "goal": "Say sorry and move on.",
+    "rubric": [
+     {
+      "label": "Says sorry",
+      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Explains",
+      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: explains. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says thank you",
+      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Rasha, a person you bumped into: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say sorry and move on.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says sorry; Explains; Says thank you.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "travel-a2-u2-l1",
     "title": "Booking a room",
     "unit": "Hotels and rooms",
@@ -1098,142 +1234,6 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
     "licence": "JustSpeak-owned",
     "status": "draft"
-   },
-   {
-    "id": "travel-a2-u5-l1",
-    "title": "I lost my bag",
-    "unit": "Small problems",
-    "description": "Say sorry and ask for help when something goes wrong.",
-    "persona": "adams",
-    "personaRole": "Mr Karim, a lost-property clerk",
-    "goal": "Report a lost bag.",
-    "rubric": [
-     {
-      "label": "Describes the bag",
-      "hint": "Scene goal: report a lost bag. Full credit if the learner clearly shows: describes the bag. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says where and when",
-      "hint": "Scene goal: report a lost bag. Full credit if the learner clearly shows: says where and when. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives a number",
-      "hint": "Scene goal: report a lost bag. Full credit if the learner clearly shows: gives a number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Karim, a lost-property clerk: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report a lost bag.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes the bag; Says where and when; Gives a number.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-a2-u5-l2",
-    "title": "I need a doctor",
-    "unit": "Small problems",
-    "description": "Say sorry and ask for help when something goes wrong.",
-    "persona": "sara",
-    "personaRole": "Dr Heba, a doctor",
-    "goal": "Tell the doctor what is wrong and for how long.",
-    "rubric": [
-     {
-      "label": "Says the problem",
-      "hint": "Scene goal: tell the doctor what is wrong and for how long. Full credit if the learner clearly shows: says the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says how long",
-      "hint": "Scene goal: tell the doctor what is wrong and for how long. Full credit if the learner clearly shows: says how long. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks what to do",
-      "hint": "Scene goal: tell the doctor what is wrong and for how long. Full credit if the learner clearly shows: asks what to do. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Heba, a doctor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Tell the doctor what is wrong and for how long.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says the problem; Says how long; Asks what to do.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-a2-u5-l3",
-    "title": "My phone does not work",
-    "unit": "Small problems",
-    "description": "Say sorry and ask for help when something goes wrong.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a shop assistant",
-    "goal": "Explain that your phone does not work and ask for help.",
-    "rubric": [
-     {
-      "label": "Says the problem",
-      "hint": "Scene goal: explain that your phone does not work and ask for help. Full credit if the learner clearly shows: says the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Asks for help",
-      "hint": "Scene goal: explain that your phone does not work and ask for help. Full credit if the learner clearly shows: asks for help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Thanks him",
-      "hint": "Scene goal: explain that your phone does not work and ask for help. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a shop assistant: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain that your phone does not work and ask for help.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says the problem; Asks for help; Thanks him.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-a2-u5-l4",
-    "title": "Saying sorry",
-    "unit": "Small problems",
-    "description": "Say sorry and ask for help when something goes wrong.",
-    "persona": "sara",
-    "personaRole": "Rasha, a person you bumped into",
-    "goal": "Say sorry and move on.",
-    "rubric": [
-     {
-      "label": "Says sorry",
-      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Explains",
-      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: explains. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says thank you",
-      "hint": "Scene goal: say sorry and move on. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Rasha, a person you bumped into: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say sorry and move on.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says sorry; Explains; Says thank you.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
    }
   ],
   "B1": [
@@ -1374,142 +1374,6 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "status": "draft"
    },
    {
-    "id": "travel-b1-u2-l1",
-    "title": "Describing what you need",
-    "unit": "Hotels in detail",
-    "description": "Handle hotel needs and small problems clearly.",
-    "persona": "adams",
-    "personaRole": "Mr Adel, a hotel manager",
-    "goal": "Say what you need in a room.",
-    "rubric": [
-     {
-      "label": "Says what you need",
-      "hint": "Scene goal: say what you need in a room. Full credit if the learner clearly shows: says what you need. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks about options",
-      "hint": "Scene goal: say what you need in a room. Full credit if the learner clearly shows: asks about options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Confirms",
-      "hint": "Scene goal: say what you need in a room. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, a hotel manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say what you need in a room.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says what you need; Asks about options; Confirms.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b1-u2-l2",
-    "title": "Complaining politely",
-    "unit": "Hotels in detail",
-    "description": "Handle hotel needs and small problems clearly.",
-    "persona": "sara",
-    "personaRole": "Rania, a receptionist",
-    "goal": "Complain about noise or a dirty room.",
-    "rubric": [
-     {
-      "label": "States the problem",
-      "hint": "Scene goal: complain about noise or a dirty room. Full credit if the learner clearly shows: states the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Stays calm",
-      "hint": "Scene goal: complain about noise or a dirty room. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks for a fix",
-      "hint": "Scene goal: complain about noise or a dirty room. Full credit if the learner clearly shows: asks for a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Rania, a receptionist: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Complain about noise or a dirty room.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the problem; Stays calm; Asks for a fix.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b1-u2-l3",
-    "title": "Asking for a refund",
-    "unit": "Hotels in detail",
-    "description": "Handle hotel needs and small problems clearly.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a manager",
-    "goal": "Ask for money back.",
-    "rubric": [
-     {
-      "label": "States the reason",
-      "hint": "Scene goal: ask for money back. Full credit if the learner clearly shows: states the reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks clearly",
-      "hint": "Scene goal: ask for money back. Full credit if the learner clearly shows: asks clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Accepts a fair offer",
-      "hint": "Scene goal: ask for money back. Full credit if the learner clearly shows: accepts a fair offer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for money back.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the reason; Asks clearly; Accepts a fair offer.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b1-u2-l4",
-    "title": "Recommending places",
-    "unit": "Hotels in detail",
-    "description": "Handle hotel needs and small problems clearly.",
-    "persona": "sara",
-    "personaRole": "Salma, a local guide",
-    "goal": "Ask for tips about places to see.",
-    "rubric": [
-     {
-      "label": "Asks for tips",
-      "hint": "Scene goal: ask for tips about places to see. Full credit if the learner clearly shows: asks for tips. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks about time",
-      "hint": "Scene goal: ask for tips about places to see. Full credit if the learner clearly shows: asks about time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Confirms",
-      "hint": "Scene goal: ask for tips about places to see. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Salma, a local guide: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for tips about places to see.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for tips; Asks about time; Confirms.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
     "id": "travel-b1-u3-l1",
     "title": "Talking about your trip",
     "unit": "Travel conversations",
@@ -1642,6 +1506,278 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "level": "B1",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Social conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u6-l1",
+    "title": "Insurance and the doctor",
+    "unit": "Health and safety",
+    "description": "Handle health and safety situations while travelling.",
+    "persona": "adams",
+    "personaRole": "Dr Karim, a doctor",
+    "goal": "Explain symptoms and insurance.",
+    "rubric": [
+     {
+      "label": "Describes the problem",
+      "hint": "Scene goal: explain symptoms and insurance. Full credit if the learner clearly shows: describes the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Mentions insurance",
+      "hint": "Scene goal: explain symptoms and insurance. Full credit if the learner clearly shows: mentions insurance. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Understands advice",
+      "hint": "Scene goal: explain symptoms and insurance. Full credit if the learner clearly shows: understands advice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dr Karim, a doctor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain symptoms and insurance.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Describes the problem; Mentions insurance; Understands advice.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u6-l2",
+    "title": "Reporting a theft",
+    "unit": "Health and safety",
+    "description": "Handle health and safety situations while travelling.",
+    "persona": "sara",
+    "personaRole": "Ms Nadia, a police officer",
+    "goal": "Report a theft.",
+    "rubric": [
+     {
+      "label": "Describes what happened",
+      "hint": "Scene goal: report a theft. Full credit if the learner clearly shows: describes what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives details",
+      "hint": "Scene goal: report a theft. Full credit if the learner clearly shows: gives details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks for a report",
+      "hint": "Scene goal: report a theft. Full credit if the learner clearly shows: asks for a report. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Nadia, a police officer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Report a theft.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Describes what happened; Gives details; Asks for a report.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u6-l3",
+    "title": "Getting help at night",
+    "unit": "Health and safety",
+    "description": "Handle health and safety situations while travelling.",
+    "persona": "adams",
+    "personaRole": "Mr Wael, a hotel night manager",
+    "goal": "Ask for urgent help.",
+    "rubric": [
+     {
+      "label": "States the problem",
+      "hint": "Scene goal: ask for urgent help. Full credit if the learner clearly shows: states the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks clearly",
+      "hint": "Scene goal: ask for urgent help. Full credit if the learner clearly shows: asks clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Follows advice",
+      "hint": "Scene goal: ask for urgent help. Full credit if the learner clearly shows: follows advice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Wael, a hotel night manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for urgent help.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the problem; Asks clearly; Follows advice.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u6-l4",
+    "title": "Telling someone you are safe",
+    "unit": "Health and safety",
+    "description": "Handle health and safety situations while travelling.",
+    "persona": "sara",
+    "personaRole": "Salma, a family member on the phone",
+    "goal": "Update family calmly.",
+    "rubric": [
+     {
+      "label": "Says where",
+      "hint": "Scene goal: update family calmly. Full credit if the learner clearly shows: says where. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Says you are fine",
+      "hint": "Scene goal: update family calmly. Full credit if the learner clearly shows: says you are fine. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives the plan",
+      "hint": "Scene goal: update family calmly. Full credit if the learner clearly shows: gives the plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Salma, a family member on the phone: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Update family calmly.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says where; Says you are fine; Gives the plan.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u2-l1",
+    "title": "Describing what you need",
+    "unit": "Hotels in detail",
+    "description": "Handle hotel needs and small problems clearly.",
+    "persona": "adams",
+    "personaRole": "Mr Adel, a hotel manager",
+    "goal": "Say what you need in a room.",
+    "rubric": [
+     {
+      "label": "Says what you need",
+      "hint": "Scene goal: say what you need in a room. Full credit if the learner clearly shows: says what you need. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks about options",
+      "hint": "Scene goal: say what you need in a room. Full credit if the learner clearly shows: asks about options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Confirms",
+      "hint": "Scene goal: say what you need in a room. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Adel, a hotel manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say what you need in a room.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says what you need; Asks about options; Confirms.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u2-l2",
+    "title": "Complaining politely",
+    "unit": "Hotels in detail",
+    "description": "Handle hotel needs and small problems clearly.",
+    "persona": "sara",
+    "personaRole": "Rania, a receptionist",
+    "goal": "Complain about noise or a dirty room.",
+    "rubric": [
+     {
+      "label": "States the problem",
+      "hint": "Scene goal: complain about noise or a dirty room. Full credit if the learner clearly shows: states the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Stays calm",
+      "hint": "Scene goal: complain about noise or a dirty room. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks for a fix",
+      "hint": "Scene goal: complain about noise or a dirty room. Full credit if the learner clearly shows: asks for a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Rania, a receptionist: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Complain about noise or a dirty room.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the problem; Stays calm; Asks for a fix.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u2-l3",
+    "title": "Asking for a refund",
+    "unit": "Hotels in detail",
+    "description": "Handle hotel needs and small problems clearly.",
+    "persona": "adams",
+    "personaRole": "Mr Hamdy, a manager",
+    "goal": "Ask for money back.",
+    "rubric": [
+     {
+      "label": "States the reason",
+      "hint": "Scene goal: ask for money back. Full credit if the learner clearly shows: states the reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks clearly",
+      "hint": "Scene goal: ask for money back. Full credit if the learner clearly shows: asks clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Accepts a fair offer",
+      "hint": "Scene goal: ask for money back. Full credit if the learner clearly shows: accepts a fair offer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hamdy, a manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for money back.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the reason; Asks clearly; Accepts a fair offer.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b1-u2-l4",
+    "title": "Recommending places",
+    "unit": "Hotels in detail",
+    "description": "Handle hotel needs and small problems clearly.",
+    "persona": "sara",
+    "personaRole": "Salma, a local guide",
+    "goal": "Ask for tips about places to see.",
+    "rubric": [
+     {
+      "label": "Asks for tips",
+      "hint": "Scene goal: ask for tips about places to see. Full credit if the learner clearly shows: asks for tips. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks about time",
+      "hint": "Scene goal: ask for tips about places to see. Full credit if the learner clearly shows: asks about time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Confirms",
+      "hint": "Scene goal: ask for tips about places to see. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Salma, a local guide: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for tips about places to see.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for tips; Asks about time; Confirms.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Transactions and travel)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -1916,142 +2052,6 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
     "licence": "JustSpeak-owned",
     "status": "draft"
-   },
-   {
-    "id": "travel-b1-u6-l1",
-    "title": "Insurance and the doctor",
-    "unit": "Health and safety",
-    "description": "Handle health and safety situations while travelling.",
-    "persona": "adams",
-    "personaRole": "Dr Karim, a doctor",
-    "goal": "Explain symptoms and insurance.",
-    "rubric": [
-     {
-      "label": "Describes the problem",
-      "hint": "Scene goal: explain symptoms and insurance. Full credit if the learner clearly shows: describes the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Mentions insurance",
-      "hint": "Scene goal: explain symptoms and insurance. Full credit if the learner clearly shows: mentions insurance. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Understands advice",
-      "hint": "Scene goal: explain symptoms and insurance. Full credit if the learner clearly shows: understands advice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dr Karim, a doctor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain symptoms and insurance.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes the problem; Mentions insurance; Understands advice.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b1-u6-l2",
-    "title": "Reporting a theft",
-    "unit": "Health and safety",
-    "description": "Handle health and safety situations while travelling.",
-    "persona": "sara",
-    "personaRole": "Ms Nadia, a police officer",
-    "goal": "Report a theft.",
-    "rubric": [
-     {
-      "label": "Describes what happened",
-      "hint": "Scene goal: report a theft. Full credit if the learner clearly shows: describes what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives details",
-      "hint": "Scene goal: report a theft. Full credit if the learner clearly shows: gives details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks for a report",
-      "hint": "Scene goal: report a theft. Full credit if the learner clearly shows: asks for a report. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ms Nadia, a police officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report a theft.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes what happened; Gives details; Asks for a report.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b1-u6-l3",
-    "title": "Getting help at night",
-    "unit": "Health and safety",
-    "description": "Handle health and safety situations while travelling.",
-    "persona": "adams",
-    "personaRole": "Mr Wael, a hotel night manager",
-    "goal": "Ask for urgent help.",
-    "rubric": [
-     {
-      "label": "States the problem",
-      "hint": "Scene goal: ask for urgent help. Full credit if the learner clearly shows: states the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Asks clearly",
-      "hint": "Scene goal: ask for urgent help. Full credit if the learner clearly shows: asks clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Follows advice",
-      "hint": "Scene goal: ask for urgent help. Full credit if the learner clearly shows: follows advice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Wael, a hotel night manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for urgent help.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the problem; Asks clearly; Follows advice.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b1-u6-l4",
-    "title": "Telling someone you are safe",
-    "unit": "Health and safety",
-    "description": "Handle health and safety situations while travelling.",
-    "persona": "sara",
-    "personaRole": "Salma, a family member on the phone",
-    "goal": "Update family calmly.",
-    "rubric": [
-     {
-      "label": "Says where",
-      "hint": "Scene goal: update family calmly. Full credit if the learner clearly shows: says where. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Says you are fine",
-      "hint": "Scene goal: update family calmly. Full credit if the learner clearly shows: says you are fine. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives the plan",
-      "hint": "Scene goal: update family calmly. Full credit if the learner clearly shows: gives the plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Salma, a family member on the phone: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Update family calmly.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says where; Says you are fine; Gives the plan.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
    }
   ],
   "B2": [
@@ -2192,274 +2192,138 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "status": "draft"
    },
    {
-    "id": "travel-b2-u2-l1",
-    "title": "Describing a place",
-    "unit": "Detailed experiences",
-    "description": "Describe and discuss experiences while travelling.",
+    "id": "travel-b2-u5-l1",
+    "title": "Asking about a visa",
+    "unit": "Working and studying abroad",
+    "description": "Talk about longer stays, work and study abroad.",
     "persona": "adams",
-    "personaRole": "Mr Karim, a friend who asks about a place",
-    "goal": "Describe a place with detail.",
+    "personaRole": "Mr Adel, a consular officer",
+    "goal": "Ask about a visa.",
     "rubric": [
      {
-      "label": "Describes clearly",
-      "hint": "Scene goal: describe a place with detail. Full credit if the learner clearly shows: describes clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about requirements",
+      "hint": "Scene goal: ask about a visa. Full credit if the learner clearly shows: asks about requirements. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Uses comparison",
-      "hint": "Scene goal: describe a place with detail. Full credit if the learner clearly shows: uses comparison. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about time",
+      "hint": "Scene goal: ask about a visa. Full credit if the learner clearly shows: asks about time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives an opinion",
-      "hint": "Scene goal: describe a place with detail. Full credit if the learner clearly shows: gives an opinion. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Confirms",
+      "hint": "Scene goal: ask about a visa. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Karim, a friend who asks about a place: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe a place with detail.",
+     "Open the scene in character as Mr Adel, a consular officer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask about a visa.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Describes clearly; Uses comparison; Gives an opinion.",
+     "Move through the rubric points naturally: Asks about requirements; Asks about time; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-b2-u2-l2",
-    "title": "Giving a recommendation",
-    "unit": "Detailed experiences",
-    "description": "Describe and discuss experiences while travelling.",
-    "persona": "sara",
-    "personaRole": "Dina, a friend planning a trip",
-    "goal": "Recommend with reasons.",
-    "rubric": [
-     {
-      "label": "Gives reasons",
-      "hint": "Scene goal: recommend with reasons. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Mentions a downside",
-      "hint": "Scene goal: recommend with reasons. Full credit if the learner clearly shows: mentions a downside. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Says who it suits",
-      "hint": "Scene goal: recommend with reasons. Full credit if the learner clearly shows: says who it suits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dina, a friend planning a trip: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Recommend with reasons.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives reasons; Mentions a downside; Says who it suits.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b2-u2-l3",
-    "title": "Telling a travel story",
-    "unit": "Detailed experiences",
-    "description": "Describe and discuss experiences while travelling.",
+    "id": "travel-b2-u5-l2",
+    "title": "Finding a flat",
+    "unit": "Working and studying abroad",
+    "description": "Talk about longer stays, work and study abroad.",
     "persona": "adams",
-    "personaRole": "Mr Adel, a friend who likes stories",
-    "goal": "Tell a story from a trip.",
+    "personaRole": "Mr Karim, a landlord",
+    "goal": "Ask about a flat.",
     "rubric": [
      {
-      "label": "Sets the scene",
-      "hint": "Scene goal: tell a story from a trip. Full credit if the learner clearly shows: sets the scene. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about rent",
+      "hint": "Scene goal: ask about a flat. Full credit if the learner clearly shows: asks about rent. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Uses linking words",
-      "hint": "Scene goal: tell a story from a trip. Full credit if the learner clearly shows: uses linking words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about rules",
+      "hint": "Scene goal: ask about a flat. Full credit if the learner clearly shows: asks about rules. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Ends clearly",
-      "hint": "Scene goal: tell a story from a trip. Full credit if the learner clearly shows: ends clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Confirms",
+      "hint": "Scene goal: ask about a flat. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Adel, a friend who likes stories: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Tell a story from a trip.",
+     "Open the scene in character as Mr Karim, a landlord: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask about a flat.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Sets the scene; Uses linking words; Ends clearly.",
+     "Move through the rubric points naturally: Asks about rent; Asks about rules; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-b2-u2-l4",
-    "title": "Comparing destinations",
-    "unit": "Detailed experiences",
-    "description": "Describe and discuss experiences while travelling.",
+    "id": "travel-b2-u5-l3",
+    "title": "Talking to a manager abroad",
+    "unit": "Working and studying abroad",
+    "description": "Talk about longer stays, work and study abroad.",
     "persona": "sara",
-    "personaRole": "Mona, a friend choosing a place",
-    "goal": "Compare places in detail.",
+    "personaRole": "Ms Dina, a manager",
+    "goal": "Talk about work conditions.",
     "rubric": [
      {
-      "label": "Compares",
-      "hint": "Scene goal: compare places in detail. Full credit if the learner clearly shows: compares. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about hours",
+      "hint": "Scene goal: talk about work conditions. Full credit if the learner clearly shows: asks about hours. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives reasons",
-      "hint": "Scene goal: compare places in detail. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about pay",
+      "hint": "Scene goal: talk about work conditions. Full credit if the learner clearly shows: asks about pay. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Lets her choose",
-      "hint": "Scene goal: compare places in detail. Full credit if the learner clearly shows: lets her choose. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Confirms",
+      "hint": "Scene goal: talk about work conditions. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mona, a friend choosing a place: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Compare places in detail.",
+     "Open the scene in character as Ms Dina, a manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Talk about work conditions.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Compares; Gives reasons; Lets her choose.",
+     "Move through the rubric points naturally: Asks about hours; Asks about pay; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-b2-u3-l1",
-    "title": "A serious complaint",
-    "unit": "Problems abroad",
-    "description": "Solve harder problems calmly and clearly.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a hotel manager",
-    "goal": "Complain formally.",
-    "rubric": [
-     {
-      "label": "States facts",
-      "hint": "Scene goal: complain formally. Full credit if the learner clearly shows: states facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "States what you want",
-      "hint": "Scene goal: complain formally. Full credit if the learner clearly shows: states what you want. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Stays calm",
-      "hint": "Scene goal: complain formally. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a hotel manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Complain formally.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States facts; States what you want; Stays calm.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b2-u3-l2",
-    "title": "A dispute over a car rental",
-    "unit": "Problems abroad",
-    "description": "Solve harder problems calmly and clearly.",
+    "id": "travel-b2-u5-l4",
+    "title": "Making a plan for a longer trip",
+    "unit": "Working and studying abroad",
+    "description": "Talk about longer stays, work and study abroad.",
     "persona": "sara",
-    "personaRole": "Ms Reem, a rental agent",
-    "goal": "Dispute a charge.",
+    "personaRole": "Salma, a friend who will join",
+    "goal": "Plan a longer trip.",
     "rubric": [
      {
-      "label": "States the facts",
-      "hint": "Scene goal: dispute a charge. Full credit if the learner clearly shows: states the facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Suggests a plan",
+      "hint": "Scene goal: plan a longer trip. Full credit if the learner clearly shows: suggests a plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Quotes the contract",
-      "hint": "Scene goal: dispute a charge. Full credit if the learner clearly shows: quotes the contract. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about her view",
+      "hint": "Scene goal: plan a longer trip. Full credit if the learner clearly shows: asks about her view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Seeks a fix",
-      "hint": "Scene goal: dispute a charge. Full credit if the learner clearly shows: seeks a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Agrees",
+      "hint": "Scene goal: plan a longer trip. Full credit if the learner clearly shows: agrees. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Reem, a rental agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Dispute a charge.",
+     "Open the scene in character as Salma, a friend who will join: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Plan a longer trip.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the facts; Quotes the contract; Seeks a fix.",
+     "Move through the rubric points naturally: Suggests a plan; Asks about her view; Agrees.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b2-u3-l3",
-    "title": "Lost passport",
-    "unit": "Problems abroad",
-    "description": "Solve harder problems calmly and clearly.",
-    "persona": "adams",
-    "personaRole": "Mr Sherif, an embassy clerk",
-    "goal": "Report a lost passport.",
-    "rubric": [
-     {
-      "label": "Gives details",
-      "hint": "Scene goal: report a lost passport. Full credit if the learner clearly shows: gives details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Answers questions",
-      "hint": "Scene goal: report a lost passport. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Confirms the steps",
-      "hint": "Scene goal: report a lost passport. Full credit if the learner clearly shows: confirms the steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Sherif, an embassy clerk: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report a lost passport.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives details; Answers questions; Confirms the steps.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-b2-u3-l4",
-    "title": "Travel delays and compensation",
-    "unit": "Problems abroad",
-    "description": "Solve harder problems calmly and clearly.",
-    "persona": "sara",
-    "personaRole": "Heba, an airline agent",
-    "goal": "Ask about compensation.",
-    "rubric": [
-     {
-      "label": "States the facts",
-      "hint": "Scene goal: ask about compensation. Full credit if the learner clearly shows: states the facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Asks about rights",
-      "hint": "Scene goal: ask about compensation. Full credit if the learner clearly shows: asks about rights. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Confirms the next step",
-      "hint": "Scene goal: ask about compensation. Full credit if the learner clearly shows: confirms the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Heba, an airline agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about compensation.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the facts; Asks about rights; Confirms the next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -2600,138 +2464,274 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "status": "draft"
    },
    {
-    "id": "travel-b2-u5-l1",
-    "title": "Asking about a visa",
-    "unit": "Working and studying abroad",
-    "description": "Talk about longer stays, work and study abroad.",
+    "id": "travel-b2-u3-l1",
+    "title": "A serious complaint",
+    "unit": "Problems abroad",
+    "description": "Solve harder problems calmly and clearly.",
     "persona": "adams",
-    "personaRole": "Mr Adel, a consular officer",
-    "goal": "Ask about a visa.",
+    "personaRole": "Mr Hamdy, a hotel manager",
+    "goal": "Complain formally.",
     "rubric": [
      {
-      "label": "Asks about requirements",
-      "hint": "Scene goal: ask about a visa. Full credit if the learner clearly shows: asks about requirements. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "States facts",
+      "hint": "Scene goal: complain formally. Full credit if the learner clearly shows: states facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks about time",
-      "hint": "Scene goal: ask about a visa. Full credit if the learner clearly shows: asks about time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "States what you want",
+      "hint": "Scene goal: complain formally. Full credit if the learner clearly shows: states what you want. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Confirms",
-      "hint": "Scene goal: ask about a visa. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Stays calm",
+      "hint": "Scene goal: complain formally. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Adel, a consular officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about a visa.",
+     "Open the scene in character as Mr Hamdy, a hotel manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Complain formally.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about requirements; Asks about time; Confirms.",
+     "Move through the rubric points naturally: States facts; States what you want; Stays calm.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-b2-u5-l2",
-    "title": "Finding a flat",
-    "unit": "Working and studying abroad",
-    "description": "Talk about longer stays, work and study abroad.",
+    "id": "travel-b2-u3-l2",
+    "title": "A dispute over a car rental",
+    "unit": "Problems abroad",
+    "description": "Solve harder problems calmly and clearly.",
+    "persona": "sara",
+    "personaRole": "Ms Reem, a rental agent",
+    "goal": "Dispute a charge.",
+    "rubric": [
+     {
+      "label": "States the facts",
+      "hint": "Scene goal: dispute a charge. Full credit if the learner clearly shows: states the facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Quotes the contract",
+      "hint": "Scene goal: dispute a charge. Full credit if the learner clearly shows: quotes the contract. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Seeks a fix",
+      "hint": "Scene goal: dispute a charge. Full credit if the learner clearly shows: seeks a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Reem, a rental agent: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Dispute a charge.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the facts; Quotes the contract; Seeks a fix.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b2-u3-l3",
+    "title": "Lost passport",
+    "unit": "Problems abroad",
+    "description": "Solve harder problems calmly and clearly.",
     "persona": "adams",
-    "personaRole": "Mr Karim, a landlord",
-    "goal": "Ask about a flat.",
+    "personaRole": "Mr Sherif, an embassy clerk",
+    "goal": "Report a lost passport.",
     "rubric": [
      {
-      "label": "Asks about rent",
-      "hint": "Scene goal: ask about a flat. Full credit if the learner clearly shows: asks about rent. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives details",
+      "hint": "Scene goal: report a lost passport. Full credit if the learner clearly shows: gives details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks about rules",
-      "hint": "Scene goal: ask about a flat. Full credit if the learner clearly shows: asks about rules. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Answers questions",
+      "hint": "Scene goal: report a lost passport. Full credit if the learner clearly shows: answers questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Confirms",
-      "hint": "Scene goal: ask about a flat. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Confirms the steps",
+      "hint": "Scene goal: report a lost passport. Full credit if the learner clearly shows: confirms the steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Karim, a landlord: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about a flat.",
+     "Open the scene in character as Mr Sherif, an embassy clerk: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Report a lost passport.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about rent; Asks about rules; Confirms.",
+     "Move through the rubric points naturally: Gives details; Answers questions; Confirms the steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-b2-u5-l3",
-    "title": "Talking to a manager abroad",
-    "unit": "Working and studying abroad",
-    "description": "Talk about longer stays, work and study abroad.",
+    "id": "travel-b2-u3-l4",
+    "title": "Travel delays and compensation",
+    "unit": "Problems abroad",
+    "description": "Solve harder problems calmly and clearly.",
     "persona": "sara",
-    "personaRole": "Ms Dina, a manager",
-    "goal": "Talk about work conditions.",
+    "personaRole": "Heba, an airline agent",
+    "goal": "Ask about compensation.",
     "rubric": [
      {
-      "label": "Asks about hours",
-      "hint": "Scene goal: talk about work conditions. Full credit if the learner clearly shows: asks about hours. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "States the facts",
+      "hint": "Scene goal: ask about compensation. Full credit if the learner clearly shows: states the facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks about pay",
-      "hint": "Scene goal: talk about work conditions. Full credit if the learner clearly shows: asks about pay. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about rights",
+      "hint": "Scene goal: ask about compensation. Full credit if the learner clearly shows: asks about rights. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Confirms",
-      "hint": "Scene goal: talk about work conditions. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Confirms the next step",
+      "hint": "Scene goal: ask about compensation. Full credit if the learner clearly shows: confirms the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Ms Dina, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about work conditions.",
+     "Open the scene in character as Heba, an airline agent: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask about compensation.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about hours; Asks about pay; Confirms.",
+     "Move through the rubric points naturally: States the facts; Asks about rights; Confirms the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-b2-u5-l4",
-    "title": "Making a plan for a longer trip",
-    "unit": "Working and studying abroad",
-    "description": "Talk about longer stays, work and study abroad.",
-    "persona": "sara",
-    "personaRole": "Salma, a friend who will join",
-    "goal": "Plan a longer trip.",
+    "id": "travel-b2-u2-l1",
+    "title": "Describing a place",
+    "unit": "Detailed experiences",
+    "description": "Describe and discuss experiences while travelling.",
+    "persona": "adams",
+    "personaRole": "Mr Karim, a friend who asks about a place",
+    "goal": "Describe a place with detail.",
     "rubric": [
      {
-      "label": "Suggests a plan",
-      "hint": "Scene goal: plan a longer trip. Full credit if the learner clearly shows: suggests a plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Describes clearly",
+      "hint": "Scene goal: describe a place with detail. Full credit if the learner clearly shows: describes clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Asks about her view",
-      "hint": "Scene goal: plan a longer trip. Full credit if the learner clearly shows: asks about her view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Uses comparison",
+      "hint": "Scene goal: describe a place with detail. Full credit if the learner clearly shows: uses comparison. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Agrees",
-      "hint": "Scene goal: plan a longer trip. Full credit if the learner clearly shows: agrees. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives an opinion",
+      "hint": "Scene goal: describe a place with detail. Full credit if the learner clearly shows: gives an opinion. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Salma, a friend who will join: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Plan a longer trip.",
+     "Open the scene in character as Mr Karim, a friend who asks about a place: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Describe a place with detail.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Suggests a plan; Asks about her view; Agrees.",
+     "Move through the rubric points naturally: Describes clearly; Uses comparison; Gives an opinion.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b2-u2-l2",
+    "title": "Giving a recommendation",
+    "unit": "Detailed experiences",
+    "description": "Describe and discuss experiences while travelling.",
+    "persona": "sara",
+    "personaRole": "Dina, a friend planning a trip",
+    "goal": "Recommend with reasons.",
+    "rubric": [
+     {
+      "label": "Gives reasons",
+      "hint": "Scene goal: recommend with reasons. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Mentions a downside",
+      "hint": "Scene goal: recommend with reasons. Full credit if the learner clearly shows: mentions a downside. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Says who it suits",
+      "hint": "Scene goal: recommend with reasons. Full credit if the learner clearly shows: says who it suits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dina, a friend planning a trip: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Recommend with reasons.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Gives reasons; Mentions a downside; Says who it suits.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b2-u2-l3",
+    "title": "Telling a travel story",
+    "unit": "Detailed experiences",
+    "description": "Describe and discuss experiences while travelling.",
+    "persona": "adams",
+    "personaRole": "Mr Adel, a friend who likes stories",
+    "goal": "Tell a story from a trip.",
+    "rubric": [
+     {
+      "label": "Sets the scene",
+      "hint": "Scene goal: tell a story from a trip. Full credit if the learner clearly shows: sets the scene. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Uses linking words",
+      "hint": "Scene goal: tell a story from a trip. Full credit if the learner clearly shows: uses linking words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Ends clearly",
+      "hint": "Scene goal: tell a story from a trip. Full credit if the learner clearly shows: ends clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Adel, a friend who likes stories: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Tell a story from a trip.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Sets the scene; Uses linking words; Ends clearly.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-b2-u2-l4",
+    "title": "Comparing destinations",
+    "unit": "Detailed experiences",
+    "description": "Describe and discuss experiences while travelling.",
+    "persona": "sara",
+    "personaRole": "Mona, a friend choosing a place",
+    "goal": "Compare places in detail.",
+    "rubric": [
+     {
+      "label": "Compares",
+      "hint": "Scene goal: compare places in detail. Full credit if the learner clearly shows: compares. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives reasons",
+      "hint": "Scene goal: compare places in detail. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Lets her choose",
+      "hint": "Scene goal: compare places in detail. Full credit if the learner clearly shows: lets her choose. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mona, a friend choosing a place: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Compare places in detail.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Compares; Gives reasons; Lets her choose.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Sustained monologue)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    }
@@ -2874,6 +2874,142 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "status": "draft"
    },
    {
+    "id": "travel-c1-u5-l1",
+    "title": "Leading a small group",
+    "unit": "Leading others",
+    "description": "Lead and care for a group abroad.",
+    "persona": "adams",
+    "personaRole": "Mr Tarek and four friends",
+    "goal": "Lead a group plan.",
+    "rubric": [
+     {
+      "label": "Sets the aim",
+      "hint": "Scene goal: lead a group plan. Full credit if the learner clearly shows: sets the aim. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Shares tasks",
+      "hint": "Scene goal: lead a group plan. Full credit if the learner clearly shows: shares tasks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Checks everyone",
+      "hint": "Scene goal: lead a group plan. Full credit if the learner clearly shows: checks everyone. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Tarek and four friends: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Lead a group plan.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Sets the aim; Shares tasks; Checks everyone.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-c1-u5-l2",
+    "title": "Handling a conflict in a group",
+    "unit": "Leading others",
+    "description": "Lead and care for a group abroad.",
+    "persona": "sara",
+    "personaRole": "Salma and Mona, two friends in conflict",
+    "goal": "Calm a conflict.",
+    "rubric": [
+     {
+      "label": "Listens to both",
+      "hint": "Scene goal: calm a conflict. Full credit if the learner clearly shows: listens to both. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Names the issue",
+      "hint": "Scene goal: calm a conflict. Full credit if the learner clearly shows: names the issue. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Finds a fix",
+      "hint": "Scene goal: calm a conflict. Full credit if the learner clearly shows: finds a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Salma and Mona, two friends in conflict: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Calm a conflict.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Listens to both; Names the issue; Finds a fix.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-c1-u5-l3",
+    "title": "Making a hard group decision",
+    "unit": "Leading others",
+    "description": "Lead and care for a group abroad.",
+    "persona": "adams",
+    "personaRole": "Mr Hamdy and the group",
+    "goal": "Decide with a group.",
+    "rubric": [
+     {
+      "label": "Lists options",
+      "hint": "Scene goal: decide with a group. Full credit if the learner clearly shows: lists options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Gets views",
+      "hint": "Scene goal: decide with a group. Full credit if the learner clearly shows: gets views. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Decides",
+      "hint": "Scene goal: decide with a group. Full credit if the learner clearly shows: decides. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hamdy and the group: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Decide with a group.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Lists options; Gets views; Decides.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-c1-u5-l4",
+    "title": "Giving feedback on a trip",
+    "unit": "Leading others",
+    "description": "Lead and care for a group abroad.",
+    "persona": "sara",
+    "personaRole": "Hana, a tour company",
+    "goal": "Give honest feedback.",
+    "rubric": [
+     {
+      "label": "States strengths",
+      "hint": "Scene goal: give honest feedback. Full credit if the learner clearly shows: states strengths. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "States concerns",
+      "hint": "Scene goal: give honest feedback. Full credit if the learner clearly shows: states concerns. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Suggests a fix",
+      "hint": "Scene goal: give honest feedback. Full credit if the learner clearly shows: suggests a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Hana, a tour company: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give honest feedback.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States strengths; States concerns; Suggests a fix.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "travel-c1-u2-l1",
     "title": "Deep talks with locals",
     "unit": "Interesting conversations",
@@ -3006,142 +3142,6 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "level": "C1",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Informal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-c1-u3-l1",
-    "title": "Business trip meetings",
-    "unit": "Formal and professional travel",
-    "description": "Speak in business travel and formal settings.",
-    "persona": "adams",
-    "personaRole": "Mr Adel, a client",
-    "goal": "Handle a short business meeting.",
-    "rubric": [
-     {
-      "label": "Opens politely",
-      "hint": "Scene goal: handle a short business meeting. Full credit if the learner clearly shows: opens politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Gives key points",
-      "hint": "Scene goal: handle a short business meeting. Full credit if the learner clearly shows: gives key points. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Closes with a next step",
-      "hint": "Scene goal: handle a short business meeting. Full credit if the learner clearly shows: closes with a next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, a client: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle a short business meeting.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Opens politely; Gives key points; Closes with a next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-c1-u3-l2",
-    "title": "Hosting a visitor",
-    "unit": "Formal and professional travel",
-    "description": "Speak in business travel and formal settings.",
-    "persona": "sara",
-    "personaRole": "Hana, a visitor",
-    "goal": "Host with warmth.",
-    "rubric": [
-     {
-      "label": "Welcomes",
-      "hint": "Scene goal: host with warmth. Full credit if the learner clearly shows: welcomes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Shows places",
-      "hint": "Scene goal: host with warmth. Full credit if the learner clearly shows: shows places. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Asks about needs",
-      "hint": "Scene goal: host with warmth. Full credit if the learner clearly shows: asks about needs. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hana, a visitor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Host with warmth.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Welcomes; Shows places; Asks about needs.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-c1-u3-l3",
-    "title": "Giving a speech at an event",
-    "unit": "Formal and professional travel",
-    "description": "Speak in business travel and formal settings.",
-    "persona": "sara",
-    "personaRole": "Ms Reem and guests",
-    "goal": "Give a short speech.",
-    "rubric": [
-     {
-      "label": "Opens warmly",
-      "hint": "Scene goal: give a short speech. Full credit if the learner clearly shows: opens warmly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Keeps it short",
-      "hint": "Scene goal: give a short speech. Full credit if the learner clearly shows: keeps it short. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Closes well",
-      "hint": "Scene goal: give a short speech. Full credit if the learner clearly shows: closes well. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Ms Reem and guests: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a short speech.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Opens warmly; Keeps it short; Closes well.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-c1-u3-l4",
-    "title": "Networking abroad",
-    "unit": "Formal and professional travel",
-    "description": "Speak in business travel and formal settings.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a new contact",
-    "goal": "Network with confidence.",
-    "rubric": [
-     {
-      "label": "Introduces yourself",
-      "hint": "Scene goal: network with confidence. Full credit if the learner clearly shows: introduces yourself. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Asks questions",
-      "hint": "Scene goal: network with confidence. Full credit if the learner clearly shows: asks questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Plans to follow up",
-      "hint": "Scene goal: network with confidence. Full credit if the learner clearly shows: plans to follow up. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a new contact: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Network with confidence.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Introduces yourself; Asks questions; Plans to follow up.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -3282,138 +3282,138 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "status": "draft"
    },
    {
-    "id": "travel-c1-u5-l1",
-    "title": "Leading a small group",
-    "unit": "Leading others",
-    "description": "Lead and care for a group abroad.",
+    "id": "travel-c1-u3-l1",
+    "title": "Business trip meetings",
+    "unit": "Formal and professional travel",
+    "description": "Speak in business travel and formal settings.",
     "persona": "adams",
-    "personaRole": "Mr Tarek and four friends",
-    "goal": "Lead a group plan.",
+    "personaRole": "Mr Adel, a client",
+    "goal": "Handle a short business meeting.",
     "rubric": [
      {
-      "label": "Sets the aim",
-      "hint": "Scene goal: lead a group plan. Full credit if the learner clearly shows: sets the aim. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Opens politely",
+      "hint": "Scene goal: handle a short business meeting. Full credit if the learner clearly shows: opens politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Shares tasks",
-      "hint": "Scene goal: lead a group plan. Full credit if the learner clearly shows: shares tasks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Gives key points",
+      "hint": "Scene goal: handle a short business meeting. Full credit if the learner clearly shows: gives key points. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Checks everyone",
-      "hint": "Scene goal: lead a group plan. Full credit if the learner clearly shows: checks everyone. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Closes with a next step",
+      "hint": "Scene goal: handle a short business meeting. Full credit if the learner clearly shows: closes with a next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Tarek and four friends: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Lead a group plan.",
+     "Open the scene in character as Mr Adel, a client: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Handle a short business meeting.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Sets the aim; Shares tasks; Checks everyone.",
+     "Move through the rubric points naturally: Opens politely; Gives key points; Closes with a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-c1-u5-l2",
-    "title": "Handling a conflict in a group",
-    "unit": "Leading others",
-    "description": "Lead and care for a group abroad.",
+    "id": "travel-c1-u3-l2",
+    "title": "Hosting a visitor",
+    "unit": "Formal and professional travel",
+    "description": "Speak in business travel and formal settings.",
     "persona": "sara",
-    "personaRole": "Salma and Mona, two friends in conflict",
-    "goal": "Calm a conflict.",
+    "personaRole": "Hana, a visitor",
+    "goal": "Host with warmth.",
     "rubric": [
      {
-      "label": "Listens to both",
-      "hint": "Scene goal: calm a conflict. Full credit if the learner clearly shows: listens to both. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Welcomes",
+      "hint": "Scene goal: host with warmth. Full credit if the learner clearly shows: welcomes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Names the issue",
-      "hint": "Scene goal: calm a conflict. Full credit if the learner clearly shows: names the issue. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Shows places",
+      "hint": "Scene goal: host with warmth. Full credit if the learner clearly shows: shows places. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Finds a fix",
-      "hint": "Scene goal: calm a conflict. Full credit if the learner clearly shows: finds a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Asks about needs",
+      "hint": "Scene goal: host with warmth. Full credit if the learner clearly shows: asks about needs. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Salma and Mona, two friends in conflict: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Calm a conflict.",
+     "Open the scene in character as Hana, a visitor: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Host with warmth.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Listens to both; Names the issue; Finds a fix.",
+     "Move through the rubric points naturally: Welcomes; Shows places; Asks about needs.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "travel-c1-u5-l3",
-    "title": "Making a hard group decision",
-    "unit": "Leading others",
-    "description": "Lead and care for a group abroad.",
+    "id": "travel-c1-u3-l3",
+    "title": "Giving a speech at an event",
+    "unit": "Formal and professional travel",
+    "description": "Speak in business travel and formal settings.",
+    "persona": "sara",
+    "personaRole": "Ms Reem and guests",
+    "goal": "Give a short speech.",
+    "rubric": [
+     {
+      "label": "Opens warmly",
+      "hint": "Scene goal: give a short speech. Full credit if the learner clearly shows: opens warmly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Keeps it short",
+      "hint": "Scene goal: give a short speech. Full credit if the learner clearly shows: keeps it short. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Closes well",
+      "hint": "Scene goal: give a short speech. Full credit if the learner clearly shows: closes well. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Ms Reem and guests: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give a short speech.",
+     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Opens warmly; Keeps it short; Closes well.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "travel-c1-u3-l4",
+    "title": "Networking abroad",
+    "unit": "Formal and professional travel",
+    "description": "Speak in business travel and formal settings.",
     "persona": "adams",
-    "personaRole": "Mr Hamdy and the group",
-    "goal": "Decide with a group.",
+    "personaRole": "Mr Hamdy, a new contact",
+    "goal": "Network with confidence.",
     "rubric": [
      {
-      "label": "Lists options",
-      "hint": "Scene goal: decide with a group. Full credit if the learner clearly shows: lists options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Introduces yourself",
+      "hint": "Scene goal: network with confidence. Full credit if the learner clearly shows: introduces yourself. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Gets views",
-      "hint": "Scene goal: decide with a group. Full credit if the learner clearly shows: gets views. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Asks questions",
+      "hint": "Scene goal: network with confidence. Full credit if the learner clearly shows: asks questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Decides",
-      "hint": "Scene goal: decide with a group. Full credit if the learner clearly shows: decides. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Plans to follow up",
+      "hint": "Scene goal: network with confidence. Full credit if the learner clearly shows: plans to follow up. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Hamdy and the group: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Decide with a group.",
+     "Open the scene in character as Mr Hamdy, a new contact: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Network with confidence.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Lists options; Gets views; Decides.",
+     "Move through the rubric points naturally: Introduces yourself; Asks questions; Plans to follow up.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "travel-c1-u5-l4",
-    "title": "Giving feedback on a trip",
-    "unit": "Leading others",
-    "description": "Lead and care for a group abroad.",
-    "persona": "sara",
-    "personaRole": "Hana, a tour company",
-    "goal": "Give honest feedback.",
-    "rubric": [
-     {
-      "label": "States strengths",
-      "hint": "Scene goal: give honest feedback. Full credit if the learner clearly shows: states strengths. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "States concerns",
-      "hint": "Scene goal: give honest feedback. Full credit if the learner clearly shows: states concerns. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Suggests a fix",
-      "hint": "Scene goal: give honest feedback. Full credit if the learner clearly shows: suggests a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Hana, a tour company: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give honest feedback.",
-     "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States strengths; States concerns; Suggests a fix.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    }

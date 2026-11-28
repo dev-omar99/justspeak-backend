@@ -146,6 +146,142 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "work-sales-a1-u4-l1",
+    "title": "Answering the phone",
+    "unit": "Simple phone calls",
+    "description": "Answer a call and take a name and a number.",
+    "persona": "adams",
+    "personaRole": "Mr Hamdy, a caller who asks for sales",
+    "goal": "Answer and say your name and company.",
+    "rubric": [
+     {
+      "label": "Says company and name",
+      "hint": "Full: gives company and own name when answering. Partial: gives one. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Asks how to help",
+      "hint": "Full: asks how to help. Partial: waits. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Polite tone",
+      "hint": "Full: polite throughout. Partial: blunt at times. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hamdy, a caller who asks for sales: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Answer and say your name and company.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says company and name; Asks how to help; Polite tone.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a1-u4-l2",
+    "title": "Taking a name",
+    "unit": "Simple phone calls",
+    "description": "Answer a call and take a name and a number.",
+    "persona": "sara",
+    "personaRole": "Layla, a caller who wants a callback",
+    "goal": "Ask for her name and spell it back.",
+    "rubric": [
+     {
+      "label": "Asks the name",
+      "hint": "Full: asks the caller's name politely. Partial: skips. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Spells it back",
+      "hint": "Full: spells the name back letter by letter. Partial: says it only. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Checks it",
+      "hint": "Full: checks it with the customer. Partial: skips the check. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Layla, a caller who wants a callback: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for her name and spell it back.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks the name; Spells it back; Checks it.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a1-u4-l3",
+    "title": "Taking a phone number",
+    "unit": "Simple phone calls",
+    "description": "Answer a call and take a name and a number.",
+    "persona": "adams",
+    "personaRole": "Mr Adel, a caller who leaves a number",
+    "goal": "Take the number and repeat it.",
+    "rubric": [
+     {
+      "label": "Asks for the number",
+      "hint": "Full: asks for a phone number politely. Partial: abrupt. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Repeats it in groups",
+      "hint": "Full: repeats the number in groups. Partial: one string. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Checks it",
+      "hint": "Full: checks it with the customer. Partial: skips the check. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Adel, a caller who leaves a number: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Take the number and repeat it.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks for the number; Repeats it in groups; Checks it.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a1-u4-l4",
+    "title": "We will call you",
+    "unit": "Simple phone calls",
+    "description": "Answer a call and take a name and a number.",
+    "persona": "sara",
+    "personaRole": "Yara, a caller waiting for a call",
+    "goal": "Say you will call her and when.",
+    "rubric": [
+     {
+      "label": "Says \"We will call you\"",
+      "hint": "Full: promises a call back with \"We will call you\". Partial: vague. Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Gives a time",
+      "hint": "Full: gives a clear time. Partial: \"soon\". Judge meaning only: single words and short phrases are enough."
+     },
+     {
+      "label": "Thanks her",
+      "hint": "Full: thanks the customer. Partial: forgets. Judge meaning only: single words and short phrases are enough."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Yara, a caller waiting for a call: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say you will call her and when.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says \"We will call you\"; Gives a time; Thanks her.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "work-sales-a1-u2-l1",
     "title": "This is a phone",
     "unit": "Products and prices",
@@ -416,142 +552,6 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
-   },
-   {
-    "id": "work-sales-a1-u4-l1",
-    "title": "Answering the phone",
-    "unit": "Simple phone calls",
-    "description": "Answer a call and take a name and a number.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a caller who asks for sales",
-    "goal": "Answer and say your name and company.",
-    "rubric": [
-     {
-      "label": "Says company and name",
-      "hint": "Full: gives company and own name when answering. Partial: gives one. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Asks how to help",
-      "hint": "Full: asks how to help. Partial: waits. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Polite tone",
-      "hint": "Full: polite throughout. Partial: blunt at times. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a caller who asks for sales: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer and say your name and company.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says company and name; Asks how to help; Polite tone.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a1-u4-l2",
-    "title": "Taking a name",
-    "unit": "Simple phone calls",
-    "description": "Answer a call and take a name and a number.",
-    "persona": "sara",
-    "personaRole": "Layla, a caller who wants a callback",
-    "goal": "Ask for her name and spell it back.",
-    "rubric": [
-     {
-      "label": "Asks the name",
-      "hint": "Full: asks the caller's name politely. Partial: skips. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Spells it back",
-      "hint": "Full: spells the name back letter by letter. Partial: says it only. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Checks it",
-      "hint": "Full: checks it with the customer. Partial: skips the check. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Layla, a caller who wants a callback: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for her name and spell it back.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks the name; Spells it back; Checks it.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a1-u4-l3",
-    "title": "Taking a phone number",
-    "unit": "Simple phone calls",
-    "description": "Answer a call and take a name and a number.",
-    "persona": "adams",
-    "personaRole": "Mr Adel, a caller who leaves a number",
-    "goal": "Take the number and repeat it.",
-    "rubric": [
-     {
-      "label": "Asks for the number",
-      "hint": "Full: asks for a phone number politely. Partial: abrupt. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Repeats it in groups",
-      "hint": "Full: repeats the number in groups. Partial: one string. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Checks it",
-      "hint": "Full: checks it with the customer. Partial: skips the check. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, a caller who leaves a number: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Take the number and repeat it.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks for the number; Repeats it in groups; Checks it.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a1-u4-l4",
-    "title": "We will call you",
-    "unit": "Simple phone calls",
-    "description": "Answer a call and take a name and a number.",
-    "persona": "sara",
-    "personaRole": "Yara, a caller waiting for a call",
-    "goal": "Say you will call her and when.",
-    "rubric": [
-     {
-      "label": "Says \"We will call you\"",
-      "hint": "Full: promises a call back with \"We will call you\". Partial: vague. Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Gives a time",
-      "hint": "Full: gives a clear time. Partial: \"soon\". Judge meaning only: single words and short phrases are enough."
-     },
-     {
-      "label": "Thanks her",
-      "hint": "Full: thanks the customer. Partial: forgets. Judge meaning only: single words and short phrases are enough."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Yara, a caller waiting for a call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say you will call her and when.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says \"We will call you\"; Gives a time; Thanks her.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
    }
   ],
   "A2": [
@@ -692,274 +692,138 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-a2-u2-l1",
-    "title": "Prices and discounts",
-    "unit": "Prices and offers",
-    "description": "Give prices, discounts and simple offers.",
-    "persona": "adams",
-    "personaRole": "Mr Hamdy, a buyer who asks for a discount",
-    "goal": "Say the price and the discount.",
-    "rubric": [
-     {
-      "label": "Gives the price",
-      "hint": "Full: states the price clearly. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives the discount",
-      "hint": "Full: states the discount amount or percent. Partial: \"a discount\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Polite tone",
-      "hint": "Full: polite throughout. Partial: blunt at times. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Hamdy, a buyer who asks for a discount: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say the price and the discount.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives the price; Gives the discount; Polite tone.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a2-u2-l2",
-    "title": "Special offer this week",
-    "unit": "Prices and offers",
-    "description": "Give prices, discounts and simple offers.",
+    "id": "work-sales-a2-u5-l1",
+    "title": "Sorry, it is late",
+    "unit": "Small problems after the sale",
+    "description": "Say sorry and say what happens next.",
     "persona": "sara",
-    "personaRole": "Amira, a buyer who hears about an offer",
-    "goal": "Explain a simple offer.",
+    "personaRole": "Layla, a buyer whose order is late",
+    "goal": "Say sorry and give a new date.",
     "rubric": [
      {
-      "label": "States the offer",
-      "hint": "Full: states the offer in one clear sentence. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Says sorry",
+      "hint": "Full: apologises clearly. Partial: weak. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Gives the end date",
-      "hint": "Full: gives the end date. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Gives a new date",
+      "hint": "Full: gives a new date. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Checks she understood",
-      "hint": "Full: asks whether she understood. Partial: assumes. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Says what you do next",
+      "hint": "Full: says the next action. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
-     "Open the scene in character as Amira, a buyer who hears about an offer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a simple offer.",
+     "Open the scene in character as Layla, a buyer whose order is late: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say sorry and give a new date.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the offer; Gives the end date; Checks she understood.",
+     "Move through the rubric points naturally: Says sorry; Gives a new date; Says what you do next.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-a2-u2-l3",
-    "title": "Buy one, get one",
-    "unit": "Prices and offers",
-    "description": "Give prices, discounts and simple offers.",
+    "id": "work-sales-a2-u5-l2",
+    "title": "The item is broken",
+    "unit": "Small problems after the sale",
+    "description": "Say sorry and say what happens next.",
     "persona": "adams",
-    "personaRole": "Mr Nabil, a buyer who likes the offer",
-    "goal": "Explain a two-for-one offer.",
+    "personaRole": "Mr Wael, a buyer who got a broken item",
+    "goal": "Say sorry and offer a new one.",
     "rubric": [
      {
-      "label": "Explains the offer",
-      "hint": "Full: explains the offer simply. Partial: confusing. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Says sorry",
+      "hint": "Full: apologises clearly. Partial: weak. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Gives the total",
-      "hint": "Full: gives the total. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Offers a replacement",
+      "hint": "Full: offers a replacement. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Checks the deal",
-      "hint": "Full: checks the customer accepts the deal. Partial: moves on. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Says how long",
+      "hint": "Full: says how long. Partial: vague. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Nabil, a buyer who likes the offer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a two-for-one offer.",
+     "Open the scene in character as Mr Wael, a buyer who got a broken item: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say sorry and offer a new one.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Explains the offer; Gives the total; Checks the deal.",
+     "Move through the rubric points naturally: Says sorry; Offers a replacement; Says how long.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-a2-u2-l4",
-    "title": "Is there a cheaper one?",
-    "unit": "Prices and offers",
-    "description": "Give prices, discounts and simple offers.",
+    "id": "work-sales-a2-u5-l3",
+    "title": "Wrong item",
+    "unit": "Small problems after the sale",
+    "description": "Say sorry and say what happens next.",
     "persona": "sara",
-    "personaRole": "Huda, a buyer on a small budget",
-    "goal": "Offer a cheaper product.",
+    "personaRole": "Heba, a buyer who got the wrong colour",
+    "goal": "Say sorry and fix it.",
     "rubric": [
      {
-      "label": "Offers a cheaper item",
-      "hint": "Full: offers a cheaper item. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Says sorry",
+      "hint": "Full: apologises clearly. Partial: weak. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Says the difference",
-      "hint": "Full: says the difference between the two. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Offers to fix it",
+      "hint": "Full: offers to fix it. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Does not push",
-      "hint": "Full: does not pressure. Partial: pushes once. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Confirms the plan",
+      "hint": "Full: confirms the plan. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
-     "Open the scene in character as Huda, a buyer on a small budget: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Offer a cheaper product.",
+     "Open the scene in character as Heba, a buyer who got the wrong colour: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say sorry and fix it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Offers a cheaper item; Says the difference; Does not push.",
+     "Move through the rubric points naturally: Says sorry; Offers to fix it; Confirms the plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-a2-u3-l1",
-    "title": "Taking an order",
-    "unit": "Orders and delivery",
-    "description": "Take a simple order and say when it comes.",
+    "id": "work-sales-a2-u5-l4",
+    "title": "Can I help with anything else?",
+    "unit": "Small problems after the sale",
+    "description": "Say sorry and say what happens next.",
     "persona": "adams",
-    "personaRole": "Mr Tarek, a buyer who wants three items",
-    "goal": "Take the order and repeat it.",
+    "personaRole": "Mr Tarek, a buyer at the end of a call",
+    "goal": "Close the call helpfully.",
     "rubric": [
      {
-      "label": "Lists the items",
-      "hint": "Full: lists each item. Partial: some. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Offers more help",
+      "hint": "Full: offers more help. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Repeats the quantity",
-      "hint": "Full: repeats the quantity of each item. Partial: one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Summarises",
+      "hint": "Full: summarises what was agreed. Partial: partial. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Confirms the total",
-      "hint": "Full: confirms the total. Partial: skips. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Says goodbye",
+      "hint": "Full: says goodbye. Partial: stops without closing. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Tarek, a buyer who wants three items: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Take the order and repeat it.",
+     "Open the scene in character as Mr Tarek, a buyer at the end of a call: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Close the call helpfully.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Lists the items; Repeats the quantity; Confirms the total.",
+     "Move through the rubric points naturally: Offers more help; Summarises; Says goodbye.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a2-u3-l2",
-    "title": "Delivery time and cost",
-    "unit": "Orders and delivery",
-    "description": "Take a simple order and say when it comes.",
-    "persona": "sara",
-    "personaRole": "Rasha, a buyer who asks about delivery",
-    "goal": "Say how long and how much.",
-    "rubric": [
-     {
-      "label": "Gives the time",
-      "hint": "Full: gives the delivery or meeting time. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives the cost",
-      "hint": "Full: gives the cost. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Checks the address",
-      "hint": "Full: checks the address. Partial: skips. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Rasha, a buyer who asks about delivery: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say how long and how much.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives the time; Gives the cost; Checks the address.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a2-u3-l3",
-    "title": "Changing an order",
-    "unit": "Orders and delivery",
-    "description": "Take a simple order and say when it comes.",
-    "persona": "adams",
-    "personaRole": "Mr Sherif, a buyer who wants to change the size",
-    "goal": "Change the order and confirm.",
-    "rubric": [
-     {
-      "label": "Understands the change",
-      "hint": "Full: shows they understood the change. Partial: confused. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Repeats the new order",
-      "hint": "Full: repeats the new order. Partial: part. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Confirms",
-      "hint": "Full: confirms the details. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Sherif, a buyer who wants to change the size: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Change the order and confirm.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Understands the change; Repeats the new order; Confirms.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a2-u3-l4",
-    "title": "Saying a product is out of stock",
-    "unit": "Orders and delivery",
-    "description": "Take a simple order and say when it comes.",
-    "persona": "sara",
-    "personaRole": "Dalia, a buyer who wants an item you do not have",
-    "goal": "Say it is out of stock and offer another.",
-    "rubric": [
-     {
-      "label": "Says it is out of stock",
-      "hint": "Full: says clearly that it is out of stock. Partial: vague. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Offers another",
-      "hint": "Full: offers another item. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says when it returns",
-      "hint": "Full: says when it will be back. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Dalia, a buyer who wants an item you do not have: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say it is out of stock and offer another.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says it is out of stock; Offers another; Says when it returns.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -1100,138 +964,274 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-a2-u5-l1",
-    "title": "Sorry, it is late",
-    "unit": "Small problems after the sale",
-    "description": "Say sorry and say what happens next.",
-    "persona": "sara",
-    "personaRole": "Layla, a buyer whose order is late",
-    "goal": "Say sorry and give a new date.",
-    "rubric": [
-     {
-      "label": "Says sorry",
-      "hint": "Full: apologises clearly. Partial: weak. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Gives a new date",
-      "hint": "Full: gives a new date. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     },
-     {
-      "label": "Says what you do next",
-      "hint": "Full: says the next action. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Layla, a buyer whose order is late: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say sorry and give a new date.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says sorry; Gives a new date; Says what you do next.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-a2-u5-l2",
-    "title": "The item is broken",
-    "unit": "Small problems after the sale",
-    "description": "Say sorry and say what happens next.",
+    "id": "work-sales-a2-u3-l1",
+    "title": "Taking an order",
+    "unit": "Orders and delivery",
+    "description": "Take a simple order and say when it comes.",
     "persona": "adams",
-    "personaRole": "Mr Wael, a buyer who got a broken item",
-    "goal": "Say sorry and offer a new one.",
+    "personaRole": "Mr Tarek, a buyer who wants three items",
+    "goal": "Take the order and repeat it.",
     "rubric": [
      {
-      "label": "Says sorry",
-      "hint": "Full: apologises clearly. Partial: weak. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Lists the items",
+      "hint": "Full: lists each item. Partial: some. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Offers a replacement",
-      "hint": "Full: offers a replacement. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Repeats the quantity",
+      "hint": "Full: repeats the quantity of each item. Partial: one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Says how long",
-      "hint": "Full: says how long. Partial: vague. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Confirms the total",
+      "hint": "Full: confirms the total. Partial: skips. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Wael, a buyer who got a broken item: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say sorry and offer a new one.",
+     "Open the scene in character as Mr Tarek, a buyer who wants three items: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Take the order and repeat it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says sorry; Offers a replacement; Says how long.",
+     "Move through the rubric points naturally: Lists the items; Repeats the quantity; Confirms the total.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-a2-u5-l3",
-    "title": "Wrong item",
-    "unit": "Small problems after the sale",
-    "description": "Say sorry and say what happens next.",
+    "id": "work-sales-a2-u3-l2",
+    "title": "Delivery time and cost",
+    "unit": "Orders and delivery",
+    "description": "Take a simple order and say when it comes.",
     "persona": "sara",
-    "personaRole": "Heba, a buyer who got the wrong colour",
-    "goal": "Say sorry and fix it.",
+    "personaRole": "Rasha, a buyer who asks about delivery",
+    "goal": "Say how long and how much.",
     "rubric": [
      {
-      "label": "Says sorry",
-      "hint": "Full: apologises clearly. Partial: weak. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Gives the time",
+      "hint": "Full: gives the delivery or meeting time. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Offers to fix it",
-      "hint": "Full: offers to fix it. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Gives the cost",
+      "hint": "Full: gives the cost. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Confirms the plan",
-      "hint": "Full: confirms the plan. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Checks the address",
+      "hint": "Full: checks the address. Partial: skips. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
-     "Open the scene in character as Heba, a buyer who got the wrong colour: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say sorry and fix it.",
+     "Open the scene in character as Rasha, a buyer who asks about delivery: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say how long and how much.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says sorry; Offers to fix it; Confirms the plan.",
+     "Move through the rubric points naturally: Gives the time; Gives the cost; Checks the address.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-a2-u5-l4",
-    "title": "Can I help with anything else?",
-    "unit": "Small problems after the sale",
-    "description": "Say sorry and say what happens next.",
+    "id": "work-sales-a2-u3-l3",
+    "title": "Changing an order",
+    "unit": "Orders and delivery",
+    "description": "Take a simple order and say when it comes.",
     "persona": "adams",
-    "personaRole": "Mr Tarek, a buyer at the end of a call",
-    "goal": "Close the call helpfully.",
+    "personaRole": "Mr Sherif, a buyer who wants to change the size",
+    "goal": "Change the order and confirm.",
     "rubric": [
      {
-      "label": "Offers more help",
-      "hint": "Full: offers more help. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Understands the change",
+      "hint": "Full: shows they understood the change. Partial: confused. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Repeats the new order",
+      "hint": "Full: repeats the new order. Partial: part. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
-      "label": "Says goodbye",
-      "hint": "Full: says goodbye. Partial: stops without closing. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "label": "Confirms",
+      "hint": "Full: confirms the details. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Tarek, a buyer at the end of a call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close the call helpfully.",
+     "Open the scene in character as Mr Sherif, a buyer who wants to change the size: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Change the order and confirm.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Offers more help; Summarises; Says goodbye.",
+     "Move through the rubric points naturally: Understands the change; Repeats the new order; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "A2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a2-u3-l4",
+    "title": "Saying a product is out of stock",
+    "unit": "Orders and delivery",
+    "description": "Take a simple order and say when it comes.",
+    "persona": "sara",
+    "personaRole": "Dalia, a buyer who wants an item you do not have",
+    "goal": "Say it is out of stock and offer another.",
+    "rubric": [
+     {
+      "label": "Says it is out of stock",
+      "hint": "Full: says clearly that it is out of stock. Partial: vague. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Offers another",
+      "hint": "Full: offers another item. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says when it returns",
+      "hint": "Full: says when it will be back. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Dalia, a buyer who wants an item you do not have: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say it is out of stock and offer another.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Says it is out of stock; Offers another; Says when it returns.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a2-u2-l1",
+    "title": "Prices and discounts",
+    "unit": "Prices and offers",
+    "description": "Give prices, discounts and simple offers.",
+    "persona": "adams",
+    "personaRole": "Mr Hamdy, a buyer who asks for a discount",
+    "goal": "Say the price and the discount.",
+    "rubric": [
+     {
+      "label": "Gives the price",
+      "hint": "Full: states the price clearly. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives the discount",
+      "hint": "Full: states the discount amount or percent. Partial: \"a discount\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Polite tone",
+      "hint": "Full: polite throughout. Partial: blunt at times. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hamdy, a buyer who asks for a discount: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say the price and the discount.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Gives the price; Gives the discount; Polite tone.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a2-u2-l2",
+    "title": "Special offer this week",
+    "unit": "Prices and offers",
+    "description": "Give prices, discounts and simple offers.",
+    "persona": "sara",
+    "personaRole": "Amira, a buyer who hears about an offer",
+    "goal": "Explain a simple offer.",
+    "rubric": [
+     {
+      "label": "States the offer",
+      "hint": "Full: states the offer in one clear sentence. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives the end date",
+      "hint": "Full: gives the end date. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Checks she understood",
+      "hint": "Full: asks whether she understood. Partial: assumes. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Amira, a buyer who hears about an offer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a simple offer.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the offer; Gives the end date; Checks she understood.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a2-u2-l3",
+    "title": "Buy one, get one",
+    "unit": "Prices and offers",
+    "description": "Give prices, discounts and simple offers.",
+    "persona": "adams",
+    "personaRole": "Mr Nabil, a buyer who likes the offer",
+    "goal": "Explain a two-for-one offer.",
+    "rubric": [
+     {
+      "label": "Explains the offer",
+      "hint": "Full: explains the offer simply. Partial: confusing. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Gives the total",
+      "hint": "Full: gives the total. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Checks the deal",
+      "hint": "Full: checks the customer accepts the deal. Partial: moves on. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Nabil, a buyer who likes the offer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a two-for-one offer.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Explains the offer; Gives the total; Checks the deal.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-a2-u2-l4",
+    "title": "Is there a cheaper one?",
+    "unit": "Prices and offers",
+    "description": "Give prices, discounts and simple offers.",
+    "persona": "sara",
+    "personaRole": "Huda, a buyer on a small budget",
+    "goal": "Offer a cheaper product.",
+    "rubric": [
+     {
+      "label": "Offers a cheaper item",
+      "hint": "Full: offers a cheaper item. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Says the difference",
+      "hint": "Full: says the difference between the two. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     },
+     {
+      "label": "Does not push",
+      "hint": "Full: does not pressure. Partial: pushes once. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Huda, a buyer on a small budget: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Offer a cheaper product.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Offers a cheaper item; Says the difference; Does not push.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "A2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Obtaining goods and services)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    }
@@ -1366,142 +1366,6 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      "Let the learner work toward this goal: Help her without pushing.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Asks one helpful question; Offers a next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b1-u2-l1",
-    "title": "Matching a product to a need",
-    "unit": "Recommending a product",
-    "description": "Recommend a product that fits the buyer.",
-    "persona": "adams",
-    "personaRole": "Mr Karim, a buyer who needs a laptop for work",
-    "goal": "Recommend a product that fits.",
-    "rubric": [
-     {
-      "label": "Links the need to the product",
-      "hint": "Full: links the need to a product feature. Partial: lists features. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives one benefit",
-      "hint": "Full: gives one clear benefit. Partial: features only. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Checks fit",
-      "hint": "Full: checks it fits the customer. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Karim, a buyer who needs a laptop for work: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Recommend a product that fits.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Links the need to the product; Gives one benefit; Checks fit.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b1-u2-l2",
-    "title": "Features and benefits",
-    "unit": "Recommending a product",
-    "description": "Recommend a product that fits the buyer.",
-    "persona": "sara",
-    "personaRole": "Rasha, a buyer who asks why this model",
-    "goal": "Explain a feature as a benefit.",
-    "rubric": [
-     {
-      "label": "Names the feature",
-      "hint": "Full: names a feature. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Says the benefit",
-      "hint": "Full: says what the benefit is for the customer. Partial: only the feature. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Uses an example",
-      "hint": "Full: gives a short example. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Rasha, a buyer who asks why this model: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a feature as a benefit.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names the feature; Says the benefit; Uses an example.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b1-u2-l3",
-    "title": "Comparing two options",
-    "unit": "Recommending a product",
-    "description": "Recommend a product that fits the buyer.",
-    "persona": "adams",
-    "personaRole": "Mr Sherif, a buyer between two plans",
-    "goal": "Compare two options fairly.",
-    "rubric": [
-     {
-      "label": "Compares clearly",
-      "hint": "Full: compares the options clearly. Partial: lists. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Gives pros and cons",
-      "hint": "Full: gives pros and cons. Partial: one side. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Lets him choose",
-      "hint": "Full: lets him choose. Partial: decides for him. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Sherif, a buyer between two plans: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Compare two options fairly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Compares clearly; Gives pros and cons; Lets him choose.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b1-u2-l4",
-    "title": "Being honest about limits",
-    "unit": "Recommending a product",
-    "description": "Recommend a product that fits the buyer.",
-    "persona": "sara",
-    "personaRole": "Huda, a buyer who asks if it can do something it cannot",
-    "goal": "Say what a product cannot do.",
-    "rubric": [
-     {
-      "label": "Says honestly",
-      "hint": "Full: says honestly what the product cannot do. Partial: avoids. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Offers an alternative",
-      "hint": "Full: offers an alternative. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     },
-     {
-      "label": "Keeps trust",
-      "hint": "Full: keeps trust by being honest. Partial: oversells. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Huda, a buyer who asks if it can do something it cannot: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say what a product cannot do.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says honestly; Offers an alternative; Keeps trust.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1782,138 +1646,138 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b1-u5-l1",
-    "title": "Asking for the order",
-    "unit": "Closing a sale",
-    "description": "Ask for the order and agree next steps.",
+    "id": "work-sales-b1-u2-l1",
+    "title": "Matching a product to a need",
+    "unit": "Recommending a product",
+    "description": "Recommend a product that fits the buyer.",
     "persona": "adams",
-    "personaRole": "Mr Nabil, a buyer who seems ready",
-    "goal": "Ask for the order politely.",
+    "personaRole": "Mr Karim, a buyer who needs a laptop for work",
+    "goal": "Recommend a product that fits.",
     "rubric": [
      {
-      "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Links the need to the product",
+      "hint": "Full: links the need to a product feature. Partial: lists features. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Asks for the order",
-      "hint": "Full: asks directly for the order. Partial: hints. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Gives one benefit",
+      "hint": "Full: gives one clear benefit. Partial: features only. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Waits for a reply",
-      "hint": "Full: stops and waits for the reply. Partial: keeps talking. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Checks fit",
+      "hint": "Full: checks it fits the customer. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Nabil, a buyer who seems ready: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for the order politely.",
+     "Open the scene in character as Mr Karim, a buyer who needs a laptop for work: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Recommend a product that fits.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Summarises; Asks for the order; Waits for a reply.",
+     "Move through the rubric points naturally: Links the need to the product; Gives one benefit; Checks fit.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-b1-u5-l2",
-    "title": "Agreeing the next steps",
-    "unit": "Closing a sale",
-    "description": "Ask for the order and agree next steps.",
+    "id": "work-sales-b1-u2-l2",
+    "title": "Features and benefits",
+    "unit": "Recommending a product",
+    "description": "Recommend a product that fits the buyer.",
     "persona": "sara",
-    "personaRole": "Amira, a buyer who says yes",
-    "goal": "Agree the next steps clearly.",
+    "personaRole": "Rasha, a buyer who asks why this model",
+    "goal": "Explain a feature as a benefit.",
     "rubric": [
      {
-      "label": "Lists the steps",
-      "hint": "Full: lists the steps. Partial: some. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Names the feature",
+      "hint": "Full: names a feature. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Gives dates",
-      "hint": "Full: gives dates. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Says the benefit",
+      "hint": "Full: says what the benefit is for the customer. Partial: only the feature. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Checks she agrees",
-      "hint": "Full: checks she agrees. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Uses an example",
+      "hint": "Full: gives a short example. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Amira, a buyer who says yes: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Agree the next steps clearly.",
+     "Open the scene in character as Rasha, a buyer who asks why this model: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a feature as a benefit.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Lists the steps; Gives dates; Checks she agrees.",
+     "Move through the rubric points naturally: Names the feature; Says the benefit; Uses an example.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-b1-u5-l3",
-    "title": "Taking payment details",
-    "unit": "Closing a sale",
-    "description": "Ask for the order and agree next steps.",
+    "id": "work-sales-b1-u2-l3",
+    "title": "Comparing two options",
+    "unit": "Recommending a product",
+    "description": "Recommend a product that fits the buyer.",
     "persona": "adams",
-    "personaRole": "Mr Sherif, a buyer paying by phone",
-    "goal": "Take payment details carefully.",
+    "personaRole": "Mr Sherif, a buyer between two plans",
+    "goal": "Compare two options fairly.",
     "rubric": [
      {
-      "label": "Asks step by step",
-      "hint": "Full: asks one thing at a time. Partial: several. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Compares clearly",
+      "hint": "Full: compares the options clearly. Partial: lists. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Repeats safely",
-      "hint": "Full: repeats details safely. Partial: errors. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Gives pros and cons",
+      "hint": "Full: gives pros and cons. Partial: one side. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Confirms the total",
-      "hint": "Full: confirms the total. Partial: skips. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Lets him choose",
+      "hint": "Full: lets him choose. Partial: decides for him. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Sherif, a buyer paying by phone: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Take payment details carefully.",
+     "Open the scene in character as Mr Sherif, a buyer between two plans: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Compare two options fairly.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks step by step; Repeats safely; Confirms the total.",
+     "Move through the rubric points naturally: Compares clearly; Gives pros and cons; Lets him choose.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-b1-u5-l4",
-    "title": "Thank you and follow up",
-    "unit": "Closing a sale",
-    "description": "Ask for the order and agree next steps.",
+    "id": "work-sales-b1-u2-l4",
+    "title": "Being honest about limits",
+    "unit": "Recommending a product",
+    "description": "Recommend a product that fits the buyer.",
     "persona": "sara",
-    "personaRole": "Salma, a buyer who has just bought",
-    "goal": "Thank her and plan a follow-up.",
+    "personaRole": "Huda, a buyer who asks if it can do something it cannot",
+    "goal": "Say what a product cannot do.",
     "rubric": [
      {
-      "label": "Thanks her",
-      "hint": "Full: thanks the customer. Partial: forgets. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Says honestly",
+      "hint": "Full: says honestly what the product cannot do. Partial: avoids. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Sets a follow-up",
-      "hint": "Full: sets a follow-up date. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Offers an alternative",
+      "hint": "Full: offers an alternative. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Closes warmly",
-      "hint": "Full: closes warmly. Partial: flat. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "label": "Keeps trust",
+      "hint": "Full: keeps trust by being honest. Partial: oversells. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
-     "Open the scene in character as Salma, a buyer who has just bought: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Thank her and plan a follow-up.",
+     "Open the scene in character as Huda, a buyer who asks if it can do something it cannot: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say what a product cannot do.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Thanks her; Sets a follow-up; Closes warmly.",
+     "Move through the rubric points naturally: Says honestly; Offers an alternative; Keeps trust.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Information exchange)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -2050,6 +1914,142 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     ],
     "level": "B1",
     "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-b1-u5-l1",
+    "title": "Asking for the order",
+    "unit": "Closing a sale",
+    "description": "Ask for the order and agree next steps.",
+    "persona": "adams",
+    "personaRole": "Mr Nabil, a buyer who seems ready",
+    "goal": "Ask for the order politely.",
+    "rubric": [
+     {
+      "label": "Summarises",
+      "hint": "Full: summarises what was agreed. Partial: partial. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Asks for the order",
+      "hint": "Full: asks directly for the order. Partial: hints. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Waits for a reply",
+      "hint": "Full: stops and waits for the reply. Partial: keeps talking. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Nabil, a buyer who seems ready: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Ask for the order politely.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Summarises; Asks for the order; Waits for a reply.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-b1-u5-l2",
+    "title": "Agreeing the next steps",
+    "unit": "Closing a sale",
+    "description": "Ask for the order and agree next steps.",
+    "persona": "sara",
+    "personaRole": "Amira, a buyer who says yes",
+    "goal": "Agree the next steps clearly.",
+    "rubric": [
+     {
+      "label": "Lists the steps",
+      "hint": "Full: lists the steps. Partial: some. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Gives dates",
+      "hint": "Full: gives dates. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Checks she agrees",
+      "hint": "Full: checks she agrees. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Amira, a buyer who says yes: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Agree the next steps clearly.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Lists the steps; Gives dates; Checks she agrees.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-b1-u5-l3",
+    "title": "Taking payment details",
+    "unit": "Closing a sale",
+    "description": "Ask for the order and agree next steps.",
+    "persona": "adams",
+    "personaRole": "Mr Sherif, a buyer paying by phone",
+    "goal": "Take payment details carefully.",
+    "rubric": [
+     {
+      "label": "Asks step by step",
+      "hint": "Full: asks one thing at a time. Partial: several. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Repeats safely",
+      "hint": "Full: repeats details safely. Partial: errors. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Confirms the total",
+      "hint": "Full: confirms the total. Partial: skips. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Sherif, a buyer paying by phone: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Take payment details carefully.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Asks step by step; Repeats safely; Confirms the total.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-b1-u5-l4",
+    "title": "Thank you and follow up",
+    "unit": "Closing a sale",
+    "description": "Ask for the order and agree next steps.",
+    "persona": "sara",
+    "personaRole": "Salma, a buyer who has just bought",
+    "goal": "Thank her and plan a follow-up.",
+    "rubric": [
+     {
+      "label": "Thanks her",
+      "hint": "Full: thanks the customer. Partial: forgets. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Sets a follow-up",
+      "hint": "Full: sets a follow-up date. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     },
+     {
+      "label": "Closes warmly",
+      "hint": "Full: closes warmly. Partial: flat. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Salma, a buyer who has just bought: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Thank her and plan a follow-up.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Thanks her; Sets a follow-up; Closes warmly.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    }
@@ -2192,6 +2192,142 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
+    "id": "work-sales-b2-u5-l1",
+    "title": "A proposal email",
+    "unit": "Proposals and emails",
+    "description": "Write and present proposals and clear emails.",
+    "persona": "adams",
+    "personaRole": "Mr Hamdy, a buyer who asked for a proposal",
+    "goal": "Send a clear short proposal.",
+    "rubric": [
+     {
+      "label": "States the need",
+      "hint": "Full: states the need. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives the offer",
+      "hint": "Full: gives the offer. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Gives the next step",
+      "hint": "Full: gives the next step. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Hamdy, a buyer who asked for a proposal: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Send a clear short proposal.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: States the need; Gives the offer; Gives the next step.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-b2-u5-l2",
+    "title": "Presenting a proposal call",
+    "unit": "Proposals and emails",
+    "description": "Write and present proposals and clear emails.",
+    "persona": "sara",
+    "personaRole": "Rasha, a buyer on a video call",
+    "goal": "Walk through a proposal.",
+    "rubric": [
+     {
+      "label": "Opens with the need",
+      "hint": "Full: opens with the customer's need. Partial: opens with self. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Walks through options",
+      "hint": "Full: walks through options. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Asks for a decision",
+      "hint": "Full: asks for a decision. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Rasha, a buyer on a video call: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Walk through a proposal.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Opens with the need; Walks through options; Asks for a decision.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-b2-u5-l3",
+    "title": "A polite chaser",
+    "unit": "Proposals and emails",
+    "description": "Write and present proposals and clear emails.",
+    "persona": "adams",
+    "personaRole": "Mr Sherif, a buyer who is silent",
+    "goal": "Chase politely and keep value.",
+    "rubric": [
+     {
+      "label": "Gives a reason to reply",
+      "hint": "Full: gives a reason to reply. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Is brief",
+      "hint": "Full: is brief. Partial: long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Offers a time",
+      "hint": "Full: offers a time. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Sherif, a buyer who is silent: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Chase politely and keep value.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Gives a reason to reply; Is brief; Offers a time.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-b2-u5-l4",
+    "title": "Account review meeting",
+    "unit": "Proposals and emails",
+    "description": "Write and present proposals and clear emails.",
+    "persona": "sara",
+    "personaRole": "Huda, an existing customer",
+    "goal": "Run a short review.",
+    "rubric": [
+     {
+      "label": "Reviews results",
+      "hint": "Full: reviews results. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Asks about plans",
+      "hint": "Full: asks about plans. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     },
+     {
+      "label": "Offers next steps",
+      "hint": "Full: offers next steps. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Huda, an existing customer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Run a short review.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Reviews results; Asks about plans; Offers next steps.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "B2",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
     "id": "work-sales-b2-u2-l1",
     "title": "Linking value to results",
     "unit": "Presenting value",
@@ -2328,32 +2464,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u3-l1",
-    "title": "A price objection with a budget limit",
-    "unit": "Handling objections",
-    "description": "Respond to objections about price, timing and risk.",
+    "id": "work-sales-b2-u6-l1",
+    "title": "Upselling without pressure",
+    "unit": "Working with customers over time",
+    "description": "Grow and keep accounts.",
     "persona": "adams",
-    "personaRole": "Mr Nabil, a buyer with a fixed budget",
-    "goal": "Work within the budget.",
+    "personaRole": "Mr Tarek, a happy buyer",
+    "goal": "Offer an upgrade fairly.",
     "rubric": [
      {
-      "label": "Asks about the budget",
-      "hint": "Full: asks about the budget. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Links to his use",
+      "hint": "Full: links to how he uses it. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers options",
-      "hint": "Full: offers options. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "States the benefit",
+      "hint": "Full: states the benefit. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Protects value",
-      "hint": "Full: protects value, not just price. Partial: drops price. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Accepts a no",
+      "hint": "Full: accepts a no politely. Partial: pushes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Nabil, a buyer with a fixed budget: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Work within the budget.",
+     "Open the scene in character as Mr Tarek, a happy buyer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Offer an upgrade fairly.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks about the budget; Offers options; Protects value.",
+     "Move through the rubric points naturally: Links to his use; States the benefit; Accepts a no.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2362,32 +2498,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u3-l2",
-    "title": "A timing objection",
-    "unit": "Handling objections",
-    "description": "Respond to objections about price, timing and risk.",
+    "id": "work-sales-b2-u6-l2",
+    "title": "Handling a complaint from a key account",
+    "unit": "Working with customers over time",
+    "description": "Grow and keep accounts.",
     "persona": "sara",
-    "personaRole": "Salma, a buyer who says \"not now\"",
-    "goal": "Respond to timing.",
+    "personaRole": "Mona, an angry key buyer",
+    "goal": "Calm her and fix it.",
     "rubric": [
      {
-      "label": "Asks why now is hard",
-      "hint": "Full: asks why now is hard. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Listens",
+      "hint": "Full: listens without interrupting. Partial: interrupts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers a small step",
-      "hint": "Full: offers a small first step. Partial: big ask. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Takes ownership",
+      "hint": "Full: takes ownership. Partial: blames. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Agrees a date",
-      "hint": "Full: agrees a date. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives a plan",
+      "hint": "Full: gives a plan. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Salma, a buyer who says \"not now\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Respond to timing.",
+     "Open the scene in character as Mona, an angry key buyer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Calm her and fix it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks why now is hard; Offers a small step; Agrees a date.",
+     "Move through the rubric points naturally: Listens; Takes ownership; Gives a plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2396,32 +2532,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u3-l3",
-    "title": "A risk objection",
-    "unit": "Handling objections",
-    "description": "Respond to objections about price, timing and risk.",
+    "id": "work-sales-b2-u6-l3",
+    "title": "Renewing a contract",
+    "unit": "Working with customers over time",
+    "description": "Grow and keep accounts.",
     "persona": "adams",
-    "personaRole": "Mr Karim, a buyer who fears risk",
-    "goal": "Reduce the risk.",
+    "personaRole": "Mr Karim, a buyer near renewal",
+    "goal": "Renew with a clear value story.",
     "rubric": [
      {
-      "label": "Names the risk",
-      "hint": "Full: names the risk. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Reviews value",
+      "hint": "Full: reviews value delivered. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers proof",
-      "hint": "Full: offers proof. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Discusses terms",
+      "hint": "Full: discusses terms. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers a trial or guarantee",
-      "hint": "Full: offers a trial or guarantee. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Agrees the date",
+      "hint": "Full: agrees the date. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Karim, a buyer who fears risk: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Reduce the risk.",
+     "Open the scene in character as Mr Karim, a buyer near renewal: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Renew with a clear value story.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names the risk; Offers proof; Offers a trial or guarantee.",
+     "Move through the rubric points naturally: Reviews value; Discusses terms; Agrees the date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2430,32 +2566,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u3-l4",
-    "title": "A competitor objection",
-    "unit": "Handling objections",
-    "description": "Respond to objections about price, timing and risk.",
+    "id": "work-sales-b2-u6-l4",
+    "title": "Saying no to a request",
+    "unit": "Working with customers over time",
+    "description": "Grow and keep accounts.",
     "persona": "sara",
-    "personaRole": "Amira, a buyer using another supplier",
-    "goal": "Respond without attacking.",
+    "personaRole": "Amira, a buyer who asks for the impossible",
+    "goal": "Say no and offer another way.",
     "rubric": [
      {
-      "label": "Respects the current supplier",
-      "hint": "Full: respects the current supplier. Partial: criticises. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Says no kindly",
+      "hint": "Full: says no kindly. Partial: blunt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Finds the gap",
-      "hint": "Full: finds the gap in the current supply. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Gives the reason",
+      "hint": "Full: gives the reason for calling. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers a test",
-      "hint": "Full: offers a test. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers another way",
+      "hint": "Full: offers another way. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Amira, a buyer using another supplier: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Respond without attacking.",
+     "Open the scene in character as Amira, a buyer who asks for the impossible: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Say no and offer another way.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Respects the current supplier; Finds the gap; Offers a test.",
+     "Move through the rubric points naturally: Says no kindly; Gives the reason; Offers another way.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2600,168 +2736,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u5-l1",
-    "title": "A proposal email",
-    "unit": "Proposals and emails",
-    "description": "Write and present proposals and clear emails.",
+    "id": "work-sales-b2-u3-l1",
+    "title": "A price objection with a budget limit",
+    "unit": "Handling objections",
+    "description": "Respond to objections about price, timing and risk.",
     "persona": "adams",
-    "personaRole": "Mr Hamdy, a buyer who asked for a proposal",
-    "goal": "Send a clear short proposal.",
+    "personaRole": "Mr Nabil, a buyer with a fixed budget",
+    "goal": "Work within the budget.",
     "rubric": [
      {
-      "label": "States the need",
-      "hint": "Full: states the need. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks about the budget",
+      "hint": "Full: asks about the budget. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives the offer",
-      "hint": "Full: gives the offer. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers options",
+      "hint": "Full: offers options. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives the next step",
-      "hint": "Full: gives the next step. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Protects value",
+      "hint": "Full: protects value, not just price. Partial: drops price. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Hamdy, a buyer who asked for a proposal: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Send a clear short proposal.",
+     "Open the scene in character as Mr Nabil, a buyer with a fixed budget: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Work within the budget.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the need; Gives the offer; Gives the next step.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b2-u5-l2",
-    "title": "Presenting a proposal call",
-    "unit": "Proposals and emails",
-    "description": "Write and present proposals and clear emails.",
-    "persona": "sara",
-    "personaRole": "Rasha, a buyer on a video call",
-    "goal": "Walk through a proposal.",
-    "rubric": [
-     {
-      "label": "Opens with the need",
-      "hint": "Full: opens with the customer's need. Partial: opens with self. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Walks through options",
-      "hint": "Full: walks through options. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Asks for a decision",
-      "hint": "Full: asks for a decision. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Rasha, a buyer on a video call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Walk through a proposal.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Opens with the need; Walks through options; Asks for a decision.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b2-u5-l3",
-    "title": "A polite chaser",
-    "unit": "Proposals and emails",
-    "description": "Write and present proposals and clear emails.",
-    "persona": "adams",
-    "personaRole": "Mr Sherif, a buyer who is silent",
-    "goal": "Chase politely and keep value.",
-    "rubric": [
-     {
-      "label": "Gives a reason to reply",
-      "hint": "Full: gives a reason to reply. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Is brief",
-      "hint": "Full: is brief. Partial: long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Offers a time",
-      "hint": "Full: offers a time. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Sherif, a buyer who is silent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Chase politely and keep value.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Gives a reason to reply; Is brief; Offers a time.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b2-u5-l4",
-    "title": "Account review meeting",
-    "unit": "Proposals and emails",
-    "description": "Write and present proposals and clear emails.",
-    "persona": "sara",
-    "personaRole": "Huda, an existing customer",
-    "goal": "Run a short review.",
-    "rubric": [
-     {
-      "label": "Reviews results",
-      "hint": "Full: reviews results. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Asks about plans",
-      "hint": "Full: asks about plans. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Offers next steps",
-      "hint": "Full: offers next steps. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Huda, an existing customer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Run a short review.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Reviews results; Asks about plans; Offers next steps.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "B2",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Online conversation)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-b2-u6-l1",
-    "title": "Upselling without pressure",
-    "unit": "Working with customers over time",
-    "description": "Grow and keep accounts.",
-    "persona": "adams",
-    "personaRole": "Mr Tarek, a happy buyer",
-    "goal": "Offer an upgrade fairly.",
-    "rubric": [
-     {
-      "label": "Links to his use",
-      "hint": "Full: links to how he uses it. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "States the benefit",
-      "hint": "Full: states the benefit. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     },
-     {
-      "label": "Accepts a no",
-      "hint": "Full: accepts a no politely. Partial: pushes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Tarek, a happy buyer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Offer an upgrade fairly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Links to his use; States the benefit; Accepts a no.",
+     "Move through the rubric points naturally: Asks about the budget; Offers options; Protects value.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2770,32 +2770,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u6-l2",
-    "title": "Handling a complaint from a key account",
-    "unit": "Working with customers over time",
-    "description": "Grow and keep accounts.",
+    "id": "work-sales-b2-u3-l2",
+    "title": "A timing objection",
+    "unit": "Handling objections",
+    "description": "Respond to objections about price, timing and risk.",
     "persona": "sara",
-    "personaRole": "Mona, an angry key buyer",
-    "goal": "Calm her and fix it.",
+    "personaRole": "Salma, a buyer who says \"not now\"",
+    "goal": "Respond to timing.",
     "rubric": [
      {
-      "label": "Listens",
-      "hint": "Full: listens without interrupting. Partial: interrupts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Asks why now is hard",
+      "hint": "Full: asks why now is hard. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Takes ownership",
-      "hint": "Full: takes ownership. Partial: blames. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers a small step",
+      "hint": "Full: offers a small first step. Partial: big ask. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives a plan",
-      "hint": "Full: gives a plan. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Agrees a date",
+      "hint": "Full: agrees a date. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mona, an angry key buyer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Calm her and fix it.",
+     "Open the scene in character as Salma, a buyer who says \"not now\": greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Respond to timing.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Listens; Takes ownership; Gives a plan.",
+     "Move through the rubric points naturally: Asks why now is hard; Offers a small step; Agrees a date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2804,32 +2804,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u6-l3",
-    "title": "Renewing a contract",
-    "unit": "Working with customers over time",
-    "description": "Grow and keep accounts.",
+    "id": "work-sales-b2-u3-l3",
+    "title": "A risk objection",
+    "unit": "Handling objections",
+    "description": "Respond to objections about price, timing and risk.",
     "persona": "adams",
-    "personaRole": "Mr Karim, a buyer near renewal",
-    "goal": "Renew with a clear value story.",
+    "personaRole": "Mr Karim, a buyer who fears risk",
+    "goal": "Reduce the risk.",
     "rubric": [
      {
-      "label": "Reviews value",
-      "hint": "Full: reviews value delivered. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Names the risk",
+      "hint": "Full: names the risk. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Discusses terms",
-      "hint": "Full: discusses terms. Partial: skips. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers proof",
+      "hint": "Full: offers proof. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Agrees the date",
-      "hint": "Full: agrees the date. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers a trial or guarantee",
+      "hint": "Full: offers a trial or guarantee. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Karim, a buyer near renewal: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Renew with a clear value story.",
+     "Open the scene in character as Mr Karim, a buyer who fears risk: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Reduce the risk.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Reviews value; Discusses terms; Agrees the date.",
+     "Move through the rubric points naturally: Names the risk; Offers proof; Offers a trial or guarantee.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -2838,32 +2838,32 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-b2-u6-l4",
-    "title": "Saying no to a request",
-    "unit": "Working with customers over time",
-    "description": "Grow and keep accounts.",
+    "id": "work-sales-b2-u3-l4",
+    "title": "A competitor objection",
+    "unit": "Handling objections",
+    "description": "Respond to objections about price, timing and risk.",
     "persona": "sara",
-    "personaRole": "Amira, a buyer who asks for the impossible",
-    "goal": "Say no and offer another way.",
+    "personaRole": "Amira, a buyer using another supplier",
+    "goal": "Respond without attacking.",
     "rubric": [
      {
-      "label": "Says no kindly",
-      "hint": "Full: says no kindly. Partial: blunt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Respects the current supplier",
+      "hint": "Full: respects the current supplier. Partial: criticises. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Gives the reason",
-      "hint": "Full: gives the reason for calling. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Finds the gap",
+      "hint": "Full: finds the gap in the current supply. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
-      "label": "Offers another way",
-      "hint": "Full: offers another way. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "label": "Offers a test",
+      "hint": "Full: offers a test. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
-     "Open the scene in character as Amira, a buyer who asks for the impossible: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say no and offer another way.",
+     "Open the scene in character as Amira, a buyer using another supplier: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Respond without attacking.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Says no kindly; Gives the reason; Offers another way.",
+     "Move through the rubric points naturally: Respects the current supplier; Finds the gap; Offers a test.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B2",
@@ -3010,274 +3010,138 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u2-l1",
-    "title": "Multiple issues at once",
-    "unit": "Complex negotiation",
-    "description": "Negotiate multi-part deals with senior people.",
+    "id": "work-sales-c1-u5-l1",
+    "title": "Running a team call",
+    "unit": "Leading a sales conversation",
+    "description": "Lead team calls and coach newer sellers.",
     "persona": "adams",
-    "personaRole": "Mr Nabil, a buyer with five demands",
-    "goal": "Handle several issues in a package.",
+    "personaRole": "Mr Sherif and three team members",
+    "goal": "Lead a short team call.",
     "rubric": [
      {
-      "label": "Lists the issues",
-      "hint": "Full: lists the issues. Partial: some. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Sets the aim",
+      "hint": "Full: sets the aim. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Prioritises",
-      "hint": "Full: prioritises the issues. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Shares the floor",
+      "hint": "Full: shares the floor. Partial: dominates. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Proposes a package",
-      "hint": "Full: proposes a package of terms. Partial: single point. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Agrees actions",
+      "hint": "Full: agrees actions. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Nabil, a buyer with five demands: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle several issues in a package.",
+     "Open the scene in character as Mr Sherif and three team members: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Lead a short team call.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Lists the issues; Prioritises; Proposes a package.",
+     "Move through the rubric points naturally: Sets the aim; Shares the floor; Agrees actions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u2-l2",
-    "title": "Holding your position",
-    "unit": "Complex negotiation",
-    "description": "Negotiate multi-part deals with senior people.",
+    "id": "work-sales-c1-u5-l2",
+    "title": "Giving feedback to a seller",
+    "unit": "Leading a sales conversation",
+    "description": "Lead team calls and coach newer sellers.",
     "persona": "sara",
-    "personaRole": "Salma, a buyer who pressures you",
-    "goal": "Hold your position politely.",
+    "personaRole": "Reem, a new seller after a bad call",
+    "goal": "Give clear kind feedback.",
     "rubric": [
      {
-      "label": "Stays calm",
-      "hint": "Full: stays calm throughout. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Starts with a strength",
+      "hint": "Full: starts with a real strength. Partial: criticism first. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Repeats the limit",
-      "hint": "Full: repeats the limit calmly. Partial: gives way. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Gives one point",
+      "hint": "Full: gives one point to improve. Partial: many. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Offers value",
-      "hint": "Full: offers value instead of price. Partial: price only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Agrees a next step",
+      "hint": "Full: agrees a next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Salma, a buyer who pressures you: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Hold your position politely.",
+     "Open the scene in character as Reem, a new seller after a bad call: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give clear kind feedback.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Stays calm; Repeats the limit; Offers value.",
+     "Move through the rubric points naturally: Starts with a strength; Gives one point; Agrees a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u2-l3",
-    "title": "Reading signals",
-    "unit": "Complex negotiation",
-    "description": "Negotiate multi-part deals with senior people.",
+    "id": "work-sales-c1-u5-l3",
+    "title": "Sharing a win",
+    "unit": "Leading a sales conversation",
+    "description": "Lead team calls and coach newer sellers.",
     "persona": "adams",
-    "personaRole": "Mr Sherif, a buyer who sounds uncertain",
-    "goal": "Read tone and act on it.",
+    "personaRole": "Mr Tarek, the sales manager",
+    "goal": "Share a win in two minutes.",
     "rubric": [
      {
-      "label": "Notices the signal",
-      "hint": "Full: notices a buying or doubt signal. Partial: misses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "States the result",
+      "hint": "Full: states the result. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Checks it politely",
-      "hint": "Full: checks it politely. Partial: assumes. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Credits the team",
+      "hint": "Full: credits the team. Partial: self only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Adapts",
-      "hint": "Full: adapts the approach. Partial: continues the same. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Shares the lesson",
+      "hint": "Full: shares the lesson. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Sherif, a buyer who sounds uncertain: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Read tone and act on it.",
+     "Open the scene in character as Mr Tarek, the sales manager: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Share a win in two minutes.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Notices the signal; Checks it politely; Adapts.",
+     "Move through the rubric points naturally: States the result; Credits the team; Shares the lesson.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u2-l4",
-    "title": "Closing a hard deal",
-    "unit": "Complex negotiation",
-    "description": "Negotiate multi-part deals with senior people.",
-    "persona": "sara",
-    "personaRole": "Heba, a buyer who has one last concern",
-    "goal": "Close with one last concern.",
-    "rubric": [
-     {
-      "label": "Names the concern",
-      "hint": "Full: names the concern. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Solves or trades",
-      "hint": "Full: solves the concern or trades. Partial: ignores. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Confirms",
-      "hint": "Full: confirms the details. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Heba, a buyer who has one last concern: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close with one last concern.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Names the concern; Solves or trades; Confirms.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-c1-u3-l1",
-    "title": "A five-minute executive pitch",
-    "unit": "Presenting to executives",
-    "description": "Present to senior people with clear structure and calm.",
+    "id": "work-sales-c1-u5-l4",
+    "title": "Handling a miss",
+    "unit": "Leading a sales conversation",
+    "description": "Lead team calls and coach newer sellers.",
     "persona": "adams",
-    "personaRole": "Mr Tarek and the executive team",
-    "goal": "Give a clear pitch in five minutes.",
+    "personaRole": "Mr Wael, a manager after a lost quarter",
+    "goal": "Explain a miss honestly.",
     "rubric": [
      {
-      "label": "Opens with the point",
-      "hint": "Full: opens with the point. Partial: story first. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Owns it",
+      "hint": "Full: owns it. Partial: blames. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Keeps to time",
-      "hint": "Full: keeps to time. Partial: runs over. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Gives the cause",
+      "hint": "Full: gives the cause. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Closes with a request",
-      "hint": "Full: closes with a clear request. Partial: fades. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Gives the plan",
+      "hint": "Full: gives the plan. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Tarek and the executive team: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a clear pitch in five minutes.",
+     "Open the scene in character as Mr Wael, a manager after a lost quarter: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Explain a miss honestly.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Opens with the point; Keeps to time; Closes with a request.",
+     "Move through the rubric points naturally: Owns it; Gives the cause; Gives the plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-c1-u3-l2",
-    "title": "Handling interruptions",
-    "unit": "Presenting to executives",
-    "description": "Present to senior people with clear structure and calm.",
-    "persona": "sara",
-    "personaRole": "Mona, an executive who interrupts",
-    "goal": "Handle interruptions smoothly.",
-    "rubric": [
-     {
-      "label": "Stays calm",
-      "hint": "Full: stays calm throughout. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Answers briefly",
-      "hint": "Full: answers briefly. Partial: long. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Returns to the point",
-      "hint": "Full: returns to the point. Partial: drifts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mona, an executive who interrupts: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle interruptions smoothly.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Stays calm; Answers briefly; Returns to the point.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-c1-u3-l3",
-    "title": "Answering a hostile question",
-    "unit": "Presenting to executives",
-    "description": "Present to senior people with clear structure and calm.",
-    "persona": "adams",
-    "personaRole": "Mr Adel, an executive who attacks your offer",
-    "goal": "Answer a hostile question.",
-    "rubric": [
-     {
-      "label": "Does not argue",
-      "hint": "Full: does not argue. Partial: argues. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Uses facts",
-      "hint": "Full: uses facts. Partial: opinion. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Moves forward",
-      "hint": "Full: moves forward. Partial: stuck. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Mr Adel, an executive who attacks your offer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer a hostile question.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Does not argue; Uses facts; Moves forward.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
-    "licence": "JustSpeak-owned",
-    "status": "draft"
-   },
-   {
-    "id": "work-sales-c1-u3-l4",
-    "title": "Closing with a clear ask",
-    "unit": "Presenting to executives",
-    "description": "Present to senior people with clear structure and calm.",
-    "persona": "sara",
-    "personaRole": "Layla, an executive at the end",
-    "goal": "Close with one ask.",
-    "rubric": [
-     {
-      "label": "Summarises",
-      "hint": "Full: summarises what was agreed. Partial: partial. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Asks clearly",
-      "hint": "Full: asks clearly. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     },
-     {
-      "label": "Agrees a date",
-      "hint": "Full: agrees a date. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
-     }
-    ],
-    "targets": [
-     "Open the scene in character as Layla, an executive at the end: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close with one ask.",
-     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Summarises; Asks clearly; Agrees a date.",
-     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
-    ],
-    "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
@@ -3418,138 +3282,274 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u5-l1",
-    "title": "Running a team call",
-    "unit": "Leading a sales conversation",
-    "description": "Lead team calls and coach newer sellers.",
+    "id": "work-sales-c1-u3-l1",
+    "title": "A five-minute executive pitch",
+    "unit": "Presenting to executives",
+    "description": "Present to senior people with clear structure and calm.",
     "persona": "adams",
-    "personaRole": "Mr Sherif and three team members",
-    "goal": "Lead a short team call.",
+    "personaRole": "Mr Tarek and the executive team",
+    "goal": "Give a clear pitch in five minutes.",
     "rubric": [
      {
-      "label": "Sets the aim",
-      "hint": "Full: sets the aim. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Opens with the point",
+      "hint": "Full: opens with the point. Partial: story first. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Shares the floor",
-      "hint": "Full: shares the floor. Partial: dominates. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Keeps to time",
+      "hint": "Full: keeps to time. Partial: runs over. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Agrees actions",
-      "hint": "Full: agrees actions. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Closes with a request",
+      "hint": "Full: closes with a clear request. Partial: fades. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Sherif and three team members: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Lead a short team call.",
+     "Open the scene in character as Mr Tarek and the executive team: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Give a clear pitch in five minutes.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Sets the aim; Shares the floor; Agrees actions.",
+     "Move through the rubric points naturally: Opens with the point; Keeps to time; Closes with a request.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u5-l2",
-    "title": "Giving feedback to a seller",
-    "unit": "Leading a sales conversation",
-    "description": "Lead team calls and coach newer sellers.",
+    "id": "work-sales-c1-u3-l2",
+    "title": "Handling interruptions",
+    "unit": "Presenting to executives",
+    "description": "Present to senior people with clear structure and calm.",
     "persona": "sara",
-    "personaRole": "Reem, a new seller after a bad call",
-    "goal": "Give clear kind feedback.",
+    "personaRole": "Mona, an executive who interrupts",
+    "goal": "Handle interruptions smoothly.",
     "rubric": [
      {
-      "label": "Starts with a strength",
-      "hint": "Full: starts with a real strength. Partial: criticism first. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Stays calm",
+      "hint": "Full: stays calm throughout. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Gives one point",
-      "hint": "Full: gives one point to improve. Partial: many. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Answers briefly",
+      "hint": "Full: answers briefly. Partial: long. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Agrees a next step",
-      "hint": "Full: agrees a next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Returns to the point",
+      "hint": "Full: returns to the point. Partial: drifts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Reem, a new seller after a bad call: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give clear kind feedback.",
+     "Open the scene in character as Mona, an executive who interrupts: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Handle interruptions smoothly.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Starts with a strength; Gives one point; Agrees a next step.",
+     "Move through the rubric points naturally: Stays calm; Answers briefly; Returns to the point.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u5-l3",
-    "title": "Sharing a win",
-    "unit": "Leading a sales conversation",
-    "description": "Lead team calls and coach newer sellers.",
+    "id": "work-sales-c1-u3-l3",
+    "title": "Answering a hostile question",
+    "unit": "Presenting to executives",
+    "description": "Present to senior people with clear structure and calm.",
     "persona": "adams",
-    "personaRole": "Mr Tarek, the sales manager",
-    "goal": "Share a win in two minutes.",
+    "personaRole": "Mr Adel, an executive who attacks your offer",
+    "goal": "Answer a hostile question.",
     "rubric": [
      {
-      "label": "States the result",
-      "hint": "Full: states the result. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Does not argue",
+      "hint": "Full: does not argue. Partial: argues. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Credits the team",
-      "hint": "Full: credits the team. Partial: self only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Uses facts",
+      "hint": "Full: uses facts. Partial: opinion. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Shares the lesson",
-      "hint": "Full: shares the lesson. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Moves forward",
+      "hint": "Full: moves forward. Partial: stuck. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Tarek, the sales manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Share a win in two minutes.",
+     "Open the scene in character as Mr Adel, an executive who attacks your offer: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Answer a hostile question.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: States the result; Credits the team; Shares the lesson.",
+     "Move through the rubric points naturally: Does not argue; Uses facts; Moves forward.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    },
    {
-    "id": "work-sales-c1-u5-l4",
-    "title": "Handling a miss",
-    "unit": "Leading a sales conversation",
-    "description": "Lead team calls and coach newer sellers.",
-    "persona": "adams",
-    "personaRole": "Mr Wael, a manager after a lost quarter",
-    "goal": "Explain a miss honestly.",
+    "id": "work-sales-c1-u3-l4",
+    "title": "Closing with a clear ask",
+    "unit": "Presenting to executives",
+    "description": "Present to senior people with clear structure and calm.",
+    "persona": "sara",
+    "personaRole": "Layla, an executive at the end",
+    "goal": "Close with one ask.",
     "rubric": [
      {
-      "label": "Owns it",
-      "hint": "Full: owns it. Partial: blames. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Summarises",
+      "hint": "Full: summarises what was agreed. Partial: partial. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Gives the cause",
-      "hint": "Full: gives the cause. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Asks clearly",
+      "hint": "Full: asks clearly. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
-      "label": "Gives the plan",
-      "hint": "Full: gives the plan. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "label": "Agrees a date",
+      "hint": "Full: agrees a date. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
-     "Open the scene in character as Mr Wael, a manager after a lost quarter: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a miss honestly.",
+     "Open the scene in character as Layla, an executive at the end: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Close with one ask.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Owns it; Gives the cause; Gives the plan.",
+     "Move through the rubric points naturally: Summarises; Asks clearly; Agrees a date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "C1",
-    "source": "Self-written by JustSpeak; level and scale from CEFR (Goal-oriented co-operation)",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Addressing audiences)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-c1-u2-l1",
+    "title": "Multiple issues at once",
+    "unit": "Complex negotiation",
+    "description": "Negotiate multi-part deals with senior people.",
+    "persona": "adams",
+    "personaRole": "Mr Nabil, a buyer with five demands",
+    "goal": "Handle several issues in a package.",
+    "rubric": [
+     {
+      "label": "Lists the issues",
+      "hint": "Full: lists the issues. Partial: some. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Prioritises",
+      "hint": "Full: prioritises the issues. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Proposes a package",
+      "hint": "Full: proposes a package of terms. Partial: single point. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Nabil, a buyer with five demands: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Handle several issues in a package.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Lists the issues; Prioritises; Proposes a package.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-c1-u2-l2",
+    "title": "Holding your position",
+    "unit": "Complex negotiation",
+    "description": "Negotiate multi-part deals with senior people.",
+    "persona": "sara",
+    "personaRole": "Salma, a buyer who pressures you",
+    "goal": "Hold your position politely.",
+    "rubric": [
+     {
+      "label": "Stays calm",
+      "hint": "Full: stays calm throughout. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Repeats the limit",
+      "hint": "Full: repeats the limit calmly. Partial: gives way. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Offers value",
+      "hint": "Full: offers value instead of price. Partial: price only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Salma, a buyer who pressures you: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Hold your position politely.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Stays calm; Repeats the limit; Offers value.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-c1-u2-l3",
+    "title": "Reading signals",
+    "unit": "Complex negotiation",
+    "description": "Negotiate multi-part deals with senior people.",
+    "persona": "adams",
+    "personaRole": "Mr Sherif, a buyer who sounds uncertain",
+    "goal": "Read tone and act on it.",
+    "rubric": [
+     {
+      "label": "Notices the signal",
+      "hint": "Full: notices a buying or doubt signal. Partial: misses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Checks it politely",
+      "hint": "Full: checks it politely. Partial: assumes. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Adapts",
+      "hint": "Full: adapts the approach. Partial: continues the same. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Mr Sherif, a buyer who sounds uncertain: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Read tone and act on it.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Notices the signal; Checks it politely; Adapts.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
+    "licence": "JustSpeak-owned",
+    "status": "draft"
+   },
+   {
+    "id": "work-sales-c1-u2-l4",
+    "title": "Closing a hard deal",
+    "unit": "Complex negotiation",
+    "description": "Negotiate multi-part deals with senior people.",
+    "persona": "sara",
+    "personaRole": "Heba, a buyer who has one last concern",
+    "goal": "Close with one last concern.",
+    "rubric": [
+     {
+      "label": "Names the concern",
+      "hint": "Full: names the concern. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Solves or trades",
+      "hint": "Full: solves the concern or trades. Partial: ignores. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     },
+     {
+      "label": "Confirms",
+      "hint": "Full: confirms the details. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+     }
+    ],
+    "targets": [
+     "Open the scene in character as Heba, a buyer who has one last concern: greet the learner and state your situation in one or two short sentences.",
+     "Let the learner work toward this goal: Close with one last concern.",
+     "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
+     "Move through the rubric points naturally: Names the concern; Solves or trades; Confirms.",
+     "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
+    ],
+    "level": "C1",
+    "source": "Self-written by JustSpeak; level and scale from CEFR (Formal discussion)",
     "licence": "JustSpeak-owned",
     "status": "draft"
    }
