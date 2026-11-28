@@ -1,0 +1,255 @@
+Says welcome | Full: welcomes the customer with "Welcome" or "Hello, welcome to...". Partial: greets without welcoming.
+Says own name | Full: gives their own name clearly. Partial: name unclear or missing.
+Offers help | Full: offers help with a question like "Can I help you?" Partial: waits for the customer.
+Names the product | Full: names the product clearly. Partial: says "this" or "it".
+Uses a simple sentence | Full: a short, complete sentence such as "This phone is new." Partial: single words.
+Speaks clearly | Full: easy to hear and understand. Partial: mumbling or rushed.
+Says thank you | Full: thanks the customer at the right moment. Partial: only after prompting.
+Says goodbye | Full: says goodbye. Partial: stops without closing.
+Invites her back | Full: invites the customer to come again, like "Please come again." Partial: says only goodbye.
+Names the company | Full: says the company name clearly. Partial: unclear.
+Repeats if asked | Full: repeats the same information clearly when asked. Partial: repeats unclearly.
+Says a colour or size | Full: names a real colour or size. Partial: vague.
+Uses "This is" | Full: uses "This is..." to present an item. Partial: no frame.
+Says the number | Full: says the number clearly and correctly. Partial: wrong or hard to hear.
+Says the currency | Full: names the currency with the number. Partial: leaves it out.
+Speaks slowly | Full: slow enough for a customer to follow. Partial: quick.
+Uses two adjectives | Full: uses two adjectives to describe, like "light and cheap". Partial: one.
+Compares two items | Full: compares two items with a comparative, like "This one is cheaper." Partial: describes each with no comparison.
+Clear words | Full: key words are easy to understand. Partial: mispronounced.
+Answers yes or no | Full: answers with a clear yes or no. Partial: vague.
+Offers an option | Full: offers another option. Partial: none.
+Polite tone | Full: polite throughout. Partial: blunt at times.
+Asks how many | Full: asks the quantity. Partial: assumes.
+Repeats the number | Full: repeats the number to confirm. Partial: no repeat.
+Checks it | Full: checks it with the customer. Partial: skips the check.
+Says the total | Full: says the total price clearly. Partial: unclear.
+Asks cash or card | Full: asks "Cash or card?" Partial: assumes.
+Takes the answer | Full: accepts the answer and acts on it. Partial: ignores it.
+Says "Here is your receipt" | Full: hands over the receipt with the phrase. Partial: no words.
+Says company and name | Full: gives company and own name when answering. Partial: gives one.
+Asks how to help | Full: asks how to help. Partial: waits.
+Asks the name | Full: asks the caller's name politely. Partial: skips.
+Spells it back | Full: spells the name back letter by letter. Partial: says it only.
+Asks for the number | Full: asks for a phone number politely. Partial: abrupt.
+Repeats it in groups | Full: repeats the number in groups. Partial: one string.
+Says "We will call you" | Full: promises a call back with "We will call you". Partial: vague.
+Gives a time | Full: gives a clear time. Partial: "soon".
+Thanks her | Full: thanks the customer. Partial: forgets.
+Says what it is for | Full: says what the product is for. Partial: only what it is.
+Uses short sentences | Full: short and clear sentences. Partial: long.
+Gives size | Full: gives the size. Partial: omits.
+Gives colour | Full: gives the colour. Partial: omits.
+Gives material | Full: names the material. Partial: omits.
+Says new or used | Full: says clearly if new or used. Partial: unclear.
+Gives one detail | Full: gives one useful detail. Partial: general.
+Honest tone | Full: honest about the product, including limits. Partial: oversells.
+Gives a reason | Full: gives a clear reason. Partial: none.
+Does not push | Full: does not pressure. Partial: pushes once.
+Gives the price | Full: states the price clearly. Partial: unclear.
+Gives the discount | Full: states the discount amount or percent. Partial: "a discount".
+States the offer | Full: states the offer in one clear sentence. Partial: unclear.
+Gives the end date | Full: gives the end date. Partial: none.
+Checks she understood | Full: asks whether she understood. Partial: assumes.
+Explains the offer | Full: explains the offer simply. Partial: confusing.
+Gives the total | Full: gives the total. Partial: unclear.
+Checks the deal | Full: checks the customer accepts the deal. Partial: moves on.
+Offers a cheaper item | Full: offers a cheaper item. Partial: none.
+Says the difference | Full: says the difference between the two. Partial: none.
+Lists the items | Full: lists each item. Partial: some.
+Repeats the quantity | Full: repeats the quantity of each item. Partial: one.
+Confirms the total | Full: confirms the total. Partial: skips.
+Gives the time | Full: gives the delivery or meeting time. Partial: none.
+Gives the cost | Full: gives the cost. Partial: none.
+Checks the address | Full: checks the address. Partial: skips.
+Understands the change | Full: shows they understood the change. Partial: confused.
+Repeats the new order | Full: repeats the new order. Partial: part.
+Confirms | Full: confirms the details. Partial: none.
+Says it is out of stock | Full: says clearly that it is out of stock. Partial: vague.
+Offers another | Full: offers another item. Partial: none.
+Says when it returns | Full: says when it will be back. Partial: none.
+Says name and company | Full: gives name and company. Partial: one.
+Gives the reason | Full: gives the reason for calling. Partial: none.
+Asks if it is a good time | Full: asks "Is this a good time?" Partial: just starts.
+Leaves a number | Full: leaves a call-back number. Partial: none.
+Greets her | Full: greets the customer. Partial: skips.
+Closes politely | Full: closes politely. Partial: abruptly.
+Thanks him | Full: thanks him. Partial: none.
+Confirms the order | Full: confirms the order. Partial: none.
+Says sorry | Full: apologises clearly. Partial: weak.
+Gives a new date | Full: gives a new date. Partial: none.
+Says what you do next | Full: says the next action. Partial: none.
+Offers a replacement | Full: offers a replacement. Partial: none.
+Says how long | Full: says how long. Partial: vague.
+Offers to fix it | Full: offers to fix it. Partial: none.
+Confirms the plan | Full: confirms the plan. Partial: none.
+Offers more help | Full: offers more help. Partial: none.
+Summarises | Full: summarises what was agreed. Partial: partial.
+Asks open questions | Full: asks open questions (What, How, Why). Partial: only closed ones.
+Listens and follows up | Full: listens, then asks a follow-up on what was said. Partial: moves to the next question.
+Summarises the need | Full: sums up the customer's need in one or two sentences. Partial: repeats a detail.
+Asks about priorities | Full: asks what matters most. Partial: skips.
+Checks budget | Full: checks the budget politely. Partial: avoids it.
+Repeats the priority | Full: repeats the main priority. Partial: none.
+Paraphrases | Full: restates the customer's words in new words. Partial: copies.
+Asks if correct | Full: asks "Is that right?" Partial: none.
+Fixes the gap | Full: corrects the summary after feedback. Partial: ignores.
+Stays calm | Full: stays calm throughout. Partial: shaky.
+Asks one helpful question | Full: asks one useful question. Partial: none.
+Offers a next step | Full: offers a next step. Partial: none.
+Links the need to the product | Full: links the need to a product feature. Partial: lists features.
+Gives one benefit | Full: gives one clear benefit. Partial: features only.
+Checks fit | Full: checks it fits the customer. Partial: none.
+Names the feature | Full: names a feature. Partial: vague.
+Says the benefit | Full: says what the benefit is for the customer. Partial: only the feature.
+Uses an example | Full: gives a short example. Partial: none.
+Compares clearly | Full: compares the options clearly. Partial: lists.
+Gives pros and cons | Full: gives pros and cons. Partial: one side.
+Lets him choose | Full: lets him choose. Partial: decides for him.
+Says honestly | Full: says honestly what the product cannot do. Partial: avoids.
+Offers an alternative | Full: offers an alternative. Partial: none.
+Keeps trust | Full: keeps trust by being honest. Partial: oversells.
+Explains steps in order | Full: explains steps in order. Partial: out of order.
+Links to his need | Full: links to his need. Partial: generic.
+Checks questions | Full: asks if he has questions. Partial: none.
+Gives a clear example | Full: gives a clear example. Partial: vague.
+Keeps it short | Full: short and direct. Partial: long.
+Links to her case | Full: links to her case. Partial: generic.
+Answers directly | Full: answers directly. Partial: avoids.
+Avoids jargon | Full: avoids jargon. Partial: uses some.
+Checks he understood | Full: checks he understood. Partial: none.
+Says you will find out | Full: says "I will find out" when unsure. Partial: guesses.
+Follows up | Full: says when they will follow up. Partial: none.
+Acknowledges the concern | Full: acknowledges the concern. Partial: ignores.
+Explains the value | Full: explains the value. Partial: repeats price.
+Asks what worries her | Full: asks what worries her. Partial: none.
+Agrees a next step | Full: agrees a next step. Partial: none.
+Does not attack the competitor | Full: does not criticise the competitor. Partial: one remark.
+Explains the difference | Full: explains one real difference. Partial: vague.
+States the limit | Full: states the limit. Partial: vague.
+Asks for something in return | Full: asks for something in return for a concession. Partial: gives away.
+Confirms the deal | Full: confirms the deal terms. Partial: none.
+Asks for the order | Full: asks directly for the order. Partial: hints.
+Waits for a reply | Full: stops and waits for the reply. Partial: keeps talking.
+Lists the steps | Full: lists the steps. Partial: some.
+Gives dates | Full: gives dates. Partial: none.
+Checks she agrees | Full: checks she agrees. Partial: none.
+Asks step by step | Full: asks one thing at a time. Partial: several.
+Repeats safely | Full: repeats details safely. Partial: errors.
+Sets a follow-up | Full: sets a follow-up date. Partial: none.
+Closes warmly | Full: closes warmly. Partial: flat.
+Reminds him of the quote | Full: reminds him of the quote briefly. Partial: none.
+Asks one question | Full: asks one clear question. Partial: several.
+Listens | Full: listens without interrupting. Partial: interrupts.
+Thanks him first | Full: thanks him first. Partial: later.
+Asks clearly | Full: asks clearly. Partial: vague.
+Accepts a no | Full: accepts a no politely. Partial: pushes.
+Asks for feedback | Full: asks for feedback. Partial: none.
+Leaves the door open | Full: leaves the door open for later. Partial: closes it.
+Says the aim | Full: states the aim of the call. Partial: unclear.
+Agrees the time | Full: agrees how long the call will take. Partial: none.
+Asks a first question | Full: opens with a good first question. Partial: generic.
+Uses follow-ups | Full: asks follow-up questions. Partial: none.
+Asks about impact | Full: asks about the impact of the problem. Partial: none.
+Asks who decides | Full: asks who decides. Partial: assumes.
+Stays polite | Full: stays polite. Partial: slips.
+Plans to include them | Full: plans to include the decision maker. Partial: none.
+Uses her words | Full: reuses the customer's own words. Partial: own words only.
+Uses figures | Full: uses figures. Partial: none.
+Links to his goal | Full: links to his goal. Partial: generic.
+Stays honest | Full: stays honest. Partial: stretches the truth.
+Gives context | Full: gives the context briefly. Partial: too long.
+Gives the action | Full: gives the action taken. Partial: vague.
+Gives the result | Full: gives the result. Partial: none.
+Opens clearly | Full: opens clearly. Partial: unclear.
+Looks to all | Full: addresses everyone in the room. Partial: one person.
+Handles one question | Full: answers one question well. Partial: dodges.
+Gives evidence | Full: gives evidence. Partial: claims only.
+Admits limits | Full: admits limits honestly. Partial: hides.
+Asks about the budget | Full: asks about the budget. Partial: skips.
+Offers options | Full: offers options. Partial: one.
+Protects value | Full: protects value, not just price. Partial: drops price.
+Asks why now is hard | Full: asks why now is hard. Partial: skips.
+Offers a small step | Full: offers a small first step. Partial: big ask.
+Agrees a date | Full: agrees a date. Partial: none.
+Names the risk | Full: names the risk. Partial: vague.
+Offers proof | Full: offers proof. Partial: none.
+Offers a trial or guarantee | Full: offers a trial or guarantee. Partial: none.
+Respects the current supplier | Full: respects the current supplier. Partial: criticises.
+Finds the gap | Full: finds the gap in the current supply. Partial: none.
+Offers a test | Full: offers a test. Partial: none.
+States your position | Full: states their position clearly. Partial: vague.
+Asks for his | Full: asks for his position. Partial: none.
+Stays friendly | Full: stays friendly. Partial: cold.
+Says "if you... then I..." | Full: uses the "If you..., then I..." trade. Partial: gives without trade.
+Names the trade | Full: names what is traded. Partial: vague.
+Protects margin | Full: protects margin. Partial: gives away.
+Names the issue | Full: names the issue. Partial: vague.
+Pauses to think | Full: pauses to think. Partial: rushes.
+Lists the terms | Full: lists the terms. Partial: some.
+Checks each one | Full: checks each term. Partial: some.
+Plans the paper | Full: says what will be written and when. Partial: none.
+States the need | Full: states the need. Partial: unclear.
+Gives the offer | Full: gives the offer. Partial: unclear.
+Gives the next step | Full: gives the next step. Partial: none.
+Opens with the need | Full: opens with the customer's need. Partial: opens with self.
+Walks through options | Full: walks through options. Partial: lists.
+Asks for a decision | Full: asks for a decision. Partial: none.
+Gives a reason to reply | Full: gives a reason to reply. Partial: none.
+Is brief | Full: is brief. Partial: long.
+Offers a time | Full: offers a time. Partial: none.
+Reviews results | Full: reviews results. Partial: none.
+Asks about plans | Full: asks about plans. Partial: none.
+Offers next steps | Full: offers next steps. Partial: none.
+Links to his use | Full: links to how he uses it. Partial: generic.
+States the benefit | Full: states the benefit. Partial: vague.
+Takes ownership | Full: takes ownership. Partial: blames.
+Gives a plan | Full: gives a plan. Partial: none.
+Reviews value | Full: reviews value delivered. Partial: none.
+Discusses terms | Full: discusses terms. Partial: skips.
+Agrees the date | Full: agrees the date. Partial: none.
+Says no kindly | Full: says no kindly. Partial: blunt.
+Offers another way | Full: offers another way. Partial: none.
+Shares an insight | Full: shares an insight about the customer's market. Partial: generic.
+Links to his goals | Full: links to his goals. Partial: generic.
+Uses soft language | Full: uses soft language ("I wonder if", "perhaps"). Partial: blunt.
+Keeps respect | Full: keeps respect. Partial: slips.
+Uses silence | Full: uses silence to let the buyer think. Partial: fills it.
+Reflects back | Full: reflects back what the buyer said. Partial: none.
+States assumptions | Full: states assumptions. Partial: hidden.
+Links to risk | Full: links to risk. Partial: none.
+Lists the issues | Full: lists the issues. Partial: some.
+Prioritises | Full: prioritises the issues. Partial: none.
+Proposes a package | Full: proposes a package of terms. Partial: single point.
+Repeats the limit | Full: repeats the limit calmly. Partial: gives way.
+Offers value | Full: offers value instead of price. Partial: price only.
+Notices the signal | Full: notices a buying or doubt signal. Partial: misses.
+Checks it politely | Full: checks it politely. Partial: assumes.
+Adapts | Full: adapts the approach. Partial: continues the same.
+Names the concern | Full: names the concern. Partial: vague.
+Solves or trades | Full: solves the concern or trades. Partial: ignores.
+Opens with the point | Full: opens with the point. Partial: story first.
+Keeps to time | Full: keeps to time. Partial: runs over.
+Closes with a request | Full: closes with a clear request. Partial: fades.
+Answers briefly | Full: answers briefly. Partial: long.
+Returns to the point | Full: returns to the point. Partial: drifts.
+Does not argue | Full: does not argue. Partial: argues.
+Uses facts | Full: uses facts. Partial: opinion.
+Moves forward | Full: moves forward. Partial: stuck.
+Owns the problem | Full: owns the problem. Partial: blames.
+Makes specific promises | Full: makes specific promises. Partial: general.
+Sets dates | Full: sets dates. Partial: none.
+Makes it easy | Full: makes the next step easy. Partial: hard.
+Is honest | Full: is honest. Partial: evasive.
+Explains value | Full: explains value. Partial: price only.
+Sets the aim | Full: sets the aim. Partial: none.
+Shares the floor | Full: shares the floor. Partial: dominates.
+Agrees actions | Full: agrees actions. Partial: none.
+Starts with a strength | Full: starts with a real strength. Partial: criticism first.
+Gives one point | Full: gives one point to improve. Partial: many.
+States the result | Full: states the result. Partial: none.
+Credits the team | Full: credits the team. Partial: self only.
+Shares the lesson | Full: shares the lesson. Partial: none.
+Owns it | Full: owns it. Partial: blames.
+Gives the cause | Full: gives the cause. Partial: vague.
+Gives the plan | Full: gives the plan. Partial: none.
