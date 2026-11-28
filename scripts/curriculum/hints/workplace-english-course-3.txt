@@ -1,0 +1,91 @@
+States the purpose | Full: says it clearly, for example "The purpose of this meeting is to agree the launch date." Partial: names the topic without the goal. None: opens with small talk only.
+Sets the agenda | Full: says it clearly, for example "We have three items: budget, timeline, owners." Partial: names one item. None: no agenda.
+Sets time | Full: says it clearly, for example "We have thirty minutes, so ten for each item." Partial: says "short meeting" only. None: no time stated.
+Redirects | Full: says it clearly, for example "Good point, let us park it and return to the budget." Partial: redirects bluntly. None: lets the talk drift.
+Includes others | Full: says it clearly, for example "Nour, you have worked on this. What is your view?" Partial: asks the whole room. None: ignores quiet people.
+Keeps time | Full: says it clearly, for example "We have five minutes left, so one point each." Partial: mentions time once without acting. None: ignores time.
+Summarises options | Full: says it clearly, for example "So we have two options: delay the launch or add staff." Partial: names one option. None: no options listed.
+Tests agreement | Full: says it clearly, for example "Is everyone comfortable with option two?" Partial: asks "okay?". None: assumes agreement.
+Decides | Full: says it clearly, for example "Then we will go with option two." Partial: says "maybe option two". None: no decision.
+Recaps | Full: says it clearly, for example "To recap, we agreed to launch on the 5th with two extra staff." Partial: recaps one point. None: no recap.
+Assigns owners | Full: says it clearly, for example "Salma will update the plan, Ali will brief the client." Partial: tasks without names. None: no owners.
+Sets dates | Full: says it clearly, for example "Salma by Tuesday, Ali by Thursday." Partial: says "soon". None: no dates.
+States the goal | Full: says it clearly, for example "The goal is to cut onboarding time from ten days to five." Partial: vague goal like "make it better". None: no goal.
+Gives the steps | Full: says it clearly, for example "First we map the process, then we remove two approvals, then we test." Partial: one or two steps unordered. None: no steps.
+Gives the timing | Full: says it clearly, for example "Phase one ends in March, the test runs in April." Partial: one date. None: no timing.
+Opens strongly | Full: says it clearly, for example "Every week we lose six hours on manual reports. I can fix that." Partial: a polite greeting then the idea. None: starts with background.
+Handles doubts | Full: says it clearly, for example "That is a fair concern. We will pilot with one team first." Partial: answers without a reason. None: brushes the doubt aside.
+Asks for a decision | Full: says it clearly, for example "Can we approve the pilot today?" Partial: hints "what do you think?". None: no ask.
+Names the risk | Full: says it clearly, for example "The risk is that the supplier delivers late." Partial: describes a problem without naming the risk. None: no risk named.
+Gives likelihood | Full: says it clearly, for example "I think it is likely, about one in three." Partial: says "maybe". None: no likelihood.
+Gives a response | Full: says it clearly, for example "If it happens, we switch to our backup supplier." Partial: an unclear plan. None: no response.
+Leads with the point | Full: says it clearly, for example "We are on track, with one risk on cost." Partial: gives background first. None: buries the point.
+Gives evidence | Full: says it clearly, for example "We finished 80 percent of tasks, and costs are 3 percent over." Partial: one figure. None: no evidence.
+Asks for support | Full: says it clearly, for example "I need approval for one extra developer." Partial: says "any help is welcome". None: no ask.
+Describes the facts | Full: says it clearly, for example "The report had three errors in the totals." Partial: mixes facts with opinion. None: only opinion.
+Explains the effect | Full: says it clearly, for example "This delayed the client's decision by two days." Partial: says "it was bad". None: no effect named.
+Agrees a fix | Full: says it clearly, for example "Can you recheck the totals by noon tomorrow?" Partial: suggests a fix without agreement. None: no fix.
+Listens | Full: says it clearly, for example "I see. So the main issue is the late delivery." Partial: nods with a short "okay". None: interrupts or defends.
+Asks questions | Full: says it clearly, for example "Could you give me an example so I can fix it?" Partial: a general question. None: no question.
+Commits to action | Full: says it clearly, for example "I will fix it by Friday and send you the update." Partial: "I will try". None: no commitment.
+States the risk | Full: says it clearly, for example "I want to flag that testing may overrun by a week." Partial: hints at a problem. None: no risk named.
+Proposes a plan | Full: says it clearly, for example "I suggest we add one tester and cut one feature." Partial: an idea without detail. None: no plan.
+Takes responsibility | Full: says it clearly, for example "I made a mistake. I sent the wrong file." Partial: passive wording like "the file was sent wrong". None: blames others.
+Explains briefly | Full: says it clearly, for example "I used the old version by accident." Partial: long excuses. None: no explanation.
+Offers a fix | Full: says it clearly, for example "I will send the correct file now and check the others." Partial: "I will be careful". None: no fix.
+Explains constraints | Full: says it clearly, for example "Two of my team are on leave, so I cannot finish before the 20th." Partial: says "I am busy". None: no constraint.
+Offers options | Full: says it clearly, for example "I can deliver half by the 15th or all by the 22nd." Partial: one option. None: no option.
+Agrees terms | Full: says it clearly, for example "So half by the 15th, the rest by the 22nd. Agreed." Partial: unclear agreement. None: no agreement.
+Clarifies the aim | Full: says it clearly, for example "What is the main thing you need from this?" Partial: asks "what do you want?". None: refuses straight away.
+Offers a smaller version | Full: says it clearly, for example "I can do the summary now and the full report later." Partial: a vague smaller idea. None: no alternative.
+Confirms | Full: says it clearly, for example "So we agree on the summary only. I will send it Monday." Partial: says "okay". None: no confirmation.
+Opens firmly | Full: says it clearly, for example "I would like to discuss my rate for this project." Partial: hesitant opening. None: avoids the topic.
+Gives a reason | Full: says it clearly, for example "I have added two services since the last contract." Partial: "I need more money". None: no reason.
+Closes the deal | Full: says it clearly, for example "Then we agree on $90 an hour from next month." Partial: "maybe, I will think". None: no close.
+Stays calm | Full: says it clearly, for example "I understand. Let me think about how to move forward." Partial: a tense tone. None: argues or gets angry.
+Probes the reason | Full: says it clearly, for example "Can you tell me what makes this difficult?" Partial: "why not?" bluntly. None: accepts the no without asking.
+Finds a middle | Full: says it clearly, for example "What if we start with a smaller scope?" Partial: a vague compromise. None: no middle ground.
+States the vision | Full: says it clearly, for example "In two years we will be the fastest support team in the region." Partial: "we will improve". None: no vision.
+Gives the why | Full: says it clearly, for example "Because customers now expect answers in minutes." Partial: a general reason. None: no reason.
+Links to roles | Full: says it clearly, for example "Ali, your work on routing makes this possible." Partial: says "everyone will help". None: no link to roles.
+Acknowledges effort | Full: says it clearly, for example "You have worked evenings for a month and I see it." Partial: "thanks, all". None: ignores the effort.
+Gives the reason to continue | Full: says it clearly, for example "This launch will decide next year's budget for us all." Partial: a vague hope. None: no reason.
+Sets next step | Full: says it clearly, for example "Tomorrow we review the top three issues together." Partial: a loose plan. None: no next step.
+Asks open questions | Full: says it clearly, for example "What have you tried so far?" Partial: a leading or yes/no question. None: gives advice instead.
+Agrees actions | Full: says it clearly, for example "So you will try the new script this week. We meet Friday." Partial: an action without a follow-up. None: no action.
+States the case | Full: says it clearly, for example "I recommend we change the process because it costs us two days a week." Partial: a general view. None: no case.
+Handles pushback | Full: says it clearly, for example "I hear the cost worry. Here is how we limit it." Partial: repeats the claim. None: gives in or argues.
+Agrees steps | Full: says it clearly, for example "Let us run a two-week test and review." Partial: unclear steps. None: no steps.
+Leads with the ask | Full: says it clearly, for example "I need approval for a $20k budget." Partial: builds up for a long time. None: no ask.
+Supports it | Full: says it clearly, for example "It returns the cost in six months, based on last year's data." Partial: one weak reason. None: no support.
+Closes crisply | Full: says it clearly, for example "So, may I proceed?" Partial: trails off. None: no close.
+Stays composed | Full: says it clearly, for example "That is a fair question. Let me answer it." Partial: a slight rush. None: visibly rattled.
+Answers directly | Full: says it clearly, for example "Yes, we missed the target by 8 percent." Partial: answers a side point. None: dodges.
+Bridges back | Full: says it clearly, for example "What matters most is the plan, which is..." Partial: returns to the point abruptly. None: stays on the trap.
+States the facts | Full: says it clearly, for example "The system is down since 9. Customers cannot pay." Partial: mixes facts and guesses. None: panics or guesses.
+Gives direction | Full: says it clearly, for example "Ali takes calls, Sara checks the logs. Update in 30 minutes." Partial: general direction. None: no direction.
+Reassures | Full: says it clearly, for example "We have handled this before and we will fix it." Partial: a hollow "do not worry". None: no reassurance.
+Thanks people | Full: says it clearly, for example "Thank you, Nour, for the long nights on the launch." Partial: a general thanks. None: no thanks.
+Shares a lesson | Full: says it clearly, for example "I learned that small teams need clear owners." Partial: a vague lesson. None: no lesson.
+Looks ahead | Full: says it clearly, for example "I am sure you will take this further." Partial: says "good luck". None: no look ahead.
+States criteria | Full: says it clearly, for example "We keep what brings revenue or protects customers." Partial: one loose criterion. None: no criteria.
+Explains trade-offs | Full: says it clearly, for example "We lose the new app, but we keep support strong." Partial: names only the loss. None: no trade-off.
+Gets agreement | Full: says it clearly, for example "Can everyone support this?" Partial: assumes yes. None: no check.
+States the change | Full: says it clearly, for example "From June, all orders go through the new system." Partial: a vague change. None: no clear change.
+Explains why | Full: says it clearly, for example "Because the old system fails twice a week." Partial: a thin reason. None: no reason.
+Handles concerns | Full: says it clearly, for example "I understand the worry. We will train everyone first." Partial: acknowledges only. None: dismisses concerns.
+Names the real concern | Full: says it clearly, for example "Is the concern the extra workload?" Partial: a general "what is wrong?". None: assumes the concern.
+Adapts | Full: says it clearly, for example "Then let us adjust the timeline." Partial: a small shift. None: pushes on unchanged.
+Gives numbers | Full: says it clearly, for example "It costs $50k and saves $120k a year." Partial: one number. None: no numbers.
+Handles objections | Full: says it clearly, for example "The cost is real. Payback is under a year." Partial: repeats the claim. None: ignores the objection.
+Sets tone | Full: says it clearly, for example "I am glad we are here. I want a deal that works for both." Partial: a neutral opener. None: cold or aggressive.
+Frames interests | Full: says it clearly, for example "Our aim is stable supply and a fair price." Partial: one interest. None: no interests.
+Sets agenda | Full: says it clearly, for example "Let us cover price, delivery, then terms." Partial: names one topic. None: no agenda.
+Links concessions | Full: says it clearly, for example "If we extend delivery, we need a longer contract." Partial: gives a concession alone. None: gives without a trade.
+Holds the line | Full: says it clearly, for example "I cannot go below that, but I can change the terms." Partial: wavers. None: gives way at once.
+Protects value | Full: says it clearly, for example "That price assumes the full scope." Partial: says "that is hard". None: gives away value.
+Names the deadlock | Full: says it clearly, for example "We are stuck on price, and we both know it." Partial: hints at a problem. None: ignores it.
+Reframes | Full: says it clearly, for example "What if we look at total cost, not unit price?" Partial: a small change of angle. None: repeats the position.
+Proposes a move | Full: says it clearly, for example "Let us each give 5 percent and close today." Partial: a vague move. None: no proposal.
+Summarises terms | Full: says it clearly, for example "So: $90, delivery on the 5th, one-year term." Partial: summarises one term. None: no summary.
+Confirms details | Full: says it clearly, for example "I will send this in writing today. Please confirm by Friday." Partial: says "I will send". None: no confirmation.
