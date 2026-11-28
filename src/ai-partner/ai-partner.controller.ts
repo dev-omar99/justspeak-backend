@@ -227,6 +227,14 @@ export class AiPartnerController {
   }
 
   @Throttle({ default: { limit: 6, ttl: 60000 } })
+  @Post('sessions/:id/turn-checks')
+  @ApiOperation({ summary: 'Per-sentence verdict and refreshed version of the learner turns (preview accounts first)' })
+  turnChecks(@Req() req: any, @Param('id') id: string) {
+    this.aiPartner.assertEnabled();
+    return this.aiPartner.checkTurns(id, req.user.sub);
+  }
+
+  @Throttle({ default: { limit: 6, ttl: 60000 } })
   @Post('sessions/:id/placement')
   @ApiOperation({ summary: 'Score a placement session with the stronger model' })
   placement(@Req() req: any, @Param('id') id: string) {

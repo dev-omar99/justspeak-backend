@@ -28,6 +28,8 @@ import { getRoleplay } from './content/roleplays';
 import { canStartCurriculumLesson, curriculumAdminPreviewEnabled, isCurriculumLessonId, isPreviewAllowlisted, type CurriculumViewer } from './content/curriculum';
 import { isAdminEmail } from '../admin/admin-policy';
 import { analyzeWordChoice } from './word-choice';
+import { TURN_CHECK_SYSTEM_PROMPT, buildTurnCheckPrompt, parseTurnChecks, type TurnCheck } from './turn-check';
+import { rephraseModel } from './ai-partner.config';
 import { StartSessionDto } from './dto';
 
 export type AiPartnerMode = 'free-talk' | 'interview' | 'lesson';
@@ -277,6 +279,60 @@ export class AiPartnerService {
       cached: false,
       pronunciation_assessment: extractPronunciation(updated.metrics),
     };
+  }
+
+
+  /**
+   * Per-sentence check of the learner's turns for the chat view: verdict,
+   * the learner's own wrong words (quoted) and a refreshed version.
+   * One small-model call per session, cached in session.metrics.turn_checks.
+   * Cost control: only the admin account and CURRICULUM_PREVIEW_EMAILS get it
+   * until TURN_CHECK_ALL_USERS=true is set (needs the owner's OK).
+   */
+  async checkTurns(sessionId: string, userId: string): Promise<{ enabled: boolean; checks: TurnCheck[] }> {
+    this.assertEnabled();
+    const u = await this.prisma.user.findUnique({ where: { id: userId }, select: { email: true, isAdmin: true } });
+    const allowed =
+      process.env.TURN_CHECK_ALL_USERS?.trim().toLowerCase() === 'true' ||
+      (!!u && ((u.isAdmin === true && isAdminEmail(u.email)) || isPreviewAllowlisted(u.email)));
+    if (!allowed) return { enabled: false, checks: [] };
+
+    const session = await this.getOwnedSession(sessionId, userId);
+    const transcript = (session.transcript as unknown as { role: string; text: string }[]) ?? [];
+    const indexes: number[] = [];
+    const texts: string[] = [];
+    transcript.forEach((t, i) => {
+      if (t.role === 'user' && !isSystemTurn(t) && typeof t.text === 'string' && t.text.trim()) {
+        indexes.push(i);
+        texts.push(t.text.trim());
+      }
+    });
+    if (!texts.length) return { enabled: true, checks: [] };
+
+    const metrics = ((session.metrics as Record<string, unknown>) ?? {}) as Record<string, any>;
+    const cached = metrics.turn_checks as { count: number; checks: TurnCheck[] } | undefined;
+    if (cached && cached.count === texts.length) return { enabled: true, checks: cached.checks };
+
+    let checks: TurnCheck[] = [];
+    try {
+      const raw = await this.claude.complete({
+        model: rephraseModel(),
+        system: TURN_CHECK_SYSTEM_PROMPT,
+        prompt: buildTurnCheckPrompt(texts),
+        maxTokens: 1500,
+      });
+      checks = parseTurnChecks(raw, texts, indexes);
+    } catch (err) {
+      this.logger.warn(`Turn check failed: ${(err as Error).message}`);
+      throw new ServiceUnavailableException('Could not check the sentences right now.');
+    }
+    if (checks.length) {
+      await this.prisma.aiPartnerSession.update({
+        where: { id: sessionId },
+        data: { metrics: { ...metrics, turn_checks: { count: texts.length, checks } } as any },
+      });
+    }
+    return { enabled: true, checks };
   }
 
   /**
