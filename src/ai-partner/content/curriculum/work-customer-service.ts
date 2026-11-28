@@ -20,15 +20,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says hello and the company name",
-      "hint": "Full credit if the learner clearly does this: says hello and the company name. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: greet her, give your name and offer help. Full credit if the learner clearly shows: says hello and the company name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says own name",
-      "hint": "Full credit if the learner clearly does this: says own name. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: greet her, give your name and offer help. Full credit if the learner clearly shows: says own name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks \"How can I help?\"",
-      "hint": "Full credit if the learner clearly does this: asks \"How can I help?\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: greet her, give your name and offer help. Full credit if the learner clearly shows: asks \"How can I help?\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -54,15 +54,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives name slowly",
-      "hint": "Full credit if the learner clearly does this: gives name slowly. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say your name and your company clearly. Full credit if the learner clearly shows: gives name slowly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Names the company",
-      "hint": "Full credit if the learner clearly does this: names the company. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say your name and your company clearly. Full credit if the learner clearly shows: names the company. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Repeats if asked",
-      "hint": "Full credit if the learner clearly does this: repeats if asked. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say your name and your company clearly. Full credit if the learner clearly shows: repeats if asked. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -88,15 +88,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses please",
-      "hint": "Full credit if the learner clearly does this: uses please. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: use please, thank you and you are welcome. Full credit if the learner clearly shows: uses please. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Uses thank you",
-      "hint": "Full credit if the learner clearly does this: uses thank you. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: use please, thank you and you are welcome. Full credit if the learner clearly shows: uses thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Replies \"You are welcome\"",
-      "hint": "Full credit if the learner clearly does this: replies \"You are welcome\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: use please, thank you and you are welcome. Full credit if the learner clearly shows: replies \"You are welcome\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -122,15 +122,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says goodbye",
-      "hint": "Full credit if the learner clearly does this: says goodbye. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: end the call politely. Full credit if the learner clearly shows: says goodbye. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Thanks the customer",
-      "hint": "Full credit if the learner clearly does this: thanks the customer. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: end the call politely. Full credit if the learner clearly shows: thanks the customer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Wishes a good day",
-      "hint": "Full credit if the learner clearly does this: wishes a good day. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: end the call politely. Full credit if the learner clearly shows: wishes a good day. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -152,24 +152,24 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "description": "Take a name, a phone number and a spelled email.",
     "persona": "sara",
     "personaRole": "Huda, a customer giving her name and spelling it",
-    "goal": "Ask for her name and ask her to spell it, then check it.",
+    "goal": "Ask for her name, ask her to spell it, then check it.",
     "rubric": [
      {
       "label": "Asks for the spelling",
-      "hint": "Full credit if the learner clearly does this: asks for the spelling. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask for her name, ask her to spell it, then check it. Full credit if the learner clearly shows: asks for the spelling. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Repeats letters back",
-      "hint": "Full credit if the learner clearly does this: repeats letters back. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask for her name, ask her to spell it, then check it. Full credit if the learner clearly shows: repeats letters back. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says \"Is that right?\"",
-      "hint": "Full credit if the learner clearly does this: says \"Is that right?\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask for her name, ask her to spell it, then check it. Full credit if the learner clearly shows: says \"Is that right?\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
      "Open the scene in character as Huda, a customer giving her name and spelling it: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for her name and ask her to spell it, then check it.",
+     "Let the learner work toward this goal: Ask for her name, ask her to spell it, then check it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks for the spelling; Repeats letters back; Says \"Is that right?\".",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -190,15 +190,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for the number",
-      "hint": "Full credit if the learner clearly does this: asks for the number. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: take a phone number and read it back. Full credit if the learner clearly shows: asks for the number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Reads digits in groups",
-      "hint": "Full credit if the learner clearly does this: reads digits in groups. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: take a phone number and read it back. Full credit if the learner clearly shows: reads digits in groups. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Confirms it",
-      "hint": "Full credit if the learner clearly does this: confirms it. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: take a phone number and read it back. Full credit if the learner clearly shows: confirms it. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -224,15 +224,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for the number",
-      "hint": "Full credit if the learner clearly does this: asks for the number. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: take an order or account number and check it. Full credit if the learner clearly shows: asks for the number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Repeats it",
-      "hint": "Full credit if the learner clearly does this: repeats it. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: take an order or account number and check it. Full credit if the learner clearly shows: repeats it. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Corrects a mistake politely",
-      "hint": "Full credit if the learner clearly does this: corrects a mistake politely. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: take an order or account number and check it. Full credit if the learner clearly shows: corrects a mistake politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -258,15 +258,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"Could you repeat that?\"",
-      "hint": "Full credit if the learner clearly does this: says \"Could you repeat that?\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: check what you heard and ask him to repeat. Full credit if the learner clearly shows: says \"Could you repeat that?\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Repeats the key words",
-      "hint": "Full credit if the learner clearly does this: repeats the key words. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: check what you heard and ask him to repeat. Full credit if the learner clearly shows: repeats the key words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Thanks him",
-      "hint": "Full credit if the learner clearly does this: thanks him. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: check what you heard and ask him to repeat. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -292,15 +292,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"It costs...\"",
-      "hint": "Full credit if the learner clearly does this: says \"It costs...\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say the price of one product. Full credit if the learner clearly shows: says \"It costs...\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says the number clearly",
-      "hint": "Full credit if the learner clearly does this: says the number clearly. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say the price of one product. Full credit if the learner clearly shows: says the number clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks \"Anything else?\"",
-      "hint": "Full credit if the learner clearly does this: asks \"Anything else?\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say the price of one product. Full credit if the learner clearly shows: asks \"Anything else?\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -326,15 +326,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names sizes",
-      "hint": "Full credit if the learner clearly does this: names sizes. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say which sizes and colours you have. Full credit if the learner clearly shows: names sizes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Names colours",
-      "hint": "Full credit if the learner clearly does this: names colours. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say which sizes and colours you have. Full credit if the learner clearly shows: names colours. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Uses simple sentences",
-      "hint": "Full credit if the learner clearly does this: uses simple sentences. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say which sizes and colours you have. Full credit if the learner clearly shows: uses simple sentences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -360,15 +360,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"Yes, we have it\" or \"No, we don't\"",
-      "hint": "Full credit if the learner clearly does this: says \"Yes, we have it\" or \"No, we don't\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say yes or no and what you can do. Full credit if the learner clearly shows: says \"Yes, we have it\" or \"No, we don't\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Offers another item",
-      "hint": "Full credit if the learner clearly does this: offers another item. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say yes or no and what you can do. Full credit if the learner clearly shows: offers another item. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Stays polite",
-      "hint": "Full credit if the learner clearly does this: stays polite. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say yes or no and what you can do. Full credit if the learner clearly shows: stays polite. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -394,15 +394,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks cash or card",
-      "hint": "Full credit if the learner clearly does this: asks cash or card. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask how he wants to pay. Full credit if the learner clearly shows: asks cash or card. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says the total",
-      "hint": "Full credit if the learner clearly does this: says the total. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask how he wants to pay. Full credit if the learner clearly shows: says the total. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says thank you",
-      "hint": "Full credit if the learner clearly does this: says thank you. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask how he wants to pay. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -428,15 +428,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: answer the phone and offer help. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Names the company",
-      "hint": "Full credit if the learner clearly does this: names the company. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: answer the phone and offer help. Full credit if the learner clearly shows: names the company. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks how to help",
-      "hint": "Full credit if the learner clearly does this: asks how to help. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: answer the phone and offer help. Full credit if the learner clearly shows: asks how to help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -462,15 +462,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"Please wait a moment\"",
-      "hint": "Full credit if the learner clearly does this: says \"Please wait a moment\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask her to wait a moment and come back politely. Full credit if the learner clearly shows: says \"Please wait a moment\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Comes back with \"Thank you for waiting\"",
-      "hint": "Full credit if the learner clearly does this: comes back with \"Thank you for waiting\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask her to wait a moment and come back politely. Full credit if the learner clearly shows: comes back with \"Thank you for waiting\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Stays polite",
-      "hint": "Full credit if the learner clearly does this: stays polite. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: ask her to wait a moment and come back politely. Full credit if the learner clearly shows: stays polite. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -496,15 +496,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I will transfer you\"",
-      "hint": "Full credit if the learner clearly does this: says \"I will transfer you\". Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say you will transfer him and say why. Full credit if the learner clearly shows: says \"I will transfer you\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says who will help",
-      "hint": "Full credit if the learner clearly does this: says who will help. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say you will transfer him and say why. Full credit if the learner clearly shows: says who will help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Thanks him",
-      "hint": "Full credit if the learner clearly does this: thanks him. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say you will transfer him and say why. Full credit if the learner clearly shows: thanks him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -530,15 +530,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the days",
-      "hint": "Full credit if the learner clearly does this: names the days. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say the opening days and times. Full credit if the learner clearly shows: names the days. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says the times",
-      "hint": "Full credit if the learner clearly does this: says the times. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say the opening days and times. Full credit if the learner clearly shows: says the times. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Checks she understood",
-      "hint": "Full credit if the learner clearly does this: checks she understood. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: say the opening days and times. Full credit if the learner clearly shows: checks she understood. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -564,15 +564,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a very short call about opening hours from greeting to goodbye. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Answers the question",
-      "hint": "Full credit if the learner clearly does this: answers the question. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a very short call about opening hours from greeting to goodbye. Full credit if the learner clearly shows: answers the question. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Closes politely",
-      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a very short call about opening hours from greeting to goodbye. Full credit if the learner clearly shows: closes politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -598,15 +598,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call: greet, give a price, close. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Gives the price clearly",
-      "hint": "Full credit if the learner clearly does this: gives the price clearly. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call: greet, give a price, close. Full credit if the learner clearly shows: gives the price clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Closes politely",
-      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call: greet, give a price, close. Full credit if the learner clearly shows: closes politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -632,15 +632,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for name and number",
-      "hint": "Full credit if the learner clearly does this: asks for name and number. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call: take a name and number, check, close. Full credit if the learner clearly shows: asks for name and number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Checks them",
-      "hint": "Full credit if the learner clearly does this: checks them. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call: take a name and number, check, close. Full credit if the learner clearly shows: checks them. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Closes politely",
-      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call: take a name and number, check, close. Full credit if the learner clearly shows: closes politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -666,15 +666,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call that ends in a transfer. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Explains the transfer",
-      "hint": "Full credit if the learner clearly does this: explains the transfer. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call that ends in a transfer. Full credit if the learner clearly shows: explains the transfer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says goodbye",
-      "hint": "Full credit if the learner clearly does this: says goodbye. Partial if tried but unclear. Single words and short phrases are enough."
+      "hint": "Scene goal: run a short call that ends in a transfer. Full credit if the learner clearly shows: says goodbye. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -702,15 +702,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I will ask my supervisor\"",
-      "hint": "Full credit if the learner clearly does this: says \"I will ask my supervisor\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say you will ask your supervisor and come back. Full credit if the learner clearly shows: says \"I will ask my supervisor\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks him to wait",
-      "hint": "Full credit if the learner clearly does this: asks him to wait. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say you will ask your supervisor and come back. Full credit if the learner clearly shows: asks him to wait. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Comes back with an answer",
-      "hint": "Full credit if the learner clearly does this: comes back with an answer. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say you will ask your supervisor and come back. Full credit if the learner clearly shows: comes back with an answer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -736,15 +736,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a day or time",
-      "hint": "Full credit if the learner clearly does this: gives a day or time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: give a delivery time and explain how long it takes. Full credit if the learner clearly shows: gives a day or time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says how long",
-      "hint": "Full credit if the learner clearly does this: says how long. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: give a delivery time and explain how long it takes. Full credit if the learner clearly shows: says how long. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Checks she understands",
-      "hint": "Full credit if the learner clearly does this: checks she understands. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: give a delivery time and explain how long it takes. Full credit if the learner clearly shows: checks she understands. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -770,15 +770,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a time",
-      "hint": "Full credit if the learner clearly does this: gives a time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain how long it takes. Full credit if the learner clearly shows: gives a time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Explains one step",
-      "hint": "Full credit if the learner clearly does this: explains one step. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain how long it takes. Full credit if the learner clearly shows: explains one step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks if that is OK",
-      "hint": "Full credit if the learner clearly does this: asks if that is OK. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain how long it takes. Full credit if the learner clearly shows: asks if that is OK. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -804,15 +804,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes both",
-      "hint": "Full credit if the learner clearly does this: describes both. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain delivery and pickup and help her choose. Full credit if the learner clearly shows: describes both. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a time for each",
-      "hint": "Full credit if the learner clearly does this: gives a time for each. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain delivery and pickup and help her choose. Full credit if the learner clearly shows: gives a time for each. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Confirms the choice",
-      "hint": "Full credit if the learner clearly does this: confirms the choice. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain delivery and pickup and help her choose. Full credit if the learner clearly shows: confirms the choice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -838,15 +838,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks what and how many",
-      "hint": "Full credit if the learner clearly does this: asks what and how many. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: take a simple order and confirm it. Full credit if the learner clearly shows: asks what and how many. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Repeats the order",
-      "hint": "Full credit if the learner clearly does this: repeats the order. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: take a simple order and confirm it. Full credit if the learner clearly shows: repeats the order. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives the total",
-      "hint": "Full credit if the learner clearly does this: gives the total. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: take a simple order and confirm it. Full credit if the learner clearly shows: gives the total. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -872,15 +872,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks for day and time",
-      "hint": "Full credit if the learner clearly does this: asks for day and time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: book a date and a time. Full credit if the learner clearly shows: asks for day and time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Checks they are free",
-      "hint": "Full credit if the learner clearly does this: checks they are free. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: book a date and a time. Full credit if the learner clearly shows: checks they are free. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Confirms the booking",
-      "hint": "Full credit if the learner clearly does this: confirms the booking. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: book a date and a time. Full credit if the learner clearly shows: confirms the booking. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -906,15 +906,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Finds the booking",
-      "hint": "Full credit if the learner clearly does this: finds the booking. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: change a booking and confirm the new time. Full credit if the learner clearly shows: finds the booking. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks for the new time",
-      "hint": "Full credit if the learner clearly does this: asks for the new time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: change a booking and confirm the new time. Full credit if the learner clearly shows: asks for the new time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Confirms the change",
-      "hint": "Full credit if the learner clearly does this: confirms the change. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: change a booking and confirm the new time. Full credit if the learner clearly shows: confirms the change. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -940,15 +940,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Repeats name, date and place",
-      "hint": "Full credit if the learner clearly does this: repeats name, date and place. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: confirm all the details at the end. Full credit if the learner clearly shows: repeats name, date and place. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks \"Is that correct?\"",
-      "hint": "Full credit if the learner clearly does this: asks \"Is that correct?\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: confirm all the details at the end. Full credit if the learner clearly shows: asks \"Is that correct?\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Thanks her",
-      "hint": "Full credit if the learner clearly does this: thanks her. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: confirm all the details at the end. Full credit if the learner clearly shows: thanks her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -974,15 +974,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I am sorry\"",
-      "hint": "Full credit if the learner clearly does this: says \"I am sorry\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say sorry and say what you will do. Full credit if the learner clearly shows: says \"I am sorry\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says what happened",
-      "hint": "Full credit if the learner clearly does this: says what happened. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say sorry and say what you will do. Full credit if the learner clearly shows: says what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says the next step",
-      "hint": "Full credit if the learner clearly does this: says the next step. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say sorry and say what you will do. Full credit if the learner clearly shows: says the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1008,15 +1008,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks which item",
-      "hint": "Full credit if the learner clearly does this: asks which item. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: listen, say sorry and arrange a new item. Full credit if the learner clearly shows: asks which item. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says sorry",
-      "hint": "Full credit if the learner clearly does this: says sorry. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: listen, say sorry and arrange a new item. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Arranges a replacement",
-      "hint": "Full credit if the learner clearly does this: arranges a replacement. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: listen, say sorry and arrange a new item. Full credit if the learner clearly shows: arranges a replacement. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1042,15 +1042,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Apologises",
-      "hint": "Full credit if the learner clearly does this: says sorry clearly and sincerely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say sorry and give a new date. Full credit if the learner clearly shows: apologises. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a date",
-      "hint": "Full credit if the learner clearly does this: gives a date. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say sorry and give a new date. Full credit if the learner clearly shows: gives a date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Offers to call back",
-      "hint": "Full credit if the learner clearly does this: offers to call back. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say sorry and give a new date. Full credit if the learner clearly shows: offers to call back. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1076,15 +1076,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says the first step",
-      "hint": "Full credit if the learner clearly does this: says the first step. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain what will happen and when. Full credit if the learner clearly shows: says the first step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says when",
-      "hint": "Full credit if the learner clearly does this: says when. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain what will happen and when. Full credit if the learner clearly shows: says when. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says how you will tell her",
-      "hint": "Full credit if the learner clearly does this: says how you will tell her. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: explain what will happen and when. Full credit if the learner clearly shows: says how you will tell her. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1110,15 +1110,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: write and say a short thank-you reply. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Thanks",
-      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: write and say a short thank-you reply. Full credit if the learner clearly shows: thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Closes politely",
-      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: write and say a short thank-you reply. Full credit if the learner clearly shows: closes politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1144,15 +1144,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say the answer you would write to a simple email. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Answers in one or two sentences",
-      "hint": "Full credit if the learner clearly does this: answers in one or two sentences. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say the answer you would write to a simple email. Full credit if the learner clearly shows: answers in one or two sentences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Closes politely",
-      "hint": "Full credit if the learner clearly does this: closes politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say the answer you would write to a simple email. Full credit if the learner clearly shows: closes politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1178,15 +1178,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets with name",
-      "hint": "Full credit if the learner clearly does this: greets with name. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: start a chat with a greeting and a question. Full credit if the learner clearly shows: greets with name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks how to help",
-      "hint": "Full credit if the learner clearly does this: asks how to help. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: start a chat with a greeting and a question. Full credit if the learner clearly shows: asks how to help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Keeps sentences short",
-      "hint": "Full credit if the learner clearly does this: keeps sentences short. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: start a chat with a greeting and a question. Full credit if the learner clearly shows: keeps sentences short. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1212,15 +1212,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"I will call you back\"",
-      "hint": "Full credit if the learner clearly does this: says \"I will call you back\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say you will call back and say when. Full credit if the learner clearly shows: says \"I will call you back\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a time",
-      "hint": "Full credit if the learner clearly does this: gives a time. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say you will call back and say when. Full credit if the learner clearly shows: gives a time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks for the number",
-      "hint": "Full credit if the learner clearly does this: asks for the number. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: say you will call back and say when. Full credit if the learner clearly shows: asks for the number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1246,15 +1246,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Full credit if the learner clearly does this: explains why. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: check her name and date of birth politely. Full credit if the learner clearly shows: explains why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks name",
-      "hint": "Full credit if the learner clearly does this: asks name. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: check her name and date of birth politely. Full credit if the learner clearly shows: asks name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks date of birth",
-      "hint": "Full credit if the learner clearly does this: asks date of birth. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: check her name and date of birth politely. Full credit if the learner clearly shows: asks date of birth. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1280,15 +1280,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Finds the amount",
-      "hint": "Full credit if the learner clearly does this: finds the amount. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: answer a simple question about a bill. Full credit if the learner clearly shows: finds the amount. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says the date",
-      "hint": "Full credit if the learner clearly does this: says the date. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: answer a simple question about a bill. Full credit if the learner clearly shows: says the date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks \"Is there anything else?\"",
-      "hint": "Full credit if the learner clearly does this: asks \"Is there anything else?\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: answer a simple question about a bill. Full credit if the learner clearly shows: asks \"Is there anything else?\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1314,15 +1314,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives step one",
-      "hint": "Full credit if the learner clearly does this: gives step one. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: give two simple steps: turn it off and on. Full credit if the learner clearly shows: gives step one. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives step two",
-      "hint": "Full credit if the learner clearly does this: gives step two. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: give two simple steps: turn it off and on. Full credit if the learner clearly shows: gives step two. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks her to tell you what happens",
-      "hint": "Full credit if the learner clearly does this: asks her to tell you what happens. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: give two simple steps: turn it off and on. Full credit if the learner clearly shows: asks her to tell you what happens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1348,15 +1348,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says \"You are welcome\"",
-      "hint": "Full credit if the learner clearly does this: says \"You are welcome\". Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: reply to thanks and close the call. Full credit if the learner clearly shows: says \"You are welcome\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Offers more help",
-      "hint": "Full credit if the learner clearly does this: offers more help. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: reply to thanks and close the call. Full credit if the learner clearly shows: offers more help. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says goodbye",
-      "hint": "Full credit if the learner clearly does this: says goodbye. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: reply to thanks and close the call. Full credit if the learner clearly shows: says goodbye. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1382,15 +1382,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a late order. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives news and apologises",
-      "hint": "Full credit if the learner clearly does this: gives news and apologises. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a late order. Full credit if the learner clearly shows: gives news and apologises. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Closes",
-      "hint": "Full credit if the learner clearly does this: ends the call politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a late order. Full credit if the learner clearly shows: closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1416,15 +1416,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call to change a booking. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Changes it",
-      "hint": "Full credit if the learner clearly does this: changes it. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call to change a booking. Full credit if the learner clearly shows: changes it. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Confirms and closes",
-      "hint": "Full credit if the learner clearly does this: confirms and closes. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call to change a booking. Full credit if the learner clearly shows: confirms and closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1450,15 +1450,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Full credit if the learner clearly does this: greets the customer warmly at the start. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a wrong item. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Apologises",
-      "hint": "Full credit if the learner clearly does this: says sorry clearly and sincerely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a wrong item. Full credit if the learner clearly shows: apologises. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says next step and closes",
-      "hint": "Full credit if the learner clearly does this: says next step and closes. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a wrong item. Full credit if the learner clearly shows: says next step and closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1484,15 +1484,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets and checks name",
-      "hint": "Full credit if the learner clearly does this: greets and checks name. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a simple bill question. Full credit if the learner clearly shows: greets and checks name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Answers",
-      "hint": "Full credit if the learner clearly does this: answers the question that was asked. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a simple bill question. Full credit if the learner clearly shows: answers. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Closes",
-      "hint": "Full credit if the learner clearly does this: ends the call politely. Partial if tried but unclear. Short simple sentences are enough; small grammar slips are fine."
+      "hint": "Scene goal: run a short whole call about a simple bill question. Full credit if the learner clearly shows: closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1520,22 +1520,22 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses open questions (What, When, How)",
-      "hint": "Full credit if the learner clearly does this: uses open questions (What, When, How). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: ask at least three open questions to find out what is wrong. Full credit if the learner clearly shows: uses open questions (What, When, How). Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Does not interrupt the customer",
-      "hint": "Full credit if the learner clearly does this: does not interrupt the customer. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: ask at least three open questions to find out what is wrong. Full credit if the learner clearly shows: does not interrupt the customer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Ends with a clear statement of the problem",
-      "hint": "Full credit if the learner clearly does this: ends with a clear statement of the problem. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "label": "States the problem clearly",
+      "hint": "Scene goal: ask at least three open questions to find out what is wrong. Full credit if the learner clearly shows: states the problem clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Hana, a customer whose internet is 'not working' but gives few details: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask at least three open questions to find out what is wrong.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Uses open questions (What, When, How); Does not interrupt the customer; Ends with a clear statement of the problem.",
+     "Move through the rubric points naturally: Uses open questions (What, When, How); Does not interrupt the customer; States the problem clearly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1554,22 +1554,22 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises in one or two sentences",
-      "hint": "Full credit if the learner clearly does this: summarises in one or two sentences. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: summarise the problem in your own words and check it is right. Full credit if the learner clearly shows: summarises in one or two sentences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Uses a check phrase ('Is that right?')",
-      "hint": "Full credit if the learner clearly does this: uses a check phrase ('Is that right?'). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: summarise the problem in your own words and check it is right. Full credit if the learner clearly shows: uses a check phrase ('Is that right?'). Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Corrects the summary if the customer says no",
-      "hint": "Full credit if the learner clearly does this: corrects the summary if the customer says no. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "label": "Fixes the summary if told no",
+      "hint": "Scene goal: summarise the problem in your own words and check it is right. Full credit if the learner clearly shows: fixes the summary if told no. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Karim, a customer explaining a billing issue with a long story: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Summarise the problem in your own words and check it is right.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Summarises in one or two sentences; Uses a check phrase ('Is that right?'); Corrects the summary if the customer says no.",
+     "Move through the rubric points naturally: Summarises in one or two sentences; Uses a check phrase ('Is that right?'); Fixes the summary if told no.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1588,15 +1588,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Shows understanding ('I understand')",
-      "hint": "Full credit if the learner clearly does this: shows understanding ('I understand'). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: calm the customer and say what you will do. Full credit if the learner clearly shows: shows understanding ('I understand'). Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Speaks slowly and clearly",
-      "hint": "Full credit if the learner clearly does this: speaks slowly and clearly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: calm the customer and say what you will do. Full credit if the learner clearly shows: speaks slowly and clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "States one clear next step",
-      "hint": "Full credit if the learner clearly does this: states one clear next step. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: calm the customer and say what you will do. Full credit if the learner clearly shows: states one clear next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1622,22 +1622,22 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks politely for the number",
-      "hint": "Full credit if the learner clearly does this: asks politely for the number. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: ask for the order number and offer another way to find it. Full credit if the learner clearly shows: asks politely for the number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Offers an alternative (name, email, phone)",
-      "hint": "Full credit if the learner clearly does this: offers an alternative (name, email, phone). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "label": "Offers another contact option",
+      "hint": "Scene goal: ask for the order number and offer another way to find it. Full credit if the learner clearly shows: offers another contact option. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Repeats details back correctly",
-      "hint": "Full credit if the learner clearly does this: repeats details back correctly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: ask for the order number and offer another way to find it. Full credit if the learner clearly shows: repeats details back correctly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Tamer, a customer who does not know his order number: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask for the order number and offer another way to find it.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Asks politely for the number; Offers an alternative (name, email, phone); Repeats details back correctly.",
+     "Move through the rubric points naturally: Asks politely for the number; Offers another contact option; Repeats details back correctly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -1656,15 +1656,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Lets the customer finish",
-      "hint": "Full credit if the learner clearly does this: lets the customer finish. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: listen, then show you understand before you answer. Full credit if the learner clearly shows: lets the customer finish. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Uses a phrase of understanding",
-      "hint": "Full credit if the learner clearly does this: uses a phrase of understanding. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: listen, then show you understand before you answer. Full credit if the learner clearly shows: uses a phrase of understanding. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks one question about the details",
-      "hint": "Full credit if the learner clearly does this: asks one question about the details. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: listen, then show you understand before you answer. Full credit if the learner clearly shows: asks one question about the details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1690,15 +1690,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says sorry clearly and once",
-      "hint": "Full credit if the learner clearly does this: says sorry clearly and once. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: give a sincere apology without making excuses. Full credit if the learner clearly shows: says sorry clearly and once. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Names the problem specifically",
-      "hint": "Full credit if the learner clearly does this: names the problem specifically. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: give a sincere apology without making excuses. Full credit if the learner clearly shows: names the problem specifically. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Moves to what happens next",
-      "hint": "Full credit if the learner clearly does this: moves to what happens next. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: give a sincere apology without making excuses. Full credit if the learner clearly shows: moves to what happens next. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1724,15 +1724,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Offers a clear solution",
-      "hint": "Full credit if the learner clearly does this: offers a clear solution. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: offer a solution and explain what the customer needs to do. Full credit if the learner clearly shows: offers a clear solution. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Explains the steps in order",
-      "hint": "Full credit if the learner clearly does this: explains the steps in order. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: offer a solution and explain what the customer needs to do. Full credit if the learner clearly shows: explains the steps in order. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Checks the customer agrees",
-      "hint": "Full credit if the learner clearly does this: checks the customer agrees. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: offer a solution and explain what the customer needs to do. Full credit if the learner clearly shows: checks the customer agrees. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1758,15 +1758,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes both options",
-      "hint": "Full credit if the learner clearly does this: describes both options. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: offer a choice between a refund and a replacement and explain each. Full credit if the learner clearly shows: describes both options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives one honest time frame",
-      "hint": "Full credit if the learner clearly does this: gives one honest time frame. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: offer a choice between a refund and a replacement and explain each. Full credit if the learner clearly shows: gives one honest time frame. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Lets the customer decide",
-      "hint": "Full credit if the learner clearly does this: lets the customer decide. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: offer a choice between a refund and a replacement and explain each. Full credit if the learner clearly shows: lets the customer decide. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1792,15 +1792,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the rule clearly",
-      "hint": "Full credit if the learner clearly does this: states the rule clearly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain the return policy in simple clear words. Full credit if the learner clearly shows: states the rule clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives the reason",
-      "hint": "Full credit if the learner clearly does this: gives the reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain the return policy in simple clear words. Full credit if the learner clearly shows: gives the reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Suggests what the customer can still do",
-      "hint": "Full credit if the learner clearly does this: suggests what the customer can still do. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain the return policy in simple clear words. Full credit if the learner clearly shows: suggests what the customer can still do. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1826,15 +1826,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the fee and the amount",
-      "hint": "Full credit if the learner clearly does this: names the fee and the amount. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain a fee and why it exists. Full credit if the learner clearly shows: names the fee and the amount. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a short reason",
-      "hint": "Full credit if the learner clearly does this: gives a short reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain a fee and why it exists. Full credit if the learner clearly shows: gives a short reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Responds politely to the objection",
-      "hint": "Full credit if the learner clearly does this: responds politely to the objection. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain a fee and why it exists. Full credit if the learner clearly shows: responds politely to the objection. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1860,15 +1860,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses a soft opening ('Unfortunately')",
-      "hint": "Full credit if the learner clearly does this: uses a soft opening ('Unfortunately'). Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: say no politely and offer an alternative. Full credit if the learner clearly shows: uses a soft opening ('Unfortunately'). Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a reason",
-      "hint": "Full credit if the learner clearly does this: gives a reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: say no politely and offer an alternative. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Full credit if the learner clearly does this: offers an alternative. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: say no politely and offer an alternative. Full credit if the learner clearly shows: offers an alternative. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1894,15 +1894,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains the cause simply",
-      "hint": "Full credit if the learner clearly does this: explains the cause simply. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain a delay honestly and give a new date. Full credit if the learner clearly shows: explains the cause simply. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a realistic new date",
-      "hint": "Full credit if the learner clearly does this: gives a realistic new date. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain a delay honestly and give a new date. Full credit if the learner clearly shows: gives a realistic new date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers something to make up for it",
-      "hint": "Full credit if the learner clearly does this: offers something to make up for it. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain a delay honestly and give a new date. Full credit if the learner clearly shows: offers something to make up for it. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1928,15 +1928,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises the actions",
-      "hint": "Full credit if the learner clearly does this: summarises the actions. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: summarise what was done and check there is nothing else. Full credit if the learner clearly shows: summarises the actions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks 'Anything else?'",
-      "hint": "Full credit if the learner clearly does this: asks 'Anything else?'. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: summarise what was done and check there is nothing else. Full credit if the learner clearly shows: asks 'Anything else?'. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Closes warmly",
-      "hint": "Full credit if the learner clearly does this: closes warmly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: summarise what was done and check there is nothing else. Full credit if the learner clearly shows: closes warmly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1962,15 +1962,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a specific time",
-      "hint": "Full credit if the learner clearly does this: gives a specific time. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: promise a call back with a time and keep to it. Full credit if the learner clearly shows: gives a specific time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Says who will call",
-      "hint": "Full credit if the learner clearly does this: says who will call. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: promise a call back with a time and keep to it. Full credit if the learner clearly shows: says who will call. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Thanks the customer for waiting",
-      "hint": "Full credit if the learner clearly does this: thanks the customer for waiting. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: promise a call back with a time and keep to it. Full credit if the learner clearly shows: thanks the customer for waiting. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1996,15 +1996,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Has all four parts",
-      "hint": "Full credit if the learner clearly does this: has all four parts. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: say aloud the follow-up email you would write: greeting, summary, next step, close. Full credit if the learner clearly shows: has all four parts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Short clear sentences",
-      "hint": "Full credit if the learner clearly does this: short clear sentences. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: say aloud the follow-up email you would write: greeting, summary, next step, close. Full credit if the learner clearly shows: short clear sentences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Polite closing",
-      "hint": "Full credit if the learner clearly does this: polite closing. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: say aloud the follow-up email you would write: greeting, summary, next step, close. Full credit if the learner clearly shows: polite closing. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2030,15 +2030,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answers each by name",
-      "hint": "Full credit if the learner clearly does this: answers each by name. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: keep both customers informed and do not mix them up. Full credit if the learner clearly shows: answers each by name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a wait time when needed",
-      "hint": "Full credit if the learner clearly does this: gives a wait time when needed. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: keep both customers informed and do not mix them up. Full credit if the learner clearly shows: gives a wait time when needed. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Stays polite and short",
-      "hint": "Full credit if the learner clearly does this: stays polite and short. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: keep both customers informed and do not mix them up. Full credit if the learner clearly shows: stays polite and short. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2064,15 +2064,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks what matters most to him",
-      "hint": "Full credit if the learner clearly does this: asks what matters most to him. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: find out exactly what he wants and offer the closest options. Full credit if the learner clearly shows: asks what matters most to him. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers two clear alternatives",
-      "hint": "Full credit if the learner clearly does this: offers two clear alternatives. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: find out exactly what he wants and offer the closest options. Full credit if the learner clearly shows: offers two clear alternatives. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Confirms the choice",
-      "hint": "Full credit if the learner clearly does this: confirms the choice. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: find out exactly what he wants and offer the closest options. Full credit if the learner clearly shows: confirms the choice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2098,22 +2098,22 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why you must check",
-      "hint": "Full credit if the learner clearly does this: explains why you must check. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: verify her identity politely before you help. Full credit if the learner clearly shows: explains why you must check. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks two security questions politely",
-      "hint": "Full credit if the learner clearly does this: asks two security questions politely. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: verify her identity politely before you help. Full credit if the learner clearly shows: asks two security questions politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Does not share account details before checking",
-      "hint": "Full credit if the learner clearly does this: does not share account details before checking. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "label": "Checks identity before sharing details",
+      "hint": "Scene goal: verify her identity politely before you help. Full credit if the learner clearly shows: checks identity before sharing details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Heba, a customer who wants to change her address on the account: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Verify her identity politely before you help.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Explains why you must check; Asks two security questions politely; Does not share account details before checking.",
+     "Move through the rubric points naturally: Explains why you must check; Asks two security questions politely; Checks identity before sharing details.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -2132,15 +2132,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Confirms the amount and date",
-      "hint": "Full credit if the learner clearly does this: confirms the amount and date. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: find out what happened and explain what you will fix. Full credit if the learner clearly shows: confirms the amount and date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Explains the cause or next step simply",
-      "hint": "Full credit if the learner clearly does this: explains the cause or next step simply. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: find out what happened and explain what you will fix. Full credit if the learner clearly shows: explains the cause or next step simply. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a time for the correction",
-      "hint": "Full credit if the learner clearly does this: gives a time for the correction. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: find out what happened and explain what you will fix. Full credit if the learner clearly shows: gives a time for the correction. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2166,15 +2166,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares the plans in simple words",
-      "hint": "Full credit if the learner clearly does this: compares the plans in simple words. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain two plans simply and help her choose. Full credit if the learner clearly shows: compares the plans in simple words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks about her needs",
-      "hint": "Full credit if the learner clearly does this: asks about her needs. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain two plans simply and help her choose. Full credit if the learner clearly shows: asks about her needs. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Recommends one with a reason",
-      "hint": "Full credit if the learner clearly does this: recommends one with a reason. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain two plans simply and help her choose. Full credit if the learner clearly shows: recommends one with a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2200,22 +2200,22 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Tells the customer who and why",
-      "hint": "Full credit if the learner clearly does this: tells the customer who and why. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: transfer the call: tell the customer, then give the colleague a clear summary. Full credit if the learner clearly shows: tells the customer who and why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a short summary to the colleague",
-      "hint": "Full credit if the learner clearly does this: gives a short summary to the colleague. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: transfer the call: tell the customer, then give the colleague a clear summary. Full credit if the learner clearly shows: gives a short summary to the colleague. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
-      "label": "Stays on the line until the handover is done",
-      "hint": "Full credit if the learner clearly does this: stays on the line until the handover is done. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "label": "Stays on the line to hand over",
+      "hint": "Scene goal: transfer the call: tell the customer, then give the colleague a clear summary. Full credit if the learner clearly shows: stays on the line to hand over. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
      "Open the scene in character as Colleague Ahmed in billing, who will take over a customer call: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Transfer the call: tell the customer, then give the colleague a clear summary.",
      "Keep the customer's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
-     "Move through the rubric points naturally: Tells the customer who and why; Gives a short summary to the colleague; Stays on the line until the handover is done.",
+     "Move through the rubric points naturally: Tells the customer who and why; Gives a short summary to the colleague; Stays on the line to hand over.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
     ],
     "level": "B1",
@@ -2234,15 +2234,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays polite and does not argue",
-      "hint": "Full credit if the learner clearly does this: stays polite and does not argue. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain you will escalate and what the supervisor will do. Full credit if the learner clearly shows: stays polite and does not argue. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Explains the escalation steps",
-      "hint": "Full credit if the learner clearly does this: explains the escalation steps. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain you will escalate and what the supervisor will do. Full credit if the learner clearly shows: explains the escalation steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a time and a reference number",
-      "hint": "Full credit if the learner clearly does this: gives a time and a reference number. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: explain you will escalate and what the supervisor will do. Full credit if the learner clearly shows: gives a time and a reference number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2268,15 +2268,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Admits the mistake clearly",
-      "hint": "Full credit if the learner clearly does this: admits the mistake clearly. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: own the mistake, give the right information and say how you will help. Full credit if the learner clearly shows: admits the mistake clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives the correct information",
-      "hint": "Full credit if the learner clearly does this: gives the correct information. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: own the mistake, give the right information and say how you will help. Full credit if the learner clearly shows: gives the correct information. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers a fair way to put it right",
-      "hint": "Full credit if the learner clearly does this: offers a fair way to put it right. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: own the mistake, give the right information and say how you will help. Full credit if the learner clearly shows: offers a fair way to put it right. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2302,15 +2302,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives steps one at a time",
-      "hint": "Full credit if the learner clearly does this: gives steps one at a time. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: guide her through three simple steps and check each one. Full credit if the learner clearly shows: gives steps one at a time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Checks after each step",
-      "hint": "Full credit if the learner clearly does this: checks after each step. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: guide her through three simple steps and check each one. Full credit if the learner clearly shows: checks after each step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers another way if it fails",
-      "hint": "Full credit if the learner clearly does this: offers another way if it fails. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: guide her through three simple steps and check each one. Full credit if the learner clearly shows: offers another way if it fails. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2336,19 +2336,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets and verifies before details",
-      "hint": "Full credit if the learner clearly does this: greets and verifies before details. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: greet, verify, listen, clarify, explain, close. Full credit if the learner clearly shows: greets and verifies before details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Listens and clarifies the problem",
-      "hint": "Full credit if the learner clearly does this: listens and clarifies the problem. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: greet, verify, listen, clarify, explain, close. Full credit if the learner clearly shows: listens and clarifies the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Explains the charge and the next step",
-      "hint": "Full credit if the learner clearly does this: explains the charge and the next step. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: greet, verify, listen, clarify, explain, close. Full credit if the learner clearly shows: explains the charge and the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Recaps and closes politely",
-      "hint": "Full credit if the learner clearly does this: recaps and closes politely. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: greet, verify, listen, clarify, explain, close. Full credit if the learner clearly shows: recaps and closes politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2374,19 +2374,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and finds the order",
-      "hint": "Full credit if the learner clearly does this: verifies and finds the order. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: find the order, give a date, offer an option, close. Full credit if the learner clearly shows: verifies and finds the order. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives an honest date",
-      "hint": "Full credit if the learner clearly does this: gives an honest date. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: find the order, give a date, offer an option, close. Full credit if the learner clearly shows: gives an honest date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers an option",
-      "hint": "Full credit if the learner clearly does this: offers an option. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: find the order, give a date, offer an option, close. Full credit if the learner clearly shows: offers an option. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: find the order, give a date, offer an option, close. Full credit if the learner clearly shows: recaps and closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2412,19 +2412,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks clear questions",
-      "hint": "Full credit if the learner clearly does this: asks clear questions. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: understand the problem, explain warranty, agree a solution. Full credit if the learner clearly shows: asks clear questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Explains the warranty simply",
-      "hint": "Full credit if the learner clearly does this: explains the warranty simply. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: understand the problem, explain warranty, agree a solution. Full credit if the learner clearly shows: explains the warranty simply. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Agrees a solution and steps",
-      "hint": "Full credit if the learner clearly does this: agrees a solution and steps. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: understand the problem, explain warranty, agree a solution. Full credit if the learner clearly shows: agrees a solution and steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call: understand the problem, explain warranty, agree a solution. Full credit if the learner clearly shows: recaps and closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2450,19 +2450,19 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains the security check",
-      "hint": "Full credit if the learner clearly does this: explains the security check. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call with a careful identity check. Full credit if the learner clearly shows: explains the security check. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Checks identity before changes",
-      "hint": "Full credit if the learner clearly does this: checks identity before changes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call with a careful identity check. Full credit if the learner clearly shows: checks identity before changes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Confirms the change aloud",
-      "hint": "Full credit if the learner clearly does this: confirms the change aloud. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call with a careful identity check. Full credit if the learner clearly shows: confirms the change aloud. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Connected sentences; minor errors are fine if the meaning is clear."
+      "hint": "Scene goal: run the whole call with a careful identity check. Full credit if the learner clearly shows: recaps and closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2490,15 +2490,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges feelings first",
-      "hint": "Full credit if the learner clearly does this: acknowledges feelings first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: stay calm, acknowledge the anger and move to a plan. Full credit if the learner clearly shows: acknowledges feelings first. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps a calm steady tone",
-      "hint": "Full credit if the learner clearly does this: keeps a calm steady tone. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: stay calm, acknowledge the anger and move to a plan. Full credit if the learner clearly shows: keeps a calm steady tone. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Moves to a clear plan",
-      "hint": "Full credit if the learner clearly does this: moves to a clear plan. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: stay calm, acknowledge the anger and move to a plan. Full credit if the learner clearly shows: moves to a clear plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2524,15 +2524,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Does not copy the tone",
-      "hint": "Full credit if the learner clearly does this: does not copy the tone. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: stay professional and bring the call back to the issue. Full credit if the learner clearly shows: does not copy the tone. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Uses her name",
-      "hint": "Full credit if the learner clearly does this: uses her name. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: stay professional and bring the call back to the issue. Full credit if the learner clearly shows: uses her name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Returns to the issue politely",
-      "hint": "Full credit if the learner clearly does this: returns to the issue politely. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: stay professional and bring the call back to the issue. Full credit if the learner clearly shows: returns to the issue politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2558,15 +2558,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says no clearly and kindly",
-      "hint": "Full credit if the learner clearly does this: says no clearly and kindly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: say no and offer two choices. Full credit if the learner clearly shows: says no clearly and kindly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a reason",
-      "hint": "Full credit if the learner clearly does this: gives a reason. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: say no and offer two choices. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers two real choices",
-      "hint": "Full credit if the learner clearly does this: offers two real choices. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: say no and offer two choices. Full credit if the learner clearly shows: offers two real choices. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2592,15 +2592,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Offers to help first",
-      "hint": "Full credit if the learner clearly does this: offers to help first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: respond to the request without losing the customer. Full credit if the learner clearly shows: offers to help first. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains the escalation",
-      "hint": "Full credit if the learner clearly does this: explains the escalation. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: respond to the request without losing the customer. Full credit if the learner clearly shows: explains the escalation. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a time",
-      "hint": "Full credit if the learner clearly does this: gives a time. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: respond to the request without losing the customer. Full credit if the learner clearly shows: gives a time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2626,15 +2626,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives an overview first",
-      "hint": "Full credit if the learner clearly does this: gives an overview first. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: explain a multi-step fix in order. Full credit if the learner clearly shows: gives an overview first. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains steps in order",
-      "hint": "Full credit if the learner clearly does this: explains steps in order. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: explain a multi-step fix in order. Full credit if the learner clearly shows: explains steps in order. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks after each step",
-      "hint": "Full credit if the learner clearly does this: checks after each step. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: explain a multi-step fix in order. Full credit if the learner clearly shows: checks after each step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2660,15 +2660,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what is possible",
-      "hint": "Full credit if the learner clearly does this: says what is possible. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: manage her expectations honestly. Full credit if the learner clearly shows: says what is possible. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Says what is not",
-      "hint": "Full credit if the learner clearly does this: says what is not. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: manage her expectations honestly. Full credit if the learner clearly shows: says what is not. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers the best next date",
-      "hint": "Full credit if the learner clearly does this: offers the best next date. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: manage her expectations honestly. Full credit if the learner clearly shows: offers the best next date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2694,15 +2694,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Full credit if the learner clearly does this: explains why. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: escalate to another team and tell him what happens. Full credit if the learner clearly shows: explains why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Summarises the case for the team",
-      "hint": "Full credit if the learner clearly does this: summarises the case for the team. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: escalate to another team and tell him what happens. Full credit if the learner clearly shows: summarises the case for the team. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a reference and time",
-      "hint": "Full credit if the learner clearly does this: gives a reference and time. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: escalate to another team and tell him what happens. Full credit if the learner clearly shows: gives a reference and time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2728,15 +2728,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States what changed",
-      "hint": "Full credit if the learner clearly does this: states what changed. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: give a clear update and the next date. Full credit if the learner clearly shows: states what changed. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "States what is next",
-      "hint": "Full credit if the learner clearly does this: states what is next. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: give a clear update and the next date. Full credit if the learner clearly shows: states what is next. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a date",
-      "hint": "Full credit if the learner clearly does this: gives a date. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: give a clear update and the next date. Full credit if the learner clearly shows: gives a date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2762,15 +2762,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks why",
-      "hint": "Full credit if the learner clearly does this: asks why. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: find out why and offer a fair option. Full credit if the learner clearly shows: asks why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Does not push",
-      "hint": "Full credit if the learner clearly does this: does not push. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: find out why and offer a fair option. Full credit if the learner clearly shows: does not push. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a fair option",
-      "hint": "Full credit if the learner clearly does this: offers a fair option. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: find out why and offer a fair option. Full credit if the learner clearly shows: offers a fair option. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2796,15 +2796,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks about needs",
-      "hint": "Full credit if the learner clearly does this: asks about needs. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: recommend a better plan without pressure. Full credit if the learner clearly shows: asks about needs. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains benefits",
-      "hint": "Full credit if the learner clearly does this: explains benefits. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: recommend a better plan without pressure. Full credit if the learner clearly shows: explains benefits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Lets her decide",
-      "hint": "Full credit if the learner clearly does this: lets her decide. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: recommend a better plan without pressure. Full credit if the learner clearly shows: lets her decide. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2830,15 +2830,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges the concern",
-      "hint": "Full credit if the learner clearly does this: acknowledges the concern. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: respond to a price objection. Full credit if the learner clearly shows: acknowledges the concern. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains the value",
-      "hint": "Full credit if the learner clearly does this: explains the value. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: respond to a price objection. Full credit if the learner clearly shows: explains the value. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Full credit if the learner clearly does this: offers an alternative. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: respond to a price objection. Full credit if the learner clearly shows: offers an alternative. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2864,15 +2864,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains limits",
-      "hint": "Full credit if the learner clearly does this: explains limits. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: offer a fair compromise you are allowed to give. Full credit if the learner clearly shows: explains limits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a compromise",
-      "hint": "Full credit if the learner clearly does this: offers a compromise. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: offer a fair compromise you are allowed to give. Full credit if the learner clearly shows: offers a compromise. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Confirms agreement",
-      "hint": "Full credit if the learner clearly does this: confirms agreement. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: offer a fair compromise you are allowed to give. Full credit if the learner clearly shows: confirms agreement. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2898,15 +2898,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives name and issue",
-      "hint": "Full credit if the learner clearly does this: gives name and issue. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: hand over a case so she can continue without asking the customer again. Full credit if the learner clearly shows: gives name and issue. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives what was done",
-      "hint": "Full credit if the learner clearly does this: gives what was done. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: hand over a case so she can continue without asking the customer again. Full credit if the learner clearly shows: gives what was done. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives the next step",
-      "hint": "Full credit if the learner clearly does this: gives the next step. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: hand over a case so she can continue without asking the customer again. Full credit if the learner clearly shows: gives the next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2932,15 +2932,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes the problem with numbers",
-      "hint": "Full credit if the learner clearly does this: describes the problem with numbers. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: report a problem that keeps happening. Full credit if the learner clearly shows: describes the problem with numbers. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives examples",
-      "hint": "Full credit if the learner clearly does this: gives examples. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: report a problem that keeps happening. Full credit if the learner clearly shows: gives examples. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Asks for action",
-      "hint": "Full credit if the learner clearly does this: asks for action. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: report a problem that keeps happening. Full credit if the learner clearly shows: asks for action. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2966,15 +2966,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the suggestion",
-      "hint": "Full credit if the learner clearly does this: states the suggestion. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: suggest one improvement and give your reasons. Full credit if the learner clearly shows: states the suggestion. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives two reasons",
-      "hint": "Full credit if the learner clearly does this: gives two reasons. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: suggest one improvement and give your reasons. Full credit if the learner clearly shows: gives two reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Answers a question",
-      "hint": "Full credit if the learner clearly does this: answers a question. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: suggest one improvement and give your reasons. Full credit if the learner clearly shows: answers a question. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3000,15 +3000,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives results",
-      "hint": "Full credit if the learner clearly does this: gives results. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: talk about your results and what you will do next month. Full credit if the learner clearly shows: gives results. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains one challenge",
-      "hint": "Full credit if the learner clearly does this: explains one challenge. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: talk about your results and what you will do next month. Full credit if the learner clearly shows: explains one challenge. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Sets a goal",
-      "hint": "Full credit if the learner clearly does this: sets a goal. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: talk about your results and what you will do next month. Full credit if the learner clearly shows: sets a goal. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3034,15 +3034,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares phone, chat and email",
-      "hint": "Full credit if the learner clearly does this: compares phone, chat and email. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: choose the best channel for her problem and explain why. Full credit if the learner clearly shows: compares phone, chat and email. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Matches to her problem",
-      "hint": "Full credit if the learner clearly does this: matches to her problem. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: choose the best channel for her problem and explain why. Full credit if the learner clearly shows: matches to her problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains in simple words",
-      "hint": "Full credit if the learner clearly does this: explains in simple words. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: choose the best channel for her problem and explain why. Full credit if the learner clearly shows: explains in simple words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3068,15 +3068,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks and apologises",
-      "hint": "Full credit if the learner clearly does this: thanks and apologises. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: say the reply you would write to a long complaint. Full credit if the learner clearly shows: thanks and apologises. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Answers each point",
-      "hint": "Full credit if the learner clearly does this: answers each point. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: say the reply you would write to a long complaint. Full credit if the learner clearly shows: answers each point. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives next step and close",
-      "hint": "Full credit if the learner clearly does this: gives next step and close. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: say the reply you would write to a long complaint. Full credit if the learner clearly shows: gives next step and close. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3102,15 +3102,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short and polite",
-      "hint": "Full credit if the learner clearly does this: short and polite. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: reply publicly in short and move to private help. Full credit if the learner clearly shows: short and polite. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "No private details",
-      "hint": "Full credit if the learner clearly does this: no private details. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: reply publicly in short and move to private help. Full credit if the learner clearly shows: no private details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Invites a private message",
-      "hint": "Full credit if the learner clearly does this: invites a private message. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: reply publicly in short and move to private help. Full credit if the learner clearly shows: invites a private message. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3136,15 +3136,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks for feedback",
-      "hint": "Full credit if the learner clearly does this: thanks for feedback. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: reply to a bad review in a calm and honest way. Full credit if the learner clearly shows: thanks for feedback. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Acknowledges the issue",
-      "hint": "Full credit if the learner clearly does this: acknowledges the issue. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: reply to a bad review in a calm and honest way. Full credit if the learner clearly shows: acknowledges the issue. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers to fix it offline",
-      "hint": "Full credit if the learner clearly does this: offers to fix it offline. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: reply to a bad review in a calm and honest way. Full credit if the learner clearly shows: offers to fix it offline. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3170,15 +3170,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives one warning",
-      "hint": "Full credit if the learner clearly does this: gives one warning. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: set a limit and be ready to end the call. Full credit if the learner clearly shows: gives one warning. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Says the limit calmly",
-      "hint": "Full credit if the learner clearly does this: says the limit calmly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: set a limit and be ready to end the call. Full credit if the learner clearly shows: says the limit calmly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Ends politely if it continues",
-      "hint": "Full credit if the learner clearly does this: ends politely if it continues. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: set a limit and be ready to end the call. Full credit if the learner clearly shows: ends politely if it continues. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3204,15 +3204,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Slows down",
-      "hint": "Full credit if the learner clearly does this: slows down. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: slow down, simplify and check she understands. Full credit if the learner clearly shows: slows down. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Uses simple words",
-      "hint": "Full credit if the learner clearly does this: uses simple words. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: slow down, simplify and check she understands. Full credit if the learner clearly shows: uses simple words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks every step",
-      "hint": "Full credit if the learner clearly does this: checks every step. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: slow down, simplify and check she understands. Full credit if the learner clearly shows: checks every step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3238,15 +3238,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short sentences",
-      "hint": "Full credit if the learner clearly does this: short sentences. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: make yourself understood in simple clear English. Full credit if the learner clearly shows: short sentences. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "No idioms",
-      "hint": "Full credit if the learner clearly does this: no idioms. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: make yourself understood in simple clear English. Full credit if the learner clearly shows: no idioms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks understanding",
-      "hint": "Full credit if the learner clearly does this: checks understanding. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: make yourself understood in simple clear English. Full credit if the learner clearly shows: checks understanding. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3272,15 +3272,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Admits the mistake",
-      "hint": "Full credit if the learner clearly does this: admits the mistake. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: take responsibility and say how you will make it right. Full credit if the learner clearly shows: admits the mistake. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains the fix",
-      "hint": "Full credit if the learner clearly does this: explains the fix. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: take responsibility and say how you will make it right. Full credit if the learner clearly shows: explains the fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers fair compensation",
-      "hint": "Full credit if the learner clearly does this: offers fair compensation. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: take responsibility and say how you will make it right. Full credit if the learner clearly shows: offers fair compensation. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3306,15 +3306,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and listens",
-      "hint": "Full credit if the learner clearly does this: verifies and listens. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call from greeting to a refund decision. Full credit if the learner clearly shows: verifies and listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains options",
-      "hint": "Full credit if the learner clearly does this: explains options. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call from greeting to a refund decision. Full credit if the learner clearly shows: explains options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call from greeting to a refund decision. Full credit if the learner clearly shows: recaps and closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3340,15 +3340,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks why",
-      "hint": "Full credit if the learner clearly does this: asks why. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call and try to keep him fairly. Full credit if the learner clearly shows: asks why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers options",
-      "hint": "Full credit if the learner clearly does this: offers options. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call and try to keep him fairly. Full credit if the learner clearly shows: offers options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Respects his decision",
-      "hint": "Full credit if the learner clearly does this: respects his decision. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call and try to keep him fairly. Full credit if the learner clearly shows: respects his decision. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3374,15 +3374,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full credit if the learner clearly does this: stays calm. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call, set a limit and finish professionally. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Sets a limit",
-      "hint": "Full credit if the learner clearly does this: sets a limit. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call, set a limit and finish professionally. Full credit if the learner clearly shows: sets a limit. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full credit if the learner clearly does this: recaps and closes. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call, set a limit and finish professionally. Full credit if the learner clearly shows: recaps and closes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3408,15 +3408,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains steps",
-      "hint": "Full credit if the learner clearly does this: explains steps. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call and hand the case over. Full credit if the learner clearly shows: explains steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Hands over clearly",
-      "hint": "Full credit if the learner clearly does this: hands over clearly. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call and hand the case over. Full credit if the learner clearly shows: hands over clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Updates the customer",
-      "hint": "Full credit if the learner clearly does this: updates the customer. Partial if tried but unclear. Clear, well-organised answers with few errors that matter."
+      "hint": "Scene goal: run the whole call and hand the case over. Full credit if the learner clearly shows: updates the customer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3444,15 +3444,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses \"I\" and \"we\"",
-      "hint": "Full credit if the learner clearly does this: uses \"I\" and \"we\". Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: take full ownership without blaming others. Full credit if the learner clearly shows: uses \"I\" and \"we\". Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "No excuses",
-      "hint": "Full credit if the learner clearly does this: no excuses. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: take full ownership without blaming others. Full credit if the learner clearly shows: no excuses. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States clear actions",
-      "hint": "Full credit if the learner clearly does this: states clear actions. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: take full ownership without blaming others. Full credit if the learner clearly shows: states clear actions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3478,15 +3478,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the failure",
-      "hint": "Full credit if the learner clearly does this: names the failure. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: rebuild trust with specific promises you can keep. Full credit if the learner clearly shows: names the failure. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Makes specific promises",
-      "hint": "Full credit if the learner clearly does this: makes specific promises. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: rebuild trust with specific promises you can keep. Full credit if the learner clearly shows: makes specific promises. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives dates",
-      "hint": "Full credit if the learner clearly does this: gives dates. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: rebuild trust with specific promises you can keep. Full credit if the learner clearly shows: gives dates. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3512,15 +3512,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Calm professional tone",
-      "hint": "Full credit if the learner clearly does this: calm professional tone. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: respond to a public complaint with tact and precision. Full credit if the learner clearly shows: calm professional tone. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Facts only",
-      "hint": "Full credit if the learner clearly does this: facts only. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: respond to a public complaint with tact and precision. Full credit if the learner clearly shows: facts only. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Moves to a private channel",
-      "hint": "Full credit if the learner clearly does this: moves to a private channel. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: respond to a public complaint with tact and precision. Full credit if the learner clearly shows: moves to a private channel. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3546,15 +3546,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear message",
-      "hint": "Full credit if the learner clearly does this: clear message. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: say a hard thing softly and clearly. Full credit if the learner clearly shows: clear message. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Soft wording",
-      "hint": "Full credit if the learner clearly does this: soft wording. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: say a hard thing softly and clearly. Full credit if the learner clearly shows: soft wording. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers support",
-      "hint": "Full credit if the learner clearly does this: offers support. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: say a hard thing softly and clearly. Full credit if the learner clearly shows: offers support. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3580,15 +3580,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains current levels",
-      "hint": "Full credit if the learner clearly does this: explains current levels. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: discuss service levels and what is possible. Full credit if the learner clearly shows: explains current levels. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names what can change",
-      "hint": "Full credit if the learner clearly does this: names what can change. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: discuss service levels and what is possible. Full credit if the learner clearly shows: names what can change. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Asks his priorities",
-      "hint": "Full credit if the learner clearly does this: asks his priorities. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: discuss service levels and what is possible. Full credit if the learner clearly shows: asks his priorities. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3614,15 +3614,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States conditions",
-      "hint": "Full credit if the learner clearly does this: states conditions. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: grant an exception and record the conditions. Full credit if the learner clearly shows: states conditions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains why now",
-      "hint": "Full credit if the learner clearly does this: explains why now. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: grant an exception and record the conditions. Full credit if the learner clearly shows: explains why now. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Confirms in writing",
-      "hint": "Full credit if the learner clearly does this: confirms in writing. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: grant an exception and record the conditions. Full credit if the learner clearly shows: confirms in writing. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3648,15 +3648,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear no",
-      "hint": "Full credit if the learner clearly does this: clear no. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: hold a firm line with respect. Full credit if the learner clearly shows: clear no. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reason",
-      "hint": "Full credit if the learner clearly does this: gives a reason, not only a claim. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: hold a firm line with respect. Full credit if the learner clearly shows: reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Alternative",
-      "hint": "Full credit if the learner clearly does this: offers another option. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: hold a firm line with respect. Full credit if the learner clearly shows: alternative. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3682,15 +3682,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises terms",
-      "hint": "Full credit if the learner clearly does this: summarises terms. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: close an agreement and confirm each point. Full credit if the learner clearly shows: summarises terms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Checks agreement",
-      "hint": "Full credit if the learner clearly does this: checks agreement. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: close an agreement and confirm each point. Full credit if the learner clearly shows: checks agreement. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States next steps",
-      "hint": "Full credit if the learner clearly does this: states next steps. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: close an agreement and confirm each point. Full credit if the learner clearly shows: states next steps. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3716,15 +3716,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Positive start",
-      "hint": "Full credit if the learner clearly does this: positive start. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: coach him with specific feedback. Full credit if the learner clearly shows: positive start. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Specific example",
-      "hint": "Full credit if the learner clearly does this: specific example. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: coach him with specific feedback. Full credit if the learner clearly shows: specific example. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Practice plan",
-      "hint": "Full credit if the learner clearly does this: practice plan. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: coach him with specific feedback. Full credit if the learner clearly shows: practice plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3750,15 +3750,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear structure",
-      "hint": "Full credit if the learner clearly does this: clear structure. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: present customer feedback with evidence. Full credit if the learner clearly shows: clear structure. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Uses numbers",
-      "hint": "Full credit if the learner clearly does this: uses numbers. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: present customer feedback with evidence. Full credit if the learner clearly shows: uses numbers. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a recommendation",
-      "hint": "Full credit if the learner clearly does this: gives a recommendation. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: present customer feedback with evidence. Full credit if the learner clearly shows: gives a recommendation. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3784,15 +3784,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the trend",
-      "hint": "Full credit if the learner clearly does this: names the trend. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: explain a trend in the data and what it means. Full credit if the learner clearly shows: names the trend. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives reasons",
-      "hint": "Full credit if the learner clearly does this: gives reasons. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: explain a trend in the data and what it means. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a next step",
-      "hint": "Full credit if the learner clearly does this: gives a next step. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: explain a trend in the data and what it means. Full credit if the learner clearly shows: gives a next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3818,15 +3818,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the change",
-      "hint": "Full credit if the learner clearly does this: states the change. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: propose a service change and defend it. Full credit if the learner clearly shows: states the change. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Benefits and risks",
-      "hint": "Full credit if the learner clearly does this: benefits and risks. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: propose a service change and defend it. Full credit if the learner clearly shows: benefits and risks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Answers objections",
-      "hint": "Full credit if the learner clearly does this: answers objections. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: propose a service change and defend it. Full credit if the learner clearly shows: answers objections. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3852,15 +3852,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what happened",
-      "hint": "Full credit if the learner clearly does this: says what happened. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: announce an outage with clarity and empathy. Full credit if the learner clearly shows: says what happened. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Says what you do",
-      "hint": "Full credit if the learner clearly does this: says what you do. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: announce an outage with clarity and empathy. Full credit if the learner clearly shows: says what you do. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives next update time",
-      "hint": "Full credit if the learner clearly does this: gives next update time. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: announce an outage with clarity and empathy. Full credit if the learner clearly shows: gives next update time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3886,15 +3886,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Takes it seriously",
-      "hint": "Full credit if the learner clearly does this: takes it seriously. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: handle a privacy concern correctly. Full credit if the learner clearly shows: takes it seriously. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Says what you can and cannot say",
-      "hint": "Full credit if the learner clearly does this: says what you can and cannot say. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: handle a privacy concern correctly. Full credit if the learner clearly shows: says what you can and cannot say. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives the process",
-      "hint": "Full credit if the learner clearly does this: gives the process. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: handle a privacy concern correctly. Full credit if the learner clearly shows: gives the process. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3920,15 +3920,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full credit if the learner clearly does this: stays calm. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: respond calmly without admitting what you cannot. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Does not argue",
-      "hint": "Full credit if the learner clearly does this: does not argue. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: respond calmly without admitting what you cannot. Full credit if the learner clearly shows: does not argue. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Passes to the right team",
-      "hint": "Full credit if the learner clearly does this: passes to the right team. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: respond calmly without admitting what you cannot. Full credit if the learner clearly shows: passes to the right team. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3954,15 +3954,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Formal tone",
-      "hint": "Full credit if the learner clearly does this: formal tone. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: say the formal written response you would send. Full credit if the learner clearly shows: formal tone. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Clear facts",
-      "hint": "Full credit if the learner clearly does this: clear facts. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: say the formal written response you would send. Full credit if the learner clearly shows: clear facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Next steps and contact",
-      "hint": "Full credit if the learner clearly does this: next steps and contact. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: say the formal written response you would send. Full credit if the learner clearly shows: next steps and contact. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3988,15 +3988,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses his history",
-      "hint": "Full credit if the learner clearly does this: uses his history. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: personalise your service and show you remember him. Full credit if the learner clearly shows: uses his history. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Anticipates needs",
-      "hint": "Full credit if the learner clearly does this: anticipates needs. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: personalise your service and show you remember him. Full credit if the learner clearly shows: anticipates needs. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers a direct contact",
-      "hint": "Full credit if the learner clearly does this: offers a direct contact. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: personalise your service and show you remember him. Full credit if the learner clearly shows: offers a direct contact. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4022,15 +4022,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks politely",
-      "hint": "Full credit if the learner clearly does this: asks politely. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: ask for survey feedback and explain how you use it. Full credit if the learner clearly shows: asks politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains purpose",
-      "hint": "Full credit if the learner clearly does this: explains purpose. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: ask for survey feedback and explain how you use it. Full credit if the learner clearly shows: explains purpose. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Thanks",
-      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: ask for survey feedback and explain how you use it. Full credit if the learner clearly shows: thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4056,15 +4056,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks",
-      "hint": "Full credit if the learner clearly does this: says thank you at a natural moment. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: receive praise graciously and handle a referral. Full credit if the learner clearly shows: thanks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Does not oversell",
-      "hint": "Full credit if the learner clearly does this: does not oversell. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: receive praise graciously and handle a referral. Full credit if the learner clearly shows: does not oversell. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains how referrals work",
-      "hint": "Full credit if the learner clearly does this: explains how referrals work. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: receive praise graciously and handle a referral. Full credit if the learner clearly shows: explains how referrals work. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4090,15 +4090,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises the timeline",
-      "hint": "Full credit if the learner clearly does this: summarises the timeline. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: close and document a long case clearly. Full credit if the learner clearly shows: summarises the timeline. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Records decisions",
-      "hint": "Full credit if the learner clearly does this: records decisions. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: close and document a long case clearly. Full credit if the learner clearly shows: records decisions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States follow-up",
-      "hint": "Full credit if the learner clearly does this: states follow-up. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: close and document a long case clearly. Full credit if the learner clearly shows: states follow-up. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4124,15 +4124,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and listens",
-      "hint": "Full credit if the learner clearly does this: verifies and listens. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call at a senior level. Full credit if the learner clearly shows: verifies and listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers tailored options",
-      "hint": "Full credit if the learner clearly does this: offers tailored options. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call at a senior level. Full credit if the learner clearly shows: offers tailored options. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Recaps with commitments",
-      "hint": "Full credit if the learner clearly does this: recaps with commitments. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call at a senior level. Full credit if the learner clearly shows: recaps with commitments. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4158,15 +4158,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Empathy",
-      "hint": "Full credit if the learner clearly does this: shows they understand the customer's feeling. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call and inform clearly. Full credit if the learner clearly shows: empathy. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Clear facts",
-      "hint": "Full credit if the learner clearly does this: clear facts. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call and inform clearly. Full credit if the learner clearly shows: clear facts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Next update time",
-      "hint": "Full credit if the learner clearly does this: next update time. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call and inform clearly. Full credit if the learner clearly shows: next update time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4192,15 +4192,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies identity",
-      "hint": "Full credit if the learner clearly does this: verifies identity. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call correctly and safely. Full credit if the learner clearly shows: verifies identity. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Handles data carefully",
-      "hint": "Full credit if the learner clearly does this: handles data carefully. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call correctly and safely. Full credit if the learner clearly shows: handles data carefully. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Records the case",
-      "hint": "Full credit if the learner clearly does this: records the case. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call correctly and safely. Full credit if the learner clearly shows: records the case. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4226,15 +4226,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Full credit if the learner clearly does this: reacts to what the other person just said. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call and agree conditions. Full credit if the learner clearly shows: listens. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Negotiates",
-      "hint": "Full credit if the learner clearly does this: moves toward a deal both sides accept. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call and agree conditions. Full credit if the learner clearly shows: negotiates. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Confirms in writing",
-      "hint": "Full credit if the learner clearly does this: confirms in writing. Partial if tried but unclear. Fluent, precise and natural; judge tone and nuance too."
+      "hint": "Scene goal: run the whole call and agree conditions. Full credit if the learner clearly shows: confirms in writing. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
