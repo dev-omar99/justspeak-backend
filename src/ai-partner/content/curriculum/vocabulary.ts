@@ -4042,9 +4042,34 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
   "B2": {
    "words": [
     {
+     "word": "has",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u6-l3"
+    },
+    {
+     "word": "new",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u2-l4"
+    },
+    {
      "word": "good",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u2-l3"
+    },
+    {
+     "word": "first",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u6-l1"
+    },
+    {
+     "word": "know",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u5-l2"
+    },
+    {
+     "word": "think",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u5-l3"
     },
     {
      "word": "way",
@@ -4054,12 +4079,37 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "work",
      "tier": 1,
-     "firstLessonId": "daily-life-b2-u2-l2"
+     "firstLessonId": "daily-life-b2-u2-l1"
+    },
+    {
+     "word": "down",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l1"
+    },
+    {
+     "word": "use",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l3"
+    },
+    {
+     "word": "state",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l2"
+    },
+    {
+     "word": "around",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u5-l4"
+    },
+    {
+     "word": "each",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l4"
     },
     {
      "word": "without",
      "tier": 1,
-     "firstLessonId": "daily-life-b2-u1-l3"
+     "firstLessonId": "daily-life-b2-u1-l1"
     },
     {
      "word": "show",
@@ -4067,14 +4117,59 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u1-l2"
     },
     {
+     "word": "put",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u5-l3"
+    },
+    {
+     "word": "until",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u6-l4"
+    },
+    {
+     "word": "let",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l3"
+    },
+    {
+     "word": "different",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l1"
+    },
+    {
      "word": "thought",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u4-l1"
     },
     {
+     "word": "getting",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u5-l4"
+    },
+    {
+     "word": "care",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l1"
+    },
+    {
+     "word": "already",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l2"
+    },
+    {
+     "word": "anything",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l2"
+    },
+    {
      "word": "bad",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u2-l3"
+    },
+    {
+     "word": "support",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l1"
     },
     {
      "word": "car",
@@ -4092,6 +4187,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u4-l1"
     },
     {
+     "word": "early",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l4"
+    },
+    {
+     "word": "friends",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l4"
+    },
+    {
      "word": "social",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u4-l3"
@@ -4102,14 +4207,44 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u6-l2"
     },
     {
+     "word": "started",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u6-l3"
+    },
+    {
+     "word": "matter",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l4"
+    },
+    {
+     "word": "needs",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u6-l4"
+    },
+    {
+     "word": "understand",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l2"
+    },
+    {
+     "word": "comes",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u6-l4"
+    },
+    {
      "word": "late",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u2-l4"
     },
     {
-     "word": "report",
+     "word": "saw",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u6-l2"
+    },
+    {
+     "word": "stay",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l4"
     },
     {
      "word": "media",
@@ -4117,9 +4252,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u4-l3"
     },
     {
+     "word": "near",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u6-l4"
+    },
+    {
+     "word": "example",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l1"
+    },
+    {
      "word": "gets",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u6-l4"
+    },
+    {
+     "word": "wants",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l4"
     },
     {
      "word": "issue",
@@ -4144,7 +4294,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "view",
      "tier": 1,
-     "firstLessonId": "daily-life-b2-u4-l2"
+     "firstLessonId": "daily-life-b2-u1-l1"
     },
     {
      "word": "middle",
@@ -4152,9 +4302,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u1-l4"
     },
     {
+     "word": "result",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l2"
+    },
+    {
+     "word": "tried",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u2-l2"
+    },
+    {
      "word": "key",
      "tier": 1,
-     "firstLessonId": "daily-life-b2-u6-l1"
+     "firstLessonId": "daily-life-b2-u2-l3"
     },
     {
      "word": "language",
@@ -4164,12 +4324,37 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "terms",
      "tier": 1,
-     "firstLessonId": "daily-life-b2-u3-l1"
+     "firstLessonId": "daily-life-b2-u3-l4"
+    },
+    {
+     "word": "enjoy",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u2-l1"
+    },
+    {
+     "word": "situation",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l3"
+    },
+    {
+     "word": "pick",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u3-l4"
     },
     {
      "word": "offer",
      "tier": 1,
      "firstLessonId": "daily-life-b2-u1-l2"
+    },
+    {
+     "word": "piece",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u1-l3"
+    },
+    {
+     "word": "culture",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u5-l1"
     },
     {
      "word": "places",
@@ -4179,7 +4364,17 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "respect",
      "tier": 1,
-     "firstLessonId": "daily-life-b2-u5-l2"
+     "firstLessonId": "daily-life-b2-u4-l2"
+    },
+    {
+     "word": "specific",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u2-l2"
+    },
+    {
+     "word": "effect",
+     "tier": 1,
+     "firstLessonId": "daily-life-b2-u4-l3"
     },
     {
      "word": "contact",
@@ -4222,14 +4417,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u5-l3"
     },
     {
-     "word": "effects",
+     "word": "challenge",
      "tier": 2,
-     "firstLessonId": "daily-life-b2-u4-l3"
+     "firstLessonId": "daily-life-b2-u2-l1"
     },
     {
      "word": "showing",
      "tier": 2,
      "firstLessonId": "daily-life-b2-u1-l2"
+    },
+    {
+     "word": "avoid",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u5-l4"
     },
     {
      "word": "ideas",
@@ -4242,14 +4442,34 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u3-l3"
     },
     {
+     "word": "length",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u3-l1"
+    },
+    {
+     "word": "suggest",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u1-l4"
+    },
+    {
+     "word": "mention",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u4-l4"
+    },
+    {
      "word": "reaction",
      "tier": 2,
      "firstLessonId": "daily-life-b2-u2-l3"
     },
     {
-     "word": "facts",
+     "word": "emergency",
      "tier": 2,
      "firstLessonId": "daily-life-b2-u6-l1"
+    },
+    {
+     "word": "facts",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u2-l3"
     },
     {
      "word": "flat",
@@ -4257,9 +4477,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u3-l1"
     },
     {
+     "word": "proof",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u3-l3"
+    },
+    {
+     "word": "honestly",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u4-l4"
+    },
+    {
      "word": "soft",
      "tier": 2,
      "firstLessonId": "daily-life-b2-u1-l3"
+    },
+    {
+     "word": "stuck",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u2-l2"
     },
     {
      "word": "discuss",
@@ -4287,6 +4522,26 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u4-l4"
     },
     {
+     "word": "upset",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u5-l3"
+    },
+    {
+     "word": "shares",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u1-l2"
+    },
+    {
+     "word": "rent",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u3-l1"
+    },
+    {
+     "word": "sentence",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u2-l4"
+    },
+    {
      "word": "tips",
      "tier": 2,
      "firstLessonId": "daily-life-b2-u5-l4"
@@ -4297,9 +4552,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u1-l1"
     },
     {
+     "word": "dates",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u3-l2"
+    },
+    {
      "word": "reporting",
      "tier": 2,
      "firstLessonId": "daily-life-b2-u6-l2"
+    },
+    {
+     "word": "respond",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u1-l1"
+    },
+    {
+     "word": "bills",
+     "tier": 2,
+     "firstLessonId": "daily-life-b2-u3-l1"
     },
     {
      "word": "lets",
@@ -4317,6 +4587,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u1-l1"
     },
     {
+     "word": "exists",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u5-l1"
+    },
+    {
+     "word": "practical",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u1-l2"
+    },
+    {
      "word": "carefully",
      "tier": 3,
      "firstLessonId": "daily-life-b2-u1-l3"
@@ -4327,9 +4607,9 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u3-l2"
     },
     {
-     "word": "pushing",
+     "word": "arrival",
      "tier": 3,
-     "firstLessonId": "daily-life-b2-u1-l3"
+     "firstLessonId": "daily-life-b2-u2-l4"
     },
     {
      "word": "custom",
@@ -4352,9 +4632,39 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u1-l4"
     },
     {
+     "word": "instructions",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u6-l1"
+    },
+    {
+     "word": "settle",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u1-l4"
+    },
+    {
      "word": "complaint",
      "tier": 3,
      "firstLessonId": "daily-life-b2-u3-l2"
+    },
+    {
+     "word": "arguing",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u1-l1"
+    },
+    {
+     "word": "suits",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u4-l4"
+    },
+    {
+     "word": "deposit",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u3-l1"
+    },
+    {
+     "word": "neutral",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u1-l4"
     },
     {
      "word": "discussing",
@@ -4382,11 +4692,6 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u1-l2"
     },
     {
-     "word": "rental",
-     "tier": 3,
-     "firstLessonId": "daily-life-b2-u3-l1"
-    },
-    {
      "word": "gently",
      "tier": 3,
      "firstLessonId": "daily-life-b2-u1-l2"
@@ -4397,9 +4702,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u4-l3"
     },
     {
-     "word": "negotiate",
+     "word": "visitor",
+     "tier": 3,
+     "firstLessonId": "daily-life-b2-u5-l4"
+    },
+    {
+     "word": "colleague",
      "tier": 4,
-     "firstLessonId": "daily-life-b2-u3-l3"
+     "firstLessonId": "daily-life-b2-u2-l2"
+    },
+    {
+     "word": "theirs",
+     "tier": 4,
+     "firstLessonId": "daily-life-b2-u2-l1"
     },
     {
      "word": "polite",
@@ -4447,14 +4762,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-b2-u3-l1"
     },
     {
-     "word": "calmly",
-     "tier": 4,
-     "firstLessonId": "daily-life-b2-u6-l1"
-    },
-    {
      "word": "recommending",
      "tier": 4,
      "firstLessonId": "daily-life-b2-u4-l4"
+    },
+    {
+     "word": "wording",
+     "tier": 4,
+     "firstLessonId": "daily-life-b2-u1-l3"
+    },
+    {
+     "word": "downside",
+     "tier": 4,
+     "firstLessonId": "daily-life-b2-u4-l4"
+    },
+    {
+     "word": "spoiling",
+     "tier": 5,
+     "firstLessonId": "daily-life-b2-u4-l1"
+    },
+    {
+     "word": "summarise",
+     "tier": 5,
+     "firstLessonId": "daily-life-b2-u4-l2"
     },
     {
      "word": "reassures",
@@ -4538,7 +4868,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
   "C1": {
    "words": [
     {
-     "word": "new",
+     "word": "was",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u5-l4"
     },
@@ -4548,24 +4878,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u2-l4"
     },
     {
-     "word": "think",
-     "tier": 1,
-     "firstLessonId": "daily-life-c1-u2-l2"
-    },
-    {
-     "word": "life",
-     "tier": 1,
-     "firstLessonId": "daily-life-c1-u5-l4"
-    },
-    {
      "word": "through",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u2-l2"
     },
     {
-     "word": "use",
+     "word": "both",
      "tier": 1,
-     "firstLessonId": "daily-life-c1-u1-l2"
+     "firstLessonId": "daily-life-c1-u4-l1"
     },
     {
      "word": "between",
@@ -4573,9 +4893,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u1-l1"
     },
     {
+     "word": "find",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u5-l3"
+    },
+    {
      "word": "school",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u5-l2"
+    },
+    {
+     "word": "must",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u1-l3"
     },
     {
      "word": "big",
@@ -4585,12 +4915,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "real",
      "tier": 1,
-     "firstLessonId": "daily-life-c1-u4-l3"
-    },
-    {
-     "word": "care",
-     "tier": 1,
-     "firstLessonId": "daily-life-c1-u2-l3"
+     "firstLessonId": "daily-life-c1-u1-l1"
     },
     {
      "word": "case",
@@ -4600,12 +4925,27 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "hard",
      "tier": 1,
-     "firstLessonId": "daily-life-c1-u2-l2"
+     "firstLessonId": "daily-life-c1-u5-l4"
     },
     {
-     "word": "support",
+     "word": "once",
      "tier": 1,
-     "firstLessonId": "daily-life-c1-u1-l1"
+     "firstLessonId": "daily-life-c1-u4-l4"
+    },
+    {
+     "word": "side",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u4-l1"
+    },
+    {
+     "word": "line",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u3-l1"
+    },
+    {
+     "word": "everyone",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u1-l2"
     },
     {
      "word": "kind",
@@ -4613,17 +4953,32 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u1-l2"
     },
     {
-     "word": "friends",
-     "tier": 1,
-     "firstLessonId": "daily-life-c1-u5-l3"
-    },
-    {
      "word": "local",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u5-l3"
     },
     {
-     "word": "understand",
+     "word": "true",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u1-l4"
+    },
+    {
+     "word": "room",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u1-l2"
+    },
+    {
+     "word": "anyone",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u2-l3"
+    },
+    {
+     "word": "else",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u1-l3"
+    },
+    {
+     "word": "close",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u5-l1"
     },
@@ -4641,6 +4996,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "turn",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u3-l3"
+    },
+    {
+     "word": "moment",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u1-l2"
     },
     {
      "word": "account",
@@ -4668,6 +5028,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u3-l1"
     },
     {
+     "word": "exactly",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u3-l2"
+    },
+    {
      "word": "ground",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u4-l4"
@@ -4693,14 +5058,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u4-l2"
     },
     {
+     "word": "serious",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u4-l3"
+    },
+    {
+     "word": "add",
+     "tier": 1,
+     "firstLessonId": "daily-life-c1-u1-l2"
+    },
+    {
      "word": "changed",
      "tier": 1,
      "firstLessonId": "daily-life-c1-u2-l4"
     },
     {
-     "word": "build",
+     "word": "listen",
      "tier": 1,
-     "firstLessonId": "daily-life-c1-u5-l3"
+     "firstLessonId": "daily-life-c1-u4-l1"
+    },
+    {
+     "word": "costs",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u2-l2"
     },
     {
      "word": "lines",
@@ -4723,9 +5103,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u3-l1"
     },
     {
-     "word": "notice",
+     "word": "agreement",
      "tier": 2,
-     "firstLessonId": "daily-life-c1-u1-l1"
+     "firstLessonId": "daily-life-c1-u2-l1"
+    },
+    {
+     "word": "caused",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u2-l4"
+    },
+    {
+     "word": "helped",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u5-l4"
     },
     {
      "word": "standing",
@@ -4748,14 +5138,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u1-l4"
     },
     {
-     "word": "handle",
+     "word": "firm",
      "tier": 2,
-     "firstLessonId": "daily-life-c1-u5-l2"
+     "firstLessonId": "daily-life-c1-u4-l4"
+    },
+    {
+     "word": "improve",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u1-l4"
+    },
+    {
+     "word": "thinks",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u2-l1"
     },
     {
      "word": "request",
      "tier": 2,
-     "firstLessonId": "daily-life-c1-u3-l4"
+     "firstLessonId": "daily-life-c1-u3-l2"
+    },
+    {
+     "word": "yours",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u2-l1"
     },
     {
      "word": "honest",
@@ -4780,12 +5185,22 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "options",
      "tier": 2,
-     "firstLessonId": "daily-life-c1-u2-l2"
+     "firstLessonId": "daily-life-c1-u5-l2"
+    },
+    {
+     "word": "warm",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u3-l1"
     },
     {
      "word": "limit",
      "tier": 2,
      "firstLessonId": "daily-life-c1-u4-l4"
+    },
+    {
+     "word": "taught",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u2-l3"
     },
     {
      "word": "keeps",
@@ -4808,14 +5223,39 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u1-l4"
     },
     {
+     "word": "advance",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u3-l4"
+    },
+    {
+     "word": "affected",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u4-l3"
+    },
+    {
+     "word": "lay",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u2-l2"
+    },
+    {
      "word": "requirements",
      "tier": 2,
      "firstLessonId": "daily-life-c1-u5-l1"
     },
     {
-     "word": "shares",
+     "word": "noticed",
      "tier": 2,
-     "firstLessonId": "daily-life-c1-u5-l3"
+     "firstLessonId": "daily-life-c1-u1-l1"
+    },
+    {
+     "word": "reasonable",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u3-l4"
+    },
+    {
+     "word": "frame",
+     "tier": 2,
+     "firstLessonId": "daily-life-c1-u3-l4"
     },
     {
      "word": "perspective",
@@ -4833,19 +5273,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u5-l1"
     },
     {
-     "word": "respond",
-     "tier": 2,
-     "firstLessonId": "daily-life-c1-u1-l1"
-    },
-    {
-     "word": "fairly",
-     "tier": 2,
-     "firstLessonId": "daily-life-c1-u4-l2"
-    },
-    {
-     "word": "naturally",
+     "word": "tone",
      "tier": 3,
-     "firstLessonId": "daily-life-c1-u1-l2"
+     "firstLessonId": "daily-life-c1-u4-l4"
+    },
+    {
+     "word": "limits",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u5-l1"
+    },
+    {
+     "word": "compare",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u2-l4"
     },
     {
      "word": "opens",
@@ -4853,14 +5293,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u3-l1"
     },
     {
-     "word": "abroad",
+     "word": "raising",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u4-l4"
+    },
+    {
+     "word": "confirm",
      "tier": 3,
      "firstLessonId": "daily-life-c1-u5-l1"
     },
     {
-     "word": "friendship",
+     "word": "abroad",
      "tier": 3,
-     "firstLessonId": "daily-life-c1-u5-l3"
+     "firstLessonId": "daily-life-c1-u5-l1"
     },
     {
      "word": "lists",
@@ -4871,6 +5316,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "regret",
      "tier": 3,
      "firstLessonId": "daily-life-c1-u2-l3"
+    },
+    {
+     "word": "risks",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u5-l2"
     },
     {
      "word": "feedback",
@@ -4888,9 +5338,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u1-l2"
     },
     {
-     "word": "resolve",
+     "word": "differently",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u2-l1"
+    },
+    {
+     "word": "acknowledge",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u4-l4"
+    },
+    {
+     "word": "affects",
      "tier": 3,
      "firstLessonId": "daily-life-c1-u4-l1"
+    },
+    {
+     "word": "compromise",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u3-l3"
     },
     {
      "word": "hint",
@@ -4903,9 +5368,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u4-l3"
     },
     {
+     "word": "formally",
+     "tier": 3,
+     "firstLessonId": "daily-life-c1-u3-l2"
+    },
+    {
      "word": "kindly",
      "tier": 3,
-     "firstLessonId": "daily-life-c1-u1-l3"
+     "firstLessonId": "daily-life-c1-u1-l4"
+    },
+    {
+     "word": "negotiate",
+     "tier": 4,
+     "firstLessonId": "daily-life-c1-u4-l2"
     },
     {
      "word": "offence",
@@ -4918,6 +5393,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u3-l1"
     },
     {
+     "word": "excuses",
+     "tier": 4,
+     "firstLessonId": "daily-life-c1-u4-l3"
+    },
+    {
      "word": "notices",
      "tier": 4,
      "firstLessonId": "daily-life-c1-u1-l1"
@@ -4926,6 +5406,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "landlord",
      "tier": 4,
      "firstLessonId": "daily-life-c1-u4-l2"
+    },
+    {
+     "word": "blaming",
+     "tier": 4,
+     "firstLessonId": "daily-life-c1-u2-l3"
     },
     {
      "word": "hints",
@@ -4978,6 +5463,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "daily-life-c1-u4-l1"
     },
     {
+     "word": "respectfully",
+     "tier": 5,
+     "firstLessonId": "daily-life-c1-u3-l3"
+    },
+    {
+     "word": "newcomer",
+     "tier": 5,
+     "firstLessonId": "daily-life-c1-u5-l4"
+    },
+    {
      "word": "warmly",
      "tier": 5,
      "firstLessonId": "daily-life-c1-u3-l1"
@@ -4986,6 +5481,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "apologising",
      "tier": 5,
      "firstLessonId": "daily-life-c1-u4-l3"
+    },
+    {
+     "word": "restate",
+     "tier": 5,
+     "firstLessonId": "daily-life-c1-u4-l4"
     }
    ],
    "phrases": [
@@ -6228,7 +6728,22 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u2-l4"
     },
     {
+     "word": "back",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u3-l1"
+    },
+    {
      "word": "same",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u2-l4"
+    },
+    {
+     "word": "used",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u3-l4"
+    },
+    {
+     "word": "both",
      "tier": 1,
      "firstLessonId": "iv-cs-b2-u2-l4"
     },
@@ -6238,9 +6753,44 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u2-l3"
     },
     {
-     "word": "working",
+     "word": "each",
      "tier": 1,
-     "firstLessonId": "iv-cs-b2-u1-l4"
+     "firstLessonId": "iv-cs-b2-u3-l1"
+    },
+    {
+     "word": "end",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u3-l3"
+    },
+    {
+     "word": "keep",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u4-l2"
+    },
+    {
+     "word": "second",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u4-l3"
+    },
+    {
+     "word": "once",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u2-l4"
+    },
+    {
+     "word": "including",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u2-l1"
+    },
+    {
+     "word": "call",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u2-l1"
+    },
+    {
+     "word": "service",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u1-l1"
     },
     {
      "word": "pay",
@@ -6253,12 +6803,22 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u2-l1"
     },
     {
+     "word": "yourself",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u1-l3"
+    },
+    {
      "word": "final",
      "tier": 1,
      "firstLessonId": "iv-cs-b2-u4-l4"
     },
     {
      "word": "wants",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u2-l2"
+    },
+    {
+     "word": "happen",
      "tier": 1,
      "firstLessonId": "iv-cs-b2-u2-l3"
     },
@@ -6293,9 +6853,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u1-l2"
     },
     {
+     "word": "sign",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u3-l2"
+    },
+    {
      "word": "changed",
      "tier": 1,
      "firstLessonId": "iv-cs-b2-u3-l3"
+    },
+    {
+     "word": "listen",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u4-l3"
+    },
+    {
+     "word": "offer",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u2-l2"
+    },
+    {
+     "word": "respect",
+     "tier": 1,
+     "firstLessonId": "iv-cs-b2-u2-l2"
     },
     {
      "word": "allow",
@@ -6318,9 +6898,9 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u2-l2"
     },
     {
-     "word": "reasons",
+     "word": "claim",
      "tier": 2,
-     "firstLessonId": "iv-cs-b2-u4-l2"
+     "firstLessonId": "iv-cs-b2-u4-l1"
     },
     {
      "word": "details",
@@ -6330,7 +6910,12 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "explain",
      "tier": 2,
-     "firstLessonId": "iv-cs-b2-u2-l2"
+     "firstLessonId": "iv-cs-b2-u2-l3"
+    },
+    {
+     "word": "interview",
+     "tier": 2,
+     "firstLessonId": "iv-cs-b2-u1-l1"
     },
     {
      "word": "learned",
@@ -6403,9 +6988,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u1-l2"
     },
     {
+     "word": "friendly",
+     "tier": 2,
+     "firstLessonId": "iv-cs-b2-u4-l2"
+    },
+    {
      "word": "properly",
      "tier": 2,
      "firstLessonId": "iv-cs-b2-u2-l3"
+    },
+    {
+     "word": "detail",
+     "tier": 2,
+     "firstLessonId": "iv-cs-b2-u1-l2"
     },
     {
      "word": "shift",
@@ -6418,14 +7013,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u3-l3"
     },
     {
-     "word": "respond",
-     "tier": 2,
-     "firstLessonId": "iv-cs-b2-u2-l3"
+     "word": "refer",
+     "tier": 3,
+     "firstLessonId": "iv-cs-b2-u4-l3"
     },
     {
      "word": "asks",
      "tier": 3,
      "firstLessonId": "iv-cs-b2-u2-l3"
+    },
+    {
+     "word": "afterwards",
+     "tier": 3,
+     "firstLessonId": "iv-cs-b2-u3-l3"
+    },
+    {
+     "word": "arrive",
+     "tier": 3,
+     "firstLessonId": "iv-cs-b2-u2-l4"
     },
     {
      "word": "connect",
@@ -6438,6 +7043,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u4-l2"
     },
     {
+     "word": "outcome",
+     "tier": 3,
+     "firstLessonId": "iv-cs-b2-u1-l3"
+    },
+    {
      "word": "feedback",
      "tier": 3,
      "firstLessonId": "iv-cs-b2-u3-l4"
@@ -6448,9 +7058,9 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u2-l4"
     },
     {
-     "word": "applying",
+     "word": "applies",
      "tier": 3,
-     "firstLessonId": "iv-cs-b2-u3-l4"
+     "firstLessonId": "iv-cs-b2-u4-l1"
     },
     {
      "word": "owns",
@@ -6473,6 +7083,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-b2-u1-l4"
     },
     {
+     "word": "proves",
+     "tier": 3,
+     "firstLessonId": "iv-cs-b2-u3-l4"
+    },
+    {
      "word": "alternatives",
      "tier": 3,
      "firstLessonId": "iv-cs-b2-u2-l2"
@@ -6485,7 +7100,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "supervisor",
      "tier": 4,
-     "firstLessonId": "iv-cs-b2-u2-l3"
+     "firstLessonId": "iv-cs-b2-u2-l1"
     },
     {
      "word": "tense",
@@ -6501,6 +7116,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "respects",
      "tier": 4,
      "firstLessonId": "iv-cs-b2-u2-l2"
+    },
+    {
+     "word": "blaming",
+     "tier": 4,
+     "firstLessonId": "iv-cs-b2-u3-l3"
     },
     {
      "word": "strengths",
@@ -6602,9 +7222,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u1-l4"
     },
     {
-     "word": "each",
+     "word": "while",
      "tier": 1,
      "firstLessonId": "iv-cs-c1-u2-l1"
+    },
+    {
+     "word": "look",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u2-l1"
+    },
+    {
+     "word": "state",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u2-l2"
     },
     {
      "word": "days",
@@ -6612,9 +7242,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u2-l4"
     },
     {
-     "word": "service",
+     "word": "hard",
      "tier": 1,
-     "firstLessonId": "iv-cs-c1-u1-l3"
+     "firstLessonId": "iv-cs-c1-u1-l4"
+    },
+    {
+     "word": "support",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u3-l4"
+    },
+    {
+     "word": "everyone",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u2-l1"
     },
     {
      "word": "using",
@@ -6647,9 +7287,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u2-l4"
     },
     {
+     "word": "meet",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u2-l1"
+    },
+    {
      "word": "process",
      "tier": 1,
      "firstLessonId": "iv-cs-c1-u3-l2"
+    },
+    {
+     "word": "gave",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u3-l3"
+    },
+    {
+     "word": "points",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u1-l1"
     },
     {
      "word": "position",
@@ -6672,6 +7327,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u3-l3"
     },
     {
+     "word": "natural",
+     "tier": 1,
+     "firstLessonId": "iv-cs-c1-u1-l1"
+    },
+    {
      "word": "growth",
      "tier": 1,
      "firstLessonId": "iv-cs-c1-u1-l2"
@@ -6687,11 +7347,6 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u3-l1"
     },
     {
-     "word": "address",
-     "tier": 2,
-     "firstLessonId": "iv-cs-c1-u2-l1"
-    },
-    {
      "word": "structure",
      "tier": 2,
      "firstLessonId": "iv-cs-c1-u1-l1"
@@ -6702,9 +7357,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u2-l2"
     },
     {
-     "word": "honestly",
+     "word": "balance",
      "tier": 2,
-     "firstLessonId": "iv-cs-c1-u1-l2"
+     "firstLessonId": "iv-cs-c1-u2-l3"
+    },
+    {
+     "word": "raise",
+     "tier": 2,
+     "firstLessonId": "iv-cs-c1-u1-l3"
     },
     {
      "word": "keeps",
@@ -6717,9 +7377,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u2-l4"
     },
     {
+     "word": "measure",
+     "tier": 2,
+     "firstLessonId": "iv-cs-c1-u2-l4"
+    },
+    {
      "word": "examples",
      "tier": 2,
      "firstLessonId": "iv-cs-c1-u2-l3"
+    },
+    {
+     "word": "serving",
+     "tier": 2,
+     "firstLessonId": "iv-cs-c1-u1-l3"
+    },
+    {
+     "word": "improved",
+     "tier": 2,
+     "firstLessonId": "iv-cs-c1-u3-l2"
     },
     {
      "word": "delivery",
@@ -6732,6 +7407,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u1-l2"
     },
     {
+     "word": "deliver",
+     "tier": 2,
+     "firstLessonId": "iv-cs-c1-u3-l4"
+    },
+    {
      "word": "panel",
      "tier": 2,
      "firstLessonId": "iv-cs-c1-u2-l1"
@@ -6742,9 +7422,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u1-l4"
     },
     {
+     "word": "respond",
+     "tier": 2,
+     "firstLessonId": "iv-cs-c1-u1-l2"
+    },
+    {
+     "word": "challenges",
+     "tier": 3,
+     "firstLessonId": "iv-cs-c1-u1-l2"
+    },
+    {
      "word": "philosophy",
      "tier": 3,
      "firstLessonId": "iv-cs-c1-u3-l4"
+    },
+    {
+     "word": "meanwhile",
+     "tier": 3,
+     "firstLessonId": "iv-cs-c1-u1-l3"
     },
     {
      "word": "stages",
@@ -6802,14 +7497,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "iv-cs-c1-u1-l3"
     },
     {
+     "word": "answering",
+     "tier": 3,
+     "firstLessonId": "iv-cs-c1-u1-l4"
+    },
+    {
      "word": "raises",
      "tier": 3,
      "firstLessonId": "iv-cs-c1-u1-l3"
     },
     {
+     "word": "excuses",
+     "tier": 4,
+     "firstLessonId": "iv-cs-c1-u1-l2"
+    },
+    {
      "word": "teammate",
      "tier": 4,
      "firstLessonId": "iv-cs-c1-u3-l1"
+    },
+    {
+     "word": "greet",
+     "tier": 4,
+     "firstLessonId": "iv-cs-c1-u2-l1"
     },
     {
      "word": "apologise",
@@ -6820,6 +7530,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "calmly",
      "tier": 4,
      "firstLessonId": "iv-cs-c1-u1-l2"
+    },
+    {
+     "word": "presses",
+     "tier": 4,
+     "firstLessonId": "iv-cs-c1-u1-l4"
     },
     {
      "word": "concise",
@@ -6866,6 +7581,1860 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     "Insight",
     "Clear principles",
     "Calm delivery"
+   ]
+  }
+ },
+ "interviews-sales-interview-english": {
+  "A1": {
+   "words": [
+    {
+     "word": "time",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l2"
+    },
+    {
+     "word": "want",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l3"
+    },
+    {
+     "word": "work",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l1"
+    },
+    {
+     "word": "many",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l3"
+    },
+    {
+     "word": "say",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "down",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l2"
+    },
+    {
+     "word": "help",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l4"
+    },
+    {
+     "word": "each",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l4"
+    },
+    {
+     "word": "please",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l4"
+    },
+    {
+     "word": "number",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l4"
+    },
+    {
+     "word": "city",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l1"
+    },
+    {
+     "word": "days",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l1"
+    },
+    {
+     "word": "name",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "start",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l2"
+    },
+    {
+     "word": "times",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l3"
+    },
+    {
+     "word": "today",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l3"
+    },
+    {
+     "word": "full",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l3"
+    },
+    {
+     "word": "job",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l3"
+    },
+    {
+     "word": "says",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "country",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l1"
+    },
+    {
+     "word": "thank",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l2"
+    },
+    {
+     "word": "working",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l4"
+    },
+    {
+     "word": "hours",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l3"
+    },
+    {
+     "word": "saying",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "question",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l4"
+    },
+    {
+     "word": "ask",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l4"
+    },
+    {
+     "word": "phone",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l4"
+    },
+    {
+     "word": "wants",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l3"
+    },
+    {
+     "word": "price",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l2"
+    },
+    {
+     "word": "date",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l2"
+    },
+    {
+     "word": "answer",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l2"
+    },
+    {
+     "word": "voice",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "products",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l1"
+    },
+    {
+     "word": "speak",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l2"
+    },
+    {
+     "word": "sales",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l3"
+    },
+    {
+     "word": "numbers",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l2"
+    },
+    {
+     "word": "sell",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l1"
+    },
+    {
+     "word": "studies",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l3"
+    },
+    {
+     "word": "asking",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l4"
+    },
+    {
+     "word": "subject",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l3"
+    },
+    {
+     "word": "clearly",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l1"
+    },
+    {
+     "word": "names",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l1"
+    },
+    {
+     "word": "prices",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l2"
+    },
+    {
+     "word": "uses",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l3"
+    },
+    {
+     "word": "sitting",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l2"
+    },
+    {
+     "word": "items",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l3"
+    },
+    {
+     "word": "hello",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "slowly",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l2"
+    },
+    {
+     "word": "customer",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l3"
+    },
+    {
+     "word": "answers",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l2"
+    },
+    {
+     "word": "offering",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l4"
+    },
+    {
+     "word": "sentence",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l3"
+    },
+    {
+     "word": "item",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l3"
+    },
+    {
+     "word": "studied",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l3"
+    },
+    {
+     "word": "speaks",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l2"
+    },
+    {
+     "word": "languages",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l2"
+    },
+    {
+     "word": "currency",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l2"
+    },
+    {
+     "word": "preferred",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l3"
+    },
+    {
+     "word": "checks",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l4"
+    },
+    {
+     "word": "goodbye",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l4"
+    },
+    {
+     "word": "quantity",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l3"
+    },
+    {
+     "word": "smiles",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "naming",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a1-u3-l1"
+    },
+    {
+     "word": "digit",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l4"
+    },
+    {
+     "word": "greet",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "waits",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a1-u4-l4"
+    },
+    {
+     "word": "interviewer",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a1-u1-l1"
+    },
+    {
+     "word": "pauses",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-a1-u2-l4"
+    }
+   ],
+   "phrases": [
+    "Says hello",
+    "Says name",
+    "Smiles in the voice",
+    "Answers how are you",
+    "Says thank you",
+    "Speaks slowly",
+    "Says the job",
+    "Says want",
+    "Uses a full sentence",
+    "Says goodbye",
+    "Names days",
+    "Uses can",
+    "Speaks clearly",
+    "Says a date",
+    "Uses can start",
+    "Says times",
+    "Uses from and to",
+    "Uses the question",
+    "Says please",
+    "Waits",
+    "Says city",
+    "Says country",
+    "Uses I am from",
+    "Names languages",
+    "Uses I speak",
+    "Says the subject",
+    "Uses I studied",
+    "Says each digit",
+    "Pauses",
+    "Checks it",
+    "Names products",
+    "Uses a or an",
+    "Says numbers",
+    "Says the currency",
+    "Names the item",
+    "Uses want"
+   ]
+  },
+  "A2": {
+   "words": [
+    {
+     "word": "have",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l3"
+    },
+    {
+     "word": "like",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l1"
+    },
+    {
+     "word": "get",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l2"
+    },
+    {
+     "word": "people",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l3"
+    },
+    {
+     "word": "because",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l1"
+    },
+    {
+     "word": "year",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l4"
+    },
+    {
+     "word": "best",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l4"
+    },
+    {
+     "word": "long",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l2"
+    },
+    {
+     "word": "things",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l2"
+    },
+    {
+     "word": "thing",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l2"
+    },
+    {
+     "word": "give",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l4"
+    },
+    {
+     "word": "place",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l2"
+    },
+    {
+     "word": "company",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l2"
+    },
+    {
+     "word": "point",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l3"
+    },
+    {
+     "word": "yet",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l3"
+    },
+    {
+     "word": "small",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l4"
+    },
+    {
+     "word": "hope",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l4"
+    },
+    {
+     "word": "past",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l2"
+    },
+    {
+     "word": "short",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l1"
+    },
+    {
+     "word": "buy",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l4"
+    },
+    {
+     "word": "reason",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l1"
+    },
+    {
+     "word": "soon",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l4"
+    },
+    {
+     "word": "talking",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l3"
+    },
+    {
+     "word": "example",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l4"
+    },
+    {
+     "word": "experience",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l2"
+    },
+    {
+     "word": "hear",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l4"
+    },
+    {
+     "word": "takes",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l2"
+    },
+    {
+     "word": "learn",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l4"
+    },
+    {
+     "word": "giving",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l3"
+    },
+    {
+     "word": "goal",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l4"
+    },
+    {
+     "word": "gives",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l1"
+    },
+    {
+     "word": "included",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l3"
+    },
+    {
+     "word": "travel",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l2"
+    },
+    {
+     "word": "positive",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l3"
+    },
+    {
+     "word": "sale",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l4"
+    },
+    {
+     "word": "manager",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l3"
+    },
+    {
+     "word": "sold",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l2"
+    },
+    {
+     "word": "sounds",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l3"
+    },
+    {
+     "word": "goals",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l4"
+    },
+    {
+     "word": "product",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l2"
+    },
+    {
+     "word": "details",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l2"
+    },
+    {
+     "word": "interview",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l4"
+    },
+    {
+     "word": "honestly",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l3"
+    },
+    {
+     "word": "relevant",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l3"
+    },
+    {
+     "word": "describe",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l2"
+    },
+    {
+     "word": "introduction",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l1"
+    },
+    {
+     "word": "closing",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l4"
+    },
+    {
+     "word": "asks",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l3"
+    },
+    {
+     "word": "skill",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l3"
+    },
+    {
+     "word": "describing",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l2"
+    },
+    {
+     "word": "availability",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l1"
+    },
+    {
+     "word": "liking",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a2-u2-l3"
+    },
+    {
+     "word": "tense",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a2-u1-l2"
+    },
+    {
+     "word": "greeting",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l1"
+    },
+    {
+     "word": "listens",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l3"
+    },
+    {
+     "word": "politely",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-a2-u4-l3"
+    },
+    {
+     "word": "greets",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-a2-u3-l1"
+    }
+   ],
+   "phrases": [
+    "Says name",
+    "Says studies",
+    "Gives a reason",
+    "Names the place",
+    "Says how long",
+    "Uses past tense",
+    "Says honestly",
+    "Names a skill",
+    "Sounds positive",
+    "Names the skill",
+    "Gives an example",
+    "Uses a full sentence",
+    "Uses because",
+    "Speaks clearly",
+    "Names the thing",
+    "Says the point",
+    "Names a goal",
+    "Uses want to",
+    "Says the date",
+    "Names days",
+    "Says how",
+    "Says time",
+    "Asks politely",
+    "Relevant question",
+    "Listens",
+    "Says thank you",
+    "Says hope",
+    "Smiles in the voice",
+    "Greets",
+    "Asks to help",
+    "Names product",
+    "Gives two details",
+    "Says price",
+    "Says included",
+    "Checks it",
+    "Asks to buy"
+   ]
+  },
+  "B1": {
+   "words": [
+    {
+     "word": "first",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l1"
+    },
+    {
+     "word": "well",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l3"
+    },
+    {
+     "word": "need",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l2"
+    },
+    {
+     "word": "years",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l4"
+    },
+    {
+     "word": "used",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l4"
+    },
+    {
+     "word": "find",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l2"
+    },
+    {
+     "word": "next",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l3"
+    },
+    {
+     "word": "team",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l3"
+    },
+    {
+     "word": "second",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l3"
+    },
+    {
+     "word": "tell",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l1"
+    },
+    {
+     "word": "states",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l4"
+    },
+    {
+     "word": "makes",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l4"
+    },
+    {
+     "word": "story",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l2"
+    },
+    {
+     "word": "needs",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l2"
+    },
+    {
+     "word": "happy",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l1"
+    },
+    {
+     "word": "stay",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l4"
+    },
+    {
+     "word": "building",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l4"
+    },
+    {
+     "word": "study",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l2"
+    },
+    {
+     "word": "action",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l2"
+    },
+    {
+     "word": "result",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l2"
+    },
+    {
+     "word": "received",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l4"
+    },
+    {
+     "word": "role",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l3"
+    },
+    {
+     "word": "worked",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l3"
+    },
+    {
+     "word": "questions",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l2"
+    },
+    {
+     "word": "trust",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l4"
+    },
+    {
+     "word": "complete",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l1"
+    },
+    {
+     "word": "career",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l3"
+    },
+    {
+     "word": "changed",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l4"
+    },
+    {
+     "word": "scene",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l3"
+    },
+    {
+     "word": "reach",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l1"
+    },
+    {
+     "word": "reasons",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l3"
+    },
+    {
+     "word": "explain",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l2"
+    },
+    {
+     "word": "helped",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l1"
+    },
+    {
+     "word": "finding",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l2"
+    },
+    {
+     "word": "learned",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l3"
+    },
+    {
+     "word": "slow",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l4"
+    },
+    {
+     "word": "missed",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l3"
+    },
+    {
+     "word": "target",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l1"
+    },
+    {
+     "word": "follows",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "method",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l4"
+    },
+    {
+     "word": "strength",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l1"
+    },
+    {
+     "word": "handle",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "customers",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l2"
+    },
+    {
+     "word": "proud",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l2"
+    },
+    {
+     "word": "skills",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l1"
+    },
+    {
+     "word": "fix",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "offers",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "honest",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l2"
+    },
+    {
+     "word": "steps",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l4"
+    },
+    {
+     "word": "links",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l3"
+    },
+    {
+     "word": "sets",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l3"
+    },
+    {
+     "word": "examples",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l1"
+    },
+    {
+     "word": "achieve",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l4"
+    },
+    {
+     "word": "staying",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l4"
+    },
+    {
+     "word": "calm",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "improvement",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l2"
+    },
+    {
+     "word": "explains",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l2"
+    },
+    {
+     "word": "handling",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l4"
+    },
+    {
+     "word": "complaint",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "feedback",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l4"
+    },
+    {
+     "word": "stays",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "weakness",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l2"
+    },
+    {
+     "word": "realistic",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l4"
+    },
+    {
+     "word": "promoted",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l2"
+    },
+    {
+     "word": "motivated",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u3-l4"
+    },
+    {
+     "word": "sentences",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u1-l1"
+    },
+    {
+     "word": "unhappy",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b1-u2-l3"
+    },
+    {
+     "word": "strengths",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-b1-u4-l1"
+    }
+   ],
+   "phrases": [
+    "Skills first",
+    "Studies or experience",
+    "Complete sentences",
+    "Says the product",
+    "Says how",
+    "Says the result",
+    "First reason",
+    "Second reason",
+    "Links the reasons",
+    "States goals",
+    "Gives steps",
+    "Sounds realistic",
+    "Names the target",
+    "Names the steps",
+    "Gives a result",
+    "Gives the number",
+    "Explains it",
+    "Links to the job",
+    "Says it honestly",
+    "Says what you did",
+    "Says what you learned",
+    "Gives a method",
+    "Gives an example",
+    "Sounds positive",
+    "First strength",
+    "Second strength",
+    "Examples",
+    "Honest",
+    "Action",
+    "Improvement",
+    "Sets the scene",
+    "Your role",
+    "The result",
+    "Names the feedback",
+    "Says what you changed",
+    "Asks questions",
+    "Listens",
+    "Stays calm",
+    "Offers a fix",
+    "Follows up",
+    "Names a point",
+    "Links to sales"
+   ]
+  },
+  "B2": {
+   "words": [
+    {
+     "word": "good",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l4"
+    },
+    {
+     "word": "too",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l4"
+    },
+    {
+     "word": "own",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l2"
+    },
+    {
+     "word": "show",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l2"
+    },
+    {
+     "word": "set",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l2"
+    },
+    {
+     "word": "four",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l1"
+    },
+    {
+     "word": "call",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l3"
+    },
+    {
+     "word": "later",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l3"
+    },
+    {
+     "word": "line",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l3"
+    },
+    {
+     "word": "run",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l3"
+    },
+    {
+     "word": "open",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l3"
+    },
+    {
+     "word": "thanks",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l4"
+    },
+    {
+     "word": "pay",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l1"
+    },
+    {
+     "word": "lost",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l1"
+    },
+    {
+     "word": "win",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l4"
+    },
+    {
+     "word": "close",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l1"
+    },
+    {
+     "word": "deal",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l1"
+    },
+    {
+     "word": "final",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l4"
+    },
+    {
+     "word": "clear",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l2"
+    },
+    {
+     "word": "won",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l4"
+    },
+    {
+     "word": "star",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l2"
+    },
+    {
+     "word": "needed",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l2"
+    },
+    {
+     "word": "value",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l3"
+    },
+    {
+     "word": "evidence",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l1"
+    },
+    {
+     "word": "follow",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l2"
+    },
+    {
+     "word": "range",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l1"
+    },
+    {
+     "word": "style",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l2"
+    },
+    {
+     "word": "situation",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l2"
+    },
+    {
+     "word": "difficult",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l2"
+    },
+    {
+     "word": "parts",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l1"
+    },
+    {
+     "word": "pressure",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l3"
+    },
+    {
+     "word": "link",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l4"
+    },
+    {
+     "word": "extra",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l2"
+    },
+    {
+     "word": "claim",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l1"
+    },
+    {
+     "word": "protect",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l3"
+    },
+    {
+     "word": "commission",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l1"
+    },
+    {
+     "word": "finish",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l3"
+    },
+    {
+     "word": "application",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l1"
+    },
+    {
+     "word": "solution",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l3"
+    },
+    {
+     "word": "actions",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l4"
+    },
+    {
+     "word": "selling",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l2"
+    },
+    {
+     "word": "option",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l4"
+    },
+    {
+     "word": "responsibility",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l2"
+    },
+    {
+     "word": "expensive",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l4"
+    },
+    {
+     "word": "discuss",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l1"
+    },
+    {
+     "word": "confidence",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l4"
+    },
+    {
+     "word": "task",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l2"
+    },
+    {
+     "word": "holds",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l3"
+    },
+    {
+     "word": "respond",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l4"
+    },
+    {
+     "word": "discovery",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l3"
+    },
+    {
+     "word": "hire",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l1"
+    },
+    {
+     "word": "connect",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u1-l1"
+    },
+    {
+     "word": "salary",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l1"
+    },
+    {
+     "word": "targets",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l2"
+    },
+    {
+     "word": "handled",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l2"
+    },
+    {
+     "word": "measured",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l2"
+    },
+    {
+     "word": "applies",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l1"
+    },
+    {
+     "word": "owns",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l1"
+    },
+    {
+     "word": "flexible",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l1"
+    },
+    {
+     "word": "polite",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l3"
+    },
+    {
+     "word": "negotiating",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l3"
+    },
+    {
+     "word": "objection",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l4"
+    },
+    {
+     "word": "pushes",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l3"
+    },
+    {
+     "word": "acknowledges",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l4"
+    },
+    {
+     "word": "escalate",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l2"
+    },
+    {
+     "word": "reasoned",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-b2-u3-l1"
+    },
+    {
+     "word": "incl",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-b2-u4-l2"
+    },
+    {
+     "word": "summarises",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-b2-u2-l3"
+    }
+   ],
+   "phrases": [
+    "Answer first",
+    "One relevant story",
+    "Connect to the job",
+    "Short situation",
+    "Clear responsibility",
+    "No extra details",
+    "What YOU did",
+    "A clear result",
+    "Past tense",
+    "Sets the scene",
+    "Your actions",
+    "Owns it",
+    "What changed",
+    "Positive close",
+    "Stay calm",
+    "Reason",
+    "Steps incl. escalate if needed",
+    "Holds the line",
+    "Offers value",
+    "Stays polite",
+    "Short close",
+    "Thanks",
+    "Link to the role",
+    "Four parts",
+    "Evidence",
+    "Application",
+    "Names the style",
+    "Gives an example",
+    "Links to the job",
+    "Asks open questions",
+    "Listens",
+    "Summarises",
+    "Acknowledges",
+    "Explains value",
+    "Offers an option",
+    "Reasoned range",
+    "Flexible",
+    "Polite",
+    "Relevant",
+    "Listens to the answer",
+    "Follow up",
+    "Offers a solution"
+   ]
+  },
+  "C1": {
+   "words": [
+    {
+     "word": "new",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l1"
+    },
+    {
+     "word": "being",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "still",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "against",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l4"
+    },
+    {
+     "word": "person",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l1"
+    },
+    {
+     "word": "whole",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l1"
+    },
+    {
+     "word": "wrong",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l3"
+    },
+    {
+     "word": "minutes",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l1"
+    },
+    {
+     "word": "plan",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l3"
+    },
+    {
+     "word": "points",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l4"
+    },
+    {
+     "word": "results",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "account",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l1"
+    },
+    {
+     "word": "position",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l4"
+    },
+    {
+     "word": "present",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l3"
+    },
+    {
+     "word": "meeting",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l1"
+    },
+    {
+     "word": "trade",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l2"
+    },
+    {
+     "word": "decision",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "growth",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "eye",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l1"
+    },
+    {
+     "word": "focus",
+     "tier": 1,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "winning",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l1"
+    },
+    {
+     "word": "coach",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l1"
+    },
+    {
+     "word": "approach",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l1"
+    },
+    {
+     "word": "address",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l1"
+    },
+    {
+     "word": "structure",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l1"
+    },
+    {
+     "word": "decide",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l2"
+    },
+    {
+     "word": "facts",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "keeps",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l2"
+    },
+    {
+     "word": "measures",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l3"
+    },
+    {
+     "word": "leads",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l2"
+    },
+    {
+     "word": "properly",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "delivery",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l4"
+    },
+    {
+     "word": "excuse",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "deliver",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "panel",
+     "tier": 2,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l1"
+    },
+    {
+     "word": "philosophy",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l4"
+    },
+    {
+     "word": "chase",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l2"
+    },
+    {
+     "word": "stages",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l3"
+    },
+    {
+     "word": "principles",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l4"
+    },
+    {
+     "word": "phrase",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l2"
+    },
+    {
+     "word": "coaching",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l1"
+    },
+    {
+     "word": "unexpected",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u3-l2"
+    },
+    {
+     "word": "cheaper",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l4"
+    },
+    {
+     "word": "competing",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l4"
+    },
+    {
+     "word": "criteria",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l2"
+    },
+    {
+     "word": "challenged",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "disagree",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "forecast",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l3"
+    },
+    {
+     "word": "raises",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "questioned",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "qualifying",
+     "tier": 3,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l2"
+    },
+    {
+     "word": "honesty",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l3"
+    },
+    {
+     "word": "respects",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "weaker",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l1"
+    },
+    {
+     "word": "delivers",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "teammate",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l1"
+    },
+    {
+     "word": "competitor",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l4"
+    },
+    {
+     "word": "offs",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l2"
+    },
+    {
+     "word": "calmly",
+     "tier": 4,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l4"
+    },
+    {
+     "word": "forecasting",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l3"
+    },
+    {
+     "word": "concise",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-c1-u1-l1"
+    },
+    {
+     "word": "nuance",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l2"
+    },
+    {
+     "word": "pushy",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l2"
+    },
+    {
+     "word": "disagreeing",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l3"
+    },
+    {
+     "word": "salesperson",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l1"
+    },
+    {
+     "word": "oversell",
+     "tier": 5,
+     "firstLessonId": "interviews-sales-interview-c1-u2-l2"
+    }
+   ],
+   "phrases": [
+    "Clear structure",
+    "Evidence",
+    "Concise",
+    "Criteria",
+    "Trade-offs",
+    "Example",
+    "Method",
+    "Honesty",
+    "Action",
+    "Clear position",
+    "Value points",
+    "Eye on all",
+    "Names",
+    "Clear",
+    "Phrase",
+    "Structure",
+    "Three stages",
+    "Measures",
+    "Realistic",
+    "Clear principles",
+    "Calm delivery",
+    "Approach",
+    "Result",
+    "Nuance",
+    "Keeps trust",
+    "Raises it properly",
+    "Respects the decision",
+    "Delivers",
+    "No excuse",
+    "Facts",
+    "Focus on growth"
    ]
   }
  },
@@ -8111,9 +10680,84 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
   "B2": {
    "words": [
     {
+     "word": "was",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u3-l1"
+    },
+    {
+     "word": "like",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l2"
+    },
+    {
+     "word": "know",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l1"
+    },
+    {
+     "word": "off",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l3"
+    },
+    {
+     "word": "made",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u4-l4"
+    },
+    {
+     "word": "use",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l4"
+    },
+    {
+     "word": "state",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u3-l4"
+    },
+    {
      "word": "better",
      "tier": 1,
      "firstLessonId": "travel-b2-u1-l2"
+    },
+    {
+     "word": "find",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u1-l1"
+    },
+    {
+     "word": "thing",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l2"
+    },
+    {
+     "word": "give",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u1-l2"
+    },
+    {
+     "word": "without",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u4-l1"
+    },
+    {
+     "word": "end",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l3"
+    },
+    {
+     "word": "days",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l3"
+    },
+    {
+     "word": "company",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u3-l2"
+    },
+    {
+     "word": "set",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l3"
     },
     {
      "word": "group",
@@ -8126,6 +10770,26 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u1-l2"
     },
     {
+     "word": "once",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u4-l4"
+    },
+    {
+     "word": "including",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l1"
+    },
+    {
+     "word": "job",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l3"
+    },
+    {
+     "word": "went",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l3"
+    },
+    {
      "word": "country",
      "tier": 1,
      "firstLessonId": "travel-b2-u4-l2"
@@ -8136,14 +10800,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u3-l2"
     },
     {
+     "word": "five",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u3-l4"
+    },
+    {
      "word": "story",
      "tier": 1,
      "firstLessonId": "travel-b2-u2-l3"
     },
     {
+     "word": "least",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l4"
+    },
+    {
      "word": "talk",
      "tier": 1,
-     "firstLessonId": "travel-b2-u5-l3"
+     "firstLessonId": "travel-b2-u4-l3"
     },
     {
      "word": "hours",
@@ -8151,9 +10825,44 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u5-l3"
     },
     {
+     "word": "understand",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l3"
+    },
+    {
+     "word": "months",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l1"
+    },
+    {
+     "word": "stay",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l1"
+    },
+    {
      "word": "deal",
      "tier": 1,
      "firstLessonId": "travel-b2-u1-l2"
+    },
+    {
+     "word": "behind",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u4-l2"
+    },
+    {
+     "word": "six",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l1"
+    },
+    {
+     "word": "final",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u1-l2"
+    },
+    {
+     "word": "bring",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l1"
     },
     {
      "word": "words",
@@ -8161,14 +10870,49 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u2-l3"
     },
     {
+     "word": "points",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l4"
+    },
+    {
      "word": "shows",
      "tier": 1,
      "firstLessonId": "travel-b2-u4-l3"
     },
     {
+     "word": "date",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u1-l4"
+    },
+    {
+     "word": "similar",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u4-l2"
+    },
+    {
      "word": "view",
      "tier": 1,
      "firstLessonId": "travel-b2-u5-l4"
+    },
+    {
+     "word": "higher",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u1-l2"
+    },
+    {
+     "word": "result",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u3-l2"
+    },
+    {
+     "word": "takes",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l1"
+    },
+    {
+     "word": "learn",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u4-l1"
     },
     {
      "word": "policy",
@@ -8191,6 +10935,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u1-l1"
     },
     {
+     "word": "felt",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l1"
+    },
+    {
      "word": "step",
      "tier": 1,
      "firstLessonId": "travel-b2-u3-l4"
@@ -8211,9 +10960,39 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u1-l1"
     },
     {
+     "word": "poor",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u3-l1"
+    },
+    {
+     "word": "turned",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l3"
+    },
+    {
+     "word": "sign",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u1-l1"
+    },
+    {
+     "word": "changed",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l2"
+    },
+    {
+     "word": "note",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u5-l1"
+    },
+    {
      "word": "culture",
      "tier": 1,
      "firstLessonId": "travel-b2-u4-l2"
+    },
+    {
+     "word": "specific",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u3-l1"
     },
     {
      "word": "charge",
@@ -8221,9 +11000,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u3-l2"
     },
     {
+     "word": "eight",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u1-l3"
+    },
+    {
+     "word": "difference",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u4-l1"
+    },
+    {
+     "word": "expect",
+     "tier": 1,
+     "firstLessonId": "travel-b2-u2-l1"
+    },
+    {
      "word": "conditions",
      "tier": 2,
      "firstLessonId": "travel-b2-u1-l1"
+    },
+    {
+     "word": "extra",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u3-l2"
     },
     {
      "word": "numbers",
@@ -8241,6 +11040,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u2-l3"
     },
     {
+     "word": "happens",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u4-l3"
+    },
+    {
      "word": "contract",
      "tier": 2,
      "firstLessonId": "travel-b2-u3-l2"
@@ -8251,9 +11055,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u2-l1"
     },
     {
+     "word": "rule",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u1-l1"
+    },
+    {
      "word": "reasons",
      "tier": 2,
-     "firstLessonId": "travel-b2-u2-l2"
+     "firstLessonId": "travel-b2-u5-l4"
     },
     {
      "word": "choose",
@@ -8261,14 +11070,44 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u2-l4"
     },
     {
+     "word": "finish",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u1-l2"
+    },
+    {
+     "word": "notice",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u2-l1"
+    },
+    {
+     "word": "learned",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u2-l3"
+    },
+    {
+     "word": "cities",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u2-l4"
+    },
+    {
+     "word": "budget",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u5-l4"
+    },
+    {
      "word": "cultural",
      "tier": 2,
-     "firstLessonId": "travel-b2-u4-l1"
+     "firstLessonId": "travel-b2-u4-l4"
     },
     {
      "word": "ends",
      "tier": 2,
      "firstLessonId": "travel-b2-u2-l3"
+    },
+    {
+     "word": "suggest",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u5-l4"
     },
     {
      "word": "offers",
@@ -8286,6 +11125,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u5-l2"
     },
     {
+     "word": "matters",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u4-l3"
+    },
+    {
+     "word": "planned",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u1-l2"
+    },
+    {
      "word": "sets",
      "tier": 2,
      "firstLessonId": "travel-b2-u2-l3"
@@ -8296,9 +11145,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u4-l4"
     },
     {
-     "word": "discuss",
+     "word": "route",
      "tier": 2,
-     "firstLessonId": "travel-b2-u4-l1"
+     "firstLessonId": "travel-b2-u5-l4"
+    },
+    {
+     "word": "holiday",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u2-l4"
+    },
+    {
+     "word": "affected",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u3-l1"
+    },
+    {
+     "word": "documents",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u5-l1"
     },
     {
      "word": "requirements",
@@ -8306,7 +11170,17 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u5-l1"
     },
     {
+     "word": "charged",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u3-l2"
+    },
+    {
      "word": "recommend",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u2-l2"
+    },
+    {
+     "word": "careful",
      "tier": 2,
      "firstLessonId": "travel-b2-u2-l2"
     },
@@ -8316,9 +11190,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u5-l2"
     },
     {
+     "word": "understood",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u1-l1"
+    },
+    {
+     "word": "prefer",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u2-l4"
+    },
+    {
      "word": "describe",
      "tier": 2,
-     "firstLessonId": "travel-b2-u2-l1"
+     "firstLessonId": "travel-b2-u4-l1"
+    },
+    {
+     "word": "bills",
+     "tier": 2,
+     "firstLessonId": "travel-b2-u5-l2"
     },
     {
      "word": "differences",
@@ -8339,6 +11228,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "tradition",
      "tier": 2,
      "firstLessonId": "travel-b2-u4-l3"
+    },
+    {
+     "word": "custom",
+     "tier": 3,
+     "firstLessonId": "travel-b2-u4-l1"
+    },
+    {
+     "word": "confirm",
+     "tier": 3,
+     "firstLessonId": "travel-b2-u1-l3"
     },
     {
      "word": "abroad",
@@ -8376,6 +11275,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u2-l2"
     },
     {
+     "word": "deposit",
+     "tier": 3,
+     "firstLessonId": "travel-b2-u5-l2"
+    },
+    {
      "word": "discussing",
      "tier": 3,
      "firstLessonId": "travel-b2-u4-l1"
@@ -8384,11 +11288,6 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "explaining",
      "tier": 3,
      "firstLessonId": "travel-b2-u4-l2"
-    },
-    {
-     "word": "cancel",
-     "tier": 3,
-     "firstLessonId": "travel-b2-u1-l4"
     },
     {
      "word": "seeks",
@@ -8401,24 +11300,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u5-l1"
     },
     {
+     "word": "arrives",
+     "tier": 3,
+     "firstLessonId": "travel-b2-u1-l4"
+    },
+    {
      "word": "rental",
      "tier": 3,
      "firstLessonId": "travel-b2-u3-l2"
     },
     {
-     "word": "traditions",
+     "word": "viewing",
      "tier": 3,
-     "firstLessonId": "travel-b2-u4-l3"
+     "firstLessonId": "travel-b2-u5-l2"
     },
     {
-     "word": "formally",
+     "word": "judging",
      "tier": 3,
-     "firstLessonId": "travel-b2-u3-l1"
+     "firstLessonId": "travel-b2-u4-l1"
     },
     {
-     "word": "negotiate",
-     "tier": 4,
-     "firstLessonId": "travel-b2-u1-l2"
+     "word": "visitor",
+     "tier": 3,
+     "firstLessonId": "travel-b2-u4-l2"
     },
     {
      "word": "delays",
@@ -8429,6 +11333,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "linking",
      "tier": 4,
      "firstLessonId": "travel-b2-u2-l3"
+    },
+    {
+     "word": "theirs",
+     "tier": 4,
+     "firstLessonId": "travel-b2-u4-l3"
+    },
+    {
+     "word": "surprises",
+     "tier": 4,
+     "firstLessonId": "travel-b2-u4-l1"
     },
     {
      "word": "destinations",
@@ -8446,9 +11360,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-b2-u1-l2"
     },
     {
+     "word": "cancellation",
+     "tier": 4,
+     "firstLessonId": "travel-b2-u1-l1"
+    },
+    {
      "word": "respectful",
      "tier": 4,
      "firstLessonId": "travel-b2-u4-l1"
+    },
+    {
+     "word": "apologise",
+     "tier": 4,
+     "firstLessonId": "travel-b2-u4-l4"
+    },
+    {
+     "word": "cooks",
+     "tier": 4,
+     "firstLessonId": "travel-b2-u4-l3"
     },
     {
      "word": "downside",
@@ -8525,7 +11454,22 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u2-l2"
     },
     {
+     "word": "other",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u3-l1"
+    },
+    {
+     "word": "think",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l2"
+    },
+    {
      "word": "well",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l3"
+    },
+    {
+     "word": "take",
      "tier": 1,
      "firstLessonId": "travel-c1-u2-l3"
     },
@@ -8535,19 +11479,39 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u5-l2"
     },
     {
+     "word": "every",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l3"
+    },
+    {
      "word": "another",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u1-l4"
+    },
+    {
+     "word": "each",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l1"
+    },
+    {
+     "word": "must",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l3"
+    },
+    {
+     "word": "feel",
      "tier": 1,
      "firstLessonId": "travel-c1-u4-l3"
     },
     {
-     "word": "give",
+     "word": "keep",
      "tier": 1,
-     "firstLessonId": "travel-c1-u5-l4"
+     "firstLessonId": "travel-c1-u2-l4"
     },
     {
-     "word": "company",
+     "word": "city",
      "tier": 1,
-     "firstLessonId": "travel-c1-u1-l3"
+     "firstLessonId": "travel-c1-u3-l2"
     },
     {
      "word": "business",
@@ -8555,9 +11519,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u3-l1"
     },
     {
+     "word": "person",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l1"
+    },
+    {
+     "word": "point",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l1"
+    },
+    {
      "word": "hard",
      "tier": 1,
      "firstLessonId": "travel-c1-u5-l3"
+    },
+    {
+     "word": "support",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l3"
     },
     {
      "word": "small",
@@ -8565,9 +11544,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u5-l1"
     },
     {
+     "word": "side",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u3-l1"
+    },
+    {
+     "word": "line",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l4"
+    },
+    {
+     "word": "open",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l3"
+    },
+    {
      "word": "everyone",
      "tier": 1,
      "firstLessonId": "travel-c1-u5-l1"
+    },
+    {
+     "word": "makes",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l4"
     },
     {
      "word": "history",
@@ -8580,9 +11579,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u1-l4"
     },
     {
-     "word": "short",
+     "word": "close",
      "tier": 1,
      "firstLessonId": "travel-c1-u2-l3"
+    },
+    {
+     "word": "police",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u4-l2"
+    },
+    {
+     "word": "short",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l4"
     },
     {
      "word": "yourself",
@@ -8592,7 +11601,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "clear",
      "tier": 1,
-     "firstLessonId": "travel-c1-u4-l2"
+     "firstLessonId": "travel-c1-u1-l3"
     },
     {
      "word": "gets",
@@ -8600,14 +11609,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u5-l3"
     },
     {
+     "word": "cost",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l3"
+    },
+    {
+     "word": "moment",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l4"
+    },
+    {
+     "word": "hear",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l1"
+    },
+    {
      "word": "issue",
      "tier": 1,
      "firstLessonId": "travel-c1-u5-l2"
-    },
-    {
-     "word": "points",
-     "tier": 1,
-     "firstLessonId": "travel-c1-u3-l1"
     },
     {
      "word": "lead",
@@ -8625,6 +11644,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u1-l2"
     },
     {
+     "word": "wish",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l1"
+    },
+    {
+     "word": "worked",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u5-l4"
+    },
+    {
      "word": "meeting",
      "tier": 1,
      "firstLessonId": "travel-c1-u3-l1"
@@ -8640,9 +11669,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u5-l3"
     },
     {
-     "word": "changed",
+     "word": "choice",
      "tier": 1,
-     "firstLessonId": "travel-c1-u2-l2"
+     "firstLessonId": "travel-c1-u3-l2"
+    },
+    {
+     "word": "listen",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u2-l1"
     },
     {
      "word": "deep",
@@ -8650,9 +11684,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u2-l1"
     },
     {
-     "word": "respect",
+     "word": "build",
      "tier": 1,
-     "firstLessonId": "travel-c1-u2-l1"
+     "firstLessonId": "travel-c1-u2-l4"
+    },
+    {
+     "word": "officer",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u4-l2"
+    },
+    {
+     "word": "response",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u1-l3"
     },
     {
      "word": "funny",
@@ -8665,8 +11709,33 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u3-l4"
     },
     {
+     "word": "required",
+     "tier": 1,
+     "firstLessonId": "travel-c1-u4-l4"
+    },
+    {
      "word": "leading",
      "tier": 1,
+     "firstLessonId": "travel-c1-u5-l1"
+    },
+    {
+     "word": "drop",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u5-l3"
+    },
+    {
+     "word": "welcome",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u3-l2"
+    },
+    {
+     "word": "minute",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u2-l3"
+    },
+    {
+     "word": "includes",
+     "tier": 2,
      "firstLessonId": "travel-c1-u5-l1"
     },
     {
@@ -8675,9 +11744,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u1-l2"
     },
     {
+     "word": "reach",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u5-l3"
+    },
+    {
      "word": "impact",
      "tier": 2,
      "firstLessonId": "travel-c1-u1-l3"
+    },
+    {
+     "word": "touch",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u3-l4"
     },
     {
      "word": "crime",
@@ -8685,9 +11764,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u4-l2"
     },
     {
+     "word": "caused",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u2-l2"
+    },
+    {
+     "word": "purpose",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u3-l1"
+    },
+    {
      "word": "complex",
      "tier": 2,
      "firstLessonId": "travel-c1-u4-l4"
+    },
+    {
+     "word": "accept",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u5-l3"
     },
     {
      "word": "speech",
@@ -8710,11 +11804,6 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u3-l1"
     },
     {
-     "word": "decide",
-     "tier": 2,
-     "firstLessonId": "travel-c1-u5-l3"
-    },
-    {
      "word": "helping",
      "tier": 2,
      "firstLessonId": "travel-c1-u4-l3"
@@ -8725,12 +11814,37 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u3-l2"
     },
     {
+     "word": "request",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u1-l4"
+    },
+    {
+     "word": "description",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u4-l2"
+    },
+    {
      "word": "honest",
      "tier": 2,
      "firstLessonId": "travel-c1-u5-l4"
     },
     {
+     "word": "sides",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u5-l2"
+    },
+    {
      "word": "accident",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u1-l2"
+    },
+    {
+     "word": "warm",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u3-l3"
+    },
+    {
+     "word": "proof",
      "tier": 2,
      "firstLessonId": "travel-c1-u1-l2"
     },
@@ -8745,14 +11859,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u3-l3"
     },
     {
-     "word": "confidence",
-     "tier": 2,
-     "firstLessonId": "travel-c1-u3-l4"
-    },
-    {
      "word": "conflict",
      "tier": 2,
      "firstLessonId": "travel-c1-u5-l2"
+    },
+    {
+     "word": "smile",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u2-l4"
     },
     {
      "word": "finds",
@@ -8763,6 +11877,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "talks",
      "tier": 2,
      "firstLessonId": "travel-c1-u2-l1"
+    },
+    {
+     "word": "upset",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u4-l3"
     },
     {
      "word": "dealing",
@@ -8780,14 +11899,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u5-l4"
     },
     {
+     "word": "sentence",
+     "tier": 2,
+     "firstLessonId": "travel-c1-u1-l3"
+    },
+    {
      "word": "aim",
      "tier": 2,
      "firstLessonId": "travel-c1-u5-l1"
     },
     {
+     "word": "topic",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u2-l1"
+    },
+    {
      "word": "meetings",
      "tier": 3,
      "firstLessonId": "travel-c1-u3-l1"
+    },
+    {
+     "word": "practical",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u4-l3"
     },
     {
      "word": "structures",
@@ -8800,14 +11934,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u1-l4"
     },
     {
+     "word": "sensitive",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u2-l1"
+    },
+    {
      "word": "opens",
      "tier": 3,
      "firstLessonId": "travel-c1-u2-l3"
     },
     {
+     "word": "amounts",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u1-l1"
+    },
+    {
      "word": "lists",
      "tier": 3,
      "firstLessonId": "travel-c1-u5-l3"
+    },
+    {
+     "word": "introduce",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u3-l4"
     },
     {
      "word": "sequence",
@@ -8825,6 +11974,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u5-l1"
     },
     {
+     "word": "precisely",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u4-l2"
+    },
+    {
+     "word": "acknowledge",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u4-l3"
+    },
+    {
      "word": "decides",
      "tier": 3,
      "firstLessonId": "travel-c1-u5-l3"
@@ -8840,9 +11999,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u4-l4"
     },
     {
-     "word": "visitor",
+     "word": "disagree",
      "tier": 3,
-     "firstLessonId": "travel-c1-u3-l2"
+     "firstLessonId": "travel-c1-u5-l2"
+    },
+    {
+     "word": "kindly",
+     "tier": 3,
+     "firstLessonId": "travel-c1-u5-l4"
     },
     {
      "word": "locals",
@@ -8850,14 +12014,34 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u2-l1"
     },
     {
+     "word": "negotiate",
+     "tier": 4,
+     "firstLessonId": "travel-c1-u1-l4"
+    },
+    {
+     "word": "propose",
+     "tier": 4,
+     "firstLessonId": "travel-c1-u5-l1"
+    },
+    {
      "word": "closes",
      "tier": 4,
      "firstLessonId": "travel-c1-u2-l3"
     },
     {
+     "word": "toast",
+     "tier": 4,
+     "firstLessonId": "travel-c1-u3-l3"
+    },
+    {
      "word": "builds",
      "tier": 4,
      "firstLessonId": "travel-c1-u2-l4"
+    },
+    {
+     "word": "guessing",
+     "tier": 4,
+     "firstLessonId": "travel-c1-u4-l1"
     },
     {
      "word": "networking",
@@ -8890,9 +12074,9 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u2-l1"
     },
     {
-     "word": "warmth",
+     "word": "factual",
      "tier": 4,
-     "firstLessonId": "travel-c1-u3-l2"
+     "firstLessonId": "travel-c1-u1-l1"
     },
     {
      "word": "welcomes",
@@ -8900,19 +12084,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "travel-c1-u3-l2"
     },
     {
-     "word": "traveller",
-     "tier": 5,
-     "firstLessonId": "travel-c1-u4-l3"
+     "word": "listener",
+     "tier": 4,
+     "firstLessonId": "travel-c1-u2-l3"
     },
     {
-     "word": "reassure",
+     "word": "traveller",
      "tier": 5,
      "firstLessonId": "travel-c1-u4-l3"
     },
     {
      "word": "warmly",
      "tier": 5,
-     "firstLessonId": "travel-c1-u3-l3"
+     "firstLessonId": "travel-c1-u3-l2"
     },
     {
      "word": "disputing",
@@ -13499,6 +16683,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
   "B2": {
    "words": [
     {
+     "word": "has",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u5-l3"
+    },
+    {
+     "word": "been",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u5-l3"
+    },
+    {
      "word": "people",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u2-l3"
@@ -13509,14 +16703,54 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u3-l2"
     },
     {
+     "word": "only",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u1-l1"
+    },
+    {
+     "word": "know",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u2-l4"
+    },
+    {
      "word": "way",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u6-l4"
     },
     {
-     "word": "work",
+     "word": "going",
      "tier": 1,
-     "firstLessonId": "work-sales-b2-u3-l1"
+     "firstLessonId": "work-sales-b2-u1-l3"
+    },
+    {
+     "word": "got",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u6-l3"
+    },
+    {
+     "word": "never",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u3-l4"
+    },
+    {
+     "word": "look",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u2-l3"
+    },
+    {
+     "word": "state",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u1-l1"
+    },
+    {
+     "word": "around",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u1-l3"
+    },
+    {
+     "word": "again",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u3-l2"
     },
     {
      "word": "each",
@@ -13526,12 +16760,12 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "keep",
      "tier": 1,
-     "firstLessonId": "work-sales-b2-u5-l3"
+     "firstLessonId": "work-sales-b2-u4-l1"
     },
     {
-     "word": "set",
+     "word": "until",
      "tier": 1,
-     "firstLessonId": "work-sales-b2-u1-l1"
+     "firstLessonId": "work-sales-b2-u1-l2"
     },
     {
      "word": "group",
@@ -13539,9 +16773,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u2-l3"
     },
     {
+     "word": "start",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u5-l2"
+    },
+    {
+     "word": "already",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u3-l4"
+    },
+    {
+     "word": "person",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u1-l3"
+    },
+    {
      "word": "hard",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u3-l2"
+    },
+    {
+     "word": "tell",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u2-l2"
     },
     {
      "word": "run",
@@ -13554,9 +16808,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u2-l2"
     },
     {
-     "word": "within",
+     "word": "least",
      "tier": 1,
-     "firstLessonId": "work-sales-b2-u3-l1"
+     "firstLessonId": "work-sales-b2-u2-l1"
+    },
+    {
+     "word": "video",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u5-l2"
+    },
+    {
+     "word": "talk",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u5-l3"
     },
     {
      "word": "problem",
@@ -13567,6 +16831,31 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "looks",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u2-l3"
+    },
+    {
+     "word": "move",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u4-l3"
+    },
+    {
+     "word": "stay",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u2-l4"
+    },
+    {
+     "word": "minutes",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u1-l1"
+    },
+    {
+     "word": "list",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u4-l4"
+    },
+    {
+     "word": "bring",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u1-l3"
     },
     {
      "word": "current",
@@ -13582,6 +16871,21 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "action",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u2-l2"
+    },
+    {
+     "word": "month",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u6-l3"
+    },
+    {
+     "word": "instead",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u4-l3"
+    },
+    {
+     "word": "wants",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u2-l1"
     },
     {
      "word": "issue",
@@ -13616,7 +16920,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "present",
      "tier": 1,
-     "firstLessonId": "work-sales-b2-u2-l1"
+     "firstLessonId": "work-sales-b2-u5-l2"
     },
     {
      "word": "result",
@@ -13649,9 +16953,9 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u4-l2"
     },
     {
-     "word": "send",
+     "word": "lower",
      "tier": 1,
-     "firstLessonId": "work-sales-b2-u5-l1"
+     "firstLessonId": "work-sales-b2-u3-l1"
     },
     {
      "word": "terms",
@@ -13664,12 +16968,12 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u1-l3"
     },
     {
-     "word": "paper",
+     "word": "choice",
      "tier": 1,
-     "firstLessonId": "work-sales-b2-u4-l4"
+     "firstLessonId": "work-sales-b2-u3-l4"
     },
     {
-     "word": "writing",
+     "word": "paper",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u4-l4"
     },
@@ -13679,9 +16983,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u2-l1"
     },
     {
+     "word": "listen",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u6-l2"
+    },
+    {
      "word": "risk",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u3-l3"
+    },
+    {
+     "word": "ten",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u1-l1"
+    },
+    {
+     "word": "respect",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u3-l4"
+    },
+    {
+     "word": "speak",
+     "tier": 1,
+     "firstLessonId": "work-sales-b2-u3-l2"
     },
     {
      "word": "plans",
@@ -13692,6 +17016,31 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "pressure",
      "tier": 1,
      "firstLessonId": "work-sales-b2-u6-l1"
+    },
+    {
+     "word": "contact",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u1-l3"
+    },
+    {
+     "word": "link",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u2-l1"
+    },
+    {
+     "word": "minute",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u5-l4"
+    },
+    {
+     "word": "costs",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u1-l2"
+    },
+    {
+     "word": "claim",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u2-l4"
     },
     {
      "word": "contract",
@@ -13709,9 +17058,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u1-l2"
     },
     {
+     "word": "protect",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u4-l2"
+    },
+    {
      "word": "telling",
      "tier": 2,
      "firstLessonId": "work-sales-b2-u2-l2"
+    },
+    {
+     "word": "calls",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u6-l2"
     },
     {
      "word": "agreement",
@@ -13724,7 +17083,27 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u3-l3"
     },
     {
+     "word": "accept",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u6-l1"
+    },
+    {
      "word": "finding",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u1-l3"
+    },
+    {
+     "word": "losing",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u2-l3"
+    },
+    {
+     "word": "agreed",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u4-l4"
+    },
+    {
+     "word": "decide",
      "tier": 2,
      "firstLessonId": "work-sales-b2-u1-l3"
     },
@@ -13739,24 +17118,54 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u6-l4"
     },
     {
+     "word": "ends",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u6-l3"
+    },
+    {
+     "word": "existing",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u5-l4"
+    },
+    {
+     "word": "helps",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u6-l4"
+    },
+    {
      "word": "figures",
      "tier": 2,
      "firstLessonId": "work-sales-b2-u2-l1"
     },
     {
-     "word": "reduce",
+     "word": "fixed",
      "tier": 2,
-     "firstLessonId": "work-sales-b2-u3-l3"
+     "firstLessonId": "work-sales-b2-u3-l1"
     },
     {
      "word": "proof",
      "tier": 2,
-     "firstLessonId": "work-sales-b2-u3-l3"
+     "firstLessonId": "work-sales-b2-u2-l2"
     },
     {
      "word": "email",
      "tier": 2,
      "firstLessonId": "work-sales-b2-u5-l1"
+    },
+    {
+     "word": "angry",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u6-l2"
+    },
+    {
+     "word": "discuss",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u6-l3"
+    },
+    {
+     "word": "measure",
+     "tier": 2,
+     "firstLessonId": "work-sales-b2-u2-l2"
     },
     {
      "word": "friendly",
@@ -13794,6 +17203,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u1-l1"
     },
     {
+     "word": "challenges",
+     "tier": 3,
+     "firstLessonId": "work-sales-b2-u2-l4"
+    },
+    {
      "word": "proposal",
      "tier": 3,
      "firstLessonId": "work-sales-b2-u5-l1"
@@ -13804,7 +17218,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u1-l1"
     },
     {
-     "word": "chase",
+     "word": "silent",
      "tier": 3,
      "firstLessonId": "work-sales-b2-u5-l3"
     },
@@ -13812,6 +17226,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "guarantee",
      "tier": 3,
      "firstLessonId": "work-sales-b2-u3-l3"
+    },
+    {
+     "word": "savings",
+     "tier": 3,
+     "firstLessonId": "work-sales-b2-u2-l1"
+    },
+    {
+     "word": "thread",
+     "tier": 3,
+     "firstLessonId": "work-sales-b2-u2-l3"
     },
     {
      "word": "opens",
@@ -13829,6 +17253,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u6-l2"
     },
     {
+     "word": "sum",
+     "tier": 3,
+     "firstLessonId": "work-sales-b2-u1-l4"
+    },
+    {
      "word": "complaint",
      "tier": 3,
      "firstLessonId": "work-sales-b2-u6-l2"
@@ -13837,21 +17266,6 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "walks",
      "tier": 3,
      "firstLessonId": "work-sales-b2-u5-l2"
-    },
-    {
-     "word": "agenda",
-     "tier": 3,
-     "firstLessonId": "work-sales-b2-u1-l1"
-    },
-    {
-     "word": "deeper",
-     "tier": 3,
-     "firstLessonId": "work-sales-b2-u1-l2"
-    },
-    {
-     "word": "attacking",
-     "tier": 3,
-     "firstLessonId": "work-sales-b2-u3-l4"
     },
     {
      "word": "timing",
@@ -13874,9 +17288,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u1-l3"
     },
     {
-     "word": "dig",
+     "word": "correctly",
      "tier": 3,
-     "firstLessonId": "work-sales-b2-u1-l2"
+     "firstLessonId": "work-sales-b2-u1-l4"
+    },
+    {
+     "word": "rival",
+     "tier": 3,
+     "firstLessonId": "work-sales-b2-u3-l4"
+    },
+    {
+     "word": "fears",
+     "tier": 3,
+     "firstLessonId": "work-sales-b2-u3-l3"
     },
     {
      "word": "decides",
@@ -13894,9 +17318,9 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u6-l4"
     },
     {
-     "word": "accurately",
-     "tier": 4,
-     "firstLessonId": "work-sales-b2-u1-l4"
+     "word": "pause",
+     "tier": 3,
+     "firstLessonId": "work-sales-b2-u4-l3"
     },
     {
      "word": "digging",
@@ -13919,6 +17343,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u6-l3"
     },
     {
+     "word": "unclear",
+     "tier": 4,
+     "firstLessonId": "work-sales-b2-u1-l2"
+    },
+    {
      "word": "respects",
      "tier": 4,
      "firstLessonId": "work-sales-b2-u3-l4"
@@ -13927,6 +17356,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "handles",
      "tier": 4,
      "firstLessonId": "work-sales-b2-u2-l3"
+    },
+    {
+     "word": "paperwork",
+     "tier": 4,
+     "firstLessonId": "work-sales-b2-u4-l4"
+    },
+    {
+     "word": "renewal",
+     "tier": 4,
+     "firstLessonId": "work-sales-b2-u6-l3"
     },
     {
      "word": "supplier",
@@ -13944,19 +17383,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u4-l2"
     },
     {
-     "word": "renew",
-     "tier": 4,
-     "firstLessonId": "work-sales-b2-u6-l3"
-    },
-    {
      "word": "confirming",
      "tier": 4,
      "firstLessonId": "work-sales-b2-u4-l4"
     },
     {
-     "word": "calmly",
-     "tier": 4,
-     "firstLessonId": "work-sales-b2-u2-l4"
+     "word": "interrupting",
+     "tier": 5,
+     "firstLessonId": "work-sales-b2-u6-l2"
     },
     {
      "word": "renewing",
@@ -13979,11 +17413,6 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-b2-u4-l3"
     },
     {
-     "word": "summarise",
-     "tier": 5,
-     "firstLessonId": "work-sales-b2-u1-l4"
-    },
-    {
      "word": "summarising",
      "tier": 5,
      "firstLessonId": "work-sales-b2-u1-l4"
@@ -13992,6 +17421,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "upselling",
      "tier": 5,
      "firstLessonId": "work-sales-b2-u6-l1"
+    },
+    {
+     "word": "overclaiming",
+     "tier": 5,
+     "firstLessonId": "work-sales-b2-u2-l1"
     }
    ],
    "phrases": [
@@ -14071,12 +17505,47 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
   "C1": {
    "words": [
     {
+     "word": "was",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u5-l4"
+    },
+    {
+     "word": "had",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u5-l2"
+    },
+    {
+     "word": "make",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u4-l1"
+    },
+    {
      "word": "last",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u2-l4"
     },
     {
+     "word": "while",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u1-l2"
+    },
+    {
+     "word": "show",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u4-l3"
+    },
+    {
      "word": "team",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u5-l1"
+    },
+    {
+     "word": "real",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u5-l2"
+    },
+    {
+     "word": "set",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u5-l1"
     },
@@ -14091,9 +17560,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u5-l2"
     },
     {
-     "word": "read",
+     "word": "bad",
      "tier": 1,
-     "firstLessonId": "work-sales-c1-u2-l3"
+     "firstLessonId": "work-sales-c1-u5-l2"
+    },
+    {
+     "word": "four",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u5-l1"
     },
     {
      "word": "once",
@@ -14111,16 +17585,6 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u3-l1"
     },
     {
-     "word": "kind",
-     "tier": 1,
-     "firstLessonId": "work-sales-c1-u5-l2"
-    },
-    {
-     "word": "several",
-     "tier": 1,
-     "firstLessonId": "work-sales-c1-u2-l1"
-    },
-    {
      "word": "win",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u5-l3"
@@ -14131,12 +17595,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u5-l4"
     },
     {
-     "word": "minutes",
-     "tier": 1,
-     "firstLessonId": "work-sales-c1-u5-l3"
-    },
-    {
-     "word": "act",
+     "word": "although",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u2-l3"
     },
@@ -14149,6 +17608,16 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "easy",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u4-l2"
+    },
+    {
+     "word": "gets",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u4-l3"
+    },
+    {
+     "word": "main",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u3-l2"
     },
     {
      "word": "running",
@@ -14168,7 +17637,7 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
     {
      "word": "share",
      "tier": 1,
-     "firstLessonId": "work-sales-c1-u5-l3"
+     "firstLessonId": "work-sales-c1-u1-l1"
     },
     {
      "word": "hold",
@@ -14176,9 +17645,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u2-l2"
     },
     {
+     "word": "inside",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u2-l2"
+    },
+    {
      "word": "issues",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u2-l1"
+    },
+    {
+     "word": "view",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u1-l1"
     },
     {
      "word": "relationship",
@@ -14191,6 +17670,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u2-l3"
     },
     {
+     "word": "changes",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u1-l1"
+    },
+    {
      "word": "forward",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u3-l3"
@@ -14201,14 +17685,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u1-l2"
     },
     {
+     "word": "ones",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u2-l1"
+    },
+    {
      "word": "build",
      "tier": 1,
      "firstLessonId": "work-sales-c1-u1-l4"
-    },
-    {
-     "word": "respect",
-     "tier": 1,
-     "firstLessonId": "work-sales-c1-u1-l2"
     },
     {
      "word": "specific",
@@ -14216,9 +17700,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u4-l1"
     },
     {
-     "word": "minute",
+     "word": "credit",
+     "tier": 1,
+     "firstLessonId": "work-sales-c1-u5-l3"
+    },
+    {
+     "word": "numbers",
      "tier": 2,
-     "firstLessonId": "work-sales-c1-u3-l1"
+     "firstLessonId": "work-sales-c1-u1-l4"
+    },
+    {
+     "word": "sounds",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u2-l3"
     },
     {
      "word": "goals",
@@ -14236,6 +17730,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u2-l1"
     },
     {
+     "word": "notice",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u2-l3"
+    },
+    {
      "word": "holding",
      "tier": 2,
      "firstLessonId": "work-sales-c1-u2-l2"
@@ -14249,6 +17748,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "executive",
      "tier": 2,
      "firstLessonId": "work-sales-c1-u3-l1"
+    },
+    {
+     "word": "keeping",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u1-l2"
     },
     {
      "word": "starts",
@@ -14271,7 +17775,22 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u5-l2"
     },
     {
+     "word": "reaction",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u1-l1"
+    },
+    {
      "word": "facts",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u3-l3"
+    },
+    {
+     "word": "quarter",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u5-l4"
+    },
+    {
+     "word": "attacks",
      "tier": 2,
      "firstLessonId": "work-sales-c1-u3-l3"
     },
@@ -14286,9 +17805,19 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u1-l2"
     },
     {
+     "word": "mistake",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u4-l1"
+    },
+    {
      "word": "sharing",
      "tier": 2,
      "firstLessonId": "work-sales-c1-u5-l3"
+    },
+    {
+     "word": "owners",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u5-l1"
     },
     {
      "word": "quiet",
@@ -14296,9 +17825,24 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u1-l3"
     },
     {
+     "word": "champion",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u4-l2"
+    },
+    {
      "word": "signal",
      "tier": 2,
      "firstLessonId": "work-sales-c1-u2-l3"
+    },
+    {
+     "word": "brings",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u2-l1"
+    },
+    {
+     "word": "holds",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u1-l2"
     },
     {
      "word": "shares",
@@ -14311,9 +17855,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u3-l3"
     },
     {
-     "word": "introduction",
+     "word": "sees",
      "tier": 2,
-     "firstLessonId": "work-sales-c1-u4-l2"
+     "firstLessonId": "work-sales-c1-u1-l1"
+    },
+    {
+     "word": "covers",
+     "tier": 2,
+     "firstLessonId": "work-sales-c1-u2-l1"
     },
     {
      "word": "lesson",
@@ -14324,6 +17873,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "argue",
      "tier": 3,
      "firstLessonId": "work-sales-c1-u3-l3"
+    },
+    {
+     "word": "belief",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u1-l2"
     },
     {
      "word": "closing",
@@ -14346,9 +17900,39 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u3-l1"
     },
     {
+     "word": "solve",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u2-l4"
+    },
+    {
+     "word": "demands",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u2-l1"
+    },
+    {
+     "word": "signing",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u2-l4"
+    },
+    {
      "word": "damaged",
      "tier": 3,
      "firstLessonId": "work-sales-c1-u4-l1"
+    },
+    {
+     "word": "reflect",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u1-l3"
+    },
+    {
+     "word": "introduce",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u4-l2"
+    },
+    {
+     "word": "defending",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u4-l4"
     },
     {
      "word": "signals",
@@ -14391,6 +17975,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u4-l2"
     },
     {
+     "word": "hates",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u4-l3"
+    },
+    {
      "word": "reflects",
      "tier": 3,
      "firstLessonId": "work-sales-c1-u1-l3"
@@ -14399,6 +17988,11 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "word": "hostile",
      "tier": 3,
      "firstLessonId": "work-sales-c1-u3-l3"
+    },
+    {
+     "word": "rises",
+     "tier": 3,
+     "firstLessonId": "work-sales-c1-u4-l3"
     },
     {
      "word": "trades",
@@ -14411,9 +18005,34 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u5-l2"
     },
     {
+     "word": "propose",
+     "tier": 4,
+     "firstLessonId": "work-sales-c1-u2-l1"
+    },
+    {
+     "word": "uncertain",
+     "tier": 4,
+     "firstLessonId": "work-sales-c1-u2-l3"
+    },
+    {
+     "word": "adapt",
+     "tier": 4,
+     "firstLessonId": "work-sales-c1-u2-l3"
+    },
+    {
      "word": "assumptions",
      "tier": 4,
      "firstLessonId": "work-sales-c1-u1-l4"
+    },
+    {
+     "word": "excuses",
+     "tier": 4,
+     "firstLessonId": "work-sales-c1-u5-l4"
+    },
+    {
+     "word": "pressures",
+     "tier": 4,
+     "firstLessonId": "work-sales-c1-u2-l2"
     },
     {
      "word": "notices",
@@ -14421,19 +18040,9 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u2-l3"
     },
     {
-     "word": "rebuild",
-     "tier": 4,
-     "firstLessonId": "work-sales-c1-u4-l1"
-    },
-    {
      "word": "recovering",
      "tier": 4,
      "firstLessonId": "work-sales-c1-u4-l1"
-    },
-    {
-     "word": "smoothly",
-     "tier": 4,
-     "firstLessonId": "work-sales-c1-u3-l2"
     },
     {
      "word": "proposes",
@@ -14441,14 +18050,29 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u2-l1"
     },
     {
-     "word": "offending",
+     "word": "narrowly",
+     "tier": 4,
+     "firstLessonId": "work-sales-c1-u1-l1"
+    },
+    {
+     "word": "calmly",
+     "tier": 4,
+     "firstLessonId": "work-sales-c1-u2-l2"
+    },
+    {
+     "word": "soften",
      "tier": 5,
-     "firstLessonId": "work-sales-c1-u1-l2"
+     "firstLessonId": "work-sales-c1-u4-l3"
     },
     {
      "word": "solves",
      "tier": 5,
      "firstLessonId": "work-sales-c1-u2-l4"
+    },
+    {
+     "word": "cfo",
+     "tier": 5,
+     "firstLessonId": "work-sales-c1-u1-l4"
     },
     {
      "word": "interruptions",
@@ -14461,9 +18085,14 @@ export const CURRICULUM_VOCABULARY: Record<string, Record<string, LevelVocabular
      "firstLessonId": "work-sales-c1-u2-l3"
     },
     {
-     "word": "reframe",
+     "word": "prioritise",
      "tier": 5,
-     "firstLessonId": "work-sales-c1-u1-l1"
+     "firstLessonId": "work-sales-c1-u2-l1"
+    },
+    {
+     "word": "summarise",
+     "tier": 5,
+     "firstLessonId": "work-sales-c1-u3-l4"
     },
     {
      "word": "reframing",

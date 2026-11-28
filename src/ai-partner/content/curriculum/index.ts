@@ -12,9 +12,10 @@ import { DAILY_LIFE } from './daily-life-everyday';
 import { TRAVEL_CONVERSATIONS } from './travel-conversations';
 import { ACADEMIC_ENGLISH_COURSE } from './academic-english-course';
 import { WORKPLACE_ENGLISH_COURSE } from './workplace-english-course';
+import { INTERVIEWS_SALES_INTERVIEW_ENGLISH } from './interviews-sales-interview-english';
 import type { CurriculumLesson, CurriculumProgramme } from './types';
 
-export const CURRICULUM_PROGRAMMES: CurriculumProgramme[] = [WORK_CUSTOMER_SERVICE, SALES_ENGLISH, INTERVIEW_ENGLISH_CS, DAILY_LIFE, TRAVEL_CONVERSATIONS, ACADEMIC_ENGLISH_COURSE, WORKPLACE_ENGLISH_COURSE];
+export const CURRICULUM_PROGRAMMES: CurriculumProgramme[] = [WORK_CUSTOMER_SERVICE, SALES_ENGLISH, INTERVIEW_ENGLISH_CS, DAILY_LIFE, TRAVEL_CONVERSATIONS, ACADEMIC_ENGLISH_COURSE, WORKPLACE_ENGLISH_COURSE, INTERVIEWS_SALES_INTERVIEW_ENGLISH];
 
 /** Global switch: every user sees every lesson (only for a full launch or a throwaway staging). */
 export function curriculumEnabled(): boolean {

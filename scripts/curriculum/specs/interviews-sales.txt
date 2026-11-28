@@ -1,0 +1,101 @@
+@programme interviews-sales-interview-english | interviews | Sales Interview English | Interview answers for sales jobs, from a first hello to a senior panel: your story, your numbers, your approach to customers. | Information exchange
+@level A1
+## Meeting the interviewer | Greet, say your name and say you want the job.
+Saying hello | s | Ms Hala, a sales manager | Greet the interviewer and say your name. | Says hello; Says name; Smiles in the voice
+Sitting down | s | Ms Hala, a sales manager | Answer "How are you?" and say thank you. | Answers how are you; Says thank you; Speaks slowly
+Your job today | s | Ms Hala, a sales manager | Say you want the sales job. | Says the job; Says want; Uses a full sentence
+Saying goodbye | s | Ms Hala, a sales manager | Thank the interviewer and say goodbye. | Says thank you; Says goodbye; Smiles in the voice
+## About you | Give simple facts about yourself.
+Where you are from | s | Mr Karim, an interviewer | Say your city and country. | Says city; Says country; Uses I am from
+Your languages | s | Mr Karim, an interviewer | Say which languages you speak. | Names languages; Uses I speak; Speaks clearly
+Your studies | s | Mr Karim, an interviewer | Say what you studied. | Says the subject; Uses I studied; Speaks slowly
+Your phone number | a | Mr Karim, an interviewer | Say your phone number slowly. | Says each digit; Pauses; Checks it
+## Selling words | Use the first words of sales.
+Naming products | s | A shop manager | Name three products you can sell. | Names products; Uses a or an; Speaks clearly
+Saying prices | s | A shop manager | Say the price of two products. | Says numbers; Says the currency; Speaks clearly
+Saying the quantity | s | A shop manager | Say how many items a customer wants. | Says numbers; Names the item; Uses want
+Offering help | s | A shop manager | Say Can I help you? to a customer. | Uses the question; Smiles in the voice; Waits
+## Your time | Talk about days and times.
+Days you can work | s | Ms Hala, a sales manager | Say which days you can work. | Names days; Uses can; Speaks clearly
+Start time | s | Ms Hala, a sales manager | Say when you can start. | Says a date; Uses can start; Speaks clearly
+Work hours | s | Ms Hala, a sales manager | Say your preferred hours. | Says times; Uses from and to; Speaks clearly
+Asking about hours | s | Ms Hala, a sales manager | Ask what the working hours are. | Uses the question; Says please; Waits
+@level A2
+## Tell me about yourself | Give a short answer about you and your sales skills.
+A short introduction | s | Mr Karim, an interviewer | Say your name, your studies and why you like sales. | Says name; Says studies; Gives a reason
+Your sales experience | s | Mr Karim, an interviewer | Say where you sold things before. | Names the place; Says how long; Uses past tense
+No experience yet | s | Mr Karim, an interviewer | Say you have no sales experience and what you can do. | Says honestly; Names a skill; Sounds positive
+Your best skill | s | Mr Karim, an interviewer | Say one skill and give a short example. | Names the skill; Gives an example; Uses a full sentence
+## Why sales | Say why you want a sales job.
+Why this job | s | Ms Hala, a sales manager | Say why you want this job. | Gives a reason; Uses because; Speaks clearly
+Why this company | s | Ms Hala, a sales manager | Say one thing you like about the company. | Names the thing; Gives a reason; Speaks clearly
+Liking people | s | Ms Hala, a sales manager | Say you like talking to people and give an example. | Says the point; Gives an example; Speaks clearly
+Your goals | s | Ms Hala, a sales manager | Say what you want to learn in one year. | Names a goal; Uses want to; Speaks clearly
+## A simple sale | Answer simple questions about selling.
+Greeting a customer | s | A customer | Greet a customer and ask how you can help. | Greets; Asks to help; Smiles in the voice
+Describing a product | s | A customer | Describe a product with two details. | Names product; Gives two details; Speaks clearly
+Giving a price | s | A customer | Give a price and say what is included. | Says price; Says included; Checks it
+Closing a small sale | s | A customer | Ask if the customer wants to buy and say thank you. | Asks to buy; Says thank you; Smiles in the voice
+## Questions for you | Ask and answer simple practical questions.
+Your availability | s | Ms Hala, a sales manager | Say when you can start and which days you can work. | Says the date; Names days; Speaks clearly
+Your travel | s | Ms Hala, a sales manager | Say how you get to work and how long it takes. | Says how; Says time; Speaks clearly
+A question for the manager | s | Ms Hala, a sales manager | Ask one question about the job. | Asks politely; Relevant question; Listens
+Closing the interview | s | Ms Hala, a sales manager | Thank the manager and say you hope to hear soon. | Says thank you; Says hope; Smiles in the voice
+@level B1
+## Tell me about yourself | Give a clear one-minute introduction for a sales job.
+Skills and studies | s | Mr Karim, an interviewer | Give your skills and studies in two or three sentences. | Skills first; Studies or experience; Complete sentences
+Your sales story | s | Mr Karim, an interviewer | Describe one thing you sold or promoted. | Says the product; Says how; Says the result
+Why you want to sell | s | Mr Karim, an interviewer | Give two reasons you want a career in sales. | First reason; Second reason; Links the reasons
+Your goals in sales | s | Mr Karim, an interviewer | Say what you want to achieve in three years. | States goals; Gives steps; Sounds realistic
+## Working with customers | Talk about how you work with customers.
+A happy customer | s | Ms Hala, a sales manager | Tell a short story about a customer you helped. | Sets the scene; Says what you did; Says the result
+Finding what customers need | s | Ms Hala, a sales manager | Explain how you find out what a customer needs. | Asks questions; Listens; Gives an example
+Handling a complaint | a | Ms Hala, a sales manager | Say how you handle an unhappy customer. | Stays calm; Offers a fix; Follows up
+Building trust | s | Ms Hala, a sales manager | Say what makes customers trust you. | Names a point; Gives an example; Links to sales
+## Targets and numbers | Talk about goals and results.
+Working to a target | a | Mr Karim, an interviewer | Say how you work to reach a target. | Names the target; Names the steps; Gives a result
+A number you are proud of | s | Mr Karim, an interviewer | Give a number from your work or study and explain it. | Gives the number; Explains it; Links to the job
+A missed target | a | Mr Karim, an interviewer | Describe a time you missed a target and what you did next. | Says it honestly; Says what you did; Says what you learned
+Staying motivated | s | Mr Karim, an interviewer | Say how you stay motivated when sales are slow. | Gives a method; Gives an example; Sounds positive
+## Strengths and weaknesses | Answer the classic questions.
+Two strengths | s | Ms Hala, a sales manager | Give two strengths with a short example each. | First strength; Second strength; Examples
+A weakness | a | Ms Hala, a sales manager | Name a weakness and say how you work on it. | Honest; Action; Improvement
+Working in a team | s | Ms Hala, a sales manager | Describe a time you worked well in a team. | Sets the scene; Your role; The result
+Handling feedback | a | Ms Hala, a sales manager | Describe feedback you received and how you used it. | Names the feedback; Says what you changed; Says the result
+@level B2
+## Answer, story, connect | Answer with a structure that sells you.
+Answer first | s | Mr Karim, an interviewer | Answer the question in the first sentence, tell one short story, and connect it to the job. | Answer first; One relevant story; Connect to the job
+Situation and task | s | Mr Karim, an interviewer | Start a STAR story with a short situation and your own task. | Short situation; Clear responsibility; No extra details
+Action and result | s | Mr Karim, an interviewer | Finish a STAR story with what you did and a result with a number. | What YOU did; A clear result; Past tense
+A sales win | a | Mr Karim, an interviewer | Tell the story of a sale you won and why you won it. | Sets the scene; Your actions; A clear result
+## Selling yourself | Make a convincing case.
+Why should we hire you | a | Ms Hala, a sales manager | Give a full answer with a claim, a reason, evidence and how it applies to this job. | Four parts; Evidence; Application
+Your selling style | s | Ms Hala, a sales manager | Describe your selling style and show it with an example. | Names the style; Gives an example; Links to the job
+Discovery questions | a | Ms Hala, a sales manager | Explain how you run a discovery call with three questions. | Asks open questions; Listens; Summarises
+Handling an objection | a | Ms Hala, a sales manager | Explain how you respond when a customer says it is too expensive. | Acknowledges; Explains value; Offers an option
+## Pay and the offer | Discuss pay and conditions.
+Salary and commission | a | Mr Karim, an interviewer | Discuss pay and commission politely and give a reasoned range. | Reasoned range; Flexible; Polite
+Asking about targets | s | Mr Karim, an interviewer | Ask how targets are set and how they are measured. | Relevant; Listens to the answer; Follow up
+Negotiating the start | a | Mr Karim, an interviewer | Ask for a later start date and give a reason. | Reason; Offers a solution; Polite
+Questions for the interviewer | s | Mr Karim, an interviewer | Ask two good questions about the role. | Relevant; Listens to the answer; Short close
+## Hard questions | Answer difficult questions calmly.
+A lost deal | a | Ms Hala, a sales manager | Describe a deal you lost and what you learned. | Owns it; What changed; Positive close
+A difficult customer | a | Ms Hala, a sales manager | Describe a difficult customer and how you handled them. | Stay calm; Reason; Steps incl. escalate if needed
+Pressure on price | a | Ms Hala, a sales manager | Explain how you protect price when a customer pushes. | Holds the line; Offers value; Stays polite
+Final close | s | Ms Hala, a sales manager | Close the interview with confidence and thanks. | Short close; Thanks; Link to the role
+@level C1
+## Strategy and judgment | Show senior thinking.
+Your sales approach | a | A sales director | Explain your approach to winning a new account in two minutes. | Clear structure; Evidence; Concise
+Qualifying leads | a | A sales director | Explain how you decide which leads to chase. | Criteria; Trade-offs; Example
+Forecasting | a | A sales director | Explain how you forecast and what you do when it is wrong. | Method; Honesty; Action
+Competing on value | a | A sales director | Explain how you win against a cheaper competitor. | Clear position; Value points; Evidence
+## Leadership and ethics | Handle sensitive questions.
+Coaching a teammate | a | A sales director | Describe how you coach a weaker salesperson. | Approach; Example; Result
+A pushy target | a | A sales director | Say what you do when a target pushes you to oversell. | Clear position; Nuance; Keeps trust
+Disagreeing with a manager | a | A sales director | Explain how you disagree with a decision and still deliver. | Raises it properly; Respects the decision; Delivers
+Being challenged | a | A sales director | Respond calmly when your results are questioned. | No excuse; Facts; Focus on growth
+## Panel and presence | Perform at a senior interview.
+Meeting a panel | a | A panel of three | Address the whole panel and each person by name. | Eye on all; Names; Clear
+An unexpected question | a | A panel of three | Buy time and answer an unexpected question with structure. | Phrase; Structure; Concise
+Your first 90 days | a | A panel of three | Present a plan for your first 90 days with measures. | Three stages; Measures; Realistic
+Your sales philosophy | a | A panel of three | Say your sales philosophy in two minutes. | Clear principles; Calm delivery; Example
