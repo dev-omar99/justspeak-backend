@@ -4,3 +4,245 @@ Says nice to meet you | Full: says "Nice to meet you." Partial: says only "Hello
 Uses a light joke | Full: makes a short, friendly joke that fits the topic. Partial: tries but it is unclear or forced. None: no humour.
 Reads her reaction | Full: notices how the friend reacts and responds, like "Sorry, too much?" or follows with more. Partial: ignores one clear reaction. None: keeps going regardless.
 Stays kind | Full: the joke is never at the friend's expense. Partial: one edgy remark. None: unkind.
+Says hello | Full: says "Hello" or "Hi" clearly. Partial: says it too quietly or only nods. None: no greeting.
+Says goodbye | Full: says "Goodbye" or "Bye" at the end. Partial: leaves with "okay". None: no goodbye.
+Smiles in the voice | Full: sounds warm and friendly. Partial: flat tone. None: sounds cold.
+Says country or city | Full: names a country or a city, for example "Cairo". Partial: unclear name. None: no place.
+Uses "I am from" | Full: says "I am from ..." Partial: says only the place. None: neither.
+Asks back | Full: asks the other person the same question, for example "And you?" Partial: only waits. None: no question.
+Asks how he is | Full: asks "How are you?" Partial: says "you?" only. None: does not ask.
+Answers | Full: answers with "Fine, thanks" or similar. Partial: answers unclear. None: no answer.
+Says thank you | Full: says "Thank you" or "Thanks". Partial: other polite word only. None: none.
+Names two people | Full: names two family members, for example "my mother and my brother". Partial: one. None: none.
+Uses "I have" | Full: says "I have ..." with a family word. Partial: uses "have" wrongly but is understood. None: not used.
+Clear words | Full: words are easy to understand. Partial: one or two hard to hear. None: cannot understand.
+Says an age | Full: says an age, for example "I am twenty-four." Partial: number only. None: none.
+Says a job | Full: says a job, for example "I am a teacher." Partial: unclear job word. None: none.
+Uses short sentences | Full: speaks in short complete sentences. Partial: single words only. None: unclear.
+Says "I like" | Full: says "I like ..." with a thing. Partial: names the thing only. None: none.
+Says "I do not like" | Full: says "I do not like ..." or "I don't like ..." Partial: says "no like". None: none.
+Gives one thing | Full: names one thing they like or dislike. Partial: general word. None: none.
+Gives the name | Full: gives the friend's name. Partial: unclear. None: none.
+Gives one fact | Full: gives one fact, for example a job or a place. Partial: vague. None: none.
+Says why you like him | Full: gives a reason, for example "He is kind." Partial: says only "I like him". None: none.
+Says the hour | Full: says the hour, for example "It is three." Partial: wrong word order but clear. None: none.
+Says o'clock or half | Full: adds "o'clock" or "half past". Partial: hour only. None: none.
+Speaks clearly | Full: numbers are easy to hear. Partial: one unclear. None: unclear.
+Names the day | Full: names a day of the week. Partial: unclear. None: none.
+Says one plan | Full: says what they do that day. Partial: vague. None: none.
+Uses "on" | Full: says "on Monday" or similar. Partial: leaves out "on" but is clear. None: no day phrase.
+Uses "next to" | Full: uses "next to" for a place. Partial: other place word only. None: none.
+Uses "on the left or right" | Full: says "on the left" or "on the right". Partial: says only "left". None: none.
+Short and clear | Full: gives short, clear directions. Partial: long or mixed. None: unclear.
+Uses time words | Full: uses words like "morning" or "at seven". Partial: one. None: none.
+Names two things | Full: names two things they do. Partial: one. None: none.
+Uses simple verbs | Full: uses verbs such as "eat", "go", "work". Partial: few verbs. None: none.
+Asks for the item | Full: asks for the item, for example "A bottle of water, please." Partial: names the item only. None: none.
+Asks the price | Full: asks "How much is it?" Partial: says "price?" only. None: does not ask.
+Orders politely | Full: orders with "please" or "Can I have". Partial: order without politeness. None: no order.
+Says size or type | Full: says a size or type, for example "small" or "iced". Partial: unclear. None: none.
+Names three foods | Full: names three foods. Partial: two. None: one or none.
+Uses "I eat" | Full: says "I eat ..." Partial: says the food only. None: none.
+Understands the number | Full: repeats or reacts to the price correctly. Partial: asks to repeat once. None: wrong.
+Pays and thanks | Full: pays and says thank you. Partial: only one. None: neither.
+Suggests a day | Full: suggests a day, for example "How about Friday?" Partial: unclear. None: none.
+Suggests a time | Full: suggests a time. Partial: vague, for example "late". None: none.
+Agrees | Full: agrees clearly, for example "Sounds good." Partial: unclear reply. None: none.
+Says yes or no | Full: says a clear yes or no. Partial: "maybe" only. None: none.
+Gives a reason | Full: gives a short reason with "because" or "but". Partial: reason unclear. None: none.
+Stays friendly | Full: keeps a warm, polite tone. Partial: tone cool once. None: rude.
+Says sorry | Full: says "Sorry" or "I am sorry". Partial: explains without sorry. None: none.
+Suggests another time | Full: offers another time or day. Partial: asks "when?" only. None: none.
+Uses past or future | Full: uses a past or future form, for example "I played" or "I will go". Partial: present only. None: none.
+Gives one detail | Full: adds one real detail. Partial: general words. None: none.
+Says "I have" | Full: says "I have a headache" or similar. Partial: names the pain only. None: none.
+Says where it hurts | Full: says the body part. Partial: vague. None: none.
+Says how long | Full: says how long, for example "since yesterday". Partial: unclear. None: none.
+Asks for the medicine | Full: asks for medicine for the problem. Partial: only names the problem. None: none.
+Says the problem | Full: says the problem in a few words. Partial: unclear. None: none.
+Understands how to take it | Full: repeats how to take it, for example "Twice a day." Partial: asks again. None: wrong.
+Asks for a time | Full: asks for a time, for example "Do you have Monday at ten?" Partial: names a day only. None: none.
+Says the name | Full: says their name clearly for the booking. Partial: unclear. None: none.
+Repeats the time | Full: says the time back. Partial: "okay" only. None: wrong.
+Says one habit | Full: names one healthy habit. Partial: vague. None: none.
+Uses simple present | Full: uses simple present, for example "I walk every day." Partial: one slip but clear. None: not used.
+Names rooms | Full: names two rooms or more. Partial: one. None: none.
+Uses "there is" | Full: uses "there is" or "there are" correctly. Partial: used wrongly but clear. None: not used.
+Says what is broken | Full: names the broken thing. Partial: vague. None: none.
+Says since when | Full: says since when, for example "since Monday". Partial: unclear. None: none.
+Asks for help | Full: asks for help clearly. Partial: only describes. None: none.
+Offers a fix | Full: offers a solution, for example "I can move it." Partial: only apologises. None: none.
+Says the question | Full: asks the question about the bill clearly. Partial: unclear. None: none.
+Understands the amount | Full: repeats or reacts to the amount correctly. Partial: asks again once. None: wrong.
+Asks how to pay | Full: asks how to pay, for example "Can I pay by card?" Partial: unclear. None: none.
+Greets | Full: greets properly and says who is calling. Partial: only "hello". None: none.
+Says why you call | Full: says the reason in one sentence. Partial: unclear. None: none.
+Says your name | Full: leaves their name clearly. Partial: unclear. None: none.
+Gives the reason | Full: gives the reason for the call. Partial: vague. None: none.
+Says a time to call | Full: says when to call back. Partial: vague. None: none.
+Gives the main point | Full: gives the main point in one or two sentences. Partial: unclear. None: none.
+Closes | Full: ends with thanks or a closing word. Partial: stops. None: none.
+Says "Sorry?" | Full: says "Sorry?" or "Pardon?" when they did not hear. Partial: stays silent. None: pretends to hear.
+Asks to repeat | Full: asks "Can you say that again?" Partial: says "what?". None: none.
+Repeats back | Full: says the main point back. Partial: one word. None: none.
+Orders clearly | Full: orders item and number clearly. Partial: item unclear. None: none.
+Asks one question | Full: asks one useful question about the meal. Partial: question unclear. None: none.
+Thanks him | Full: thanks the person. Partial: very short thanks. None: none.
+Asks for the bill | Full: asks for the bill, for example "The bill, please." Partial: waits. None: none.
+Checks the total | Full: checks the total. Partial: accepts without checking. None: wrong total.
+Asks for size | Full: asks for a size. Partial: unclear. None: none.
+Asks for colour | Full: asks for a colour. Partial: unclear. None: none.
+Decides | Full: makes a decision, for example "I will take it." Partial: unsure. None: none.
+Asks to change | Full: asks to change or return the item. Partial: only says it is wrong. None: none.
+Asks an open question | Full: asks a question that needs more than yes or no, for example "What do you do?" Partial: yes or no question. None: none.
+Listens | Full: reacts to what the other person says. Partial: reacts late. None: ignores.
+Asks follow-up questions | Full: asks a follow-up that links to the answer. Partial: asks a new unrelated question. None: none.
+Adds a detail | Full: adds a detail about themselves. Partial: very general. None: none.
+Shows interest | Full: uses reactions like "Really?" or "That sounds fun." Partial: one. None: none.
+Uses past tense | Full: uses at least two past forms. Partial: one. None: present only.
+Gives a sequence | Full: tells events in order with words like "then". Partial: order unclear. None: none.
+Adds a feeling | Full: says how they felt. Partial: vague. None: none.
+Suggests meeting again | Full: suggests meeting again, for example "Let's have coffee." Partial: vague. None: none.
+Uses linking words | Full: uses linkers such as "then", "but", "so". Partial: one. None: none.
+Ends clearly | Full: finishes with a clear ending. Partial: stops. None: none.
+Says where and when | Full: says where and when. Partial: one. None: none.
+Says what you did | Full: says what they did. Partial: vague. None: none.
+Says how it felt | Full: says how it felt. Partial: only "good". None: none.
+States the problem | Full: states the problem in one clear sentence. Partial: unclear. None: none.
+Says what you learned | Full: says what they learned from it. Partial: vague. None: none.
+Sets the scene | Full: says where, when and who at the start. Partial: one. None: none.
+Builds up | Full: builds interest before the point. Partial: goes straight to the end. None: none.
+Ends with the joke | Full: ends on the funny point. Partial: joke is early. None: no joke.
+Asks the route | Full: asks which bus or train to take. Partial: names the place only. None: none.
+Confirms the stop | Full: checks the stop name. Partial: unclear. None: none.
+States the question | Full: states the question clearly. Partial: unclear. None: none.
+Checks the answer | Full: repeats the answer to check. Partial: says okay. None: none.
+Gives clear directions | Full: gives two or more clear steps. Partial: one step. None: none.
+Checks | Full: checks the other person understood. Partial: unclear check. None: none.
+Says what you want | Full: says what they want, for example to join. Partial: unclear. None: none.
+Asks about time and cost | Full: asks time and cost. Partial: one. None: none.
+Thanks her | Full: thanks the person. Partial: very short. None: none.
+States the need | Full: says what they need at the bank. Partial: vague. None: none.
+Answers questions | Full: answers each question. Partial: some. None: none.
+Checks the next step | Full: asks what happens next. Partial: unclear. None: none.
+Stays calm | Full: keeps a polite, even tone. Partial: sharp once. None: rude.
+Asks for a fix | Full: asks for a specific solution. Partial: only complains. None: none.
+Gives the details | Full: gives the account details or facts needed. Partial: one missing. None: none.
+Asks what happens next | Full: asks what happens next. Partial: unclear. None: none.
+Describes the fault | Full: describes what is wrong and since when. Partial: one. None: none.
+Agrees a time | Full: agrees a time for the visit. Partial: vague. None: none.
+Confirms the cost | Full: confirms the cost. Partial: not confirmed. None: none.
+States an opinion | Full: states an opinion with a reason. Partial: opinion only. None: none.
+Uses softeners | Full: uses phrases like "I think" or "maybe". Partial: one. None: none.
+Uses "I see, but" | Full: uses "I see, but ..." to disagree politely. Partial: only "no". None: none.
+Uses future forms | Full: uses "will" or "going to" correctly. Partial: one. None: none.
+Gives reasons | Full: gives two reasons. Partial: one. None: none.
+Suggests an idea | Full: suggests one idea. Partial: vague. None: none.
+Listens to others | Full: refers to what others said. Partial: ignores one point. None: ignores.
+Agrees on one | Full: agrees on one option with the group. Partial: unclear. None: none.
+Gives the symptoms | Full: gives two or more symptoms. Partial: one. None: none.
+Gives the time | Full: says how long it has lasted. Partial: vague. None: none.
+Repeats the advice | Full: repeats the main advice. Partial: one part. None: none.
+Describes the feeling | Full: describes how they feel. Partial: vague. None: none.
+Asks for advice | Full: asks for advice, for example "What should I do?" Partial: unclear. None: none.
+Describes a routine | Full: describes a routine with times. Partial: one step. None: none.
+Gives one tip | Full: gives one useful tip. Partial: vague. None: none.
+Gives ideas | Full: gives two or more ideas. Partial: one. None: none.
+Gives examples | Full: gives a real example. Partial: general. None: none.
+Responds to him | Full: answers the other person's point. Partial: short reply. None: ignores.
+Reflects feeling | Full: names the feeling, for example "That sounds hard." Partial: general. None: none.
+Asks gently | Full: asks a soft, open question. Partial: blunt. None: none.
+Offers help | Full: offers concrete help. Partial: vague, for example "let me know". None: none.
+Uses soft language | Full: uses softeners such as "maybe" or "you could". Partial: one. None: none.
+Lets him choose | Full: gives options and lets him decide. Partial: decides for him. None: pushes.
+Names the issue | Full: names the issue neutrally. Partial: blames. None: none.
+Finds a middle way | Full: proposes a compromise. Partial: one side wins. None: none.
+Gives clear details | Full: gives specific details. Partial: general. None: none.
+Uses examples | Full: supports a point with an example. Partial: one weak. None: none.
+States the task | Full: states the task clearly. Partial: unclear. None: none.
+Says what you need | Full: says what help they need. Partial: vague. None: none.
+Prepares him | Full: warns before the news, for example "I have some news." Partial: abrupt. None: none.
+Gives the news | Full: says the news clearly. Partial: unclear. None: none.
+Responds to his reaction | Full: reacts to his feelings. Partial: short. None: ignores.
+Gives a short reason | Full: gives a short reason. Partial: long or unclear. None: none.
+Offers a plan | Full: offers a plan to fix it. Partial: vague. None: none.
+Says where | Full: says exactly where they are. Partial: unclear. None: none.
+Says what happened | Full: says what happened in order. Partial: unclear. None: none.
+Describes the item | Full: gives colour, size and a mark. Partial: one. None: none.
+Gives contact | Full: gives a phone or email clearly. Partial: unclear. None: none.
+Describes the problem | Full: describes the problem with two details. Partial: one. None: none.
+Agrees the next step | Full: agrees what happens next. Partial: unclear. None: none.
+Asks questions | Full: asks helpful questions. Partial: one. None: none.
+Reassures | Full: says something calming. Partial: weak. None: none.
+Gets help | Full: finds or calls the right help. Partial: only says help is needed. None: none.
+Gives an opinion | Full: gives a clear opinion with a reason. Partial: opinion only. None: none.
+Summarises | Full: gives a short summary in own words. Partial: copies details. None: none.
+Gives a view | Full: gives a view with a reason. Partial: view only. None: none.
+Asks her | Full: asks her view. Partial: unclear. None: none.
+Describes habits | Full: describes two habits. Partial: one. None: none.
+Considers another view | Full: accepts that others may think differently. Partial: one nod. None: none.
+Describes it | Full: describes with two details. Partial: one. None: none.
+Says who it is for | Full: says who would like it. Partial: vague. None: none.
+Asks about the cost | Full: asks the cost and what it includes. Partial: cost only. None: none.
+Asks about the contract | Full: asks about contract length and rules. Partial: one. None: none.
+Checks the date | Full: checks the start date. Partial: unclear. None: none.
+States the facts | Full: lists the facts in order. Partial: one missing. None: none.
+States what you want | Full: says the result they want. Partial: unclear. None: none.
+Stays polite | Full: polite throughout. Partial: sharp once. None: rude.
+Accepts a fair solution | Full: accepts a fair offer. Partial: hesitates. None: refuses without reason.
+Asks about the terms | Full: asks about the terms. Partial: general. None: none.
+Checks the cost | Full: checks the full cost. Partial: partial. None: none.
+Asks about leaving | Full: asks how to end the contract and any fee. Partial: one. None: none.
+Checks he understands | Full: asks "Does that make sense?" or similar. Partial: unclear. None: none.
+Uses polite language | Full: uses polite forms, for example "Would you mind". Partial: one. None: none.
+Asks open questions | Full: asks open questions. Partial: yes or no questions. None: none.
+Shows respect | Full: shows respect in tone and words. Partial: one slip. None: none.
+Explains what you meant | Full: explains the meaning in other words. Partial: repeats. None: none.
+Asks how he feels | Full: asks how he feels. Partial: unclear. None: none.
+Describes places | Full: describes places with detail. Partial: general. None: none.
+Gives tips | Full: gives two tips. Partial: one. None: none.
+Shows pride | Full: sounds proud and positive. Partial: neutral. None: negative.
+Notices the hint | Full: notices the hidden meaning and says so gently. Partial: notices but ignores. None: misses.
+Checks gently | Full: checks with a soft question. Partial: blunt. None: none.
+Offers support | Full: offers real support. Partial: vague. None: none.
+Says no clearly | Full: says no clearly and kindly. Partial: unclear. None: none.
+Offers a smaller help | Full: offers a smaller thing they can do. Partial: vague. None: none.
+States a strength | Full: names a specific strength. Partial: general. None: none.
+States a concern | Full: names a specific concern politely. Partial: vague. None: none.
+Offers a way forward | Full: suggests a concrete next step. Partial: general. None: none.
+Asks about requirements | Full: asks what documents or steps are needed. Partial: one. None: none.
+Asks about fees | Full: asks about fees. Partial: unclear. None: none.
+Confirms the steps | Full: repeats the steps in order. Partial: one. None: none.
+Confirms the next step | Full: confirms what happens next and when. Partial: next step only. None: none.
+Shares something personal | Full: shares a real personal detail. Partial: very general. None: none.
+Plans to meet | Full: agrees a time or place to meet. Partial: vague. None: none.
+Describes experiences | Full: describes an experience with detail. Partial: general. None: none.
+Asks for tips | Full: asks for tips. Partial: unclear. None: none.
+Shows thanks | Full: thanks warmly. Partial: short. None: none.
+Opens warmly | Full: opens with a warm line. Partial: flat. None: none.
+Keeps it short | Full: stays short and to the point. Partial: a little long. None: too long.
+Closes well | Full: sums up and thanks. Partial: stops. None: none.
+Uses formal language | Full: uses formal phrases, for example "I would like to". Partial: mixed. None: casual.
+Asks clearly | Full: asks a clear request. Partial: vague. None: none.
+Waits for a turn | Full: waits and enters politely. Partial: interrupts once. None: interrupts.
+States a view | Full: states a view with a reason. Partial: view only. None: none.
+Responds to others | Full: answers another person's point. Partial: short. None: ignores.
+States the request | Full: states the request formally and clearly. Partial: unclear. None: none.
+Asks about his | Full: asks about the other person's own view. Partial: unclear. None: none.
+Stays respectful | Full: disagrees politely. Partial: cold once. None: rude.
+Lists options | Full: lists two or more options. Partial: one. None: none.
+Weighs them | Full: gives a plus and a minus for each. Partial: one side. None: none.
+Does not decide for her | Full: leaves the choice to her. Partial: hints. None: decides for her.
+Reflects | Full: reflects on the past with a feeling. Partial: facts only. None: none.
+Offers perspective | Full: offers a calm new view. Partial: general. None: none.
+Compares then and now | Full: compares past and present with examples. Partial: one side. None: none.
+Links to values | Full: links the change to what matters to them. Partial: weak link. None: none.
+Agrees a fix | Full: agrees a fix both accept. Partial: unclear. None: none.
+States your case | Full: gives the problem and wish with a reason. Partial: wish only. None: none.
+Offers a trade | Full: offers something in return. Partial: vague. None: none.
+Agrees terms | Full: states the agreed terms. Partial: agrees without detail. None: none.
+Names the mistake | Full: names the mistake clearly. Partial: vague. None: none.
+Says sorry clearly | Full: says a clear apology. Partial: weak. None: none.
+Offers to repair | Full: offers a real way to repair. Partial: vague. None: none.
+Repeats the limit | Full: restates the limit calmly. Partial: weakens once. None: gives in.
+Offers an alternative | Full: offers an alternative they can do. Partial: vague. None: none.
