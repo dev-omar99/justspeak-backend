@@ -770,7 +770,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives a time",
-      "hint": "Full: gives a clear time or time range. Partial: vague time word. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: for example \"They will call you within two hours.\". Partial: \"soon\". None: no time. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Explains one step",
@@ -842,7 +842,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Says what happened",
-      "hint": "Full: describes the problem in one simple sentence. Partial: repeats the complaint without detail. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: for example \"The system has been down since 9.\". Partial: said too vaguely to check. None: not said at all. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says the next step",
@@ -910,7 +910,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Gives a date",
-      "hint": "Full: gives a specific new date. Partial: says \"soon\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: for example \"On Friday the 5th.\". Partial: \"soon\". None: no date. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Offers to call back",
@@ -974,7 +974,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Full: gives a short reason for the question, like \"This is for security.\" Partial: gives no reason. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: for example \"Because they have the tools to fix it.\". Partial: a thin reason. None: no reason. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks name",
@@ -1250,7 +1250,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Thanks",
-      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: for example \"Thank you for your time.\". Partial: a quick version with no detail. None: not said at all. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Closes politely",
@@ -1352,7 +1352,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Gives a time",
-      "hint": "Full: gives a clear time or time range. Partial: vague time word. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: for example \"They will call you within two hours.\". Partial: \"soon\". None: no time. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks for the number",
@@ -1898,7 +1898,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Checks after each step",
-      "hint": "Full: checks the result after each step. Partial: checks at the end only. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: for example \"Did that work?\". Partial: checks once. None: never checks. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers another way if it fails",
@@ -2000,11 +2000,11 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Gives a reason",
-      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: for example \"Because the offer ended on Friday.\". Partial: a thin reason. None: no reason. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Full: offers a real alternative. Partial: offers nothing or something unrealistic. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: for example \"There is a smaller plan at 10.\". Partial: said too vaguely to check. None: not said at all. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2386,7 +2386,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full: recaps and closes politely. Partial: closes abruptly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: for example \"To recap, I will refund you today. Thank you.\". Partial: recap only. None: no recap. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2424,7 +2424,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full: recaps and closes politely. Partial: closes abruptly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: for example \"To recap, I will refund you today. Thank you.\". Partial: recap only. None: no recap. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2462,7 +2462,7 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full: recaps and closes politely. Partial: closes abruptly. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: for example \"To recap, I will refund you today. Thank you.\". Partial: recap only. None: no recap. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2490,15 +2490,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges feelings first",
-      "hint": "Full: names the customer's feeling before solving, like \"I can hear you are upset.\" Partial: goes straight to the fix. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I understand why you are upset.\". Partial: a short \"sorry\". None: jumps to the fix. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps a calm steady tone",
-      "hint": "Full: stays calm and steady even when the customer is loud. Partial: voice rises or speeds up. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: speaks slowly and evenly. Partial: a slight rise in pace. None: sounds tense or fast. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Moves to a clear plan",
-      "hint": "Full: moves to one concrete plan. Partial: stays on the problem. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Here is what I will do now: check it and call you by 3.\". Partial: a vague plan. None: no plan. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2524,15 +2524,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Does not copy the tone",
-      "hint": "Full: stays professional while the customer is rude. Partial: matches the rudeness once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: stays polite when the customer is rude. Partial: one sharp reply. None: answers rudely. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Uses her name",
-      "hint": "Full: uses the customer's name naturally. Partial: never uses the name. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Ms Hassan, I want to help.\". Partial: uses the name once, late. None: no name. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Returns to the issue politely",
-      "hint": "Full: brings the call back to the issue with a polite phrase. Partial: ignores the side topic or argues. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Let us look at the order again.\". Partial: returns abruptly. None: gets pulled into the insult. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2558,15 +2558,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says no clearly and kindly",
-      "hint": "Full: says no clearly with kind wording. Partial: is unclear or harsh. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I am sorry, I cannot do that.\". Partial: a soft maybe. None: a cold or unclear no. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a reason",
-      "hint": "Full: gives a clear reason for the no. Partial: gives none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Because the offer ended on Friday.\". Partial: a thin reason. None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers two real choices",
-      "hint": "Full: offers two options the company can really deliver. Partial: offers one or an impossible one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I can send a credit or a replacement.\". Partial: one choice. None: no choice. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2592,15 +2592,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Offers to help first",
-      "hint": "Full: offers help before explaining the limit. Partial: begins with the limit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Let me try to solve this first.\". Partial: offers after being asked twice. None: passes it on at once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains the escalation",
-      "hint": "Full: explains how and to whom the case goes. Partial: says only \"I will escalate\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"A supervisor will review it and has more options.\". Partial: \"I will pass you on\". None: no explanation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a time",
-      "hint": "Full: gives a clear time or time range. Partial: vague time word. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"They will call you within two hours.\". Partial: \"soon\". None: no time. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2626,15 +2626,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives name and issue",
-      "hint": "Full: gives the customer's name and the issue to the colleague. Partial: gives one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"This is Mrs Ali, her router keeps dropping.\". Partial: name only. None: neither. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives what was done",
-      "hint": "Full: lists what has already been done. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I reset it and checked the line.\". Partial: one step. None: no history. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives the next step",
-      "hint": "Full: states the next step for the colleague. Partial: leaves it open. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Please call her by 4 to arrange a visit.\". Partial: \"follow up please\". None: no next step. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2660,15 +2660,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes the problem with numbers",
-      "hint": "Full: describes the problem with real numbers, like \"12 calls this week\". Partial: says \"many\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"It happened 14 times this week.\". Partial: \"often\". None: no numbers. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives examples",
-      "hint": "Full: gives one or two concrete examples. Partial: speaks in general. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"For example, ticket 2231 waited three days.\". Partial: a general example. None: no example. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Asks for action",
-      "hint": "Full: clearly asks for a specific action. Partial: only complains. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Can we add a second agent on Mondays?\". Partial: \"something should change\". None: no ask. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2694,15 +2694,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the suggestion",
-      "hint": "Full: states the improvement in one clear sentence. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I suggest a call-back option.\". Partial: a loose idea. None: no suggestion. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives two reasons",
-      "hint": "Full: gives two separate reasons. Partial: gives one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"It saves wait time, and customers prefer it.\". Partial: one reason. None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Answers a question",
-      "hint": "Full: answers a follow-up question directly. Partial: avoids it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: answers the question directly then adds one detail. Partial: answers a different question. None: avoids it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2728,15 +2728,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives results",
-      "hint": "Full: gives results with numbers. Partial: general words. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I closed 92 percent of cases on the first call.\". Partial: one loose result. None: no results. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains one challenge",
-      "hint": "Full: names one real challenge and how it was handled. Partial: only the challenge. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Mondays are our busiest day.\". Partial: vague challenge. None: no challenge. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Sets a goal",
-      "hint": "Full: sets a specific goal for next month. Partial: says \"do better\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Next month I want to reach 95 percent.\". Partial: \"do better\". None: no goal. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2762,15 +2762,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives an overview first",
-      "hint": "Full: starts with a one-line overview of the fix. Partial: jumps into step one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"There are three steps.\". Partial: starts on step one. None: no overview. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains steps in order",
-      "hint": "Full: explains the steps in a clear order. Partial: mixes the order. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"First restart, then update, then test.\". Partial: steps out of order. None: no steps. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks after each step",
-      "hint": "Full: checks the result after each step. Partial: checks at the end only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Did that work?\". Partial: checks once. None: never checks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2796,15 +2796,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what is possible",
-      "hint": "Full: states what can be done. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I can send it on Thursday.\". Partial: a hedged option. None: says nothing is possible. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Says what is not",
-      "hint": "Full: states honestly what cannot be done. Partial: avoids it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I cannot do Wednesday.\". Partial: only hints at it. None: hides it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers the best next date",
-      "hint": "Full: offers the earliest realistic date. Partial: gives a date that is unrealistic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"The earliest I can do is Thursday morning.\". Partial: \"later\". None: no date. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2830,15 +2830,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Full: gives a short reason for the question, like \"This is for security.\" Partial: gives no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Because they have the tools to fix it.\". Partial: a thin reason. None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Summarises the case for the team",
-      "hint": "Full: gives the other team a short, complete case summary. Partial: leaves out key facts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Customer cannot log in since Monday, we tried two resets.\". Partial: one fact. None: no summary. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a reference and time",
-      "hint": "Full: gives a reference number and a time. Partial: gives only one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Reference 4471, reply within 24 hours.\". Partial: one of the two. None: neither. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2864,15 +2864,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States what changed",
-      "hint": "Full: states what changed since the last contact. Partial: repeats old news. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"We found the fault.\". Partial: a vague change. None: no change. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "States what is next",
-      "hint": "Full: states the next step and its date. Partial: no date. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"A technician will visit.\". Partial: said too vaguely to check. None: no next step. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives a date",
-      "hint": "Full: gives a specific new date. Partial: says \"soon\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"On Friday the 5th.\". Partial: \"soon\". None: no date. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2898,15 +2898,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares phone, chat and email",
-      "hint": "Full: compares at least two channels on speed and detail. Partial: names channels only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Phone is fastest, chat keeps a record, email suits long cases.\". Partial: compares two. None: no comparison. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Matches to her problem",
-      "hint": "Full: links the channel to the customer's problem. Partial: general advice. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"For your billing question, chat works well.\". Partial: a general match. None: no match. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains in simple words",
-      "hint": "Full: explains in words a customer would understand. Partial: uses jargon. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: short plain sentences. Partial: some hard words. None: jargon. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2932,15 +2932,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks and apologises",
-      "hint": "Full: thanks the customer and apologises at the start. Partial: only one of them. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Thank you for writing, and I am sorry for the delay.\". Partial: one of the two. None: neither. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Answers each point",
-      "hint": "Full: answers each point in the complaint in order. Partial: skips some points. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"On your first point... On your second...\". Partial: answers some. None: answers none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives next step and close",
-      "hint": "Full: gives the next step and closes politely. Partial: closes with no step. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I will call you Friday. Thank you for your patience.\". Partial: next step only. None: no close. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2966,15 +2966,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short and polite",
-      "hint": "Full: reply is short and polite. Partial: too long or curt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Sorry about this. We want to help.\". Partial: long or cold. None: long or rude. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "No private details",
-      "hint": "Full: shares no account or order details in public. Partial: shares one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: asks them to message privately, no account data. Partial: one small detail. None: posts private data. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Invites a private message",
-      "hint": "Full: invites the customer to message privately. Partial: asks vaguely for contact. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Please send us a private message.\". Partial: \"contact us\". None: no invitation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3000,15 +3000,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks for feedback",
-      "hint": "Full: thanks the reviewer for the feedback. Partial: skips the thanks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Thank you for your feedback.\". Partial: a quick thanks. None: no thanks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Acknowledges the issue",
-      "hint": "Full: acknowledges the specific issue. Partial: general words. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"We are sorry the delivery was late.\". Partial: said too vaguely to check. None: denies the issue. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers to fix it offline",
-      "hint": "Full: offers to solve it by private contact. Partial: argues in public. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Please email us and we will fix it.\". Partial: \"call us\". None: no offer. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3034,15 +3034,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives one warning",
-      "hint": "Full: gives one clear warning before ending the call. Partial: no warning. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"If this continues, I will end the call.\". Partial: only hints at it. None: no warning. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Says the limit calmly",
-      "hint": "Full: states the limit calmly. Partial: raises the voice. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I want to help, but not with that language.\". Partial: sounds tense. None: sounds angry. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Ends politely if it continues",
-      "hint": "Full: ends the call politely if the behaviour continues. Partial: keeps arguing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I am ending the call now. Goodbye.\". Partial: rude exit. None: does not end it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3068,15 +3068,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Slows down",
-      "hint": "Full: slows the pace clearly. Partial: speeds up again after a while. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: speaks slowly with pauses. Partial: a little slow. None: keeps normal speed. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Uses simple words",
-      "hint": "Full: uses everyday words. Partial: mixes in hard words. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Press the blue button.\". Partial: some hard words. None: hard words. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks every step",
-      "hint": "Full: checks understanding after each step. Partial: checks once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Can you see the button now?\". Partial: some steps. None: not said at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3102,15 +3102,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Short sentences",
-      "hint": "Full: keeps sentences short. Partial: mixed lengths. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: one idea per sentence. Partial: some long sentences. None: long sentences. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "No idioms",
-      "hint": "Full: avoids idioms and slang. Partial: uses one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: uses literal words. Partial: one idiom. None: several idioms. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Checks understanding",
-      "hint": "Full: asks whether the customer understood. Partial: assumes. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Does that make sense?\". Partial: says \"okay?\". None: never checks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3136,15 +3136,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Admits the mistake",
-      "hint": "Full: admits the mistake directly. Partial: hints at it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"We gave you wrong information.\". Partial: softens it. None: denies it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains the fix",
-      "hint": "Full: explains how it will be fixed. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I have corrected your account.\". Partial: said too vaguely to check. None: no fix. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers fair compensation",
-      "hint": "Full: offers fair compensation within the rules. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I will refund the fee and add a credit.\". Partial: vague offer. None: no offer. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3170,15 +3170,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks why",
-      "hint": "Full: asks why the customer wants to cancel or change, with an open question. Partial: assumes the reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"May I ask why you want to cancel?\". Partial: asks late. None: never asks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Does not push",
-      "hint": "Full: does not pressure the customer. Partial: pushes once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: accepts the answer and offers help. Partial: one push. None: keeps pushing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a fair option",
-      "hint": "Full: offers a fair option based on the reason. Partial: offers a generic one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I can pause it for two months.\". Partial: said too vaguely to check. None: no option. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3204,15 +3204,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks about needs",
-      "hint": "Full: asks about needs before suggesting. Partial: suggests first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"What do you use it for most?\". Partial: a general question. None: no question. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains benefits",
-      "hint": "Full: explains benefits in terms of the customer's needs. Partial: lists features. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"It gives you more data for the same price.\". Partial: a general benefit. None: no benefit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Lets her decide",
-      "hint": "Full: leaves the final choice to the customer. Partial: pushes for a decision. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"It is your choice.\". Partial: hints at pressure. None: pressures. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3238,15 +3238,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges the concern",
-      "hint": "Full: acknowledges the price concern respectfully. Partial: ignores it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I understand the price matters.\". Partial: said too briefly to count. None: ignores it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains the value",
-      "hint": "Full: explains what the customer gets for the price. Partial: repeats the price. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"It includes support and updates.\". Partial: said too vaguely to check. None: no value. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Full: offers a real alternative. Partial: offers nothing or something unrealistic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"There is a smaller plan at 10.\". Partial: said too vaguely to check. None: not said at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3272,15 +3272,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains limits",
-      "hint": "Full: explains the limit of what can be offered. Partial: leaves limits unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I can give up to 10 percent.\". Partial: said too vaguely to check. None: no limit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers a compromise",
-      "hint": "Full: offers a fair compromise within the rules. Partial: offers none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I can do 10 percent and free delivery.\". Partial: said too vaguely to check. None: not said at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Confirms agreement",
-      "hint": "Full: checks that the customer agrees. Partial: assumes agreement. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"So we agree on 10 percent. Is that right?\". Partial: only says \"okay?\". None: no confirmation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3306,15 +3306,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and listens",
-      "hint": "Full: verifies, then listens without interrupting. Partial: does one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Can I confirm your name and order number?\" then listens. Partial: verifies only. None: skips both. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains options",
-      "hint": "Full: explains the options with pros and cons. Partial: lists names only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"You can have a refund or a replacement.\". Partial: one option. None: not said at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full: recaps and closes politely. Partial: closes abruptly. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"To recap, I will refund you today. Thank you.\". Partial: recap only. None: no recap. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3340,15 +3340,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks why",
-      "hint": "Full: asks why the customer wants to cancel or change, with an open question. Partial: assumes the reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"May I ask why you want to cancel?\". Partial: asks late. None: never asks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers options",
-      "hint": "Full: offers real options to keep the customer. Partial: offers one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I can pause, change or cancel.\". Partial: one option. None: not said at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Respects his decision",
-      "hint": "Full: accepts his decision politely. Partial: pushes back. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I understand. I will cancel it now.\". Partial: reluctant tone. None: argues with the customer. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3374,15 +3374,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: it is shown clearly: even tone throughout. Partial: one slip. None: loses calm. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Sets a limit",
-      "hint": "Full: sets a clear limit on behaviour. Partial: hints. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"If this continues, I will have to end the call.\". Partial: only hints at it. None: no limit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Recaps and closes",
-      "hint": "Full: recaps and closes politely. Partial: closes abruptly. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"To recap, I will refund you today. Thank you.\". Partial: recap only. None: no recap. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3408,15 +3408,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains steps",
-      "hint": "Full: explains the steps clearly. Partial: skips a step. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I will check, then call the team, then update you.\". Partial: said too vaguely to check. None: not said at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Hands over clearly",
-      "hint": "Full: hands over with all key facts. Partial: misses facts. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"Name, issue, what I did, what is next.\". Partial: some of it. None: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Updates the customer",
-      "hint": "Full: tells the customer what will happen next. Partial: says nothing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: for example \"I have passed it on. They will call by 3.\". Partial: said too vaguely to check. None: not said at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -3444,15 +3444,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses \"I\" and \"we\"",
-      "hint": "Full: uses \"I\" and \"we\" to own the problem. Partial: uses \"they\" or \"the system\". Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I made the error, and we will fix it.\". Partial: only we. None: only \"they\". Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "No excuses",
-      "hint": "Full: gives no excuses or blame. Partial: adds one excuse. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"That was our mistake.\". Partial: a small excuse. None: blames others. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States clear actions",
-      "hint": "Full: states specific actions. Partial: vague promises. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will refund today and call you on Friday.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3478,15 +3478,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the failure",
-      "hint": "Full: says exactly what went wrong, like \"Your refund was promised for Monday and it did not arrive.\" Partial: says only \"the issue\" or \"the problem\". None: avoids naming it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"We missed two deliveries.\". Partial: said too vaguely to check. None: hides it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Makes specific promises",
-      "hint": "Full: promises actions the agent can keep, like \"I will call you myself on Thursday before noon.\" Partial: general promises like \"We will do better\". None: no promise. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"You will have a call every Monday.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives dates",
-      "hint": "Full: attaches a date or time to each promise, like \"by Friday 5 pm\". Partial: dates for some promises only, or \"soon\". None: no dates. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"By the 14th.\". Partial: \"soon\". None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3512,15 +3512,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Calm professional tone",
-      "hint": "Full: calm, polite, professional wording. Partial: defensive. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: it is shown clearly: even, formal-polite. Partial: one slip. None: sounds defensive. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Facts only",
-      "hint": "Full: sticks to facts. Partial: adds opinion. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: it is shown clearly: states what happened. Partial: one opinion. None: arguing. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Moves to a private channel",
-      "hint": "Full: moves the case to a private channel. Partial: stays public. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Please message us privately.\". Partial: said too vaguely to check. None: stays public. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3546,15 +3546,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear message",
-      "hint": "Full: the hard message is clear. Partial: hidden. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"This is not possible.\". Partial: hedged so it is unclear. None: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Soft wording",
-      "hint": "Full: uses soft wording like \"I am afraid\" or \"I would suggest\". Partial: blunt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Unfortunately, I am not able to...\". Partial: blunt. None: harsh. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers support",
-      "hint": "Full: offers concrete help. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Here is what I can do to help.\". Partial: said too briefly to count. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3580,15 +3580,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains current levels",
-      "hint": "Full: explains the current service level. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Today we reply within 24 hours.\". Partial: said too vaguely to check. None: no figures. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names what can change",
-      "hint": "Full: names what can change. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"We can add a priority line.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Asks his priorities",
-      "hint": "Full: asks what matters most to him. Partial: assumes. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"What matters most to you, speed or cost?\". Partial: only a general version. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3614,15 +3614,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States conditions",
-      "hint": "Full: states the conditions of the exception. Partial: leaves them out. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"This applies once and needs a receipt.\". Partial: one condition. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains why now",
-      "hint": "Full: explains why the exception applies now. Partial: no reason. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Because of the long delay.\". Partial: a weak reason. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Confirms in writing",
-      "hint": "Full: says the terms will be confirmed in writing. Partial: does not. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will email this today.\". Partial: \"maybe\". None: no. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3648,15 +3648,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear no",
-      "hint": "Full: gives a clear no. Partial: hesitates. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"We cannot do that.\". Partial: hedged so it is unclear. None: unclear or none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reason",
-      "hint": "Full: gives a reason for the no. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Because it protects every customer.\". Partial: a weak reason. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Alternative",
-      "hint": "Full: offers an alternative. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I can offer this instead.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3682,15 +3682,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises terms",
-      "hint": "Full: summarises each agreed term. Partial: only some. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"So: 10 percent, from June, for one year.\". Partial: some terms. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Checks agreement",
-      "hint": "Full: checks agreement on each point. Partial: once. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Do we agree on all three points?\". Partial: only says \"okay?\". None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States next steps",
-      "hint": "Full: states the next steps with owners. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will send the contract Friday.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3716,15 +3716,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Positive start",
-      "hint": "Full: starts with real, specific praise. Partial: general praise. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"You handled the greeting well.\". Partial: generic praise. None: starts negative. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Specific example",
-      "hint": "Full: gives a specific example. Partial: general. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"On call three you repeated the order number.\". Partial: only a general version. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Practice plan",
-      "hint": "Full: sets a practice plan. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Let us practise that twice this week.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3750,15 +3750,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Clear structure",
-      "hint": "Full: clear structure (point, evidence, advice). Partial: unordered. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Three findings, then a recommendation.\". Partial: loose and hard to follow. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Uses numbers",
-      "hint": "Full: supports points with numbers. Partial: words only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Complaints rose 12 percent.\". Partial: one number. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a recommendation",
-      "hint": "Full: ends with a recommendation. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I recommend adding two agents.\". Partial: hedged so it is unclear. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3784,15 +3784,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the trend",
-      "hint": "Full: names the trend plainly. Partial: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Calls rose each month since March.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives reasons",
-      "hint": "Full: gives likely reasons. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Mainly because of the new price.\". Partial: a weak reason. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a next step",
-      "hint": "Full: gives a clear next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"We should test a fix next month.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3818,15 +3818,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the change",
-      "hint": "Full: states the proposed change in one line. Partial: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"We will move to chat first.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Benefits and risks",
-      "hint": "Full: covers both benefits and risks. Partial: only one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"It is faster, but needs training.\". Partial: benefits only. None: only one side. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Answers objections",
-      "hint": "Full: answers objections with reasons. Partial: dodges. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"The cost is real, and here is how we limit it.\". Partial: repeats the claim. None: ignores. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3852,15 +3852,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what happened",
-      "hint": "Full: describes the problem in one simple sentence. Partial: repeats the complaint without detail. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"The system has been down since 9.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Says what you do",
-      "hint": "Full: says what the team is doing. Partial: says nothing. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"We are working on it.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives next update time",
-      "hint": "Full: gives the time of the next update. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Next update at 2pm.\". Partial: \"soon\". None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3886,15 +3886,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Takes it seriously",
-      "hint": "Full: shows the concern is taken seriously. Partial: casual. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"This is important and I will help.\". Partial: said too briefly to count. None: sounds dismissive. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Says what you can and cannot say",
-      "hint": "Full: says what can be shared and what cannot. Partial: only one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I can confirm this, but I cannot share that.\". Partial: only one side. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives the process",
-      "hint": "Full: explains the process the customer follows. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Please send a request to our privacy team.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3920,15 +3920,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Full: stays calm to the end. Partial: loses calm once. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: it is shown clearly: even tone throughout. Partial: one slip. None: loses calm. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Does not argue",
-      "hint": "Full: does not argue. Partial: argues once. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I understand your concern.\". Partial: one defensive line. None: argues with the customer. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Passes to the right team",
-      "hint": "Full: passes the case to the right team. Partial: wrong or unclear team. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will pass this to our legal team.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3954,15 +3954,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Formal tone",
-      "hint": "Full: formal, correct tone. Partial: casual. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"We regret the inconvenience.\". Partial: mixed tone. None: too casual. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Clear facts",
-      "hint": "Full: states facts clearly. Partial: mixed with opinion. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: it is shown clearly: dates and amounts stated. Partial: some facts. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Next steps and contact",
-      "hint": "Full: gives next steps and a contact. Partial: one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Please contact us on 0100.\". Partial: one of the two. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -3988,15 +3988,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses his history",
-      "hint": "Full: refers to the customer's earlier orders or contacts. Partial: no reference. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I see you have been with us for five years.\". Partial: only a general version. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Anticipates needs",
-      "hint": "Full: offers help the customer did not ask for yet. Partial: waits. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"You may also need...\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers a direct contact",
-      "hint": "Full: gives a direct contact. Partial: general number. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Here is my direct line.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4022,15 +4022,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks politely",
-      "hint": "Full: asks for feedback politely. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Would you mind completing a short survey?\". Partial: abrupt or rushed. None: demanding. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains purpose",
-      "hint": "Full: explains how the feedback is used. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"It helps us improve our service.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Thanks",
-      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Thank you for your time.\". Partial: a quick version with no detail. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4056,15 +4056,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks",
-      "hint": "Full: writes or says a clear thank-you for the customer's message. Partial: very short or mixed with other topics. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Thank you for your time.\". Partial: a quick version with no detail. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Does not oversell",
-      "hint": "Full: does not oversell. Partial: pushes. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I am glad you are happy.\". Partial: a small push. None: hard sell. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains how referrals work",
-      "hint": "Full: explains the referral steps. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"You each get a credit.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4090,15 +4090,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises the timeline",
-      "hint": "Full: summarises the key dates. Partial: partial. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"You contacted us on the 3rd, we fixed it on the 7th.\". Partial: partial. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Records decisions",
-      "hint": "Full: states the decisions recorded. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Refund approved on the 7th.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States follow-up",
-      "hint": "Full: states the follow-up. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will call in two weeks.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4124,15 +4124,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies and listens",
-      "hint": "Full: verifies, then listens without interrupting. Partial: does one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Can I confirm your name and order number?\" then listens. Partial: verifies only. None: skips both. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers tailored options",
-      "hint": "Full: offers options matched to the customer. Partial: generic. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Based on your volume, here are two options.\". Partial: generic. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Recaps with commitments",
-      "hint": "Full: recaps the commitments made. Partial: no commitments. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will deliver X by Y.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4158,15 +4158,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Empathy",
-      "hint": "Full: shows empathy in words. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I understand how serious this is.\". Partial: said too briefly to count. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Clear facts",
-      "hint": "Full: states facts clearly. Partial: mixed with opinion. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: it is shown clearly: dates and amounts stated. Partial: some facts. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Next update time",
-      "hint": "Full: gives a time for the next update. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Next update at 3pm.\". Partial: \"soon\". None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4192,15 +4192,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Verifies identity",
-      "hint": "Full: verifies identity first. Partial: skips. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Can I check your name and date of birth?\". Partial: only one check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Handles data carefully",
-      "hint": "Full: shares only what is needed. Partial: over-shares. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: it is shown clearly: does not read details aloud. Partial: one slip. None: reads private data aloud. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Records the case",
-      "hint": "Full: says the case is recorded. Partial: not. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will log this now.\". Partial: said too vaguely to check. None: not said at all. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -4226,15 +4226,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Listens",
-      "hint": "Full: listens and reflects back. Partial: interrupts. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"Let me make sure I understand.\". Partial: said too briefly to count. None: interrupts the customer. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Negotiates",
-      "hint": "Full: negotiates toward a fair deal. Partial: gives in or refuses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"If you can wait, I can offer...\". Partial: a weak offer. None: gives in or refuses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Confirms in writing",
-      "hint": "Full: says the terms will be confirmed in writing. Partial: does not. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: for example \"I will email this today.\". Partial: \"maybe\". None: no. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [

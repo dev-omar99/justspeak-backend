@@ -1,0 +1,149 @@
+Acknowledges feelings first | Full: for example "I understand why you are upset.". Partial: a short "sorry". None: jumps to the fix.
+Keeps a calm steady tone | Full: it is shown clearly: speaks slowly and evenly. Partial: a slight rise in pace. None: sounds tense or fast.
+Moves to a clear plan | Full: for example "Here is what I will do now: check it and call you by 3.". Partial: a vague plan. None: no plan.
+Does not copy the tone | Full: it is shown clearly: stays polite when the customer is rude. Partial: one sharp reply. None: answers rudely.
+Uses her name | Full: for example "Ms Hassan, I want to help.". Partial: uses the name once, late. None: no name.
+Returns to the issue politely | Full: for example "Let us look at the order again.". Partial: returns abruptly. None: gets pulled into the insult.
+Says no clearly and kindly | Full: for example "I am sorry, I cannot do that.". Partial: a soft maybe. None: a cold or unclear no.
+Gives a reason | Full: for example "Because the offer ended on Friday.". Partial: a thin reason. None: no reason.
+Offers two real choices | Full: for example "I can send a credit or a replacement.". Partial: one choice. None: no choice.
+Offers to help first | Full: for example "Let me try to solve this first.". Partial: offers after being asked twice. None: passes it on at once.
+Explains the escalation | Full: for example "A supervisor will review it and has more options.". Partial: "I will pass you on". None: no explanation.
+Gives a time | Full: for example "They will call you within two hours.". Partial: "soon". None: no time.
+Gives name and issue | Full: for example "This is Mrs Ali, her router keeps dropping.". Partial: name only. None: neither.
+Gives what was done | Full: for example "I reset it and checked the line.". Partial: one step. None: no history.
+Gives the next step | Full: for example "Please call her by 4 to arrange a visit.". Partial: "follow up please". None: no next step.
+Describes the problem with numbers | Full: for example "It happened 14 times this week.". Partial: "often". None: no numbers.
+Gives examples | Full: for example "For example, ticket 2231 waited three days.". Partial: a general example. None: no example.
+Asks for action | Full: for example "Can we add a second agent on Mondays?". Partial: "something should change". None: no ask.
+States the suggestion | Full: for example "I suggest a call-back option.". Partial: a loose idea. None: no suggestion.
+Gives two reasons | Full: for example "It saves wait time, and customers prefer it.". Partial: one reason. None: no reason.
+Answers a question | Full: it is shown clearly: answers the question directly then adds one detail. Partial: answers a different question. None: avoids it.
+Gives results | Full: for example "I closed 92 percent of cases on the first call.". Partial: one loose result. None: no results.
+Explains one challenge | Full: for example "Mondays are our busiest day.". Partial: vague challenge. None: no challenge.
+Sets a goal | Full: for example "Next month I want to reach 95 percent.". Partial: "do better". None: no goal.
+Gives an overview first | Full: for example "There are three steps.". Partial: starts on step one. None: no overview.
+Explains steps in order | Full: for example "First restart, then update, then test.". Partial: steps out of order. None: no steps.
+Checks after each step | Full: for example "Did that work?". Partial: checks once. None: never checks.
+Says what is possible | Full: for example "I can send it on Thursday.". Partial: a hedged option. None: says nothing is possible.
+Says what is not | Full: for example "I cannot do Wednesday.". Partial: only hints at it. None: hides it.
+Offers the best next date | Full: for example "The earliest I can do is Thursday morning.". Partial: "later". None: no date.
+Explains why | Full: for example "Because they have the tools to fix it.". Partial: a thin reason. None: no reason.
+Summarises the case for the team | Full: for example "Customer cannot log in since Monday, we tried two resets.". Partial: one fact. None: no summary.
+Gives a reference and time | Full: for example "Reference 4471, reply within 24 hours.". Partial: one of the two. None: neither.
+States what changed | Full: for example "We found the fault.". Partial: a vague change. None: no change.
+States what is next | Full: for example "A technician will visit.". Partial: said too vaguely to check. None: no next step.
+Gives a date | Full: for example "On Friday the 5th.". Partial: "soon". None: no date.
+Compares phone, chat and email | Full: for example "Phone is fastest, chat keeps a record, email suits long cases.". Partial: compares two. None: no comparison.
+Matches to her problem | Full: for example "For your billing question, chat works well.". Partial: a general match. None: no match.
+Explains in simple words | Full: it is shown clearly: short plain sentences. Partial: some hard words. None: jargon.
+Thanks and apologises | Full: for example "Thank you for writing, and I am sorry for the delay.". Partial: one of the two. None: neither.
+Answers each point | Full: for example "On your first point... On your second...". Partial: answers some. None: answers none.
+Gives next step and close | Full: for example "I will call you Friday. Thank you for your patience.". Partial: next step only. None: no close.
+Short and polite | Full: for example "Sorry about this. We want to help.". Partial: long or cold. None: long or rude.
+No private details | Full: it is shown clearly: asks them to message privately, no account data. Partial: one small detail. None: posts private data.
+Invites a private message | Full: for example "Please send us a private message.". Partial: "contact us". None: no invitation.
+Thanks for feedback | Full: for example "Thank you for your feedback.". Partial: a quick thanks. None: no thanks.
+Acknowledges the issue | Full: for example "We are sorry the delivery was late.". Partial: said too vaguely to check. None: denies the issue.
+Offers to fix it offline | Full: for example "Please email us and we will fix it.". Partial: "call us". None: no offer.
+Gives one warning | Full: for example "If this continues, I will end the call.". Partial: only hints at it. None: no warning.
+Says the limit calmly | Full: for example "I want to help, but not with that language.". Partial: sounds tense. None: sounds angry.
+Ends politely if it continues | Full: for example "I am ending the call now. Goodbye.". Partial: rude exit. None: does not end it.
+Slows down | Full: it is shown clearly: speaks slowly with pauses. Partial: a little slow. None: keeps normal speed.
+Uses simple words | Full: for example "Press the blue button.". Partial: some hard words. None: hard words.
+Checks every step | Full: for example "Can you see the button now?". Partial: some steps. None: not said at all.
+Short sentences | Full: it is shown clearly: one idea per sentence. Partial: some long sentences. None: long sentences.
+No idioms | Full: it is shown clearly: uses literal words. Partial: one idiom. None: several idioms.
+Checks understanding | Full: for example "Does that make sense?". Partial: says "okay?". None: never checks.
+Admits the mistake | Full: for example "We gave you wrong information.". Partial: softens it. None: denies it.
+Explains the fix | Full: for example "I have corrected your account.". Partial: said too vaguely to check. None: no fix.
+Offers fair compensation | Full: for example "I will refund the fee and add a credit.". Partial: vague offer. None: no offer.
+Asks why | Full: for example "May I ask why you want to cancel?". Partial: asks late. None: never asks.
+Does not push | Full: it is shown clearly: accepts the answer and offers help. Partial: one push. None: keeps pushing.
+Offers a fair option | Full: for example "I can pause it for two months.". Partial: said too vaguely to check. None: no option.
+Asks about needs | Full: for example "What do you use it for most?". Partial: a general question. None: no question.
+Explains benefits | Full: for example "It gives you more data for the same price.". Partial: a general benefit. None: no benefit.
+Lets her decide | Full: for example "It is your choice.". Partial: hints at pressure. None: pressures.
+Acknowledges the concern | Full: for example "I understand the price matters.". Partial: said too briefly to count. None: ignores it.
+Explains the value | Full: for example "It includes support and updates.". Partial: said too vaguely to check. None: no value.
+Offers an alternative | Full: for example "There is a smaller plan at 10.". Partial: said too vaguely to check. None: not said at all.
+Explains limits | Full: for example "I can give up to 10 percent.". Partial: said too vaguely to check. None: no limit.
+Offers a compromise | Full: for example "I can do 10 percent and free delivery.". Partial: said too vaguely to check. None: not said at all.
+Confirms agreement | Full: for example "So we agree on 10 percent. Is that right?". Partial: only says "okay?". None: no confirmation.
+Verifies and listens | Full: for example "Can I confirm your name and order number?" then listens. Partial: verifies only. None: skips both.
+Explains options | Full: for example "You can have a refund or a replacement.". Partial: one option. None: not said at all.
+Recaps and closes | Full: for example "To recap, I will refund you today. Thank you.". Partial: recap only. None: no recap.
+Offers options | Full: for example "I can pause, change or cancel.". Partial: one option. None: not said at all.
+Respects his decision | Full: for example "I understand. I will cancel it now.". Partial: reluctant tone. None: argues with the customer.
+Stays calm | Full: it is shown clearly: even tone throughout. Partial: one slip. None: loses calm.
+Sets a limit | Full: for example "If this continues, I will have to end the call.". Partial: only hints at it. None: no limit.
+Explains steps | Full: for example "I will check, then call the team, then update you.". Partial: said too vaguely to check. None: not said at all.
+Hands over clearly | Full: for example "Name, issue, what I did, what is next.". Partial: some of it. None: unclear.
+Updates the customer | Full: for example "I have passed it on. They will call by 3.". Partial: said too vaguely to check. None: not said at all.
+Uses "I" and "we" | Full: for example "I made the error, and we will fix it.". Partial: only we. None: only "they".
+No excuses | Full: for example "That was our mistake.". Partial: a small excuse. None: blames others.
+States clear actions | Full: for example "I will refund today and call you on Friday.". Partial: said too vaguely to check. None: not said at all.
+Names the failure | Full: for example "We missed two deliveries.". Partial: said too vaguely to check. None: hides it.
+Makes specific promises | Full: for example "You will have a call every Monday.". Partial: said too vaguely to check. None: not said at all.
+Gives dates | Full: for example "By the 14th.". Partial: "soon". None: not said at all.
+Calm professional tone | Full: it is shown clearly: even, formal-polite. Partial: one slip. None: sounds defensive.
+Facts only | Full: it is shown clearly: states what happened. Partial: one opinion. None: arguing.
+Moves to a private channel | Full: for example "Please message us privately.". Partial: said too vaguely to check. None: stays public.
+Clear message | Full: for example "This is not possible.". Partial: hedged so it is unclear. None: unclear.
+Soft wording | Full: for example "Unfortunately, I am not able to...". Partial: blunt. None: harsh.
+Offers support | Full: for example "Here is what I can do to help.". Partial: said too briefly to count. None: not said at all.
+Explains current levels | Full: for example "Today we reply within 24 hours.". Partial: said too vaguely to check. None: no figures.
+Names what can change | Full: for example "We can add a priority line.". Partial: said too vaguely to check. None: not said at all.
+Asks his priorities | Full: for example "What matters most to you, speed or cost?". Partial: only a general version. None: not said at all.
+States conditions | Full: for example "This applies once and needs a receipt.". Partial: one condition. None: not said at all.
+Explains why now | Full: for example "Because of the long delay.". Partial: a weak reason. None: not said at all.
+Confirms in writing | Full: for example "I will email this today.". Partial: "maybe". None: no.
+Clear no | Full: for example "We cannot do that.". Partial: hedged so it is unclear. None: unclear or none.
+Reason | Full: for example "Because it protects every customer.". Partial: a weak reason. None: not said at all.
+Alternative | Full: for example "I can offer this instead.". Partial: said too vaguely to check. None: not said at all.
+Summarises terms | Full: for example "So: 10 percent, from June, for one year.". Partial: some terms. None: not said at all.
+Checks agreement | Full: for example "Do we agree on all three points?". Partial: only says "okay?". None: not said at all.
+States next steps | Full: for example "I will send the contract Friday.". Partial: said too vaguely to check. None: not said at all.
+Positive start | Full: for example "You handled the greeting well.". Partial: generic praise. None: starts negative.
+Specific example | Full: for example "On call three you repeated the order number.". Partial: only a general version. None: not said at all.
+Practice plan | Full: for example "Let us practise that twice this week.". Partial: said too vaguely to check. None: not said at all.
+Clear structure | Full: for example "Three findings, then a recommendation.". Partial: loose and hard to follow. None: not said at all.
+Uses numbers | Full: for example "Complaints rose 12 percent.". Partial: one number. None: not said at all.
+Gives a recommendation | Full: for example "I recommend adding two agents.". Partial: hedged so it is unclear. None: not said at all.
+Names the trend | Full: for example "Calls rose each month since March.". Partial: said too vaguely to check. None: not said at all.
+Gives reasons | Full: for example "Mainly because of the new price.". Partial: a weak reason. None: not said at all.
+Gives a next step | Full: for example "We should test a fix next month.". Partial: said too vaguely to check. None: not said at all.
+States the change | Full: for example "We will move to chat first.". Partial: said too vaguely to check. None: not said at all.
+Benefits and risks | Full: for example "It is faster, but needs training.". Partial: benefits only. None: only one side.
+Answers objections | Full: for example "The cost is real, and here is how we limit it.". Partial: repeats the claim. None: ignores.
+Says what happened | Full: for example "The system has been down since 9.". Partial: said too vaguely to check. None: not said at all.
+Says what you do | Full: for example "We are working on it.". Partial: said too vaguely to check. None: not said at all.
+Gives next update time | Full: for example "Next update at 2pm.". Partial: "soon". None: not said at all.
+Takes it seriously | Full: for example "This is important and I will help.". Partial: said too briefly to count. None: sounds dismissive.
+Says what you can and cannot say | Full: for example "I can confirm this, but I cannot share that.". Partial: only one side. None: not said at all.
+Gives the process | Full: for example "Please send a request to our privacy team.". Partial: said too vaguely to check. None: not said at all.
+Does not argue | Full: for example "I understand your concern.". Partial: one defensive line. None: argues with the customer.
+Passes to the right team | Full: for example "I will pass this to our legal team.". Partial: said too vaguely to check. None: not said at all.
+Formal tone | Full: for example "We regret the inconvenience.". Partial: mixed tone. None: too casual.
+Clear facts | Full: it is shown clearly: dates and amounts stated. Partial: some facts. None: not said at all.
+Next steps and contact | Full: for example "Please contact us on 0100.". Partial: one of the two. None: not said at all.
+Uses his history | Full: for example "I see you have been with us for five years.". Partial: only a general version. None: not said at all.
+Anticipates needs | Full: for example "You may also need...". Partial: said too vaguely to check. None: not said at all.
+Offers a direct contact | Full: for example "Here is my direct line.". Partial: said too vaguely to check. None: not said at all.
+Asks politely | Full: for example "Would you mind completing a short survey?". Partial: abrupt or rushed. None: demanding.
+Explains purpose | Full: for example "It helps us improve our service.". Partial: said too vaguely to check. None: not said at all.
+Thanks | Full: for example "Thank you for your time.". Partial: a quick version with no detail. None: not said at all.
+Does not oversell | Full: for example "I am glad you are happy.". Partial: a small push. None: hard sell.
+Explains how referrals work | Full: for example "You each get a credit.". Partial: said too vaguely to check. None: not said at all.
+Summarises the timeline | Full: for example "You contacted us on the 3rd, we fixed it on the 7th.". Partial: partial. None: not said at all.
+Records decisions | Full: for example "Refund approved on the 7th.". Partial: said too vaguely to check. None: not said at all.
+States follow-up | Full: for example "I will call in two weeks.". Partial: said too vaguely to check. None: not said at all.
+Offers tailored options | Full: for example "Based on your volume, here are two options.". Partial: generic. None: not said at all.
+Recaps with commitments | Full: for example "I will deliver X by Y.". Partial: said too vaguely to check. None: not said at all.
+Empathy | Full: for example "I understand how serious this is.". Partial: said too briefly to count. None: not said at all.
+Next update time | Full: for example "Next update at 3pm.". Partial: "soon". None: not said at all.
+Verifies identity | Full: for example "Can I check your name and date of birth?". Partial: only one check. None: not said at all.
+Handles data carefully | Full: it is shown clearly: does not read details aloud. Partial: one slip. None: reads private data aloud.
+Records the case | Full: for example "I will log this now.". Partial: said too vaguely to check. None: not said at all.
+Listens | Full: for example "Let me make sure I understand.". Partial: said too briefly to count. None: interrupts the customer.
+Negotiates | Full: for example "If you can wait, I can offer...". Partial: a weak offer. None: gives in or refuses.
