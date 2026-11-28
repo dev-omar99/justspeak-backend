@@ -1,4 +1,5 @@
-import { Injectable, NotFoundException, BadRequestException, UnauthorizedException } from '@nestjs/common';
+import { Injectable, NotFoundException, BadRequestException, UnauthorizedException, ForbiddenException } from '@nestjs/common';
+import { isAdminEmail } from '../admin/admin-policy';
 import * as bcrypt from 'bcrypt';
 import { PrismaService } from '../prisma.service';
 import { RoomsService } from '../rooms/rooms.service';
@@ -670,32 +671,24 @@ export class UsersService {
     return subscriptionStore.getSubscription(userId);
   }
 
-  private async consumeAiTokens(userId: string, amount: number) {
-    const current = await this.getSubscriptionRecord(userId);
-    const nextBalance = Math.max(0, current.aiTokensBalance - Math.max(0, Math.floor(amount)));
-    const delegate = (this.prisma as any).userSubscription;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId },
-          create: {
-            userId,
-            planTier: current.planTier,
-            aiTokensBalance: nextBalance,
-          },
-          update: {
-            aiTokensBalance: nextBalance,
-          },
-        });
-        return {
-          userId: saved.userId,
-          planTier: saved.planTier as PlanTierId,
-          aiTokensBalance: saved.aiTokensBalance,
-          updatedAt: saved.updatedAt.toISOString(),
-        };
-      } catch {}
+  /**
+   * Atomically deducts `amount` AI tokens. The check and the decrement happen in one
+   * conditional UPDATE, so two parallel requests can never spend the same tokens.
+   * Returns null when the balance is too low (nothing is deducted in that case).
+   */
+  private async tryConsumeAiTokens(userId: string, amount: number) {
+    const cost = Math.max(0, Math.floor(amount));
+    if (cost === 0) {
+      return this.getSubscriptionRecord(userId);
     }
-    return subscriptionStore.consumeAiTokens(userId, amount);
+    const result = await this.prisma.userSubscription.updateMany({
+      where: { userId, aiTokensBalance: { gte: cost } },
+      data: { aiTokensBalance: { decrement: cost } },
+    });
+    if (result.count === 0) {
+      return null;
+    }
+    return this.getSubscriptionRecord(userId);
   }
 
   async upgradeSubscription(userId: string, planTier: PlanTierId) {
@@ -741,11 +734,10 @@ export class UsersService {
   }
 
   async consumeAiStudioTokens(userId: string, amount: number) {
-    const current = await this.getSubscriptionRecord(userId);
-    if (current.aiTokensBalance < amount) {
+    const updated = await this.tryConsumeAiTokens(userId, amount);
+    if (!updated) {
       throw new BadRequestException('Insufficient AI Tokens balance for this session.');
     }
-    const updated = await this.consumeAiTokens(userId, amount);
     return {
       success: true,
       planTier: updated.planTier,
@@ -753,7 +745,20 @@ export class UsersService {
     };
   }
 
-  private freeAiTurnsToday = new Map<string, { dateKey: string; count: number }>();
+  /**
+   * Admin-only entry point for the public consume endpoint. A normal user never needs to
+   * deduct their own tokens from the client: the server deducts them inside the AI turn.
+   */
+  async assertCanCallConsumeEndpoint(userId: string) {
+    const u = await this.prisma.user.findUnique({
+      where: { id: userId },
+      select: { email: true, isAdmin: true },
+    });
+    if (!u || u.isAdmin !== true || !isAdminEmail(u.email)) {
+      throw new ForbiddenException('Token deduction is handled by the server.');
+    }
+  }
+
   private static readonly FREE_DAILY_AI_TURNS = 5;
 
   async generateAiCoachTurn(userId: string, dto: AiStudioTurnDto) {
@@ -769,18 +774,28 @@ export class UsersService {
     let remainingAiTokens = sub.aiTokensBalance;
 
     if (sub.planTier === 'FREE' && sub.aiTokensBalance <= 0) {
-      const entry = this.freeAiTurnsToday.get(userId);
-      const usedToday = entry && entry.dateKey === todayKey ? entry.count : 0;
-      if (usedToday >= UsersService.FREE_DAILY_AI_TURNS) {
+      // Stored in Postgres (one row per user per day) so it survives restarts and deploys.
+      // The row is incremented first, then checked, so parallel requests cannot slip past the limit.
+      const usage = await this.prisma.aiFreeTurnUsage.upsert({
+        where: { userId_dateKey: { userId, dateKey: todayKey } },
+        create: { userId, dateKey: todayKey, count: 1 },
+        update: { count: { increment: 1 } },
+      });
+      if (usage.count > UsersService.FREE_DAILY_AI_TURNS) {
+        await this.prisma.aiFreeTurnUsage.update({
+          where: { userId_dateKey: { userId, dateKey: todayKey } },
+          data: { count: { decrement: 1 } },
+        });
         throw new BadRequestException(
           `You have used all ${UsersService.FREE_DAILY_AI_TURNS} free daily AI Coach messages. Upgrade to JustSpeak Plus for 500 AI Tokens/month.`,
         );
       }
-      const nextCount = usedToday + 1;
-      this.freeAiTurnsToday.set(userId, { dateKey: todayKey, count: nextCount });
-      remainingFreeTurns = Math.max(0, UsersService.FREE_DAILY_AI_TURNS - nextCount);
+      remainingFreeTurns = Math.max(0, UsersService.FREE_DAILY_AI_TURNS - usage.count);
     } else if (sub.aiTokensBalance > 0) {
-      const updated = await this.consumeAiTokens(userId, 1);
+      const updated = await this.tryConsumeAiTokens(userId, 1);
+      if (!updated) {
+        throw new BadRequestException('Insufficient AI Tokens balance for this session.');
+      }
       remainingAiTokens = updated.aiTokensBalance;
     }
 

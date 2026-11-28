@@ -33,6 +33,7 @@ model User {
   buddies              UserBuddy[]           @relation("UserBuddies")
   buddyOf              UserBuddy[]           @relation("UserBuddyOf")
   subscription         UserSubscription?
+  aiFreeTurnUsage      AiFreeTurnUsage[]
   partnerMemos         PartnerMemo[]
   academyProgress      AcademyProgress?
   aiPartnerSessions    AiPartnerSession[]
@@ -134,6 +135,16 @@ model UserSubscription {
   planTier        String   @default("FREE")
   aiTokensBalance Int      @default(0)
   updatedAt       DateTime @updatedAt
+}
+
+/// Free-tier AI Coach turns used per user per UTC day (was an in-memory Map, lost on every restart).
+model AiFreeTurnUsage {
+  userId  String
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dateKey String
+  count   Int    @default(0)
+
+  @@id([userId, dateKey])
 }
 
 model PartnerMemo {
