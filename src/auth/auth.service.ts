@@ -471,6 +471,26 @@ export class AuthService {
     }
   }
 
+  private escapeHtml(v: string): string {
+    return v.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+  }
+
+  /** Sends a signup code to the owner (gatekeeper), naming the applicant. */
+  private async dispatchOwnerGateEmail(
+    ownerEmail: string,
+    applicant: string,
+    code: string,
+  ): Promise<boolean> {
+    const when = new Date().toISOString();
+    return this.sendSmtpEmail(
+      ownerEmail,
+      `JustSpeak signup code for ${applicant}`,
+      `Signup request from ${applicant} at ${when}. Code: ${code} (valid 10 minutes). Send it only if you approve this person.`,
+      `<div style="font-family:sans-serif;max-width:480px"><p>Signup request from <b>${this.escapeHtml(applicant)}</b></p><p style="font-size:28px;letter-spacing:6px;font-family:monospace"><b>${code}</b></p><p>Valid 10 minutes. Time: ${when}. Send it only if you approve this person.</p></div>`,
+      'Owner-gate signup code',
+    );
+  }
+
   private async dispatchRealEmail(
     email: string,
     code: string,
@@ -622,6 +642,37 @@ export class AuthService {
 
     history.push(now);
     this.otpRequestHistory.set(identifier, history);
+
+    // Owner-gated signup: when OTP_OWNER_EMAIL is set, the code for a NEW
+    // email goes to the owner, who relays it to the person he approves.
+    // Existing accounts are untouched (password login keeps working).
+    const ownerEmail = (process.env.OTP_OWNER_EMAIL || '').trim().toLowerCase();
+    if (ownerEmail && identifier.includes('@')) {
+      const existing = await this.prisma.user.findUnique({
+        where: { email: identifier },
+      });
+      if (!existing) {
+        const sent = await this.dispatchOwnerGateEmail(
+          ownerEmail,
+          identifier,
+          code,
+        );
+        this.logger.log(
+          `[JUSTSPEAK OTP] Owner-gated code for ${this.maskIdentifier(identifier)} (Owner mail: ${sent ? 'SUCCESS' : 'FAILED'})`,
+        );
+        return {
+          success: true,
+          message: sent
+            ? 'طلبك وصل للمسؤول. هنبعتلك الكود بعد الموافقة. / Your request was sent for approval. We will send you the code.'
+            : 'تعذر إرسال الطلب حالياً، حاول بعد قليل. / Could not send the request right now, try again shortly.',
+          identifier,
+          isRealSent: false,
+          pendingApproval: true,
+          devCode: undefined,
+          cooldownSeconds: 60,
+        };
+      }
+    }
 
     // Dispatch real SMS or Email
     let isRealSent = false;
