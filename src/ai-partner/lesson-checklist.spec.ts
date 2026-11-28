@@ -16,3 +16,19 @@ describe('lesson checklist', () => {
     expect(lines).toHaveLength(MAX_CHECKLIST_ITEMS);
   });
 });
+
+import { alignChecklist, checklistReportInstruction } from './lesson-checklist';
+describe('report checklist', () => {
+  const rubric = [{ label: 'Says name' }, { label: 'Gives a reason' }];
+  it('keeps only real labels in rubric order and never invents answers', () => {
+    const out = alignChecklist([{ label: 'gives a reason', covered: false }, { label: 'Made up', covered: true }, { label: 'Says name', covered: true }], rubric);
+    expect(out).toEqual([{ label: 'Says name', covered: true }, { label: 'Gives a reason', covered: false }]);
+    expect(alignChecklist([{ label: 'Says name', covered: true }], rubric)).toEqual([{ label: 'Says name', covered: true }]);
+    expect(alignChecklist(undefined, rubric)).toBeUndefined();
+    expect(alignChecklist([{ label: 'Other', covered: true }], rubric)).toBeUndefined();
+  });
+  it('asks for the labels in the report prompt', () => {
+    expect(checklistReportInstruction(rubric)).toContain('"Says name", "Gives a reason"');
+    expect(checklistReportInstruction([])).toBe('');
+  });
+});

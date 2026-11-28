@@ -226,6 +226,8 @@ export interface SessionReport {
   };
   /** One-line reason and an exact learner quote per dimension. Quotes are verified against the transcript in code. */
   dimension_notes?: Partial<Record<DimensionKey, DimensionNote>>;
+  /** Which lesson checklist points the conversation covered. Absent on older reports and when the model did not return it. */
+  checklist?: { label: string; covered: boolean }[];
   /** How each score was produced, set in code: measured from the audio or metrics, or judged by the model (an estimate). */
   dimension_basis?: Partial<Record<DimensionKey, 'measured' | 'estimated'>>;
   /** Dimensions the learner knowingly skipped; shown as "Not attempted". Absent when none. */
@@ -317,6 +319,9 @@ export function parseSessionReport(rawText: string): SessionReport | null {
       ...('coherence' in dims ? { coherence: scoreOrNull(dims.coherence) } : {}),
     },
     dimension_notes: parseDimensionNotes(parsed.dimension_notes),
+    ...(Array.isArray(parsed.checklist)
+      ? { checklist: parsed.checklist.filter((c: any) => c && typeof c.label === 'string' && typeof c.covered === 'boolean').slice(0, 8).map((c: any) => ({ label: String(c.label), covered: c.covered as boolean })) }
+      : {}),
     metrics_echo: {
       student_speech_sec: Number(metrics.student_speech_sec) || 0,
       words_per_minute: Number(metrics.words_per_minute) || 0,

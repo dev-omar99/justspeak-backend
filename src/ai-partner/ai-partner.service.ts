@@ -1,3 +1,4 @@
+import { alignChecklist, checklistReportInstruction } from './lesson-checklist';
 import {
   ForbiddenException,
   Injectable,
@@ -429,7 +430,8 @@ export class AiPartnerService {
           `Learner goal: ${scenario.goal}. ` +
           `Scoring rubric: ${scenario.rubric.map((r) => `${r.label} (${r.hint})`).join('; ')}. ` +
           `Judge the summary, strength and growth area against this goal and rubric, ` +
-          `and mention the scenario by name in the summary.\n\n`;
+          `and mention the scenario by name in the summary.\n\n` +
+          checklistReportInstruction(scenario.rubric);
       }
     }
     // Give the model the computed word-choice numbers so its coaching
@@ -453,7 +455,14 @@ export class AiPartnerService {
         prompt,
         maxTokens: 3000,
       });
-      return parseSessionReport(raw);
+      const report = parseSessionReport(raw);
+      if (report && roleplayId) {
+        const sc = getRoleplay(roleplayId);
+        const aligned = sc ? alignChecklist(report.checklist, sc.rubric) : undefined;
+        if (aligned) report.checklist = aligned;
+        else delete report.checklist;
+      }
+      return report;
     } catch (err) {
       this.logger.warn(`Report generation failed: ${(err as Error).message}`);
       return null;
