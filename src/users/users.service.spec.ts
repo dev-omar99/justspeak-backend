@@ -17,6 +17,9 @@ describe('UsersService', () => {
     sessionFeedback: {
       findMany: jest.fn(),
     },
+    userSubscription: {
+      findUnique: jest.fn().mockResolvedValue(null),
+    },
     userBlock: {
       findMany: jest.fn(),
       deleteMany: jest.fn(),

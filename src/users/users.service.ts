@@ -1,9 +1,10 @@
-import { Injectable, NotFoundException, BadRequestException, UnauthorizedException } from '@nestjs/common';
+import { Injectable, NotFoundException, BadRequestException, UnauthorizedException, ForbiddenException } from '@nestjs/common';
+import { isAdminEmail } from '../admin/admin-policy';
 import * as bcrypt from 'bcrypt';
 import { PrismaService } from '../prisma.service';
 import { RoomsService } from '../rooms/rooms.service';
 import { UpdateProfileDto, AiStudioTurnDto } from './dto';
-import { subscriptionStore, PlanTierId } from './subscription-store';
+import type { PlanTierId } from './subscription-store';
 
 export interface RecentPartnerDto {
   id: string;
@@ -644,58 +645,43 @@ export class UsersService {
     ELITE: 3500,
   };
 
+  /** Reads the subscription from Postgres. A user with no row is a FREE user with 0 tokens. */
   private async getSubscriptionRecord(userId: string) {
-    const delegate = (this.prisma as any).userSubscription;
-    if (delegate?.findUnique) {
-      try {
-        const record = await delegate.findUnique({ where: { userId } });
-        if (record) {
-          return {
-            userId: record.userId,
-            planTier: record.planTier as PlanTierId,
-            aiTokensBalance: record.aiTokensBalance,
-            updatedAt: record.updatedAt.toISOString(),
-          };
-        }
-        return {
-          userId,
-          planTier: 'FREE' as PlanTierId,
-          aiTokensBalance: 0,
-          updatedAt: new Date().toISOString(),
-        };
-      } catch {
-        // Fallback if table not migrated yet
-      }
+    const record = await this.prisma.userSubscription.findUnique({ where: { userId } });
+    if (record) {
+      return {
+        userId: record.userId,
+        planTier: record.planTier as PlanTierId,
+        aiTokensBalance: record.aiTokensBalance,
+        updatedAt: record.updatedAt.toISOString(),
+      };
     }
-    return subscriptionStore.getSubscription(userId);
+    return {
+      userId,
+      planTier: 'FREE' as PlanTierId,
+      aiTokensBalance: 0,
+      updatedAt: new Date().toISOString(),
+    };
   }
 
-  private async consumeAiTokens(userId: string, amount: number) {
-    const current = await this.getSubscriptionRecord(userId);
-    const nextBalance = Math.max(0, current.aiTokensBalance - Math.max(0, Math.floor(amount)));
-    const delegate = (this.prisma as any).userSubscription;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId },
-          create: {
-            userId,
-            planTier: current.planTier,
-            aiTokensBalance: nextBalance,
-          },
-          update: {
-            aiTokensBalance: nextBalance,
-          },
-        });
-        return {
-          userId: saved.userId,
-          planTier: saved.planTier as PlanTierId,
-          aiTokensBalance: saved.aiTokensBalance,
-          updatedAt: saved.updatedAt.toISOString(),
-        };
-      } catch {}
+  /**
+   * Atomically deducts `amount` AI tokens. The check and the decrement happen in one
+   * conditional UPDATE, so two parallel requests can never spend the same tokens.
+   * Returns null when the balance is too low (nothing is deducted in that case).
+   */
+  private async tryConsumeAiTokens(userId: string, amount: number) {
+    const cost = Math.max(0, Math.floor(amount));
+    if (cost === 0) {
+      return this.getSubscriptionRecord(userId);
     }
-    return subscriptionStore.consumeAiTokens(userId, amount);
+    const result = await this.prisma.userSubscription.updateMany({
+      where: { userId, aiTokensBalance: { gte: cost } },
+      data: { aiTokensBalance: { decrement: cost } },
+    });
+    if (result.count === 0) {
+      return null;
+    }
+    return this.getSubscriptionRecord(userId);
   }
 
   async upgradeSubscription(userId: string, planTier: PlanTierId) {
@@ -707,45 +693,24 @@ export class UsersService {
         ? current.aiTokensBalance + UsersService.PLAN_DEFAULT_TOKENS[planTier]
         : current.aiTokensBalance;
 
-    const delegate = (this.prisma as any).userSubscription;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId },
-          create: {
-            userId,
-            planTier,
-            aiTokensBalance: nextTokens,
-          },
-          update: {
-            planTier,
-            aiTokensBalance: nextTokens,
-          },
-        });
-        return {
-          success: true,
-          planTier: saved.planTier as PlanTierId,
-          aiTokensBalance: saved.aiTokensBalance,
-          updatedAt: saved.updatedAt.toISOString(),
-        };
-      } catch {}
-    }
-
-    const updated = subscriptionStore.setSubscription(userId, planTier);
+    const saved = await this.prisma.userSubscription.upsert({
+      where: { userId },
+      create: { userId, planTier, aiTokensBalance: nextTokens },
+      update: { planTier, aiTokensBalance: nextTokens },
+    });
     return {
       success: true,
-      planTier: updated.planTier,
-      aiTokensBalance: updated.aiTokensBalance,
-      updatedAt: updated.updatedAt,
+      planTier: saved.planTier as PlanTierId,
+      aiTokensBalance: saved.aiTokensBalance,
+      updatedAt: saved.updatedAt.toISOString(),
     };
   }
 
   async consumeAiStudioTokens(userId: string, amount: number) {
-    const current = await this.getSubscriptionRecord(userId);
-    if (current.aiTokensBalance < amount) {
+    const updated = await this.tryConsumeAiTokens(userId, amount);
+    if (!updated) {
       throw new BadRequestException('Insufficient AI Tokens balance for this session.');
     }
-    const updated = await this.consumeAiTokens(userId, amount);
     return {
       success: true,
       planTier: updated.planTier,
@@ -753,7 +718,20 @@ export class UsersService {
     };
   }
 
-  private freeAiTurnsToday = new Map<string, { dateKey: string; count: number }>();
+  /**
+   * Admin-only entry point for the public consume endpoint. A normal user never needs to
+   * deduct their own tokens from the client: the server deducts them inside the AI turn.
+   */
+  async assertCanCallConsumeEndpoint(userId: string) {
+    const u = await this.prisma.user.findUnique({
+      where: { id: userId },
+      select: { email: true, isAdmin: true },
+    });
+    if (!u || u.isAdmin !== true || !isAdminEmail(u.email)) {
+      throw new ForbiddenException('Token deduction is handled by the server.');
+    }
+  }
+
   private static readonly FREE_DAILY_AI_TURNS = 5;
 
   async generateAiCoachTurn(userId: string, dto: AiStudioTurnDto) {
@@ -769,18 +747,28 @@ export class UsersService {
     let remainingAiTokens = sub.aiTokensBalance;
 
     if (sub.planTier === 'FREE' && sub.aiTokensBalance <= 0) {
-      const entry = this.freeAiTurnsToday.get(userId);
-      const usedToday = entry && entry.dateKey === todayKey ? entry.count : 0;
-      if (usedToday >= UsersService.FREE_DAILY_AI_TURNS) {
+      // Stored in Postgres (one row per user per day) so it survives restarts and deploys.
+      // The row is incremented first, then checked, so parallel requests cannot slip past the limit.
+      const usage = await this.prisma.aiFreeTurnUsage.upsert({
+        where: { userId_dateKey: { userId, dateKey: todayKey } },
+        create: { userId, dateKey: todayKey, count: 1 },
+        update: { count: { increment: 1 } },
+      });
+      if (usage.count > UsersService.FREE_DAILY_AI_TURNS) {
+        await this.prisma.aiFreeTurnUsage.update({
+          where: { userId_dateKey: { userId, dateKey: todayKey } },
+          data: { count: { decrement: 1 } },
+        });
         throw new BadRequestException(
           `You have used all ${UsersService.FREE_DAILY_AI_TURNS} free daily AI Coach messages. Upgrade to JustSpeak Plus for 500 AI Tokens/month.`,
         );
       }
-      const nextCount = usedToday + 1;
-      this.freeAiTurnsToday.set(userId, { dateKey: todayKey, count: nextCount });
-      remainingFreeTurns = Math.max(0, UsersService.FREE_DAILY_AI_TURNS - nextCount);
+      remainingFreeTurns = Math.max(0, UsersService.FREE_DAILY_AI_TURNS - usage.count);
     } else if (sub.aiTokensBalance > 0) {
-      const updated = await this.consumeAiTokens(userId, 1);
+      const updated = await this.tryConsumeAiTokens(userId, 1);
+      if (!updated) {
+        throw new BadRequestException('Insufficient AI Tokens balance for this session.');
+      }
       remainingAiTokens = updated.aiTokensBalance;
     }
 
@@ -961,19 +949,13 @@ Respond ONLY with valid JSON (no markdown) matching:
   }
 
   async getMemos(userId: string) {
-    const delegate = (this.prisma as any).partnerMemo;
-    if (delegate?.findMany) {
-      try {
-        const rows = await delegate.findMany({ where: { userId } });
-        return rows.map((r: any) => ({
-          userId: r.userId,
-          partnerId: r.partnerId,
-          memo: r.memo,
-          updatedAt: r.updatedAt.toISOString(),
-        }));
-      } catch {}
-    }
-    return subscriptionStore.getUserMemos(userId);
+    const rows = await this.prisma.partnerMemo.findMany({ where: { userId } });
+    return rows.map((r) => ({
+      userId: r.userId,
+      partnerId: r.partnerId,
+      memo: r.memo,
+      updatedAt: r.updatedAt.toISOString(),
+    }));
   }
 
   async saveMemo(userId: string, partnerId: string, memo: string) {
@@ -982,62 +964,44 @@ Respond ONLY with valid JSON (no markdown) matching:
     }
     const cleanPartnerId = partnerId.trim();
     const cleanMemo = (memo || '').trim().slice(0, 600);
-    const delegate = (this.prisma as any).partnerMemo;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId_partnerId: { userId, partnerId: cleanPartnerId } },
-          create: { userId, partnerId: cleanPartnerId, memo: cleanMemo },
-          update: { memo: cleanMemo },
-        });
-        return {
-          success: true,
-          memo: {
-            userId: saved.userId,
-            partnerId: saved.partnerId,
-            memo: saved.memo,
-            updatedAt: saved.updatedAt.toISOString(),
-          },
-        };
-      } catch {}
-    }
-    const saved = subscriptionStore.saveUserMemo(userId, cleanPartnerId, cleanMemo);
+    const saved = await this.prisma.partnerMemo.upsert({
+      where: { userId_partnerId: { userId, partnerId: cleanPartnerId } },
+      create: { userId, partnerId: cleanPartnerId, memo: cleanMemo },
+      update: { memo: cleanMemo },
+    });
     return {
       success: true,
-      memo: saved,
+      memo: {
+        userId: saved.userId,
+        partnerId: saved.partnerId,
+        memo: saved.memo,
+        updatedAt: saved.updatedAt.toISOString(),
+      },
     };
   }
 
   async getAcademyProgress(userId: string) {
-    const delegate = (this.prisma as any).academyProgress;
-    if (delegate?.findUnique) {
-      try {
-        const row = await delegate.findUnique({ where: { userId } });
-        if (row) {
-          return {
-            progress: {
-              userId: row.userId,
-              cefrLevel: row.cefrLevel,
-              placementCompleted: row.placementCompleted,
-              dailySpeakingGoalMins: row.dailySpeakingGoalMins,
-              learnedWordIds: row.learnedWordIds || [],
-              completedLessonIds: row.completedLessonIds || [],
-              completedReadingIds: row.completedReadingIds || [],
-              completedListeningIds: row.completedListeningIds || [],
-              completedShadowingIds: row.completedShadowingIds || [],
-              completedPronunciationIds: row.completedPronunciationIds || [],
-              dailyCompletedTaskIds: row.dailyCompletedTaskIds || [],
-              dailyDateKey: row.dailyDateKey || '',
-              scores: row.scores as any,
-              updatedAt: row.updatedAt.toISOString(),
-            },
-          };
-        }
-        return { progress: null };
-      } catch {}
+    const row = await this.prisma.academyProgress.findUnique({ where: { userId } });
+    if (!row) {
+      return { progress: null };
     }
     return {
-      progress: subscriptionStore.getAcademyProgress(userId),
+      progress: {
+        userId: row.userId,
+        cefrLevel: row.cefrLevel,
+        placementCompleted: row.placementCompleted,
+        dailySpeakingGoalMins: row.dailySpeakingGoalMins,
+        learnedWordIds: row.learnedWordIds || [],
+        completedLessonIds: row.completedLessonIds || [],
+        completedReadingIds: row.completedReadingIds || [],
+        completedListeningIds: row.completedListeningIds || [],
+        completedShadowingIds: row.completedShadowingIds || [],
+        completedPronunciationIds: row.completedPronunciationIds || [],
+        dailyCompletedTaskIds: row.dailyCompletedTaskIds || [],
+        dailyDateKey: row.dailyDateKey || '',
+        scores: row.scores as any,
+        updatedAt: row.updatedAt.toISOString(),
+      },
     };
   }
 
@@ -1085,29 +1049,18 @@ Respond ONLY with valid JSON (no markdown) matching:
       },
     };
 
-    const delegate = (this.prisma as any).academyProgress;
-    if (delegate?.upsert) {
-      try {
-        const saved = await delegate.upsert({
-          where: { userId },
-          create: { userId, ...payload },
-          update: payload,
-        });
-        return {
-          success: true,
-          progress: {
-            ...payload,
-            userId: saved.userId,
-            updatedAt: saved.updatedAt.toISOString(),
-          },
-        };
-      } catch {}
-    }
-
-    const saved = subscriptionStore.saveAcademyProgress(userId, payload);
+    const saved = await this.prisma.academyProgress.upsert({
+      where: { userId },
+      create: { userId, ...payload },
+      update: payload,
+    });
     return {
       success: true,
-      progress: saved,
+      progress: {
+        ...payload,
+        userId: saved.userId,
+        updatedAt: saved.updatedAt.toISOString(),
+      },
     };
   }
 

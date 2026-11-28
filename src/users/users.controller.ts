@@ -94,7 +94,7 @@ export class UsersController {
 
   @UseGuards(JwtAuthGuard)
   @Post('subscription')
-  @ApiOperation({ summary: 'Upgrade or change subscription tier (FREE, PRO, UNLIMITED)' })
+  @ApiOperation({ summary: 'Upgrade or change subscription tier (FREE, PLUS, ELITE)' })
   async upgradeSubscription(@Req() req: any, @Body() dto: UpdateSubscriptionDto) {
     const userId = req.user.sub;
     return this.usersService.upgradeSubscription(userId, dto.planTier);
@@ -105,6 +105,8 @@ export class UsersController {
   @ApiOperation({ summary: 'Deduct AI tokens for AI practice sessions' })
   async consumeAiTokens(@Req() req: any, @Body() dto: ConsumeAiTokensDto) {
     const userId = req.user.sub;
+    // Server-side deduction happens inside the AI turn; the client may not spend or edit its own balance.
+    await this.usersService.assertCanCallConsumeEndpoint(userId);
     return this.usersService.consumeAiStudioTokens(userId, dto.amount);
   }
 
