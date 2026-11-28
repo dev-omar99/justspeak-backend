@@ -54,15 +54,15 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says own name",
-      "hint": "Scene goal: say your name and ask his. Full credit if the learner clearly shows: says own name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says \"My name is ...\" or \"I'm ...\" clearly. Partial: name mumbled or rushed. None: no name. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks his name",
-      "hint": "Scene goal: say your name and ask his. Full credit if the learner clearly shows: asks his name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"What's your name?\" or \"And you?\" Partial: pauses and waits without asking. None: does not ask. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says nice to meet you",
-      "hint": "Scene goal: say your name and ask his. Full credit if the learner clearly shows: says nice to meet you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says \"Nice to meet you.\" Partial: says only \"Hello\". None: no greeting. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -1354,7 +1354,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
      },
      {
       "label": "Says nice to meet you",
-      "hint": "Scene goal: end a chat politely. Full credit if the learner clearly shows: says nice to meet you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says \"Nice to meet you.\" Partial: says only \"Hello\". None: no greeting. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Suggests meeting again",
@@ -2918,15 +2918,15 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses a light joke",
-      "hint": "Scene goal: use humour naturally. Full credit if the learner clearly shows: uses a light joke. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: makes a short, friendly joke that fits the topic. Partial: tries but it is unclear or forced. None: no humour. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reads her reaction",
-      "hint": "Scene goal: use humour naturally. Full credit if the learner clearly shows: reads her reaction. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: notices how the friend reacts and responds, like \"Sorry, too much?\" or follows with more. Partial: ignores one clear reaction. None: keeps going regardless. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Stays kind",
-      "hint": "Scene goal: use humour naturally. Full credit if the learner clearly shows: stays kind. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: the joke is never at the friend's expense. Partial: one edgy remark. None: unkind. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [

@@ -1,0 +1,3 @@
+Names the failure | Full: says exactly what went wrong, like "Your refund was promised for Monday and it did not arrive." Partial: says only "the issue" or "the problem". None: avoids naming it.
+Makes specific promises | Full: promises actions the agent can keep, like "I will call you myself on Thursday before noon." Partial: general promises like "We will do better". None: no promise.
+Gives dates | Full: attaches a date or time to each promise, like "by Friday 5 pm". Partial: dates for some promises only, or "soon". None: no dates.

@@ -1,0 +1,6 @@
+Honest | Full: names the gap or weakness plainly, like "I left my job to care for my family for eight months." Partial: true but vague or rehearsed-sounding, like "I took some time off." None: denies or invents.
+No excuse | Full: explains without blaming anyone and without defending, like "That was my decision and I would plan it differently." Partial: one excuse or blame, like "My manager did not help." None: mostly excuses.
+Focus on growth | Full: ends on what they learned or did next, like "Since then I finished a course and volunteered at a call centre." Partial: spends most of the answer on the problem. None: no move forward.
+Where | Full: names the place of study or work, like "I worked at a phone shop in Nasr City." Partial: says only "a shop". None: omitted.
+How long | Full: gives a length of time, like "for two years". Partial: vague like "a long time". None: omitted.
+Complete sentences | Full: every answer is a full sentence with subject and verb, like "I studied business for four years." Partial: a mix of sentences and fragments. None: only words.

@@ -1,0 +1,6 @@
+Says own name | Full: says "My name is ..." or "I'm ..." clearly. Partial: name mumbled or rushed. None: no name.
+Asks his name | Full: asks "What's your name?" or "And you?" Partial: pauses and waits without asking. None: does not ask.
+Says nice to meet you | Full: says "Nice to meet you." Partial: says only "Hello". None: no greeting.
+Uses a light joke | Full: makes a short, friendly joke that fits the topic. Partial: tries but it is unclear or forced. None: no humour.
+Reads her reaction | Full: notices how the friend reacts and responds, like "Sorry, too much?" or follows with more. Partial: ignores one clear reaction. None: keeps going regardless.
+Stays kind | Full: the joke is never at the friend's expense. Partial: one edgy remark. None: unkind.

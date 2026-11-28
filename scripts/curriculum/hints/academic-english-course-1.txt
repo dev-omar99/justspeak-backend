@@ -1,0 +1,233 @@
+Says name | Full: says their name clearly, like "I'm Salma." Partial: rushed or missing.
+Says country | Full: says where they are from in a frame, like "I'm from Egypt." Partial: one word.
+Says subject | Full: says what they study, like "I study law." Partial: unclear.
+Asks where | Full: asks "Where is room 204?" or similar. Partial: says only the room number.
+Understands left or right | Full: follows or repeats left, right and straight on correctly. Partial: needs them repeated.
+Says thank you | Full: thanks the person for the help. Partial: only when prompted.
+Gives name | Full: gives their name for the register clearly. Partial: unclear.
+Names the class | Full: names the class they want. Partial: vague.
+Spells a word | Full: spells their name letter by letter. Partial: partly.
+Greets politely | Full: greets a teacher politely, like "Good morning, Dr Hana." Partial: no greeting.
+Says what they study | Full: says what they study with a frame. Partial: one word.
+Asks one question | Full: asks one clear question. Partial: none.
+Asks to repeat | Full: asks "Could you say that again, please?" Partial: says "What?"
+Asks to speak slowly | Full: asks "Could you speak more slowly, please?" Partial: only "slow".
+Says I do not understand | Full: says "I don't understand" at the right moment. Partial: stays silent.
+Names the word | Full: names the exact word they did not understand. Partial: "the thing".
+Asks for an example | Full: asks "Can you give an example?" Partial: none.
+Asks what it means | Full: asks "What does ... mean?" with the word. Partial: points vaguely.
+Repeats the answer | Full: repeats the explained meaning. Partial: none.
+Says a date | Full: says a full date clearly. Partial: day only.
+Says a number | Full: says the number in groups. Partial: one string.
+Checks it back | Full: reads it back to confirm. Partial: none.
+Names days | Full: names the days they have class. Partial: some.
+Says times | Full: says the class times. Partial: some.
+Names a subject | Full: names at least one subject. Partial: none.
+Asks to borrow | Full: asks "Could I borrow this book, please?" Partial: "Give me book."
+Gives a title | Full: gives the title or author. Partial: vague.
+Asks how long | Full: asks "How long can I keep it?" Partial: none.
+Asks about homework | Full: asks what the homework is. Partial: none.
+Asks about the date | Full: asks when it is due. Partial: none.
+Confirms | Full: repeats to confirm what was said. Partial: "OK".
+Invites | Full: invites a classmate, like "Do you want to study together?" Partial: hints.
+Suggests a time | Full: suggests a time. Partial: none.
+Agrees a place | Full: agrees a place. Partial: none.
+Says the subject | Full: says the subject they want and why. Partial: subject only.
+Gives one reason | Full: gives one reason. Partial: none.
+Asks about the schedule | Full: asks about the timetable. Partial: none.
+Asks the time | Full: asks when the class is. Partial: none.
+Asks the room | Full: asks where the class is. Partial: none.
+Checks the answer | Full: repeats the answer to check. Partial: none.
+Says sorry | Full: apologises briefly. Partial: none.
+Gives a reason | Full: gives a short reason. Partial: none.
+Asks what they missed | Full: asks "What did I miss?" Partial: none.
+Explains the problem | Full: explains the problem in two sentences. Partial: vague.
+Asks politely | Full: uses "Would it be possible...?" or "Could I...?" Partial: demands.
+Thanks the lecturer | Full: thanks the lecturer. Partial: none.
+Names the subject | Full: names the subject. Partial: vague.
+Mentions one topic | Full: mentions one topic they enjoy. Partial: none.
+Uses time words | Full: uses first, then, after, at nine. Partial: none.
+Names activities | Full: names two or more activities. Partial: one.
+Uses simple past or present correctly | Full: uses the right tense for the story. Partial: mixes.
+Describes routine | Full: describes a routine in order. Partial: random.
+Gives one tip | Full: gives one practical tip. Partial: none.
+Says what is hard | Full: says what is hard for them. Partial: avoids.
+States a plan | Full: states a plan for after graduating. Partial: "I don't know".
+Says when | Full: says when. Partial: none.
+Suggests a topic | Full: suggests a topic with a reason. Partial: just a word.
+Asks for opinions | Full: asks "What do you think?" Partial: none.
+Agrees on one | Full: agrees on one topic. Partial: stays undecided.
+Offers a task | Full: offers a task, like "I can do the slides." Partial: none.
+Asks others | Full: asks what others can do. Partial: none.
+Confirms the plan | Full: repeats who does what. Partial: none.
+Handles a clash | Full: offers another time when there is a clash. Partial: gives up.
+Says what is done | Full: says what the group has done. Partial: vague.
+Says what is next | Full: says the next step. Partial: none.
+Mentions one problem | Full: mentions one problem briefly. Partial: avoids.
+Greets | Full: greets the audience. Partial: none.
+Names the topic | Full: names the topic of the talk. Partial: unclear.
+Says the plan | Full: says what the talk will cover. Partial: none.
+Names things | Full: names things in the picture. Partial: few.
+Says where they are | Full: uses on, next to, behind correctly. Partial: none.
+Says what people do | Full: uses the present continuous, like "She is reading." Partial: single words.
+States opinion | Full: states a view with "I think...". Partial: hints.
+Uses because | Full: uses "because" with a reason. Partial: none.
+Thanks the audience | Full: thanks the audience. Partial: none.
+Answers briefly | Full: answers a question in one or two sentences. Partial: long.
+Asks if there are questions | Full: asks "Are there any questions?" Partial: none.
+States a view | Full: states a view clearly with a reason. Partial: vague.
+Responds to a classmate | Full: responds to what a classmate said. Partial: ignores.
+Refers to the point | Full: refers to the point they ask about. Partial: vague.
+Asks clearly | Full: asks one clear question. Partial: confusing.
+Follows up | Full: follows up on the answer. Partial: none.
+Summarises | Full: summarises in one or two sentences. Partial: partial.
+Asks if correct | Full: asks "Is that right?" Partial: none.
+Fixes a detail | Full: corrects a detail. Partial: none.
+Uses polite language | Full: uses "I see your point, but...". Partial: blunt.
+Offers a middle way | Full: proposes a compromise. Partial: none.
+Gives the reason | Full: gives the reason. Partial: none.
+Suggests times | Full: suggests two or more times. Partial: one.
+Asks what to improve | Full: asks what to improve. Partial: none.
+Says what they will do | Full: says what they will do next. Partial: vague.
+Describes the problem | Full: describes the problem with an example. Partial: general.
+Says what they tried | Full: says what they already tried. Partial: none.
+Asks for advice | Full: asks for advice. Partial: none.
+Explains why | Full: explains why they ask. Partial: none.
+Gives details | Full: gives details such as the course and date. Partial: general.
+Gives the topic | Full: gives the topic of the chart. Partial: none.
+Names the highest and lowest | Full: names the highest and lowest values. Partial: one.
+Compares two items | Full: compares with "higher than" or "less than". Partial: lists.
+Uses change words | Full: uses rise, fall, stay stable correctly. Partial: wrong.
+Gives numbers | Full: quotes figures from the chart. Partial: none.
+Gives a time frame | Full: gives the years or months. Partial: none.
+Compares | Full: compares options with reasons. Partial: lists.
+Gives reasons | Full: gives reasons. Partial: none.
+Decides | Full: makes a decision. Partial: stays undecided.
+Names the cause | Full: names the cause. Partial: vague.
+Names the result | Full: names the result. Partial: vague.
+Links them clearly | Full: links with "so", "therefore" or "as a result". Partial: none.
+Opens with a hook | Full: opens with a surprising fact or question. Partial: flat.
+Gives the plan | Full: gives the plan of the talk. Partial: none.
+Signposts points | Full: says "first", "second", "finally". Partial: none.
+Gives an example | Full: gives an example. Partial: none.
+Keeps the order | Full: keeps to the order announced. Partial: jumps.
+Refers to the slide | Full: refers to the slide, like "As you can see here...". Partial: ignores.
+Explains the key point | Full: explains the one key point of the slide. Partial: reads text.
+Moves on | Full: moves on with a linking phrase. Partial: stops.
+Answers clearly | Full: answers directly. Partial: avoids.
+Admits limits | Full: says "I'm not sure, I'll check." Partial: guesses.
+Offers to follow up | Full: offers to follow up. Partial: none.
+Sets a schedule | Full: sets a revision schedule. Partial: vague.
+Gives priorities | Full: names priorities. Partial: none.
+Says how to check progress | Full: says how to check progress. Partial: none.
+Describes stress | Full: describes what stresses them. Partial: vague.
+Gives a coping idea | Full: gives a coping idea. Partial: none.
+Answers fully | Full: answers fully with a reason and example. Partial: short.
+Adds a reason | Full: adds a reason. Partial: none.
+Adds an example | Full: adds an example. Partial: none.
+Organises the talk | Full: organises with opening, points, ending. Partial: loose.
+Keeps going | Full: keeps going for the time. Partial: stops early.
+Finishes clearly | Full: finishes with a clear closing line. Partial: trails.
+Frames the topic | Full: frames the topic and the main question. Partial: vague.
+Invites views | Full: invites views. Partial: none.
+Keeps neutral | Full: stays neutral. Partial: pushes a view.
+Invites others | Full: invites quiet members. Partial: none.
+Redirects politely | Full: redirects politely. Partial: ignores.
+Keeps to time | Full: keeps to time. Partial: over.
+Reports fairly | Full: reports views fairly. Partial: biased.
+Groups similar views | Full: groups similar views. Partial: lists.
+Names the gap | Full: names the gap between views. Partial: none.
+Recaps decisions | Full: recaps decisions. Partial: some.
+Assigns tasks | Full: assigns tasks. Partial: vague.
+Sets a time | Full: sets a time. Partial: none.
+States position | Full: states a clear position. Partial: vague.
+Gives two reasons | Full: gives two reasons. Partial: one.
+Adds evidence | Full: adds evidence. Partial: none.
+Names a source | Full: names a source. Partial: "studies say".
+Explains it | Full: explains what the source shows. Partial: none.
+Links to the claim | Full: links the evidence back to the claim. Partial: none.
+Acknowledges | Full: acknowledges the challenge. Partial: ignores.
+Defends calmly | Full: defends calmly. Partial: defensive.
+Concedes a detail | Full: concedes a small detail. Partial: none.
+Admits the point | Full: admits the good point. Partial: none.
+Adjusts the view | Full: adjusts the view. Partial: none.
+States the aim | Full: states the aim. Partial: unclear.
+Describes the method | Full: describes the method. Partial: vague.
+Notes a limit | Full: notes a limit. Partial: none.
+Gives results | Full: gives results with numbers. Partial: general.
+Avoids overclaiming | Full: avoids overclaiming, like "suggests" not "proves". Partial: overclaims.
+Names limits | Full: names limits. Partial: none.
+Explains effect | Full: explains how limits affect results. Partial: none.
+Suggests next step | Full: suggests next step. Partial: none.
+Names criteria | Full: names criteria for judging a source. Partial: none.
+Admits doubt | Full: admits doubt. Partial: none.
+States motivation | Full: states motivation. Partial: vague.
+Gives evidence | Full: gives evidence. Partial: none.
+Links to goals | Full: links to goals. Partial: none.
+Names strengths | Full: names strengths. Partial: vague.
+Gives examples | Full: gives examples. Partial: none.
+Stays honest | Full: stays honest. Partial: exaggerates.
+Buys thinking time | Full: says "That's a good question, let me think." Partial: silence.
+Gives structure | Full: answers in structure. Partial: loose.
+Concludes | Full: concludes. Partial: none.
+Asks relevant questions | Full: asks relevant questions. Partial: generic.
+Shows interest | Full: shows interest. Partial: flat.
+Thanks the panel | Full: thanks the panel. Partial: none.
+Adds reasons | Full: adds reasons. Partial: none.
+Adds examples | Full: adds examples. Partial: none.
+Keeps pace | Full: keeps a steady pace. Partial: slow.
+Opens clearly | Full: opens clearly. Partial: unclear.
+Develops points | Full: develops points. Partial: lists.
+Closes clearly | Full: closes clearly. Partial: trails.
+Gives both sides | Full: gives both sides. Partial: one.
+Takes a position | Full: takes a position. Partial: avoids.
+Uses linking words | Full: uses however, although, because. Partial: none.
+Names the weakness | Full: names the weakness. Partial: avoids.
+Tries a fix | Full: tries the fix. Partial: none.
+Compares the result | Full: compares before and after. Partial: none.
+Defines clearly | Full: defines clearly. Partial: vague.
+Sets limits | Full: sets limits of the term. Partial: none.
+Compares evidence | Full: compares evidence. Partial: none.
+Judges quality | Full: judges quality. Partial: none.
+Reaches a view | Full: reaches a view. Partial: none.
+Pinpoints the gap | Full: pinpoints the gap. Partial: vague.
+Offers an alternative | Full: offers an alternative. Partial: none.
+Summarises sources | Full: summarises sources. Partial: one.
+Finds a link | Full: finds a link between views. Partial: none.
+States a position | Full: states a position. Partial: vague.
+States the contribution | Full: states the contribution. Partial: unclear.
+Frames the gap | Full: frames the research gap. Partial: none.
+Signposts | Full: signposts. Partial: none.
+Explains findings | Full: explains findings. Partial: lists.
+States implications | Full: states implications. Partial: none.
+Stays precise | Full: stays precise. Partial: vague.
+Stays calm | Full: stays calm. Partial: shaky.
+Addresses the core | Full: addresses the core of the question. Partial: side issue.
+Defends or concedes | Full: defends or concedes with reasons. Partial: neither.
+Justifies the choice | Full: justifies the choice. Partial: none.
+Names alternatives | Full: names alternatives. Partial: none.
+Accepts limits | Full: accepts limits. Partial: denies.
+States the main claim | Full: states the main claim. Partial: unclear.
+Covers key points | Full: covers key points. Partial: some.
+Gives a view | Full: gives a view. Partial: none.
+Orients the audience | Full: orients the audience (axes, units, scope). Partial: none.
+Highlights the trend | Full: highlights the main trend. Partial: lists.
+Interprets it | Full: interprets what it means. Partial: none.
+Keeps the meaning | Full: keeps the meaning. Partial: changes.
+Simplifies | Full: simplifies. Partial: same.
+Checks understanding | Full: checks understanding. Partial: none.
+Rephrases | Full: rephrases. Partial: repeats.
+Keeps accuracy | Full: keeps accuracy. Partial: loses.
+Sounds natural | Full: sounds natural. Partial: stiff.
+Explains the topic | Full: explains the topic. Partial: vague.
+Explains the value | Full: explains the value. Partial: none.
+Invites questions | Full: invites questions. Partial: none.
+Opens naturally | Full: opens naturally. Partial: abrupt.
+Finds common ground | Full: finds common ground. Partial: none.
+Closes politely | Full: closes politely. Partial: abrupt.
+States interest | Full: states interest. Partial: vague.
+Shows preparation | Full: shows preparation. Partial: none.
+Proposes next step | Full: proposes next step. Partial: none.
+Names a strength | Full: names a strength. Partial: none.
+Names a fix | Full: names a fix. Partial: none.
+Offers a suggestion | Full: offers a suggestion. Partial: none.

@@ -1,0 +1,210 @@
+Says name | Full: gives their own name clearly, like "I'm Sam." Partial: name rushed or missing.
+Says job | Full: names their job in a full phrase, like "I work in marketing." Partial: one word with no frame.
+Greets politely | Full: opens with "Hello" or "Good morning" and a friendly tone. Partial: starts talking with no greeting.
+Asks where | Full: asks a clear where-question, like "Where is the meeting room?" Partial: only says the place name.
+Understands directions | Full: repeats or acts on left, right, floor or next to correctly. Partial: needs the directions again.
+Says thank you | Full: thanks the person at the right moment, like "Thank you, that helps." Partial: only when prompted.
+Asks for help | Full: asks directly, like "Could you help me with this?" Partial: hints at a problem without asking.
+Names the thing | Full: names the object (printer, login, file) so the helper knows what it is. Partial: says "this thing".
+Orders food | Full: orders with a polite frame, like "I'd like a chicken sandwich." Partial: just the food word.
+Orders a drink | Full: asks for a drink with a polite frame. Partial: one word.
+Says please | Full: uses "please" naturally in a request. Partial: polite tone but no please.
+Asks to spell | Full: asks "How do you spell that?" or "Can you spell that?" Partial: asks for the name again only.
+Repeats the number | Full: reads the number back in groups to check. Partial: repeats only the end.
+Confirms | Full: closes the loop with "So that's... is that right?" Partial: says "OK".
+Asks for the task | Full: asks what to do, like "What should I do next?" Partial: waits.
+Repeats it | Full: says the task back in their own words. Partial: says "OK".
+Says when it will be done | Full: gives a time, like "I'll finish it by 3 pm." Partial: "soon".
+Says a time | Full: says a clear time, like "at half past two". Partial: wrong or unclear.
+Says a date | Full: says a full date, like "on Tuesday the 12th". Partial: day only.
+Checks it | Full: checks the time or date with the other person. Partial: moves on.
+Says busy | Full: says they are busy politely, like "I'm in a meeting right now." Partial: just "No."
+Offers a time | Full: offers another time, like "Can we talk at four?" Partial: no new time.
+Says sorry | Full: says sorry briefly, like "Sorry about that." Partial: no apology or too many.
+Names activities | Full: names at least two things they do in the day. Partial: one.
+Uses times | Full: uses time words, like "at nine" or "after lunch". Partial: no times.
+Uses present tense | Full: uses the present simple correctly, like "I start at nine." Partial: mixes tenses.
+Names people | Full: names the people in the team. Partial: says "my team".
+Says jobs | Full: says what each person does. Partial: names only.
+Says one fact | Full: adds one fact, like "Mona sits next to me." Partial: none.
+Asks politely | Full: uses "Could you...?" or "Would you mind...?" Partial: a plain command.
+Explains the task | Full: explains the task in one or two simple sentences. Partial: unclear.
+Thanks them | Full: thanks the helper for the help. Partial: forgets.
+Says goodbye | Full: says goodbye or "See you tomorrow." Partial: leaves silently.
+Says see you | Full: says "See you tomorrow" or similar. Partial: only goodbye.
+Wishes a good evening | Full: adds "Have a good evening." Partial: none.
+Asks a question | Full: asks a real question about the other person. Partial: only answers.
+Answers simply | Full: answers in one or two simple sentences. Partial: one word or too long.
+Reacts naturally | Full: reacts with "Really?" or "That sounds nice." Partial: no reaction.
+Says why | Full: gives a short reason with "because". Partial: none.
+Thanks | Full: thanks clearly and briefly. Partial: none.
+Describes the problem | Full: says what is wrong, like "The printer shows an error." Partial: "It doesn't work."
+Says when it started | Full: says when, like "since this morning". Partial: none.
+Asks for action | Full: asks for a clear action, like "Could someone fix it today?" Partial: only complains.
+Gives dates | Full: gives the exact dates. Partial: "next week".
+Gives a reason | Full: gives a short, believable reason. Partial: none.
+Greets | Full: greets with the company name and "How can I help?" Partial: "Hello?"
+Asks the name | Full: asks "Who is calling, please?" Partial: asks bluntly "Name?"
+Offers help | Full: offers help, like "How can I help you?" Partial: waits.
+States the name | Full: states the name of the person to reach. Partial: unclear.
+Gives the message | Full: gives the message in one clear sentence. Partial: rambles.
+Gives the number | Full: gives a call-back number in groups. Partial: one string.
+States the purpose | Full: says why they write or call in the first sentence. Partial: gives it late.
+Gives the detail | Full: gives the key detail, such as date, amount or place. Partial: general.
+Closes politely | Full: closes with "Thank you, best regards" or "Thanks for your time." Partial: stops abruptly.
+Suggests a time | Full: suggests a time, like "How about Thursday at ten?" Partial: no time.
+Handles a clash | Full: offers a different time when the first does not work. Partial: gives up.
+Says role | Full: says their role, like "I'm the project coordinator." Partial: name only.
+Says why attending | Full: says why they are in the meeting. Partial: none.
+Says what is done | Full: says what they finished, in the past tense. Partial: vague.
+Says what is next | Full: says the next task with a time. Partial: none.
+Mentions a problem | Full: mentions one problem clearly and briefly. Partial: avoids it.
+Gets attention | Full: signals to speak, like "Sorry, can I ask something?" Partial: interrupts.
+Asks clearly | Full: asks one clear question. Partial: several mixed questions.
+Thanks the answer | Full: thanks the person for the answer. Partial: none.
+Says the task | Full: says the task in action words. Partial: vague.
+Says who | Full: names who will do it. Partial: "someone".
+Says when | Full: gives a deadline. Partial: "soon".
+Offers | Full: offers help with "I can..." or "Shall I...?" Partial: none.
+Asks what is needed | Full: asks what exactly is needed. Partial: assumes.
+Agrees | Full: agrees to a plan clearly. Partial: vague.
+Asks when | Full: asks when it is due. Partial: none.
+Checks the date | Full: repeats the date to check. Partial: none.
+Raises a concern | Full: raises a concern politely, like "I'm worried that..." Partial: stays silent.
+Says a good point | Full: names one specific good thing. Partial: "It's good."
+Says one change | Full: suggests one specific change. Partial: many.
+Stays kind | Full: keeps a kind tone with the critique. Partial: sharp.
+Says what they did | Full: says what the person did. Partial: none.
+Says the result | Full: says the result of the help. Partial: none.
+States opinion | Full: states a view, like "I think we should..." Partial: hints.
+Gives reason | Full: gives a reason with "because" or "since". Partial: none.
+Invites response | Full: asks "What do you think?" Partial: none.
+Acknowledges | Full: acknowledges the other view first, like "I see your point." Partial: ignores.
+Disagrees politely | Full: disagrees with soft words, like "I'm not sure that will work." Partial: blunt.
+Offers alternative | Full: suggests another idea. Partial: only objects.
+Says what was unclear | Full: names the unclear point. Partial: "I didn't get it."
+Lists decisions | Full: lists the decisions made. Partial: some.
+Assigns tasks | Full: names who does what. Partial: vague.
+Makes the request | Full: makes a clear request, like "Could you send the report by Friday?" Partial: hints.
+Gives the reason | Full: gives the reason for the request. Partial: none.
+Sets a time | Full: sets a time limit. Partial: none.
+Refers to the earlier request | Full: refers to it by date or topic. Partial: "my last message".
+Asks for an update | Full: asks "Could you give me an update?" Partial: complains.
+Sets a date | Full: sets a new date. Partial: none.
+Explains the issue | Full: explains the issue briefly. Partial: unclear.
+Offers a fix | Full: offers a fix. Partial: none.
+Waits to speak | Full: waits for a pause before speaking. Partial: talks over others.
+Reports progress | Full: gives progress with a number or stage, like "about 70% done". Partial: "going well".
+Names a blocker | Full: names what blocks the work. Partial: avoids.
+States next step | Full: states the next step with a time. Partial: none.
+Declines politely | Full: says no politely, like "I'm afraid I can't take that on now." Partial: blunt.
+Offers an alternative | Full: offers an alternative, like "I can do it next week." Partial: none.
+Asks openly | Full: asks an open question, like "How am I doing?" Partial: closed.
+Listens | Full: listens and reacts to what was said. Partial: waits to talk.
+Says what to do | Full: says what they will change. Partial: none.
+Describes workload | Full: describes workload with facts. Partial: "too much".
+Gives a fact | Full: backs the claim with a fact, like "I have six open tasks." Partial: opinion.
+Proposes a plan | Full: proposes a concrete plan. Partial: only complains.
+Suggests a fix | Full: suggests a practical fix. Partial: none.
+Checks agreement | Full: asks "Does that work for you?" Partial: none.
+Names the mistake | Full: names the mistake directly. Partial: hints.
+Takes responsibility | Full: says "That was my mistake." Partial: blames others.
+Sets the deadline | Full: sets a clear deadline. Partial: none.
+Checks understanding | Full: asks the person to repeat or confirm the task. Partial: assumes.
+Welcomes | Full: welcomes the newcomer warmly. Partial: formal only.
+Explains basics | Full: explains two or three basics. Partial: one.
+Offers support | Full: offers ongoing support, like "Ask me anything." Partial: none.
+Names the topic | Full: names the topic in the opening. Partial: unclear.
+Gives the plan | Full: says what will be covered in order. Partial: none.
+Uses order words | Full: uses first, then, finally. Partial: none.
+Keeps it clear | Full: keeps each step short. Partial: tangled.
+States the numbers | Full: states the key numbers. Partial: some.
+Compares | Full: compares to last month or the target. Partial: none.
+Gives the meaning | Full: says what the numbers mean. Partial: only numbers.
+Answers clearly | Full: answers the question directly. Partial: avoids.
+Admits limits | Full: says "I don't know yet, I'll check." Partial: guesses.
+Offers to follow up | Full: offers to follow up with a time. Partial: none.
+Sets the agenda | Full: lists the agenda items. Partial: vague.
+Sets time | Full: states the length of the meeting. Partial: none.
+Redirects | Full: brings the talk back with "Let's come back to..." Partial: lets it drift.
+Includes others | Full: invites quiet people to speak. Partial: none.
+Keeps time | Full: watches time and moves on. Partial: runs over.
+Summarises options | Full: summarises the options neutrally. Partial: lists one.
+Tests agreement | Full: checks agreement with "Are we all OK with this?" Partial: assumes.
+Decides | Full: states the decision. Partial: leaves it open.
+Recaps | Full: recaps decisions and tasks. Partial: partial.
+Assigns owners | Full: names an owner for each action. Partial: some.
+Sets dates | Full: gives a date for each action. Partial: none.
+Explains constraints | Full: explains limits such as time and people. Partial: none.
+Offers options | Full: offers two real options. Partial: one.
+Agrees terms | Full: states the agreed terms. Partial: vague.
+Clarifies the aim | Full: asks what the client really needs. Partial: assumes.
+Offers a smaller version | Full: offers a smaller scope that still helps. Partial: refuses.
+Opens firmly | Full: opens with a clear, firm position. Partial: unclear.
+Closes the deal | Full: closes with a clear summary and agreement. Partial: fades.
+Stays calm | Full: stays calm and steady. Partial: rises or rushes.
+Probes the reason | Full: asks why they refuse. Partial: accepts.
+Finds a middle | Full: proposes a middle ground. Partial: sticks to the first.
+Describes the facts | Full: describes facts, not character. Partial: judges.
+Explains the effect | Full: says the effect on the team or client. Partial: none.
+Agrees a fix | Full: agrees the fix and date. Partial: none.
+Asks questions | Full: asks clarifying questions. Partial: none.
+Commits to action | Full: commits to a specific change. Partial: "I'll try".
+States the risk | Full: states the risk plainly. Partial: vague.
+Gives evidence | Full: gives evidence for the risk. Partial: none.
+Explains briefly | Full: explains in two or three sentences. Partial: long.
+States the goal | Full: states the goal of the plan. Partial: none.
+Gives the steps | Full: gives the steps in order. Partial: some.
+Gives the timing | Full: gives timing for each step. Partial: none.
+Opens strongly | Full: opens with the idea and why it matters. Partial: background first.
+Handles doubts | Full: answers doubts with reasons. Partial: dodges.
+Asks for a decision | Full: asks for a decision, like "Can we approve this today?" Partial: none.
+Names the risk | Full: names the risk. Partial: vague.
+Gives likelihood | Full: says how likely, like "low" or "about one in five". Partial: none.
+Gives a response | Full: gives a response plan. Partial: none.
+Leads with the point | Full: starts with the main point. Partial: starts with background.
+Asks for support | Full: asks for specific support. Partial: none.
+States the vision | Full: states where the team is going in one sentence. Partial: vague.
+Gives the why | Full: gives the reason it matters. Partial: none.
+Links to roles | Full: links the vision to each person's role. Partial: general.
+Acknowledges effort | Full: names the effort people made. Partial: general thanks.
+Gives the reason to continue | Full: gives a reason to keep going. Partial: none.
+Sets next step | Full: sets a clear next step. Partial: none.
+Asks open questions | Full: asks open questions to coach. Partial: gives answers.
+Agrees actions | Full: agrees specific actions. Partial: none.
+States the case | Full: states the case with reasons. Partial: opinion.
+Handles pushback | Full: answers pushback calmly. Partial: gives in.
+Agrees steps | Full: agrees concrete next steps. Partial: none.
+States criteria | Full: states the criteria for choosing. Partial: none.
+Explains trade-offs | Full: explains what is gained and lost. Partial: one side.
+Gets agreement | Full: gets agreement clearly. Partial: none.
+States the change | Full: states the change clearly. Partial: vague.
+Explains why | Full: explains why. Partial: none.
+Handles concerns | Full: responds to concerns respectfully. Partial: ignores.
+Names the real concern | Full: names the underlying concern. Partial: surface only.
+Adapts | Full: adapts the plan. Partial: same plan.
+Gives numbers | Full: supports with numbers. Partial: none.
+Handles objections | Full: answers objections. Partial: dodges.
+Sets tone | Full: sets a respectful, firm tone. Partial: flat.
+Frames interests | Full: frames the interests of both sides. Partial: own only.
+Sets agenda | Full: sets the agenda. Partial: none.
+Links concessions | Full: links each concession to a return. Partial: gives freely.
+Holds the line | Full: holds the line politely. Partial: gives way.
+Protects value | Full: protects value, not just price. Partial: cuts price.
+Names the deadlock | Full: names the deadlock openly. Partial: avoids.
+Reframes | Full: reframes the problem. Partial: repeats.
+Proposes a move | Full: proposes a move to unblock. Partial: none.
+Summarises terms | Full: summarises all terms. Partial: some.
+Confirms details | Full: confirms the details. Partial: some.
+Leads with the ask | Full: starts with the ask. Partial: background.
+Supports it | Full: supports with evidence. Partial: none.
+Closes crisply | Full: closes in one clear line. Partial: trails off.
+Stays composed | Full: stays composed. Partial: shaky.
+Answers directly | Full: answers directly. Partial: avoids.
+Bridges back | Full: bridges back to the key message. Partial: drifts.
+States the facts | Full: states the facts. Partial: guesses.
+Gives direction | Full: gives clear direction. Partial: vague.
+Reassures | Full: reassures with facts. Partial: empty comfort.
+Thanks people | Full: thanks people by name for specific things. Partial: general.
+Shares a lesson | Full: shares one lesson. Partial: none.
+Looks ahead | Full: looks ahead with hope. Partial: ends in the past.

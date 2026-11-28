@@ -1,0 +1,4 @@
+Uses soft language | Full: softens a challenge with phrases like "I wonder if", "perhaps", "may I suggest". Partial: polite words but a direct contradiction, like "Perhaps, but you are wrong." None: blunt, like "That is not true."
+Gives evidence | Full: backs the challenge with a specific fact, figure or case, like "Our last three clients saved 12 percent." Partial: says "studies show" with no detail. None: opinion only.
+Keeps respect | Full: acknowledges the buyer's view before disagreeing, like "I understand why you see it that way." Partial: respectful at first, sharp later. None: dismissive.
+Names the product | Full: names what the shop sells, like "We sell phones and chargers." Partial: says "this" or "things". None: no product named.

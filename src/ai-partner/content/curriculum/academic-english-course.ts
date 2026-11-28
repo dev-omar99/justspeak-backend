@@ -20,15 +20,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says name",
-      "hint": "Scene goal: say your name, country and subject. Full credit if the learner clearly shows: says name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says their name clearly, like \"I'm Salma.\" Partial: rushed or missing. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says country",
-      "hint": "Scene goal: say your name, country and subject. Full credit if the learner clearly shows: says country. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says where they are from in a frame, like \"I'm from Egypt.\" Partial: one word. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says subject",
-      "hint": "Scene goal: say your name, country and subject. Full credit if the learner clearly shows: says subject. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says what they study, like \"I study law.\" Partial: unclear. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -54,15 +54,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks where",
-      "hint": "Scene goal: ask where a room is. Full credit if the learner clearly shows: asks where. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"Where is room 204?\" or similar. Partial: says only the room number. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Understands left or right",
-      "hint": "Scene goal: ask where a room is. Full credit if the learner clearly shows: understands left or right. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: follows or repeats left, right and straight on correctly. Partial: needs them repeated. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: ask where a room is. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: thanks the person for the help. Partial: only when prompted. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -88,15 +88,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives name",
-      "hint": "Scene goal: give your name and the class you want. Full credit if the learner clearly shows: gives name. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: gives their name for the register clearly. Partial: unclear. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Names the class",
-      "hint": "Scene goal: give your name and the class you want. Full credit if the learner clearly shows: names the class. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: names the class they want. Partial: vague. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Spells a word",
-      "hint": "Scene goal: give your name and the class you want. Full credit if the learner clearly shows: spells a word. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: spells their name letter by letter. Partial: partly. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -122,15 +122,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets politely",
-      "hint": "Scene goal: greet a teacher and say what you study. Full credit if the learner clearly shows: greets politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: greets a teacher politely, like \"Good morning, Dr Hana.\" Partial: no greeting. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says what they study",
-      "hint": "Scene goal: greet a teacher and say what you study. Full credit if the learner clearly shows: says what they study. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says what they study with a frame. Partial: one word. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks one question",
-      "hint": "Scene goal: greet a teacher and say what you study. Full credit if the learner clearly shows: asks one question. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks one clear question. Partial: none. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -156,15 +156,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks to repeat",
-      "hint": "Scene goal: ask the teacher to say it again. Full credit if the learner clearly shows: asks to repeat. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"Could you say that again, please?\" Partial: says \"What?\" Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks to speak slowly",
-      "hint": "Scene goal: ask the teacher to say it again. Full credit if the learner clearly shows: asks to speak slowly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"Could you speak more slowly, please?\" Partial: only \"slow\". Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: ask the teacher to say it again. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: thanks the person for the help. Partial: only when prompted. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -190,15 +190,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says I do not understand",
-      "hint": "Scene goal: say what you do not understand. Full credit if the learner clearly shows: says I do not understand. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says \"I don't understand\" at the right moment. Partial: stays silent. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Names the word",
-      "hint": "Scene goal: say what you do not understand. Full credit if the learner clearly shows: names the word. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: names the exact word they did not understand. Partial: \"the thing\". Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks for an example",
-      "hint": "Scene goal: say what you do not understand. Full credit if the learner clearly shows: asks for an example. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"Can you give an example?\" Partial: none. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -224,15 +224,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks what it means",
-      "hint": "Scene goal: ask what a word means. Full credit if the learner clearly shows: asks what it means. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"What does ... mean?\" with the word. Partial: points vaguely. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Repeats the answer",
-      "hint": "Scene goal: ask what a word means. Full credit if the learner clearly shows: repeats the answer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: repeats the explained meaning. Partial: none. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says thank you",
-      "hint": "Scene goal: ask what a word means. Full credit if the learner clearly shows: says thank you. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: thanks the person for the help. Partial: only when prompted. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -258,15 +258,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says a date",
-      "hint": "Scene goal: say a date and a phone number. Full credit if the learner clearly shows: says a date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says a full date clearly. Partial: day only. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says a number",
-      "hint": "Scene goal: say a date and a phone number. Full credit if the learner clearly shows: says a number. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says the number in groups. Partial: one string. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Checks it back",
-      "hint": "Scene goal: say a date and a phone number. Full credit if the learner clearly shows: checks it back. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: reads it back to confirm. Partial: none. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -292,15 +292,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names days",
-      "hint": "Scene goal: say which days you have class. Full credit if the learner clearly shows: names days. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: names the days they have class. Partial: some. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says times",
-      "hint": "Scene goal: say which days you have class. Full credit if the learner clearly shows: says times. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says the class times. Partial: some. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Names a subject",
-      "hint": "Scene goal: say which days you have class. Full credit if the learner clearly shows: names a subject. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: names at least one subject. Partial: none. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -326,15 +326,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks to borrow",
-      "hint": "Scene goal: ask to borrow a book. Full credit if the learner clearly shows: asks to borrow. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"Could I borrow this book, please?\" Partial: \"Give me book.\" Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Gives a title",
-      "hint": "Scene goal: ask to borrow a book. Full credit if the learner clearly shows: gives a title. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: gives the title or author. Partial: vague. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks how long",
-      "hint": "Scene goal: ask to borrow a book. Full credit if the learner clearly shows: asks how long. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks \"How long can I keep it?\" Partial: none. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -360,15 +360,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks about homework",
-      "hint": "Scene goal: ask what the homework is and when it is due. Full credit if the learner clearly shows: asks about homework. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks what the homework is. Partial: none. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Asks about the date",
-      "hint": "Scene goal: ask what the homework is and when it is due. Full credit if the learner clearly shows: asks about the date. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: asks when it is due. Partial: none. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Confirms",
-      "hint": "Scene goal: ask what the homework is and when it is due. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: repeats to confirm what was said. Partial: \"OK\". Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -394,15 +394,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Invites",
-      "hint": "Scene goal: invite a classmate to study. Full credit if the learner clearly shows: invites. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: invites a classmate, like \"Do you want to study together?\" Partial: hints. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Suggests a time",
-      "hint": "Scene goal: invite a classmate to study. Full credit if the learner clearly shows: suggests a time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: suggests a time. Partial: none. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Agrees a place",
-      "hint": "Scene goal: invite a classmate to study. Full credit if the learner clearly shows: agrees a place. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: agrees a place. Partial: none. Judge meaning only: single words and short phrases are enough."
      }
     ],
     "targets": [
@@ -430,15 +430,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says the subject",
-      "hint": "Scene goal: say what you want to study and why. Full credit if the learner clearly shows: says the subject. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says the subject they want and why. Partial: subject only. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives one reason",
-      "hint": "Scene goal: say what you want to study and why. Full credit if the learner clearly shows: gives one reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives one reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks about the schedule",
-      "hint": "Scene goal: say what you want to study and why. Full credit if the learner clearly shows: asks about the schedule. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: asks about the timetable. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -464,15 +464,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks the time",
-      "hint": "Scene goal: ask when and where a class is. Full credit if the learner clearly shows: asks the time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: asks when the class is. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks the room",
-      "hint": "Scene goal: ask when and where a class is. Full credit if the learner clearly shows: asks the room. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: asks where the class is. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Checks the answer",
-      "hint": "Scene goal: ask when and where a class is. Full credit if the learner clearly shows: checks the answer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: repeats the answer to check. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -498,15 +498,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says sorry",
-      "hint": "Scene goal: explain why you missed a class. Full credit if the learner clearly shows: says sorry. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: apologises briefly. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: explain why you missed a class. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a short reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks what they missed",
-      "hint": "Scene goal: explain why you missed a class. Full credit if the learner clearly shows: asks what they missed. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: asks \"What did I miss?\" Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -532,15 +532,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains the problem",
-      "hint": "Scene goal: politely ask for a later deadline. Full credit if the learner clearly shows: explains the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: explains the problem in two sentences. Partial: vague. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks politely",
-      "hint": "Scene goal: politely ask for a later deadline. Full credit if the learner clearly shows: asks politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: uses \"Would it be possible...?\" or \"Could I...?\" Partial: demands. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Thanks the lecturer",
-      "hint": "Scene goal: politely ask for a later deadline. Full credit if the learner clearly shows: thanks the lecturer. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: thanks the lecturer. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -566,15 +566,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the subject",
-      "hint": "Scene goal: describe what you study and what you like about it. Full credit if the learner clearly shows: names the subject. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: names the subject. Partial: vague. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: describe what you study and what you like about it. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a short reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Mentions one topic",
-      "hint": "Scene goal: describe what you study and what you like about it. Full credit if the learner clearly shows: mentions one topic. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: mentions one topic they enjoy. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -600,15 +600,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses time words",
-      "hint": "Scene goal: describe a normal study day. Full credit if the learner clearly shows: uses time words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: uses first, then, after, at nine. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Names activities",
-      "hint": "Scene goal: describe a normal study day. Full credit if the learner clearly shows: names activities. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: names two or more activities. Partial: one. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Uses simple past or present correctly",
-      "hint": "Scene goal: describe a normal study day. Full credit if the learner clearly shows: uses simple past or present correctly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: uses the right tense for the story. Partial: mixes. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -634,15 +634,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes routine",
-      "hint": "Scene goal: explain how you prepare for exams. Full credit if the learner clearly shows: describes routine. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: describes a routine in order. Partial: random. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives one tip",
-      "hint": "Scene goal: explain how you prepare for exams. Full credit if the learner clearly shows: gives one tip. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives one practical tip. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says what is hard",
-      "hint": "Scene goal: explain how you prepare for exams. Full credit if the learner clearly shows: says what is hard. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says what is hard for them. Partial: avoids. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -668,15 +668,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States a plan",
-      "hint": "Scene goal: say what you want to do after graduating. Full credit if the learner clearly shows: states a plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: states a plan for after graduating. Partial: \"I don't know\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: say what you want to do after graduating. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a short reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says when",
-      "hint": "Scene goal: say what you want to do after graduating. Full credit if the learner clearly shows: says when. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says when. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -702,15 +702,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Suggests a topic",
-      "hint": "Scene goal: suggest a topic and ask what others think. Full credit if the learner clearly shows: suggests a topic. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: suggests a topic with a reason. Partial: just a word. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks for opinions",
-      "hint": "Scene goal: suggest a topic and ask what others think. Full credit if the learner clearly shows: asks for opinions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: asks \"What do you think?\" Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Agrees on one",
-      "hint": "Scene goal: suggest a topic and ask what others think. Full credit if the learner clearly shows: agrees on one. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: agrees on one topic. Partial: stays undecided. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -736,15 +736,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Offers a task",
-      "hint": "Scene goal: agree who does which part. Full credit if the learner clearly shows: offers a task. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: offers a task, like \"I can do the slides.\" Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks others",
-      "hint": "Scene goal: agree who does which part. Full credit if the learner clearly shows: asks others. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: asks what others can do. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Confirms the plan",
-      "hint": "Scene goal: agree who does which part. Full credit if the learner clearly shows: confirms the plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: repeats who does what. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -770,15 +770,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Suggests a time",
-      "hint": "Scene goal: arrange a time and place to meet. Full credit if the learner clearly shows: suggests a time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: suggests a time. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Handles a clash",
-      "hint": "Scene goal: arrange a time and place to meet. Full credit if the learner clearly shows: handles a clash. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: offers another time when there is a clash. Partial: gives up. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Confirms",
-      "hint": "Scene goal: arrange a time and place to meet. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: repeats to confirm what was said. Partial: \"OK\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -804,15 +804,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Says what is done",
-      "hint": "Scene goal: say what your group has done so far. Full credit if the learner clearly shows: says what is done. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says what the group has done. Partial: vague. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says what is next",
-      "hint": "Scene goal: say what your group has done so far. Full credit if the learner clearly shows: says what is next. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says the next step. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Mentions one problem",
-      "hint": "Scene goal: say what your group has done so far. Full credit if the learner clearly shows: mentions one problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: mentions one problem briefly. Partial: avoids. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -838,15 +838,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Greets",
-      "hint": "Scene goal: open a talk with your name and topic. Full credit if the learner clearly shows: greets. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: greets the audience. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Names the topic",
-      "hint": "Scene goal: open a talk with your name and topic. Full credit if the learner clearly shows: names the topic. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: names the topic of the talk. Partial: unclear. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says the plan",
-      "hint": "Scene goal: open a talk with your name and topic. Full credit if the learner clearly shows: says the plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says what the talk will cover. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -872,15 +872,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names things",
-      "hint": "Scene goal: describe what you can see in a picture. Full credit if the learner clearly shows: names things. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: names things in the picture. Partial: few. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says where they are",
-      "hint": "Scene goal: describe what you can see in a picture. Full credit if the learner clearly shows: says where they are. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: uses on, next to, behind correctly. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Says what people do",
-      "hint": "Scene goal: describe what you can see in a picture. Full credit if the learner clearly shows: says what people do. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: uses the present continuous, like \"She is reading.\" Partial: single words. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -906,15 +906,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States opinion",
-      "hint": "Scene goal: say what you think and give one reason. Full credit if the learner clearly shows: states opinion. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: states a view with \"I think...\". Partial: hints. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: say what you think and give one reason. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a short reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Uses because",
-      "hint": "Scene goal: say what you think and give one reason. Full credit if the learner clearly shows: uses because. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: uses \"because\" with a reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -940,15 +940,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Thanks the audience",
-      "hint": "Scene goal: finish a talk and answer one question. Full credit if the learner clearly shows: thanks the audience. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: thanks the audience. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Answers briefly",
-      "hint": "Scene goal: finish a talk and answer one question. Full credit if the learner clearly shows: answers briefly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: answers a question in one or two sentences. Partial: long. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Asks if there are questions",
-      "hint": "Scene goal: finish a talk and answer one question. Full credit if the learner clearly shows: asks if there are questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: asks \"Are there any questions?\" Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -976,15 +976,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States a view",
-      "hint": "Scene goal: give a short opinion and a reason in a seminar. Full credit if the learner clearly shows: states a view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: states a view clearly with a reason. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: give a short opinion and a reason in a seminar. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a short reason. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Responds to a classmate",
-      "hint": "Scene goal: give a short opinion and a reason in a seminar. Full credit if the learner clearly shows: responds to a classmate. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: responds to what a classmate said. Partial: ignores. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1010,15 +1010,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Refers to the point",
-      "hint": "Scene goal: ask a clear question after a lecture point. Full credit if the learner clearly shows: refers to the point. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: refers to the point they ask about. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks clearly",
-      "hint": "Scene goal: ask a clear question after a lecture point. Full credit if the learner clearly shows: asks clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks one clear question. Partial: confusing. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Follows up",
-      "hint": "Scene goal: ask a clear question after a lecture point. Full credit if the learner clearly shows: follows up. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: follows up on the answer. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1044,15 +1044,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises",
-      "hint": "Scene goal: check what you understood with a classmate. Full credit if the learner clearly shows: summarises. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: summarises in one or two sentences. Partial: partial. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks if correct",
-      "hint": "Scene goal: check what you understood with a classmate. Full credit if the learner clearly shows: asks if correct. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks \"Is that right?\" Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Fixes a detail",
-      "hint": "Scene goal: check what you understood with a classmate. Full credit if the learner clearly shows: fixes a detail. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: corrects a detail. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1078,15 +1078,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses polite language",
-      "hint": "Scene goal: disagree politely and keep the discussion friendly. Full credit if the learner clearly shows: uses polite language. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: uses \"I see your point, but...\". Partial: blunt. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a reason",
-      "hint": "Scene goal: disagree politely and keep the discussion friendly. Full credit if the learner clearly shows: gives a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a short reason. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers a middle way",
-      "hint": "Scene goal: disagree politely and keep the discussion friendly. Full credit if the learner clearly shows: offers a middle way. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: proposes a compromise. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1112,15 +1112,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives the reason",
-      "hint": "Scene goal: arrange a meeting with a lecturer. Full credit if the learner clearly shows: gives the reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives the reason. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Suggests times",
-      "hint": "Scene goal: arrange a meeting with a lecturer. Full credit if the learner clearly shows: suggests times. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: suggests two or more times. Partial: one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Confirms",
-      "hint": "Scene goal: arrange a meeting with a lecturer. Full credit if the learner clearly shows: confirms. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: repeats to confirm what was said. Partial: \"OK\". Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1146,15 +1146,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks what to improve",
-      "hint": "Scene goal: ask what to improve in your work. Full credit if the learner clearly shows: asks what to improve. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks what to improve. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for an example",
-      "hint": "Scene goal: ask what to improve in your work. Full credit if the learner clearly shows: asks for an example. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks \"Can you give an example?\" Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Says what they will do",
-      "hint": "Scene goal: ask what to improve in your work. Full credit if the learner clearly shows: says what they will do. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says what they will do next. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1180,15 +1180,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes the problem",
-      "hint": "Scene goal: explain a problem with an assignment. Full credit if the learner clearly shows: describes the problem. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: describes the problem with an example. Partial: general. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Says what they tried",
-      "hint": "Scene goal: explain a problem with an assignment. Full credit if the learner clearly shows: says what they tried. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says what they already tried. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for advice",
-      "hint": "Scene goal: explain a problem with an assignment. Full credit if the learner clearly shows: asks for advice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks for advice. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1214,15 +1214,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains why",
-      "hint": "Scene goal: politely ask a lecturer for a reference. Full credit if the learner clearly shows: explains why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: explains why they ask. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks politely",
-      "hint": "Scene goal: politely ask a lecturer for a reference. Full credit if the learner clearly shows: asks politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: uses \"Would it be possible...?\" or \"Could I...?\" Partial: demands. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives details",
-      "hint": "Scene goal: politely ask a lecturer for a reference. Full credit if the learner clearly shows: gives details. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives details such as the course and date. Partial: general. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1248,15 +1248,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives the topic",
-      "hint": "Scene goal: describe the main points of a simple chart. Full credit if the learner clearly shows: gives the topic. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives the topic of the chart. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Names the highest and lowest",
-      "hint": "Scene goal: describe the main points of a simple chart. Full credit if the learner clearly shows: names the highest and lowest. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: names the highest and lowest values. Partial: one. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Compares two items",
-      "hint": "Scene goal: describe the main points of a simple chart. Full credit if the learner clearly shows: compares two items. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: compares with \"higher than\" or \"less than\". Partial: lists. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1282,15 +1282,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses change words",
-      "hint": "Scene goal: describe how something has changed over time. Full credit if the learner clearly shows: uses change words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: uses rise, fall, stay stable correctly. Partial: wrong. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives numbers",
-      "hint": "Scene goal: describe how something has changed over time. Full credit if the learner clearly shows: gives numbers. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: quotes figures from the chart. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a time frame",
-      "hint": "Scene goal: describe how something has changed over time. Full credit if the learner clearly shows: gives a time frame. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives the years or months. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1316,15 +1316,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares",
-      "hint": "Scene goal: compare two choices and pick one. Full credit if the learner clearly shows: compares. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: compares options with reasons. Partial: lists. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives reasons",
-      "hint": "Scene goal: compare two choices and pick one. Full credit if the learner clearly shows: gives reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives reasons. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Decides",
-      "hint": "Scene goal: compare two choices and pick one. Full credit if the learner clearly shows: decides. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: makes a decision. Partial: stays undecided. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1350,15 +1350,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the cause",
-      "hint": "Scene goal: explain a cause and its result. Full credit if the learner clearly shows: names the cause. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: names the cause. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Names the result",
-      "hint": "Scene goal: explain a cause and its result. Full credit if the learner clearly shows: names the result. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: names the result. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Links them clearly",
-      "hint": "Scene goal: explain a cause and its result. Full credit if the learner clearly shows: links them clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: links with \"so\", \"therefore\" or \"as a result\". Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1384,15 +1384,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens with a hook",
-      "hint": "Scene goal: open a talk with an interesting question or fact. Full credit if the learner clearly shows: opens with a hook. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: opens with a surprising fact or question. Partial: flat. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Names the topic",
-      "hint": "Scene goal: open a talk with an interesting question or fact. Full credit if the learner clearly shows: names the topic. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: names the topic of the talk. Partial: unclear. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives the plan",
-      "hint": "Scene goal: open a talk with an interesting question or fact. Full credit if the learner clearly shows: gives the plan. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives the plan of the talk. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1418,15 +1418,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Signposts points",
-      "hint": "Scene goal: present two or three points in order. Full credit if the learner clearly shows: signposts points. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says \"first\", \"second\", \"finally\". Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives an example",
-      "hint": "Scene goal: present two or three points in order. Full credit if the learner clearly shows: gives an example. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives an example. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Keeps the order",
-      "hint": "Scene goal: present two or three points in order. Full credit if the learner clearly shows: keeps the order. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: keeps to the order announced. Partial: jumps. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1452,15 +1452,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Refers to the slide",
-      "hint": "Scene goal: talk about a slide while keeping eye contact. Full credit if the learner clearly shows: refers to the slide. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: refers to the slide, like \"As you can see here...\". Partial: ignores. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Explains the key point",
-      "hint": "Scene goal: talk about a slide while keeping eye contact. Full credit if the learner clearly shows: explains the key point. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: explains the one key point of the slide. Partial: reads text. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Moves on",
-      "hint": "Scene goal: talk about a slide while keeping eye contact. Full credit if the learner clearly shows: moves on. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: moves on with a linking phrase. Partial: stops. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1486,15 +1486,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answers clearly",
-      "hint": "Scene goal: answer a question and say when you do not know. Full credit if the learner clearly shows: answers clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: answers directly. Partial: avoids. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Admits limits",
-      "hint": "Scene goal: answer a question and say when you do not know. Full credit if the learner clearly shows: admits limits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says \"I'm not sure, I'll check.\" Partial: guesses. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Offers to follow up",
-      "hint": "Scene goal: answer a question and say when you do not know. Full credit if the learner clearly shows: offers to follow up. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: offers to follow up. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1520,15 +1520,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Sets a schedule",
-      "hint": "Scene goal: explain a revision plan. Full credit if the learner clearly shows: sets a schedule. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: sets a revision schedule. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives priorities",
-      "hint": "Scene goal: explain a revision plan. Full credit if the learner clearly shows: gives priorities. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: names priorities. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Says how to check progress",
-      "hint": "Scene goal: explain a revision plan. Full credit if the learner clearly shows: says how to check progress. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says how to check progress. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1554,15 +1554,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Describes stress",
-      "hint": "Scene goal: say what stresses you and how you cope. Full credit if the learner clearly shows: describes stress. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: describes what stresses them. Partial: vague. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Gives a coping idea",
-      "hint": "Scene goal: say what stresses you and how you cope. Full credit if the learner clearly shows: gives a coping idea. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: gives a coping idea. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Asks for advice",
-      "hint": "Scene goal: say what stresses you and how you cope. Full credit if the learner clearly shows: asks for advice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: asks for advice. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1588,15 +1588,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Answers fully",
-      "hint": "Scene goal: answer personal questions with extended answers. Full credit if the learner clearly shows: answers fully. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: answers fully with a reason and example. Partial: short. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Adds a reason",
-      "hint": "Scene goal: answer personal questions with extended answers. Full credit if the learner clearly shows: adds a reason. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: adds a reason. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Adds an example",
-      "hint": "Scene goal: answer personal questions with extended answers. Full credit if the learner clearly shows: adds an example. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: adds an example. Partial: none. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1622,15 +1622,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Organises the talk",
-      "hint": "Scene goal: talk for one minute on a given topic. Full credit if the learner clearly shows: organises the talk. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: organises with opening, points, ending. Partial: loose. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Keeps going",
-      "hint": "Scene goal: talk for one minute on a given topic. Full credit if the learner clearly shows: keeps going. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: keeps going for the time. Partial: stops early. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Finishes clearly",
-      "hint": "Scene goal: talk for one minute on a given topic. Full credit if the learner clearly shows: finishes clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: finishes with a clear closing line. Partial: trails. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1658,15 +1658,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Frames the topic",
-      "hint": "Scene goal: introduce a topic and invite views. Full credit if the learner clearly shows: frames the topic. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: frames the topic and the main question. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Invites views",
-      "hint": "Scene goal: introduce a topic and invite views. Full credit if the learner clearly shows: invites views. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: invites views. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps neutral",
-      "hint": "Scene goal: introduce a topic and invite views. Full credit if the learner clearly shows: keeps neutral. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: stays neutral. Partial: pushes a view. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1692,15 +1692,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Invites others",
-      "hint": "Scene goal: include quiet members and keep to time. Full credit if the learner clearly shows: invites others. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: invites quiet members. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Redirects politely",
-      "hint": "Scene goal: include quiet members and keep to time. Full credit if the learner clearly shows: redirects politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: redirects politely. Partial: ignores. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps to time",
-      "hint": "Scene goal: include quiet members and keep to time. Full credit if the learner clearly shows: keeps to time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: keeps to time. Partial: over. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1726,15 +1726,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Reports fairly",
-      "hint": "Scene goal: summarise what different people said. Full credit if the learner clearly shows: reports fairly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: reports views fairly. Partial: biased. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Groups similar views",
-      "hint": "Scene goal: summarise what different people said. Full credit if the learner clearly shows: groups similar views. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: groups similar views. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Names the gap",
-      "hint": "Scene goal: summarise what different people said. Full credit if the learner clearly shows: names the gap. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names the gap between views. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1760,15 +1760,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Recaps decisions",
-      "hint": "Scene goal: close with decisions and next steps. Full credit if the learner clearly shows: recaps decisions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: recaps decisions. Partial: some. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Assigns tasks",
-      "hint": "Scene goal: close with decisions and next steps. Full credit if the learner clearly shows: assigns tasks. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: assigns tasks. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Sets a time",
-      "hint": "Scene goal: close with decisions and next steps. Full credit if the learner clearly shows: sets a time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: sets a time. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1794,15 +1794,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States position",
-      "hint": "Scene goal: state a clear position with two reasons. Full credit if the learner clearly shows: states position. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states a clear position. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives two reasons",
-      "hint": "Scene goal: state a clear position with two reasons. Full credit if the learner clearly shows: gives two reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives two reasons. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Adds evidence",
-      "hint": "Scene goal: state a clear position with two reasons. Full credit if the learner clearly shows: adds evidence. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: adds evidence. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1828,15 +1828,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names a source",
-      "hint": "Scene goal: support a claim with a source or example. Full credit if the learner clearly shows: names a source. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names a source. Partial: \"studies say\". Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains it",
-      "hint": "Scene goal: support a claim with a source or example. Full credit if the learner clearly shows: explains it. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: explains what the source shows. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Links to the claim",
-      "hint": "Scene goal: support a claim with a source or example. Full credit if the learner clearly shows: links to the claim. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: links the evidence back to the claim. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1862,15 +1862,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges",
-      "hint": "Scene goal: answer a challenge without losing your point. Full credit if the learner clearly shows: acknowledges. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: acknowledges the challenge. Partial: ignores. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Defends calmly",
-      "hint": "Scene goal: answer a challenge without losing your point. Full credit if the learner clearly shows: defends calmly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: defends calmly. Partial: defensive. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Concedes a detail",
-      "hint": "Scene goal: answer a challenge without losing your point. Full credit if the learner clearly shows: concedes a detail. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: concedes a small detail. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1896,15 +1896,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Admits the point",
-      "hint": "Scene goal: change your view when the evidence is strong. Full credit if the learner clearly shows: admits the point. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: admits the good point. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Adjusts the view",
-      "hint": "Scene goal: change your view when the evidence is strong. Full credit if the learner clearly shows: adjusts the view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: adjusts the view. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains why",
-      "hint": "Scene goal: change your view when the evidence is strong. Full credit if the learner clearly shows: explains why. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: explains why they ask. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1930,15 +1930,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the aim",
-      "hint": "Scene goal: explain how you collected information. Full credit if the learner clearly shows: states the aim. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states the aim. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Describes the method",
-      "hint": "Scene goal: explain how you collected information. Full credit if the learner clearly shows: describes the method. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: describes the method. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Notes a limit",
-      "hint": "Scene goal: explain how you collected information. Full credit if the learner clearly shows: notes a limit. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: notes a limit. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1964,15 +1964,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives results",
-      "hint": "Scene goal: report findings with numbers and comparison. Full credit if the learner clearly shows: gives results. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives results with numbers. Partial: general. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Compares",
-      "hint": "Scene goal: report findings with numbers and comparison. Full credit if the learner clearly shows: compares. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: compares options with reasons. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Avoids overclaiming",
-      "hint": "Scene goal: report findings with numbers and comparison. Full credit if the learner clearly shows: avoids overclaiming. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: avoids overclaiming, like \"suggests\" not \"proves\". Partial: overclaims. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1998,15 +1998,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names limits",
-      "hint": "Scene goal: say what your study could not show. Full credit if the learner clearly shows: names limits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names limits. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Explains effect",
-      "hint": "Scene goal: say what your study could not show. Full credit if the learner clearly shows: explains effect. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: explains how limits affect results. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Suggests next step",
-      "hint": "Scene goal: say what your study could not show. Full credit if the learner clearly shows: suggests next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: suggests next step. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2032,15 +2032,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names criteria",
-      "hint": "Scene goal: explain how you judge a source. Full credit if the learner clearly shows: names criteria. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names criteria for judging a source. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives an example",
-      "hint": "Scene goal: explain how you judge a source. Full credit if the learner clearly shows: gives an example. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives an example. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Admits doubt",
-      "hint": "Scene goal: explain how you judge a source. Full credit if the learner clearly shows: admits doubt. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: admits doubt. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2066,15 +2066,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States motivation",
-      "hint": "Scene goal: explain your reasons for choosing a course. Full credit if the learner clearly shows: states motivation. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: states motivation. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives evidence",
-      "hint": "Scene goal: explain your reasons for choosing a course. Full credit if the learner clearly shows: gives evidence. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives evidence. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Links to goals",
-      "hint": "Scene goal: explain your reasons for choosing a course. Full credit if the learner clearly shows: links to goals. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: links to goals. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2100,15 +2100,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names strengths",
-      "hint": "Scene goal: describe strengths with proof. Full credit if the learner clearly shows: names strengths. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names strengths. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives examples",
-      "hint": "Scene goal: describe strengths with proof. Full credit if the learner clearly shows: gives examples. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives examples. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Stays honest",
-      "hint": "Scene goal: describe strengths with proof. Full credit if the learner clearly shows: stays honest. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: stays honest. Partial: exaggerates. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2134,15 +2134,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Buys thinking time",
-      "hint": "Scene goal: answer an unexpected question calmly. Full credit if the learner clearly shows: buys thinking time. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says \"That's a good question, let me think.\" Partial: silence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Gives structure",
-      "hint": "Scene goal: answer an unexpected question calmly. Full credit if the learner clearly shows: gives structure. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: answers in structure. Partial: loose. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Concludes",
-      "hint": "Scene goal: answer an unexpected question calmly. Full credit if the learner clearly shows: concludes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: concludes. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2168,15 +2168,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Asks relevant questions",
-      "hint": "Scene goal: ask smart questions at the end. Full credit if the learner clearly shows: asks relevant questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: asks relevant questions. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Shows interest",
-      "hint": "Scene goal: ask smart questions at the end. Full credit if the learner clearly shows: shows interest. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: shows interest. Partial: flat. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Thanks the panel",
-      "hint": "Scene goal: ask smart questions at the end. Full credit if the learner clearly shows: thanks the panel. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: thanks the panel. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2202,15 +2202,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Adds reasons",
-      "hint": "Scene goal: give extended answers to quick questions. Full credit if the learner clearly shows: adds reasons. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: adds reasons. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Adds examples",
-      "hint": "Scene goal: give extended answers to quick questions. Full credit if the learner clearly shows: adds examples. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: adds examples. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Keeps pace",
-      "hint": "Scene goal: give extended answers to quick questions. Full credit if the learner clearly shows: keeps pace. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: keeps a steady pace. Partial: slow. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2236,15 +2236,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens clearly",
-      "hint": "Scene goal: talk for two minutes with a clear structure. Full credit if the learner clearly shows: opens clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: opens clearly. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Develops points",
-      "hint": "Scene goal: talk for two minutes with a clear structure. Full credit if the learner clearly shows: develops points. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: develops points. Partial: lists. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Closes clearly",
-      "hint": "Scene goal: talk for two minutes with a clear structure. Full credit if the learner clearly shows: closes clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: closes clearly. Partial: trails. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2270,15 +2270,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Gives both sides",
-      "hint": "Scene goal: discuss a wider question with balanced views. Full credit if the learner clearly shows: gives both sides. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: gives both sides. Partial: one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Takes a position",
-      "hint": "Scene goal: discuss a wider question with balanced views. Full credit if the learner clearly shows: takes a position. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: takes a position. Partial: avoids. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Uses linking words",
-      "hint": "Scene goal: discuss a wider question with balanced views. Full credit if the learner clearly shows: uses linking words. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: uses however, although, because. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2304,15 +2304,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the weakness",
-      "hint": "Scene goal: practise the skill you find hardest. Full credit if the learner clearly shows: names the weakness. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names the weakness. Partial: avoids. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Tries a fix",
-      "hint": "Scene goal: practise the skill you find hardest. Full credit if the learner clearly shows: tries a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: tries the fix. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Compares the result",
-      "hint": "Scene goal: practise the skill you find hardest. Full credit if the learner clearly shows: compares the result. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: compares before and after. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2340,15 +2340,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Defines clearly",
-      "hint": "Scene goal: define a key term and set its limits. Full credit if the learner clearly shows: defines clearly. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: defines clearly. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Sets limits",
-      "hint": "Scene goal: define a key term and set its limits. Full credit if the learner clearly shows: sets limits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: sets limits of the term. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives an example",
-      "hint": "Scene goal: define a key term and set its limits. Full credit if the learner clearly shows: gives an example. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives an example. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2374,15 +2374,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Compares evidence",
-      "hint": "Scene goal: compare strong and weak evidence on a claim. Full credit if the learner clearly shows: compares evidence. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: compares evidence. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Judges quality",
-      "hint": "Scene goal: compare strong and weak evidence on a claim. Full credit if the learner clearly shows: judges quality. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: judges quality. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reaches a view",
-      "hint": "Scene goal: compare strong and weak evidence on a claim. Full credit if the learner clearly shows: reaches a view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: reaches a view. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2408,15 +2408,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Acknowledges",
-      "hint": "Scene goal: disagree with respect and precision. Full credit if the learner clearly shows: acknowledges. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: acknowledges the challenge. Partial: ignores. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Pinpoints the gap",
-      "hint": "Scene goal: disagree with respect and precision. Full credit if the learner clearly shows: pinpoints the gap. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: pinpoints the gap. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers an alternative",
-      "hint": "Scene goal: disagree with respect and precision. Full credit if the learner clearly shows: offers an alternative. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers an alternative. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2442,15 +2442,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Summarises sources",
-      "hint": "Scene goal: combine several viewpoints into one position. Full credit if the learner clearly shows: summarises sources. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: summarises sources. Partial: one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Finds a link",
-      "hint": "Scene goal: combine several viewpoints into one position. Full credit if the learner clearly shows: finds a link. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: finds a link between views. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States a position",
-      "hint": "Scene goal: combine several viewpoints into one position. Full credit if the learner clearly shows: states a position. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states a position. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2476,15 +2476,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the contribution",
-      "hint": "Scene goal: open a research talk and state the contribution. Full credit if the learner clearly shows: states the contribution. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states the contribution. Partial: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Frames the gap",
-      "hint": "Scene goal: open a research talk and state the contribution. Full credit if the learner clearly shows: frames the gap. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: frames the research gap. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Signposts",
-      "hint": "Scene goal: open a research talk and state the contribution. Full credit if the learner clearly shows: signposts. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: signposts. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2510,15 +2510,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains findings",
-      "hint": "Scene goal: explain key findings and what they mean. Full credit if the learner clearly shows: explains findings. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: explains findings. Partial: lists. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "States implications",
-      "hint": "Scene goal: explain key findings and what they mean. Full credit if the learner clearly shows: states implications. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states implications. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Stays precise",
-      "hint": "Scene goal: explain key findings and what they mean. Full credit if the learner clearly shows: stays precise. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: stays precise. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2544,15 +2544,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Stays calm",
-      "hint": "Scene goal: respond to a tough challenge with composure. Full credit if the learner clearly shows: stays calm. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: stays calm. Partial: shaky. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Addresses the core",
-      "hint": "Scene goal: respond to a tough challenge with composure. Full credit if the learner clearly shows: addresses the core. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: addresses the core of the question. Partial: side issue. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Defends or concedes",
-      "hint": "Scene goal: respond to a tough challenge with composure. Full credit if the learner clearly shows: defends or concedes. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: defends or concedes with reasons. Partial: neither. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2578,15 +2578,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Justifies the choice",
-      "hint": "Scene goal: defend a key choice in your research. Full credit if the learner clearly shows: justifies the choice. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: justifies the choice. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names alternatives",
-      "hint": "Scene goal: defend a key choice in your research. Full credit if the learner clearly shows: names alternatives. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names alternatives. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Accepts limits",
-      "hint": "Scene goal: defend a key choice in your research. Full credit if the learner clearly shows: accepts limits. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: accepts limits. Partial: denies. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2612,15 +2612,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States the main claim",
-      "hint": "Scene goal: summarise an article in your own words. Full credit if the learner clearly shows: states the main claim. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states the main claim. Partial: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Covers key points",
-      "hint": "Scene goal: summarise an article in your own words. Full credit if the learner clearly shows: covers key points. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: covers key points. Partial: some. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives a view",
-      "hint": "Scene goal: summarise an article in your own words. Full credit if the learner clearly shows: gives a view. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: gives a view. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2646,15 +2646,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Orients the audience",
-      "hint": "Scene goal: explain a complex graph to a mixed audience. Full credit if the learner clearly shows: orients the audience. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: orients the audience (axes, units, scope). Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Highlights the trend",
-      "hint": "Scene goal: explain a complex graph to a mixed audience. Full credit if the learner clearly shows: highlights the trend. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: highlights the main trend. Partial: lists. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Interprets it",
-      "hint": "Scene goal: explain a complex graph to a mixed audience. Full credit if the learner clearly shows: interprets it. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: interprets what it means. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2680,15 +2680,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Keeps the meaning",
-      "hint": "Scene goal: restate a complex idea more simply. Full credit if the learner clearly shows: keeps the meaning. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: keeps the meaning. Partial: changes. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Simplifies",
-      "hint": "Scene goal: restate a complex idea more simply. Full credit if the learner clearly shows: simplifies. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: simplifies. Partial: same. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Checks understanding",
-      "hint": "Scene goal: restate a complex idea more simply. Full credit if the learner clearly shows: checks understanding. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: checks understanding. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2714,15 +2714,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Rephrases",
-      "hint": "Scene goal: rephrase a formal sentence for speech. Full credit if the learner clearly shows: rephrases. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: rephrases. Partial: repeats. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Keeps accuracy",
-      "hint": "Scene goal: rephrase a formal sentence for speech. Full credit if the learner clearly shows: keeps accuracy. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: keeps accuracy. Partial: loses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Sounds natural",
-      "hint": "Scene goal: rephrase a formal sentence for speech. Full credit if the learner clearly shows: sounds natural. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: sounds natural. Partial: stiff. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2748,15 +2748,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Explains the topic",
-      "hint": "Scene goal: describe your research in under a minute. Full credit if the learner clearly shows: explains the topic. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: explains the topic. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Explains the value",
-      "hint": "Scene goal: describe your research in under a minute. Full credit if the learner clearly shows: explains the value. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: explains the value. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Invites questions",
-      "hint": "Scene goal: describe your research in under a minute. Full credit if the learner clearly shows: invites questions. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: invites questions. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2782,15 +2782,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Opens naturally",
-      "hint": "Scene goal: start and end a conversation gracefully. Full credit if the learner clearly shows: opens naturally. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: opens naturally. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Finds common ground",
-      "hint": "Scene goal: start and end a conversation gracefully. Full credit if the learner clearly shows: finds common ground. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: finds common ground. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Closes politely",
-      "hint": "Scene goal: start and end a conversation gracefully. Full credit if the learner clearly shows: closes politely. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: closes politely. Partial: abrupt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2816,15 +2816,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "States interest",
-      "hint": "Scene goal: make your case to a potential supervisor. Full credit if the learner clearly shows: states interest. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: states interest. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Shows preparation",
-      "hint": "Scene goal: make your case to a potential supervisor. Full credit if the learner clearly shows: shows preparation. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: shows preparation. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Proposes next step",
-      "hint": "Scene goal: make your case to a potential supervisor. Full credit if the learner clearly shows: proposes next step. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: proposes next step. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2850,15 +2850,15 @@ export const ACADEMIC_ENGLISH_COURSE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names a strength",
-      "hint": "Scene goal: give honest, kind feedback on a talk. Full credit if the learner clearly shows: names a strength. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names a strength. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names a fix",
-      "hint": "Scene goal: give honest, kind feedback on a talk. Full credit if the learner clearly shows: names a fix. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names a fix. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Offers a suggestion",
-      "hint": "Scene goal: give honest, kind feedback on a talk. Full credit if the learner clearly shows: offers a suggestion. Partial credit if they try but it is unclear or incomplete. No credit if it does not happen. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: offers a suggestion. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [

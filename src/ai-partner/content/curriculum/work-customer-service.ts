@@ -3478,15 +3478,15 @@ export const WORK_CUSTOMER_SERVICE: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the failure",
-      "hint": "Full: names what went wrong. Partial: says \"the issue\". Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says exactly what went wrong, like \"Your refund was promised for Monday and it did not arrive.\" Partial: says only \"the issue\" or \"the problem\". None: avoids naming it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Makes specific promises",
-      "hint": "Full: promises specific, keepable actions. Partial: general promises. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: promises actions the agent can keep, like \"I will call you myself on Thursday before noon.\" Partial: general promises like \"We will do better\". None: no promise. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives dates",
-      "hint": "Full: gives dates for each promise. Partial: no dates. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: attaches a date or time to each promise, like \"by Friday 5 pm\". Partial: dates for some promises only, or \"soon\". None: no dates. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [

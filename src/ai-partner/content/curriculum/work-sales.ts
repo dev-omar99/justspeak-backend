@@ -54,7 +54,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the product",
-      "hint": "Full: names the product clearly. Partial: says \"this\" or \"it\". Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: names what the shop sells, like \"We sell phones and chargers.\" Partial: says \"this\" or \"things\". None: no product named. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Uses a simple sentence",
@@ -156,7 +156,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Names the product",
-      "hint": "Full: names the product clearly. Partial: says \"this\" or \"it\". Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: names what the shop sells, like \"We sell phones and chargers.\" Partial: says \"this\" or \"things\". None: no product named. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Says a colour or size",
@@ -2308,7 +2308,7 @@ export const SALES_ENGLISH: CurriculumProgramme = {
      },
      {
       "label": "Gives evidence",
-      "hint": "Full: gives evidence. Partial: claims only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: backs the challenge with a specific fact, figure or case, like \"Our last three clients saved 12 percent.\" Partial: says \"studies show\" with no detail. None: opinion only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Admits limits",
@@ -2918,15 +2918,15 @@ export const SALES_ENGLISH: CurriculumProgramme = {
     "rubric": [
      {
       "label": "Uses soft language",
-      "hint": "Full: uses soft language (\"I wonder if\", \"perhaps\"). Partial: blunt. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: softens a challenge with phrases like \"I wonder if\", \"perhaps\", \"may I suggest\". Partial: polite words but a direct contradiction, like \"Perhaps, but you are wrong.\" None: blunt, like \"That is not true.\" Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Gives evidence",
-      "hint": "Full: gives evidence. Partial: claims only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: backs the challenge with a specific fact, figure or case, like \"Our last three clients saved 12 percent.\" Partial: says \"studies show\" with no detail. None: opinion only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Keeps respect",
-      "hint": "Full: keeps respect. Partial: slips. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: acknowledges the buyer's view before disagreeing, like \"I understand why you see it that way.\" Partial: respectful at first, sharp later. None: dismissive. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [

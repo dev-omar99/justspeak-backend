@@ -477,15 +477,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Where",
-      "hint": "Full: says where they studied or worked. Partial: omits. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: names the place of study or work, like \"I worked at a phone shop in Nasr City.\" Partial: says only \"a shop\". None: omitted. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "How long",
-      "hint": "Full: says how long. Partial: omits. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: gives a length of time, like \"for two years\". Partial: vague like \"a long time\". None: omitted. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Complete sentences",
-      "hint": "Full: full sentences throughout. Partial: fragments. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: every answer is a full sentence with subject and verb, like \"I studied business for four years.\" Partial: a mix of sentences and fragments. None: only words. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      }
     ],
     "targets": [
@@ -1012,7 +1012,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Complete sentences",
-      "hint": "Full: full sentences throughout. Partial: fragments. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: every answer is a full sentence with subject and verb, like \"I studied business for four years.\" Partial: a mix of sentences and fragments. None: only words. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -2021,7 +2021,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Honest",
-      "hint": "Full: sounds honest. Partial: sounds scripted. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: names the gap or weakness plainly, like \"I left my job to care for my family for eight months.\" Partial: true but vague or rehearsed-sounding, like \"I took some time off.\" None: denies or invents. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Action",
@@ -2303,15 +2303,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Honest",
-      "hint": "Full: sounds honest. Partial: sounds scripted. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: names the gap or weakness plainly, like \"I left my job to care for my family for eight months.\" Partial: true but vague or rehearsed-sounding, like \"I took some time off.\" None: denies or invents. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "No excuse",
-      "hint": "Full: gives no excuse. Partial: one excuse. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: explains without blaming anyone and without defending, like \"That was my decision and I would plan it differently.\" Partial: one excuse or blame, like \"My manager did not help.\" None: mostly excuses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Focus on growth",
-      "hint": "Full: focuses on growth. Partial: dwells on the problem. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: ends on what they learned or did next, like \"Since then I finished a course and volunteered at a call centre.\" Partial: spends most of the answer on the problem. None: no move forward. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
