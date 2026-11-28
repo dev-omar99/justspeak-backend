@@ -1629,7 +1629,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "unit": "Delivery and nerves",
     "description": "Speak clearly, pause and manage nerves.",
     "persona": "adams",
-    "personaRole": "Tips card: posture, eye contact, hands, pace, and the smile in four moments",
+    "personaRole": "An interview coach who goes through a tips card on posture, eye contact, hands, pace and the smile",
     "goal": "Read the card and tell the coach two tips you will use.",
     "rubric": [
      {
@@ -1646,7 +1646,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      }
     ],
     "targets": [
-     "Open the scene in character as Tips card: posture, eye contact, hands, pace, and the smile in four moments: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as an interview coach who goes through a tips card on posture, eye contact, hands, pace and the smile: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Read the card and tell the coach two tips you will use.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names two tips; Explains why; Practises one aloud.",
@@ -1656,7 +1656,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "source": "Omar's own decks (Interview Hacks Lab, Interview Fluency Lab Student Edition); level and scale from CEFR (Interviewing and being interviewed)",
     "licence": "Omar-owned (user statement, 27 Nov 2026)",
     "status": "draft",
-    "scored": false
+    "scored": true
    },
    {
     "id": "iv-cs-b1-u5-l4",

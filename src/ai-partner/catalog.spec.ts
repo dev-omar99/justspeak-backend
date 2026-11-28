@@ -1,7 +1,7 @@
 import { buildCatalog, overallOf, CATALOG_LEVELS, FIELDS } from './catalog';
 import { ROLEPLAY_SCENARIOS } from './content/roleplays';
 
-const ok = (score: number) => ({ status: 'OK', overall_score: score });
+const ok = (score: number) => ({ status: 'OK', overall_score: 99, dimensions: { grammar: score, vocabulary: score, fluency: score, pronunciation: score, interaction: score } });
 const sess = (id: string, roleplayId: string, report: unknown, day: number) => ({
   id,
   roleplayId,
@@ -54,7 +54,7 @@ describe('catalog', () => {
 
   it('overall is the mean of the measured dimensions, null dimensions are left out', () => {
     expect(overallOf({ status: 'OK', overall_score: 99, dimensions: { grammar: 80, fluency: 60, pronunciation: null, vocabulary: 70, interaction: 50 } })).toBe(65);
-    expect(overallOf({ status: 'OK', overall_score: 42, dimensions: {} })).toBe(42);
+    expect(overallOf({ status: 'OK', overall_score: 42, dimensions: {} })).toBeNull();
     expect(overallOf({ status: 'INSUFFICIENT_DATA', dimensions: { grammar: 80 } })).toBeNull();
     expect(overallOf(null)).toBeNull();
     expect(overallOf({ status: 'OK', dimensions: { grammar: 0 } })).toBe(0);

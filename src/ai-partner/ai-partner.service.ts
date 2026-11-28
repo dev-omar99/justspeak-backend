@@ -20,7 +20,9 @@ import {
 import {
   FEEDBACK_RUBRIC_PROMPT,
   SessionReport,
+  finaliseScores,
   insufficientReport,
+  reportOverall,
   parseSessionReport,
   verifyDimensionQuotes,
 } from './content/rubric';
@@ -245,6 +247,10 @@ export class AiPartnerService {
       );
     }
 
+    // One overall score, computed in code (never the model's own number). A model answer with no measured
+    // skill is not a score: it is treated like a failed call and retried, never stored as 0.
+    if (report && report.status === 'OK') report = finaliseScores(report);
+
     if (!report) {
       throw new ServiceUnavailableException(
         'Could not generate the report right now. Please try again in a moment.',
@@ -429,6 +435,8 @@ export class AiPartnerService {
           `Scene topic: ${scenario.description}. Written for CEFR level ${scenario.level}: judge against that level. ` +
           `Learner goal: ${scenario.goal}. ` +
           `Scoring rubric: ${scenario.rubric.map((r) => `${r.label} (${r.hint})`).join('; ')}. ` +
+          `Steps the coach followed in this scene: ${scenario.targets.join(' | ')} ` +
+          `Set lesson_result.goal_met to "no" if the student mostly did not do this lesson (off-topic, only repeating, refusing). ` +
           `Judge the summary, strength and growth area against this goal and rubric, ` +
           `and mention the scenario by name in the summary.\n\n` +
           checklistReportInstruction(scenario.rubric);
@@ -517,7 +525,8 @@ export class AiPartnerService {
 
       const report = session.report as unknown as SessionReport | null;
       if (report && report.status === 'OK') {
-        bucket.scores.push(report.overall_score);
+        const overall = reportOverall(report);
+        if (overall !== null) bucket.scores.push(overall);
         if (report.cefr_estimate) latestCefr = report.cefr_estimate;
         for (const correction of report.corrections ?? []) {
           if (correction.rule) {

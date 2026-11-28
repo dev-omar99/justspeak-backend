@@ -17,6 +17,7 @@ import { INTERVIEWS_MANAGER_INTERVIEW_ENGLISH } from './interviews-manager-inter
 import { INTERVIEWS_TECH_INTERVIEW_ENGLISH } from './interviews-tech-interview-english';
 import { WORK_SOFTWARE_CONVERSATIONS } from './work-software-conversations';
 import type { CurriculumLesson, CurriculumProgramme } from './types';
+import { lessonBeats } from './lesson-beats';
 
 export const CURRICULUM_PROGRAMMES: CurriculumProgramme[] = [WORK_CUSTOMER_SERVICE, SALES_ENGLISH, INTERVIEW_ENGLISH_CS, DAILY_LIFE, TRAVEL_CONVERSATIONS, ACADEMIC_ENGLISH_COURSE, WORKPLACE_ENGLISH_COURSE, INTERVIEWS_SALES_INTERVIEW_ENGLISH, INTERVIEWS_MANAGER_INTERVIEW_ENGLISH, INTERVIEWS_TECH_INTERVIEW_ENGLISH, WORK_SOFTWARE_CONVERSATIONS];
 
@@ -81,7 +82,8 @@ function toScenario(l: CurriculumLesson, field: string): RoleplayScenario {
     level: l.level,
     goal: l.goal,
     rubric: l.rubric,
-    targets: l.targets,
+    // Beats come from this lesson's own role, goal and rubric (the stored template targets are not used).
+    targets: lessonBeats(l),
   };
 }
 

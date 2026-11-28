@@ -2,7 +2,7 @@ import { buildProgrammes, reportScore } from './programmes.progress';
 import { PROGRAMMES } from './content/programmes';
 import { ROLEPLAY_SCENARIOS } from './content/roleplays';
 
-const ok = (score: number) => ({ status: 'OK', overall_score: score });
+const ok = (score: number) => ({ status: 'OK', overall_score: 99, dimensions: { grammar: score, vocabulary: score, fluency: score, pronunciation: score, interaction: score } });
 
 describe('programmes', () => {
   it('every seeded task points at an existing roleplay', () => {
@@ -17,6 +17,7 @@ describe('programmes', () => {
     expect(reportScore(null)).toBeNull();
     expect(reportScore({ status: 'OK' })).toBeNull();
     expect(reportScore({ status: 'OK', overall_score: 'x' })).toBeNull();
+    expect(reportScore({ status: 'OK', overall_score: 80 })).toBeNull();
   });
 
   it('new user: nothing started, all steps to go, next task is the first', () => {

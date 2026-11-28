@@ -440,7 +440,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A shop manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a shop manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Name three products you can sell.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names products; Uses a or an; Speaks clearly.",
@@ -474,7 +474,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A shop manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a shop manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the price of two products.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says numbers; Says the currency; Speaks clearly.",
@@ -508,7 +508,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A shop manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a shop manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say how many items a customer wants.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says numbers; Names the item; Uses want.",
@@ -542,7 +542,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A shop manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a shop manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say Can I help you? to a customer.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses the question; Smiles in the voice; Waits.",
@@ -986,7 +986,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A customer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a customer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Greet a customer and ask how you can help.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Asks to help; Smiles in the voice.",
@@ -1020,7 +1020,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A customer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a customer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a product with two details.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names product; Gives two details; Speaks clearly.",
@@ -1054,7 +1054,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A customer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a customer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a price and say what is included.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says price; Says included; Checks it.",
@@ -1088,7 +1088,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A customer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a customer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask if the customer wants to buy and say thank you.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks to buy; Says thank you; Smiles in the voice.",
@@ -2216,7 +2216,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain your approach to winning a new account in two minutes.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear structure; Evidence; Concise.",
@@ -2250,7 +2250,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you decide which leads to chase.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Criteria; Trade-offs; Example.",
@@ -2284,7 +2284,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you forecast and what you do when it is wrong.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Method; Honesty; Action.",
@@ -2318,7 +2318,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you win against a cheaper competitor.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear position; Value points; Evidence.",
@@ -2352,7 +2352,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A panel of three: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a panel of three: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Address the whole panel and each person by name.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Eye on all; Names; Clear.",
@@ -2386,7 +2386,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A panel of three: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a panel of three: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Buy time and answer an unexpected question with structure.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Phrase; Structure; Concise.",
@@ -2420,7 +2420,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A panel of three: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a panel of three: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Present a plan for your first 90 days with measures.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Three stages; Measures; Realistic.",
@@ -2454,7 +2454,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A panel of three: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a panel of three: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say your sales philosophy in two minutes.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear principles; Calm delivery; Example.",
@@ -2488,7 +2488,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you coach a weaker salesperson.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Approach; Example; Result.",
@@ -2522,7 +2522,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you do when a target pushes you to oversell.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear position; Nuance; Keeps trust.",
@@ -2556,7 +2556,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you disagree with a decision and still deliver.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Raises it properly; Respects the decision; Delivers.",
@@ -2590,7 +2590,7 @@ export const INTERVIEWS_SALES_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A sales director: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a sales director: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Respond calmly when your results are questioned.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: No excuse; Facts; Focus on growth.",

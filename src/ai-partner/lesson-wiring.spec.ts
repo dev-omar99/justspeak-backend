@@ -1,3 +1,4 @@
+import { lessonBeats } from './content/curriculum/lesson-beats';
 import { LiveSession } from './conversation.service';
 import { getPersona } from './content/personas';
 import { getRoleplay } from './content/roleplays';
@@ -49,7 +50,7 @@ describe('every curriculum lesson reaches the coach prompt', () => {
         `CEFR level ${l.level}`,
         `whose English level is ${l.level} (CEFR)`,
         l.goal,
-        ...l.targets,
+        ...lessonBeats(l),
         ...l.rubric.map((r) => `- ${r.label}: ${r.hint}`),
       ];
       for (const n of need) if (!prompt.includes(n)) problems.push(`${l.id}: missing "${n.slice(0, 50)}"`);

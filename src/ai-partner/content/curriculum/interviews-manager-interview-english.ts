@@ -304,7 +304,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as An office assistant: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as an office assistant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say which days you can work.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names days; Uses I can; Speaks clearly.",
@@ -338,7 +338,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as An office assistant: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as an office assistant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what time you can start.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the time; Uses at; Speaks slowly.",
@@ -372,7 +372,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as An office assistant: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as an office assistant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Confirm the day and time of your interview.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the day; Says the time; Checks it.",
@@ -406,7 +406,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as An office assistant: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as an office assistant: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say you are late and say sorry.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Says late; Gives a short reason.",
@@ -440,7 +440,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team leader: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team leader: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say the names of three team members.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says names; Uses and; Speaks clearly.",
@@ -474,7 +474,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team leader: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team leader: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say who is the boss and who is the assistant.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names roles; Uses is; Speaks clearly.",
@@ -508,7 +508,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team leader: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team leader: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say how many people are in your team.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says a number; Uses there are; Speaks slowly.",
@@ -542,7 +542,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team leader: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team leader: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask a team member for help politely.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses please; Asks a question; Says thank you.",
@@ -850,7 +850,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team member: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team member: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you do first in the morning.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses first; Names the task; Speaks clearly.",
@@ -884,7 +884,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team member: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team member: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask someone to do a simple task.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses can you; Names the task; Says thank you.",
@@ -918,7 +918,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team member: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team member: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask if a task is finished.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks a question; Uses is it done; Speaks clearly.",
@@ -952,7 +952,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team member: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team member: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Praise a team member for good work.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says well done; Says why; Smiles in the voice.",
@@ -1396,7 +1396,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you set goals for a team.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes steps; Gives an example; Speaks clearly.",
@@ -1430,7 +1430,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you check progress.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names a method; Gives an example; Speaks clearly.",
@@ -1464,7 +1464,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain what you did when a target was missed.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what happened; Says what you did; Says what you learned.",
@@ -1498,7 +1498,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Report a team result with numbers.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives numbers; Compares with before; Speaks clearly.",
@@ -1806,7 +1806,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you keep a team motivated under pressure.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a method; Gives an example; Sounds credible.",
@@ -1840,7 +1840,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you solved a conflict between two people.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes both sides; Says what you did; Gives the result.",
@@ -1874,7 +1874,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you decide what to delegate.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives criteria; Gives an example; Speaks clearly.",
@@ -1908,7 +1908,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you handle a weak performer.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes steps; Stays fair; Gives the result.",
@@ -2216,7 +2216,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Present your plan for the first ninety days.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives phases; Gives priorities; Sounds realistic.",
@@ -2250,7 +2250,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a decision with no perfect option.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the options; Explains the choice; Owns the risk.",
@@ -2284,7 +2284,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you lead other managers.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a method; Gives an example; Sounds credible.",
@@ -2318,7 +2318,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you led a change that people resisted.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the resistance; Describes your steps; States the result.",
@@ -2352,7 +2352,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a difficult decision about someone's job.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays respectful; Explains the reasoning; Shows care.",
@@ -2386,7 +2386,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain what you do if asked to hide bad news.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Takes a clear position; Gives reasons; Stays calm.",
@@ -2420,7 +2420,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you keep decisions fair.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a method; Gives an example; Sounds credible.",
@@ -2454,7 +2454,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a time you were wrong as a leader.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Owns it; Says what changed; Stays confident.",
@@ -2488,7 +2488,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a confident opening in under a minute.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sounds confident; Stays short; Looks forward.",
@@ -2522,7 +2522,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Answer a panel and address each person.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names or looks at each; Keeps the thread; Stays clear.",
@@ -2556,7 +2556,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Defend a view politely under challenge.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Holds the view; Gives evidence; Stays polite.",
@@ -2590,7 +2590,7 @@ export const INTERVIEWS_MANAGER_INTERVIEW_ENGLISH: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior panel: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior panel: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give a closing statement that is memorable.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sums up value; Ends strongly; Stays short.",

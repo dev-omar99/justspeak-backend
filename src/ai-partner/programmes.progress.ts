@@ -10,6 +10,7 @@
 
 import { ROLEPLAY_SCENARIOS } from './content/roleplays';
 import { DEFAULT_PASS_PCT, PERSONA_TRAITS, type ContentSource, type ProgrammeDef } from './content/programmes';
+import { reportOverall } from './content/rubric';
 import { getPersona, type PersonaId } from './content/personas';
 
 export type TaskStatus = 'not_started' | 'in_progress' | 'passed';
@@ -51,13 +52,9 @@ export interface ProgrammeView {
   nextTaskId: string | null;
 }
 
-/** Overall score of a stored report, or null when it is not a real measured number. */
+/** Overall score of a stored report, or null when it is not a real measured number. Same number as every other screen. */
 export function reportScore(report: unknown): number | null {
-  if (!report || typeof report !== 'object') return null;
-  const r = report as { status?: unknown; overall_score?: unknown };
-  if (r.status !== 'OK') return null;
-  const n = r.overall_score;
-  return typeof n === 'number' && Number.isFinite(n) ? Math.max(0, Math.min(100, n)) : null;
+  return reportOverall(report);
 }
 
 export function buildProgrammes(programmes: ProgrammeDef[], sessions: SessionLite[]): ProgrammeView[] {

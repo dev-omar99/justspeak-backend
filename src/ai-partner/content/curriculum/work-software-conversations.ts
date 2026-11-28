@@ -32,7 +32,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say your name and that you are a software engineer.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says name; Says job; Uses I am.",
@@ -66,7 +66,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say if you do web, mobile or data work.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the area; Uses I do; Speaks clearly.",
@@ -100,7 +100,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say where you work.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the place; Uses I work at; Speaks slowly.",
@@ -134,7 +134,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say which city you work in.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the city; Uses I work in; Speaks clearly.",
@@ -168,7 +168,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team lead: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team lead: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say how many years you have worked.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says a number; Uses for; Speaks slowly.",
@@ -202,7 +202,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team lead: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team lead: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what your first job was.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the job; Uses my first job was; Speaks clearly.",
@@ -236,7 +236,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team lead: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team lead: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you studied.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the subject; Uses I studied; Speaks slowly.",
@@ -270,7 +270,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A team lead: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a team lead: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say your main programming language.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names it; Uses I use; Speaks clearly.",
@@ -304,7 +304,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say when your work day starts.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says time; Uses at; Speaks clearly.",
@@ -338,7 +338,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Name two tools you use every day.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names two; Uses I use; Speaks clearly.",
@@ -372,7 +372,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say how many meetings you have.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says a number; Uses I have; Speaks slowly.",
@@ -406,7 +406,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A friendly colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a friendly colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you do at lunch.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says one action; Uses I; Speaks clearly.",
@@ -440,7 +440,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A new teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a new teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say how many people are in your team.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says a number; Uses there are; Speaks clearly.",
@@ -474,7 +474,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A new teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a new teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say who your manager is.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names a person; Uses my manager is; Speaks slowly.",
@@ -508,7 +508,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A new teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a new teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say you like your team.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says like; Uses I like; Gives one word of reason.",
@@ -542,7 +542,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A new teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a new teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Ask a teammate for help.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses can you; Says please; Speaks clearly.",
@@ -850,7 +850,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say who you work with and what each person does.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names roles; Uses simple present; Speaks clearly.",
@@ -884,7 +884,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say one problem the team had.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the problem; Uses past tense; Speaks clearly.",
@@ -918,7 +918,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say how you helped to fix it.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says the action; Uses I helped; Gives a result.",
@@ -952,7 +952,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Say what you did yesterday and what you do today.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says yesterday; Says today; Uses the right tense.",
@@ -1396,7 +1396,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a disagreement and how it ended.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Tells it in order; Stays polite; Gives the result.",
@@ -1430,7 +1430,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you give feedback on someone's work.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a method; Gives an example; Speaks clearly.",
@@ -1464,7 +1464,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a time you took feedback and changed something.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Tells the story; Says the change; Speaks clearly.",
@@ -1498,7 +1498,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how your team works from different places.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the way; Names a tool; Speaks clearly.",
@@ -1806,7 +1806,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A product manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a product manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain what you build to someone who does not code.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses plain words; Uses an example; Checks understanding.",
@@ -1840,7 +1840,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A product manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a product manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain a choice between speed and quality you faced.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names both sides; Gives a decision; Gives the reason.",
@@ -1874,7 +1874,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A product manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a product manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain why work is late and what you will do.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives the cause; Gives a plan; Stays calm.",
@@ -1908,7 +1908,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A product manager: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a product manager: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Give an estimate and say what could change it.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a range; Names the risks; Speaks clearly.",
@@ -1942,7 +1942,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you help a new engineer grow.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a method; Gives an example; Stays patient.",
@@ -1976,7 +1976,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you handle a code review you disagree with.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays polite; Gives a reason; Reaches a decision.",
@@ -2010,7 +2010,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a production problem and how the team handled it.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Tells it in order; Says your part; Says the lesson.",
@@ -2044,7 +2044,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A teammate: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a teammate: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a project with another team and what you learned.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes it; Names a challenge; Says the result.",
@@ -2352,7 +2352,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A chief technology officer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a chief technology officer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Discuss how you decide whether to build or buy.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Weighs both; Gives criteria; Makes a call.",
@@ -2386,7 +2386,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A chief technology officer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a chief technology officer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Explain how you decide when to pay down technical debt.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives criteria; Gives an example; Defends the call.",
@@ -2420,7 +2420,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A chief technology officer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a chief technology officer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe a risky release and how you managed the risk.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the risks; Gives actions; Says the outcome.",
@@ -2454,7 +2454,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A chief technology officer: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a chief technology officer: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you refused a request and kept trust.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the reason; Offers an option; Stays respectful.",
@@ -2488,7 +2488,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe the team habits you build and why.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names habits; Gives reasons; Gives an example.",
@@ -2522,7 +2522,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you handled a conflict in your team.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays neutral; Says the steps; Gives the result.",
@@ -2556,7 +2556,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you grew someone who struggled.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the plan; Says the result; Shows care.",
@@ -2590,7 +2590,7 @@ export const WORK_SOFTWARE_CONVERSATIONS: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A senior colleague: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a senior colleague: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Describe how you gave hard feedback to a strong engineer.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Is direct; Is kind; Reaches an agreement.",

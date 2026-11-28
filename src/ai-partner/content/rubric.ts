@@ -62,6 +62,11 @@ CEFR ESTIMATE
    85+ suggest testing one level up; 60-84 on track; 40-59 consolidate current level; below 40 suggest one level down.
    State this as an estimate, never a certification.
 
+OFF-TOPIC AND GOAL RULE (lesson and roleplay sessions)
+   - lesson_result.goal_met is "yes" only when the student spoke to the lesson goal and covered most of its rubric points.
+   - Use "partly" when some points were covered. Use "no" when the student mostly did not do the lesson: off-topic talk, only repeating the partner, reading unrelated text, or refusing the task.
+   - Being fluent about something else is not progress on this lesson. Do not raise grammar, vocabulary or interaction scores to reward fluent but off-topic speech. The code lowers the overall score when goal_met is "no".
+
 HONESTY RULES (non-negotiable)
    - Never inflate a score to please the student.
    - Every correction, coaching card quote and recast must quote the student's exact words from the transcript. If you cannot quote it, do not report it.
@@ -226,6 +231,8 @@ export interface SessionReport {
   };
   /** One-line reason and an exact learner quote per dimension. Quotes are verified against the transcript in code. */
   dimension_notes?: Partial<Record<DimensionKey, DimensionNote>>;
+  /** Set in code only (never read from the model): the overall was lowered because the lesson goal was not met. */
+  score_cap?: ScoreCap;
   /** Which lesson checklist points the conversation covered. Absent on older reports and when the model did not return it. */
   checklist?: { label: string; covered: boolean }[];
   /** How each score was produced, set in code: measured from the audio or metrics, or judged by the model (an estimate). */
@@ -433,4 +440,65 @@ export function countFillersByWord(text: string): { word: string; count: number 
   return [...counts.entries()]
     .map(([word, count]) => ({ word, count }))
     .sort((a, b) => b.count - a.count);
+}
+
+
+/** The five skills whose mean is the overall score everywhere (report page, My Learning, tree, dashboard). Coherence is shown but not counted. */
+export const OVERALL_DIMENSION_KEYS = ['pronunciation', 'fluency', 'vocabulary', 'grammar', 'interaction'] as const;
+
+/** Highest overall (0-100) a session can get when the lesson goal was not met (5.5/10, below the 6/10 pass mark). */
+export const OFF_GOAL_CAP = 55;
+
+export interface ScoreCap {
+  from: number;
+  to: number;
+  reason: string;
+}
+
+/** Mean of the measured skills, 0-100, unrounded. Unmeasured (null) skills are left out, never counted as 0. Null when none were measured. */
+export function dimensionMean(dimensions: unknown): number | null {
+  if (!dimensions || typeof dimensions !== 'object') return null;
+  const values = OVERALL_DIMENSION_KEYS.map((k) => (dimensions as Record<string, unknown>)[k]).filter(
+    (n): n is number => typeof n === 'number' && Number.isFinite(n),
+  );
+  if (values.length === 0) return null;
+  return values.reduce((a, b) => a + Math.max(0, Math.min(100, b)), 0) / values.length;
+}
+
+/**
+ * The one overall score (0-100, whole number) for a stored report, or null when it has no real score.
+ * It is the mean of the measured skills, lowered to the stored score cap when the lesson goal was not met.
+ * Never the model's own overall_score, so every screen agrees. Rounding to a whole number matches the
+ * report page, which shows one decimal out of 10.
+ */
+export function reportOverall(report: unknown): number | null {
+  if (!report || typeof report !== 'object') return null;
+  const r = report as { status?: unknown; dimensions?: unknown; score_cap?: { to?: unknown } };
+  if (r.status !== 'OK') return null;
+  const mean = dimensionMean(r.dimensions);
+  if (mean === null) return null;
+  const rounded = Math.round(mean);
+  const cap = r.score_cap && typeof r.score_cap.to === 'number' && Number.isFinite(r.score_cap.to) ? r.score_cap.to : null;
+  return cap !== null ? Math.min(rounded, cap) : rounded;
+}
+
+/**
+ * Final scoring step, run in code after the model answers (OK reports only).
+ * - No measured skill: the answer is not a score. Returns null so the caller retries, never a fake 0.
+ * - overall_score becomes the mean of the measured skills (the model's own number is ignored).
+ * - goal_met "no" caps the overall at OFF_GOAL_CAP and records why.
+ */
+export function finaliseScores(report: SessionReport): SessionReport | null {
+  if (report.status !== 'OK') return report;
+  const mean = dimensionMean(report.dimensions);
+  if (mean === null) return null;
+  const overall = Math.round(mean);
+  const goalMet = (report.lesson_result?.goal_met ?? '').trim().toLowerCase();
+  const next: SessionReport = { ...report, overall_score: overall };
+  delete next.score_cap;
+  if (goalMet === 'no' && overall > OFF_GOAL_CAP) {
+    next.score_cap = { from: overall, to: OFF_GOAL_CAP, reason: 'The lesson goal was not met, so the score is capped below the pass mark.' };
+    next.overall_score = OFF_GOAL_CAP;
+  }
+  return next;
 }

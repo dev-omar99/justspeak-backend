@@ -850,7 +850,7 @@ export const WORKPLACE_ENGLISH_COURSE: CurriculumProgramme = {
      }
     ],
     "targets": [
-     "Open the scene in character as A caller, Mr Hady: greet the learner and state your situation in one or two short sentences.",
+     "Open the scene in character as a caller, Mr Hady: greet the learner and state your situation in one or two short sentences.",
      "Let the learner work toward this goal: Answer a call and ask who is calling.",
      "Keep the replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Greets; Asks the name; Offers help.",
