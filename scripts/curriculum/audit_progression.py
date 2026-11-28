@@ -28,7 +28,7 @@ def load(f):
 def main():
     report = {}
     for f in sorted(ROOT.glob('*.ts')):
-        if f.name in ('index.ts', 'types.ts'): continue
+        if f.name in ('index.ts', 'types.ts', 'vocabulary.ts') or f.name.endswith('.spec.ts'): continue
         d = load(f); prog = {'levels': {}, 'unit_inversions': [], 'lesson_inversions': 0, 'lessons': 0}
         lvl_means = []
         for lv in LEVELS:

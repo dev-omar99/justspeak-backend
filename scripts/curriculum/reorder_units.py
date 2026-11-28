@@ -13,7 +13,7 @@ from audit_progression import ROOT, LEVELS, load, difficulty
 PIN_LAST = re.compile(r'full|whole|review|practice|mock|exam-style', re.I)
 changes = []
 for f in sorted(ROOT.glob('*.ts')):
-    if f.name in ('index.ts', 'types.ts'): continue
+    if f.name in ('index.ts', 'types.ts', 'vocabulary.ts') or f.name.endswith('.spec.ts'): continue
     s = f.read_text(); d = load(f)
     for lv in LEVELS:
         ls = d['levels'][lv]; units = {}

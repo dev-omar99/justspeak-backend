@@ -42,7 +42,7 @@ def lf(t): return t if t[:1] in '"\'' or t[:2].isupper() else t[:1].lower() + t[
 
 total = 0
 for f in sorted(root.glob('*.ts')):
-    if f.name in ('index.ts', 'types.ts'): continue
+    if f.name in ('index.ts', 'types.ts', 'vocabulary.ts') or f.name.endswith('.spec.ts'): continue
     s = f.read_text(); a = s.index('{', s.index('CurriculumProgramme =')); b = s.rindex('};') + 1
     d = json.loads(s[a:b])
     over = overrides_for(d['id'])

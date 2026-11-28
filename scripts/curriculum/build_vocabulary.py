@@ -15,7 +15,7 @@ def tier(z): return 1 if z >= 5 else 2 if z >= 4.5 else 3 if z >= 4 else 4 if z 
 
 out = {}
 for f in sorted(ROOT.glob('*.ts')):
-    if f.name in ('index.ts', 'types.ts', 'vocabulary.ts'): continue
+    if f.name in ('index.ts', 'types.ts', 'vocabulary.ts') or f.name.endswith('.spec.ts'): continue
     d = load(f); seen = set(); lv_out = {}
     for lv in LEVELS:
         new = {}; phrases = []
