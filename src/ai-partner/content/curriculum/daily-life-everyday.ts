@@ -2062,7 +2062,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Discuss ideas and feelings in depth.",
     "persona": "adams",
     "personaRole": "Mr Karim, a friend who loves debate",
-    "goal": "Discuss a topic with ideas and examples.",
+    "goal": "Discuss a topic you care about: give your view, support it with one example, and respond to a different opinion without arguing.",
     "rubric": [
      {
       "label": "Gives ideas",
@@ -2079,7 +2079,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a friend who loves debate: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss a topic with ideas and examples.",
+     "Let the learner work toward this goal: Discuss a topic you care about: give your view, support it with one example, and respond to a different opinion without arguing.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives ideas; Gives examples; Responds to him.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2096,7 +2096,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Discuss ideas and feelings in depth.",
     "persona": "sara",
     "personaRole": "Mona, a friend with a problem",
-    "goal": "Show empathy and offer help.",
+    "goal": "A friend shares a problem: show you understand how they feel before you offer anything, then offer one practical help.",
     "rubric": [
      {
       "label": "Reflects feeling",
@@ -2113,7 +2113,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mona, a friend with a problem: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Show empathy and offer help.",
+     "Let the learner work toward this goal: A friend shares a problem: show you understand how they feel before you offer anything, then offer one practical help.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reflects feeling; Asks gently; Offers help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2130,7 +2130,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Discuss ideas and feelings in depth.",
     "persona": "adams",
     "personaRole": "Mr Wael, a friend who asks for advice",
-    "goal": "Give advice without pushing.",
+    "goal": "A friend asks what to do: give one piece of advice with a reason, use soft wording like \"you might\", and let them decide.",
     "rubric": [
      {
       "label": "Uses soft language",
@@ -2147,7 +2147,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a friend who asks for advice: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give advice without pushing.",
+     "Let the learner work toward this goal: A friend asks what to do: give one piece of advice with a reason, use soft wording like \"you might\", and let them decide.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses soft language; Gives a reason; Lets him choose.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2164,7 +2164,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Discuss ideas and feelings in depth.",
     "persona": "sara",
     "personaRole": "Rasha, a friend who is angry",
-    "goal": "Calm a disagreement.",
+    "goal": "Two friends disagree and you are in the middle: say what each wants, stay neutral, and suggest one way to settle it.",
     "rubric": [
      {
       "label": "Listens",
@@ -2181,7 +2181,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Rasha, a friend who is angry: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Calm a disagreement.",
+     "Let the learner work toward this goal: Two friends disagree and you are in the middle: say what each wants, stay neutral, and suggest one way to settle it.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Names the issue; Finds a middle way.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2198,7 +2198,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about study, work and goals.",
     "persona": "adams",
     "personaRole": "Mr Sherif, a new colleague",
-    "goal": "Explain your job or studies.",
+    "goal": "Someone asks about your work or studies: explain what you do, one thing you enjoy and one challenge, then ask about theirs.",
     "rubric": [
      {
       "label": "Gives clear details",
@@ -2215,7 +2215,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a new colleague: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain your job or studies.",
+     "Let the learner work toward this goal: Someone asks about your work or studies: explain what you do, one thing you enjoy and one challenge, then ask about theirs.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives clear details; Uses examples; Asks back.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2232,7 +2232,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about study, work and goals.",
     "persona": "sara",
     "personaRole": "Heba, a colleague",
-    "goal": "Ask for help clearly.",
+    "goal": "You are stuck at work: say what you tried, ask a colleague for one specific piece of help, and thank them.",
     "rubric": [
      {
       "label": "States the task",
@@ -2249,7 +2249,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Heba, a colleague: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask for help clearly.",
+     "Let the learner work toward this goal: You are stuck at work: say what you tried, ask a colleague for one specific piece of help, and thank them.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the task; Says what you need; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2266,7 +2266,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about study, work and goals.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a friend who should hear news",
-    "goal": "Share good or bad news.",
+    "goal": "You have news to share: say if it is good or bad at the start, give the key facts, and ask how they feel about it.",
     "rubric": [
      {
       "label": "Prepares him",
@@ -2283,7 +2283,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a friend who should hear news: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Share good or bad news.",
+     "Let the learner work toward this goal: You have news to share: say if it is good or bad at the start, give the key facts, and ask how they feel about it.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Prepares him; Gives the news; Responds to his reaction.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2300,7 +2300,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about study, work and goals.",
     "persona": "sara",
     "personaRole": "Amira, a person you are meeting",
-    "goal": "Explain you are late.",
+    "goal": "You will be late: say it before the meeting, give the reason in one sentence, and give a new arrival time.",
     "rubric": [
      {
       "label": "Says sorry",
@@ -2317,7 +2317,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Amira, a person you are meeting: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain you are late.",
+     "Let the learner work toward this goal: You will be late: say it before the meeting, give the reason in one sentence, and give a new arrival time.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Gives a short reason; Offers a plan.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2334,7 +2334,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle urgent situations calmly.",
     "persona": "adams",
     "personaRole": "Emergency operator Mr Sherif",
-    "goal": "Give the key facts calmly.",
+    "goal": "Call for help in an emergency: give where you are and what happened in the first two sentences, stay calm, and follow the instructions.",
     "rubric": [
      {
       "label": "Says where",
@@ -2351,7 +2351,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Emergency operator Mr Sherif: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give the key facts calmly.",
+     "Let the learner work toward this goal: Call for help in an emergency: give where you are and what happened in the first two sentences, stay calm, and follow the instructions.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says where; Says what happened; Answers questions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2368,7 +2368,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle urgent situations calmly.",
     "persona": "sara",
     "personaRole": "Nadia, a police officer",
-    "goal": "Report a lost item.",
+    "goal": "You lost something: say what it is and where you last saw it, describe it in two details, and leave a contact number.",
     "rubric": [
      {
       "label": "Describes the item",
@@ -2385,7 +2385,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Nadia, a police officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report a lost item.",
+     "Let the learner work toward this goal: You lost something: say what it is and where you last saw it, describe it in two details, and leave a contact number.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the item; Says where and when; Gives contact.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2402,7 +2402,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle urgent situations calmly.",
     "persona": "adams",
     "personaRole": "Mr Karim, a mechanic",
-    "goal": "Explain a car problem.",
+    "goal": "Your car has a problem: describe what you see and hear, say when it started, and ask what it will cost and how long it will take.",
     "rubric": [
      {
       "label": "Describes the problem",
@@ -2419,7 +2419,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a mechanic: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a car problem.",
+     "Let the learner work toward this goal: Your car has a problem: describe what you see and hear, say when it started, and ask what it will cost and how long it will take.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the problem; Answers questions; Agrees the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2436,7 +2436,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle urgent situations calmly.",
     "persona": "adams",
     "personaRole": "Mr Adel, a person who feels ill",
-    "goal": "Help calmly and call for help.",
+    "goal": "Someone near you needs help: ask if they are all right, call for help with the key facts, and stay with them until it comes.",
     "rubric": [
      {
       "label": "Asks questions",
@@ -2453,7 +2453,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a person who feels ill: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Help calmly and call for help.",
+     "Let the learner work toward this goal: Someone near you needs help: ask if they are all right, call for help with the key facts, and stay with them until it comes.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks questions; Reassures; Gets help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2470,7 +2470,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about news, films and social media.",
     "persona": "adams",
     "personaRole": "Mr Karim, a friend who also saw it",
-    "goal": "Share what you thought.",
+    "goal": "Talk about a film or book: say what it is about without spoiling the end, give your opinion with one reason, and ask what they thought.",
     "rubric": [
      {
       "label": "Says what happened",
@@ -2487,7 +2487,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a friend who also saw it: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Share what you thought.",
+     "Let the learner work toward this goal: Talk about a film or book: say what it is about without spoiling the end, give your opinion with one reason, and ask what they thought.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says what happened; Gives an opinion; Gives a reason.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2504,7 +2504,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about news, films and social media.",
     "persona": "sara",
     "personaRole": "Rania, a friend who reads the news",
-    "goal": "Talk about a news story.",
+    "goal": "Discuss a news story: summarise it in two sentences, give your opinion, and respect a different view.",
     "rubric": [
      {
       "label": "Summarises",
@@ -2521,7 +2521,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Rania, a friend who reads the news: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about a news story.",
+     "Let the learner work toward this goal: Discuss a news story: summarise it in two sentences, give your opinion, and respect a different view.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Summarises; Gives a view; Asks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2538,7 +2538,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about news, films and social media.",
     "persona": "adams",
     "personaRole": "Mr Nabil, a friend who worries about screens",
-    "goal": "Talk about habits and effects.",
+    "goal": "Talk about social media: describe your own habit, name one good and one bad effect, and say what you would change.",
     "rubric": [
      {
       "label": "Describes habits",
@@ -2555,7 +2555,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Nabil, a friend who worries about screens: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about habits and effects.",
+     "Let the learner work toward this goal: Talk about social media: describe your own habit, name one good and one bad effect, and say what you would change.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes habits; Gives a view; Considers another view.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2572,7 +2572,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about news, films and social media.",
     "persona": "sara",
     "personaRole": "Salma, a friend who asks for a tip",
-    "goal": "Recommend something with reasons.",
+    "goal": "Recommend something to a friend: say what it is, give two reasons it suits them, and mention one downside honestly.",
     "rubric": [
      {
       "label": "Describes it",
@@ -2589,7 +2589,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Salma, a friend who asks for a tip: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Recommend something with reasons.",
+     "Let the learner work toward this goal: Recommend something to a friend: say what it is, give two reasons it suits them, and mention one downside honestly.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes it; Gives reasons; Says who it is for.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2606,7 +2606,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle money matters, contracts and complaints.",
     "persona": "adams",
     "personaRole": "Mr Adel, a landlord",
-    "goal": "Ask about the terms of a rental.",
+    "goal": "You are renting a flat: ask about rent, deposit, bills and the length of the contract, and write down the answers.",
     "rubric": [
      {
       "label": "Asks about the cost",
@@ -2623,7 +2623,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a landlord: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about the terms of a rental.",
+     "Let the learner work toward this goal: You are renting a flat: ask about rent, deposit, bills and the length of the contract, and write down the answers.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about the cost; Asks about the contract; Checks the date.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2640,7 +2640,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle money matters, contracts and complaints.",
     "persona": "sara",
     "personaRole": "Ms Reem, a manager",
-    "goal": "Make a formal complaint.",
+    "goal": "Make a formal complaint: state the problem and the dates, say what you have already tried, and ask for a specific result.",
     "rubric": [
      {
       "label": "States the facts",
@@ -2657,7 +2657,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Ms Reem, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Make a formal complaint.",
+     "Let the learner work toward this goal: Make a formal complaint: state the problem and the dates, say what you have already tried, and ask for a specific result.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the facts; States what you want; Stays calm.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2674,7 +2674,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle money matters, contracts and complaints.",
     "persona": "adams",
     "personaRole": "Mr Tarek, a shop manager",
-    "goal": "Negotiate a return.",
+    "goal": "You want to return a product with no receipt: explain the situation, offer another proof, and agree on a solution.",
     "rubric": [
      {
       "label": "States the problem",
@@ -2691,7 +2691,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, a shop manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Negotiate a return.",
+     "Let the learner work toward this goal: You want to return a product with no receipt: explain the situation, offer another proof, and agree on a solution.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the problem; Stays polite; Accepts a fair solution.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2708,7 +2708,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle money matters, contracts and complaints.",
     "persona": "sara",
     "personaRole": "Dalia, a bank adviser",
-    "goal": "Ask about a long contract.",
+    "goal": "Ask about a long contract: pick the three terms that matter most, ask what happens if you stop early, and summarise the answer.",
     "rubric": [
      {
       "label": "Asks about the terms",
@@ -2725,7 +2725,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Dalia, a bank adviser: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about a long contract.",
+     "Let the learner work toward this goal: Ask about a long contract: pick the three terms that matter most, ask what happens if you stop early, and summarise the answer.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about the terms; Checks the cost; Asks about leaving.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2742,7 +2742,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about cultures and differences politely.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a visitor who asks about a custom",
-    "goal": "Explain a custom clearly.",
+    "goal": "Explain a custom from your culture: say what it is and why it exists, and give one example of how people do it.",
     "rubric": [
      {
       "label": "Describes it",
@@ -2759,7 +2759,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a visitor who asks about a custom: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a custom clearly.",
+     "Let the learner work toward this goal: Explain a custom from your culture: say what it is and why it exists, and give one example of how people do it.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes it; Gives a reason; Checks he understands.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2776,7 +2776,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about cultures and differences politely.",
     "persona": "sara",
     "personaRole": "Hana, a host from another country",
-    "goal": "Ask about customs politely.",
+    "goal": "Ask about a custom you do not know: show interest, ask a polite question, and thank them for explaining.",
     "rubric": [
      {
       "label": "Uses polite language",
@@ -2793,7 +2793,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Hana, a host from another country: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about customs politely.",
+     "Let the learner work toward this goal: Ask about a custom you do not know: show interest, ask a polite question, and thank them for explaining.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses polite language; Asks open questions; Shows respect.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2810,7 +2810,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about cultures and differences politely.",
     "persona": "adams",
     "personaRole": "Mr Wael, a friend who was offended",
-    "goal": "Fix a misunderstanding.",
+    "goal": "A misunderstanding upset someone: say what you think happened, ask what they understood, and agree how to put it right.",
     "rubric": [
      {
       "label": "Says sorry",
@@ -2827,7 +2827,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a friend who was offended: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Fix a misunderstanding.",
+     "Let the learner work toward this goal: A misunderstanding upset someone: say what you think happened, ask what they understood, and agree how to put it right.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Explains what you meant; Asks how he feels.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2844,7 +2844,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about cultures and differences politely.",
     "persona": "sara",
     "personaRole": "Dina, a visitor",
-    "goal": "Describe your city and tips.",
+    "goal": "Describe your city to a visitor: give three places, one tip for getting around, and one thing to avoid.",
     "rubric": [
      {
       "label": "Describes places",
@@ -2861,7 +2861,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Dina, a visitor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe your city and tips.",
+     "Let the learner work toward this goal: Describe your city to a visitor: give three places, one tip for getting around, and one thing to avoid.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes places; Gives tips; Shows pride.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2880,7 +2880,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Use tone, humour and nuance with friends and strangers.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a friend who hints at a problem",
-    "goal": "Notice and respond to hints.",
+    "goal": "Someone hints at something without saying it: point out what you noticed politely, check you understood, and respond to the real need.",
     "rubric": [
      {
       "label": "Notices the hint",
@@ -2897,7 +2897,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a friend who hints at a problem: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Notice and respond to hints.",
+     "Let the learner work toward this goal: Someone hints at something without saying it: point out what you noticed politely, check you understood, and respond to the real need.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Notices the hint; Checks gently; Offers support.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2914,7 +2914,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Use tone, humour and nuance with friends and strangers.",
     "persona": "sara",
     "personaRole": "Salma, a friend who likes jokes",
-    "goal": "Use humour naturally.",
+    "goal": "Add humour to a conversation: use one light joke that suits the moment, and keep it kind to everyone in the room.",
     "rubric": [
      {
       "label": "Uses a light joke",
@@ -2931,7 +2931,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Salma, a friend who likes jokes: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Use humour naturally.",
+     "Let the learner work toward this goal: Add humour to a conversation: use one light joke that suits the moment, and keep it kind to everyone in the room.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses a light joke; Reads her reaction; Stays kind.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2948,7 +2948,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Use tone, humour and nuance with friends and strangers.",
     "persona": "adams",
     "personaRole": "Mr Tarek, a friend who asks a big favour",
-    "goal": "Say no kindly.",
+    "goal": "You must say no to a friend: say no clearly in the first sentence, give a short reason, and offer something else.",
     "rubric": [
      {
       "label": "Says no clearly",
@@ -2965,7 +2965,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, a friend who asks a big favour: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say no kindly.",
+     "Let the learner work toward this goal: You must say no to a friend: say no clearly in the first sentence, give a short reason, and offer something else.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says no clearly; Gives a reason; Offers a smaller help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2982,7 +2982,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Use tone, humour and nuance with friends and strangers.",
     "persona": "sara",
     "personaRole": "Heba, a friend who asks for a frank view",
-    "goal": "Give honest feedback kindly.",
+    "goal": "Give honest feedback to a friend: start with something true and good, name one problem kindly, and suggest how to improve.",
     "rubric": [
      {
       "label": "States a strength",
@@ -2999,7 +2999,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Heba, a friend who asks for a frank view: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give honest feedback kindly.",
+     "Let the learner work toward this goal: Give honest feedback to a friend: start with something true and good, name one problem kindly, and suggest how to improve.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States a strength; States a concern; Offers a way forward.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3016,7 +3016,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle life in another country with confidence.",
     "persona": "adams",
     "personaRole": "Mr Karim, a bank adviser",
-    "goal": "Open an account and understand the terms.",
+    "goal": "Open a bank account abroad: ask about fees, limits and what happens if you close it, and confirm the terms in your own words.",
     "rubric": [
      {
       "label": "Asks about requirements",
@@ -3033,7 +3033,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a bank adviser: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Open an account and understand the terms.",
+     "Let the learner work toward this goal: Open a bank account abroad: ask about fees, limits and what happens if you close it, and confirm the terms in your own words.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about requirements; Asks about fees; Confirms the steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3050,7 +3050,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle life in another country with confidence.",
     "persona": "sara",
     "personaRole": "Ms Reem, a school administrator",
-    "goal": "Handle a formal appointment.",
+    "goal": "Talk to a school or a doctor: explain the situation in order, ask about the options and the risks, and check the next step.",
     "rubric": [
      {
       "label": "States the need",
@@ -3067,7 +3067,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Ms Reem, a school administrator: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle a formal appointment.",
+     "Let the learner work toward this goal: Talk to a school or a doctor: explain the situation in order, ask about the options and the risks, and check the next step.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the need; Answers questions; Confirms the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3084,7 +3084,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle life in another country with confidence.",
     "persona": "sara",
     "personaRole": "Hana, a new local friend",
-    "goal": "Build a friendship.",
+    "goal": "Make a local friend: find one thing you share, ask open questions, and suggest a plan to meet again.",
     "rubric": [
      {
       "label": "Shows interest",
@@ -3101,7 +3101,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Hana, a new local friend: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Build a friendship.",
+     "Let the learner work toward this goal: Make a local friend: find one thing you share, ask open questions, and suggest a plan to meet again.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Shows interest; Shares something personal; Plans to meet.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3118,7 +3118,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle life in another country with confidence.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a neighbour who welcomes you",
-    "goal": "Talk about life in a new place.",
+    "goal": "Talk about settling in: describe what was hard, what helped, and what you would tell a newcomer.",
     "rubric": [
      {
       "label": "Describes experiences",
@@ -3135,7 +3135,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a neighbour who welcomes you: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about life in a new place.",
+     "Let the learner work toward this goal: Talk about settling in: describe what was hard, what helped, and what you would tell a newcomer.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes experiences; Asks for tips; Shows thanks.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3152,7 +3152,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Speak in formal situations with confidence.",
     "persona": "sara",
     "personaRole": "Ms Dalia and the guests",
-    "goal": "Give a short toast or speech.",
+    "goal": "Give a short toast or speech: thank people, tell one short personal story, and end with a warm line.",
     "rubric": [
      {
       "label": "Opens warmly",
@@ -3169,7 +3169,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Ms Dalia and the guests: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a short toast or speech.",
+     "Let the learner work toward this goal: Give a short toast or speech: thank people, tell one short personal story, and end with a warm line.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens warmly; Keeps it short; Closes well.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3186,7 +3186,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Speak in formal situations with confidence.",
     "persona": "adams",
     "personaRole": "Mr Adel, a government officer",
-    "goal": "Handle a formal conversation.",
+    "goal": "Talk to an official: state your request formally, answer their questions exactly, and confirm what happens next and when.",
     "rubric": [
      {
       "label": "Uses formal language",
@@ -3203,7 +3203,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a government officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle a formal conversation.",
+     "Let the learner work toward this goal: Talk to an official: state your request formally, answer their questions exactly, and confirm what happens next and when.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Uses formal language; Asks clearly; Confirms the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3220,7 +3220,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Speak in formal situations with confidence.",
     "persona": "adams",
     "personaRole": "Mr Hamdy and neighbours",
-    "goal": "Share a view in a meeting.",
+    "goal": "Join a community meeting: give your view with one reason, respond to a different view respectfully, and suggest a compromise.",
     "rubric": [
      {
       "label": "Waits for a turn",
@@ -3237,7 +3237,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy and neighbours: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Share a view in a meeting.",
+     "Let the learner work toward this goal: Join a community meeting: give your view with one reason, respond to a different view respectfully, and suggest a compromise.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Waits for a turn; States a view; Responds to others.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3254,7 +3254,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Speak in formal situations with confidence.",
     "persona": "sara",
     "personaRole": "Nadia, a manager",
-    "goal": "Make a formal request.",
+    "goal": "Make a formal request: state what you ask for and why it is reasonable, offer a time frame, and thank them in advance.",
     "rubric": [
      {
       "label": "States the request",
@@ -3271,7 +3271,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Nadia, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Make a formal request.",
+     "Let the learner work toward this goal: Make a formal request: state what you ask for and why it is reasonable, offer a time frame, and thank them in advance.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the request; Gives reasons; Thanks her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3288,7 +3288,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about values, beliefs and big decisions.",
     "persona": "adams",
     "personaRole": "Mr Karim, a friend with a different view",
-    "goal": "Discuss values with respect.",
+    "goal": "Discuss values with someone who thinks differently: explain yours with an example, ask about theirs, and find one point of agreement.",
     "rubric": [
      {
       "label": "States a view",
@@ -3305,7 +3305,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a friend with a different view: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss values with respect.",
+     "Let the learner work toward this goal: Discuss values with someone who thinks differently: explain yours with an example, ask about theirs, and find one point of agreement.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States a view; Asks about his; Stays respectful.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3322,7 +3322,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about values, beliefs and big decisions.",
     "persona": "sara",
     "personaRole": "Rania, a friend who wants advice",
-    "goal": "Think through a big decision with a friend.",
+    "goal": "Think through a big decision with a friend: lay out two options and what each costs you, ask what they would choose, and say what you decide.",
     "rubric": [
      {
       "label": "Lists options",
@@ -3339,7 +3339,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Rania, a friend who wants advice: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Think through a big decision with a friend.",
+     "Let the learner work toward this goal: Think through a big decision with a friend: lay out two options and what each costs you, ask what they would choose, and say what you decide.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists options; Weighs them; Does not decide for her.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3356,7 +3356,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about values, beliefs and big decisions.",
     "persona": "adams",
     "personaRole": "Mr Wael, a friend who has regrets",
-    "goal": "Discuss regret with care.",
+    "goal": "Talk about a regret: say what happened, what you would do differently, and what it taught you, without blaming anyone.",
     "rubric": [
      {
       "label": "Listens",
@@ -3373,7 +3373,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a friend who has regrets: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss regret with care.",
+     "Let the learner work toward this goal: Talk about a regret: say what happened, what you would do differently, and what it taught you, without blaming anyone.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Reflects; Offers perspective.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3390,7 +3390,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Talk about values, beliefs and big decisions.",
     "persona": "sara",
     "personaRole": "Amira, a friend who has not seen you for years",
-    "goal": "Describe how you changed.",
+    "goal": "Describe how you changed: compare you then and now with specific details, and say what caused the change.",
     "rubric": [
      {
       "label": "Compares then and now",
@@ -3407,7 +3407,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Amira, a friend who has not seen you for years: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe how you changed.",
+     "Let the learner work toward this goal: Describe how you changed: compare you then and now with specific details, and say what caused the change.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares then and now; Gives reasons; Links to values.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3424,7 +3424,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle serious disagreements calmly.",
     "persona": "adams",
     "personaRole": "Mr Wael, a neighbour who is angry",
-    "goal": "Resolve a dispute.",
+    "goal": "Settle a dispute with a neighbour: say how the problem affects you, listen to their side, and agree on a rule you both accept.",
     "rubric": [
      {
       "label": "Listens",
@@ -3441,7 +3441,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a neighbour who is angry: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Resolve a dispute.",
+     "Let the learner work toward this goal: Settle a dispute with a neighbour: say how the problem affects you, listen to their side, and agree on a rule you both accept.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Names the issue; Agrees a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3458,7 +3458,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle serious disagreements calmly.",
     "persona": "adams",
     "personaRole": "Mr Sherif, a landlord who wants more rent",
-    "goal": "Negotiate fairly.",
+    "goal": "Negotiate with a landlord: state what you want, offer something in return, and confirm the agreement.",
     "rubric": [
      {
       "label": "States your case",
@@ -3475,7 +3475,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, a landlord who wants more rent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Negotiate fairly.",
+     "Let the learner work toward this goal: Negotiate with a landlord: state what you want, offer something in return, and confirm the agreement.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States your case; Offers a trade; Agrees terms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3492,7 +3492,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle serious disagreements calmly.",
     "persona": "sara",
     "personaRole": "Mona, a friend you hurt",
-    "goal": "Give a real apology.",
+    "goal": "Give a serious apology: say exactly what you did, say how it affected them, and say what you will change, without excuses.",
     "rubric": [
      {
       "label": "Names the mistake",
@@ -3509,7 +3509,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mona, a friend you hurt: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a real apology.",
+     "Let the learner work toward this goal: Give a serious apology: say exactly what you did, say how it affected them, and say what you will change, without excuses.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Names the mistake; Says sorry clearly; Offers to repair.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3526,7 +3526,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     "description": "Handle serious disagreements calmly.",
     "persona": "adams",
     "personaRole": "Mr Tarek, a person who pressures you",
-    "goal": "Hold your position politely.",
+    "goal": "Hold your position politely: restate it once with a reason, acknowledge their view, and stay firm without raising your tone.",
     "rubric": [
      {
       "label": "Stays calm",
@@ -3543,7 +3543,7 @@ export const DAILY_LIFE: CurriculumProgramme = {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, a person who pressures you: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Hold your position politely.",
+     "Let the learner work toward this goal: Hold your position politely: restate it once with a reason, acknowledge their view, and stay firm without raising your tone.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stays calm; Repeats the limit; Offers an alternative.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."

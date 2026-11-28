@@ -1,0 +1,28 @@
+iv-cs-b2-u1-l1 | Answer a customer service interview question with A.S.C.: give the answer in your first sentence, tell one short story, and connect it to the job.
+iv-cs-b2-u1-l2 | Start a STAR story: give the situation in one or two sentences and your own task, with no extra detail.
+iv-cs-b2-u1-l3 | Finish a STAR story: say what you did yourself, in the past tense, and give a result with a number or a clear outcome.
+iv-cs-b2-u1-l4 | Tell a story about a busy shift: name your priorities, say what you did for customers, and give the result.
+iv-cs-b2-u4-l1 | Answer "Why should we hire you?" with all four AREA parts: your claim, the reason, the evidence and how it applies to this job.
+iv-cs-b2-u4-l2 | Discuss pay politely: give a range with one reason, show you are flexible, and keep a friendly tone.
+iv-cs-b2-u4-l3 | Ask the interviewer two questions about the role: listen to the first answer and refer to it in the second.
+iv-cs-b2-u4-l4 | Close the interview: thank them, link yourself to the role in one sentence, and finish with a smile in your voice.
+iv-cs-b2-u3-l1 | Give two strengths: back each one with a short example, and link each to the customer service job.
+iv-cs-b2-u3-l2 | Answer about a weakness: name a real one, say what you do about it, and give a sign of improvement.
+iv-cs-b2-u3-l3 | Describe a mistake: own it without blaming anyone, say what changed afterwards, and end on a positive point.
+iv-cs-b2-u3-l4 | Show you used feedback: name the feedback, say what you changed, and give a result that proves it.
+iv-cs-b2-u2-l1 | An angry customer is on the line: answer with WHAT you do, WHY, and HOW in steps, including when you would call a supervisor.
+iv-cs-b2-u2-l2 | A customer wants a refund that the policy does not allow: say no kindly, respect the policy, and offer two alternatives.
+iv-cs-b2-u2-l3 | A customer asks for a supervisor: offer help first, explain how you would escalate, and tell the customer what will happen.
+iv-cs-b2-u2-l4 | Two urgent requests arrive at once: say how you decide, how you tell both customers, and how you follow up.
+iv-cs-c1-u1-l1 | You get an unexpected question: buy time with a natural phrase, answer in two clear points, and keep it short.
+iv-cs-c1-u1-l2 | The interviewer challenges something on your CV: respond calmly without excuses, and show what you learned.
+iv-cs-c1-u1-l3 | You disagree with a policy: say how you would raise it properly, and keep serving customers well meanwhile.
+iv-cs-c1-u1-l4 | The interviewer presses you hard: keep a calm pace, do not over-apologise, and keep answering the question.
+iv-cs-c1-u2-l1 | Meet a panel of three: greet each person by name, look at everyone while you answer, and keep your points clear.
+iv-cs-c1-u2-l2 | Answer a tough policy question: state a clear position first, then add one point of nuance.
+iv-cs-c1-u2-l3 | Explain your view of good service: state your principles, give an example for each, and balance the customer and the company.
+iv-cs-c1-u2-l4 | Present your plan for the first 90 days: give three stages, say how you will measure each, and keep it realistic.
+iv-cs-c1-u3-l1 | Describe how you coach a teammate: give your approach in steps and one real example with a result.
+iv-cs-c1-u3-l2 | Describe a process you improved: state the problem, what you changed, and a measured result.
+iv-cs-c1-u3-l3 | Explain how you use customer data: name your source, give one insight it gave you, and say what you did with it.
+iv-cs-c1-u3-l4 | Give your service philosophy in two minutes: state clear principles, support them with one example, and deliver it calmly.

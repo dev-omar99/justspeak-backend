@@ -1,0 +1,44 @@
+daily-life-b2-u1-l1 | Discuss a topic you care about: give your view, support it with one example, and respond to a different opinion without arguing.
+daily-life-b2-u1-l2 | A friend shares a problem: show you understand how they feel before you offer anything, then offer one practical help.
+daily-life-b2-u1-l3 | A friend asks what to do: give one piece of advice with a reason, use soft wording like "you might", and let them decide.
+daily-life-b2-u1-l4 | Two friends disagree and you are in the middle: say what each wants, stay neutral, and suggest one way to settle it.
+daily-life-b2-u2-l1 | Someone asks about your work or studies: explain what you do, one thing you enjoy and one challenge, then ask about theirs.
+daily-life-b2-u2-l2 | You are stuck at work: say what you tried, ask a colleague for one specific piece of help, and thank them.
+daily-life-b2-u2-l3 | You have news to share: say if it is good or bad at the start, give the key facts, and ask how they feel about it.
+daily-life-b2-u2-l4 | You will be late: say it before the meeting, give the reason in one sentence, and give a new arrival time.
+daily-life-b2-u6-l1 | Call for help in an emergency: give where you are and what happened in the first two sentences, stay calm, and follow the instructions.
+daily-life-b2-u6-l2 | You lost something: say what it is and where you last saw it, describe it in two details, and leave a contact number.
+daily-life-b2-u6-l3 | Your car has a problem: describe what you see and hear, say when it started, and ask what it will cost and how long it will take.
+daily-life-b2-u6-l4 | Someone near you needs help: ask if they are all right, call for help with the key facts, and stay with them until it comes.
+daily-life-b2-u4-l1 | Talk about a film or book: say what it is about without spoiling the end, give your opinion with one reason, and ask what they thought.
+daily-life-b2-u4-l2 | Discuss a news story: summarise it in two sentences, give your opinion, and respect a different view.
+daily-life-b2-u4-l3 | Talk about social media: describe your own habit, name one good and one bad effect, and say what you would change.
+daily-life-b2-u4-l4 | Recommend something to a friend: say what it is, give two reasons it suits them, and mention one downside honestly.
+daily-life-b2-u3-l1 | You are renting a flat: ask about rent, deposit, bills and the length of the contract, and write down the answers.
+daily-life-b2-u3-l2 | Make a formal complaint: state the problem and the dates, say what you have already tried, and ask for a specific result.
+daily-life-b2-u3-l3 | You want to return a product with no receipt: explain the situation, offer another proof, and agree on a solution.
+daily-life-b2-u3-l4 | Ask about a long contract: pick the three terms that matter most, ask what happens if you stop early, and summarise the answer.
+daily-life-b2-u5-l1 | Explain a custom from your culture: say what it is and why it exists, and give one example of how people do it.
+daily-life-b2-u5-l2 | Ask about a custom you do not know: show interest, ask a polite question, and thank them for explaining.
+daily-life-b2-u5-l3 | A misunderstanding upset someone: say what you think happened, ask what they understood, and agree how to put it right.
+daily-life-b2-u5-l4 | Describe your city to a visitor: give three places, one tip for getting around, and one thing to avoid.
+daily-life-c1-u1-l1 | Someone hints at something without saying it: point out what you noticed politely, check you understood, and respond to the real need.
+daily-life-c1-u1-l2 | Add humour to a conversation: use one light joke that suits the moment, and keep it kind to everyone in the room.
+daily-life-c1-u1-l3 | You must say no to a friend: say no clearly in the first sentence, give a short reason, and offer something else.
+daily-life-c1-u1-l4 | Give honest feedback to a friend: start with something true and good, name one problem kindly, and suggest how to improve.
+daily-life-c1-u5-l1 | Open a bank account abroad: ask about fees, limits and what happens if you close it, and confirm the terms in your own words.
+daily-life-c1-u5-l2 | Talk to a school or a doctor: explain the situation in order, ask about the options and the risks, and check the next step.
+daily-life-c1-u5-l3 | Make a local friend: find one thing you share, ask open questions, and suggest a plan to meet again.
+daily-life-c1-u5-l4 | Talk about settling in: describe what was hard, what helped, and what you would tell a newcomer.
+daily-life-c1-u3-l1 | Give a short toast or speech: thank people, tell one short personal story, and end with a warm line.
+daily-life-c1-u3-l2 | Talk to an official: state your request formally, answer their questions exactly, and confirm what happens next and when.
+daily-life-c1-u3-l3 | Join a community meeting: give your view with one reason, respond to a different view respectfully, and suggest a compromise.
+daily-life-c1-u3-l4 | Make a formal request: state what you ask for and why it is reasonable, offer a time frame, and thank them in advance.
+daily-life-c1-u2-l1 | Discuss values with someone who thinks differently: explain yours with an example, ask about theirs, and find one point of agreement.
+daily-life-c1-u2-l2 | Think through a big decision with a friend: lay out two options and what each costs you, ask what they would choose, and say what you decide.
+daily-life-c1-u2-l3 | Talk about a regret: say what happened, what you would do differently, and what it taught you, without blaming anyone.
+daily-life-c1-u2-l4 | Describe how you changed: compare you then and now with specific details, and say what caused the change.
+daily-life-c1-u4-l1 | Settle a dispute with a neighbour: say how the problem affects you, listen to their side, and agree on a rule you both accept.
+daily-life-c1-u4-l2 | Negotiate with a landlord: state what you want, offer something in return, and confirm the agreement.
+daily-life-c1-u4-l3 | Give a serious apology: say exactly what you did, say how it affected them, and say what you will change, without excuses.
+daily-life-c1-u4-l4 | Hold your position politely: restate it once with a reason, acknowledge their view, and stay firm without raising your tone.

@@ -1702,7 +1702,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer with a short true story: Answer-Story-Connect and STAR.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Walid, \"Can you work under pressure?\"",
-    "goal": "Use A.S.C.: Answer, Story, Connect.",
+    "goal": "Answer a customer service interview question with A.S.C.: give the answer in your first sentence, tell one short story, and connect it to the job.",
     "rubric": [
      {
       "label": "Answer first",
@@ -1719,7 +1719,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Walid, \"Can you work under pressure?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Use A.S.C.: Answer, Story, Connect.",
+     "Let the learner work toward this goal: Answer a customer service interview question with A.S.C.: give the answer in your first sentence, tell one short story, and connect it to the job.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Answer first; One relevant story; Connect to the job.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1737,7 +1737,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer with a short true story: Answer-Story-Connect and STAR.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Walid, \"Tell me about a time...\"",
-    "goal": "Give the Situation and Task of a STAR story.",
+    "goal": "Start a STAR story: give the situation in one or two sentences and your own task, with no extra detail.",
     "rubric": [
      {
       "label": "Short situation",
@@ -1754,7 +1754,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Walid, \"Tell me about a time...\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give the Situation and Task of a STAR story.",
+     "Let the learner work toward this goal: Start a STAR story: give the situation in one or two sentences and your own task, with no extra detail.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Short situation; Clear responsibility; No extra details.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1772,7 +1772,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer with a short true story: Answer-Story-Connect and STAR.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Walid",
-    "goal": "Give the Action and Result of your STAR story.",
+    "goal": "Finish a STAR story: say what you did yourself, in the past tense, and give a result with a number or a clear outcome.",
     "rubric": [
      {
       "label": "What YOU did",
@@ -1789,7 +1789,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Walid: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give the Action and Result of your STAR story.",
+     "Let the learner work toward this goal: Finish a STAR story: say what you did yourself, in the past tense, and give a result with a number or a clear outcome.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: What YOU did; A clear result; Past tense.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1807,7 +1807,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer with a short true story: Answer-Story-Connect and STAR.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Walid, \"Busy shift\"",
-    "goal": "Tell a story about working under pressure.",
+    "goal": "Tell a story about a busy shift: name your priorities, say what you did for customers, and give the result.",
     "rubric": [
      {
       "label": "Priorities",
@@ -1824,7 +1824,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Walid, \"Busy shift\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Tell a story about working under pressure.",
+     "Let the learner work toward this goal: Tell a story about a busy shift: name your priorities, say what you did for customers, and give the result.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Priorities; Action with customers; Result.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1842,7 +1842,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Hoda, \"Why should we hire you?\"",
-    "goal": "Give a full AREA answer.",
+    "goal": "Answer \"Why should we hire you?\" with all four AREA parts: your claim, the reason, the evidence and how it applies to this job.",
     "rubric": [
      {
       "label": "Four parts",
@@ -1859,7 +1859,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Hoda, \"Why should we hire you?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a full AREA answer.",
+     "Let the learner work toward this goal: Answer \"Why should we hire you?\" with all four AREA parts: your claim, the reason, the evidence and how it applies to this job.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Four parts; Evidence; Application.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1877,7 +1877,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Hoda, \"What salary do you expect?\"",
-    "goal": "Discuss pay politely and with reasons.",
+    "goal": "Discuss pay politely: give a range with one reason, show you are flexible, and keep a friendly tone.",
     "rubric": [
      {
       "label": "Reasoned range",
@@ -1894,7 +1894,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Hoda, \"What salary do you expect?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss pay politely and with reasons.",
+     "Let the learner work toward this goal: Discuss pay politely: give a range with one reason, show you are flexible, and keep a friendly tone.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Reasoned range; Flexible; Polite.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1912,7 +1912,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Hoda, \"Do you have questions?\"",
-    "goal": "Ask two good questions.",
+    "goal": "Ask the interviewer two questions about the role: listen to the first answer and refer to it in the second.",
     "rubric": [
      {
       "label": "Relevant",
@@ -1929,7 +1929,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Hoda, \"Do you have questions?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask two good questions.",
+     "Let the learner work toward this goal: Ask the interviewer two questions about the role: listen to the first answer and refer to it in the second.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Relevant; Polite; Listens to the answer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1947,7 +1947,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain why you fit, discuss pay and ask the interviewer good questions.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Hoda, closing",
-    "goal": "Close with confidence, a smile in your voice and thanks.",
+    "goal": "Close the interview: thank them, link yourself to the role in one sentence, and finish with a smile in your voice.",
     "rubric": [
      {
       "label": "Short close",
@@ -1964,7 +1964,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Hoda, closing: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Close with confidence, a smile in your voice and thanks.",
+     "Let the learner work toward this goal: Close the interview: thank them, link yourself to the role in one sentence, and finish with a smile in your voice.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Short close; Thanks; Link to the role.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -1982,7 +1982,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about weaknesses, mistakes and feedback with confidence.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Maged, \"Tell me about your strengths\"",
-    "goal": "Give two strengths with evidence.",
+    "goal": "Give two strengths: back each one with a short example, and link each to the customer service job.",
     "rubric": [
      {
       "label": "Strength",
@@ -1999,7 +1999,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Maged, \"Tell me about your strengths\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give two strengths with evidence.",
+     "Let the learner work toward this goal: Give two strengths: back each one with a short example, and link each to the customer service job.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Strength; Evidence; Link to job.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2017,7 +2017,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about weaknesses, mistakes and feedback with confidence.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Maged, \"What is your biggest weakness?\"",
-    "goal": "Answer: weakness, action, improvement.",
+    "goal": "Answer about a weakness: name a real one, say what you do about it, and give a sign of improvement.",
     "rubric": [
      {
       "label": "Honest",
@@ -2034,7 +2034,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Maged, \"What is your biggest weakness?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer: weakness, action, improvement.",
+     "Let the learner work toward this goal: Answer about a weakness: name a real one, say what you do about it, and give a sign of improvement.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Honest; Action; Improvement.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2052,7 +2052,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about weaknesses, mistakes and feedback with confidence.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Maged, \"Tell me about a mistake\"",
-    "goal": "Describe a mistake and what you learned.",
+    "goal": "Describe a mistake: own it without blaming anyone, say what changed afterwards, and end on a positive point.",
     "rubric": [
      {
       "label": "Owns it",
@@ -2069,7 +2069,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Maged, \"Tell me about a mistake\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe a mistake and what you learned.",
+     "Let the learner work toward this goal: Describe a mistake: own it without blaming anyone, say what changed afterwards, and end on a positive point.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Owns it; What changed; Positive close.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2087,7 +2087,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about weaknesses, mistakes and feedback with confidence.",
     "persona": "adams",
     "personaRole": "Interviewer Mr Maged, \"Do you take feedback?\"",
-    "goal": "Answer with evidence of applying feedback.",
+    "goal": "Show you used feedback: name the feedback, say what you changed, and give a result that proves it.",
     "rubric": [
      {
       "label": "Example",
@@ -2104,7 +2104,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Mr Maged, \"Do you take feedback?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer with evidence of applying feedback.",
+     "Let the learner work toward this goal: Show you used feedback: name the feedback, say what you changed, and give a result that proves it.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Example; Action; Result.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2122,7 +2122,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Samia, \"How would you handle an angry customer?\"",
-    "goal": "Use WHAT-WHY-HOW with steps.",
+    "goal": "An angry customer is on the line: answer with WHAT you do, WHY, and HOW in steps, including when you would call a supervisor.",
     "rubric": [
      {
       "label": "Stay calm",
@@ -2139,7 +2139,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Samia, \"How would you handle an angry customer?\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Use WHAT-WHY-HOW with steps.",
+     "Let the learner work toward this goal: An angry customer is on the line: answer with WHAT you do, WHY, and HOW in steps, including when you would call a supervisor.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Stay calm; Reason; Steps incl. escalate if needed.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2157,7 +2157,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Samia, \"A customer wants a refund policy does not allow\"",
-    "goal": "Explain how you would say no to a refund the policy does not allow.",
+    "goal": "A customer wants a refund that the policy does not allow: say no kindly, respect the policy, and offer two alternatives.",
     "rubric": [
      {
       "label": "Says no kindly",
@@ -2174,7 +2174,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Samia, \"A customer wants a refund policy does not allow\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you would say no to a refund the policy does not allow.",
+     "Let the learner work toward this goal: A customer wants a refund that the policy does not allow: say no kindly, respect the policy, and offer two alternatives.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says no kindly; Offers alternatives; Respects policy.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2192,7 +2192,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Samia, \"A customer asks for a supervisor\"",
-    "goal": "Explain how you would respond to a customer who asks for a supervisor.",
+    "goal": "A customer asks for a supervisor: offer help first, explain how you would escalate, and tell the customer what will happen.",
     "rubric": [
      {
       "label": "Offers help first",
@@ -2209,7 +2209,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Samia, \"A customer asks for a supervisor\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you would respond to a customer who asks for a supervisor.",
+     "Let the learner work toward this goal: A customer asks for a supervisor: offer help first, explain how you would escalate, and tell the customer what will happen.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Offers help first; Escalates properly; Informs the customer.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2227,7 +2227,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Explain what you would do in common customer-service situations.",
     "persona": "sara",
     "personaRole": "Interviewer Ms Samia, \"Two urgent requests at once\"",
-    "goal": "Explain how you would decide.",
+    "goal": "Two urgent requests arrive at once: say how you decide, how you tell both customers, and how you follow up.",
     "rubric": [
      {
       "label": "Priorities",
@@ -2244,7 +2244,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Ms Samia, \"Two urgent requests at once\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you would decide.",
+     "Let the learner work toward this goal: Two urgent requests arrive at once: say how you decide, how you tell both customers, and how you follow up.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Priorities; Communication; Follow up.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2264,7 +2264,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer unexpected questions calmly and with structure.",
     "persona": "adams",
     "personaRole": "Interviewer Dr Karim, an unexpected question",
-    "goal": "Buy time and answer with structure.",
+    "goal": "You get an unexpected question: buy time with a natural phrase, answer in two clear points, and keep it short.",
     "rubric": [
      {
       "label": "Phrase",
@@ -2281,7 +2281,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Dr Karim, an unexpected question: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Buy time and answer with structure.",
+     "Let the learner work toward this goal: You get an unexpected question: buy time with a natural phrase, answer in two clear points, and keep it short.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Phrase; Structure; Concise.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2299,7 +2299,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer unexpected questions calmly and with structure.",
     "persona": "adams",
     "personaRole": "Interviewer Dr Karim, \"Your CV has a gap\"",
-    "goal": "Respond calmly and honestly.",
+    "goal": "The interviewer challenges something on your CV: respond calmly without excuses, and show what you learned.",
     "rubric": [
      {
       "label": "Honest",
@@ -2316,7 +2316,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Dr Karim, \"Your CV has a gap\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Respond calmly and honestly.",
+     "Let the learner work toward this goal: The interviewer challenges something on your CV: respond calmly without excuses, and show what you learned.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Honest; No excuse; Focus on growth.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2334,7 +2334,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer unexpected questions calmly and with structure.",
     "persona": "adams",
     "personaRole": "Interviewer Dr Karim, \"You disagree with a policy\"",
-    "goal": "Explain how you would handle it.",
+    "goal": "You disagree with a policy: say how you would raise it properly, and keep serving customers well meanwhile.",
     "rubric": [
      {
       "label": "Respects policy",
@@ -2351,7 +2351,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Dr Karim, \"You disagree with a policy\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you would handle it.",
+     "Let the learner work toward this goal: You disagree with a policy: say how you would raise it properly, and keep serving customers well meanwhile.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Respects policy; Raises it properly; Keeps customer service.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2369,7 +2369,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Answer unexpected questions calmly and with structure.",
     "persona": "adams",
     "personaRole": "Interviewer Dr Karim, who pushes hard",
-    "goal": "Stay composed under pressure.",
+    "goal": "The interviewer presses you hard: keep a calm pace, do not over-apologise, and keep answering the question.",
     "rubric": [
      {
       "label": "Calm pace",
@@ -2386,7 +2386,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Interviewer Dr Karim, who pushes hard: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Stay composed under pressure.",
+     "Let the learner work toward this goal: The interviewer presses you hard: keep a calm pace, do not over-apologise, and keep answering the question.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Calm pace; Structure; Does not apologise too much.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2404,7 +2404,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Handle a panel and a senior interviewer as an equal.",
     "persona": "sara",
     "personaRole": "Panel of three: Ms Aya, Mr Bishoy, Ms Carla",
-    "goal": "Address the whole panel and each person.",
+    "goal": "Meet a panel of three: greet each person by name, look at everyone while you answer, and keep your points clear.",
     "rubric": [
      {
       "label": "Eye on all",
@@ -2421,7 +2421,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Panel of three: Ms Aya, Mr Bishoy, Ms Carla: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Address the whole panel and each person.",
+     "Let the learner work toward this goal: Meet a panel of three: greet each person by name, look at everyone while you answer, and keep your points clear.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Eye on all; Names; Clear.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2439,7 +2439,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Handle a panel and a senior interviewer as an equal.",
     "persona": "adams",
     "personaRole": "Panel member Mr Bishoy, with a tough policy question",
-    "goal": "Answer with a clear position and nuance.",
+    "goal": "Answer a tough policy question: state a clear position first, then add one point of nuance.",
     "rubric": [
      {
       "label": "Position",
@@ -2456,7 +2456,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Panel member Mr Bishoy, with a tough policy question: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Answer with a clear position and nuance.",
+     "Let the learner work toward this goal: Answer a tough policy question: state a clear position first, then add one point of nuance.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Position; Reason; Nuance.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2474,7 +2474,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Handle a panel and a senior interviewer as an equal.",
     "persona": "sara",
     "personaRole": "Panel member Ms Carla",
-    "goal": "Explain your view of good service.",
+    "goal": "Explain your view of good service: state your principles, give an example for each, and balance the customer and the company.",
     "rubric": [
      {
       "label": "Principles",
@@ -2491,7 +2491,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Panel member Ms Carla: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain your view of good service.",
+     "Let the learner work toward this goal: Explain your view of good service: state your principles, give an example for each, and balance the customer and the company.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Principles; Examples; Customer and company.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2509,7 +2509,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Handle a panel and a senior interviewer as an equal.",
     "persona": "sara",
     "personaRole": "Panel chair Ms Aya",
-    "goal": "Present a plan for your first 90 days.",
+    "goal": "Present your plan for the first 90 days: give three stages, say how you will measure each, and keep it realistic.",
     "rubric": [
      {
       "label": "Three stages",
@@ -2526,7 +2526,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Panel chair Ms Aya: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Present a plan for your first 90 days.",
+     "Let the learner work toward this goal: Present your plan for the first 90 days: give three stages, say how you will measure each, and keep it realistic.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Three stages; Measures; Realistic.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2544,7 +2544,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about coaching, quality and leading a service team.",
     "persona": "adams",
     "personaRole": "Executive Mr Hosny, \"Tell me about coaching a teammate\"",
-    "goal": "Describe how you coach.",
+    "goal": "Describe how you coach a teammate: give your approach in steps and one real example with a result.",
     "rubric": [
      {
       "label": "Approach",
@@ -2561,7 +2561,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Executive Mr Hosny, \"Tell me about coaching a teammate\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe how you coach.",
+     "Let the learner work toward this goal: Describe how you coach a teammate: give your approach in steps and one real example with a result.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Approach; Example; Result.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2579,7 +2579,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about coaching, quality and leading a service team.",
     "persona": "adams",
     "personaRole": "Executive Mr Hosny, \"Improve a process\"",
-    "goal": "Describe a process improvement.",
+    "goal": "Describe a process you improved: state the problem, what you changed, and a measured result.",
     "rubric": [
      {
       "label": "Problem",
@@ -2596,7 +2596,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Executive Mr Hosny, \"Improve a process\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe a process improvement.",
+     "Let the learner work toward this goal: Describe a process you improved: state the problem, what you changed, and a measured result.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Problem; Action; Measured result.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2614,7 +2614,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about coaching, quality and leading a service team.",
     "persona": "adams",
     "personaRole": "Executive Mr Hosny, \"Customer data\"",
-    "goal": "Explain how you use data.",
+    "goal": "Explain how you use customer data: name your source, give one insight it gave you, and say what you did with it.",
     "rubric": [
      {
       "label": "Source",
@@ -2631,7 +2631,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Executive Mr Hosny, \"Customer data\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain how you use data.",
+     "Let the learner work toward this goal: Explain how you use customer data: name your source, give one insight it gave you, and say what you did with it.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Source; Insight; Action.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2649,7 +2649,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "description": "Talk about coaching, quality and leading a service team.",
     "persona": "adams",
     "personaRole": "Executive Mr Hosny, \"Your service philosophy\"",
-    "goal": "Say your service philosophy in two minutes.",
+    "goal": "Give your service philosophy in two minutes: state clear principles, support them with one example, and deliver it calmly.",
     "rubric": [
      {
       "label": "Clear principles",
@@ -2666,7 +2666,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Executive Mr Hosny, \"Your service philosophy\": greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Say your service philosophy in two minutes.",
+     "Let the learner work toward this goal: Give your service philosophy in two minutes: state clear principles, support them with one example, and deliver it calmly.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Clear principles; Examples; Calm delivery.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."

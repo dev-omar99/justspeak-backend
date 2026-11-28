@@ -1,0 +1,40 @@
+travel-b2-u1-l1 | Before you sign, ask about the terms: find out the fees, the cancellation rule and what is not included, and say back what you understood.
+travel-b2-u1-l2 | The price is higher than you planned: give one reason, ask for a better deal, and agree the final price and terms before you finish.
+travel-b2-u1-l3 | You are booking for eight people: give the numbers and dates, ask about a group rate, and confirm who pays and when.
+travel-b2-u1-l4 | Your trip is cancelled: say what happened, ask for a refund by name, and get a date for when the money arrives.
+travel-b2-u5-l1 | You plan to stay for six months: ask what visa you need, what documents to bring and how long it takes, and note the answer.
+travel-b2-u5-l2 | You are viewing a flat: ask about the rent, the deposit and the bills, and say one thing you would like changed.
+travel-b2-u5-l3 | Your new manager abroad explains the job: ask about hours, days off and pay, and check one thing you did not understand.
+travel-b2-u5-l4 | Plan a longer trip with a friend: suggest a route, give the reasons for it, and agree on the budget and the dates.
+travel-b2-u4-l1 | A local explains a custom that surprises you: describe the difference politely, without judging, and ask one question to learn more.
+travel-b2-u4-l2 | A visitor asks about your country: explain one custom, give the reason behind it, and ask what is similar in their country.
+travel-b2-u4-l3 | Talk about a family food tradition: say when it happens, who cooks, and why it matters to you, then ask about theirs.
+travel-b2-u4-l4 | You made a cultural mistake: say what you did, apologise once, and ask what you should do next time.
+travel-b2-u3-l1 | The service was poor: describe what happened in order, say how it affected you, and ask for one specific fix.
+travel-b2-u3-l2 | The rental company charged you extra: name the charge, say why it is wrong, and ask them to check it and confirm the result.
+travel-b2-u3-l3 | You lost your passport: say where and when, give the details they need, and ask what happens next and how long it takes.
+travel-b2-u3-l4 | Your flight was delayed five hours: state the delay, ask what compensation you can get, and agree what to do next.
+travel-b2-u2-l1 | Describe a place you know: give three details a visitor would notice, including one you did not expect, and say how it felt.
+travel-b2-u2-l2 | A friend asks where to go: recommend one place, give two reasons, and say one thing to be careful about.
+travel-b2-u2-l3 | Tell a story from a trip: set the scene, say what went wrong, and end with how it turned out and what you learned.
+travel-b2-u2-l4 | Compare two cities for a holiday: use at least three points, then say which you prefer and why.
+travel-c1-u1-l1 | Dispute a charge you did not agree to: give the dates and amounts as evidence, state the result you want, and stay calm and factual.
+travel-c1-u1-l2 | Make an insurance claim after an accident: give the facts in order, say what was lost, and ask what proof they need.
+travel-c1-u1-l3 | Complain to a company: explain the impact on you in one clear sentence, give the facts, and ask for a specific response by a date.
+travel-c1-u1-l4 | Negotiate a group package: state what you need, trade one request for another, and confirm the final terms in your own words.
+travel-c1-u5-l1 | Lead a plan for a small group: hear each person's wish, propose a plan that includes each one, and agree who does what.
+travel-c1-u5-l2 | Two people in the group disagree: name the issue calmly without taking sides, ask each for what they need, and propose a fair fix.
+travel-c1-u5-l3 | The group must drop one activity: give the options and the cost of each, hear every view, and reach a decision everyone can accept.
+travel-c1-u5-l4 | Give honest feedback on a trip: say what worked, say what did not, and suggest one change, kindly and clearly.
+travel-c1-u2-l1 | Talk with a local about a sensitive topic: share your view with a reason, listen to theirs, and find one point you agree on.
+travel-c1-u2-l2 | Describe how a place changed: compare then and now with specific details, and say what you think caused the change.
+travel-c1-u2-l3 | Give a two-minute talk about a trip: open with one clear point, support it with a story, and close with what the listener can take from it.
+travel-c1-u2-l4 | Tell a funny travel story: build to the funny moment, keep it short, and end on a line that makes the listener smile.
+travel-c1-u4-l1 | Report a serious accident: give the facts in order without guessing, stay calm, and state what help you need.
+travel-c1-u4-l2 | Report a crime to the police: give the time, place and description precisely, and confirm what the officer will do next.
+travel-c1-u4-l3 | Help another traveller who is upset: acknowledge how they feel, offer one practical step, and check that they are all right.
+travel-c1-u4-l4 | Explain a complex problem to an embassy: give the key facts in order, say what you need, and ask what documents and steps are required.
+travel-c1-u3-l1 | Handle a short business meeting abroad: state your purpose, listen to the other side, and agree one next step with a date.
+travel-c1-u3-l2 | Host a visitor in your city: welcome them warmly, offer a plan with a choice, and check what they would like.
+travel-c1-u3-l3 | Give a short speech at an event: thank the host, make one clear point, and close with a toast or a warm line.
+travel-c1-u3-l4 | Network at an event abroad: introduce yourself in one sentence, ask about their work, and end with a way to stay in touch.

@@ -2062,7 +2062,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle bookings with conditions, fees and changes.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a booking agent",
-    "goal": "Ask about conditions and fees.",
+    "goal": "Before you sign, ask about the terms: find out the fees, the cancellation rule and what is not included, and say back what you understood.",
     "rubric": [
      {
       "label": "Asks about conditions",
@@ -2079,7 +2079,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a booking agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about conditions and fees.",
+     "Let the learner work toward this goal: Before you sign, ask about the terms: find out the fees, the cancellation rule and what is not included, and say back what you understood.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about conditions; Checks fees; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2096,7 +2096,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle bookings with conditions, fees and changes.",
     "persona": "sara",
     "personaRole": "Rania, an agent",
-    "goal": "Negotiate price and terms.",
+    "goal": "The price is higher than you planned: give one reason, ask for a better deal, and agree the final price and terms before you finish.",
     "rubric": [
      {
       "label": "States your case",
@@ -2113,7 +2113,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Rania, an agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Negotiate price and terms.",
+     "Let the learner work toward this goal: The price is higher than you planned: give one reason, ask for a better deal, and agree the final price and terms before you finish.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States your case; Offers a trade; Confirms the deal.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2130,7 +2130,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle bookings with conditions, fees and changes.",
     "persona": "adams",
     "personaRole": "Mr Wael, a hotel manager",
-    "goal": "Book for a group.",
+    "goal": "You are booking for eight people: give the numbers and dates, ask about a group rate, and confirm who pays and when.",
     "rubric": [
      {
       "label": "Gives numbers",
@@ -2147,7 +2147,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a hotel manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Book for a group.",
+     "Let the learner work toward this goal: You are booking for eight people: give the numbers and dates, ask about a group rate, and confirm who pays and when.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives numbers; Asks about discounts; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2164,7 +2164,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle bookings with conditions, fees and changes.",
     "persona": "sara",
     "personaRole": "Hana, an agent",
-    "goal": "Cancel and ask for a refund.",
+    "goal": "Your trip is cancelled: say what happened, ask for a refund by name, and get a date for when the money arrives.",
     "rubric": [
      {
       "label": "States the reason",
@@ -2181,7 +2181,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Hana, an agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Cancel and ask for a refund.",
+     "Let the learner work toward this goal: Your trip is cancelled: say what happened, ask for a refund by name, and get a date for when the money arrives.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the reason; Asks about the policy; Confirms the refund.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2198,7 +2198,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk about longer stays, work and study abroad.",
     "persona": "adams",
     "personaRole": "Mr Adel, a consular officer",
-    "goal": "Ask about a visa.",
+    "goal": "You plan to stay for six months: ask what visa you need, what documents to bring and how long it takes, and note the answer.",
     "rubric": [
      {
       "label": "Asks about requirements",
@@ -2215,7 +2215,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a consular officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about a visa.",
+     "Let the learner work toward this goal: You plan to stay for six months: ask what visa you need, what documents to bring and how long it takes, and note the answer.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about requirements; Asks about time; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2232,7 +2232,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk about longer stays, work and study abroad.",
     "persona": "adams",
     "personaRole": "Mr Karim, a landlord",
-    "goal": "Ask about a flat.",
+    "goal": "You are viewing a flat: ask about the rent, the deposit and the bills, and say one thing you would like changed.",
     "rubric": [
      {
       "label": "Asks about rent",
@@ -2249,7 +2249,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a landlord: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about a flat.",
+     "Let the learner work toward this goal: You are viewing a flat: ask about the rent, the deposit and the bills, and say one thing you would like changed.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about rent; Asks about rules; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2266,7 +2266,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk about longer stays, work and study abroad.",
     "persona": "sara",
     "personaRole": "Ms Dina, a manager",
-    "goal": "Talk about work conditions.",
+    "goal": "Your new manager abroad explains the job: ask about hours, days off and pay, and check one thing you did not understand.",
     "rubric": [
      {
       "label": "Asks about hours",
@@ -2283,7 +2283,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Ms Dina, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about work conditions.",
+     "Let the learner work toward this goal: Your new manager abroad explains the job: ask about hours, days off and pay, and check one thing you did not understand.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks about hours; Asks about pay; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2300,7 +2300,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk about longer stays, work and study abroad.",
     "persona": "sara",
     "personaRole": "Salma, a friend who will join",
-    "goal": "Plan a longer trip.",
+    "goal": "Plan a longer trip with a friend: suggest a route, give the reasons for it, and agree on the budget and the dates.",
     "rubric": [
      {
       "label": "Suggests a plan",
@@ -2317,7 +2317,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Salma, a friend who will join: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Plan a longer trip.",
+     "Let the learner work toward this goal: Plan a longer trip with a friend: suggest a route, give the reasons for it, and agree on the budget and the dates.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Suggests a plan; Asks about her view; Agrees.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2334,7 +2334,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Discuss culture and customs with depth.",
     "persona": "adams",
     "personaRole": "Mr Tarek, a local friend",
-    "goal": "Discuss cultural differences.",
+    "goal": "A local explains a custom that surprises you: describe the difference politely, without judging, and ask one question to learn more.",
     "rubric": [
      {
       "label": "Gives a view",
@@ -2351,7 +2351,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, a local friend: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Discuss cultural differences.",
+     "Let the learner work toward this goal: A local explains a custom that surprises you: describe the difference politely, without judging, and ask one question to learn more.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a view; Asks about his; Stays respectful.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2368,7 +2368,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Discuss culture and customs with depth.",
     "persona": "sara",
     "personaRole": "Hana, a curious friend",
-    "goal": "Explain customs from your country.",
+    "goal": "A visitor asks about your country: explain one custom, give the reason behind it, and ask what is similar in their country.",
     "rubric": [
      {
       "label": "Describes",
@@ -2385,7 +2385,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Hana, a curious friend: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain customs from your country.",
+     "Let the learner work toward this goal: A visitor asks about your country: explain one custom, give the reason behind it, and ask what is similar in their country.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes; Gives a reason; Checks she understands.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2402,7 +2402,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Discuss culture and customs with depth.",
     "persona": "adams",
     "personaRole": "Mr Nabil, a host",
-    "goal": "Talk about food traditions.",
+    "goal": "Talk about a family food tradition: say when it happens, who cooks, and why it matters to you, then ask about theirs.",
     "rubric": [
      {
       "label": "Asks",
@@ -2419,7 +2419,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Nabil, a host: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Talk about food traditions.",
+     "Let the learner work toward this goal: Talk about a family food tradition: say when it happens, who cooks, and why it matters to you, then ask about theirs.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks; Gives a view; Shows thanks.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2436,7 +2436,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Discuss culture and customs with depth.",
     "persona": "sara",
     "personaRole": "Mona, a local you offended by mistake",
-    "goal": "Fix a cultural mistake.",
+    "goal": "You made a cultural mistake: say what you did, apologise once, and ask what you should do next time.",
     "rubric": [
      {
       "label": "Says sorry",
@@ -2453,7 +2453,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mona, a local you offended by mistake: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Fix a cultural mistake.",
+     "Let the learner work toward this goal: You made a cultural mistake: say what you did, apologise once, and ask what you should do next time.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Says sorry; Explains; Asks how to fix it.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2470,7 +2470,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Solve harder problems calmly and clearly.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a hotel manager",
-    "goal": "Complain formally.",
+    "goal": "The service was poor: describe what happened in order, say how it affected you, and ask for one specific fix.",
     "rubric": [
      {
       "label": "States facts",
@@ -2487,7 +2487,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a hotel manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Complain formally.",
+     "Let the learner work toward this goal: The service was poor: describe what happened in order, say how it affected you, and ask for one specific fix.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States facts; States what you want; Stays calm.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2504,7 +2504,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Solve harder problems calmly and clearly.",
     "persona": "sara",
     "personaRole": "Ms Reem, a rental agent",
-    "goal": "Dispute a charge.",
+    "goal": "The rental company charged you extra: name the charge, say why it is wrong, and ask them to check it and confirm the result.",
     "rubric": [
      {
       "label": "States the facts",
@@ -2521,7 +2521,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Ms Reem, a rental agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Dispute a charge.",
+     "Let the learner work toward this goal: The rental company charged you extra: name the charge, say why it is wrong, and ask them to check it and confirm the result.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the facts; Quotes the contract; Seeks a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2538,7 +2538,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Solve harder problems calmly and clearly.",
     "persona": "adams",
     "personaRole": "Mr Sherif, an embassy clerk",
-    "goal": "Report a lost passport.",
+    "goal": "You lost your passport: say where and when, give the details they need, and ask what happens next and how long it takes.",
     "rubric": [
      {
       "label": "Gives details",
@@ -2555,7 +2555,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Sherif, an embassy clerk: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report a lost passport.",
+     "Let the learner work toward this goal: You lost your passport: say where and when, give the details they need, and ask what happens next and how long it takes.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives details; Answers questions; Confirms the steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2572,7 +2572,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Solve harder problems calmly and clearly.",
     "persona": "sara",
     "personaRole": "Heba, an airline agent",
-    "goal": "Ask about compensation.",
+    "goal": "Your flight was delayed five hours: state the delay, ask what compensation you can get, and agree what to do next.",
     "rubric": [
      {
       "label": "States the facts",
@@ -2589,7 +2589,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Heba, an airline agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Ask about compensation.",
+     "Let the learner work toward this goal: Your flight was delayed five hours: state the delay, ask what compensation you can get, and agree what to do next.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the facts; Asks about rights; Confirms the next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2606,7 +2606,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Describe and discuss experiences while travelling.",
     "persona": "adams",
     "personaRole": "Mr Karim, a friend who asks about a place",
-    "goal": "Describe a place with detail.",
+    "goal": "Describe a place you know: give three details a visitor would notice, including one you did not expect, and say how it felt.",
     "rubric": [
      {
       "label": "Describes clearly",
@@ -2623,7 +2623,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a friend who asks about a place: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe a place with detail.",
+     "Let the learner work toward this goal: Describe a place you know: give three details a visitor would notice, including one you did not expect, and say how it felt.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes clearly; Uses comparison; Gives an opinion.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2640,7 +2640,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Describe and discuss experiences while travelling.",
     "persona": "sara",
     "personaRole": "Dina, a friend planning a trip",
-    "goal": "Recommend with reasons.",
+    "goal": "A friend asks where to go: recommend one place, give two reasons, and say one thing to be careful about.",
     "rubric": [
      {
       "label": "Gives reasons",
@@ -2657,7 +2657,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Dina, a friend planning a trip: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Recommend with reasons.",
+     "Let the learner work toward this goal: A friend asks where to go: recommend one place, give two reasons, and say one thing to be careful about.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives reasons; Mentions a downside; Says who it suits.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2674,7 +2674,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Describe and discuss experiences while travelling.",
     "persona": "adams",
     "personaRole": "Mr Adel, a friend who likes stories",
-    "goal": "Tell a story from a trip.",
+    "goal": "Tell a story from a trip: set the scene, say what went wrong, and end with how it turned out and what you learned.",
     "rubric": [
      {
       "label": "Sets the scene",
@@ -2691,7 +2691,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a friend who likes stories: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Tell a story from a trip.",
+     "Let the learner work toward this goal: Tell a story from a trip: set the scene, say what went wrong, and end with how it turned out and what you learned.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sets the scene; Uses linking words; Ends clearly.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2708,7 +2708,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Describe and discuss experiences while travelling.",
     "persona": "sara",
     "personaRole": "Mona, a friend choosing a place",
-    "goal": "Compare places in detail.",
+    "goal": "Compare two cities for a holiday: use at least three points, then say which you prefer and why.",
     "rubric": [
      {
       "label": "Compares",
@@ -2725,7 +2725,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mona, a friend choosing a place: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Compare places in detail.",
+     "Let the learner work toward this goal: Compare two cities for a holiday: use at least three points, then say which you prefer and why.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares; Gives reasons; Lets her choose.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2744,7 +2744,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle complex bookings, disputes and rights.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a manager",
-    "goal": "Dispute a charge with evidence.",
+    "goal": "Dispute a charge you did not agree to: give the dates and amounts as evidence, state the result you want, and stay calm and factual.",
     "rubric": [
      {
       "label": "States the facts",
@@ -2761,7 +2761,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Dispute a charge with evidence.",
+     "Let the learner work toward this goal: Dispute a charge you did not agree to: give the dates and amounts as evidence, state the result you want, and stay calm and factual.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the facts; Quotes the terms; Seeks a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2778,7 +2778,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle complex bookings, disputes and rights.",
     "persona": "sara",
     "personaRole": "Rania, an insurance agent",
-    "goal": "Make a claim.",
+    "goal": "Make an insurance claim after an accident: give the facts in order, say what was lost, and ask what proof they need.",
     "rubric": [
      {
       "label": "Describes the event",
@@ -2795,7 +2795,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Rania, an insurance agent: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Make a claim.",
+     "Let the learner work toward this goal: Make an insurance claim after an accident: give the facts in order, say what was lost, and ask what proof they need.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Describes the event; Gives details; Confirms the next steps.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2812,7 +2812,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle complex bookings, disputes and rights.",
     "persona": "adams",
     "personaRole": "Mr Wael, a customer service manager",
-    "goal": "Complain with impact.",
+    "goal": "Complain to a company: explain the impact on you in one clear sentence, give the facts, and ask for a specific response by a date.",
     "rubric": [
      {
       "label": "States the impact",
@@ -2829,7 +2829,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a customer service manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Complain with impact.",
+     "Let the learner work toward this goal: Complain to a company: explain the impact on you in one clear sentence, give the facts, and ask for a specific response by a date.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States the impact; States a fair demand; Stays calm.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2846,7 +2846,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle complex bookings, disputes and rights.",
     "persona": "sara",
     "personaRole": "Hana, a tour company manager",
-    "goal": "Negotiate a package.",
+    "goal": "Negotiate a group package: state what you need, trade one request for another, and confirm the final terms in your own words.",
     "rubric": [
      {
       "label": "States needs",
@@ -2863,7 +2863,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Hana, a tour company manager: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Negotiate a package.",
+     "Let the learner work toward this goal: Negotiate a group package: state what you need, trade one request for another, and confirm the final terms in your own words.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States needs; Asks about options; Agrees terms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2880,7 +2880,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Lead and care for a group abroad.",
     "persona": "adams",
     "personaRole": "Mr Tarek and four friends",
-    "goal": "Lead a group plan.",
+    "goal": "Lead a plan for a small group: hear each person's wish, propose a plan that includes each one, and agree who does what.",
     "rubric": [
      {
       "label": "Sets the aim",
@@ -2897,7 +2897,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek and four friends: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Lead a group plan.",
+     "Let the learner work toward this goal: Lead a plan for a small group: hear each person's wish, propose a plan that includes each one, and agree who does what.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sets the aim; Shares tasks; Checks everyone.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2914,7 +2914,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Lead and care for a group abroad.",
     "persona": "sara",
     "personaRole": "Salma and Mona, two friends in conflict",
-    "goal": "Calm a conflict.",
+    "goal": "Two people in the group disagree: name the issue calmly without taking sides, ask each for what they need, and propose a fair fix.",
     "rubric": [
      {
       "label": "Listens to both",
@@ -2931,7 +2931,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Salma and Mona, two friends in conflict: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Calm a conflict.",
+     "Let the learner work toward this goal: Two people in the group disagree: name the issue calmly without taking sides, ask each for what they need, and propose a fair fix.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens to both; Names the issue; Finds a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2948,7 +2948,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Lead and care for a group abroad.",
     "persona": "adams",
     "personaRole": "Mr Hamdy and the group",
-    "goal": "Decide with a group.",
+    "goal": "The group must drop one activity: give the options and the cost of each, hear every view, and reach a decision everyone can accept.",
     "rubric": [
      {
       "label": "Lists options",
@@ -2965,7 +2965,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy and the group: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Decide with a group.",
+     "Let the learner work toward this goal: The group must drop one activity: give the options and the cost of each, hear every view, and reach a decision everyone can accept.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Lists options; Gets views; Decides.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -2982,7 +2982,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Lead and care for a group abroad.",
     "persona": "sara",
     "personaRole": "Hana, a tour company",
-    "goal": "Give honest feedback.",
+    "goal": "Give honest feedback on a trip: say what worked, say what did not, and suggest one change, kindly and clearly.",
     "rubric": [
      {
       "label": "States strengths",
@@ -2999,7 +2999,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Hana, a tour company: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give honest feedback.",
+     "Let the learner work toward this goal: Give honest feedback on a trip: say what worked, say what did not, and suggest one change, kindly and clearly.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States strengths; States concerns; Suggests a fix.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3016,7 +3016,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk with nuance about travel, places and people.",
     "persona": "adams",
     "personaRole": "Mr Karim, a local who shares his view",
-    "goal": "Share and respect views.",
+    "goal": "Talk with a local about a sensitive topic: share your view with a reason, listen to theirs, and find one point you agree on.",
     "rubric": [
      {
       "label": "Listens",
@@ -3033,7 +3033,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, a local who shares his view: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Share and respect views.",
+     "Let the learner work toward this goal: Talk with a local about a sensitive topic: share your view with a reason, listen to theirs, and find one point you agree on.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Listens; Gives a view; Responds.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3050,7 +3050,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk with nuance about travel, places and people.",
     "persona": "sara",
     "personaRole": "Dina, a friend who knows the city",
-    "goal": "Describe how a place changed.",
+    "goal": "Describe how a place changed: compare then and now with specific details, and say what you think caused the change.",
     "rubric": [
      {
       "label": "Compares then and now",
@@ -3067,7 +3067,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Dina, a friend who knows the city: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Describe how a place changed.",
+     "Let the learner work toward this goal: Describe how a place changed: compare then and now with specific details, and say what you think caused the change.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Compares then and now; Gives reasons; Gives a view.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3084,7 +3084,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk with nuance about travel, places and people.",
     "persona": "adams",
     "personaRole": "Mr Tarek, a group of friends",
-    "goal": "Give a short talk about a trip.",
+    "goal": "Give a two-minute talk about a trip: open with one clear point, support it with a story, and close with what the listener can take from it.",
     "rubric": [
      {
       "label": "Opens clearly",
@@ -3101,7 +3101,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Tarek, a group of friends: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a short talk about a trip.",
+     "Let the learner work toward this goal: Give a two-minute talk about a trip: open with one clear point, support it with a story, and close with what the listener can take from it.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens clearly; Structures; Closes well.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3118,7 +3118,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Talk with nuance about travel, places and people.",
     "persona": "sara",
     "personaRole": "Mona, a group of friends",
-    "goal": "Tell a funny travel story.",
+    "goal": "Tell a funny travel story: build to the funny moment, keep it short, and end on a line that makes the listener smile.",
     "rubric": [
      {
       "label": "Sets the scene",
@@ -3135,7 +3135,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mona, a group of friends: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Tell a funny travel story.",
+     "Let the learner work toward this goal: Tell a funny travel story: build to the funny moment, keep it short, and end on a line that makes the listener smile.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Sets the scene; Builds up; Ends with the joke.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3152,7 +3152,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle crises while abroad.",
     "persona": "adams",
     "personaRole": "Emergency operator Mr Sherif",
-    "goal": "Give facts calmly.",
+    "goal": "Report a serious accident: give the facts in order without guessing, stay calm, and state what help you need.",
     "rubric": [
      {
       "label": "States where",
@@ -3169,7 +3169,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Emergency operator Mr Sherif: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give facts calmly.",
+     "Let the learner work toward this goal: Report a serious accident: give the facts in order without guessing, stay calm, and state what help you need.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: States where; States what happened; Answers questions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3186,7 +3186,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle crises while abroad.",
     "persona": "sara",
     "personaRole": "Ms Nadia, a police officer",
-    "goal": "Report with clear details.",
+    "goal": "Report a crime to the police: give the time, place and description precisely, and confirm what the officer will do next.",
     "rubric": [
      {
       "label": "Gives a sequence",
@@ -3203,7 +3203,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Ms Nadia, a police officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Report with clear details.",
+     "Let the learner work toward this goal: Report a crime to the police: give the time, place and description precisely, and confirm what the officer will do next.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives a sequence; Gives descriptions; Answers questions.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3220,7 +3220,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle crises while abroad.",
     "persona": "adams",
     "personaRole": "Mr Wael, a traveller in distress",
-    "goal": "Help and reassure.",
+    "goal": "Help another traveller who is upset: acknowledge how they feel, offer one practical step, and check that they are all right.",
     "rubric": [
      {
       "label": "Asks questions",
@@ -3237,7 +3237,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Wael, a traveller in distress: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Help and reassure.",
+     "Let the learner work toward this goal: Help another traveller who is upset: acknowledge how they feel, offer one practical step, and check that they are all right.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Asks questions; Reassures; Gets help.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3254,7 +3254,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Handle crises while abroad.",
     "persona": "adams",
     "personaRole": "Mr Karim, an embassy officer",
-    "goal": "Explain a complex problem.",
+    "goal": "Explain a complex problem to an embassy: give the key facts in order, say what you need, and ask what documents and steps are required.",
     "rubric": [
      {
       "label": "Gives the history",
@@ -3271,7 +3271,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Karim, an embassy officer: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Explain a complex problem.",
+     "Let the learner work toward this goal: Explain a complex problem to an embassy: give the key facts in order, say what you need, and ask what documents and steps are required.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Gives the history; States what you need; Confirms.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3288,7 +3288,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Speak in business travel and formal settings.",
     "persona": "adams",
     "personaRole": "Mr Adel, a client",
-    "goal": "Handle a short business meeting.",
+    "goal": "Handle a short business meeting abroad: state your purpose, listen to the other side, and agree one next step with a date.",
     "rubric": [
      {
       "label": "Opens politely",
@@ -3305,7 +3305,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Adel, a client: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Handle a short business meeting.",
+     "Let the learner work toward this goal: Handle a short business meeting abroad: state your purpose, listen to the other side, and agree one next step with a date.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens politely; Gives key points; Closes with a next step.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3322,7 +3322,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Speak in business travel and formal settings.",
     "persona": "sara",
     "personaRole": "Hana, a visitor",
-    "goal": "Host with warmth.",
+    "goal": "Host a visitor in your city: welcome them warmly, offer a plan with a choice, and check what they would like.",
     "rubric": [
      {
       "label": "Welcomes",
@@ -3339,7 +3339,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Hana, a visitor: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Host with warmth.",
+     "Let the learner work toward this goal: Host a visitor in your city: welcome them warmly, offer a plan with a choice, and check what they would like.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Welcomes; Shows places; Asks about needs.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3356,7 +3356,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Speak in business travel and formal settings.",
     "persona": "sara",
     "personaRole": "Ms Reem and guests",
-    "goal": "Give a short speech.",
+    "goal": "Give a short speech at an event: thank the host, make one clear point, and close with a toast or a warm line.",
     "rubric": [
      {
       "label": "Opens warmly",
@@ -3373,7 +3373,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Ms Reem and guests: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Give a short speech.",
+     "Let the learner work toward this goal: Give a short speech at an event: thank the host, make one clear point, and close with a toast or a warm line.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Opens warmly; Keeps it short; Closes well.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
@@ -3390,7 +3390,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     "description": "Speak in business travel and formal settings.",
     "persona": "adams",
     "personaRole": "Mr Hamdy, a new contact",
-    "goal": "Network with confidence.",
+    "goal": "Network at an event abroad: introduce yourself in one sentence, ask about their work, and end with a way to stay in touch.",
     "rubric": [
      {
       "label": "Introduces yourself",
@@ -3407,7 +3407,7 @@ export const TRAVEL_CONVERSATIONS: CurriculumProgramme =  {
     ],
     "targets": [
      "Open the scene in character as Mr Hamdy, a new contact: greet the learner and state your situation in one or two short sentences.",
-     "Let the learner work toward this goal: Network with confidence.",
+     "Let the learner work toward this goal: Network at an event abroad: introduce yourself in one sentence, ask about their work, and end with a way to stay in touch.",
      "Keep the other person's replies realistic and short; add one small difficulty so the learner has to respond, not just repeat.",
      "Move through the rubric points naturally: Introduces yourself; Asks questions; Plans to follow up.",
      "Close the scene in character, then step out: name the one thing they did best and one thing to practise."
