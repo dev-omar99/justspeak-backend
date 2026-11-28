@@ -1,3 +1,4 @@
+import { Throttle } from '@nestjs/throttler';
 import {
   BadRequestException,
   Body,
@@ -79,6 +80,7 @@ export class AiPartnerController {
     return this.aiPartner.getQuota(req.user.sub);
   }
 
+  @Throttle({ default: { limit: 20, ttl: 60000 } })
   @Post('sessions')
   @ApiOperation({ summary: 'Create an AI Partner session (enforces plan quota)' })
   start(@Req() req: any, @Body() dto: StartSessionDto) {
@@ -134,6 +136,7 @@ export class AiPartnerController {
     return this.aiPartner.getDashboard(req.user.sub);
   }
 
+  @Throttle({ default: { limit: 6, ttl: 60000 } })
   @Post('sessions/upload')
   @ApiOperation({ summary: 'Analyse an uploaded audio recording like a session' })
   @UseInterceptors(
@@ -142,6 +145,9 @@ export class AiPartnerController {
   upload(@Req() req: any, @UploadedFile() file?: { buffer: Buffer; mimetype: string; originalname: string }) {
     if (!file || !file.buffer?.length) {
       throw new BadRequestException('Attach an audio file as multipart field "file".');
+    }
+    if (!/^(audio|video)\//i.test(file.mimetype || '')) {
+      throw new BadRequestException('Only audio or video files can be analysed.');
     }
     return this.aiPartner.analyzeUpload(req.user.sub, file);
   }
@@ -203,11 +209,16 @@ export class AiPartnerController {
   @ApiOperation({ summary: 'Stream a recording blob (local storage mode)' })
   async streamRecordingBlob(@Req() req: any, @Param('rid') rid: string, @Res() res: any) {
     const blob = await this.recordings.openBlob(rid, req.user.sub);
-    res.setHeader('content-type', blob.mimeType || 'application/octet-stream');
+    // The stored type came from the client: only ever serve it as audio/video, never as a renderable page.
+    const safeType = /^(audio|video)\/[a-z0-9.+-]+(;.*)?$/i.test(blob.mimeType || '') ? blob.mimeType : 'application/octet-stream';
+    res.setHeader('content-type', safeType);
+    res.setHeader('x-content-type-options', 'nosniff');
+    res.setHeader('content-disposition', 'inline');
     if (blob.bytes > 0) res.setHeader('content-length', String(blob.bytes));
     blob.stream.pipe(res);
   }
 
+  @Throttle({ default: { limit: 12, ttl: 60000 } })
   @Post('sessions/:id/report')
   @ApiOperation({ summary: 'Generate or fetch the end-of-session feedback report' })
   report(@Req() req: any, @Param('id') id: string) {
@@ -215,6 +226,7 @@ export class AiPartnerController {
     return this.aiPartner.generateReport(id, req.user.sub);
   }
 
+  @Throttle({ default: { limit: 6, ttl: 60000 } })
   @Post('sessions/:id/placement')
   @ApiOperation({ summary: 'Score a placement session with the stronger model' })
   placement(@Req() req: any, @Param('id') id: string) {

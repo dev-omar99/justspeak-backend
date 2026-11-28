@@ -5,6 +5,8 @@ import {
   UnauthorizedException,
   BadRequestException,
   InternalServerErrorException,
+  HttpException,
+  HttpStatus,
 } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
@@ -53,6 +55,10 @@ export class AuthService {
     { count: number; expiresAt: number }
   >();
   private otpRequestHistory = new Map<string, number[]>();
+  /** Failed password logins per identifier. In memory (one replica); resets on restart, which is fine for a throttle. */
+  private loginFailures = new Map<string, { count: number; firstAt: number }>();
+  public static readonly MAX_LOGIN_FAILURES = 10;
+  public static readonly LOGIN_FAILURE_WINDOW_MS = 15 * 60 * 1000;
   private inFlightOtps = new Set<string>();
   private consumedOtps = new Set<string>();
 
@@ -213,11 +219,42 @@ export class AuthService {
     };
   }
 
+  private assertLoginNotLocked(key: string): void {
+    const now = Date.now();
+    const st = this.loginFailures.get(key);
+    if (!st) return;
+    if (now - st.firstAt > AuthService.LOGIN_FAILURE_WINDOW_MS) {
+      this.loginFailures.delete(key);
+      return;
+    }
+    if (st.count >= AuthService.MAX_LOGIN_FAILURES) {
+      throw new HttpException(
+        'Too many failed log-in attempts. Wait 15 minutes, or use Forgot password.',
+        HttpStatus.TOO_MANY_REQUESTS,
+      );
+    }
+  }
+
+  private recordLoginFailure(key: string): void {
+    const now = Date.now();
+    const st = this.loginFailures.get(key);
+    if (!st || now - st.firstAt > AuthService.LOGIN_FAILURE_WINDOW_MS) {
+      if (this.loginFailures.size > 5000) this.loginFailures.clear(); // bound memory
+      this.loginFailures.set(key, { count: 1, firstAt: now });
+    } else {
+      st.count += 1;
+    }
+  }
+
   async login(dto: LoginDto): Promise<AuthResult> {
     const input = (dto.identifier || dto.email || dto.phone || '').trim();
     if (!input) {
       throw new BadRequestException('Please enter your email or phone number.');
     }
+
+    // Per-account brute-force guard, on top of the per-IP route throttle. Same answer for unknown and known accounts.
+    const loginKey = input.toLowerCase();
+    this.assertLoginNotLocked(loginKey);
 
     let user: any = null;
 
@@ -260,6 +297,7 @@ export class AuthService {
     }
 
     if (!user) {
+      this.recordLoginFailure(loginKey);
       throw new UnauthorizedException(
         'Invalid credentials. Please check your email or phone number and password.',
       );
@@ -267,11 +305,13 @@ export class AuthService {
 
     const isPasswordValid = await bcrypt.compare(dto.password, user.password);
     if (!isPasswordValid) {
+      this.recordLoginFailure(loginKey);
       throw new UnauthorizedException(
         'Invalid credentials. Please check your email or phone number and password.',
       );
     }
 
+    this.loginFailures.delete(loginKey);
     user = await this.syncAdminFlag(user);
 
     const accessToken = this.generateToken(

@@ -55,6 +55,16 @@ describe('AuthService', () => {
     expect(service).toBeDefined();
   });
 
+  describe('login brute-force guard', () => {
+    it('locks an identifier after too many failed logins and answers 429', async () => {
+      mockPrisma.user.findUnique.mockResolvedValue(null);
+      for (let i = 0; i < AuthService.MAX_LOGIN_FAILURES; i++) {
+        await expect(service.login({ identifier: 'a@b.com', password: 'x' } as any)).rejects.toThrow(/Invalid credentials/);
+      }
+      await expect(service.login({ identifier: 'A@b.com', password: 'x' } as any)).rejects.toMatchObject({ status: 429 });
+    });
+  });
+
   describe('sendOtp', () => {
     it('re-sends the same code while one is still valid, so the first email keeps working', async () => {
       // 1st findFirst: 60-second cooldown check (none). 2nd: the still-valid code.

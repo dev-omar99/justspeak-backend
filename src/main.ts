@@ -30,11 +30,30 @@ async function bootstrap() {
     httpInstance.disable('x-powered-by');
   }
 
+  // Behind Railway's proxy: trust one hop so rate limits see the real client IP instead of the proxy's.
+  if (typeof httpInstance?.set === 'function') {
+    httpInstance.set('trust proxy', 1);
+  }
+  // Baseline security headers for every API response (no extra dependency). Swagger UI is skipped: it needs inline scripts.
+  app.use((req: any, res: any, next: () => void) => {
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('X-Frame-Options', 'DENY');
+    res.setHeader('Referrer-Policy', 'no-referrer');
+    res.setHeader('Strict-Transport-Security', 'max-age=15552000; includeSubDomains');
+    res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin');
+    if (!String(req.url || '').startsWith('/api/docs')) {
+      res.setHeader('Content-Security-Policy', "default-src 'none'; frame-ancestors 'none'");
+    }
+    next();
+  });
+
   const corsOrigins = process.env.CORS_ORIGINS
     ? process.env.CORS_ORIGINS.split(',')
         .map((origin) => origin.trim())
         .filter(Boolean)
-    : true;
+    : process.env.NODE_ENV === 'production'
+      ? false // production without CORS_ORIGINS: no cross-origin access rather than every origin
+      : true;
   app.enableCors({
     origin: corsOrigins,
     credentials: true,
@@ -72,13 +91,16 @@ async function bootstrap() {
     .addTag('Admin', 'Platform administration, user management, and statistics')
     .build();
 
-  const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api/docs', app, document, {
-    customSiteTitle: 'JustSpeak API Documentation',
-    swaggerOptions: {
-      persistAuthorization: true,
-    },
-  });
+  // API docs map every route for an attacker: public only outside production, or when ENABLE_SWAGGER=true.
+  if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_SWAGGER === 'true') {
+    const document = SwaggerModule.createDocument(app, config);
+    SwaggerModule.setup('api/docs', app, document, {
+      customSiteTitle: 'JustSpeak API Documentation',
+      swaggerOptions: {
+        persistAuthorization: true,
+      },
+    });
+  }
 
   const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 4000;
   await app.listen(port, '0.0.0.0');

@@ -1,3 +1,4 @@
+import { Throttle } from '@nestjs/throttler';
 import {
   Controller,
   Get,
@@ -158,6 +159,7 @@ export class UsersController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @Throttle({ default: { limit: 5, ttl: 60000 } })
   @Post('change-password')
   @ApiOperation({ summary: 'Change password for authenticated user' })
   async changePassword(

@@ -1233,8 +1233,14 @@ Return ONLY valid JSON (no markdown) matching:
     if (!currentPassword || !newPassword) {
       throw new BadRequestException('Current password and new password are required.');
     }
+    if (typeof currentPassword !== 'string' || typeof newPassword !== 'string') {
+      throw new BadRequestException('Passwords must be text.');
+    }
     if (newPassword.length < 8) {
       throw new BadRequestException('New password must be at least 8 characters long.');
+    }
+    if (newPassword.length > 72 || currentPassword.length > 72) {
+      throw new BadRequestException('Password must not exceed 72 characters.');
     }
     const user = await this.prisma.user.findUnique({ where: { id: userId } });
     if (!user) {
