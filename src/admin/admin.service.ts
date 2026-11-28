@@ -1,7 +1,7 @@
 import { Injectable, Logger, NotFoundException, BadRequestException, OnApplicationBootstrap, Optional } from '@nestjs/common';
 import { PrismaService } from '../prisma.service';
 import { getAdminEmail, isAdminEmail } from './admin-policy';
-import { subscriptionStore, PlanTierId } from '../users/subscription-store';
+import type { PlanTierId } from '../users/subscription-store';
 import { SignalingGateway } from '../rooms/signaling.gateway';
 
 export interface AdminUserListItem {
@@ -133,22 +133,17 @@ export class AdminService implements OnApplicationBootstrap {
       orderBy: { createdAt: 'desc' },
     });
 
-    const subDelegate = (this.prisma as any).userSubscription;
-    let subMap = new Map<string, { planTier: PlanTierId; aiTokensBalance: number }>();
-    if (subDelegate?.findMany) {
-      try {
-        const subs = await subDelegate.findMany();
-        for (const s of subs) {
-          subMap.set(s.userId, {
-            planTier: s.planTier as PlanTierId,
-            aiTokensBalance: s.aiTokensBalance,
-          });
-        }
-      } catch {}
+    const subMap = new Map<string, { planTier: PlanTierId; aiTokensBalance: number }>();
+    const subs = await this.prisma.userSubscription.findMany();
+    for (const sub of subs) {
+      subMap.set(sub.userId, {
+        planTier: sub.planTier as PlanTierId,
+        aiTokensBalance: sub.aiTokensBalance,
+      });
     }
 
     return users.map((u) => {
-      const sub = subMap.get(u.id) || subscriptionStore.getSubscription(u.id);
+      const sub = subMap.get(u.id) || { planTier: 'FREE' as PlanTierId, aiTokensBalance: 0 };
       return {
         id: u.id,
         email: u.email,
@@ -255,21 +250,11 @@ export class AdminService implements OnApplicationBootstrap {
       throw new NotFoundException('User not found');
     }
 
-    const subDelegate = (this.prisma as any).userSubscription;
-    let current = subscriptionStore.getSubscription(id);
-    if (subDelegate?.findUnique) {
-      try {
-        const dbSub = await subDelegate.findUnique({ where: { userId: id } });
-        if (dbSub) {
-          current = {
-            userId: dbSub.userId,
-            planTier: dbSub.planTier as PlanTierId,
-            aiTokensBalance: dbSub.aiTokensBalance,
-            updatedAt: dbSub.updatedAt.toISOString(),
-          };
-        }
-      } catch {}
-    }
+    const dbSub = await this.prisma.userSubscription.findUnique({ where: { userId: id } });
+    const current = {
+      planTier: (dbSub?.planTier ?? 'FREE') as PlanTierId,
+      aiTokensBalance: dbSub?.aiTokensBalance ?? 0,
+    };
 
     const nextTier = payload.planTier || current.planTier;
     if (!['FREE', 'PLUS', 'ELITE'].includes(nextTier)) {
@@ -286,43 +271,20 @@ export class AdminService implements OnApplicationBootstrap {
       nextTokens = nextTier === 'FREE' ? 0 : current.aiTokensBalance + defaultTokens[nextTier];
     }
 
-    if (subDelegate?.upsert) {
-      try {
-        const saved = await subDelegate.upsert({
-          where: { userId: id },
-          create: { userId: id, planTier: nextTier, aiTokensBalance: nextTokens },
-          update: { planTier: nextTier, aiTokensBalance: nextTokens },
-        });
-        await this.recordAudit(adminEmail, 'user.subscription.update', 'user', id, {
-          planTier: saved.planTier,
-          aiTokensBalance: saved.aiTokensBalance,
-        });
-        return {
-          success: true,
-          userId: id,
-          planTier: saved.planTier as PlanTierId,
-          aiTokensBalance: saved.aiTokensBalance,
-        };
-      } catch {}
-    }
-
-    const updated = subscriptionStore.setSubscription(
-      id,
-      nextTier,
-      payload.aiTokensBalance,
-      payload.addTokens,
-    );
-
-    await this.recordAudit(adminEmail, 'user.subscription.update', 'user', id, {
-      planTier: updated.planTier,
-      aiTokensBalance: updated.aiTokensBalance,
+    const saved = await this.prisma.userSubscription.upsert({
+      where: { userId: id },
+      create: { userId: id, planTier: nextTier, aiTokensBalance: nextTokens },
+      update: { planTier: nextTier, aiTokensBalance: nextTokens },
     });
-
+    await this.recordAudit(adminEmail, 'user.subscription.update', 'user', id, {
+      planTier: saved.planTier,
+      aiTokensBalance: saved.aiTokensBalance,
+    });
     return {
       success: true,
       userId: id,
-      planTier: updated.planTier,
-      aiTokensBalance: updated.aiTokensBalance,
+      planTier: saved.planTier as PlanTierId,
+      aiTokensBalance: saved.aiTokensBalance,
     };
   }
 
