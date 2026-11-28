@@ -154,7 +154,7 @@ export class AiPartnerService {
         fieldId: dto.fieldId ?? null,
         lessonId: dto.lessonId ?? null,
         roleplayId: dto.roleplayId ?? null,
-        level: normalizeCefrLevel(dto.level || scenarioLevel || user?.englishLevel),
+        level: normalizeCefrLevel(scenarioLevel || dto.level || user?.englishLevel),
         status: 'active',
         transcript: [],
         facts: [],
@@ -358,6 +358,7 @@ export class AiPartnerService {
         roleplayContext =
           `ROLEPLAY CONTEXT: this was the roleplay "${scenario.title}". ` +
           `The partner played ${scenario.personaRole}. ` +
+          `Scene topic: ${scenario.description}. Written for CEFR level ${scenario.level}: judge against that level. ` +
           `Learner goal: ${scenario.goal}. ` +
           `Scoring rubric: ${scenario.rubric.map((r) => `${r.label} (${r.hint})`).join('; ')}. ` +
           `Judge the summary, strength and growth area against this goal and rubric, ` +
