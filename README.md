@@ -14,7 +14,7 @@ NestJS + TypeScript + Prisma + PostgreSQL + Socket.IO backend for the **JustSpea
 
 ## Environment Variables
 
-Configure these in `justspeak_backend/.env` (see [`.env.example`](file:///c:/Users/A%20S%20U%20S/Desktop/My%20App/justspeak_backend/.env.example)):
+Configure these in `justspeak_backend/.env` (see [`.env.example`](.env.example), which lists every variable with comments):
 
 | Variable | Required | Purpose |
 |---|---|---|
@@ -69,3 +69,27 @@ npm test
 npx tsc --noEmit -p tsconfig.json
 npm run build
 ```
+
+## Where things live
+
+| Path | What |
+|---|---|
+| `src/auth`, `src/users`, `src/rooms`, `src/feedback`, `src/admin` | Feature modules (controller, service, DTOs, specs next to them) |
+| `src/ai-partner` | AI Partner: live sessions, reports, quota, recordings, catalog |
+| `src/ai-partner/content` | Lesson content: legacy roleplays, `curriculum/` programme files (generated, hidden drafts) |
+| `scripts/curriculum` | Python tools that generate and audit the curriculum files, see its README |
+| `docs/` | Curriculum quality gate, vocabulary method, lesson prompt samples |
+| `prisma/` | Schema and migrations |
+| `Procfile`, `railway.json` | Railway deploy (the live host). `render.yaml` is a spare Render config, not in use |
+
+## Deploy and rollback convention
+
+- Pushing `main` deploys to Railway (the backend also pushes `main:ai-partner`).
+- Before each batch of changes, tag the current commit `rollback-pre-<name>`. To roll back, redeploy that tag.
+- Before every push: `npx tsc --noEmit -p tsconfig.json`, `npx jest`, `npm run build`.
+
+## Security notes
+
+- Set `NODE_ENV=production` on the host: it hides the API docs and closes CORS when `CORS_ORIGINS` is unset.
+- Secrets live only in the host's variables (Railway) and the frontend host (Vercel), never in git.
+- Login has a per-IP limit and a per-account lockout (10 failures in 15 minutes).
