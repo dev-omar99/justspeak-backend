@@ -1,4 +1,4 @@
-import { buildCatalog } from './catalog';
+import { buildCatalog, hideLegacyProgrammes } from './catalog';
 import { CURRICULUM_PROGRAMMES, curriculumEnabled, canStartCurriculumLesson, isPreviewAllowlisted } from './content/curriculum';
 import { getRoleplay, ROLEPLAY_SCENARIOS } from './content/roleplays';
 
@@ -175,5 +175,30 @@ describe('preview allowlist (CURRICULUM_PREVIEW_EMAILS)', () => {
     expect(isPreviewAllowlisted('SARA@example.com')).toBe(true);
     expect(isPreviewAllowlisted('bali@example.com')).toBe(false);
     expect(isPreviewAllowlisted('ali@example.com.evil.io')).toBe(false);
+  });
+});
+
+describe('legacy programme switch', () => {
+  const OLD = process.env.HIDE_LEGACY_PROGRAMMES;
+  const OLD_P = process.env.CURRICULUM_ADMIN_PREVIEW;
+  afterEach(() => {
+    if (OLD === undefined) delete process.env.HIDE_LEGACY_PROGRAMMES; else process.env.HIDE_LEGACY_PROGRAMMES = OLD;
+    if (OLD_P === undefined) delete process.env.CURRICULUM_ADMIN_PREVIEW; else process.env.CURRICULUM_ADMIN_PREVIEW = OLD_P;
+  });
+
+  it('is off by default and changes nothing', () => {
+    delete process.env.HIDE_LEGACY_PROGRAMMES;
+    expect(hideLegacyProgrammes()).toBe(false);
+    expect(buildCatalog([]).find((f) => f.id === 'work')?.programmes.map((p) => p.id)).toEqual(['work-english']);
+  });
+
+  it('when on, hides the old list only where new programmes are visible', () => {
+    process.env.HIDE_LEGACY_PROGRAMMES = 'true';
+    process.env.CURRICULUM_ADMIN_PREVIEW = 'true';
+    const hidden = buildCatalog([], { isPreviewer: true }).find((f) => f.id === 'work')?.programmes.map((p) => p.id) ?? [];
+    expect(hidden).not.toContain('work-english');
+    expect(hidden.length).toBeGreaterThan(0);
+    // A viewer with no new programmes keeps the old list, so no field is ever empty.
+    expect(buildCatalog([], { isPreviewer: false }).find((f) => f.id === 'work')?.programmes.map((p) => p.id)).toEqual(['work-english']);
   });
 });

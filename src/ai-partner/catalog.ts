@@ -204,6 +204,11 @@ function buildProgramme(
     };
 }
 
+/** Opt-in switch to hide the original (legacy) programme lists once the new curriculum is live. */
+export function hideLegacyProgrammes(): boolean {
+  return process.env.HIDE_LEGACY_PROGRAMMES === 'true';
+}
+
 export function buildCatalog(sessions: CatalogSession[], viewer?: CurriculumViewer): FieldView[] {
   return FIELDS.map((field) => {
     const scenarios = ROLEPLAY_SCENARIOS.filter((s) => s.category === field.category);
@@ -230,7 +235,10 @@ export function buildCatalog(sessions: CatalogSession[], viewer?: CurriculumView
         return buildProgramme({ id: p.id, fieldId: p.fieldId, title: p.title, description: p.description }, sc, sessions, (id) => extraById.get(id));
       })
       .filter((x): x is ProgrammeCatalogView => x !== null);
-    const programmes = [base, ...extra];
+    // HIDE_LEGACY_PROGRAMMES=true hides the original roleplay lists, but only for a viewer who has new
+    // programmes in this field, so a field is never left empty. Default off: nothing changes. Nothing is deleted;
+    // old sessions and scores stay keyed on their roleplay ids.
+    const programmes = hideLegacyProgrammes() && extra.length > 0 ? extra : [base, ...extra];
     return {
       id: field.id,
       title: field.title,
