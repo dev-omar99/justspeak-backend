@@ -1,0 +1,70 @@
+Answer first | Full: says it clearly, for example "Yes, I handle pressure well.". Partial: answers after a long start. None: starts with background and never answers.
+One relevant story | Full: says it clearly, for example "Last winter our system went down on a busy Friday...". Partial: a story with a loose link to the question. None: no story or an unrelated one.
+Connect to the job | Full: says it clearly, for example "That is why I stay calm with customers here.". Partial: a general link like "so I am good". None: no link to the job.
+Short situation | Full: says it clearly, for example "We were short of staff on a busy Saturday.". Partial: a long setup. None: no situation.
+Clear responsibility | Full: says it clearly, for example "I was the one in charge of the front desk.". Partial: "we had to do it". None: no role stated.
+No extra details | Full: sticks to the facts that matter. Partial: one side detail. None: long unrelated details.
+What YOU did | Full: says it clearly, for example "I moved two people to the phones and called the manager.". Partial: mixes I and we. None: only says what the team did.
+A clear result | Full: says it clearly, for example "Waiting time dropped from ten minutes to four.". Partial: "it went well". None: no result.
+Past tense | Full: says it clearly, for example "I called, I explained, I fixed it.". Partial: one or two tense slips. None: mostly present tense.
+Priorities | Full: says it clearly, for example "I served the urgent cases first and told the others to expect a wait.". Partial: one priority named. None: no priorities.
+Action with customers | Full: says it clearly, for example "I told each customer how long the wait would be.". Partial: a vague action. None: no action with customers.
+Result | Full: says it clearly, for example "Nobody left, and we got two thank-you notes.". Partial: a general result. None: no result.
+Four parts | Full: says it clearly, for example "Let me give you my Assertion, Reason, Evidence and Application.". Partial: three of four parts. None: no structure.
+Evidence | Full: says it clearly, for example "Last year I kept a 95 percent satisfaction score.". Partial: a general claim. None: no evidence.
+Application | Full: says it clearly, for example "I would bring the same care to your team.". Partial: a vague link. None: no application.
+Reasoned range | Full: says it clearly, for example "Based on my experience, I am looking at 9,000 to 10,000.". Partial: a number without a reason. None: refuses to say or gives a single figure with no reason.
+Flexible | Full: says it clearly, for example "I am open to discussing the whole package.". Partial: a hint of flexibility. None: rigid.
+Polite | Full: says it clearly, for example "I appreciate the offer, and I would like to discuss it.". Partial: neutral tone. None: blunt or demanding.
+Relevant | Full: says it clearly, for example "How is success measured in this role in the first months?". Partial: a general question. None: an unrelated or already answered question.
+Listens to the answer | Full: says it clearly, for example "That is helpful. So the team handles about 80 calls a day?". Partial: nods then moves on. None: ignores the answer.
+Short close | Full: says it clearly, for example "Thank you. I am very interested in the role.". Partial: a long close. None: no close.
+Thanks | Full: says it clearly, for example "Thank you for your time today.". Partial: a quick "thanks". None: no thanks.
+Link to the role | Full: says it clearly, for example "I think my background fits this team well.". Partial: a general line. None: no link.
+Strength | Full: says it clearly, for example "I am patient and I explain clearly.". Partial: one vague strength. None: no strength.
+Link to job | Full: says it clearly, for example "That helps me with upset customers.". Partial: a general link. None: no link.
+Honest | Full: says it clearly, for example "I sometimes spend too long on one case.". Partial: a safe non-weakness. None: denies any weakness.
+Action | Full: says it clearly, for example "Now I set a time limit for each call.". Partial: "I try". None: no action.
+Improvement | Full: says it clearly, for example "My average call time dropped by two minutes.". Partial: "it is better now". None: no improvement.
+Owns it | Full: says it clearly, for example "I made a mistake. I gave the wrong date.". Partial: softens it as "a small thing". None: blames others.
+What changed | Full: says it clearly, for example "Now I check every date twice.". Partial: a vague change. None: nothing changed.
+Positive close | Full: says it clearly, for example "It made me more careful and my team trusts my work.". Partial: a neutral close. None: ends on the mistake.
+Example | Full: says it clearly, for example "My manager asked me to slow down, so I started summarising.". Partial: a general claim. None: no example.
+Stay calm | Full: says it clearly, for example "I stay calm and let the customer speak first.". Partial: says "I stay calm" with no method. None: reacts with anger.
+Reason | Full: says it clearly, for example "Because they usually need to feel heard first.". Partial: a thin reason. None: no reason.
+Steps incl. escalate if needed | Full: says it clearly, for example "I listen, offer a fix, and if needed I call a supervisor.". Partial: listen and fix only. None: no steps.
+Says no kindly | Full: says it clearly, for example "I am sorry, I cannot refund this.". Partial: a firm no without warmth. None: harsh or evasive.
+Offers alternatives | Full: says it clearly, for example "I can offer a replacement or a credit.". Partial: one alternative. None: none.
+Respects policy | Full: says it clearly, for example "The policy says refunds apply within 14 days.". Partial: vague about policy. None: breaks or attacks the policy.
+Offers help first | Full: says it clearly, for example "Let me see if I can solve this for you first.". Partial: jumps to the supervisor. None: refuses or passes it on immediately.
+Escalates properly | Full: says it clearly, for example "I will brief my supervisor so you do not repeat yourself.". Partial: escalates without a brief. None: escalates badly or not at all.
+Informs the customer | Full: says it clearly, for example "It will take about ten minutes.". Partial: says "wait". None: says nothing.
+Communication | Full: says it clearly, for example "I would tell both customers honestly about the wait.". Partial: one customer informed. None: no communication.
+Follow up | Full: says it clearly, for example "I would call back to confirm it is solved.". Partial: "maybe later". None: no follow-up.
+Phrase | Full: says it clearly, for example "That is a good question. Let me think for a moment.". Partial: "um" only. None: long silence.
+Structure | Full: says it clearly, for example "I would say two things. First... Second...". Partial: a loose order. None: no structure.
+Concise | Full: answers in about three sentences. Partial: a little long. None: rambling.
+No excuse | Full: says it clearly, for example "That was a gap, and here is what I did about it.". Partial: a weak excuse. None: blames others.
+Focus on growth | Full: says it clearly, for example "I took a course to close it.". Partial: a vague "I learned". None: no growth.
+Raises it properly | Full: says it clearly, for example "I would raise it with my manager with data.". Partial: complains to peers. None: ignores it or breaks the rule.
+Keeps customer service | Full: says it clearly, for example "Meanwhile I follow the policy politely with the customer.". Partial: mostly polite. None: lets the disagreement show.
+Calm pace | Full: speaks steadily with pauses. Partial: a little rushed. None: rushes and stumbles.
+Does not apologise too much | Full: says it clearly, for example "Thank you for waiting" instead of three apologies. Partial: two apologies. None: apologises repeatedly.
+Eye on all | Full: addresses everyone while answering. Partial: addresses one person. None: addresses only one person throughout.
+Names | Full: says it clearly, for example "Thank you, Ms Hassan, for the question.". Partial: uses one name. None: no names.
+Clear | Full: speaks in short clear sentences. Partial: sometimes unclear. None: unclear.
+Position | Full: says it clearly, for example "I would apply the policy.". Partial: a hedged position. None: no position.
+Nuance | Full: says it clearly, for example "But in a special case I would ask a supervisor.". Partial: a hint of nuance. None: black and white.
+Principles | Full: says it clearly, for example "I believe in being honest, quick and kind.". Partial: one principle. None: no principles.
+Examples | Full: says it clearly, for example "For example, I once stayed late to fix a billing error.". Partial: a general example. None: no example.
+Customer and company | Full: says it clearly, for example "Good service helps the customer and protects the company.". Partial: one side only. None: one side only.
+Three stages | Full: says it clearly, for example "First 30 days I learn, then 60 I support, then 90 I own.". Partial: two stages. None: no stages.
+Measures | Full: says it clearly, for example "I would track call quality and first-call resolution.". Partial: one loose measure. None: no measures.
+Realistic | Full: says it clearly, for example "In 90 days I would aim to work alone on common cases.". Partial: ambitious but vague. None: unrealistic claims.
+Approach | Full: says it clearly, for example "I listen first, give feedback, and agree one goal.". Partial: a general idea. None: no approach.
+Problem | Full: says it clearly, for example "Customers waited too long for a refund.". Partial: a vague problem. None: no problem.
+Measured result | Full: says it clearly, for example "The refund time dropped from five days to two.". Partial: "it improved". None: no result.
+Source | Full: says it clearly, for example "I use the weekly ticket report.". Partial: says "data". None: no source.
+Insight | Full: says it clearly, for example "It showed most complaints come on Mondays.". Partial: a general finding. None: no insight.
+Clear principles | Full: says it clearly, for example "My service rests on listening, honesty and follow-up.". Partial: one principle. None: no principles.
+Calm delivery | Full: speaks steadily and naturally. Partial: a little fast. None: rushed or monotone.

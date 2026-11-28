@@ -125,7 +125,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Thanks",
-      "hint": "Full: thanks the interviewer at the end. Partial: forgets. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says it clearly, for example \"Thank you for your time today.\". Partial: a quick \"thanks\". None: no thanks. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Goodbye",
@@ -339,7 +339,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Polite",
-      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says it clearly, for example \"I appreciate the offer, and I would like to discuss it.\". Partial: neutral tone. None: blunt or demanding. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Answers after",
@@ -374,7 +374,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Polite",
-      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says it clearly, for example \"I appreciate the offer, and I would like to discuss it.\". Partial: neutral tone. None: blunt or demanding. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Uses the meaning",
@@ -409,7 +409,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Thanks",
-      "hint": "Full: thanks the interviewer at the end. Partial: forgets. Judge meaning only: single words and short phrases are enough."
+      "hint": "Full: says it clearly, for example \"Thank you for your time today.\". Partial: a quick \"thanks\". None: no thanks. Judge meaning only: single words and short phrases are enough."
      },
      {
       "label": "Short answer",
@@ -586,7 +586,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Reason",
-      "hint": "Full: gives a clear, simple reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"Because they usually need to feel heard first.\". Partial: a thin reason. None: no reason. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Short",
@@ -617,7 +617,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Full: gives the answer at the start. Partial: gives background first. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"Yes, I handle pressure well.\". Partial: answers after a long start. None: starts with background and never answers. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "One reason",
@@ -652,7 +652,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Full: gives the answer at the start. Partial: gives background first. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"Yes, I handle pressure well.\". Partial: answers after a long start. None: starts with background and never answers. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Which programs",
@@ -687,11 +687,11 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Full: gives the answer at the start. Partial: gives background first. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"Yes, I handle pressure well.\". Partial: answers after a long start. None: starts with background and never answers. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Example",
-      "hint": "Full: gives a short real example. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"My manager asked me to slow down, so I started summarising.\". Partial: a general claim. None: no example. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Short",
@@ -722,11 +722,11 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Reason",
-      "hint": "Full: gives a clear, simple reason. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"Because they usually need to feel heard first.\". Partial: a thin reason. None: no reason. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Example",
-      "hint": "Full: gives a short real example. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"My manager asked me to slow down, so I started summarising.\". Partial: a general claim. None: no example. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Clear voice",
@@ -796,7 +796,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Example",
-      "hint": "Full: gives a short real example. Partial: none. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"My manager asked me to slow down, so I started summarising.\". Partial: a general claim. None: no example. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Clear voice",
@@ -862,7 +862,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Full: uses the phrase \"Let me think for a moment.\" Partial: another filler such as \"um\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"That is a good question. Let me think for a moment.\". Partial: \"um\" only. None: long silence. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Pause",
@@ -897,7 +897,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Full: uses the phrase \"Let me think for a moment.\" Partial: another filler such as \"um\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"That is a good question. Let me think for a moment.\". Partial: \"um\" only. None: long silence. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Pause",
@@ -932,7 +932,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Full: uses the phrase \"Let me think for a moment.\" Partial: another filler such as \"um\". Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
+      "hint": "Full: says it clearly, for example \"That is a good question. Let me think for a moment.\". Partial: \"um\" only. None: long silence. Short, simple sentences are enough; small mistakes are fine if the meaning is clear."
      },
      {
       "label": "Main point first",
@@ -1043,7 +1043,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Evidence",
-      "hint": "Full: gives evidence, like a number or a result. Partial: only a claim. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says it clearly, for example \"Last year I kept a 95 percent satisfaction score.\". Partial: a general claim. None: no evidence. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Smooth link",
@@ -1117,7 +1117,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Calm pace",
-      "hint": "Full: calm, steady pace. Partial: rushed. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: speaks steadily with pauses. Partial: a little rushed. None: rushes and stumbles. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1144,7 +1144,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Full: gives the answer at the start. Partial: gives background first. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says it clearly, for example \"Yes, I handle pressure well.\". Partial: answers after a long start. None: starts with background and never answers. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Short priority line",
@@ -1498,11 +1498,11 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Action",
-      "hint": "Full: says what they are doing about it. Partial: nothing. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says it clearly, for example \"Now I set a time limit for each call.\". Partial: \"I try\". None: no action. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Improvement",
-      "hint": "Full: gives evidence of progress. Partial: only a plan. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says it clearly, for example \"My average call time dropped by two minutes.\". Partial: \"it is better now\". None: no improvement. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      }
     ],
     "targets": [
@@ -1533,7 +1533,7 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
      },
      {
       "label": "Relevant",
-      "hint": "Full: the close is relevant to the job. Partial: generic. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
+      "hint": "Full: says it clearly, for example \"How is success measured in this role in the first months?\". Partial: a general question. None: an unrelated or already answered question. Expect connected sentences with a reason or an example; small errors that do not block meaning are fine."
      },
      {
       "label": "Links to the role",
@@ -1706,15 +1706,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Answer first",
-      "hint": "Full: gives the answer at the start. Partial: gives background first. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Yes, I handle pressure well.\". Partial: answers after a long start. None: starts with background and never answers. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "One relevant story",
-      "hint": "Full: tells one story that fits the question. Partial: a story that does not fit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Last winter our system went down on a busy Friday...\". Partial: a story with a loose link to the question. None: no story or an unrelated one. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Connect to the job",
-      "hint": "Full: connects the story to the job. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"That is why I stay calm with customers here.\". Partial: a general link like \"so I am good\". None: no link to the job. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1741,15 +1741,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Short situation",
-      "hint": "Full: describes the situation in one or two sentences. Partial: too long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"We were short of staff on a busy Saturday.\". Partial: a long setup. None: no situation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Clear responsibility",
-      "hint": "Full: says clearly what their task was. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I was the one in charge of the front desk.\". Partial: \"we had to do it\". None: no role stated. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "No extra details",
-      "hint": "Full: leaves out side details. Partial: adds detours. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: sticks to the facts that matter. Partial: one side detail. None: long unrelated details. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1776,15 +1776,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "What YOU did",
-      "hint": "Full: focuses on their own actions with \"I\". Partial: says \"we\" only. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I moved two people to the phones and called the manager.\". Partial: mixes I and we. None: only says what the team did. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "A clear result",
-      "hint": "Full: states a clear result. Partial: no result. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Waiting time dropped from ten minutes to four.\". Partial: \"it went well\". None: no result. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Past tense",
-      "hint": "Full: uses past tense correctly. Partial: mixes tenses. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I called, I explained, I fixed it.\". Partial: one or two tense slips. None: mostly present tense. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1811,15 +1811,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Priorities",
-      "hint": "Full: explains how they set priorities. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I served the urgent cases first and told the others to expect a wait.\". Partial: one priority named. None: no priorities. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Action with customers",
-      "hint": "Full: describes an action that helped customers. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I told each customer how long the wait would be.\". Partial: a vague action. None: no action with customers. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Result",
-      "hint": "Full: states the result. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Nobody left, and we got two thank-you notes.\". Partial: a general result. None: no result. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1846,15 +1846,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Four parts",
-      "hint": "Full: Answer, Reason, Evidence, Application are all present. Partial: one missing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Let me give you my Assertion, Reason, Evidence and Application.\". Partial: three of four parts. None: no structure. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Evidence",
-      "hint": "Full: gives evidence, like a number or a result. Partial: only a claim. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Last year I kept a 95 percent satisfaction score.\". Partial: a general claim. None: no evidence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Application",
-      "hint": "Full: applies to the job. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I would bring the same care to your team.\". Partial: a vague link. None: no application. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1881,15 +1881,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Reasoned range",
-      "hint": "Full: gives a pay range with a reason. Partial: a number with no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Based on my experience, I am looking at 9,000 to 10,000.\". Partial: a number without a reason. None: refuses to say or gives a single figure with no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Flexible",
-      "hint": "Full: shows flexibility politely. Partial: rigid. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I am open to discussing the whole package.\". Partial: a hint of flexibility. None: rigid. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Polite",
-      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I appreciate the offer, and I would like to discuss it.\". Partial: neutral tone. None: blunt or demanding. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1916,15 +1916,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Relevant",
-      "hint": "Full: the close is relevant to the job. Partial: generic. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"How is success measured in this role in the first months?\". Partial: a general question. None: an unrelated or already answered question. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Polite",
-      "hint": "Full: stays polite when asking for help. Partial: sounds impatient. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I appreciate the offer, and I would like to discuss it.\". Partial: neutral tone. None: blunt or demanding. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Listens to the answer",
-      "hint": "Full: reacts to the interviewer's answer. Partial: moves on. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"That is helpful. So the team handles about 80 calls a day?\". Partial: nods then moves on. None: ignores the answer. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1951,15 +1951,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Short close",
-      "hint": "Full: closes in one or two sentences. Partial: long. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Thank you. I am very interested in the role.\". Partial: a long close. None: no close. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Thanks",
-      "hint": "Full: thanks the interviewer at the end. Partial: forgets. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Thank you for your time today.\". Partial: a quick \"thanks\". None: no thanks. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Link to the role",
-      "hint": "Full: links back to the role. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I think my background fits this team well.\". Partial: a general line. None: no link. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -1986,15 +1986,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Strength",
-      "hint": "Full: names a clear strength. Partial: vague. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I am patient and I explain clearly.\". Partial: one vague strength. None: no strength. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Evidence",
-      "hint": "Full: gives evidence, like a number or a result. Partial: only a claim. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Last year I kept a 95 percent satisfaction score.\". Partial: a general claim. None: no evidence. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Link to job",
-      "hint": "Full: links the strength to the job. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"That helps me with upset customers.\". Partial: a general link. None: no link. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2021,15 +2021,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Honest",
-      "hint": "Full: names the gap or weakness plainly, like \"I left my job to care for my family for eight months.\" Partial: true but vague or rehearsed-sounding, like \"I took some time off.\" None: denies or invents. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I sometimes spend too long on one case.\". Partial: a safe non-weakness. None: denies any weakness. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Action",
-      "hint": "Full: says what they are doing about it. Partial: nothing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Now I set a time limit for each call.\". Partial: \"I try\". None: no action. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Improvement",
-      "hint": "Full: gives evidence of progress. Partial: only a plan. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"My average call time dropped by two minutes.\". Partial: \"it is better now\". None: no improvement. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2056,15 +2056,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Owns it",
-      "hint": "Full: owns the mistake. Partial: blames others. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I made a mistake. I gave the wrong date.\". Partial: softens it as \"a small thing\". None: blames others. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "What changed",
-      "hint": "Full: says what changed afterwards. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Now I check every date twice.\". Partial: a vague change. None: nothing changed. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Positive close",
-      "hint": "Full: ends positively. Partial: ends on the mistake. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"It made me more careful and my team trusts my work.\". Partial: a neutral close. None: ends on the mistake. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2091,15 +2091,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Example",
-      "hint": "Full: gives a short real example. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"My manager asked me to slow down, so I started summarising.\". Partial: a general claim. None: no example. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Action",
-      "hint": "Full: says what they are doing about it. Partial: nothing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Now I set a time limit for each call.\". Partial: \"I try\". None: no action. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Result",
-      "hint": "Full: states the result. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Nobody left, and we got two thank-you notes.\". Partial: a general result. None: no result. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2126,15 +2126,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Stay calm",
-      "hint": "Full: says they stay calm and shows how. Partial: only says it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I stay calm and let the customer speak first.\". Partial: says \"I stay calm\" with no method. None: reacts with anger. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Reason",
-      "hint": "Full: gives a clear, simple reason. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Because they usually need to feel heard first.\". Partial: a thin reason. None: no reason. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Steps incl. escalate if needed",
-      "hint": "Full: gives steps including when to escalate. Partial: no escalation. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I listen, offer a fix, and if needed I call a supervisor.\". Partial: listen and fix only. None: no steps. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2161,15 +2161,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Says no kindly",
-      "hint": "Full: says no kindly in the answer. Partial: blunt. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I am sorry, I cannot refund this.\". Partial: a firm no without warmth. None: harsh or evasive. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Offers alternatives",
-      "hint": "Full: names alternatives. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I can offer a replacement or a credit.\". Partial: one alternative. None: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Respects policy",
-      "hint": "Full: respects company policy. Partial: ignores it. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"The policy says refunds apply within 14 days.\". Partial: vague about policy. None: breaks or attacks the policy. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2196,15 +2196,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Offers help first",
-      "hint": "Full: offers help first. Partial: starts with a limit. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"Let me see if I can solve this for you first.\". Partial: jumps to the supervisor. None: refuses or passes it on immediately. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Escalates properly",
-      "hint": "Full: escalates by the right steps. Partial: unclear. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I will brief my supervisor so you do not repeat yourself.\". Partial: escalates without a brief. None: escalates badly or not at all. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Informs the customer",
-      "hint": "Full: keeps the customer informed. Partial: not. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"It will take about ten minutes.\". Partial: says \"wait\". None: says nothing. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2231,15 +2231,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Priorities",
-      "hint": "Full: explains how they set priorities. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I served the urgent cases first and told the others to expect a wait.\". Partial: one priority named. None: no priorities. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Communication",
-      "hint": "Full: says how they would communicate. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I would tell both customers honestly about the wait.\". Partial: one customer informed. None: no communication. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      },
      {
       "label": "Follow up",
-      "hint": "Full: says how they would follow up. Partial: none. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
+      "hint": "Full: says it clearly, for example \"I would call back to confirm it is solved.\". Partial: \"maybe later\". None: no follow-up. Expect clear, well-organised answers; only errors that change or hide the meaning matter."
      }
     ],
     "targets": [
@@ -2268,15 +2268,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Phrase",
-      "hint": "Full: uses the phrase \"Let me think for a moment.\" Partial: another filler such as \"um\". Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"That is a good question. Let me think for a moment.\". Partial: \"um\" only. None: long silence. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Structure",
-      "hint": "Full: gives a clear structure. Partial: loose. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I would say two things. First... Second...\". Partial: a loose order. None: no structure. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Concise",
-      "hint": "Full: stays concise. Partial: long. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: answers in about three sentences. Partial: a little long. None: rambling. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2303,15 +2303,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Honest",
-      "hint": "Full: names the gap or weakness plainly, like \"I left my job to care for my family for eight months.\" Partial: true but vague or rehearsed-sounding, like \"I took some time off.\" None: denies or invents. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I sometimes spend too long on one case.\". Partial: a safe non-weakness. None: denies any weakness. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "No excuse",
-      "hint": "Full: explains without blaming anyone and without defending, like \"That was my decision and I would plan it differently.\" Partial: one excuse or blame, like \"My manager did not help.\" None: mostly excuses. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"That was a gap, and here is what I did about it.\". Partial: a weak excuse. None: blames others. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Focus on growth",
-      "hint": "Full: ends on what they learned or did next, like \"Since then I finished a course and volunteered at a call centre.\" Partial: spends most of the answer on the problem. None: no move forward. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I took a course to close it.\". Partial: a vague \"I learned\". None: no growth. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2338,15 +2338,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Respects policy",
-      "hint": "Full: respects company policy. Partial: ignores it. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"The policy says refunds apply within 14 days.\". Partial: vague about policy. None: breaks or attacks the policy. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Raises it properly",
-      "hint": "Full: raises the issue in the proper way. Partial: skips channel. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I would raise it with my manager with data.\". Partial: complains to peers. None: ignores it or breaks the rule. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Keeps customer service",
-      "hint": "Full: keeps service to the customer in focus. Partial: forgets. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Meanwhile I follow the policy politely with the customer.\". Partial: mostly polite. None: lets the disagreement show. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2373,15 +2373,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Calm pace",
-      "hint": "Full: calm, steady pace. Partial: rushed. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: speaks steadily with pauses. Partial: a little rushed. None: rushes and stumbles. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Structure",
-      "hint": "Full: gives a clear structure. Partial: loose. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I would say two things. First... Second...\". Partial: a loose order. None: no structure. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Does not apologise too much",
-      "hint": "Full: apologises at most once. Partial: apologises repeatedly. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Thank you for waiting\" instead of three apologies. Partial: two apologies. None: apologises repeatedly. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2408,15 +2408,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Eye on all",
-      "hint": "Full: addresses each panel member in turn. Partial: one person. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: addresses everyone while answering. Partial: addresses one person. None: addresses only one person throughout. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Names",
-      "hint": "Full: uses names. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Thank you, Ms Hassan, for the question.\". Partial: uses one name. None: no names. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Clear",
-      "hint": "Full: clear delivery. Partial: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: speaks in short clear sentences. Partial: sometimes unclear. None: unclear. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2443,15 +2443,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Position",
-      "hint": "Full: states a clear position. Partial: avoids. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I would apply the policy.\". Partial: a hedged position. None: no position. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Reason",
-      "hint": "Full: gives a clear, simple reason. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Because they usually need to feel heard first.\". Partial: a thin reason. None: no reason. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Nuance",
-      "hint": "Full: adds a reasoned nuance. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"But in a special case I would ask a supervisor.\". Partial: a hint of nuance. None: black and white. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2478,15 +2478,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Principles",
-      "hint": "Full: states two principles of service. Partial: one. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I believe in being honest, quick and kind.\". Partial: one principle. None: no principles. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Examples",
-      "hint": "Full: gives examples. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"For example, I once stayed late to fix a billing error.\". Partial: a general example. None: no example. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Customer and company",
-      "hint": "Full: balances the customer and the company. Partial: one side. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Good service helps the customer and protects the company.\". Partial: one side only. None: one side only. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2513,15 +2513,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Three stages",
-      "hint": "Full: gives the plan in three stages. Partial: fewer. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"First 30 days I learn, then 60 I support, then 90 I own.\". Partial: two stages. None: no stages. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Measures",
-      "hint": "Full: names measures. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I would track call quality and first-call resolution.\". Partial: one loose measure. None: no measures. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Realistic",
-      "hint": "Full: realistic targets. Partial: too big. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"In 90 days I would aim to work alone on common cases.\". Partial: ambitious but vague. None: unrealistic claims. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2548,15 +2548,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Approach",
-      "hint": "Full: describes a coaching approach. Partial: general. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I listen first, give feedback, and agree one goal.\". Partial: a general idea. None: no approach. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Example",
-      "hint": "Full: gives a short real example. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"My manager asked me to slow down, so I started summarising.\". Partial: a general claim. None: no example. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Result",
-      "hint": "Full: states the result. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Nobody left, and we got two thank-you notes.\". Partial: a general result. None: no result. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2583,15 +2583,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Problem",
-      "hint": "Full: states the problem clearly. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Customers waited too long for a refund.\". Partial: a vague problem. None: no problem. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Action",
-      "hint": "Full: says what they are doing about it. Partial: nothing. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Now I set a time limit for each call.\". Partial: \"I try\". None: no action. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Measured result",
-      "hint": "Full: gives a measured result. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"The refund time dropped from five days to two.\". Partial: \"it improved\". None: no result. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2618,15 +2618,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Source",
-      "hint": "Full: names the data source. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"I use the weekly ticket report.\". Partial: says \"data\". None: no source. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Insight",
-      "hint": "Full: shares an insight. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"It showed most complaints come on Mondays.\". Partial: a general finding. None: no insight. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Action",
-      "hint": "Full: says what they are doing about it. Partial: nothing. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"Now I set a time limit for each call.\". Partial: \"I try\". None: no action. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
@@ -2653,15 +2653,15 @@ export const INTERVIEW_ENGLISH_CS: CurriculumProgramme =  {
     "rubric": [
      {
       "label": "Clear principles",
-      "hint": "Full: states clear principles. Partial: vague. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"My service rests on listening, honesty and follow-up.\". Partial: one principle. None: no principles. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Examples",
-      "hint": "Full: gives examples. Partial: none. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: says it clearly, for example \"For example, I once stayed late to fix a billing error.\". Partial: a general example. None: no example. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      },
      {
       "label": "Calm delivery",
-      "hint": "Full: calm delivery. Partial: rushed. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
+      "hint": "Full: speaks steadily and naturally. Partial: a little fast. None: rushed or monotone. Expect fluent, precise and natural speech; judge tone and nuance as well as accuracy."
      }
     ],
     "targets": [
