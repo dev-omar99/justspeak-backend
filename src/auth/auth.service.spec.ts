@@ -56,6 +56,22 @@ describe('AuthService', () => {
   });
 
   describe('sendOtp', () => {
+    it('re-sends the same code while one is still valid, so the first email keeps working', async () => {
+      // 1st findFirst: 60-second cooldown check (none). 2nd: the still-valid code.
+      mockPrisma.otpCode.findFirst
+        .mockResolvedValueOnce(null)
+        .mockResolvedValueOnce({ id: 'old', code: '123456' });
+      mockPrisma.otpCode.create.mockResolvedValue({ id: 'otp-new' });
+      mockPrisma.user.findUnique.mockResolvedValue({ id: 'u1' });
+      jest.spyOn(service as any, 'dispatchRealEmail').mockResolvedValue(true);
+
+      await service.sendOtp({ identifier: 'again@example.com', type: 'email' });
+
+      expect(mockPrisma.otpCode.create).toHaveBeenCalledWith(
+        expect.objectContaining({ data: expect.objectContaining({ code: '123456' }) }),
+      );
+    });
+
     it('should generate and return 6-digit OTP when cooldown has passed without logging the OTP value', async () => {
       mockPrisma.otpCode.findFirst.mockResolvedValue(null);
       mockPrisma.otpCode.create.mockResolvedValue({ id: 'otp-1' });

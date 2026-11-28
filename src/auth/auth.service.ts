@@ -619,6 +619,21 @@ export class AuthService {
       );
     }
 
+    // If a code is still valid (sent in the last 10 minutes and not yet used), send that same code again.
+    // A resend or a second tap must not make the first email's code stop working: people read the older email.
+    let reusableCode: string | null = null;
+    try {
+      const stillValid: any = await this.prisma.otpCode.findFirst({
+        where: { identifier, verified: false, expiresAt: { gt: new Date(now) } },
+        orderBy: { createdAt: 'desc' },
+      });
+      if (stillValid && typeof stillValid.code === 'string' && /^\d{6}$/.test(stillValid.code)) {
+        reusableCode = stillValid.code;
+      }
+    } catch {
+      reusableCode = null;
+    }
+
     // Invalidate any previous unverified OTPs for this identifier
     if (typeof (this.prisma.otpCode as any).updateMany === 'function') {
       await this.prisma.otpCode.updateMany({
@@ -629,7 +644,7 @@ export class AuthService {
     this.otpAttemptState.delete(identifier);
 
     // Cryptographically secure 6-digit PIN code using Node.js crypto.randomInt
-    const code = randomInt(100000, 1000000).toString();
+    const code = reusableCode ?? randomInt(100000, 1000000).toString();
     const expiresAt = new Date(now + 10 * 60 * 1000); // 10 minutes expiry
 
     await this.prisma.otpCode.create({
