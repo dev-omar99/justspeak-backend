@@ -62,10 +62,19 @@ export function paidDailySessionQuota(planTier: string): number {
   return 0;
 }
 
-/** Hard cap on one live session, whatever the plan. */
+/** Hard cap on one live session, whatever the plan. The model is told to
+ *  close well before it (see targetSessionMinutes). */
 export function maxSessionMinutes(): number {
   const parsed = parseInt(process.env.AI_PARTNER_MAX_SESSION_MINUTES ?? '', 10);
-  return Number.isFinite(parsed) && parsed > 0 ? parsed : 20;
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 12;
+}
+
+/** Soft target: about 8 active minutes per lesson on average. Past it the
+ *  model finishes its point and closes naturally; it is never a hard cut. */
+export function targetSessionMinutes(): number {
+  const parsed = parseInt(process.env.AI_PARTNER_TARGET_MINUTES ?? '', 10);
+  const target = Number.isFinite(parsed) && parsed > 0 ? parsed : 8;
+  return Math.min(target, maxSessionMinutes());
 }
 
 /** Cap on simultaneous live sessions, protecting the free-tier providers

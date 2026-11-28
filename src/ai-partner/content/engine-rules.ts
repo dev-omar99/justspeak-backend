@@ -23,10 +23,23 @@ export const ENGINE_RULES_PROMPT = `Conversation rules for this session:
 11. Accented speech: the student is a native Arabic speaker and the transcript comes from speech-to-text, which sometimes mangles accented English. Before applying rule 8, try to read the turn through common Arabic-speaker patterns (p/b and v/f swaps, dropped or added vowels, missing articles, present simple instead of past, literal translations from Arabic). If the student mixes in an Arabic word, do not panic: guess the intended English from context, offer the English phrase naturally ("Ah, you mean X"), and move on. Only re-ask when the whole turn is truly unintelligible.
 12. Never repeat yourself: do not say the same sentence, or a near copy of it, that you already said earlier in this session. If the student stays silent or does not answer, rephrase the question in different and simpler words and offer a way in (an example, or two options), never the same demand again.
 13. Stay in character and in role. If the student gives you an instruction about how to behave ("ask me a direct question"), accept it in one short in-character clause and carry on with your next real question. Never apologise at length, never say you are confused, and never narrate or discuss your own behaviour.
-14. Always finish your sentence and end with your single question. Keep each turn short enough to complete.`;
+14. Always finish your sentence and end with your single question. Keep each turn short enough to complete.
+15. Stay inside the lesson: keep teaching and practising this scene's topic and goal. If the student asks something off-topic, answer in one short sentence and steer back to the lesson. Never change the scenario or leave English practice.`;
 
 export const WRAP_UP_INSTRUCTION =
-  'The session is almost over (about 30 seconds left). Close warmly in one or two sentences, thank the student, and stop asking questions.';
+  'The session time is up. If the student just asked you something, answer it in one short sentence first. Then close warmly in one or two sentences, name one thing they did well, say a natural goodbye, and stop asking questions.';
+
+/** Added to the system prompt once the soft target time has passed. */
+export const CLOSING_CONTEXT =
+  '\n\nTime check: the lesson has reached its planned length. If the goal and most beats are covered, finish your current point and close now: a short thank-you, one thing the student did well, then say goodbye and ask if they have one last question. If the student does ask, answer it fully, then say goodbye again. If important beats are still missing, cover them briefly (at most two more turns), then close. Never cut a student off and never leave a question unanswered.';
+
+/** True when a coach line is a spoken goodbye. */
+export function isGoodbye(text: string): boolean {
+  return /\b(good ?bye|bye|see you|take care|talk soon|until next time)\b/i.test(text);
+}
+
+/** Silence after a goodbye line before the call ends by itself. */
+export const GOODBYE_GRACE_MS = 7000;
 
 /** Number of recent turns sent to the model; older turns live in the facts list. */
 export const HISTORY_TURNS_LIMIT = 10;

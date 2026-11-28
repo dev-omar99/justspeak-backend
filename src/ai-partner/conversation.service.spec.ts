@@ -1,3 +1,4 @@
+import { maxSessionMinutes, targetSessionMinutes } from './ai-partner.config';
 import { AiPartnerBusyError, ConversationService, LiveSession } from './conversation.service';
 import { getPersona } from './content/personas';
 import { Logger } from '@nestjs/common';
@@ -419,5 +420,73 @@ describe('LiveSession pause / resume', () => {
     const ended = (session as any).opts.aiPartner.endSession as jest.Mock;
     await session.stop();
     expect(ended.mock.calls[0][2]).toBe(40);
+  });
+});
+
+describe('LiveSession graceful close (8 minute target)', () => {
+  beforeEach(() => jest.useFakeTimers());
+  afterEach(() => jest.useRealTimers());
+
+  const timeUps = (events: { event: string; args: any[] }[]) =>
+    events.filter((e) => e.event === 'session-state' && e.args[0].state === 'time-up').length;
+
+  it('adds the closing guidance to the prompt only after the target time', async () => {
+    const { session } = makeSession();
+    await session.start();
+    expect((session as any).buildSystemPrompt()).not.toContain('Time check:');
+    jest.advanceTimersByTime(8 * 60 * 1000 + 1000);
+    const prompt = (session as any).buildSystemPrompt();
+    expect(prompt).toContain('Time check:');
+    expect(prompt).toContain('answer it fully');
+    await session.stop();
+  });
+
+  it('keeps the stay-in-lesson rule in every prompt', async () => {
+    const { session } = makeSession();
+    await session.start();
+    expect((session as any).buildSystemPrompt()).toContain('Stay inside the lesson');
+    await session.stop();
+  });
+
+  it('ends only after a goodbye line plus silence, never before the target time', async () => {
+    const { session, events } = makeSession();
+    await session.start();
+    (session as any).maybeScheduleGoodbye('Great work. Goodbye!');
+    jest.advanceTimersByTime(10000);
+    expect(timeUps(events)).toBe(0); // too early in the lesson
+    jest.advanceTimersByTime(8 * 60 * 1000);
+    (session as any).maybeScheduleGoodbye('Any last question? Otherwise, see you next time.');
+    jest.advanceTimersByTime(6000);
+    expect(timeUps(events)).toBe(0); // still inside the grace period
+    jest.advanceTimersByTime(2000);
+    expect(timeUps(events)).toBe(1);
+    await session.stop();
+  });
+
+  it('a learner question after the goodbye cancels the auto end', async () => {
+    const { session, events } = makeSession();
+    await session.start();
+    jest.advanceTimersByTime(8 * 60 * 1000 + 1000);
+    (session as any).maybeScheduleGoodbye('Goodbye, take care!');
+    const captured = (session as any).opts.deepgramService.openStream.mock.calls[0][0];
+    captured.onTranscript({ isFinal: false, speechFinal: false, text: 'wait, one question', confidence: 0.9 });
+    jest.advanceTimersByTime(20000);
+    expect(timeUps(events)).toBe(0);
+    await session.stop();
+  });
+
+  it('a normal reply without a goodbye never ends the call', async () => {
+    const { session, events } = makeSession();
+    await session.start();
+    jest.advanceTimersByTime(8 * 60 * 1000 + 1000);
+    (session as any).maybeScheduleGoodbye('Nice. What would you say next?');
+    jest.advanceTimersByTime(30000);
+    expect(timeUps(events)).toBe(0);
+    await session.stop();
+  });
+
+  it('hard cap defaults to 12 minutes and target to 8', async () => {
+    expect(maxSessionMinutes()).toBe(12);
+    expect(targetSessionMinutes()).toBe(8);
   });
 });

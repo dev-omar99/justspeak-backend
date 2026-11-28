@@ -13,6 +13,9 @@ import {
   ENGINE_RULES_PROMPT,
   HISTORY_TURNS_LIMIT,
   WRAP_UP_INSTRUCTION,
+  CLOSING_CONTEXT,
+  GOODBYE_GRACE_MS,
+  isGoodbye,
 } from './content/engine-rules';
 import { getInterviewField } from './content/interview-bank';
 import { getRoleplay } from './content/roleplays';
@@ -23,6 +26,7 @@ import {
   liveModel,
   maxConcurrentLiveSessions,
   maxSessionMinutes,
+  targetSessionMinutes,
   pronunciationEnabled,
   reconnectGraceMs,
   rephraseModel,
@@ -99,6 +103,7 @@ export class LiveSession {
   private detachTimer: NodeJS.Timeout | null = null;
 
   private wrapUpTimer: NodeJS.Timeout | null = null;
+  private goodbyeTimer: NodeJS.Timeout | null = null;
   private saveTimer: NodeJS.Timeout | null = null;
   private userTurnsSinceFacts = 0;
 
@@ -276,6 +281,7 @@ export class LiveSession {
     if (this.ended) return;
     this.ended = true;
     if (this.wrapUpTimer) clearTimeout(this.wrapUpTimer);
+    this.cancelGoodbye();
     if (this.detachTimer) clearTimeout(this.detachTimer);
     if (this.saveTimer) clearInterval(this.saveTimer);
     if (this.commitTimer) clearTimeout(this.commitTimer);
@@ -327,6 +333,7 @@ export class LiveSession {
     this.wrapUpRemainingMs = Math.max(0, this.wrapUpDeadline - this.pausedAt);
     if (this.wrapUpTimer) clearTimeout(this.wrapUpTimer);
     this.wrapUpTimer = null;
+    this.cancelGoodbye();
     if (this.commitTimer) clearTimeout(this.commitTimer);
     this.commitTimer = null;
     this.currentUserText = '';
@@ -376,6 +383,7 @@ export class LiveSession {
   }): void {
     if (this.paused) return; // late transcripts that arrive after Pause are ignored
     if (this.ended) return;
+    if (event.text.trim()) this.cancelGoodbye();
     if (!event.isFinal) {
       this.emitFn('transcript', { role: 'user', text: event.text, isFinal: false });
       // Barge in only on actual transcribed speech while the AI is talking,
@@ -541,6 +549,8 @@ export class LiveSession {
       context += `\n\nYour last lines were: ${recentCoachLines.join(' | ')}. Do not repeat or closely paraphrase any of them.`;
     }
 
+    if (this.activeMs() >= targetSessionMinutes() * 60 * 1000) context += CLOSING_CONTEXT;
+
     return `${base}\n\n${ENGINE_RULES_PROMPT}${context}`;
   }
 
@@ -626,6 +636,7 @@ export class LiveSession {
         }
         void this.persist();
         this.emitMetrics();
+        this.maybeScheduleGoodbye(assistantText);
       } else if (!this.ended) {
         // Provider returned an empty completion: never hang silently.
         this.opts.logger.warn(
@@ -649,6 +660,25 @@ export class LiveSession {
     } finally {
       this.replying = false;
     }
+  }
+
+  /** After the target time, a spoken goodbye ends the call by itself once the
+   *  learner stays silent for a moment. Any learner speech cancels it, so a
+   *  last question is always answered first. */
+  private maybeScheduleGoodbye(coachLine: string): void {
+    this.cancelGoodbye();
+    if (this.paused || this.ended) return;
+    if (this.activeMs() < targetSessionMinutes() * 60 * 1000) return;
+    if (!isGoodbye(coachLine)) return;
+    this.goodbyeTimer = setTimeout(() => {
+      this.goodbyeTimer = null;
+      if (!this.ended && !this.paused) this.emitFn('session-state', { state: 'time-up' });
+    }, GOODBYE_GRACE_MS);
+  }
+
+  private cancelGoodbye(): void {
+    if (this.goodbyeTimer) clearTimeout(this.goodbyeTimer);
+    this.goodbyeTimer = null;
   }
 
   private handleBargeIn(): void {
